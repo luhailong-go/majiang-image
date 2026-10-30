@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "pageCount": 5,
+  "uiIds": [
+    "UI25",
+    "UI26",
+    "UI27"
+  ],
+  "blockingIssues": [],
+  "checks": [
+    "actual full image visual review",
+    "Chinese text and state consistency",
+    "dimensions and SHA-256",
+    "input references and prompts",
+    "tutorial sequence and selectable action availability"
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "limitations": [
+    "Artwork and state specification only; no client runtime integration.",
+    "No real browser testing because file:// was rejected."
+  ],
+  "pages": [
+    {
+      "file": "designs/ui/full-game/core/ui25-customization.png",
+      "uiId": "UI25",
+      "title": "装扮设置",
+      "sha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+      "width": 1671,
+      "height": 941,
+      "mode": "RGB",
+      "prompt": "prompts/full-game/ui/core/ui25-customization-label-fix.txt",
+      "coveredStates": [
+        "桌布选择",
+        "牌背选择",
+        "选中/未选中",
+        "当前使用",
+        "同款预览",
+        "幂等应用装扮"
+      ],
+      "record": "designs/ui/full-game/core/ui25-customization.png.generation.json",
+      "recordSha256": "bce0675022a74c6fc9a438c549f1692bd88ec006400d4ff4ef8274ff7eb5924a",
+      "productionAccepted": true,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/ui/full-game/core/ui26-character-detail.png",
+      "uiId": "UI26",
+      "title": "角色详情",
+      "sha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "prompt": "prompts/full-game/ui/core/ui26-character-detail.txt",
+      "coveredStates": [
+        "详情",
+        "四表情预览",
+        "当前使用",
+        "已使用禁用按钮",
+        "返回"
+      ],
+      "record": "designs/ui/full-game/core/ui26-character-detail.png.generation.json",
+      "recordSha256": "6bcaf04c93e0feed6a37e98c18aeb7f19887b55bed81e2e46a33e277b5a855f4",
+      "productionAccepted": true,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+      "uiId": "UI27",
+      "title": "新手引导第2步：操作提示",
+      "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-actions.txt",
+      "coveredStates": [
+        "第2步操作提示",
+        "碰可用",
+        "杠/胡不可用",
+        "过可用",
+        "上一步/下一步",
+        "跳过"
+      ],
+      "record": "designs/ui/full-game/core/ui27-tutorial-actions.png.generation.json",
+      "recordSha256": "68319b76e233da34c21929b22b8a82c8e0a2eb679c8d46fbf7a0c71a157a0684",
+      "productionAccepted": true,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+      "uiId": "UI27",
+      "title": "新手引导第3步：完成",
+      "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-complete.txt",
+      "coveredStates": [
+        "第3步完成",
+        "再看一次",
+        "返回大厅",
+        "上一步"
+      ],
+      "record": "designs/ui/full-game/core/ui27-tutorial-complete.png.generation.json",
+      "recordSha256": "e8e6733d4adcfd0448c14a9899cdc92ea39d21ebec0684c9e476e4e8d0dd4207",
+      "productionAccepted": true,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+      "uiId": "UI27",
+      "title": "新手引导第1步：选牌",
+      "sha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-select-footer.txt",
+      "coveredStates": [
+        "第1步选牌",
+        "三萬选中高亮",
+        "点击指示",
+        "跳过",
+        "下一步"
+      ],
+      "record": "designs/ui/full-game/core/ui27-tutorial-select.png.generation.json",
+      "recordSha256": "8fbf90fe554ccc2ab78fb93611ba57bbcd75d44aa5db41a25dc654807b2877ef",
+      "productionAccepted": true,
+      "clientIntegrated": false
+    }
+  ],
+  "nativeDimensionsByFile": {
+    "designs/ui/full-game/core/ui25-customization.png": [
+      1671,
+      941
+    ],
+    "designs/ui/full-game/core/ui26-character-detail.png": [
+      1672,
+      941
+    ],
+    "designs/ui/full-game/core/ui27-tutorial-actions.png": [
+      1672,
+      941
+    ],
+    "designs/ui/full-game/core/ui27-tutorial-complete.png": [
+      1672,
+      941
+    ],
+    "designs/ui/full-game/core/ui27-tutorial-select.png": [
+      1672,
+      941
+    ]
+  }
+}

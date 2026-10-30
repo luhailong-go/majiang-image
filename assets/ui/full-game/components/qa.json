@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+  "status": "passed",
+  "newAssetCount": 22,
+  "stateFamilyCount": 12,
+  "reusedAssetCount": 23,
+  "sources": [
+    "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+    "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+    "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+    "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png"
+  ],
+  "checks": [
+    {
+      "id": "reward-card-default",
+      "file": "assets/ui/full-game/components/reward-card-default.png",
+      "sha256": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "reward-card-claimable",
+      "file": "assets/ui/full-game/components/reward-card-claimable.png",
+      "sha256": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "reward-card-claimed",
+      "file": "assets/ui/full-game/components/reward-card-claimed.png",
+      "sha256": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 17,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "cosmetic-card-unselected",
+      "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+      "sha256": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "cosmetic-card-selected",
+      "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+      "sha256": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 18,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "cosmetic-card-in-use",
+      "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+      "sha256": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "achievement-frame-locked",
+      "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+      "sha256": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 17,
+      "centerHole": "90x90 native center patch fully transparent",
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "achievement-frame-unlocked",
+      "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+      "sha256": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": "90x90 native center patch fully transparent",
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "rank-marker-gold",
+      "file": "assets/ui/full-game/components/rank-marker-gold.png",
+      "sha256": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "rank-marker-silver",
+      "file": "assets/ui/full-game/components/rank-marker-silver.png",
+      "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 20,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "rank-marker-bronze",
+      "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+      "sha256": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 19,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "item-slot-default",
+      "file": "assets/ui/full-game/components/item-slot-default.png",
+      "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 19,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "item-slot-selected",
+      "file": "assets/ui/full-game/components/item-slot-selected.png",
+      "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 19,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "item-slot-disabled",
+      "file": "assets/ui/full-game/components/item-slot-disabled.png",
+      "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 20,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "item-slot-new",
+      "file": "assets/ui/full-game/components/item-slot-new.png",
+      "sha256": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "tutorial-spotlight-ring",
+      "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+      "sha256": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": "90x90 native center patch fully transparent",
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "tutorial-arrow",
+      "file": "assets/ui/full-game/components/tutorial-arrow.png",
+      "sha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "tutorial-step-marker",
+      "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+      "sha256": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "tutorial-tap-hand",
+      "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+      "sha256": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "tutorial-focus-frame",
+      "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+      "sha256": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": "90x90 native center patch fully transparent",
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "item-voucher",
+      "file": "assets/ui/full-game/components/item-voucher.png",
+      "sha256": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    },
+    {
+      "id": "gift-box",
+      "file": "assets/ui/full-game/components/gift-box.png",
+      "sha256": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+      "pngIntegrity": "passed",
+      "sourceHash": "passed",
+      "dimensions": "passed",
+      "alpha": "passed",
+      "minimumTransparentMargin": 16,
+      "centerHole": null,
+      "visual": "passed",
+      "issues": []
+    }
+  ],
+  "familyRegistration": "Same native canvas dimensions and center anchor within each family; slot ribbon extension preserves body alignment.",
+  "transparentEdges": "At least 16 fully transparent pixels at every output boundary; RGB under alpha zero is zero.",
+  "sourceCleanup": "No source pixels with Alpha>=128 removed; every remaining connected sprite exported exactly once.",
+  "stretchPolicy": "All new sprites uniform-scale-only; nineSlice=null.",
+  "visualContactSheets": [
+    "work/full-game-ui/components/qa/cards-badges-light.png",
+    "work/full-game-ui/components/qa/cards-badges-dark.png",
+    "work/full-game-ui/components/qa/slots-tutorial-light.png",
+    "work/full-game-ui/components/qa/slots-tutorial-dark.png"
+  ],
+  "unresolvedIssues": [],
+  "clientIntegrated": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "metadataCheckedAt": "2026-10-26T13:36:13.120500-04:00",
+  "metadataChecks": {
+    "buttonFamilyLookup": {
+      "status": "passed",
+      "source": "assets/ui/component-compositions.json",
+      "key": "primary"
+    },
+    "tutorialArrowHotspot": {
+      "status": "passed",
+      "pointPixels": [
+        350,
+        313
+      ],
+      "pointNormalized": [
+        0.8838383838383839,
+        0.937125748502994
+      ],
+      "normalization": "x / imageWidth, y / imageHeight; origin top-left; coordinates refer to full delivered PNG canvas.",
+      "imageDimensions": [
+        396,
+        334
+      ],
+      "role": "arrow tip target alignment",
+      "evidence": {
+        "sampleAlpha": 245,
+        "strongAlphaThreshold": 128,
+        "lowestStrongRowY": 315,
+        "lowestStrongRowXRange": [
+          344,
+          351
+        ],
+        "basis": "Native pixel inspection; chosen point lies in the opaque lower arrowhead near the terminal tip."
+      },
+      "assetSha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e"
+    },
+    "pngHashesUnchanged": true
+  },
+  "supportingMetadata": [
+    {
+      "file": "assets/ui/full-game/components/compositions.json",
+      "sha256": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff"
+    },
+    {
+      "file": "assets/ui/full-game/components/README.md",
+      "sha256": "df558e7ad158d8c30f9783324c2e47deece8bbe77d2ff7c9e8f8c55acfa92bf6"
+    },
+    {
+      "file": "assets/ui/full-game/components/manifest.json",
+      "sha256": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf"
+    }
+  ]
+}

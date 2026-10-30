@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/states/social.quick_chat.png",
+  "sha256": "533f15e8140e652b1fe51be73c736336ef71670791f64d6dcedad2a422fe8277",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "generationRecord": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "generationRecord": "assets/ui/common/button-secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "generationRecord": "assets/ui/common/button-secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "generationRecord": "assets/ui/common/button-secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "generationRecord": "assets/ui/common/button-secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "generationRecord": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "generationRecord": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-normal.png",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "generationRecord": "assets/ui/common/tab-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-selected.png",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "generationRecord": "assets/ui/common/tab-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "generationRecord": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "generationRecord": "assets/ui/common/window-frame.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/states.json",
+    "layoutId": "social.quick_chat",
+    "layoutContentSha256": "b6d2bd93c3b654eb998e21da9b812a75e0adc8a04dafe73e6163feb36ff7dbb6",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}

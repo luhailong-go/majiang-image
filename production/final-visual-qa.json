@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 3,
+  "status": "passed",
+  "reviewedAt": "2026-10-30T03:28:57.871769+00:00",
+  "reviewer": "root coordinator; additional independent presentation review stored in assets/presentation/production-v3/qa.json",
+  "method": "Actual image viewing: all32 pages and86 states via11 legible contact sheets, plus targeted full PNGs; prior independent new-skin light/dark receipts reused for unchanged hashes. This is art acceptance, not a browser/client test.",
+  "pageLayouts": 32,
+  "stateCompositions": 86,
+  "rootProofImages": 118,
+  "characterVariants": 4,
+  "actualViewed": [
+    {
+      "file": "production/previews/contact-pages-1.png",
+      "sha256": "4b672e7cc4264aa8cc388b456f6a4fc020ed3d062f9340d59dd20da2ca04fc3b"
+    },
+    {
+      "file": "production/previews/contact-pages-2.png",
+      "sha256": "d81267e02b269db6c3e4a576af1d4abf2bdb26591372ecb8ec060e7438055096"
+    },
+    {
+      "file": "production/previews/contact-pages-3.png",
+      "sha256": "1f9560c235eb8484822f1581b733b2b25f70347cd7bbab8ed6e40d809e822926"
+    },
+    {
+      "file": "production/previews/contact-states-1.png",
+      "sha256": "9a271c34e26677df46638eb6e9ffc6e2ff799df97061813856707c86715fc48d"
+    },
+    {
+      "file": "production/previews/contact-states-2.png",
+      "sha256": "21c9aba787691f430a658712cf7442ad9d4bb7c690e69d980eaf654343e7759c"
+    },
+    {
+      "file": "production/previews/contact-states-3.png",
+      "sha256": "157dd414dc7ed19448cd303ecf30ae0706f95c14645ab8449277272e252965ec"
+    },
+    {
+      "file": "production/previews/contact-states-4.png",
+      "sha256": "60c512bf23a09c8639d26cb67223d71e42bbc675ead8860354f633172340df48"
+    },
+    {
+      "file": "production/previews/contact-states-5.png",
+      "sha256": "87345164be4e0c399fab18b735d241ae2271fc78d73b0e21da1939af053fc651"
+    },
+    {
+      "file": "production/previews/contact-states-6.png",
+      "sha256": "de855ff3d370be7b4f4e596241b895077ac7efda461d9cacd2766e34ec485e01"
+    },
+    {
+      "file": "production/previews/contact-states-7.png",
+      "sha256": "9339d6ad86dce0e318b3ae53292456fc64c12108ae1f275920d8908065e1fac0"
+    },
+    {
+      "file": "production/previews/contact-states-8.png",
+      "sha256": "0e946099913875744a39eb0f56a84992e28ab6c4f34eab8cd1665f23da9870ce"
+    },
+    {
+      "file": "production/previews/states/play.draw.png",
+      "sha256": "3660158198d01887b4a1c4def565597fa448220a6335a55f2b95d5441e3d432d"
+    },
+    {
+      "file": "production/previews/states/play.self_draw.png",
+      "sha256": "2f3bd9f3e6aa9c827f378b335293f135bf6642639884c3ef0ce660692c9c850c"
+    },
+    {
+      "file": "production/previews/pages/UI21.png",
+      "sha256": "d74cb2c299e69bb479aabf5bb45b479ba75f11cd84d1a6b2de3101fee00d4155"
+    },
+    {
+      "file": "production/previews/states/room.join_invalid_code.png",
+      "sha256": "88b288b183d9fa6e113929a8225c00e47ca2761c948059a7a36adca8ca2a88d1"
+    },
+    {
+      "file": "production/previews/characters/UI26-daotong.png",
+      "sha256": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477"
+    },
+    {
+      "file": "production/previews/characters/UI26-healer.png",
+      "sha256": "c361c44f1abe97e25c071d57d660a896ece3b028e693a5bfefaa0696db6e5824"
+    },
+    {
+      "file": "production/previews/characters/UI26-master.png",
+      "sha256": "8ee77c116faab22027d76ea35e319a80748ef54facb90a69d77a6fcd7919255e"
+    },
+    {
+      "file": "production/previews/characters/UI26-swordswoman.png",
+      "sha256": "79e1ca15d2611cfa68819f281d6fb811b72bac384709f0150f8835703fc50d98"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+      "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049"
+    },
+    {
+      "file": "production/previews/states/system.loading.png",
+      "sha256": "0db0c5363c4be41a9cc446705aabbde638d762d4e521152b6a2e8ab364e32603"
+    },
+    {
+      "file": "production/previews/states/play.loss.png",
+      "sha256": "b6752bc8c96f8ed49d643510d3d4b11b97c09022572eae770aa4dfa88bb8ad8a"
+    },
+    {
+      "file": "production/previews/states/match.loss.png",
+      "sha256": "cbc3e7c99ad416a68ace0e019a9533dcb1bc478c4d2fca926188f468a92d71be"
+    },
+    {
+      "file": "production/previews/pages/UI01.png",
+      "sha256": "ada8ba8786cae04ecbcf764db12ae07cd255f1eb7a53bd3df3dec516884def26"
+    },
+    {
+      "file": "production/previews/pages/UI02.png",
+      "sha256": "1aa36fdb740057005e34dac8e20386b04d0c5fdc955b0f5cf929f5deb038311c"
+    },
+    {
+      "file": "production/previews/pages/UI03.png",
+      "sha256": "0a0a435269e0fd301160d26a01142f0eab921a7eaddb5b5f5b4a50bc5985cf8b"
+    }
+  ],
+  "layoutContentHashes": {
+    "pages": "1220acfa253c7626ee26d3cd5390c14c60c76371015d5187e86dda2f5876ba07",
+    "states": "b6d2bd93c3b654eb998e21da9b812a75e0adc8a04dafe73e6163feb36ff7dbb6"
+  },
+  "all118ProofHashes": {
+    "production/previews/pages/UI01.png": "ada8ba8786cae04ecbcf764db12ae07cd255f1eb7a53bd3df3dec516884def26",
+    "production/previews/pages/UI02.png": "1aa36fdb740057005e34dac8e20386b04d0c5fdc955b0f5cf929f5deb038311c",
+    "production/previews/pages/UI03.png": "0a0a435269e0fd301160d26a01142f0eab921a7eaddb5b5f5b4a50bc5985cf8b",
+    "production/previews/pages/UI04.png": "0328bb5e1ce7794814bee9d388f6146a0d3eebb2df473709b765cbceb52dcd3f",
+    "production/previews/pages/UI05.png": "9b05e841b9cdb255fc5b23a97f41088fc0a051ca56d536cea330ef0ecd0aea53",
+    "production/previews/pages/UI06.png": "1c772390520c1d83f2d494ff557b2dbf56647c5698bc34ef64fc81309f191bf7",
+    "production/previews/pages/UI07.png": "e5a6169a437af3b240724142295a749600e84187cfe6279f73e087c3823f54d8",
+    "production/previews/pages/UI08.png": "6d20f986c71348ee3071a5b08395ac7ea0fbcc7df658694a5f0d320323c29a7b",
+    "production/previews/pages/UI09.png": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+    "production/previews/pages/UI10.png": "7136eba9235796dd72b213066ac48562abf7b7767daf360f7e78fba08079cd0a",
+    "production/previews/pages/UI11.png": "a8a75554be145ff024b6b01c638f7c4711cb9358c7e1c390545f44d7e35ccb68",
+    "production/previews/pages/UI12.png": "50eac21aedf6e337a7f5ce2f5ae95b970b3d23832a1694fbc59f8b9296c5d6a5",
+    "production/previews/pages/UI13.png": "0ea93c2f6216caf7057d0de670285a215f97263488223f86fef5bb2d5b4f6d53",
+    "production/previews/pages/UI14.png": "8caa5454dba500c11f27de1d8dbaef02a085f2033de701a67d4b1276ced02857",
+    "production/previews/pages/UI15.png": "730e52f2f250ad13b7ae51748f868985ef5b43caefe7bfc55db664d9e6ff8fe4",
+    "production/previews/pages/UI16.png": "533f15e8140e652b1fe51be73c736336ef71670791f64d6dcedad2a422fe8277",
+    "production/previews/pages/UI17.png": "7ccfe468a59505a24944180ced7c3ced827e14a2137d59610d57aed50c6a548c",
+    "production/previews/pages/UI18.png": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+    "production/previews/pages/UI19.png": "478c093eecef54a4f350864d55bd75f7a44b7b78f8ba98ffe5174b857528c08c",
+    "production/previews/pages/UI20.png": "25c95bf051d6e228980ae17ea83b769024e419ce9c8746144a00adc2c7d0f59f",
+    "production/previews/pages/UI21.png": "d74cb2c299e69bb479aabf5bb45b479ba75f11cd84d1a6b2de3101fee00d4155",
+    "production/previews/pages/UI22.png": "dd5251b6f3f97d8e385ad76003a981f35c23d9e0e887d87abbd39ae8852ebfbc",
+    "production/previews/pages/UI23.png": "2a889d3df3defcdf34853a415191a49ca2c3ebabb0ead5a5c17afc2d36646c04",
+    "production/previews/pages/UI24.png": "0a84cc2f1c57789f1643bdb1dadd49b0ff2a696d1f48571ca8f3a2e3a29b1c78",
+    "production/previews/pages/UI25.png": "b8c83bb2b7b752e29c70e863a20308ece52e22c68e1afc692f909ddd844a00ab",
+    "production/previews/pages/UI26.png": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+    "production/previews/pages/UI27.png": "7970dea5a0290488754323b0b8a3999e881bc07f8ed04279225c8da098a80f82",
+    "production/previews/pages/UI28.png": "3a6184719187d7e380f2a78e8d4206c0acaba7602c700779be26644d02bb9a68",
+    "production/previews/pages/UI29.png": "8afb739c82dded99611db0c23c4d49fd2895cfddbcd769a68242f7ea45d788b1",
+    "production/previews/pages/UI30.png": "82f97dacb73e91b41ceff9ed18618d30e690039775b74c111641a162d6da6efe",
+    "production/previews/pages/UI31.png": "9be9fbb32746d5553421ff7c07f80e5edc789ec03b9658cc1deb271ca456e12a",
+    "production/previews/pages/UI32.png": "275c6397850185048b20feac0702ff70508608b72015711daa87539c6cdc35a5",
+    "production/previews/states/room.empty_seat.png": "26fa60eab99bcd4e6598ecb278357422b188e7c86a6ec49fadcdacf98acbeb86",
+    "production/previews/states/room.full.png": "e5a6169a437af3b240724142295a749600e84187cfe6279f73e087c3823f54d8",
+    "production/previews/states/room.owner.png": "4f43d6947b19ab2c53fbdcac4121494d6ebaa1a5826976b2d7f94f5acf957b61",
+    "production/previews/states/room.member.png": "bfc1117c09d9eb81d3c7298c85e5f2d14f5c908d58e553d094de3595cfc82362",
+    "production/previews/states/room.ready.png": "e5a6169a437af3b240724142295a749600e84187cfe6279f73e087c3823f54d8",
+    "production/previews/states/room.not_ready.png": "3cdb88745f5a07b650653f84b7fea35987b84a7c6e7b35a7aa2f4fbc5c7173a2",
+    "production/previews/states/room.wait_start.png": "6449653bad99a539da11b70f930b5d453e8232d473bac0d06e65c83b78e884a2",
+    "production/previews/states/room.leave_confirmation.png": "2a889d3df3defcdf34853a415191a49ca2c3ebabb0ead5a5c17afc2d36646c04",
+    "production/previews/states/room.dissolve_request.png": "a7bf83ff09ac6ed0472ad13d2f6f4b47a41d1cb3d6cd79d31f44aa98ea92beef",
+    "production/previews/states/room.dissolve_vote.png": "d12c400ae5a98a9de4a5bd290571e0924f9bb9fe1a6fc71f574607f26cfd652b",
+    "production/previews/states/room.dissolve_progress.png": "34970f100b141d833814aef53d6a23dab32a7a746d4ad284ab7312540b09cc6e",
+    "production/previews/states/room.dissolve_result.png": "2215f0e6019769e63fc2886cf84c68144e17a149634dad77bf353458bbe8d5e6",
+    "production/previews/states/room.join_failure.png": "29dfcc84a57b1b1b6b79546d31ea91fda8d80c57a6aa718860cce8fc945da512",
+    "production/previews/states/play.wait_discard.png": "f6a46f424aab0e7e7346af8406dd316c59f1cad9c974331171aeb6e4d12caa08",
+    "production/previews/states/play.current_player.png": "660f69beac21890a920fc0da669036cc513ddeca53cbc0858043b8e3620f5ea4",
+    "production/previews/states/play.countdown.png": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+    "production/previews/states/play.dealer.png": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+    "production/previews/states/play.offline.png": "8a203c3199bacd349781c133c07b9ccde47fe9fedfaf7651595afc728fcdb4c4",
+    "production/previews/states/play.autoplay.png": "3e4cb0f90387be2e6fe74afc02d1c2e275fc4c0441b9109859543ea578b3db41",
+    "production/previews/states/play.peng_gang_hu_pass.png": "7136eba9235796dd72b213066ac48562abf7b7767daf360f7e78fba08079cd0a",
+    "production/previews/states/play.multiple_candidates.png": "429612153db4148fb90f843afdcae6ca687da8026f215f636da4db6707a72ba5",
+    "production/previews/states/play.ready_hand.png": "502bf65a052bff66de79c0efc36d092cbc99d2cecebac47becabd7b0a7bb0d3d",
+    "production/previews/states/play.win.png": "06d4a2daabe4bb8f89ddc52775e1513f8e7bef46af6dfafb7e865b5c9ea1035a",
+    "production/previews/states/play.draw.png": "3660158198d01887b4a1c4def565597fa448220a6335a55f2b95d5441e3d432d",
+    "production/previews/states/play.continue_round.png": "a8a75554be145ff024b6b01c638f7c4711cb9358c7e1c390545f44d7e35ccb68",
+    "production/previews/states/play.match_return.png": "50eac21aedf6e337a7f5ce2f5ae95b970b3d23832a1694fbc59f8b9296c5d6a5",
+    "production/previews/states/social.friend_online.png": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+    "production/previews/states/social.friend_offline.png": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+    "production/previews/states/social.friend_busy.png": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+    "production/previews/states/social.invite_sent.png": "5eb07bb3c02bc5fa4a118716d48c43593f99b0a800068ccd435907cfe47cf29a",
+    "production/previews/states/social.friend_application.png": "a9c87066ffb351a5423960147ac41566585759b661e9978d046a4005f0fbf90a",
+    "production/previews/states/social.quick_chat.png": "533f15e8140e652b1fe51be73c736336ef71670791f64d6dcedad2a422fe8277",
+    "production/previews/states/social.emoticons.png": "1e8043f9993078d8792c7167a576197b558168d74f2a2cfb10728d1d404e2dca",
+    "production/previews/states/mail.unread.png": "bc8ba1e299bc569f73b3dad83dac2fbdfbd127d0e6c7253395020dcc566e7ab9",
+    "production/previews/states/mail.read.png": "a07a0a589d083ae29576c143d941e0ba33b6c8d6c2a3362f1661c80c8d9d4eeb",
+    "production/previews/states/mail.attachment.png": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+    "production/previews/states/mail.claim_pending.png": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+    "production/previews/states/mail.claimed.png": "4853639102fe8f8a1b5cc0b05e598dc529348d6baa79adadc6234249bef121c9",
+    "production/previews/states/mail.delete.png": "534fba60d42f50753617011931e472bb0be10bf46a5c539969e138b8a5ee00cf",
+    "production/previews/states/list.no_results.png": "a04a8c5f2839ac3581b2335e884129420781034cba774570fcb77ec4aa006b23",
+    "production/previews/states/system.loading.png": "0db0c5363c4be41a9cc446705aabbde638d762d4e521152b6a2e8ab364e32603",
+    "production/previews/states/system.error.png": "51d6322734038712a8ef676c7b8889372a30d5179628fe562bbb0e77c07a6721",
+    "production/previews/states/system.disconnected.png": "7b407f0ca821a6854bd6d2eff8354aea8ce4ee6aa9d6fffc2d7f5a29ae41ea32",
+    "production/previews/states/system.reconnecting.png": "65aaaf835693f052e1160071961c17ecfa801a3849237d231de596d2022cd872",
+    "production/previews/states/system.recovery_failed.png": "a9cedfbcbfc142b78d1382f00c70931048351a5cb9b26cdacf4e3d60bcc7591f",
+    "production/previews/states/system.matching.png": "0328bb5e1ce7794814bee9d388f6146a0d3eebb2df473709b765cbceb52dcd3f",
+    "production/previews/states/system.match_timeout.png": "7a6e813bc656ad5507c0b1bf811ccdc8a031298b01b13f9f811da5452077b9ce",
+    "production/previews/states/system.match_cancel.png": "58e12f150b370b9332b8acf218b363506d24893cf2fb5cc8f1036d6b6347fde4",
+    "production/previews/states/control.normal.png": "9b05e841b9cdb255fc5b23a97f41088fc0a051ca56d536cea330ef0ecd0aea53",
+    "production/previews/states/control.pressed.png": "be29c66fae000b4b9234fd35c87dc0a017786f325b5e51bcaddcf6bcead33785",
+    "production/previews/states/control.selected.png": "405323dc18a9f00b18081bdab125bc902b6a9097bd0261fbd0d710ad31fbdd6f",
+    "production/previews/states/control.disabled.png": "dc700749268839faceb982ed36c6e82727330b4931b1e1d94d86009ae0ae5d8b",
+    "production/previews/states/control.toggle.png": "8a511d6e465a9bea5eb546e86c470a2ce478ac2bc164ade97ba8fa810784a4b7",
+    "production/previews/states/control.slider.png": "8a511d6e465a9bea5eb546e86c470a2ce478ac2bc164ade97ba8fa810784a4b7",
+    "production/previews/states/control.input.png": "60ea3f98f4b9b476dc5ef4f49f3676358c1a674ea5a13b581de8a496453bfc0e",
+    "production/previews/states/system.match_success.png": "86bf81537bd2341c591f9020a8fc306076ff0f150ad7ab46d731a6aa2e491fc1",
+    "production/previews/states/cosmetic.unselected.png": "7de958a5b490aeb3f8e6fceca76317db9d69e98beb45dc7772059f3b603a3614",
+    "production/previews/states/cosmetic.preview_selected.png": "bdbad66d20117b1d664a4581579c12d89d882f06b07d7a0961f36f9975a1fcf0",
+    "production/previews/states/cosmetic.in_use.png": "916a08df23217a168dd191d4ccec19f8ec47483b57f734e1e2ac5c9d0388dfd2",
+    "production/previews/states/character.in_use.png": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+    "production/previews/states/tutorial.select.png": "7970dea5a0290488754323b0b8a3999e881bc07f8ed04279225c8da098a80f82",
+    "production/previews/states/tutorial.actions.png": "f6477a126df4a7db389c9685a4a9465f757805edcccd782ef5b423f6c1069794",
+    "production/previews/states/tutorial.complete.png": "ff54387e165daa0e4741f44e6c764092d837b67252fb0d71d43bd66e26391a81",
+    "production/previews/states/reward.not_achieved.png": "80619c7791fb0ad73f564ca51e4af997e15d53530c266ec787d97a88d9462bf0",
+    "production/previews/states/reward.claimable.png": "8afb739c82dded99611db0c23c4d49fd2895cfddbcd769a68242f7ea45d788b1",
+    "production/previews/states/reward.claimed.png": "5aec930d331c721b1061073b772ebc19f4627b1be7bf9e4fd206896a1c85468b",
+    "production/previews/states/achievement.locked.png": "b76aa1d90df2ea350e7de1cce028d1b04ba56e13d92e6c982793113866a5f884",
+    "production/previews/states/achievement.unlocked.png": "82f97dacb73e91b41ceff9ed18618d30e690039775b74c111641a162d6da6efe",
+    "production/previews/states/ranking.top_three.png": "4ffc1c5063c638e52dbb98de2465d0750338ff624f4aa1b9361411d42f43bd4f",
+    "production/previews/states/ranking.self.png": "461c8671faae29d94bab3b66e0bada969c2d7bc1a37d60f62b0edceecb384311",
+    "production/previews/states/inventory.default.png": "9a61d479b4851224bc2c23591cb46782a95c02e430e217ee4aeae03c6ae6446e",
+    "production/previews/states/inventory.selected.png": "275c6397850185048b20feac0702ff70508608b72015711daa87539c6cdc35a5",
+    "production/previews/states/inventory.disabled.png": "ef3425380c5853d0b340c139887b3b66a48344f15ca604bbfaa1ede2ca81f8c5",
+    "production/previews/states/inventory.new.png": "8293d3b9110dbd3640c78c759a5c8bf7df5252868ad8767821e0ed569acc16ea",
+    "production/previews/states/announcement.detail.png": "3a6184719187d7e380f2a78e8d4206c0acaba7602c700779be26644d02bb9a68",
+    "production/previews/states/play.loss.png": "b6752bc8c96f8ed49d643510d3d4b11b97c09022572eae770aa4dfa88bb8ad8a",
+    "production/previews/states/play.self_draw.png": "2f3bd9f3e6aa9c827f378b335293f135bf6642639884c3ef0ce660692c9c850c",
+    "production/previews/states/play.chi_prompt.png": "b7762ac367df809e2d176c881fa5ed4599422834836edaf79f55075ddd90dc20",
+    "production/previews/states/play.gang_prompt.png": "5e8ca00adaa1093d421ad0208e6ad6de5042f446f02cb8dd688cb9b46a4bdf25",
+    "production/previews/states/play.ting_prompt.png": "56f414394215f8e3a598fb7d557275b9e0b5f0778cb8a4491460c2ef92e92e7a",
+    "production/previews/states/match.loss.png": "cbc3e7c99ad416a68ace0e019a9533dcb1bc478c4d2fca926188f468a92d71be",
+    "production/previews/states/mail.empty.png": "aef884db991d2ac8d1bae99f9688ee664f23ada500e1c856f7aac1d98d9192cb",
+    "production/previews/states/social.no_friends.png": "1f5e86b1b7bfea7d52af752074ac1d16c0e90578c2d8d796a1a535dc33b32e42",
+    "production/previews/states/records.empty.png": "35bd0f384b68b64adb44db600a052d64cf82779f57b593330726deb48444a472",
+    "production/previews/states/room.join_invalid_code.png": "88b288b183d9fa6e113929a8225c00e47ca2761c948059a7a36adca8ca2a88d1",
+    "production/previews/states/room.join_full.png": "c0978f71beaadb54ca560bd3968079c741b4c63515f74b5ab37bb985fe194123"
+  },
+  "resolvedFindings": [
+    {
+      "id": "table-hud-placement",
+      "resolution": "Round/remaining tags moved left of central timer; right discard margin remains clear."
+    },
+    {
+      "id": "per-seat-result-binding",
+      "resolution": "All4 score/name/portrait fields bind their own result.players index; signed sample values distinct; draw0s explicit."
+    },
+    {
+      "id": "reconnect-spinner-overlap",
+      "resolution": "Single ring sits above interruption icon and away from status text."
+    },
+    {
+      "id": "draw-visible-label",
+      "resolution": "Visible 流局结算 title and independent 流局 callout."
+    },
+    {
+      "id": "self-draw-name-overlap",
+      "resolution": "Self-draw callout moved to vacant lower area [650,600,300,130]."
+    },
+    {
+      "id": "room-and-match-stage-copy",
+      "resolution": "Owner/member/readiness, terminal vote and success/cancel controls are explicit."
+    },
+    {
+      "id": "four-role-template",
+      "resolution": "All4 variants show complete body, correct identity text and4 distinct expression PNGs."
+    },
+    {
+      "id": "explicit-local-loss",
+      "resolution": "Both loss titles state the local outcome, with explicit native local-player name; sample outcome separate from scores."
+    },
+    {
+      "id": "loading-entry-gate",
+      "resolution": "Loading proof has disabled wait-for-loading button; entry ready flag explicit."
+    },
+    {
+      "id": "brand-runtime-and-package-closure",
+      "resolution": "Actual logo used in UI01/UI02 and loading composition; lobby title and welcome copy use 云间雀社; full4 updated PNGs and affected contacts viewed."
+    },
+    {
+      "id": "ready-startup-consistency",
+      "resolution": "UI01 ready sample shows100%, ready text and enabled entry; loading state retains wait copy, spinner and disabled entry."
+    }
+  ],
+  "textFitIssues": [],
+  "unresolvedArtFindings": [],
+  "browserInteraction": "not_run_policy_blocked",
+  "clientIntegrated": false,
+  "rulesImplemented": false,
+  "unchangedProofPixelsReused": 114
+}

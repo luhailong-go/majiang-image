@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/branding/full-game/previews/alpha-contact-sheet.png",
+  "sha256": "ee3d2237bf16cf0d30a755d9e90ca93ac12cceb27dda5abf04eab0441abdc133",
+  "generatedAt": "2026-10-26T12:13:16-04:00",
+  "tool": "Pillow",
+  "route": "derived_contact_sheet",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 1500,
+  "height": 840,
+  "mode": "RGB",
+  "derivedFrom": [
+    {
+      "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+      "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0",
+      "record": "assets/branding/full-game/tile-back-moon-lotus.png.generation.json"
+    },
+    {
+      "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+      "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1",
+      "record": "assets/branding/full-game/tile-back-ivory-bamboo.png.generation.json"
+    },
+    {
+      "file": "assets/branding/full-game/title-plaque.png",
+      "sha256": "537b3059c4b9dbac6f13aa78f43a1246b2b3122da04146606a0dee6106fe0111",
+      "record": "assets/branding/full-game/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/branding/full-game/loading-ornament.png",
+      "sha256": "1aca309e3fb8bfcf7cc9ceb1aa5f9f7161ba2d49a3fc0f2bca227ac57db20530",
+      "record": "assets/branding/full-game/loading-ornament.png.generation.json"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-1024.png",
+      "sha256": "f6f9d0d5eca470f3671ab90c7cdd13148f0799dd2740f583e03fc30150bb2b29",
+      "record": "assets/branding/full-game/app-icon-1024.png.generation.json"
+    }
+  ],
+  "operation": "uniform thumbnail composite over ivory and dark jade; titles are native font layout; QA preview, not new AI artwork",
+  "inspection": {
+    "status": "passed",
+    "visualReview": "root inspected light/dark contact sheet, clean edge, no colored alpha speckles, complete shapes"
+  }
+}

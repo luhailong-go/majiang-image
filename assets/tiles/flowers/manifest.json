@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "scope": "optional flower tile expansion only",
+  "createdAt": "2026-10-26T16:37:57.207Z",
+  "assets": [
+    {
+      "id": "flower-plum",
+      "label": "梅",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/plum.png",
+      "record": "assets/tiles/flowers/plum.png.generation.json",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/plum.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-orchid",
+      "label": "兰",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/orchid.png",
+      "record": "assets/tiles/flowers/orchid.png.generation.json",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/orchid.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-bamboo",
+      "label": "竹",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/bamboo.png",
+      "record": "assets/tiles/flowers/bamboo.png.generation.json",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/bamboo.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-chrysanthemum",
+      "label": "菊",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "record": "assets/tiles/flowers/chrysanthemum.png.generation.json",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/chrysanthemum.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-spring",
+      "label": "春",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/spring.png",
+      "record": "assets/tiles/flowers/spring.png.generation.json",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/spring.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-summer",
+      "label": "夏",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/summer.png",
+      "record": "assets/tiles/flowers/summer.png.generation.json",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/summer.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-autumn",
+      "label": "秋",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/autumn.png",
+      "record": "assets/tiles/flowers/autumn.png.generation.json",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/autumn.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-winter",
+      "label": "冬",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/winter.png",
+      "record": "assets/tiles/flowers/winter.png.generation.json",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/winter.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    }
+  ],
+  "supportAssets": [
+    {
+      "id": "flower-motif-plum",
+      "label": "梅·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/plum.png",
+      "record": "assets/tiles/flowers/motifs/plum.png.generation.json",
+      "sha256": "7b0d50c3d886bcec27965d95d30985bad8c92f88446b6fe34d867a7f64c37912",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        17,
+        352,
+        349
+      ],
+      "nativeCrop": [
+        406,
+        403
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-orchid",
+      "label": "兰·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/orchid.png",
+      "record": "assets/tiles/flowers/motifs/orchid.png.generation.json",
+      "sha256": "0109886406db3899a30099a382c77b2a137f4785e4c3a0b9597e1373372221f7",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        22,
+        352,
+        339
+      ],
+      "nativeCrop": [
+        421,
+        406
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-bamboo",
+      "label": "竹·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/bamboo.png",
+      "record": "assets/tiles/flowers/motifs/bamboo.png.generation.json",
+      "sha256": "a54fcd221c3e3f6a6e427a241e438ae32f954c664ebbdf4544540d8e55ece234",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        25,
+        352,
+        333
+      ],
+      "nativeCrop": [
+        422,
+        399
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-chrysanthemum",
+      "label": "菊·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/chrysanthemum.png",
+      "record": "assets/tiles/flowers/motifs/chrysanthemum.png.generation.json",
+      "sha256": "9ffc72af74f9a70da05c41780cf96490f31acfd8a02b4fe46dee69cc302a90e4",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        20,
+        352,
+        344
+      ],
+      "nativeCrop": [
+        376,
+        367
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-spring",
+      "label": "春·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/spring.png",
+      "record": "assets/tiles/flowers/motifs/spring.png.generation.json",
+      "sha256": "f02df589232f2456c810c6f9b0d30d4501f29a988464ad5ec316bfdbf9d3da08",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        32,
+        352,
+        320
+      ],
+      "nativeCrop": [
+        413,
+        376
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-summer",
+      "label": "夏·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/summer.png",
+      "record": "assets/tiles/flowers/motifs/summer.png.generation.json",
+      "sha256": "2b2e08a774bcf1a29ac717eb0285b5df0f261cd1b8f9438aec7a640c0a72fd77",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        16,
+        352,
+        352
+      ],
+      "nativeCrop": [
+        383,
+        383
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-autumn",
+      "label": "秋·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/autumn.png",
+      "record": "assets/tiles/flowers/motifs/autumn.png.generation.json",
+      "sha256": "e3b36259ac12a6d7b356bb385cc11cde7393d10c3f9f5b0043338a3418c3d3c5",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        46,
+        352,
+        292
+      ],
+      "nativeCrop": [
+        431,
+        358
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-winter",
+      "label": "冬·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/winter.png",
+      "record": "assets/tiles/flowers/motifs/winter.png.generation.json",
+      "sha256": "43e96ed04a03ed1c92009dfc5e70413c3f2e4df860fe27bbc8c1a95a35d0ab4d",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        29,
+        352,
+        325
+      ],
+      "nativeCrop": [
+        395,
+        365
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    }
+  ],
+  "counts": {
+    "optionalFlowers": 8,
+    "botanicalMotifs": 8
+  },
+  "rules": {
+    "flowerTiles": "optional; this art does not enable flowers or define game scoring",
+    "scoreSticks": "points markers only, no monetary value",
+    "items": "non-monetary cosmetic/reward icons, no price or recharge",
+    "render": "preserve aspect; no nine-slice",
+    "recommendedDisplay": {
+      "emotes": [
+        64,
+        64
+      ],
+      "inventoryIcons": [
+        64,
+        64
+      ],
+      "dice": [
+        64,
+        64
+      ],
+      "flowerTiles": [
+        112,
+        160
+      ],
+      "tableProps": [
+        128,
+        128
+      ]
+    },
+    "nativeDetail": "All raster art originates in actual generated source sheets, sliced at actual alpha bounds; no content upscaling."
+  },
+  "sources": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "record": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    }
+  ],
+  "modelDisclosure": "Builtin image_gen target GPT Image 2.5 Sunburst/max; actual model/quality unconfirmed. Native flower labels and dice pips are deterministic exact vector overlays.",
+  "previews": [
+    "designs/props/full-game/previews/flowers-dice-contact.png",
+    "designs/props/full-game/previews/alpha-light-dark.png"
+  ],
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "producerVisual": "All four semantic contact sheets and 42 light/dark alpha assets actually viewed",
+    "independentVisualReview": {
+      "reviewer": "root coordinator",
+      "reviewedAt": "2026-10-26T17:10:53.295338+00:00",
+      "status": "passed",
+      "kind": "independent actual visual inspection",
+      "evidence": "Root actually viewed all five final previews: emotes-contact, items-contact, flowers-dice-contact, table-props-contact, alpha-light-dark. All 12 emote meanings clear, silhouettes complete; 8 glyph/botanical correspondences correct; dice1..6 points exact; repaired tile-back-voucher tassel complete; no visible specks or clipping on light/dark grounds."
+    },
+    "pngsFrozenAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "sourceBase": {
+    "file": "assets/tiles/tile-blank.png",
+    "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+    "record": "assets/tiles/tile-blank.png.generation.json"
+  },
+  "optional": true,
+  "changesGameRules": false,
+  "userApproved": false,
+  "clientIntegrated": false
+}

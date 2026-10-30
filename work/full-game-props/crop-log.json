@@ -1,0 +1,2288 @@
+[
+  {
+    "id": "emote-approval",
+    "cellCrop": [
+      0,
+      0,
+      520,
+      512
+    ],
+    "nativeContentBounds": [
+      68,
+      11,
+      505,
+      487
+    ],
+    "corePixelsBefore": 117437,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 114451,
+        "box": [
+          94,
+          11,
+          504,
+          486
+        ]
+      },
+      {
+        "pixels": 2375,
+        "box": [
+          78,
+          108,
+          153,
+          193
+        ]
+      },
+      {
+        "pixels": 611,
+        "box": [
+          68,
+          181,
+          101,
+          223
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      437,
+      476
+    ],
+    "exportContent": [
+      437,
+      476
+    ],
+    "contentBounds": [
+      37,
+      18,
+      437,
+      476
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-applause",
+    "cellCrop": [
+      520,
+      0,
+      1024,
+      512
+    ],
+    "nativeContentBounds": [
+      569,
+      7,
+      974,
+      487
+    ],
+    "corePixelsBefore": 115759,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 111345,
+        "box": [
+          617,
+          7,
+          973,
+          486
+        ]
+      },
+      {
+        "pixels": 1361,
+        "box": [
+          570,
+          184,
+          619,
+          238
+        ]
+      },
+      {
+        "pixels": 861,
+        "box": [
+          569,
+          238,
+          611,
+          264
+        ]
+      },
+      {
+        "pixels": 1345,
+        "box": [
+          900,
+          255,
+          954,
+          300
+        ]
+      },
+      {
+        "pixels": 847,
+        "box": [
+          904,
+          308,
+          946,
+          334
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      405,
+      480
+    ],
+    "exportContent": [
+      405,
+      480
+    ],
+    "contentBounds": [
+      53,
+      16,
+      405,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-respect",
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1097,
+      6,
+      1464,
+      494
+    ],
+    "corePixelsBefore": 107357,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 107357,
+        "box": [
+          1097,
+          6,
+          1463,
+          493
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      367,
+      488
+    ],
+    "exportContent": [
+      361,
+      480
+    ],
+    "contentBounds": [
+      75,
+      16,
+      361,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9836065573770492,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-thinking",
+    "cellCrop": [
+      0,
+      512,
+      520,
+      1024
+    ],
+    "nativeContentBounds": [
+      78,
+      531,
+      491,
+      1003
+    ],
+    "corePixelsBefore": 115984,
+    "removedTinyCorePixels": 1,
+    "components": [
+      {
+        "pixels": 108861,
+        "box": [
+          134,
+          531,
+          490,
+          1002
+        ]
+      },
+      {
+        "pixels": 5980,
+        "box": [
+          78,
+          567,
+          178,
+          650
+        ]
+      },
+      {
+        "pixels": 726,
+        "box": [
+          91,
+          649,
+          120,
+          679
+        ]
+      },
+      {
+        "pixels": 416,
+        "box": [
+          120,
+          681,
+          143,
+          702
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      413,
+      472
+    ],
+    "exportContent": [
+      413,
+      472
+    ],
+    "contentBounds": [
+      49,
+      20,
+      413,
+      472
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-surprise",
+    "cellCrop": [
+      520,
+      512,
+      1024,
+      1024
+    ],
+    "nativeContentBounds": [
+      572,
+      527,
+      991,
+      1000
+    ],
+    "corePixelsBefore": 115266,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 109873,
+        "box": [
+          575,
+          527,
+          978,
+          999
+        ]
+      },
+      {
+        "pixels": 1338,
+        "box": [
+          603,
+          585,
+          642,
+          646
+        ]
+      },
+      {
+        "pixels": 1766,
+        "box": [
+          922,
+          612,
+          977,
+          684
+        ]
+      },
+      {
+        "pixels": 1234,
+        "box": [
+          572,
+          628,
+          624,
+          670
+        ]
+      },
+      {
+        "pixels": 1055,
+        "box": [
+          943,
+          667,
+          990,
+          703
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      419,
+      473
+    ],
+    "exportContent": [
+      419,
+      473
+    ],
+    "contentBounds": [
+      46,
+      19,
+      419,
+      473
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-big-laugh",
+    "cellCrop": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "nativeContentBounds": [
+      1055,
+      548,
+      1521,
+      1010
+    ],
+    "corePixelsBefore": 119886,
+    "removedTinyCorePixels": 1,
+    "components": [
+      {
+        "pixels": 115035,
+        "box": [
+          1055,
+          548,
+          1520,
+          1009
+        ]
+      },
+      {
+        "pixels": 2835,
+        "box": [
+          1100,
+          587,
+          1192,
+          694
+        ]
+      },
+      {
+        "pixels": 2015,
+        "box": [
+          1391,
+          855,
+          1483,
+          924
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      466,
+      462
+    ],
+    "exportContent": [
+      466,
+      462
+    ],
+    "contentBounds": [
+      23,
+      25,
+      466,
+      462
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-aggrieved",
+    "cellCrop": [
+      0,
+      0,
+      520,
+      512
+    ],
+    "nativeContentBounds": [
+      83,
+      33,
+      427,
+      480
+    ],
+    "corePixelsBefore": 102468,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 102468,
+        "box": [
+          83,
+          33,
+          426,
+          479
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      344,
+      447
+    ],
+    "exportContent": [
+      344,
+      447
+    ],
+    "contentBounds": [
+      84,
+      32,
+      344,
+      447
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-cheer-on",
+    "cellCrop": [
+      520,
+      0,
+      1024,
+      512
+    ],
+    "nativeContentBounds": [
+      543,
+      22,
+      999,
+      496
+    ],
+    "corePixelsBefore": 115592,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 111261,
+        "box": [
+          543,
+          22,
+          952,
+          495
+        ]
+      },
+      {
+        "pixels": 2300,
+        "box": [
+          888,
+          93,
+          958,
+          173
+        ]
+      },
+      {
+        "pixels": 1258,
+        "box": [
+          938,
+          239,
+          998,
+          293
+        ]
+      },
+      {
+        "pixels": 773,
+        "box": [
+          944,
+          300,
+          995,
+          319
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      456,
+      474
+    ],
+    "exportContent": [
+      456,
+      474
+    ],
+    "contentBounds": [
+      28,
+      19,
+      456,
+      474
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-wait",
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1125,
+      39,
+      1471,
+      491
+    ],
+    "corePixelsBefore": 101932,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 101932,
+        "box": [
+          1125,
+          39,
+          1470,
+          490
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      346,
+      452
+    ],
+    "exportContent": [
+      346,
+      452
+    ],
+    "contentBounds": [
+      83,
+      30,
+      346,
+      452
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-sorry",
+    "cellCrop": [
+      0,
+      512,
+      520,
+      1024
+    ],
+    "nativeContentBounds": [
+      86,
+      543,
+      427,
+      976
+    ],
+    "corePixelsBefore": 98905,
+    "removedTinyCorePixels": 2,
+    "components": [
+      {
+        "pixels": 98048,
+        "box": [
+          86,
+          543,
+          426,
+          975
+        ]
+      },
+      {
+        "pixels": 686,
+        "box": [
+          145,
+          683,
+          168,
+          723
+        ]
+      },
+      {
+        "pixels": 109,
+        "box": [
+          123,
+          741,
+          139,
+          784
+        ]
+      },
+      {
+        "pixels": 60,
+        "box": [
+          137,
+          750,
+          148,
+          779
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      341,
+      433
+    ],
+    "exportContent": [
+      341,
+      433
+    ],
+    "contentBounds": [
+      85,
+      39,
+      341,
+      433
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-celebrate",
+    "cellCrop": [
+      520,
+      512,
+      1024,
+      1024
+    ],
+    "nativeContentBounds": [
+      548,
+      533,
+      997,
+      997
+    ],
+    "corePixelsBefore": 113551,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 105916,
+        "box": [
+          563,
+          533,
+          963,
+          996
+        ]
+      },
+      {
+        "pixels": 1738,
+        "box": [
+          872,
+          579,
+          937,
+          639
+        ]
+      },
+      {
+        "pixels": 1580,
+        "box": [
+          925,
+          623,
+          984,
+          690
+        ]
+      },
+      {
+        "pixels": 2474,
+        "box": [
+          548,
+          646,
+          633,
+          722
+        ]
+      },
+      {
+        "pixels": 793,
+        "box": [
+          555,
+          746,
+          599,
+          786
+        ]
+      },
+      {
+        "pixels": 1050,
+        "box": [
+          948,
+          781,
+          996,
+          822
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      449,
+      464
+    ],
+    "exportContent": [
+      449,
+      464
+    ],
+    "contentBounds": [
+      31,
+      24,
+      449,
+      464
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "emote-hello",
+    "cellCrop": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "nativeContentBounds": [
+      1097,
+      526,
+      1506,
+      990
+    ],
+    "corePixelsBefore": 107488,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 106178,
+        "box": [
+          1097,
+          526,
+          1471,
+          989
+        ]
+      },
+      {
+        "pixels": 747,
+        "box": [
+          1451,
+          691,
+          1485,
+          744
+        ]
+      },
+      {
+        "pixels": 563,
+        "box": [
+          1491,
+          710,
+          1505,
+          767
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      409,
+      464
+    ],
+    "exportContent": [
+      409,
+      464
+    ],
+    "contentBounds": [
+      51,
+      24,
+      409,
+      464
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-avatar-voucher",
+    "cellCrop": [
+      0,
+      0,
+      540,
+      512
+    ],
+    "nativeContentBounds": [
+      42,
+      99,
+      531,
+      416
+    ],
+    "corePixelsBefore": 99745,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 99745,
+        "box": [
+          42,
+          99,
+          530,
+          415
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      489,
+      317
+    ],
+    "exportContent": [
+      480,
+      311
+    ],
+    "contentBounds": [
+      16,
+      100,
+      480,
+      311
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9815950920245399,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-tablecloth-voucher",
+    "cellCrop": [
+      540,
+      0,
+      1050,
+      512
+    ],
+    "nativeContentBounds": [
+      553,
+      99,
+      1043,
+      416
+    ],
+    "corePixelsBefore": 100105,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 100105,
+        "box": [
+          553,
+          99,
+          1042,
+          415
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      490,
+      317
+    ],
+    "exportContent": [
+      480,
+      311
+    ],
+    "contentBounds": [
+      16,
+      100,
+      480,
+      311
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9795918367346939,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-tile-back-voucher",
+    "cellCrop": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "nativeContentBounds": [
+      59,
+      237,
+      1227,
+      1023
+    ],
+    "corePixelsBefore": 590091,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 590091,
+        "box": [
+          59,
+          237,
+          1226,
+          1022
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1254,
+      1254
+    ],
+    "nativeCroppedContent": [
+      1168,
+      786
+    ],
+    "exportContent": [
+      480,
+      323
+    ],
+    "contentBounds": [
+      16,
+      94,
+      480,
+      323
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.410958904109589,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-emote-voucher",
+    "cellCrop": [
+      0,
+      512,
+      540,
+      1024
+    ],
+    "nativeContentBounds": [
+      41,
+      570,
+      531,
+      891
+    ],
+    "corePixelsBefore": 102107,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 102107,
+        "box": [
+          41,
+          570,
+          530,
+          890
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      490,
+      321
+    ],
+    "exportContent": [
+      480,
+      314
+    ],
+    "contentBounds": [
+      16,
+      99,
+      480,
+      314
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9795918367346939,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-experience-scroll",
+    "cellCrop": [
+      540,
+      512,
+      1050,
+      1024
+    ],
+    "nativeContentBounds": [
+      554,
+      558,
+      1010,
+      915
+    ],
+    "corePixelsBefore": 91780,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 91780,
+        "box": [
+          554,
+          558,
+          1009,
+          914
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      456,
+      357
+    ],
+    "exportContent": [
+      456,
+      357
+    ],
+    "contentBounds": [
+      28,
+      77,
+      456,
+      357
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-achievement-medal",
+    "cellCrop": [
+      1050,
+      512,
+      1536,
+      1024
+    ],
+    "nativeContentBounds": [
+      1075,
+      516,
+      1481,
+      952
+    ],
+    "corePixelsBefore": 122617,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 122617,
+        "box": [
+          1075,
+          516,
+          1480,
+          951
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      406,
+      436
+    ],
+    "exportContent": [
+      406,
+      436
+    ],
+    "contentBounds": [
+      53,
+      38,
+      406,
+      436
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-gift-box",
+    "cellCrop": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "nativeContentBounds": [
+      33,
+      50,
+      500,
+      486
+    ],
+    "corePixelsBefore": 152184,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 152184,
+        "box": [
+          33,
+          50,
+          499,
+          485
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      467,
+      436
+    ],
+    "exportContent": [
+      467,
+      436
+    ],
+    "contentBounds": [
+      22,
+      38,
+      467,
+      436
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-brocade-pouch",
+    "cellCrop": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "nativeContentBounds": [
+      548,
+      50,
+      995,
+      490
+    ],
+    "corePixelsBefore": 134671,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 134671,
+        "box": [
+          548,
+          50,
+          994,
+          489
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      447,
+      440
+    ],
+    "exportContent": [
+      447,
+      440
+    ],
+    "contentBounds": [
+      32,
+      36,
+      447,
+      440
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-envelope",
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1045,
+      119,
+      1524,
+      497
+    ],
+    "corePixelsBefore": 115918,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 115918,
+        "box": [
+          1045,
+          119,
+          1523,
+          496
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      479,
+      378
+    ],
+    "exportContent": [
+      479,
+      378
+    ],
+    "contentBounds": [
+      16,
+      67,
+      479,
+      378
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-jade-pendant",
+    "cellCrop": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "nativeContentBounds": [
+      125,
+      515,
+      410,
+      990
+    ],
+    "corePixelsBefore": 68328,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 68328,
+        "box": [
+          125,
+          515,
+          409,
+          989
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      285,
+      475
+    ],
+    "exportContent": [
+      285,
+      475
+    ],
+    "contentBounds": [
+      113,
+      18,
+      285,
+      475
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-peach-blossom",
+    "cellCrop": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "nativeContentBounds": [
+      532,
+      557,
+      991,
+      968
+    ],
+    "corePixelsBefore": 89919,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 89919,
+        "box": [
+          532,
+          557,
+          990,
+          967
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      459,
+      411
+    ],
+    "exportContent": [
+      459,
+      411
+    ],
+    "contentBounds": [
+      26,
+      50,
+      459,
+      411
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "item-golden-gourd",
+    "cellCrop": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "nativeContentBounds": [
+      1077,
+      528,
+      1476,
+      967
+    ],
+    "corePixelsBefore": 100013,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 100013,
+        "box": [
+          1077,
+          528,
+          1475,
+          966
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      399,
+      439
+    ],
+    "exportContent": [
+      399,
+      439
+    ],
+    "contentBounds": [
+      56,
+      36,
+      399,
+      439
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "dice-blank",
+    "cellCrop": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "nativeContentBounds": [
+      86,
+      120,
+      436,
+      468
+    ],
+    "corePixelsBefore": 119124,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 119124,
+        "box": [
+          86,
+          120,
+          435,
+          467
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      350,
+      348
+    ],
+    "exportContent": [
+      350,
+      348
+    ],
+    "contentBounds": [
+      81,
+      82,
+      350,
+      348
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "dice-cup-closed",
+    "cellCrop": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "nativeContentBounds": [
+      548,
+      80,
+      970,
+      486
+    ],
+    "corePixelsBefore": 121842,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 121842,
+        "box": [
+          548,
+          80,
+          969,
+          485
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      422,
+      406
+    ],
+    "exportContent": [
+      422,
+      406
+    ],
+    "contentBounds": [
+      45,
+      53,
+      422,
+      406
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "dice-cup-open",
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1025,
+      104,
+      1519,
+      498
+    ],
+    "corePixelsBefore": 126563,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 126563,
+        "box": [
+          1025,
+          104,
+          1518,
+          497
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      494,
+      394
+    ],
+    "exportContent": [
+      480,
+      383
+    ],
+    "contentBounds": [
+      16,
+      64,
+      480,
+      383
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.97165991902834,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "dealer-marker",
+    "cellCrop": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "nativeContentBounds": [
+      111,
+      533,
+      507,
+      944
+    ],
+    "corePixelsBefore": 109856,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 109856,
+        "box": [
+          111,
+          533,
+          506,
+          943
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      396,
+      411
+    ],
+    "exportContent": [
+      396,
+      411
+    ],
+    "contentBounds": [
+      58,
+      50,
+      396,
+      411
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "score-sticks",
+    "cellCrop": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "nativeContentBounds": [
+      542,
+      573,
+      1004,
+      963
+    ],
+    "corePixelsBefore": 89996,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 89996,
+        "box": [
+          542,
+          573,
+          1003,
+          962
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      462,
+      390
+    ],
+    "exportContent": [
+      462,
+      390
+    ],
+    "contentBounds": [
+      25,
+      61,
+      462,
+      390
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-plum",
+    "cellCrop": [
+      0,
+      0,
+      450,
+      455
+    ],
+    "nativeContentBounds": [
+      29,
+      39,
+      435,
+      442
+    ],
+    "corePixelsBefore": 57639,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 57639,
+        "box": [
+          29,
+          39,
+          434,
+          441
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      406,
+      403
+    ],
+    "exportContent": [
+      352,
+      349
+    ],
+    "contentBounds": [
+      16,
+      17,
+      352,
+      349
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8669950738916257,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-orchid",
+    "cellCrop": [
+      450,
+      0,
+      895,
+      455
+    ],
+    "nativeContentBounds": [
+      465,
+      43,
+      886,
+      449
+    ],
+    "corePixelsBefore": 61806,
+    "removedTinyCorePixels": 3,
+    "components": [
+      {
+        "pixels": 61803,
+        "box": [
+          465,
+          43,
+          885,
+          448
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      421,
+      406
+    ],
+    "exportContent": [
+      352,
+      339
+    ],
+    "contentBounds": [
+      16,
+      22,
+      352,
+      339
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.836104513064133,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-bamboo",
+    "cellCrop": [
+      895,
+      0,
+      1340,
+      455
+    ],
+    "nativeContentBounds": [
+      905,
+      52,
+      1327,
+      451
+    ],
+    "corePixelsBefore": 58430,
+    "removedTinyCorePixels": 4,
+    "components": [
+      {
+        "pixels": 58426,
+        "box": [
+          905,
+          52,
+          1326,
+          450
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      422,
+      399
+    ],
+    "exportContent": [
+      352,
+      333
+    ],
+    "contentBounds": [
+      16,
+      25,
+      352,
+      333
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8341232227488151,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-chrysanthemum",
+    "cellCrop": [
+      1340,
+      0,
+      1774,
+      455
+    ],
+    "nativeContentBounds": [
+      1362,
+      82,
+      1738,
+      449
+    ],
+    "corePixelsBefore": 81807,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 81807,
+        "box": [
+          1362,
+          82,
+          1737,
+          448
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      376,
+      367
+    ],
+    "exportContent": [
+      352,
+      344
+    ],
+    "contentBounds": [
+      16,
+      20,
+      352,
+      344
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.9361702127659575,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-spring",
+    "cellCrop": [
+      0,
+      455,
+      450,
+      887
+    ],
+    "nativeContentBounds": [
+      32,
+      469,
+      445,
+      845
+    ],
+    "corePixelsBefore": 59974,
+    "removedTinyCorePixels": 21,
+    "components": [
+      {
+        "pixels": 53451,
+        "box": [
+          32,
+          469,
+          430,
+          844
+        ]
+      },
+      {
+        "pixels": 6502,
+        "box": [
+          297,
+          516,
+          444,
+          650
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      413,
+      376
+    ],
+    "exportContent": [
+      352,
+      320
+    ],
+    "contentBounds": [
+      16,
+      32,
+      352,
+      320
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8523002421307506,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-summer",
+    "cellCrop": [
+      450,
+      455,
+      895,
+      887
+    ],
+    "nativeContentBounds": [
+      484,
+      463,
+      867,
+      846
+    ],
+    "corePixelsBefore": 85588,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 5948,
+        "box": [
+          681,
+          463,
+          841,
+          591
+        ]
+      },
+      {
+        "pixels": 79640,
+        "box": [
+          484,
+          529,
+          866,
+          845
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      383,
+      383
+    ],
+    "exportContent": [
+      352,
+      352
+    ],
+    "contentBounds": [
+      16,
+      16,
+      352,
+      352
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.9190600522193212,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-autumn",
+    "cellCrop": [
+      895,
+      455,
+      1340,
+      887
+    ],
+    "nativeContentBounds": [
+      901,
+      481,
+      1332,
+      839
+    ],
+    "corePixelsBefore": 74572,
+    "removedTinyCorePixels": 2,
+    "components": [
+      {
+        "pixels": 73656,
+        "box": [
+          901,
+          481,
+          1326,
+          838
+        ]
+      },
+      {
+        "pixels": 914,
+        "box": [
+          1293,
+          744,
+          1331,
+          807
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      431,
+      358
+    ],
+    "exportContent": [
+      352,
+      292
+    ],
+    "contentBounds": [
+      16,
+      46,
+      352,
+      292
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8167053364269141,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  {
+    "id": "flower-motif-winter",
+    "cellCrop": [
+      1340,
+      455,
+      1774,
+      887
+    ],
+    "nativeContentBounds": [
+      1349,
+      477,
+      1744,
+      842
+    ],
+    "corePixelsBefore": 69430,
+    "removedTinyCorePixels": 137,
+    "components": [
+      {
+        "pixels": 65617,
+        "box": [
+          1349,
+          477,
+          1743,
+          841
+        ]
+      },
+      {
+        "pixels": 3676,
+        "box": [
+          1613,
+          515,
+          1693,
+          598
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      395,
+      365
+    ],
+    "exportContent": [
+      352,
+      325
+    ],
+    "contentBounds": [
+      16,
+      29,
+      352,
+      325
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8911392405063291,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  }
+]

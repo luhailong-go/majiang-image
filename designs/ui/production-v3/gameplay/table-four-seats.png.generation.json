@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+  "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+  "generatedAt": "2026-10-28T14:20:23.469516+00:00",
+  "width": 1672,
+  "height": 941,
+  "format": "RGB PNG",
+  "tool": "Pillow deterministic assembly",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "operation": "Composite accepted independent raster skins, whole-sprite right-angle rotations, proportional downscales, approved nine-slice and native preview labels. No new AI image, no code-drawn replacement painting.",
+  "description": "Four seats, visible/hidden hands, two wall layers, discards, called meld, illegal/selected hand, active player, dealer/offline/autoplay, dynamic wind and timer.",
+  "nativeTextFont": "C:\\Windows\\Fonts\\simkai.ttf",
+  "fontRedistributed": false,
+  "derivedFrom": [
+    {
+      "id": "autoplay-badge",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0"
+    },
+    {
+      "id": "avatar-daotong",
+      "file": "assets/characters/avatar-daotong.png",
+      "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb"
+    },
+    {
+      "id": "avatar-frame",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541"
+    },
+    {
+      "id": "avatar-healer",
+      "file": "assets/characters/avatar-healer.png",
+      "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412"
+    },
+    {
+      "id": "avatar-master",
+      "file": "assets/characters/avatar-master.png",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b"
+    },
+    {
+      "id": "avatar-swordswoman",
+      "file": "assets/characters/avatar-swordswoman.png",
+      "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c"
+    },
+    {
+      "id": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735"
+    },
+    {
+      "id": "button-secondary-normal",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4"
+    },
+    {
+      "id": "countdown-frame",
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c"
+    },
+    {
+      "id": "current-player-ring",
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3"
+    },
+    {
+      "id": "dealer-badge",
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef"
+    },
+    {
+      "id": "discard-pointer",
+      "file": "assets/ui/production-v3/gameplay/discard-pointer.png",
+      "sha256": "8c5c7127b9a71338d553bc6a5bca2744282ee08e1e323e4b6b31e5e1a85f2feb"
+    },
+    {
+      "id": "dragon-red",
+      "file": "assets/tiles/faces/dragon-red.png",
+      "sha256": "d2e84f21eeb3000e620e46adc58b63492333741e585c66c8fde9a60139620f18"
+    },
+    {
+      "id": "dragon-white",
+      "file": "assets/tiles/faces/dragon-white.png",
+      "sha256": "0cdaf0479317c425f631c8ea9c9ec5bb6142319556c6fb0adf7e190043f5952f"
+    },
+    {
+      "id": "illegal-tile-badge",
+      "file": "assets/ui/production-v3/gameplay/illegal-tile-badge.png",
+      "sha256": "ebf0afe9e71803aaf1d43510550103279e79c198f9142920c73eaa508ce70f2d"
+    },
+    {
+      "id": "offline-badge",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d"
+    },
+    {
+      "id": "ready-hand-badge",
+      "file": "assets/ui/production-v3/gameplay/ready-hand-badge.png",
+      "sha256": "62a720dd5876feba3ce3884f7b69d9599c8d99bc18da2702dd48c292d9edd4d4"
+    },
+    {
+      "id": "table-background",
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad"
+    },
+    {
+      "id": "tiao-1",
+      "file": "assets/tiles/faces/tiao-1.png",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54"
+    },
+    {
+      "id": "tiao-2",
+      "file": "assets/tiles/faces/tiao-2.png",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653"
+    },
+    {
+      "id": "tiao-3",
+      "file": "assets/tiles/faces/tiao-3.png",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506"
+    },
+    {
+      "id": "tile-back",
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f"
+    },
+    {
+      "id": "tile-highlight",
+      "file": "assets/tiles/states/tile-highlight.png",
+      "sha256": "4ff5d2b7deaac8cf55bdebb428100ab00f6fa5e460c0c95eb5f01117128ab3e2"
+    },
+    {
+      "id": "tong-1",
+      "file": "assets/tiles/faces/tong-1.png",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c"
+    },
+    {
+      "id": "tong-2",
+      "file": "assets/tiles/faces/tong-2.png",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d"
+    },
+    {
+      "id": "tong-3",
+      "file": "assets/tiles/faces/tong-3.png",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2"
+    },
+    {
+      "id": "tong-7",
+      "file": "assets/tiles/faces/tong-7.png",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb"
+    },
+    {
+      "id": "wan-1",
+      "file": "assets/tiles/faces/wan-1.png",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba"
+    },
+    {
+      "id": "wan-2",
+      "file": "assets/tiles/faces/wan-2.png",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782"
+    },
+    {
+      "id": "wan-3",
+      "file": "assets/tiles/faces/wan-3.png",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88"
+    },
+    {
+      "id": "wan-4",
+      "file": "assets/tiles/faces/wan-4.png",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f"
+    },
+    {
+      "id": "wan-8",
+      "file": "assets/tiles/faces/wan-8.png",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8"
+    },
+    {
+      "id": "wind-east",
+      "file": "assets/tiles/faces/wind-east.png",
+      "sha256": "2723f83ff503861a4add614eab3f0fe82c09766a994d20ecc8fbba7809396476"
+    },
+    {
+      "id": "wind-round-dial",
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b"
+    },
+    {
+      "id": "wind-south",
+      "file": "assets/tiles/faces/wind-south.png",
+      "sha256": "27dcca17fb90112fcf05a8d6b9a2887b1e22077b8eaa1a1a929b9f8bbedaa069"
+    }
+  ],
+  "runtimeContract": "assets/ui/production-v3/gameplay/runtime-compositions.json",
+  "clientIntegrated": false,
+  "checks": {
+    "visual": "passed: producer and root actually viewed final original-size PNG; no HUD/discard/countdown collision",
+    "technical": "Target SHA verified and matches root supplied receipt; native canvas unchanged",
+    "reviewedAt": "2026-10-28T14:57:27.194603+00:00"
+  },
+  "status": "passed",
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00",
+  "independentReview": {
+    "reviewer": "root coordinator",
+    "source": "direct parent receipt after user-authorized single-thread art closeout",
+    "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+    "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+    "status": "passed",
+    "scope": "targeted final table preview only",
+    "evidence": "Root actually viewed refreshed table: HUD at center-left does not collide with left/right discards or central countdown; text complete. Other four preview pixels unchanged per root receipt.",
+    "recordedAt": "2026-10-28T14:57:27.194603+00:00"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/fullbody-swordswoman.png",
+  "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 1536,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 1753972,
+    "opaquePixels": 551234,
+    "semiTransparentPixels": 54090,
+    "bbox": [
+      298,
+      151,
+      1237,
+      1384
+    ],
+    "clearMargins": [
+      298,
+      151,
+      299,
+      152
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/swordswoman-fullbody-native.png",
+    "sha256": "8efc2128d17f6cde5e9a0d9e61f5ccee0a3e31a2a3ff8bf74d7edf1f2e0c8e98",
+    "generationRecord": "designs/characters/full-game/swordswoman-fullbody-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "technical alpha sanitation",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 55370,
+      "removedPixelsAbove128": 0,
+      "componentCount": 1,
+      "RGBRepainted": false,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 550435
+    },
+    {
+      "operation": "crop transparent margins",
+      "sourceBox": [
+        135,
+        11,
+        1074,
+        1244
+      ]
+    },
+    {
+      "operation": "transparent padding without resampling",
+      "canvas": [
+        1536,
+        1536
+      ],
+      "offset": [
+        298,
+        151
+      ],
+      "nativeDetailUpscaled": false
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/swordswoman-fullbody.prompt.txt",
+  "usage": {
+    "identity": "swordswoman",
+    "identityName": "黑发侠女",
+    "role": "full_body",
+    "expression": null,
+    "anchor": [
+      0.5,
+      0.9010416666666666
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": null,
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

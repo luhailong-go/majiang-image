@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/gameplay/melds-and-directions.png",
+  "sha256": "745cf7df93ae9c9451378723194dd06301c90eb46383456f10277ac5141a167e",
+  "generatedAt": "2026-10-28T10:01:03.083480+00:00",
+  "width": 2000,
+  "height": 1510,
+  "format": "RGB PNG",
+  "tool": "Pillow deterministic assembly",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "operation": "Composite accepted independent raster skins, whole-sprite right-angle rotations, proportional downscales, approved nine-slice and native preview labels. No new AI image, no code-drawn replacement painting.",
+  "description": "16 independent compositions: triplet, open/added/concealed kong at each clockwise seat rotation. Native six-wan glyph makes mirroring and rotation observable.",
+  "nativeTextFont": "C:\\Windows\\Fonts\\simkai.ttf",
+  "fontRedistributed": false,
+  "derivedFrom": [
+    {
+      "id": "tile-back",
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f"
+    },
+    {
+      "id": "wan-6",
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910"
+    }
+  ],
+  "runtimeContract": "assets/ui/production-v3/gameplay/runtime-compositions.json",
+  "clientIntegrated": false,
+  "checks": {
+    "visual": "passed: actual final original-size preview inspected",
+    "technical": "Previously assembled from registered independent assets; unchanged during root table-only render. Global sweep belongs to coordinator integration.",
+    "reviewedAt": "2026-10-28T10:35:30.815290+00:00"
+  },
+  "status": "passed",
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00"
+}

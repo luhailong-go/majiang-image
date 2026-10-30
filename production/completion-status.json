@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "status": "complete_game_art_release_v4",
+  "gameName": "云间雀社",
+  "primaryAssets": 293,
+  "newIndependentRuntimeAssets": 22,
+  "newNativeBrandLogo": 1,
+  "independentPageLayouts": 32,
+  "stateCompositions": 86,
+  "proofImages": 118,
+  "brandIntegratedPages": [
+    "UI01",
+    "UI02",
+    "UI03",
+    "system.loading"
+  ],
+  "existingAccepted293NativePixelsUnchanged": true,
+  "pending": [],
+  "currentManifest": "exports/game-art-with-brand-manifest.json",
+  "currentValidation": "exports/release-v4-validation.json",
+  "clientIntegrated": false,
+  "validation": "exports/release-v4-validation.json",
+  "publicationVerification": "See the current Git remote and the separately written publication verification receipt."
+}

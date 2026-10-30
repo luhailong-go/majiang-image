@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/wind-west.png",
+  "sha256": "bd0413939cd393cf7719bbdbe5be182895b36d86f19173d1f2b46535a703c3a4",
+  "createdAt": "2026-10-26T08:25:50.336Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wind-west.svg",
+    "sha256": "5405203f790e66604d0a4d1f983ab14d329270c6c07e7422a676dd1bb8133e4a"
+  },
+  "semantic": {
+    "label": "西",
+    "suit": "winds",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "西"
+    ],
+    "whiteDragonFrame": false
+  }
+}

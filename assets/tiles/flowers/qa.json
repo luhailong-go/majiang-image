@@ -1,0 +1,332 @@
+{
+  "generatedAt": "2026-10-26T16:41:12.723447+00:00",
+  "runtimeCount": 8,
+  "supportCount": 8,
+  "technical": "passed",
+  "visual": "passed",
+  "dicePointCount": "not applicable to flower-only subset; see assets/props/full-game/qa.json",
+  "flowerLabels": {
+    "expected": [
+      "梅",
+      "兰",
+      "竹",
+      "菊",
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "actual": [
+      "梅",
+      "兰",
+      "竹",
+      "菊",
+      "春",
+      "夏",
+      "秋",
+      "冬"
+    ],
+    "status": "passed"
+  },
+  "checks": [
+    {
+      "id": "flower-plum",
+      "file": "assets/tiles/flowers/plum.png",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "梅",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-orchid",
+      "file": "assets/tiles/flowers/orchid.png",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "兰",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-bamboo",
+      "file": "assets/tiles/flowers/bamboo.png",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "竹",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-chrysanthemum",
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "菊",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-spring",
+      "file": "assets/tiles/flowers/spring.png",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "春",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-summer",
+      "file": "assets/tiles/flowers/summer.png",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "夏",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-autumn",
+      "file": "assets/tiles/flowers/autumn.png",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "秋",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-winter",
+      "file": "assets/tiles/flowers/winter.png",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "size": [
+        448,
+        640
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed",
+      "label": "冬",
+      "labelOutline": "present, exact glyph key",
+      "optional": true
+    },
+    {
+      "id": "flower-motif-plum",
+      "file": "assets/tiles/flowers/motifs/plum.png",
+      "sha256": "7b0d50c3d886bcec27965d95d30985bad8c92f88446b6fe34d867a7f64c37912",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-orchid",
+      "file": "assets/tiles/flowers/motifs/orchid.png",
+      "sha256": "0109886406db3899a30099a382c77b2a137f4785e4c3a0b9597e1373372221f7",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-bamboo",
+      "file": "assets/tiles/flowers/motifs/bamboo.png",
+      "sha256": "a54fcd221c3e3f6a6e427a241e438ae32f954c664ebbdf4544540d8e55ece234",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-chrysanthemum",
+      "file": "assets/tiles/flowers/motifs/chrysanthemum.png",
+      "sha256": "9ffc72af74f9a70da05c41780cf96490f31acfd8a02b4fe46dee69cc302a90e4",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-spring",
+      "file": "assets/tiles/flowers/motifs/spring.png",
+      "sha256": "f02df589232f2456c810c6f9b0d30d4501f29a988464ad5ec316bfdbf9d3da08",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-summer",
+      "file": "assets/tiles/flowers/motifs/summer.png",
+      "sha256": "2b2e08a774bcf1a29ac717eb0285b5df0f261cd1b8f9438aec7a640c0a72fd77",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-autumn",
+      "file": "assets/tiles/flowers/motifs/autumn.png",
+      "sha256": "e3b36259ac12a6d7b356bb385cc11cde7393d10c3f9f5b0043338a3418c3d3c5",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    },
+    {
+      "id": "flower-motif-winter",
+      "file": "assets/tiles/flowers/motifs/winter.png",
+      "sha256": "43e96ed04a03ed1c92009dfc5e70413c3f2e4df860fe27bbc8c1a95a35d0ab4d",
+      "size": [
+        384,
+        384
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentMargin": "passed",
+      "technical": "passed",
+      "visual": "passed"
+    }
+  ],
+  "sourceUpscale": false,
+  "previews": [
+    "designs/props/full-game/previews/emotes-contact.png",
+    "designs/props/full-game/previews/items-contact.png",
+    "designs/props/full-game/previews/flowers-dice-contact.png",
+    "designs/props/full-game/previews/table-props-contact.png",
+    "designs/props/full-game/previews/alpha-light-dark.png"
+  ],
+  "scope": "optional eight flower tiles and botanical helper assets",
+  "independentVisualReview": {
+    "reviewer": "root coordinator",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00",
+    "status": "passed",
+    "kind": "independent actual visual inspection",
+    "evidence": "Root actually viewed all five final previews: emotes-contact, items-contact, flowers-dice-contact, table-props-contact, alpha-light-dark. All 12 emote meanings clear, silhouettes complete; 8 glyph/botanical correspondences correct; dice1..6 points exact; repaired tile-back-voucher tassel complete; no visible specks or clipping on light/dark grounds."
+  },
+  "pngsFrozenAt": "2026-10-26T17:10:53.295338+00:00",
+  "userApproved": false,
+  "clientIntegrated": false
+}

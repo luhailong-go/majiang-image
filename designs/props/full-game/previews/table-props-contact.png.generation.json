@@ -1,0 +1,41 @@
+{
+  "file": "designs/props/full-game/previews/table-props-contact.png",
+  "sha256": "eab759017cf771cd68044cd8df25b8669bd33e6f54f329d5c121ea70a8862ef4",
+  "createdAt": "2026-10-26T16:41:12.184876+00:00",
+  "tool": "Pillow labeled contact preview",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Contact sheet assembly only, no model generation",
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/table/dice-cup-closed.png",
+      "sha256": "7340b1b58a332c0547adbbb1a2838887fe20dda9586386d4ae52aa706ba713b1",
+      "generationRecord": "assets/props/full-game/table/dice-cup-closed.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/dice-cup-open.png",
+      "sha256": "a5ffc7eb38ff30024bf8b7e5b0164625b30874a082e15f997f4da5de0cb2bc3f",
+      "generationRecord": "assets/props/full-game/table/dice-cup-open.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/dealer-marker.png",
+      "sha256": "2277a5740c153574793e2be3d9fb7e4926dd374b299d1a1717bb699869e65a6b",
+      "generationRecord": "assets/props/full-game/table/dealer-marker.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/score-sticks.png",
+      "sha256": "c1244e515f900b4b41170a7e4ba4aac687975810eb121197f2bbf2c9126c6bfc",
+      "generationRecord": "assets/props/full-game/table/score-sticks.png.generation.json"
+    }
+  ],
+  "operation": "uniform downscale and compose final assets with native preview labels",
+  "width": 920,
+  "height": 360,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual preview inspection",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  }
+}

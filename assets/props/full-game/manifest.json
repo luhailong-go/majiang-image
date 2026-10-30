@@ -1,0 +1,1802 @@
+{
+  "schemaVersion": 1,
+  "scope": "full-game-v2 props, cosmetic items, emotes, optional flowers and dice",
+  "createdAt": "2026-10-26T16:37:57.207Z",
+  "assets": [
+    {
+      "id": "emote-approval",
+      "label": "赞",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/approval.png",
+      "record": "assets/props/full-game/emotes/approval.png.generation.json",
+      "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        37,
+        18,
+        437,
+        476
+      ],
+      "nativeCrop": [
+        437,
+        476
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-applause",
+      "label": "鼓掌",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/applause.png",
+      "record": "assets/props/full-game/emotes/applause.png.generation.json",
+      "sha256": "33e5c39d454ca3b38663ad3c11f7f4b336c24701ed1d4bddc5da9c8e78f4d9bb",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        53,
+        16,
+        405,
+        480
+      ],
+      "nativeCrop": [
+        405,
+        480
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-respect",
+      "label": "抱拳",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/respect.png",
+      "record": "assets/props/full-game/emotes/respect.png.generation.json",
+      "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        75,
+        16,
+        361,
+        480
+      ],
+      "nativeCrop": [
+        367,
+        488
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-thinking",
+      "label": "思考",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/thinking.png",
+      "record": "assets/props/full-game/emotes/thinking.png.generation.json",
+      "sha256": "2c7786b555fa13456971d9ce1c26128392fffdc0e4629cf0537cf836c8d9c6ef",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        49,
+        20,
+        413,
+        472
+      ],
+      "nativeCrop": [
+        413,
+        472
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-surprise",
+      "label": "惊讶",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/surprise.png",
+      "record": "assets/props/full-game/emotes/surprise.png.generation.json",
+      "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        46,
+        19,
+        419,
+        473
+      ],
+      "nativeCrop": [
+        419,
+        473
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-big-laugh",
+      "label": "大笑",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/big-laugh.png",
+      "record": "assets/props/full-game/emotes/big-laugh.png.generation.json",
+      "sha256": "fc9b4a5e8703151ac180f502d672b0f395e5fba33a065d3061f668a2de4f7a4a",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        23,
+        25,
+        466,
+        462
+      ],
+      "nativeCrop": [
+        466,
+        462
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-aggrieved",
+      "label": "委屈",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/aggrieved.png",
+      "record": "assets/props/full-game/emotes/aggrieved.png.generation.json",
+      "sha256": "14fca0aa8d61bc07b74224d0fb7e67d59e0d599c3a103589cfa0b1c8867d8f39",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        84,
+        32,
+        344,
+        447
+      ],
+      "nativeCrop": [
+        344,
+        447
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-cheer-on",
+      "label": "加油",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/cheer-on.png",
+      "record": "assets/props/full-game/emotes/cheer-on.png.generation.json",
+      "sha256": "9d12615cc9109750592bacbf251865611d80fc1386c095f28dcd845535d5d66b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        28,
+        19,
+        456,
+        474
+      ],
+      "nativeCrop": [
+        456,
+        474
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-wait",
+      "label": "等待",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/wait.png",
+      "record": "assets/props/full-game/emotes/wait.png.generation.json",
+      "sha256": "af0b09031de22d860b64f348b352f233ab8c825e0b5464c525fbe4fda85b6ccc",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        83,
+        30,
+        346,
+        452
+      ],
+      "nativeCrop": [
+        346,
+        452
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-sorry",
+      "label": "抱歉",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/sorry.png",
+      "record": "assets/props/full-game/emotes/sorry.png.generation.json",
+      "sha256": "41a208f58702125fc8c02349b2e8f4ff154e72d1255d1eba420bdcd8e184f2c2",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        85,
+        39,
+        341,
+        433
+      ],
+      "nativeCrop": [
+        341,
+        433
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-celebrate",
+      "label": "庆祝",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/celebrate.png",
+      "record": "assets/props/full-game/emotes/celebrate.png.generation.json",
+      "sha256": "f37d277f09c4d5f524e52965b8c74d2223a2e29f3036f7195d57b64b620b3c0e",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        31,
+        24,
+        449,
+        464
+      ],
+      "nativeCrop": [
+        449,
+        464
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "emote-hello",
+      "label": "问候",
+      "group": "emote",
+      "file": "assets/props/full-game/emotes/hello.png",
+      "record": "assets/props/full-game/emotes/hello.png.generation.json",
+      "sha256": "e8eb609248c25bb0a7ff3b75855c6c289f31d213feb25b2f4b739d6a4bee8f03",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        51,
+        24,
+        409,
+        464
+      ],
+      "nativeCrop": [
+        409,
+        464
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-avatar-voucher",
+      "label": "头像券",
+      "group": "item",
+      "file": "assets/props/full-game/items/avatar-voucher.png",
+      "record": "assets/props/full-game/items/avatar-voucher.png.generation.json",
+      "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        100,
+        480,
+        311
+      ],
+      "nativeCrop": [
+        489,
+        317
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-tablecloth-voucher",
+      "label": "桌布券",
+      "group": "item",
+      "file": "assets/props/full-game/items/tablecloth-voucher.png",
+      "record": "assets/props/full-game/items/tablecloth-voucher.png.generation.json",
+      "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        100,
+        480,
+        311
+      ],
+      "nativeCrop": [
+        490,
+        317
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-tile-back-voucher",
+      "label": "牌背券",
+      "group": "item",
+      "file": "assets/props/full-game/items/tile-back-voucher.png",
+      "record": "assets/props/full-game/items/tile-back-voucher.png.generation.json",
+      "sha256": "0f185b4ea121120c4afe1c3b6807ba7ebab5a6c66e1c4f55e998eac0d7a1a9f9",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        94,
+        480,
+        323
+      ],
+      "nativeCrop": [
+        1168,
+        786
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-emote-voucher",
+      "label": "表情券",
+      "group": "item",
+      "file": "assets/props/full-game/items/emote-voucher.png",
+      "record": "assets/props/full-game/items/emote-voucher.png.generation.json",
+      "sha256": "61e32fdc025026c54d68d1d11ddc35eed9543361109881300a49c7dc8a2405c6",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        99,
+        480,
+        314
+      ],
+      "nativeCrop": [
+        490,
+        321
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-experience-scroll",
+      "label": "经验卷轴",
+      "group": "item",
+      "file": "assets/props/full-game/items/experience-scroll.png",
+      "record": "assets/props/full-game/items/experience-scroll.png.generation.json",
+      "sha256": "2b1df2519402a057ba7f3a68bd7b816c4b757dfb37b30ec54c6f7310da26cd16",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        28,
+        77,
+        456,
+        357
+      ],
+      "nativeCrop": [
+        456,
+        357
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-achievement-medal",
+      "label": "成就徽章",
+      "group": "item",
+      "file": "assets/props/full-game/items/achievement-medal.png",
+      "record": "assets/props/full-game/items/achievement-medal.png.generation.json",
+      "sha256": "b0c7e46d56a6fe25ab355e11e53a02595b0c259a048c10ccf7679db704507056",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        53,
+        38,
+        406,
+        436
+      ],
+      "nativeCrop": [
+        406,
+        436
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-gift-box",
+      "label": "礼盒",
+      "group": "item",
+      "file": "assets/props/full-game/items/gift-box.png",
+      "record": "assets/props/full-game/items/gift-box.png.generation.json",
+      "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        22,
+        38,
+        467,
+        436
+      ],
+      "nativeCrop": [
+        467,
+        436
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-brocade-pouch",
+      "label": "锦囊",
+      "group": "item",
+      "file": "assets/props/full-game/items/brocade-pouch.png",
+      "record": "assets/props/full-game/items/brocade-pouch.png.generation.json",
+      "sha256": "8d1434fa4a7e2dd639e9ebb182b35d4f486d4ae726e25357fa5edb253bdeda19",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        32,
+        36,
+        447,
+        440
+      ],
+      "nativeCrop": [
+        447,
+        440
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-envelope",
+      "label": "信封",
+      "group": "item",
+      "file": "assets/props/full-game/items/envelope.png",
+      "record": "assets/props/full-game/items/envelope.png.generation.json",
+      "sha256": "230648fb8d25c7e8c98ebfd002e7936b11d7b9823f0ce533cd2c61e2f004829e",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        67,
+        479,
+        378
+      ],
+      "nativeCrop": [
+        479,
+        378
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-jade-pendant",
+      "label": "玉佩",
+      "group": "item",
+      "file": "assets/props/full-game/items/jade-pendant.png",
+      "record": "assets/props/full-game/items/jade-pendant.png.generation.json",
+      "sha256": "ce6e85ed21856425ff8c13854b34ba2e196ae461be386f92cb156c99f2767c3b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        113,
+        18,
+        285,
+        475
+      ],
+      "nativeCrop": [
+        285,
+        475
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-peach-blossom",
+      "label": "桃花",
+      "group": "item",
+      "file": "assets/props/full-game/items/peach-blossom.png",
+      "record": "assets/props/full-game/items/peach-blossom.png.generation.json",
+      "sha256": "8e3076e1b5999fed476785b03810846d713408e596068161ac50725fc3f318eb",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        26,
+        50,
+        459,
+        411
+      ],
+      "nativeCrop": [
+        459,
+        411
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "item-golden-gourd",
+      "label": "葫芦",
+      "group": "item",
+      "file": "assets/props/full-game/items/golden-gourd.png",
+      "record": "assets/props/full-game/items/golden-gourd.png.generation.json",
+      "sha256": "d66c9c7bdfe6f1ca96c9657d1c539d1c278bdd5bfd531808b40f133ebda0e05b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        56,
+        36,
+        399,
+        439
+      ],
+      "nativeCrop": [
+        399,
+        439
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-cup-closed",
+      "label": "骰盅·合",
+      "group": "table-prop",
+      "file": "assets/props/full-game/table/dice-cup-closed.png",
+      "record": "assets/props/full-game/table/dice-cup-closed.png.generation.json",
+      "sha256": "7340b1b58a332c0547adbbb1a2838887fe20dda9586386d4ae52aa706ba713b1",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        45,
+        53,
+        422,
+        406
+      ],
+      "nativeCrop": [
+        422,
+        406
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "dice-cup-open",
+      "label": "骰盅·开",
+      "group": "table-prop",
+      "file": "assets/props/full-game/table/dice-cup-open.png",
+      "record": "assets/props/full-game/table/dice-cup-open.png.generation.json",
+      "sha256": "a5ffc7eb38ff30024bf8b7e5b0164625b30874a082e15f997f4da5de0cb2bc3f",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        64,
+        480,
+        383
+      ],
+      "nativeCrop": [
+        494,
+        394
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "dealer-marker",
+      "label": "起庄标记",
+      "group": "table-prop",
+      "file": "assets/props/full-game/table/dealer-marker.png",
+      "record": "assets/props/full-game/table/dealer-marker.png.generation.json",
+      "sha256": "2277a5740c153574793e2be3d9fb7e4926dd374b299d1a1717bb699869e65a6b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        58,
+        50,
+        396,
+        411
+      ],
+      "nativeCrop": [
+        396,
+        411
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "score-sticks",
+      "label": "计分筹棒",
+      "group": "table-prop",
+      "file": "assets/props/full-game/table/score-sticks.png",
+      "record": "assets/props/full-game/table/score-sticks.png.generation.json",
+      "sha256": "c1244e515f900b4b41170a7e4ba4aac687975810eb121197f2bbf2c9126c6bfc",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        25,
+        61,
+        462,
+        390
+      ],
+      "nativeCrop": [
+        462,
+        390
+      ],
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "flower-plum",
+      "label": "梅",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/plum.png",
+      "record": "assets/tiles/flowers/plum.png.generation.json",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/plum.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-orchid",
+      "label": "兰",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/orchid.png",
+      "record": "assets/tiles/flowers/orchid.png.generation.json",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/orchid.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-bamboo",
+      "label": "竹",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/bamboo.png",
+      "record": "assets/tiles/flowers/bamboo.png.generation.json",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/bamboo.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-chrysanthemum",
+      "label": "菊",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "record": "assets/tiles/flowers/chrysanthemum.png.generation.json",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/chrysanthemum.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-spring",
+      "label": "春",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/spring.png",
+      "record": "assets/tiles/flowers/spring.png.generation.json",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/spring.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-summer",
+      "label": "夏",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/summer.png",
+      "record": "assets/tiles/flowers/summer.png.generation.json",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/summer.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-autumn",
+      "label": "秋",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/autumn.png",
+      "record": "assets/tiles/flowers/autumn.png.generation.json",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/autumn.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "flower-winter",
+      "label": "冬",
+      "group": "optional-flower",
+      "file": "assets/tiles/flowers/winter.png",
+      "record": "assets/tiles/flowers/winter.png.generation.json",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "optional": true,
+      "changesGameRules": false,
+      "labelSVG": "assets/tiles/flowers/winter.label.svg",
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "tiles",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        112,
+        160
+      ]
+    },
+    {
+      "id": "dice-1",
+      "label": "骰子·1点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-1.png",
+      "record": "assets/props/full-game/dice/dice-1.png.generation.json",
+      "sha256": "4cee5f5c1b2c517d6aa3959c87c00841f476b2b336eebc7f923ba09f9d8e929b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 1,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-2",
+      "label": "骰子·2点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-2.png",
+      "record": "assets/props/full-game/dice/dice-2.png.generation.json",
+      "sha256": "0e28ae3b1d0986b3e5984b0c4fca8574b2340ff12afd6068223badf633023f21",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 2,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-3",
+      "label": "骰子·3点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-3.png",
+      "record": "assets/props/full-game/dice/dice-3.png.generation.json",
+      "sha256": "ec5b83260aa7f964ad2930a4bf17f302a5343c3a15f1a05314ad6983eb65f6de",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 3,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-4",
+      "label": "骰子·4点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-4.png",
+      "record": "assets/props/full-game/dice/dice-4.png.generation.json",
+      "sha256": "4db154fd8c3e27371f5395f1f1f7f93ed16f7a5ff4e87bb64b82ac54de243bc7",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 4,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-5",
+      "label": "骰子·5点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-5.png",
+      "record": "assets/props/full-game/dice/dice-5.png.generation.json",
+      "sha256": "e152e38d6468ef64147b225323ad894e06e5eaaa00b5d24ac127bfd7ef17b7b5",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 5,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "dice-6",
+      "label": "骰子·6点",
+      "group": "dice",
+      "file": "assets/props/full-game/dice/dice-6.png",
+      "record": "assets/props/full-game/dice/dice-6.png.generation.json",
+      "sha256": "52323351d35bf9e1c03848d3c1f0ac8893a076adefc638ccc5f95cc5320b9ace",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "pipCount": 6,
+      "upscaled": false,
+      "checked": "passed",
+      "logicalCategory": "props",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "recommendedDisplay": [
+        64,
+        64
+      ]
+    }
+  ],
+  "supportAssets": [
+    {
+      "id": "dice-blank",
+      "label": "骰子空胚",
+      "group": "table-prop",
+      "file": "assets/props/full-game/dice/dice-blank.png",
+      "record": "assets/props/full-game/dice/dice-blank.png.generation.json",
+      "sha256": "3a33236f8c7270ee25bb854351b2d9b796b32c1588931d6f564950545f036348",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        81,
+        82,
+        350,
+        348
+      ],
+      "nativeCrop": [
+        350,
+        348
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-plum",
+      "label": "梅·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/plum.png",
+      "record": "assets/tiles/flowers/motifs/plum.png.generation.json",
+      "sha256": "7b0d50c3d886bcec27965d95d30985bad8c92f88446b6fe34d867a7f64c37912",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        17,
+        352,
+        349
+      ],
+      "nativeCrop": [
+        406,
+        403
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-orchid",
+      "label": "兰·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/orchid.png",
+      "record": "assets/tiles/flowers/motifs/orchid.png.generation.json",
+      "sha256": "0109886406db3899a30099a382c77b2a137f4785e4c3a0b9597e1373372221f7",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        22,
+        352,
+        339
+      ],
+      "nativeCrop": [
+        421,
+        406
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-bamboo",
+      "label": "竹·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/bamboo.png",
+      "record": "assets/tiles/flowers/motifs/bamboo.png.generation.json",
+      "sha256": "a54fcd221c3e3f6a6e427a241e438ae32f954c664ebbdf4544540d8e55ece234",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        25,
+        352,
+        333
+      ],
+      "nativeCrop": [
+        422,
+        399
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-chrysanthemum",
+      "label": "菊·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/chrysanthemum.png",
+      "record": "assets/tiles/flowers/motifs/chrysanthemum.png.generation.json",
+      "sha256": "9ffc72af74f9a70da05c41780cf96490f31acfd8a02b4fe46dee69cc302a90e4",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        20,
+        352,
+        344
+      ],
+      "nativeCrop": [
+        376,
+        367
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-spring",
+      "label": "春·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/spring.png",
+      "record": "assets/tiles/flowers/motifs/spring.png.generation.json",
+      "sha256": "f02df589232f2456c810c6f9b0d30d4501f29a988464ad5ec316bfdbf9d3da08",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        32,
+        352,
+        320
+      ],
+      "nativeCrop": [
+        413,
+        376
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-summer",
+      "label": "夏·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/summer.png",
+      "record": "assets/tiles/flowers/motifs/summer.png.generation.json",
+      "sha256": "2b2e08a774bcf1a29ac717eb0285b5df0f261cd1b8f9438aec7a640c0a72fd77",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        16,
+        352,
+        352
+      ],
+      "nativeCrop": [
+        383,
+        383
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-autumn",
+      "label": "秋·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/autumn.png",
+      "record": "assets/tiles/flowers/motifs/autumn.png.generation.json",
+      "sha256": "e3b36259ac12a6d7b356bb385cc11cde7393d10c3f9f5b0043338a3418c3d3c5",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        46,
+        352,
+        292
+      ],
+      "nativeCrop": [
+        431,
+        358
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "flower-motif-winter",
+      "label": "冬·花木插画",
+      "group": "flower-motif",
+      "file": "assets/tiles/flowers/motifs/winter.png",
+      "record": "assets/tiles/flowers/motifs/winter.png.generation.json",
+      "sha256": "43e96ed04a03ed1c92009dfc5e70413c3f2e4df860fe27bbc8c1a95a35d0ab4d",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "contentBounds": [
+        16,
+        29,
+        352,
+        325
+      ],
+      "nativeCrop": [
+        395,
+        365
+      ],
+      "upscaled": false,
+      "checked": "passed"
+    },
+    {
+      "id": "dice-1-pips",
+      "label": "1点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-1.pips.png",
+      "record": "assets/props/full-game/dice/dice-1.pips.png.generation.json",
+      "sha256": "5df4358e7541ea2a58b2823a2a54257f995c4e8767d60bb3d97d4ba331405f6a",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-1.pips.svg",
+      "checked": "passed"
+    },
+    {
+      "id": "dice-2-pips",
+      "label": "2点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-2.pips.png",
+      "record": "assets/props/full-game/dice/dice-2.pips.png.generation.json",
+      "sha256": "bdc60f4a414f3a7f04a7031272fc956e2f6c512f6cc32d69e48a23c6013cc548",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-2.pips.svg",
+      "checked": "passed"
+    },
+    {
+      "id": "dice-3-pips",
+      "label": "3点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-3.pips.png",
+      "record": "assets/props/full-game/dice/dice-3.pips.png.generation.json",
+      "sha256": "990f777b929f063284d2974b94764cb6f656fa487316c98590793978cceff5a5",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-3.pips.svg",
+      "checked": "passed"
+    },
+    {
+      "id": "dice-4-pips",
+      "label": "4点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-4.pips.png",
+      "record": "assets/props/full-game/dice/dice-4.pips.png.generation.json",
+      "sha256": "32b375b2153cd1f7a065f2285b69ad4772940a16b73aa058049d1f6700ad6fe8",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-4.pips.svg",
+      "checked": "passed"
+    },
+    {
+      "id": "dice-5-pips",
+      "label": "5点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-5.pips.png",
+      "record": "assets/props/full-game/dice/dice-5.pips.png.generation.json",
+      "sha256": "3fd1629d18008e6e557b4838a42392cc4543e52cc1c100678d95de6b8b7078c8",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-5.pips.svg",
+      "checked": "passed"
+    },
+    {
+      "id": "dice-6-pips",
+      "label": "6点符号层",
+      "group": "native-symbol",
+      "file": "assets/props/full-game/dice/dice-6.pips.png",
+      "record": "assets/props/full-game/dice/dice-6.pips.png.generation.json",
+      "sha256": "1c3680b02ba7ab67dfdf50b6af962f97e852546dfeeaa95f46b417c08b15c47c",
+      "width": 512,
+      "height": 512,
+      "vector": "assets/props/full-game/dice/dice-6.pips.svg",
+      "checked": "passed"
+    }
+  ],
+  "counts": {
+    "runtimeAssets": 42,
+    "optionalFlowers": 8,
+    "diceFaces": 6,
+    "diceCupStates": 2,
+    "dealerMarker": 1,
+    "scoreSticks": 1,
+    "emotes": 12,
+    "items": 12
+  },
+  "rules": {
+    "flowerTiles": "optional; this art does not enable flowers or define game scoring",
+    "scoreSticks": "points markers only, no monetary value",
+    "items": "non-monetary cosmetic/reward icons, no price or recharge",
+    "render": "preserve aspect; no nine-slice",
+    "recommendedDisplay": {
+      "emotes": [
+        64,
+        64
+      ],
+      "inventoryIcons": [
+        64,
+        64
+      ],
+      "dice": [
+        64,
+        64
+      ],
+      "flowerTiles": [
+        112,
+        160
+      ],
+      "tableProps": [
+        128,
+        128
+      ]
+    },
+    "nativeDetail": "All raster art originates in actual generated source sheets, sliced at actual alpha bounds; no content upscaling."
+  },
+  "sources": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "record": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/table-props-sheet-v1.png",
+      "sha256": "ad353b807051cecd786c1f43575517949c182c00cf05d01dc143ae43bcb5c310",
+      "record": "designs/props/full-game/sources/table-props-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/emotes-a-sheet-v1.png",
+      "sha256": "4b6f2abdbe851cbd997f83c775c12bb5997bf70b05455b913c4216114ac94758",
+      "record": "designs/props/full-game/sources/emotes-a-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/emotes-b-sheet-v1.png",
+      "sha256": "a1af8c508e548a7b5a44959b6e306d644db7324bde57610b169a492e27dc6cc6",
+      "record": "designs/props/full-game/sources/emotes-b-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/items-a-sheet-v1.png",
+      "sha256": "91a6ad7e9e0fd5ccb766023ced2624798b12dce50ce40a9d01a934d6efe615ec",
+      "record": "designs/props/full-game/sources/items-a-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/items-b-sheet-v1.png",
+      "sha256": "f58adad626bb766b19b4dd66dd57f2e2ee6b7951474472f7efcfd2d7e7a120ee",
+      "record": "designs/props/full-game/sources/items-b-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/props/full-game/sources/voucher-tile-back-v2.png",
+      "sha256": "295da4b3666ec2e86bae7e3d89485a5c59dbece6df3ba51265eb91353449244d",
+      "record": "designs/props/full-game/sources/voucher-tile-back-v2.png.generation.json"
+    }
+  ],
+  "modelDisclosure": "Builtin image_gen target GPT Image 2.5 Sunburst/max; actual model/quality unconfirmed. Native flower labels and dice pips are deterministic exact vector overlays.",
+  "previews": [
+    "designs/props/full-game/previews/emotes-contact.png",
+    "designs/props/full-game/previews/items-contact.png",
+    "designs/props/full-game/previews/flowers-dice-contact.png",
+    "designs/props/full-game/previews/table-props-contact.png",
+    "designs/props/full-game/previews/alpha-light-dark.png"
+  ],
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "producerVisual": "All four semantic contact sheets and 42 light/dark alpha assets actually viewed",
+    "independentVisualReview": {
+      "reviewer": "root coordinator",
+      "reviewedAt": "2026-10-26T17:10:53.295338+00:00",
+      "status": "passed",
+      "kind": "independent actual visual inspection",
+      "evidence": "Root actually viewed all five final previews: emotes-contact, items-contact, flowers-dice-contact, table-props-contact, alpha-light-dark. All 12 emote meanings clear, silhouettes complete; 8 glyph/botanical correspondences correct; dice1..6 points exact; repaired tile-back-voucher tassel complete; no visible specks or clipping on light/dark grounds."
+    },
+    "pngsFrozenAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "integrationCounts": {
+    "uniqueRuntimeFiles": 42,
+    "props": 34,
+    "tilesOptionalFlowers": 8,
+    "supportAssetsNotDoubleCounted": 15,
+    "deduplicateBy": "file"
+  },
+  "gallery": "assets/props/full-game/index.html",
+  "deliveryNotes": "docs/PROPS_FULL_GAME.md",
+  "qa": "assets/props/full-game/qa.json",
+  "userApproved": false,
+  "clientIntegrated": false
+}

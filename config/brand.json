@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "gameName": "云间雀社",
+  "genreDescriptor": "麻将",
+  "displayName": "云间雀社 · 麻将",
+  "romanizedAssetKey": "yunjian-queshe",
+  "decision": "Chosen by the assistant under the user request to choose a fitting game name and make its logo.",
+  "rationale": {
+    "云间": "承接仙山、亭阁、云纹与道家Q版的轻松气质",
+    "雀社": "指向麻将、四人聚桌和好友组局"
+  },
+  "scope": "Existing casual matchmaking/friend rooms,4player mahjong; naming does not add game rules or systems.",
+  "styleContract": "docs/STYLE_GUIDE.md",
+  "primaryLogo": "assets/branding/yunjian-queshe/logo-primary.png",
+  "generationRecord": "assets/branding/yunjian-queshe/logo-primary.png.generation.json",
+  "visualQA": "assets/branding/yunjian-queshe/qa.json",
+  "userFinalApproval": false,
+  "chosenAt": "2026-10-29T03:56:56.191365+00:00"
+}

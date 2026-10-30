@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-game/core/ui25-customization-source.png",
+  "uiId": "UI25",
+  "title": "装扮设置",
+  "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+  "generatedAt": "2026-10-26T11:28:26.289263-04:00",
+  "generationTimestampBasis": "客户端落盘时间，工具未返回生成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-01e69988-7d41-460c-bf78-d7b53019c11e",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    ],
+    "promptFile": "prompts/full-game/ui/core/ui25-customization.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅提供image_url及output_hint，尺寸和哈希由落盘文件读取。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/full-game/ui/core/ui25-customization.txt",
+  "promptSha256": "b94ce019a09ff29f189af7391a6e7969153c09d81b6c84d812b9cb2f24a7f283",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "sha256": "e9153d4727e88d72cd6f6d38db12507e6be2b8b162b554e4d7ccdf538fb16e6a",
+      "purpose": "当前游戏角色或桌面参考",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-01e69988-7d41-460c-bf78-d7b53019c11e.png",
+    "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "needs_correction",
+    "visualInspectionCompleted": true,
+    "visualNotes": "实看全图：桌布和牌背各三选项，选中金边勾选与未选中清楚，预览中与应用按钮、当前使用区区分；文字清晰，无价格或充值。",
+    "issues": [
+      "当前使用区牌背标签误用桌布名青玉云纹，应与选中牌背统一为太极青玉。"
+    ],
+    "blockingIssues": [
+      "当前使用区牌背标签误用桌布名青玉云纹，应与选中牌背统一为太极青玉。"
+    ],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "retained_edit_source",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "桌布选择",
+    "牌背选择",
+    "选中/未选中",
+    "当前使用",
+    "预览中",
+    "应用装扮"
+  ],
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-01e69988-7d41-460c-bf78-d7b53019c11e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "retainedReason": "最终版AI编辑对象，保留像素和原生成证据。"
+}

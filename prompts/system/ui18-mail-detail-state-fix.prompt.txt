@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset: 现有麻将UI整屏的定向修复，保持1672×941原图比例和清晰度。
+Input 1 is the exact edit target; Input 2 and Input 3 are style references only. Keep the original edit-target composition, characters, Chinese typography, ornament, textures, and all unrelated pixels as closely as possible.
+Image 2: 邮件主风格参考；Image 3: 组队主风格参考。沿用相同道家Q版、玉绿金边、米白绢纸、细腻手绘。
+请只编辑第1张邮件详情完整屏幕，移除右下角灰色“已领取”方块，包括圆形勾与外框，原位置用连续自然的象牙米白纸绢底纹补齐，不再显示任何“已领取”文字或替代状态样式。当前邮件的唯一领取状态是“待领取”：保留附件头像框×1、红色“待领取”、绿色可操作“领取附件”主按钮、灰色禁用“删除”按钮及“领取后可删除”说明。标题、正文、日期、道童和兔子、场景、上下框边、返回列表及关闭X均原样保留。不要把状态样式放在同页，不增加新的按钮、栏目、附件、正文或品牌。不改变任何其他中文、字号、色彩或版式。
+输出一张完整屏幕，不是局部裁片、对比图或设计说明板；不透明背景。

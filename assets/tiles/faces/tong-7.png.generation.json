@@ -1,0 +1,44 @@
+{
+  "file": "assets/tiles/faces/tong-7.png",
+  "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+  "createdAt": "2026-10-26T08:25:49.846Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "alpha composite exact vector symbol over generated hand-painted blank tile"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/tong-7.svg",
+    "sha256": "9777b1667b574b4160d39498d715d803e2e61925bb283b8d23143199de3922bf"
+  },
+  "symbolRenderer": "sharp/librsvg, vector paths without runtime font dependency",
+  "semantic": {
+    "label": "七筒",
+    "suit": "dots",
+    "rank": 7,
+    "pipCount": 7,
+    "bambooCount": null,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/plum.label.svg",
+  "sha256": "0b73b5faa5d952a052ae7c08b4d2750f8da25b41693e589b0415277bbb6e45fd",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

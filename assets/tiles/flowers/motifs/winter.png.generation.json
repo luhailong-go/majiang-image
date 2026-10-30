@@ -1,0 +1,100 @@
+{
+  "file": "assets/tiles/flowers/motifs/winter.png",
+  "sha256": "43e96ed04a03ed1c92009dfc5e70413c3f2e4df860fe27bbc8c1a95a35d0ab4d",
+  "createdAt": "2026-10-26T16:37:57.040Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "generationRecord": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 384,
+  "height": 384,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      1340,
+      455,
+      1774,
+      887
+    ],
+    "nativeContentBounds": [
+      1349,
+      477,
+      1744,
+      842
+    ],
+    "corePixelsBefore": 69430,
+    "removedTinyCorePixels": 137,
+    "components": [
+      {
+        "pixels": 65617,
+        "box": [
+          1349,
+          477,
+          1743,
+          841
+        ]
+      },
+      {
+        "pixels": 3676,
+        "box": [
+          1613,
+          515,
+          1693,
+          598
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      395,
+      365
+    ],
+    "exportContent": [
+      352,
+      325
+    ],
+    "contentBounds": [
+      16,
+      29,
+      352,
+      325
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8911392405063291,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "flower-motif-winter",
+    "label": "冬·花木插画",
+    "group": "flower-motif"
+  }
+}

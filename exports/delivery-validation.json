@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-26T08:58:19.949758-04:00",
+  "status": "passed",
+  "assetCount": 127,
+  "pageImages": 27,
+  "contractIds": 24,
+  "components": 58,
+  "characters": 5,
+  "tileFaces": 34,
+  "recordsChecked": 132,
+  "statesChecked": 56,
+  "errors": [],
+  "warnings": [],
+  "historicalSourcesRemovedPerRetentionPolicy": [
+    "assets/tiles/source/tile-blank-v1.png"
+  ],
+  "browserInteraction": "not tested: file:// denied by browser URL policy; no workaround attempted",
+  "checks": [
+    "PNG integrity/dimensions/hash",
+    "Generated and derived record graph",
+    "Prompt/reference hashes",
+    "24 unique contract IDs",
+    "Precise draw/claimed/match state files",
+    "Domain manifest file hashes",
+    "Nine-slice bounds",
+    "Static gallery links and extracted JS syntax target"
+  ]
+}

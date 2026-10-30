@@ -1,0 +1,46 @@
+{
+  "file": "assets/tiles/faces/dragon-green.png",
+  "sha256": "7abb6f5b4c13cd0effc319dccc2e9fc2f318b5fbd571707aab3a2a75403e16f7",
+  "createdAt": "2026-10-26T08:25:50.435Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "alpha composite exact vector symbol over generated hand-painted blank tile"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/dragon-green.svg",
+    "sha256": "55ca616646ad798f8023fe94de1f8efc4c211145995e8f8648fa488600ba5772"
+  },
+  "symbolRenderer": "sharp/librsvg, vector paths without runtime font dependency",
+  "semantic": {
+    "label": "发",
+    "suit": "dragons",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "發"
+    ],
+    "whiteDragonFrame": false
+  }
+}

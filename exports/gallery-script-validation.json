@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "testCount": 10,
+  "tests": [
+    {
+      "name": "Initial page rendering data",
+      "status": "passed"
+    },
+    {
+      "name": "Search UI14",
+      "status": "passed"
+    },
+    {
+      "name": "Image viewer open/close handlers",
+      "status": "passed"
+    },
+    {
+      "name": "Components tab",
+      "status": "passed"
+    },
+    {
+      "name": "Gameplay filter",
+      "status": "passed"
+    },
+    {
+      "name": "Background toggle",
+      "status": "passed"
+    },
+    {
+      "name": "Tiles tab data",
+      "status": "passed"
+    },
+    {
+      "name": "Tile search",
+      "status": "passed"
+    },
+    {
+      "name": "Character tab data",
+      "status": "passed"
+    },
+    {
+      "name": "Next and previous handlers",
+      "status": "passed"
+    }
+  ],
+  "method": "Static JavaScript source executed against an in-memory mock DOM, with no browser or network",
+  "limits": "Does not assert real-browser layout or rendering. Browser file:// navigation was policy-blocked."
+}

@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/wind-north.png",
+  "sha256": "95bd2b0d38ed2b46107ba8e6b4b44bdbd36634bc4b75523e736c33771a60cb6b",
+  "createdAt": "2026-10-26T08:25:50.369Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wind-north.svg",
+    "sha256": "a5544fb3d3499124d94094d402540592661333ba508c56747c4728f4bb7514ee"
+  },
+  "semantic": {
+    "label": "北",
+    "suit": "winds",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "北"
+    ],
+    "whiteDragonFrame": false
+  }
+}

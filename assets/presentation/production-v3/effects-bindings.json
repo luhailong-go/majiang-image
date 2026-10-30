@@ -1,0 +1,1304 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T10:42:37.778643+00:00",
+  "scope": "Exact existing effect, prompt and runtime-state art bindings",
+  "status": "binding_reference_ready",
+  "projectRootRelativePaths": true,
+  "sourceManifestHashes": {
+    "assets/fx/full-game/manifest.json": "2954abd872bc8217232ba10bdb4e13112df3af0c798697aba4e860b453ddeacb",
+    "assets/ui/manifest.json": "a64a3a829d0744770cee2bf9aa23931049293ffa234f1d6fa32dbb0a40595a0f",
+    "assets/ui/production-v3/empty/manifest.json": "f405804177f49d454160b5cb66605e75b6b255f9a09ab6050931bb305cc0a17a"
+  },
+  "clientIntegrated": false,
+  "userApproved": false,
+  "validationScope": "Lightweight JSON/path checks only. Accepted bitmap QA is reused; no new raster batch, rendering or browser/engine test was started during exclusive heavy-job pause.",
+  "timelineSource": {
+    "file": "assets/fx/full-game/timelines.json",
+    "sha256": "02128358181d906fee4655ac86d493574c6032b2b563dfdc0155f927c86fabc8"
+  },
+  "runtimeClipSource": {
+    "file": "assets/fx/full-game/animation-clips.json",
+    "sha256": "bd7cd82ad98306ded41d12e586a97e79f8271361738d4ae710b6a72ef6cc1aa0"
+  },
+  "clips": [
+    {
+      "id": "draw-focus",
+      "trigger": "game.tile_draw.confirmed",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "draw-focus-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/draw-focus-00.png",
+          "record": "assets/fx/full-game/frames/draw-focus-00.png.generation.json",
+          "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "draw-focus-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/draw-focus-01.png",
+          "record": "assets/fx/full-game/frames/draw-focus-01.png.generation.json",
+          "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "draw-focus-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/draw-focus-02.png",
+          "record": "assets/fx/full-game/frames/draw-focus-02.png.generation.json",
+          "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "draw-focus-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/draw-focus-03.png",
+          "record": "assets/fx/full-game/frames/draw-focus-03.png.generation.json",
+          "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        83,
+        84,
+        116,
+        117
+      ],
+      "totalDurationMs": 400,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 80,
+      "layerPurpose": "brief noninteractive overlay at event location",
+      "stopWhen": "complete, scene exit, or superseded event",
+      "noInputHitArea": true
+    },
+    {
+      "id": "discard-impact",
+      "trigger": "game.tile_discard.confirmed",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "discard-impact-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/discard-impact-00.png",
+          "record": "assets/fx/full-game/frames/discard-impact-00.png.generation.json",
+          "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "discard-impact-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/discard-impact-01.png",
+          "record": "assets/fx/full-game/frames/discard-impact-01.png.generation.json",
+          "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "discard-impact-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/discard-impact-02.png",
+          "record": "assets/fx/full-game/frames/discard-impact-02.png.generation.json",
+          "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "discard-impact-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/discard-impact-03.png",
+          "record": "assets/fx/full-game/frames/discard-impact-03.png.generation.json",
+          "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        67,
+        66,
+        84,
+        116
+      ],
+      "totalDurationMs": 333,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 80,
+      "layerPurpose": "brief noninteractive overlay at event location",
+      "stopWhen": "complete, scene exit, or superseded event",
+      "noInputHitArea": true
+    },
+    {
+      "id": "player-ring",
+      "trigger": "game.current_player.changed",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "player-ring-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/player-ring-00.png",
+          "record": "assets/fx/full-game/frames/player-ring-00.png.generation.json",
+          "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "player-ring-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/player-ring-01.png",
+          "record": "assets/fx/full-game/frames/player-ring-01.png.generation.json",
+          "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "player-ring-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/player-ring-02.png",
+          "record": "assets/fx/full-game/frames/player-ring-02.png.generation.json",
+          "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "player-ring-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/player-ring-03.png",
+          "record": "assets/fx/full-game/frames/player-ring-03.png.generation.json",
+          "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        167,
+        166,
+        167,
+        167
+      ],
+      "totalDurationMs": 667,
+      "loop": true,
+      "onComplete": "repeat",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 0,
+      "layerPurpose": "avatar ring behind active seat portrait",
+      "stopWhen": "current player changes or table is left",
+      "noInputHitArea": true
+    },
+    {
+      "id": "hu-burst",
+      "trigger": "game.hu.confirmed",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "hu-burst-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/hu-burst-00.png",
+          "record": "assets/fx/full-game/frames/hu-burst-00.png.generation.json",
+          "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "hu-burst-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/hu-burst-01.png",
+          "record": "assets/fx/full-game/frames/hu-burst-01.png.generation.json",
+          "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "hu-burst-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/hu-burst-02.png",
+          "record": "assets/fx/full-game/frames/hu-burst-02.png.generation.json",
+          "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "hu-burst-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/hu-burst-03.png",
+          "record": "assets/fx/full-game/frames/hu-burst-03.png.generation.json",
+          "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        117,
+        83,
+        133,
+        200
+      ],
+      "totalDurationMs": 533,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 80,
+      "layerPurpose": "brief noninteractive overlay at event location",
+      "stopWhen": "complete, scene exit, or superseded event",
+      "noInputHitArea": true
+    },
+    {
+      "id": "victory-confetti",
+      "trigger": "result.local_outcome.win",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "victory-confetti-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+          "record": "assets/fx/full-game/frames/victory-confetti-00.png.generation.json",
+          "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "victory-confetti-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+          "record": "assets/fx/full-game/frames/victory-confetti-01.png.generation.json",
+          "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "victory-confetti-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+          "record": "assets/fx/full-game/frames/victory-confetti-02.png.generation.json",
+          "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "victory-confetti-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+          "record": "assets/fx/full-game/frames/victory-confetti-03.png.generation.json",
+          "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        133,
+        134,
+        166,
+        234
+      ],
+      "totalDurationMs": 667,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 80,
+      "layerPurpose": "brief noninteractive overlay at event location",
+      "stopWhen": "complete, scene exit, or superseded event",
+      "noInputHitArea": true
+    },
+    {
+      "id": "reward-stars",
+      "trigger": "reward.receipt.confirmed",
+      "artMethod": "generated_phase_sheet",
+      "frames": [
+        {
+          "assetId": "reward-stars-00",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/reward-stars-00.png",
+          "record": "assets/fx/full-game/frames/reward-stars-00.png.generation.json",
+          "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "reward-stars-01",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/reward-stars-01.png",
+          "record": "assets/fx/full-game/frames/reward-stars-01.png.generation.json",
+          "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "reward-stars-02",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/reward-stars-02.png",
+          "record": "assets/fx/full-game/frames/reward-stars-02.png.generation.json",
+          "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        {
+          "assetId": "reward-stars-03",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/frames/reward-stars-03.png",
+          "record": "assets/fx/full-game/frames/reward-stars-03.png.generation.json",
+          "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        }
+      ],
+      "durationMs": [
+        100,
+        100,
+        150,
+        250
+      ],
+      "totalDurationMs": 600,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "optionalCrossfadeMs": 33,
+      "optionalFinalFadeOutMs": 80,
+      "layerPurpose": "brief noninteractive overlay at event location",
+      "stopWhen": "complete, scene exit, or superseded event",
+      "noInputHitArea": true
+    }
+  ],
+  "callouts": [
+    {
+      "event": "game.chi.confirmed",
+      "label": "吃",
+      "asset": {
+        "assetId": "chi",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/chi.png",
+        "record": "assets/fx/full-game/callouts/chi.png.generation.json",
+        "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "game.peng.confirmed",
+      "label": "碰",
+      "asset": {
+        "assetId": "peng",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/peng.png",
+        "record": "assets/fx/full-game/callouts/peng.png.generation.json",
+        "sha256": "af84cde9b3d469c089a5d093e0623657a2d3e381d178598824d61fb954cb1c3d",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "game.gang.confirmed",
+      "label": "杠",
+      "asset": {
+        "assetId": "gang",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/gang.png",
+        "record": "assets/fx/full-game/callouts/gang.png.generation.json",
+        "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "game.hu.confirmed",
+      "label": "胡",
+      "asset": {
+        "assetId": "hu",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/hu.png",
+        "record": "assets/fx/full-game/callouts/hu.png.generation.json",
+        "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "game.ready_hand.confirmed",
+      "label": "听",
+      "asset": {
+        "assetId": "ting",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/ting.png",
+        "record": "assets/fx/full-game/callouts/ting.png.generation.json",
+        "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "game.self_draw.confirmed",
+      "label": "自摸",
+      "asset": {
+        "assetId": "self-draw",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/self-draw.png",
+        "record": "assets/fx/full-game/callouts/self-draw.png.generation.json",
+        "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "result.round_draw",
+      "label": "流局",
+      "asset": {
+        "assetId": "draw",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/draw.png",
+        "record": "assets/fx/full-game/callouts/draw.png.generation.json",
+        "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    },
+    {
+      "event": "result.local_outcome.win",
+      "label": "胜利",
+      "asset": {
+        "assetId": "victory",
+        "sourceManifest": "assets/fx/full-game/manifest.json",
+        "file": "assets/fx/full-game/callouts/victory.png",
+        "record": "assets/fx/full-game/callouts/victory.png.generation.json",
+        "sha256": "cbd9d59a728a4889ebdd28bee0680672d7c39d6601eb5711ee7d29848aab40dd",
+        "sizePx": [
+          768,
+          512
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          384,
+          256
+        ],
+        "anchorUnits": "pixels",
+        "nineSlice": null,
+        "resizePolicy": "uniform_scale_only"
+      },
+      "visibleWhen": "confirmed event only; rule legality is provided by the game",
+      "fit": "uniform contain",
+      "position": "event seat / safe overlay area; do not cover hand or legal-action controls"
+    }
+  ],
+  "promptBase": {
+    "assetId": "callout-base",
+    "sourceManifest": "assets/fx/full-game/manifest.json",
+    "file": "assets/fx/full-game/callout-base.png",
+    "record": "assets/fx/full-game/callout-base.png.generation.json",
+    "sha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb",
+    "sizePx": [
+      768,
+      512
+    ],
+    "mode": "RGBA",
+    "anchor": [
+      384,
+      256
+    ],
+    "anchorUnits": "pixels",
+    "nineSlice": null,
+    "resizePolicy": "uniform_scale_only"
+  },
+  "settlement": {
+    "outcomeBinding": "result.localOutcome",
+    "enum": [
+      "win",
+      "loss",
+      "draw"
+    ],
+    "scoreBinding": "result.players[seatIndex].score",
+    "nameBinding": "result.players[seatIndex].name",
+    "characterBinding": "result.players[seatIndex].characterId",
+    "card": {
+      "assetId": "settlement-card",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "record": "assets/ui/gameplay/settlement-card.png.generation.json",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "sizePx": [
+        285,
+        360
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "scoreColors": {
+      "positive": "#B52F20",
+      "negative": "#196448",
+      "zero": "#183D35"
+    },
+    "states": {
+      "win": {
+        "calloutId": "victory",
+        "clipId": "victory-confetti",
+        "nativeResultTextBinding": "result.title",
+        "excludeAssets": [
+          "settlement-defeat",
+          "settlement-draw"
+        ]
+      },
+      "loss": {
+        "decoration": {
+          "assetId": "settlement-defeat",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/settlement-defeat.png",
+          "record": "assets/fx/full-game/settlement-defeat.png.generation.json",
+          "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        "nativeResultTextBinding": "result.title",
+        "nativeResultTextRequired": true,
+        "excludeCallouts": [
+          "victory",
+          "draw"
+        ],
+        "excludeClips": [
+          "victory-confetti"
+        ]
+      },
+      "draw": {
+        "decoration": {
+          "assetId": "settlement-draw",
+          "sourceManifest": "assets/fx/full-game/manifest.json",
+          "file": "assets/fx/full-game/settlement-draw.png",
+          "record": "assets/fx/full-game/settlement-draw.png.generation.json",
+          "sha256": "b75f8593d875ab9b4bb3b495634fb841a4ccf9e8c0ae71bd0a7c5d118ed9cc7d",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            256,
+            256
+          ],
+          "anchorUnits": "pixels",
+          "nineSlice": null,
+          "resizePolicy": "uniform_scale_only"
+        },
+        "calloutId": "draw",
+        "nativeResultText": "流局",
+        "nativeResultTextRequired": true,
+        "excludeCallouts": [
+          "victory"
+        ],
+        "excludeClips": [
+          "victory-confetti"
+        ]
+      }
+    },
+    "rules": [
+      "Exactly one result outcome is visible. Four scores use four distinct seat-index bindings.",
+      "An all-zero score does not by itself prove 流局; the server/rules provide round outcome.",
+      "Zero scores do not use positive/negative colors. No score sample defines a regional scoring rule.",
+      "Optional sad/happy portrait feedback follows explicit participant outcome, never hardwired all-happy or all-sad."
+    ],
+    "portraitBinding": "result.players[seatIndex].portrait",
+    "localPlayerNameBinding": "result.localPlayerName",
+    "localPlayerIndexBinding": "result.localPlayerIndex",
+    "localOutcomeBinding": "result.localOutcome",
+    "outcomeMustNotBeInferredFromScore": true
+  },
+  "sharedStateAssets": {
+    "tooltip-bubble": {
+      "assetId": "tooltip-bubble",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "record": "assets/ui/common/tooltip-bubble.png.generation.json",
+      "sha256": "af225de902f6aad2c61e930e1af2c2cf93eea3b0c5db828f35eea67f4e66dfc1",
+      "sizePx": [
+        516,
+        203
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "content-card": {
+      "assetId": "content-card",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/content-card.png",
+      "record": "assets/ui/common/content-card.png.generation.json",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "sizePx": [
+        582,
+        235
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "modal-shade": {
+      "assetId": "modal-shade",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/modal-shade.png",
+      "record": "assets/ui/common/modal-shade.png.generation.json",
+      "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d",
+      "sizePx": [
+        8,
+        8
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "viewport_stretch",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "reason": "Constant RGBA runtime overlay."
+      }
+    },
+    "loading-ring": {
+      "assetId": "loading-ring",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/loading-ring.png",
+      "record": "assets/ui/common/loading-ring.png.generation.json",
+      "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951",
+      "sizePx": [
+        215,
+        226
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "offline-badge": {
+      "assetId": "offline-badge",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "record": "assets/ui/gameplay/offline-badge.png.generation.json",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "sizePx": [
+        276,
+        266
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "autoplay-badge": {
+      "assetId": "autoplay-badge",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "record": "assets/ui/gameplay/autoplay-badge.png.generation.json",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "sizePx": [
+        276,
+        266
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "button-primary-normal": {
+      "assetId": "button-primary-normal",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "record": "assets/ui/common/button-primary-normal.png.generation.json",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "sizePx": [
+        577,
+        178
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-secondary-normal": {
+      "assetId": "button-secondary-normal",
+      "sourceManifest": "assets/ui/manifest.json",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "record": "assets/ui/common/button-secondary-normal.png.generation.json",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "sizePx": [
+        577,
+        178
+      ],
+      "mode": "RGBA",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorUnits": "normalized",
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    }
+  },
+  "readyHand": {
+    "stateId": "play.ready_hand",
+    "skinId": "tooltip-bubble",
+    "skinSource": "assets/ui/common/tooltip-bubble.png",
+    "titleNative": "听牌提示",
+    "tileManifest": "assets/tiles/manifest.json",
+    "tileIdsBinding": "readyHand.options[optionIndex].tileId",
+    "remainingBinding": "readyHand.options[optionIndex].remainingCount",
+    "remainingLabelNative": "余 {remainingCount} 张",
+    "visibleBinding": "readyHand.available",
+    "calloutId": "ting",
+    "rules": [
+      "The persistent ready-hand panel and brief 听 callout are distinct.",
+      "Use actual face PNG by tileId, no mirrored glyphs, uniformly scaled.",
+      "Empty options hides the panel; do not invent legal wins or remaining counts."
+    ]
+  },
+  "network": {
+    "connectionIllustration": {
+      "assetId": "connection-interrupted",
+      "sourceManifest": "assets/ui/production-v3/empty/manifest.json",
+      "file": "assets/ui/production-v3/empty/connection-interrupted.png",
+      "record": "assets/ui/production-v3/empty/connection-interrupted.png.generation.json",
+      "sha256": "d6e96513a611b728252b32d6766b881d0a6a3a6b19b2d51510aef03d07578dc4",
+      "sizePx": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "anchorUnits": "normalized",
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      }
+    },
+    "states": {
+      "disconnected": {
+        "nativeTitle": "连接中断",
+        "illustrationId": "connection-interrupted",
+        "spinnerVisible": false,
+        "retryActionEnabled": true
+      },
+      "reconnecting": {
+        "nativeTitle": "正在尝试恢复连接",
+        "illustrationId": "connection-interrupted",
+        "spinnerId": "loading-ring",
+        "spinnerVisible": true,
+        "retryActionEnabled": false
+      },
+      "recovery_failed": {
+        "nativeTitle": "恢复失败，可重新连接或返回大厅",
+        "illustrationId": "connection-interrupted",
+        "spinnerVisible": false,
+        "retryActionEnabled": true,
+        "backLobbyActionVisible": true
+      },
+      "connected": {
+        "visible": false
+      }
+    },
+    "overlayShadeId": "modal-shade",
+    "loaderAnimation": "native rotation / reduced-motion static; no new drawn animation claimed",
+    "layoutRules": [
+      "Spinner and native status text must use disjoint rectangles.",
+      "Connection interruption of a peer uses offline-badge on that seat, not autoplay-badge.",
+      "Autoplay and network connection are independent values and may coexist.",
+      "Restore controls only after successful authoritative state recovery; stale board state is not accepted as connected."
+    ]
+  },
+  "stateBindingNotes": {
+    "animationIsNotVideo": true,
+    "clickAvailability": "provided by game/rules, not artwork",
+    "clientText": "Chinese titles, scores, counters and error reasons are native labels. Fonts are not redistributed."
+  }
+}

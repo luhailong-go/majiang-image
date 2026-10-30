@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/chrysanthemum.label.svg",
+  "sha256": "7a70cbaa20a90be8e671ede0b0b79065dfaea57a5c79e25ff7ad5d8927bdb683",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

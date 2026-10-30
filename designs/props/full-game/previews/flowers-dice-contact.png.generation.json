@@ -1,0 +1,91 @@
+{
+  "file": "designs/props/full-game/previews/flowers-dice-contact.png",
+  "sha256": "5c1f90cab7dfa0ba986e9da64c099b08a4cea41340fd9e0dcc1e94b177365bc5",
+  "createdAt": "2026-10-26T16:41:12.148388+00:00",
+  "tool": "Pillow labeled contact preview",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Contact sheet assembly only, no model generation",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/flowers/plum.png",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "generationRecord": "assets/tiles/flowers/plum.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/orchid.png",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "generationRecord": "assets/tiles/flowers/orchid.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/bamboo.png",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "generationRecord": "assets/tiles/flowers/bamboo.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "generationRecord": "assets/tiles/flowers/chrysanthemum.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/spring.png",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "generationRecord": "assets/tiles/flowers/spring.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/summer.png",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "generationRecord": "assets/tiles/flowers/summer.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/autumn.png",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "generationRecord": "assets/tiles/flowers/autumn.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/winter.png",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "generationRecord": "assets/tiles/flowers/winter.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-1.png",
+      "sha256": "4cee5f5c1b2c517d6aa3959c87c00841f476b2b336eebc7f923ba09f9d8e929b",
+      "generationRecord": "assets/props/full-game/dice/dice-1.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-2.png",
+      "sha256": "0e28ae3b1d0986b3e5984b0c4fca8574b2340ff12afd6068223badf633023f21",
+      "generationRecord": "assets/props/full-game/dice/dice-2.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-3.png",
+      "sha256": "ec5b83260aa7f964ad2930a4bf17f302a5343c3a15f1a05314ad6983eb65f6de",
+      "generationRecord": "assets/props/full-game/dice/dice-3.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-4.png",
+      "sha256": "4db154fd8c3e27371f5395f1f1f7f93ed16f7a5ff4e87bb64b82ac54de243bc7",
+      "generationRecord": "assets/props/full-game/dice/dice-4.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-5.png",
+      "sha256": "e152e38d6468ef64147b225323ad894e06e5eaaa00b5d24ac127bfd7ef17b7b5",
+      "generationRecord": "assets/props/full-game/dice/dice-5.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-6.png",
+      "sha256": "52323351d35bf9e1c03848d3c1f0ac8893a076adefc638ccc5f95cc5320b9ace",
+      "generationRecord": "assets/props/full-game/dice/dice-6.png.generation.json"
+    }
+  ],
+  "operation": "uniform downscale and compose final assets with native preview labels",
+  "width": 1610,
+  "height": 630,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual preview inspection",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  }
+}

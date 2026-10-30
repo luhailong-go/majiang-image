@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "scope": "Independent read-only visual QA of 11 new UI25—UI32 final PNGs; excludes ui27-tutorial-select-source.png",
+  "reviewer": "mahjong_tiles_pack: initial 11-image review; root coordinator: corrected UI25-only independent recheck",
+  "reviewedAt": "2026-10-26T20:51:17.323021+00:00",
+  "productionFilesModified": false,
+  "modelCalls": 0,
+  "files": [
+    {
+      "file": "designs/ui/full-game/core/ui25-customization.png",
+      "before": {
+        "sha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+        "length": 2510261,
+        "observedAt": "2026-10-26T20:51:17.323021+00:00"
+      },
+      "after": {
+        "sha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+        "length": 2510261,
+        "observedAt": "2026-10-26T20:51:17.323021+00:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Root coordinator actually opened the complete corrected native PNG via view_image(detail=original); production image was not modified by reviewer",
+      "id": "UI25",
+      "title": "装扮设置",
+      "status": "passed",
+      "checks": [
+        "Chinese headings, two skin families, preview area and apply/back controls legible",
+        "Selected tabletop and back visual match current preview",
+        "No prices or recharge",
+        "Corrected current-use tile-back label 太极青玉 agrees with the selected back; tablecloth remains 青玉云纹"
+      ],
+      "findings": [],
+      "nonblockingNotes": [
+        "Selected cosmetics already match current use while preview/apply remains enabled; acceptable idempotent concept example, recommend explicit client state binding."
+      ],
+      "previousRevisionReview": {
+        "before": {
+          "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+          "length": 2642056,
+          "observedAt": "2026-10-26T13:49:08.9527187-04:00"
+        },
+        "after": {
+          "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+          "length": 2642056,
+          "observedAt": "2026-10-26T14:16:19.7108755-04:00"
+        },
+        "status": "needs_ui25_label_fix",
+        "findings": [
+          {
+            "severity": "P3",
+            "status": "open",
+            "kind": "label_mismatch",
+            "area": "Lower current-use preview, right thumbnail label",
+            "observed": "Label above current jade tile-back thumbnail is 青玉云纹, while right-side selected card is 太极青玉; 青玉云纹 names the tablecloth.",
+            "required": "Use 太极青玉 for the current tile-back label, matching its selected card."
+          }
+        ]
+      },
+      "recheck": {
+        "reviewer": "root coordinator",
+        "reviewedAt": "2026-10-26T20:51:17.323021+00:00",
+        "method": "actual full-image visual review plus current SHA-256; other ten unchanged-image reviews reused",
+        "status": "passed",
+        "sha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+        "modelCalls": 0,
+        "productionFilesModified": false
+      }
+    },
+    {
+      "file": "designs/ui/full-game/core/ui26-character-detail.png",
+      "before": {
+        "sha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+        "length": 2864427,
+        "observedAt": "2026-10-26T13:49:09.1210593-04:00"
+      },
+      "after": {
+        "sha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+        "length": 2864427,
+        "observedAt": "2026-10-26T14:16:19.7172673-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI26",
+      "title": "角色详情",
+      "status": "passed",
+      "checks": [
+        "金带道童 identity preserved: brown spikes, golden headband, jade/ivory attire, Taiji gourd",
+        "Four distinct expression previews labeled 微笑/喝彩/思考/问候",
+        "当前使用 and disabled 已使用 agree",
+        "Cosmetic-only note visible; no gameplay advantage or price"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+      "before": {
+        "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+        "length": 2433860,
+        "observedAt": "2026-10-26T13:49:09.2124831-04:00"
+      },
+      "after": {
+        "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+        "length": 2433860,
+        "observedAt": "2026-10-26T14:16:19.7197261-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI27-actions",
+      "title": "教学·操作",
+      "status": "passed",
+      "checks": [
+        "Step 1 done, step 2 active, step 3 inactive",
+        "碰 available green, 杠/胡 gray unavailable, 过 distinct",
+        "Text explicitly says bright is available, gray unavailable, current room rules prevail",
+        "No invented regional hand scoring; illustrative action state rather than live legality proof"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+      "before": {
+        "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+        "length": 2490160,
+        "observedAt": "2026-10-26T13:49:09.3032021-04:00"
+      },
+      "after": {
+        "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+        "length": 2490160,
+        "observedAt": "2026-10-26T14:16:19.7224581-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI27-complete",
+      "title": "教学·完成",
+      "status": "passed",
+      "checks": [
+        "Steps 1/2 checked, step 3 active",
+        "Complete explanation and current-room rule lookup note clear",
+        "再看一次/返回大厅/上一步 distinguishable"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+      "before": {
+        "sha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+        "length": 2310801,
+        "observedAt": "2026-10-26T13:49:09.3834036-04:00"
+      },
+      "after": {
+        "sha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+        "length": 2310801,
+        "observedAt": "2026-10-26T14:16:19.7312748-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI27-select",
+      "title": "教学·选牌",
+      "status": "passed",
+      "checks": [
+        "Step 1 active; steps 2/3 inactive",
+        "Instruction says click hand tile to view selection",
+        "Actual third tile 三萬 is raised/highlighted under pointer",
+        "Back/Next/Skip clear, 引导示例 visible"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui28-announcement.png",
+      "before": {
+        "sha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+        "length": 2619645,
+        "observedAt": "2026-10-26T13:49:09.4620769-04:00"
+      },
+      "after": {
+        "sha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+        "length": 2619645,
+        "observedAt": "2026-10-26T14:16:19.7340498-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI28",
+      "title": "公告",
+      "status": "passed",
+      "checks": [
+        "Title, date and all Chinese body lines readable",
+        "Friend-room/relaxed matching content generic",
+        "Close and return controls visible",
+        "Example-module note present; no prices or fake regional rules"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-claimed.png",
+      "before": {
+        "sha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+        "length": 2511343,
+        "observedAt": "2026-10-26T13:49:09.526438-04:00"
+      },
+      "after": {
+        "sha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+        "length": 2511343,
+        "observedAt": "2026-10-26T14:16:19.7365554-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI29-claimed",
+      "title": "奖励·已领取",
+      "status": "passed",
+      "checks": [
+        "Same two reward types and counts as pending counterpart",
+        "Both rewards marked 已领取, main claimed control gray",
+        "领取成功 feedback present",
+        "No remaining 待领取 or enabled claim action"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+      "before": {
+        "sha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+        "length": 2614691,
+        "observedAt": "2026-10-26T13:49:09.6496679-04:00"
+      },
+      "after": {
+        "sha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+        "length": 2614691,
+        "observedAt": "2026-10-26T14:16:19.7395172-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI29-pending",
+      "title": "奖励·待领取",
+      "status": "passed",
+      "checks": [
+        "Both example rewards marked 待领取 only",
+        "Enabled 领取奖励 plus 返回大厅",
+        "No simultaneous 已领取/领取成功",
+        "Reward and module example notes present"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui30-achievements.png",
+      "before": {
+        "sha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+        "length": 2590478,
+        "observedAt": "2026-10-26T13:49:09.7373587-04:00"
+      },
+      "after": {
+        "sha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+        "length": 2590478,
+        "observedAt": "2026-10-26T14:16:19.7421903-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI30",
+      "title": "成就收藏",
+      "status": "passed",
+      "checks": [
+        "1/1 filled bar 已解锁",
+        "3/10 partly filled bar 进行中",
+        "0/5 empty bar gray locked icon 未解锁",
+        "No claimable/redeem pricing or regional scoring invented"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui31-ranking.png",
+      "before": {
+        "sha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+        "length": 2788146,
+        "observedAt": "2026-10-26T13:49:09.8680334-04:00"
+      },
+      "after": {
+        "sha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+        "length": 2788146,
+        "observedAt": "2026-10-26T14:16:19.7464627-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI31",
+      "title": "排行榜",
+      "status": "passed",
+      "checks": [
+        "Top three distinct boy/healer/master identities and ranked cards",
+        "Fourth swordswoman differs; remaining rows readable",
+        "Separate 我的位置信息 row, rank12, 我 and -12 jade-green",
+        "Positive scores red, examples flagged; no currency or cash ranking"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui32-item-collection.png",
+      "before": {
+        "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+        "length": 2518209,
+        "observedAt": "2026-10-26T13:49:09.9515898-04:00"
+      },
+      "after": {
+        "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+        "length": 2518209,
+        "observedAt": "2026-10-26T14:16:19.748943-04:00"
+      },
+      "hashStable": true,
+      "inspectionMethod": "Actual full-size PNG opened via view_image(detail=original); not thumbnail/contact-only",
+      "id": "UI32",
+      "title": "物品收藏",
+      "status": "passed",
+      "checks": [
+        "Inventory slots show 未使用/已选中/使用中 and empty slot distinctly",
+        "Selected gift box matches detail preview/title",
+        "Native counts visible, action labeled 使用 with 示例操作",
+        "No price/recharge or unspecified currency"
+      ],
+      "findings": [],
+      "nonblockingNotes": []
+    }
+  ],
+  "total": 11,
+  "hashStableCount": 11,
+  "passedCount": 11,
+  "openFindings": [],
+  "status": "passed",
+  "limitations": [
+    "Static art/source review does not verify actual client input, persistent selection, reward dispatch or gameplay legality.",
+    "UI25 same-selected-as-current apply behavior accepted as an idempotent concept example; actual state binding is client work."
+  ],
+  "resolvedFindings": [
+    {
+      "severity": "P3",
+      "status": "resolved",
+      "kind": "label_mismatch",
+      "area": "Lower current-use preview, right thumbnail label",
+      "observed": "Label above current jade tile-back thumbnail is 青玉云纹, while right-side selected card is 太极青玉; 青玉云纹 names the tablecloth.",
+      "required": "Use 太极青玉 for the current tile-back label, matching its selected card.",
+      "file": "designs/ui/full-game/core/ui25-customization.png",
+      "resolvedBy": "root coordinator, independent of supplemental page producer",
+      "resolvedAt": "2026-10-26T20:51:17.323021+00:00",
+      "fixedImageSha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3"
+    }
+  ],
+  "originalReviewedAt": "2026-10-26T18:16:19.8Z"
+}

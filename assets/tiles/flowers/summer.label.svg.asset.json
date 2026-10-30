@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/summer.label.svg",
+  "sha256": "bcbc57e6ce98001fc4ce78bbf078d3915c57784f40c91df3dd6f2548e05bdb8f",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

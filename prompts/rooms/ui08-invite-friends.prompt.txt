@@ -1,0 +1,11 @@
+Use case: ui-mockup
+Asset type: 麻将游戏完整UI独立整屏美术稿。直接输出单个完整界面，16:9横屏，目标2048×1152，非概览、非多屏拼图、无手机外框。
+Input images: 图片1为邮件UI主风格参考，图片2为组队UI主风格参考，图片3为本项目当前大厅。实际沿用三图的玉绿金边主按钮、米白纸绢面板、圆润云纹边角、温暖细金线、精细高清手绘完成度。不要复制邮件或组队内容和旧游戏名称。
+统一画面：明亮仙山道观庭院背景适度退后；大面积象牙米白纸绢圆润面板承托信息。顶部功能标题使用玉绿金边牌匾，主操作玉绿米白字，次操作米白底深玉绿字。留白充分、对齐工整，所有中文清楚且正确。只用少量桃花/灯笼/红穗，不要装饰遮住功能，不要3D塑料感、粗黑线、写实人物或现代扁平网页风。
+所有数字和玩家昵称均为界面演示样例，不在画面放“概念稿”“占位”“未接入”“开发”等制作术语。不出现正式游戏品牌、地方麻将名称、金钱、金币、房卡价格、赌博或支付。不要额外增加商业栏目。
+
+页面：邀请好友，作为独立完整16:9画面，邀请面板占大部分画布，外面是轻微退后的好友房庭院背景。顶部标题“邀请好友”，右上关闭X。面板顶部一条宽搜索框，放大镜图标与提示“搜索好友昵称或ID”，右侧“搜索”按钮；左边页签“全部好友”选中，旁边“在线好友”未选中。
+主体是四个宽敞、间距一致的横向好友行，头像风格彼此有区别。第1行白发簪花女孩头像，名字“桂枝”，绿色小圆点+“在线”，右侧玉绿按钮“邀请”；第2行黑发高马尾侠女头像，名字“墨翎”，绿色小圆点+“在线”，右侧米白不可点状态“已邀请”；第3行金发带棕刺发道童头像，名字“青云”，暖金小圆点+“忙碌”，右侧灰显按钮“邀请”；第4行灰眉温厚长者头像，名字“松隐”，灰色小圆点+“离线”，右侧灰显按钮“邀请”。头像人物均为Q版手绘，避免同脸换色。
+列表下方留白处有简洁提示“未找到好友？”，旁边小按钮“添加好友”；这表示无结果去向，不要同时写“暂无好友”与已有列表冲突。底部右侧“返回房间”次按钮。没有陌生充值、奖励、价格、排行榜。
+Render exact Chinese text, clean readable hierarchy, single finished full screen. Opaque background.
+Additional image4: seat-avatars-atlas-v1.png, the approved four-identity avatar reference. Use these exact identities wherever avatars appear: top-left gold-headband boy; top-right silver-haired healer; bottom-left white-brow elderly Taoist; bottom-right black-haired ponytail swordswoman. Preserve their distinct faces, hairstyles and costumes. Do not invent replacement characters.

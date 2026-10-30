@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/dragon-green.png",
+  "sha256": "ba18d07ad2d790f2074440493797716bc7ca926d9af2aa6d8399ee161e369d42",
+  "createdAt": "2026-10-26T08:25:50.435Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/dragon-green.svg",
+    "sha256": "55ca616646ad798f8023fe94de1f8efc4c211145995e8f8648fa488600ba5772"
+  },
+  "semantic": {
+    "label": "发",
+    "suit": "dragons",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "發"
+    ],
+    "whiteDragonFrame": false
+  }
+}

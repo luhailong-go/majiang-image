@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "scope": "Read-only integration tooling review; does not claim final production package acceptance",
+  "reviewer": "/root/full_game_fx",
+  "reviewedAt": "2026-10-26T16:29:48-04:00",
+  "sourceScripts": [
+    {
+      "file": "work/full-game-build.py",
+      "sha256": "149b446ee47de1ba9544a56ecdfc4e0fa70f8b6db2d6dfdf727b79d09c6a6fc0"
+    },
+    {
+      "file": "work/full-game-validate.py",
+      "sha256": "2878f883bf4a440fab8802f44bfd5361053900679f3e9611abf22467dd02757d"
+    },
+    {
+      "file": "work/full-game-finalize.py",
+      "sha256": "0990f33f24802cea12de5b227b2831884daec0fe674e1154a1089b0f5562ff66"
+    },
+    {
+      "file": "work/full-game-package.py",
+      "sha256": "61a24c7835efaa680b7c7dda27faafc1ccb0b97b13a8dbb6674225619f898c40"
+    },
+    {
+      "file": "work/full-game-gallery-tests.cjs",
+      "sha256": "aca88449e4effe14fdcbdb5fd370265b9da1bd4cb851f6b8353c33a57903716f"
+    },
+    {
+      "file": "work/full-game-freshness.py",
+      "sha256": "944612eb1b34199f4f1139ba447ff8cae5931c8aa4b143449ceee3544a35571b"
+    }
+  ],
+  "scriptSyntax": {
+    "work/full-game-build.py": "passed_python_ast",
+    "work/full-game-validate.py": "passed_python_ast",
+    "work/full-game-finalize.py": "passed_python_ast",
+    "work/full-game-package.py": "passed_python_ast",
+    "work/full-game-freshness.py": "passed_python_ast",
+    "work/full-game-gallery-tests.cjs": "passed_node_check"
+  },
+  "resolvedFindings": [
+    {
+      "id": "null_dependency_list",
+      "severity": "P1",
+      "files": [
+        "work/full-game-validate.py"
+      ],
+      "status": "resolved",
+      "found": "Existing modal-shade record has derivedFrom:null; original record() raised TypeError.",
+      "fix": "values=d.get(key) or []",
+      "recheck": "Extracted actual validator functions and read the real modal-shade generation record; no exception, zero errors."
+    },
+    {
+      "id": "external_absolute_dependency_bypass",
+      "severity": "P2",
+      "files": [
+        "work/full-game-validate.py"
+      ],
+      "status": "resolved",
+      "found": "dep() silently returned for a missing absolute source path outside project, bypassing evidence checks.",
+      "fix": "External dependency now records nonportable dependency error; provider source.toolNativeOutput is not traversed as runtime dependency.",
+      "recheck": "Read-only missing-path probe now produces one explicit error; actual project records currently contain zero external derived/reference paths."
+    },
+    {
+      "id": "documented_powershell_helper_omission",
+      "severity": "P2",
+      "files": [
+        "work/full-game-package.py"
+      ],
+      "status": "resolved",
+      "found": "Suffix whitelist omitted documented assets/tiles/tools/export-font-paths.ps1; work dependency regex also omitted ps1.",
+      "fix": "Both whitelist and work-reference regex include ps1.",
+      "recheck": "Actual script inspection confirms both changes; primary helper under assets is now selected. Unreferenced working helpers are not required runtime files."
+    },
+    {
+      "id": "expression_role_schema",
+      "severity": "P2",
+      "files": [
+        "work/full-game-build.py",
+        "work/full-game-validate.py"
+      ],
+      "status": "resolved",
+      "found": "Actual character manifest uses role expression_avatar, while exact comparison expression counted zero.",
+      "fix": "Both accepted role values counted.",
+      "recheck": "Actual built manifest now contains16 expression resources; expression- IDs also satisfy gallery search test."
+    },
+    {
+      "id": "reused_daotong_duplicate_and_role_loss",
+      "severity": "P2",
+      "files": [
+        "work/full-game-build.py"
+      ],
+      "status": "resolved",
+      "found": "Copy of existing daotong caused5 bodies/271 primary; first alias fix then retained a legacy row with no role, causing3 bodies.",
+      "fix": "Alias same accepted SHA once, retain old file/record, copy role/identity/anchor/scaleMode into retained row. Character domain now directly references old file.",
+      "recheck": "Executed actual character-merge AST in memory:24 character entries,4 bodies,16 expressions. Built total is270 and no duplicate primary files."
+    },
+    {
+      "id": "stale_validation_completion_package_gate",
+      "severity": "P2",
+      "files": [
+        "work/full-game-finalize.py",
+        "work/full-game-package.py",
+        "work/full-game-validate.py",
+        "work/full-game-freshness.py"
+      ],
+      "status": "resolved",
+      "found": "Old passed status alone could approve changed disk assets or a rebuilt manifest without matching validation snapshot.",
+      "fix": "Canonical primaryAssetSnapshotSha256, recordHashes and sourceManifestHashes locked by shared assert_fresh before completion or packaging.",
+      "recheck": "Five read-only in-memory cases passed: current files accepted; changed asset list, incorrect actual PNG digest, record digest and source-manifest set/digest rejected."
+    }
+  ],
+  "openFindings": [],
+  "manifestCompatibilityChecks": {
+    "primaryCount": 270,
+    "uniquePrimaryFileCount": 270,
+    "uniquePrimaryKeyCount": 270,
+    "fullBodies": 4,
+    "expressions": 16,
+    "propsWithoutFlowerDuplicates": 34,
+    "optionalFlowers": 8,
+    "flowersNotAlsoProps": true,
+    "characterAliasCount": 1,
+    "galleryTestStatus": "passed",
+    "galleryTestCount": 26
+  },
+  "historicalDeletionRule": "Missing historical source accepted only with an adjacent retained generation record, pixelsRetainedInProject=false, explicit reason, expected pre-removal SHA and extant replacement. No automatic Git/history restoration or blanket missing-file acceptance.",
+  "packagePolicyChecks": {
+    "oldZipSelected": false,
+    "zipExclusionBasis": "Production folders plus explicit export list use an extension allowlist without .zip; prior package is not recursively included.",
+    "credentialPatternHitsInReadOnlySelectionScan": 0,
+    "scanPatterns": "OpenAI-style secret tokens and private-key PEM markers; matched values never printed",
+    "configFilesActuallySeen": [
+      "config/image-generation.json",
+      "config/ui-tokens.json"
+    ],
+    "documentedPs1HelperIncludedAfterFix": true,
+    "workPs1ReferenceDiscoveryEnabled": true,
+    "incomingReferenceInstructionsExplicitlyIncluded": true,
+    "incomingUserImagesNotRecursivelyBundled": true
+  },
+  "freshnessReadOnlyCases": [
+    {
+      "name": "fresh current files accepted",
+      "passed": true
+    },
+    {
+      "name": "changed asset list rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong actual PNG digest rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong record digest rejected",
+      "passed": true
+    },
+    {
+      "name": "source manifest set/digest change rejected",
+      "passed": true
+    }
+  ],
+  "executionLimits": {
+    "integrationTopLevelScriptsExecutedByReviewer": false,
+    "zipCreatedByReviewer": false,
+    "gitOperations": false,
+    "formalDomainsOrRootScriptsEditedByReviewer": false
+  },
+  "artifactStateObservedSeparately": {
+    "deliveryStatus": "pending_full_game_final_validation",
+    "validationStatus": "failed",
+    "validationOpenErrors": [
+      "unrecorded media assets/characters/full-game/preview-bodies-dark.png",
+      "unrecorded media assets/characters/full-game/preview-bodies-light.png",
+      "unrecorded media assets/characters/full-game/preview-expressions-dark.png",
+      "unrecorded media assets/characters/full-game/preview-expressions-light.png",
+      "independent QA unresolved work/full-game-props/ui-pages-independent-qa.json"
+    ],
+    "note": "Any pending character preview sidecars or UI25 independent review are production-artifact work already assigned by root, not defects inferred merely from unfinished manifests. Completion scripts correctly require passed validation/reviews; root will rerun final integration after those settle."
+  },
+  "lastAddendum": "Root added only references/incoming/README.md to explicit package files; read-only source check confirms no recursive inclusion of incoming uploads."
+}

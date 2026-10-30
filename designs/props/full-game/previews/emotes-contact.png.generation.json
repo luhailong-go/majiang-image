@@ -1,0 +1,81 @@
+{
+  "file": "designs/props/full-game/previews/emotes-contact.png",
+  "sha256": "39a75fa0c61c8ebe56e0b443dc130987edbe8efe9e1a4f4799093468c61e081c",
+  "createdAt": "2026-10-26T16:41:11.909492+00:00",
+  "tool": "Pillow labeled contact preview",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Contact sheet assembly only, no model generation",
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/emotes/approval.png",
+      "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+      "generationRecord": "assets/props/full-game/emotes/approval.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/applause.png",
+      "sha256": "33e5c39d454ca3b38663ad3c11f7f4b336c24701ed1d4bddc5da9c8e78f4d9bb",
+      "generationRecord": "assets/props/full-game/emotes/applause.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/respect.png",
+      "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+      "generationRecord": "assets/props/full-game/emotes/respect.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/thinking.png",
+      "sha256": "2c7786b555fa13456971d9ce1c26128392fffdc0e4629cf0537cf836c8d9c6ef",
+      "generationRecord": "assets/props/full-game/emotes/thinking.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/surprise.png",
+      "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+      "generationRecord": "assets/props/full-game/emotes/surprise.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/big-laugh.png",
+      "sha256": "fc9b4a5e8703151ac180f502d672b0f395e5fba33a065d3061f668a2de4f7a4a",
+      "generationRecord": "assets/props/full-game/emotes/big-laugh.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/aggrieved.png",
+      "sha256": "14fca0aa8d61bc07b74224d0fb7e67d59e0d599c3a103589cfa0b1c8867d8f39",
+      "generationRecord": "assets/props/full-game/emotes/aggrieved.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/cheer-on.png",
+      "sha256": "9d12615cc9109750592bacbf251865611d80fc1386c095f28dcd845535d5d66b",
+      "generationRecord": "assets/props/full-game/emotes/cheer-on.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/wait.png",
+      "sha256": "af0b09031de22d860b64f348b352f233ab8c825e0b5464c525fbe4fda85b6ccc",
+      "generationRecord": "assets/props/full-game/emotes/wait.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/sorry.png",
+      "sha256": "41a208f58702125fc8c02349b2e8f4ff154e72d1255d1eba420bdcd8e184f2c2",
+      "generationRecord": "assets/props/full-game/emotes/sorry.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/celebrate.png",
+      "sha256": "f37d277f09c4d5f524e52965b8c74d2223a2e29f3036f7195d57b64b620b3c0e",
+      "generationRecord": "assets/props/full-game/emotes/celebrate.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/hello.png",
+      "sha256": "e8eb609248c25bb0a7ff3b75855c6c289f31d213feb25b2f4b739d6a4bee8f03",
+      "generationRecord": "assets/props/full-game/emotes/hello.png.generation.json"
+    }
+  ],
+  "operation": "uniform downscale and compose final assets with native preview labels",
+  "width": 1380,
+  "height": 630,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual preview inspection",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  }
+}

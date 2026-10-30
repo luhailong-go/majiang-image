@@ -1,0 +1,4 @@
+Use case: precise-object-edit
+Image 1 is the exact edit target, UI27 Mahjong tutorial select step. Preserve this entire finished image essentially pixel-identically: all main text, title, step sequence, golden-headband child, tile rack and highlighted 三萬 tile, hand pointer, gold arrow, ivory instruction, the bottom 返回/下一步 buttons and bottom center 引导示例.
+Only remove the very tiny stray unreadable calligraphic marks near the bottom right corner under the 下一步 button (near x=1570,y=905 in the 1672x941 image). Replace that tiny area seamlessly with the same blurred dark stone ground/petal background. Do not modify any other area or add any text.
+Images 2 and 3 are primary style references only, maintaining jade/ivory/gold hand-painted UI. Maintain same landscape dimensions and sharpness.

@@ -1,0 +1,11 @@
+{
+  "status": "removed_superseded_archive",
+  "removedAt": "2026-10-28T16:51:43.6703438Z",
+  "file": "exports/mahjong-complete-game-art-v2.zip",
+  "sha256BeforeRemoval": "882ca64183c04fb4abb7692488809aab6763ccc17b49104b32879af8027e370b",
+  "bytes": 307781190,
+  "replacement": "exports/mahjong-complete-game-art-v3.zip",
+  "replacementSha256": "e5493e7ae501e7111a72d467af5de3c1d12a084d31f1edf25a67a0614ae78281",
+  "evidence": "exports/production-v3-package-independent-verification.json",
+  "historicalTextRecordsRetained": true
+}

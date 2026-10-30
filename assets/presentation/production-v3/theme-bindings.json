@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T10:42:37.778643+00:00",
+  "scope": "Three pure scenery backgrounds, three baked empty table themes and matching existing backs",
+  "status": "binding_reference_ready",
+  "projectRootRelativePaths": true,
+  "sourceManifestHashes": {
+    "assets/scenes/full-game/manifest.json": "af0d5b9515f8aec10466c180e719e3cad54242eb1cb10a45fe990f773cc168c4",
+    "assets/ui/manifest.json": "a64a3a829d0744770cee2bf9aa23931049293ffa234f1d6fa32dbb0a40595a0f",
+    "assets/branding/full-game/manifest.json": "cf06a37c101e76f323738360db7562b59c11c239f5307b1a3098ac2e55db05c1",
+    "assets/tiles/manifest.json": "2fd0baf56de9d131c2b12720cce8e190bcbeaae539a36e6acdfcd9d91b0645bc"
+  },
+  "clientIntegrated": false,
+  "userApproved": false,
+  "validationScope": "Lightweight JSON/path checks only. Accepted bitmap QA is reused; no new raster batch, rendering or browser/engine test was started during exclusive heavy-job pause.",
+  "coordinateSystem": {
+    "rectXYWH": "normalized [x,y,width,height]",
+    "polygon": "normalized [x,y] points",
+    "sourceSafeOverlayRect": "legacy source arrays copied as [left,top,right,bottom], converted explicitly to XYWH below",
+    "referenceCanvasPx": [
+      1600,
+      900
+    ]
+  },
+  "backgrounds": [
+    {
+      "id": "courtyard-day",
+      "asset": {
+        "assetId": "courtyard-day",
+        "sourceManifest": "assets/scenes/full-game/manifest.json",
+        "file": "assets/scenes/full-game/courtyard-day.png",
+        "record": "assets/scenes/full-game/courtyard-day.png.generation.json",
+        "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+        "sizePx": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_cover_16_9"
+      },
+      "usage": "lobby",
+      "fit": "uniform cover at 16:9, contain if viewport would crop required foreground",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "safeOverlayRectXYWH": [
+        0.18,
+        0.2,
+        0.6399999999999999,
+        0.74
+      ],
+      "sceneMode": "baked_scene_mode",
+      "dynamicPlayersAndControlsEmbedded": false
+    },
+    {
+      "id": "waterside-night",
+      "asset": {
+        "assetId": "waterside-night",
+        "sourceManifest": "assets/scenes/full-game/manifest.json",
+        "file": "assets/scenes/full-game/waterside-night.png",
+        "record": "assets/scenes/full-game/waterside-night.png.generation.json",
+        "sha256": "78d207b4645ff47aa0f13690b8abd9f59cadbd28f7977d6ae6126379b465509f",
+        "sizePx": [
+          1672,
+          940
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_cover_16_9"
+      },
+      "usage": "login",
+      "fit": "uniform cover at 16:9, contain if viewport would crop required foreground",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "safeOverlayRectXYWH": [
+        0.18,
+        0.2,
+        0.6399999999999999,
+        0.74
+      ],
+      "sceneMode": "baked_scene_mode",
+      "dynamicPlayersAndControlsEmbedded": false
+    },
+    {
+      "id": "tea-room",
+      "asset": {
+        "assetId": "tea-room",
+        "sourceManifest": "assets/scenes/full-game/manifest.json",
+        "file": "assets/scenes/full-game/tea-room.png",
+        "record": "assets/scenes/full-game/tea-room.png.generation.json",
+        "sha256": "8b07f9b69400143c8c562cc70218ee0ee8dbc94ea6d79243da1aca8790fd253f",
+        "sizePx": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_cover_16_9"
+      },
+      "usage": "room",
+      "fit": "uniform cover at 16:9, contain if viewport would crop required foreground",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "safeOverlayRectXYWH": [
+        0.18,
+        0.2,
+        0.6399999999999999,
+        0.74
+      ],
+      "sceneMode": "baked_scene_mode",
+      "dynamicPlayersAndControlsEmbedded": false
+    }
+  ],
+  "tables": [
+    {
+      "id": "jade-cloud",
+      "label": "青绿云纹",
+      "table": {
+        "assetId": "table-background",
+        "sourceManifest": "assets/ui/manifest.json",
+        "file": "assets/ui/gameplay/table-background.png",
+        "record": "assets/ui/gameplay/table-background.png.generation.json",
+        "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+        "sizePx": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": {
+          "mode": "uniform_cover_or_contain",
+          "stretchAxes": [],
+          "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+        }
+      },
+      "tileBack": {
+        "assetId": "tile-back",
+        "sourceManifest": "assets/tiles/manifest.json",
+        "file": "assets/tiles/tile-back.png",
+        "record": "assets/tiles/tile-back.png.generation.json",
+        "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+        "sizePx": [
+          448,
+          640
+        ],
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "default": true,
+      "fit": "uniform cover only at matched landscape aspect; contain when safe table area would be cropped",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "tableAreaReferencePolygonNormalized": [
+        [
+          0.17,
+          0.23
+        ],
+        [
+          0.83,
+          0.23
+        ],
+        [
+          0.98,
+          0.89
+        ],
+        [
+          0.02,
+          0.89
+        ]
+      ],
+      "polygonStatus": "visual reference, not hit-test or final tile-placement contract",
+      "tableSafeLayout": "Keep final hand/discard/meld controls inside cloth; validate all three themes after client layout.",
+      "bakedSceneAndTable": true,
+      "playersTilesScoresAndControlsEmbedded": false
+    },
+    {
+      "id": "moon-lotus",
+      "label": "月莲青蓝",
+      "table": {
+        "assetId": "table-moon-lotus",
+        "sourceManifest": "assets/scenes/full-game/manifest.json",
+        "file": "assets/scenes/full-game/table-moon-lotus.png",
+        "record": "assets/scenes/full-game/table-moon-lotus.png.generation.json",
+        "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d",
+        "sizePx": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_cover_16_9"
+      },
+      "tileBack": {
+        "assetId": "tile-back-moon-lotus",
+        "sourceManifest": "assets/branding/full-game/manifest.json",
+        "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+        "record": "assets/branding/full-game/tile-back-moon-lotus.png.generation.json",
+        "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0",
+        "sizePx": [
+          448,
+          640
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_only"
+      },
+      "default": false,
+      "fit": "uniform cover only at matched landscape aspect; contain when safe table area would be cropped",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "tableAreaReferencePolygonNormalized": [
+        [
+          0.17,
+          0.23
+        ],
+        [
+          0.83,
+          0.23
+        ],
+        [
+          0.98,
+          0.89
+        ],
+        [
+          0.02,
+          0.89
+        ]
+      ],
+      "polygonStatus": "visual reference, not hit-test or final tile-placement contract",
+      "tableSafeLayout": "Keep final hand/discard/meld controls inside cloth; validate all three themes after client layout.",
+      "bakedSceneAndTable": true,
+      "playersTilesScoresAndControlsEmbedded": false
+    },
+    {
+      "id": "ivory-bamboo",
+      "label": "竹韵米白",
+      "table": {
+        "assetId": "table-ivory-bamboo",
+        "sourceManifest": "assets/scenes/full-game/manifest.json",
+        "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+        "record": "assets/scenes/full-game/table-ivory-bamboo.png.generation.json",
+        "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+        "sizePx": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_cover_16_9"
+      },
+      "tileBack": {
+        "assetId": "tile-back-ivory-bamboo",
+        "sourceManifest": "assets/branding/full-game/manifest.json",
+        "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+        "record": "assets/branding/full-game/tile-back-ivory-bamboo.png.generation.json",
+        "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1",
+        "sizePx": [
+          448,
+          640
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_only"
+      },
+      "default": false,
+      "fit": "uniform cover only at matched landscape aspect; contain when safe table area would be cropped",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "tableAreaReferencePolygonNormalized": [
+        [
+          0.17,
+          0.23
+        ],
+        [
+          0.83,
+          0.23
+        ],
+        [
+          0.98,
+          0.89
+        ],
+        [
+          0.02,
+          0.89
+        ]
+      ],
+      "polygonStatus": "visual reference, not hit-test or final tile-placement contract",
+      "tableSafeLayout": "Keep final hand/discard/meld controls inside cloth; validate all three themes after client layout.",
+      "bakedSceneAndTable": true,
+      "playersTilesScoresAndControlsEmbedded": false
+    }
+  ],
+  "selection": {
+    "previewThemeBinding": "viewModel.selectedThemeId",
+    "equippedThemeBinding": "viewModel.equippedThemeId",
+    "validThemeIds": [
+      "jade-cloud",
+      "moon-lotus",
+      "ivory-bamboo"
+    ],
+    "selectedAndEquippedAreSeparate": true,
+    "changeCommit": "application confirmation",
+    "componentSource": "assets/ui/full-game/components/compositions.json",
+    "stateSkins": {
+      "unselected": "cosmetic-card-unselected",
+      "selected": "cosmetic-card-selected",
+      "equipped": "cosmetic-card-in-use"
+    },
+    "tileBackCanBeIndependentChoice": true,
+    "notACommerceSystem": true
+  },
+  "rules": [
+    "Empty backgrounds and empty tables are separate use cases; never crop an old full UI page into a runtime background.",
+    "All six plates are static raster art. No navigable-map or parallax claim is made.",
+    "Native display names are configurable; identity/name labels do not change source pixels.",
+    "Table geometry is a baked illustration: do not nonuniformly stretch or mirror it.",
+    "Existing fonts, counters, portraits, wall tiles and controls stay as independent layers."
+  ]
+}

@@ -1,0 +1,4 @@
+Use case: precise-object-edit
+The fifth image is the edit target: 好友房 waiting screen. The first two images are main art references, third is lobby, fourth is avatar identity reference.
+Make just one tiny correction: in the top room-number bar, the small button labelled “复制” incorrectly shows a trash-can pictogram. REMOVE that trash-can pictogram completely. Keep the small ivory gold-bordered button and centre only the readable text “复制” within it, with no icon. This is a copy-room-number action, not deletion.
+Preserve every other pixel's visual meaning and layout: four seat positions, three occupied seats and one empty seat, all avatars and names, room number123456, 4人·8局, 房主/已准备/未准备, all buttons including disabled 开始游戏, all background and material. Do not add or remove any other UI. Full16:9 opaque screen target2048×1152.

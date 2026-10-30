@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-5.png",
+  "sha256": "87345164be4e0c399fab18b735d241ae2271fc78d73b0e21da1939af053fc651",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/control.normal.png",
+      "sha256": "9b05e841b9cdb255fc5b23a97f41088fc0a051ca56d536cea330ef0ecd0aea53",
+      "generationRecord": "production/previews/states/control.normal.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.pressed.png",
+      "sha256": "be29c66fae000b4b9234fd35c87dc0a017786f325b5e51bcaddcf6bcead33785",
+      "generationRecord": "production/previews/states/control.pressed.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.selected.png",
+      "sha256": "405323dc18a9f00b18081bdab125bc902b6a9097bd0261fbd0d710ad31fbdd6f",
+      "generationRecord": "production/previews/states/control.selected.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.disabled.png",
+      "sha256": "dc700749268839faceb982ed36c6e82727330b4931b1e1d94d86009ae0ae5d8b",
+      "generationRecord": "production/previews/states/control.disabled.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.toggle.png",
+      "sha256": "8a511d6e465a9bea5eb546e86c470a2ce478ac2bc164ade97ba8fa810784a4b7",
+      "generationRecord": "production/previews/states/control.toggle.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.slider.png",
+      "sha256": "8a511d6e465a9bea5eb546e86c470a2ce478ac2bc164ade97ba8fa810784a4b7",
+      "generationRecord": "production/previews/states/control.slider.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/control.input.png",
+      "sha256": "60ea3f98f4b9b476dc5ef4f49f3676358c1a674ea5a13b581de8a496453bfc0e",
+      "generationRecord": "production/previews/states/control.input.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.match_success.png",
+      "sha256": "86bf81537bd2341c591f9020a8fc306076ff0f150ad7ab46d731a6aa2e491fc1",
+      "generationRecord": "production/previews/states/system.match_success.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/cosmetic.unselected.png",
+      "sha256": "7de958a5b490aeb3f8e6fceca76317db9d69e98beb45dc7772059f3b603a3614",
+      "generationRecord": "production/previews/states/cosmetic.unselected.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/cosmetic.preview_selected.png",
+      "sha256": "bdbad66d20117b1d664a4581579c12d89d882f06b07d7a0961f36f9975a1fcf0",
+      "generationRecord": "production/previews/states/cosmetic.preview_selected.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/cosmetic.in_use.png",
+      "sha256": "916a08df23217a168dd191d4ccec19f8ec47483b57f734e1e2ac5c9d0388dfd2",
+      "generationRecord": "production/previews/states/cosmetic.in_use.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/character.in_use.png",
+      "sha256": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+      "generationRecord": "production/previews/states/character.in_use.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

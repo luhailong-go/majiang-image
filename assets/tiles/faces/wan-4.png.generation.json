@@ -1,0 +1,47 @@
+{
+  "file": "assets/tiles/faces/wan-4.png",
+  "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+  "createdAt": "2026-10-26T08:25:49.438Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "alpha composite exact vector symbol over generated hand-painted blank tile"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wan-4.svg",
+    "sha256": "ad78dd503f5c81cea8263508ff89b87709eb935699a4d62909d4d43733d57c25"
+  },
+  "symbolRenderer": "sharp/librsvg, vector paths without runtime font dependency",
+  "semantic": {
+    "label": "四万",
+    "suit": "characters",
+    "rank": 4,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "四",
+      "萬"
+    ],
+    "whiteDragonFrame": false
+  }
+}

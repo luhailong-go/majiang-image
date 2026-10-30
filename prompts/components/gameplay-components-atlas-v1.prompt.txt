@@ -1,0 +1,12 @@
+Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.
+Image 4 is the current four-player table layout; borrow its game-board materials. Create a square requested 2048x2048 sprite atlas, EXACTLY 3 columns by 3 rows with 9 equal cells, no grid lines. Each sprite centered, isolated, and fully inside the central 78% of its cell; generous transparent gutters. Row-major order:
+1. A round jade-green central wind/round dial with fine gold outer ring, four restrained cardinal divider marks, and an EMPTY dark jade central circle for live round and remaining-count text. NO Chinese or digits.
+2. A round hollow gold-and-jade AVATAR FRAME, transparent circular center, subtle jade bead at top. No portrait or text.
+3. A small dark jade round COUNTDOWN medallion with bright gold edge and an empty central text area. No digits.
+4. A small warm-gold DEALER badge medallion with an empty center. No letter or Chinese.
+5. A separate luminous-but-crisp gold CURRENT PLAYER outline ring, hollow transparent center; no fuzzy glow extending beyond cell.
+6. A small ivory OFFLINE status badge bearing a simple broken-link symbol, restrained charcoal and gold.
+7. A small ivory AUTOPLAY status badge bearing a friendly simplified bronze robot face, no words.
+8. A rounded JADE action button with gold edging, squarish horizontal 1.8:1 proportion, empty center for live 碰/杠/胡/过/听 text; no baked text.
+9. An ivory SETTLEMENT result card with subtle gold edge and small jade corner ornaments, blank central area, no numbers or text.
+One of each. No characters, tiles, scene, text or numbers. All dynamic text is added separately by the client.

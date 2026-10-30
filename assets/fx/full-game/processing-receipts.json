@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "reports": [
+    {
+      "effect": "draw-focus",
+      "file": "assets/fx/full-game/qa/process-draw-focus.json",
+      "sha256": "63ddb532edcdac9ad138e404da8326930d74ca829341cdcb7267be1b52c88347",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 329295,
+        "detached_px": 79,
+        "detached_components": 75,
+        "max_removed_alpha": 5
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.19880736162379078,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "00812345a61de84f6953e76c686a0efd6ac024c0d420ce11314f3a14a828613a",
+            "bytes": 1634129
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "85bb4143179a5711e1566ad156d4fd9548ec51ee97723136d8914674683acd0b",
+            "bytes": 41913
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "3497d08dd874bed847e4193db0f40daee36e2436ecad33581daa73264b7bf9b0",
+            "bytes": 112534
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "ef2c5ad01ed4ef493a87d89b1de4650f2918b067ebaf9c2b11836f967bd049ff",
+            "bytes": 132850
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "e65c520ffbf6d69edef1dab0f6ea064bc125eff6bb27403634ae444a83692ded",
+            "bytes": 77524
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "3510a0db53d38ab4ee7975bc02b20977f809b35b23726395d8aad9c8ccb9128d",
+            "bytes": 363664
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-draw-focus/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-draw-focus.json"
+    },
+    {
+      "effect": "discard-impact",
+      "file": "assets/fx/full-game/qa/process-discard-impact.json",
+      "sha256": "4a65e98cecf753edac8570590ed54bd835ebd0c7fb90c717f1be453df491b0f5",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 131633,
+        "detached_px": 13,
+        "detached_components": 12,
+        "max_removed_alpha": 5
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.3233180758588472,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "1cfd7bc16a165c89fab158077de6ee3597379b82c8a52287e6b2f3a4fa6fa810",
+            "bytes": 958104
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "63f25aa4f879abc187de1053e5b971e424f32d8abc3cc814144a5c669489ef27",
+            "bytes": 26653
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "d047bdd0b97036ef35081ab5d991165715ad706dc326d7adc218fc510bc9fd0c",
+            "bytes": 62889
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "36e87296ae6b062e82e3cdc1c55c49737985b7361d344a9639dfc567263fb2cb",
+            "bytes": 90905
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "7bf59db11c29aa624ecd314428f32ff9a9aeb4eef72a17894b24f7a72a4aaa71",
+            "bytes": 69280
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "9f7201bd59d449f6732865ebc85ad9f82edf5e339cd4aeb20964780fdeb73f84",
+            "bytes": 247934
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-discard-impact-refined/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-discard-impact.json"
+    },
+    {
+      "effect": "player-ring",
+      "file": "assets/fx/full-game/qa/process-player-ring.json",
+      "sha256": "749952b2aaf64dc5abcbe5a6d0b602a8c94293b15bbef069e481f14dab1a238f",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 224598,
+        "detached_px": 28,
+        "detached_components": 24,
+        "max_removed_alpha": 5
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.015627488440380803,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "3e0dd4ff07d66d7f953e5aac6ed694bd401c15e9e23b2fea908de8e40e7b70bb",
+            "bytes": 1082121
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "f5fd5b1274e9510e358aab9969ea139a4e0334e48154b153a9456546cefa768a",
+            "bytes": 60295
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "caffddca789bd24d78bcf6c3ca68027ab0bdba54cf2d3ebde6c7282c1b0dd288",
+            "bytes": 61368
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "f58e7d7a047b388751a984b4f9c913c59ae478d37946f3db3faf07d000cf4e11",
+            "bytes": 62451
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "1044d21974478c8af5d5bfca75048abd6c9b42f6c3ad1b1bcdcf7f9170c41bd8",
+            "bytes": 60519
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "0abd0e710b1690cb37c6d8b35e0ebff1d0172daba6431780896f9dcca0df38eb",
+            "bytes": 242904
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-player-ring/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-player-ring.json"
+    },
+    {
+      "effect": "hu-burst",
+      "file": "assets/fx/full-game/qa/process-hu-burst.json",
+      "sha256": "e737842c7b8eaf9bd874c1c811ec5a5ee68eefb3c0bf4571f1de57214063e698",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 180590,
+        "detached_px": 56,
+        "detached_components": 10,
+        "max_removed_alpha": 8
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.15671711001955474,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "e7615a38ee903a636e8ba63fa5fed963553a220367ec04b7406668245913cdad",
+            "bytes": 1504750
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "a33e4ad22c021574b5cb131b7a3ed8de3b8bda883bc0a8522a3b510a15232f94",
+            "bytes": 42874
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "22e9fbfbe7ffad9a779c5616647947aea5d5b01db35682fcea59e52e478f5006",
+            "bytes": 94514
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "601e406a0d4c792d5245d4513122e299aa4e8d4698d0fee67447e4b2635cae3b",
+            "bytes": 132067
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "c90051e1fbbbc820e28607c45e0b8de043f9c701f9ca4f8a05f2c15abca781d5",
+            "bytes": 106581
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "0df6e1b3c209a4f360bf9d70c20c530130492b082dbff387b46f1fd7048f5538",
+            "bytes": 375309
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-hu-burst/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-hu-burst.json"
+    },
+    {
+      "effect": "victory-confetti",
+      "file": "assets/fx/full-game/qa/process-victory-confetti.json",
+      "sha256": "97b3c128d1b50f9616eb21f1d33e82fd70e250a3cddc35366dc3eaf1dbf3cd82",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 178102,
+        "detached_px": 54,
+        "detached_components": 16,
+        "max_removed_alpha": 9
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.1561618473518444,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "c3f345bb65c565efbda860736c6743f24a40ca0118563633ce10d785bf4d3ee7",
+            "bytes": 863723
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+            "bytes": 30478
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+            "bytes": 70577
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+            "bytes": 72275
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+            "bytes": 41317
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "c6fd3d135654dbb482ce2ef7da1ba59208a7b0299392a920f876b0311b34a186",
+            "bytes": 214547
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-victory-confetti/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-victory-confetti.json"
+    },
+    {
+      "effect": "reward-stars",
+      "file": "assets/fx/full-game/qa/process-reward-stars.json",
+      "sha256": "459e65953990bd7339940619d0c359f14722d444b0ba067e0dde822ea1e00a29",
+      "geometry": {
+        "alpha_geometry_threshold": 16,
+        "connectivity": 8,
+        "anchor_mode": "center",
+        "scale_strategy": "registered",
+        "pixel_scale": null,
+        "logical_pixel": 1,
+        "grid_rounding": "exact",
+        "pad_offset": [
+          0,
+          0
+        ],
+        "anchor_px": [
+          313.5,
+          313.5
+        ],
+        "anchor_band_fraction": 0.12,
+        "scale": 0.5062838915470494,
+        "scale_ratio": null,
+        "registration_anchor": [
+          313.5,
+          313.5
+        ],
+        "injected_shift_px": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ]
+        },
+        "legacy_fractional_nearest": false
+      },
+      "hygiene": {
+        "mode": "both",
+        "floor": 4,
+        "solid_min": 32,
+        "attach_radius": 2,
+        "connectivity": 8,
+        "floor_px": 276853,
+        "detached_px": 68,
+        "detached_components": 59,
+        "max_removed_alpha": 6
+      },
+      "qa": {
+        "status": "pass",
+        "method": "generate2dsprite process geometry v2: alpha above the geometry threshold, 8- or 4-connected components, ground-line anchors, one shared sampling grid with whole-pixel offsets, output-space scale metrics, forge_matte.matte_qa key residue",
+        "notProven": [
+          "pose quality, anatomy, identity and facing",
+          "loop seam, phase order and timing at game size",
+          "colour fidelity of keyed edges beyond the matte_qa residue counts",
+          "that the subject is complete where it does not touch a cell edge"
+        ],
+        "checks": [
+          {
+            "id": "empty_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "paste_clamped_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "output_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "source_edge_touch_frames",
+            "status": "pass",
+            "value": [],
+            "threshold": []
+          },
+          {
+            "id": "body_scale_cv",
+            "status": "skipped",
+            "value": 0.3049962256637639,
+            "threshold": null
+          },
+          {
+            "id": "anchor_y_std",
+            "status": "skipped",
+            "value": 0.0,
+            "threshold": null
+          }
+        ],
+        "inputs": [
+          {
+            "path": "raw-sheet.png",
+            "sha256": "f6d5511414a64a3e520a397b6be976993d4dda2c2c690e9fa026583377017a59",
+            "bytes": 1232252
+          }
+        ],
+        "outputs": [
+          {
+            "path": "sheet-1.png",
+            "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+            "bytes": 16051
+          },
+          {
+            "path": "sheet-2.png",
+            "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+            "bytes": 92427
+          },
+          {
+            "path": "sheet-3.png",
+            "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+            "bytes": 81855
+          },
+          {
+            "path": "sheet-4.png",
+            "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+            "bytes": 59617
+          },
+          {
+            "path": "sheet-transparent.png",
+            "sha256": "e85ffd24c043fe629222a38ff2e102391b72c7e203da5c705c7e2b71fc257d9f",
+            "bytes": 248286
+          }
+        ],
+        "tool": {
+          "name": "generate2dsprite.py process",
+          "version": "0.4.0"
+        }
+      },
+      "originalWorkingFile": "work/full-game-fx/process-reward-stars/pipeline-meta.json",
+      "rawSheetQC": "assets/fx/full-game/qa/raw-sheet-reward-stars.json"
+    }
+  ],
+  "rawSheetQCNote": "raw safe_frame and faint_specks advisories are superseded by registered padding and alpha_hygiene both; all selected raw sheets have zero cross-cell/visible crossings and zero sheet-edge contact. See work/full-game-fx/spill-*/sheet-qc.json."
+}

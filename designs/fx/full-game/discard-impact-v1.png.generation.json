@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/fx/full-game/discard-impact-v1.png",
+  "title": "discard-impact",
+  "sha256": "e4ae8af2441095aa50fc975846436180d2166f7fc9d28f02be04dceaa7f1be37",
+  "generatedAt": "2026-10-26T11:23:05-04:00",
+  "clientTimezone": "America/New_York",
+  "generationTimestampBasis": "observed tool return and adoption time",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    ],
+    "promptFile": "prompts/full-game/fx/discard-impact.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "Tool returned image_url, output_hint and native PNG path; no model or quality disclosed.",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "resampled": false,
+  "prompt": "prompts/full-game/fx/discard-impact.txt",
+  "promptSha256": "0a3c53054e1858994578cb3bfa8d4a8a6de323a8cd830fd4250a2d7329513cc4",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true,
+      "role": "style_reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true,
+      "role": "style_reference"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a178c6-07e9-7753-bec9-ca56f6aeb2c8\\exec-f805fc93-5035-463f-ac3c-33c17b948a64.png",
+    "sha256": "e4ae8af2441095aa50fc975846436180d2166f7fc9d28f02be04dceaa7f1be37",
+    "operation": "byte-identical copy"
+  },
+  "inspection": {
+    "visualStatus": "superseded_not_delivered",
+    "issues": [
+      "Original phase3 approached the quadrant boundary; refined source replaces it."
+    ]
+  },
+  "status": {
+    "productionAccepted": false,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "pixelsRetainedInProject": false,
+  "cleanup": {
+    "at": "2026-10-26T11:56:43-04:00",
+    "reason": "Superseded by accepted discard-impact-refined-v1 source and validated final4 registered frames; source textual evidence retained per project retention policy.",
+    "sha256BeforeRemoval": "e4ae8af2441095aa50fc975846436180d2166f7fc9d28f02be04dceaa7f1be37",
+    "replacement": "designs/fx/full-game/discard-impact-refined-v1.png"
+  }
+}

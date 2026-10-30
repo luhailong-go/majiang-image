@@ -1,0 +1,200 @@
+{
+  "file": "assets/tiles/previews/tiles-contact-sheet.png",
+  "sha256": "7e6842021e405d1d36cafe1599d3175b9c0f8620e4de3305e8b76d1f41431a6e",
+  "createdAt": "2026-10-26T08:27:52.308202+00:00",
+  "route": "derived",
+  "tool": "Pillow contact sheet assembly",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Preview assembled from delivered tile assets, no model call",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/faces/wan-1.png",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+      "generationRecord": "assets/tiles/faces/wan-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-2.png",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+      "generationRecord": "assets/tiles/faces/wan-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-3.png",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+      "generationRecord": "assets/tiles/faces/wan-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-4.png",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+      "generationRecord": "assets/tiles/faces/wan-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-5.png",
+      "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+      "generationRecord": "assets/tiles/faces/wan-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "generationRecord": "assets/tiles/faces/wan-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-7.png",
+      "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+      "generationRecord": "assets/tiles/faces/wan-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-8.png",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+      "generationRecord": "assets/tiles/faces/wan-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-9.png",
+      "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+      "generationRecord": "assets/tiles/faces/wan-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-1.png",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+      "generationRecord": "assets/tiles/faces/tong-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-2.png",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+      "generationRecord": "assets/tiles/faces/tong-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-3.png",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+      "generationRecord": "assets/tiles/faces/tong-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-4.png",
+      "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+      "generationRecord": "assets/tiles/faces/tong-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-5.png",
+      "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+      "generationRecord": "assets/tiles/faces/tong-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-6.png",
+      "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+      "generationRecord": "assets/tiles/faces/tong-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-7.png",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+      "generationRecord": "assets/tiles/faces/tong-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-8.png",
+      "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+      "generationRecord": "assets/tiles/faces/tong-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-9.png",
+      "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+      "generationRecord": "assets/tiles/faces/tong-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-1.png",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+      "generationRecord": "assets/tiles/faces/tiao-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-2.png",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+      "generationRecord": "assets/tiles/faces/tiao-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-3.png",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+      "generationRecord": "assets/tiles/faces/tiao-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-4.png",
+      "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+      "generationRecord": "assets/tiles/faces/tiao-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-5.png",
+      "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+      "generationRecord": "assets/tiles/faces/tiao-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-6.png",
+      "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+      "generationRecord": "assets/tiles/faces/tiao-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-7.png",
+      "sha256": "c238b463958fccf4ce130127e2a1f52111c7fe7942cba836257cc2d67a523a62",
+      "generationRecord": "assets/tiles/faces/tiao-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-8.png",
+      "sha256": "95a27fd4fbc885c87c9d3984bcc9fefc8e75ebf620a2926d32a8fffba4692060",
+      "generationRecord": "assets/tiles/faces/tiao-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-9.png",
+      "sha256": "7ba8063ee00305af2f4b1d94418f7f87464c21d07582ca25d69cb5f0fcc4dc87",
+      "generationRecord": "assets/tiles/faces/tiao-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wind-east.png",
+      "sha256": "2723f83ff503861a4add614eab3f0fe82c09766a994d20ecc8fbba7809396476",
+      "generationRecord": "assets/tiles/faces/wind-east.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wind-south.png",
+      "sha256": "27dcca17fb90112fcf05a8d6b9a2887b1e22077b8eaa1a1a929b9f8bbedaa069",
+      "generationRecord": "assets/tiles/faces/wind-south.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wind-west.png",
+      "sha256": "bc5c4b94ef101eb8d9d253386f2ed3096fffbcd86c91eead7601af8d75968bfb",
+      "generationRecord": "assets/tiles/faces/wind-west.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wind-north.png",
+      "sha256": "54e3b481009dba1cae244f08179ca877505e7a3f8426f8862daf27a624b9fca6",
+      "generationRecord": "assets/tiles/faces/wind-north.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/dragon-red.png",
+      "sha256": "d2e84f21eeb3000e620e46adc58b63492333741e585c66c8fde9a60139620f18",
+      "generationRecord": "assets/tiles/faces/dragon-red.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/dragon-green.png",
+      "sha256": "7abb6f5b4c13cd0effc319dccc2e9fc2f318b5fbd571707aab3a2a75403e16f7",
+      "generationRecord": "assets/tiles/faces/dragon-green.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/dragon-white.png",
+      "sha256": "0cdaf0479317c425f631c8ea9c9ec5bb6142319556c6fb0adf7e190043f5952f",
+      "generationRecord": "assets/tiles/faces/dragon-white.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "generationRecord": "assets/tiles/tile-back.png.generation.json"
+    }
+  ],
+  "operation": "downscale and arrange exported sprites on labeled preview boards; native source sizes remain in manifest",
+  "width": 1566,
+  "height": 1152,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  }
+}

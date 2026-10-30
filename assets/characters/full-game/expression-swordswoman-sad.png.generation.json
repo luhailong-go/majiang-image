@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+  "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 125947,
+    "opaquePixels": 117182,
+    "semiTransparentPixels": 19015,
+    "bbox": [
+      43,
+      49,
+      469,
+      480
+    ],
+    "clearMargins": [
+      43,
+      49,
+      43,
+      32
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/swordswoman-expressions-native.png",
+    "sha256": "601915fac2de07d63847193ae74a11f5bc5a40cac47eb3e64e0fa4ca21b97dd7",
+    "generationRecord": "designs/characters/full-game/swordswoman-expressions-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "whole-source ownership slice",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 73438,
+      "removedPixelsAbove128": 0,
+      "componentCount": 4,
+      "RGBRepainted": false,
+      "sourceBox": [
+        649,
+        633,
+        1243,
+        1234
+      ],
+      "componentCentroid": [
+        943.6591927730879,
+        957.1826914524593
+      ],
+      "sourcePixelsRetained": 258589,
+      "crossGridDetailsPreserved": true,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 230954
+    },
+    {
+      "operation": "uniform downsample with per-identity shared scale",
+      "sourceSize": [
+        594,
+        601
+      ],
+      "outputContentSize": [
+        426,
+        431
+      ],
+      "scale": 0.717948717948718,
+      "method": "premultiplied LANCZOS",
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "transparent padding",
+      "canvas": [
+        512,
+        512
+      ],
+      "offset": [
+        43,
+        49
+      ],
+      "localSafeMargin": 32
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/swordswoman-expressions.prompt.txt",
+  "usage": {
+    "identity": "swordswoman",
+    "identityName": "黑发侠女",
+    "role": "expression_avatar",
+    "expression": "sad",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": "passed",
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

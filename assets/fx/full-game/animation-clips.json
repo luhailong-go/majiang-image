@@ -1,0 +1,2020 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "clips-input.json",
+    "file_sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a",
+    "copy": "clips-input.json"
+  },
+  "frame_size": [
+    512,
+    512
+  ],
+  "anchor_px": [
+    256,
+    256
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "sampling": "linear",
+  "pixel_art": false,
+  "placeholder": false,
+  "art_source": "host_image",
+  "frames": [
+    {
+      "index": 0,
+      "name": "draw-focus-00",
+      "source": {
+        "path": "frames/draw-focus-00.png",
+        "file_sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+        "bytes": 39640,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "56e50de72fb13e080af26201ebede9ab5e1e1350f42b9e05749e555ade24e3bd",
+      "transparent_pixel_count": 250081,
+      "visible_pixel_count": 12063,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/draw-focus-00.png"
+    },
+    {
+      "index": 1,
+      "name": "draw-focus-01",
+      "source": {
+        "path": "frames/draw-focus-01.png",
+        "file_sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+        "bytes": 108215,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7c20dcdca41a804bd7d93c6df78eb7b8c2187c61496e09ba0c4ac85a29bc4a9a",
+      "transparent_pixel_count": 226190,
+      "visible_pixel_count": 35954,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/draw-focus-01.png"
+    },
+    {
+      "index": 2,
+      "name": "draw-focus-02",
+      "source": {
+        "path": "frames/draw-focus-02.png",
+        "file_sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+        "bytes": 129592,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "70cd78506a24dc3eebf16c57f4755ff866e7fc7cdfe20167b6d5649cd3f878c3",
+      "transparent_pixel_count": 216479,
+      "visible_pixel_count": 45665,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/draw-focus-02.png"
+    },
+    {
+      "index": 3,
+      "name": "draw-focus-03",
+      "source": {
+        "path": "frames/draw-focus-03.png",
+        "file_sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+        "bytes": 71874,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f13b7cfb8563ec18cd2e21e70c80dcabfc44bb985c33685852aa2baa202d2463",
+      "transparent_pixel_count": 239741,
+      "visible_pixel_count": 22403,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/draw-focus-03.png"
+    },
+    {
+      "index": 4,
+      "name": "discard-impact-00",
+      "source": {
+        "path": "frames/discard-impact-00.png",
+        "file_sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+        "bytes": 25078,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "bf44fed1b16a7a83bced3ce345fdccdd4dc60526a7721c7ad5ef142741a4723e",
+      "transparent_pixel_count": 253965,
+      "visible_pixel_count": 8179,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/discard-impact-00.png"
+    },
+    {
+      "index": 5,
+      "name": "discard-impact-01",
+      "source": {
+        "path": "frames/discard-impact-01.png",
+        "file_sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+        "bytes": 60574,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "e5160e3bec5c2a2fe4d65af35fd2460951b860eca5d27f1a76b9644a088ab69d",
+      "transparent_pixel_count": 239972,
+      "visible_pixel_count": 22172,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/discard-impact-01.png"
+    },
+    {
+      "index": 6,
+      "name": "discard-impact-02",
+      "source": {
+        "path": "frames/discard-impact-02.png",
+        "file_sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+        "bytes": 87299,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "85cd8ab94a4ad6e881fecbf3c3b4bc5c29c1f5e31084398c1ef5e7f6dc3508bc",
+      "transparent_pixel_count": 230784,
+      "visible_pixel_count": 31360,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/discard-impact-02.png"
+    },
+    {
+      "index": 7,
+      "name": "discard-impact-03",
+      "source": {
+        "path": "frames/discard-impact-03.png",
+        "file_sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+        "bytes": 64016,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "aba508e6718fa686aedff531f0722ead3a95a839e566c5bd3c0cbc682bcb935f",
+      "transparent_pixel_count": 241848,
+      "visible_pixel_count": 20296,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/discard-impact-03.png"
+    },
+    {
+      "index": 8,
+      "name": "player-ring-00",
+      "source": {
+        "path": "frames/player-ring-00.png",
+        "file_sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+        "bytes": 54928,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5172730ab35e4e482c21506d60cbd9bfbf6e653d164afcbb8b61852d13bcac50",
+      "transparent_pixel_count": 246944,
+      "visible_pixel_count": 15200,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/player-ring-00.png"
+    },
+    {
+      "index": 9,
+      "name": "player-ring-01",
+      "source": {
+        "path": "frames/player-ring-01.png",
+        "file_sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+        "bytes": 56354,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "a88ae9f68af166d01555f1311cb758a6cbc42fe2bef146c55b65d065df85d188",
+      "transparent_pixel_count": 246407,
+      "visible_pixel_count": 15737,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/player-ring-01.png"
+    },
+    {
+      "index": 10,
+      "name": "player-ring-02",
+      "source": {
+        "path": "frames/player-ring-02.png",
+        "file_sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+        "bytes": 57570,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "aa31cb51be289cd6417d3ce98d0219a35dc42bad29ef2a212506b2bb7da77d8a",
+      "transparent_pixel_count": 245928,
+      "visible_pixel_count": 16216,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/player-ring-02.png"
+    },
+    {
+      "index": 11,
+      "name": "player-ring-03",
+      "source": {
+        "path": "frames/player-ring-03.png",
+        "file_sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+        "bytes": 55053,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "27cc9d399b1846af1203ccd02d8ed490899166e89aadfcbe37ff0df081e7833c",
+      "transparent_pixel_count": 246778,
+      "visible_pixel_count": 15366,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/player-ring-03.png"
+    },
+    {
+      "index": 12,
+      "name": "hu-burst-00",
+      "source": {
+        "path": "frames/hu-burst-00.png",
+        "file_sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+        "bytes": 41375,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "09bf054e420ea7d15eaea9eac75387f96572df35caa693ca828b6fe781241e15",
+      "transparent_pixel_count": 249302,
+      "visible_pixel_count": 12842,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/hu-burst-00.png"
+    },
+    {
+      "index": 13,
+      "name": "hu-burst-01",
+      "source": {
+        "path": "frames/hu-burst-01.png",
+        "file_sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+        "bytes": 92464,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2b1be69e76e61efccd3e22faf7b8708887b33593224a6031630b34ef111c7e1d",
+      "transparent_pixel_count": 232262,
+      "visible_pixel_count": 29882,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/hu-burst-01.png"
+    },
+    {
+      "index": 14,
+      "name": "hu-burst-02",
+      "source": {
+        "path": "frames/hu-burst-02.png",
+        "file_sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+        "bytes": 128663,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c5c702c900762acafa183020b42cc38b95089241f9774dfdef477f9f675b0f69",
+      "transparent_pixel_count": 219668,
+      "visible_pixel_count": 42476,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/hu-burst-02.png"
+    },
+    {
+      "index": 15,
+      "name": "hu-burst-03",
+      "source": {
+        "path": "frames/hu-burst-03.png",
+        "file_sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+        "bytes": 102304,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "0dff52149f35f70b84fbe17d8eacc500c72b7a4cb885f68d95fb0e1acd467e99",
+      "transparent_pixel_count": 229768,
+      "visible_pixel_count": 32376,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/hu-burst-03.png"
+    },
+    {
+      "index": 16,
+      "name": "victory-confetti-00",
+      "source": {
+        "path": "frames/victory-confetti-00.png",
+        "file_sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+        "bytes": 25709,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "607a0ef3efaa5f5afe03368283dd12e015bf0ef7e300cae39777c4c35c24a26e",
+      "transparent_pixel_count": 255866,
+      "visible_pixel_count": 6278,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/victory-confetti-00.png"
+    },
+    {
+      "index": 17,
+      "name": "victory-confetti-01",
+      "source": {
+        "path": "frames/victory-confetti-01.png",
+        "file_sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+        "bytes": 59477,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "1dfb85dd913ad78d31baa10e5f8007f38f02c91ede0ce2af567080cafdd1746b",
+      "transparent_pixel_count": 246420,
+      "visible_pixel_count": 15724,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/victory-confetti-01.png"
+    },
+    {
+      "index": 18,
+      "name": "victory-confetti-02",
+      "source": {
+        "path": "frames/victory-confetti-02.png",
+        "file_sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+        "bytes": 58726,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "cba7a2b29a7235adbdc0e54e8d729916af4277d61e37222743ec51d82478a4e5",
+      "transparent_pixel_count": 246703,
+      "visible_pixel_count": 15441,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/victory-confetti-02.png"
+    },
+    {
+      "index": 19,
+      "name": "victory-confetti-03",
+      "source": {
+        "path": "frames/victory-confetti-03.png",
+        "file_sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+        "bytes": 32090,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "cc78ae9150479d5a143705b5bf50d116b0837b578c7dc6ec573706f0cd0784d3",
+      "transparent_pixel_count": 254278,
+      "visible_pixel_count": 7866,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/victory-confetti-03.png"
+    },
+    {
+      "index": 20,
+      "name": "reward-stars-00",
+      "source": {
+        "path": "frames/reward-stars-00.png",
+        "file_sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+        "bytes": 15152,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "d669949aefebb5c4dfebd9c48fe40dfab548b7a8970174104c21de4d816b41a9",
+      "transparent_pixel_count": 257698,
+      "visible_pixel_count": 4446,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/reward-stars-00.png"
+    },
+    {
+      "index": 21,
+      "name": "reward-stars-01",
+      "source": {
+        "path": "frames/reward-stars-01.png",
+        "file_sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+        "bytes": 88354,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3cea7a92556d584a06fcd67bf2c972b1d5d749ece1ee0f87ea5f2c93badddbaf",
+      "transparent_pixel_count": 233266,
+      "visible_pixel_count": 28878,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/reward-stars-01.png"
+    },
+    {
+      "index": 22,
+      "name": "reward-stars-02",
+      "source": {
+        "path": "frames/reward-stars-02.png",
+        "file_sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+        "bytes": 78916,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "b495398415ca71cbf4f0045cd445fc07e2f9599806e33513ad2d1a81c3cb7132",
+      "transparent_pixel_count": 236628,
+      "visible_pixel_count": 25516,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/reward-stars-02.png"
+    },
+    {
+      "index": 23,
+      "name": "reward-stars-03",
+      "source": {
+        "path": "frames/reward-stars-03.png",
+        "file_sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+        "bytes": 56026,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c0eea3ea98d2aff8c8da8c35e21b85fb7528ea852d5d6c23bca3e0b5a0f0861e",
+      "transparent_pixel_count": 244300,
+      "visible_pixel_count": 17844,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/reward-stars-03.png"
+    }
+  ],
+  "clips": {
+    "draw-focus": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duration_ms": [
+        83,
+        84,
+        116,
+        117
+      ],
+      "loop": false,
+      "total_duration_ms": 400,
+      "nominal_fps": null,
+      "average_fps": 10.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 167,
+          "at": 2,
+          "position": 2,
+          "at_tick": 10
+        },
+        {
+          "name": "end",
+          "at_ms": 283,
+          "at": 3,
+          "position": 3,
+          "at_tick": 17
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          7,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 24.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "previews/draw-focus.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 83,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 83,
+            "duration_ms": 84,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 167,
+            "duration_ms": 116,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 283,
+            "duration_ms": 117,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 400,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "63df14959d9202ee0dd8ab940469d902d122de90ae87be8e8043e053cd351e7c"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 12.039421,
+          "alpha_mae": 17.155735,
+          "changed_visible_pixels": 36568
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 15.795388,
+          "alpha_mae": 20.925816,
+          "changed_visible_pixels": 48163
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 17.342901,
+          "alpha_mae": 23.73251,
+          "changed_visible_pixels": 47401
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 8.316003,
+        "alpha_mae": 11.60751,
+        "changed_visible_pixels": 29975
+      }
+    },
+    "discard-impact": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        116
+      ],
+      "loop": false,
+      "total_duration_ms": 333,
+      "nominal_fps": null,
+      "average_fps": 12.012012012012011,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 133,
+          "at": 2,
+          "position": 2,
+          "at_tick": 8
+        },
+        {
+          "name": "end",
+          "at_ms": 217,
+          "at": 3,
+          "position": 3,
+          "at_tick": 13
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "previews/discard-impact.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 67,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 67,
+            "duration_ms": 66,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 133,
+            "duration_ms": 84,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 217,
+            "duration_ms": 116,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 333,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "eb252562f905e41aa977be71bf9f528c241a54400e97480962e326da2e5c833c"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 9.682416,
+          "alpha_mae": 12.149315,
+          "changed_visible_pixels": 22172
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 12.939328,
+          "alpha_mae": 15.390526,
+          "changed_visible_pixels": 33188
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 13.47005,
+          "alpha_mae": 16.390724,
+          "changed_visible_pixels": 33858
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 14.105914,
+        "alpha_mae": 19.823158,
+        "changed_visible_pixels": 28253
+      }
+    },
+    "player-ring": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "duration_ms": [
+        167,
+        166,
+        167,
+        167
+      ],
+      "loop": true,
+      "total_duration_ms": 667,
+      "nominal_fps": 6.0,
+      "average_fps": 5.997001499250374,
+      "loop_policy": "cycle",
+      "timing_source": "ticks",
+      "ticks": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "tick_hz": 60,
+      "fps_rational": "6/1",
+      "events_ms": [],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 2.786046,
+        "adjacent_median": 2.542542,
+        "adjacent_p95": 3.150927,
+        "adjacent_max": 3.218526,
+        "seam_over_median": 1.095772,
+        "seam_over_p95": 0.884199,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 2.758634,
+        "wrap_ratio": 1.009937
+      },
+      "preview": {
+        "file": "previews/player-ring.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 167,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 167,
+            "duration_ms": 166,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 333,
+            "duration_ms": 167,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 500,
+            "duration_ms": 167,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 667,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "1a9fc09169efcf404d90bd54ec94ec3189d7ca5bbdd62bef69d49fadb176e140"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 2.803136,
+          "alpha_mae": 1.760761,
+          "changed_visible_pixels": 17977
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 3.4742,
+          "alpha_mae": 2.451504,
+          "changed_visible_pixels": 19167
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 2.714815,
+          "alpha_mae": 1.914886,
+          "changed_visible_pixels": 18625
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 3.036095,
+        "alpha_mae": 2.035896,
+        "changed_visible_pixels": 17793
+      }
+    },
+    "hu-burst": {
+      "frames": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        117,
+        83,
+        133,
+        200
+      ],
+      "loop": false,
+      "total_duration_ms": 533,
+      "nominal_fps": null,
+      "average_fps": 7.5046904315197,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        7,
+        5,
+        8,
+        12
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2,
+          "at_tick": 12
+        },
+        {
+          "name": "end",
+          "at_ms": 333,
+          "at": 3,
+          "position": 3,
+          "at_tick": 20
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          5,
+          8,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "previews/hu-burst.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 117,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 117,
+            "duration_ms": 83,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 200,
+            "duration_ms": 133,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 333,
+            "duration_ms": 200,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 533,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "709007aed7cdfcf49770409dee1e32914a5a286d4e655fc99e4264391fa1b9e8"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 12.355611,
+          "alpha_mae": 15.323418,
+          "changed_visible_pixels": 30044
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 16.226316,
+          "alpha_mae": 19.110512,
+          "changed_visible_pixels": 44242
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 20.589272,
+          "alpha_mae": 25.892399,
+          "changed_visible_pixels": 45994
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 15.885963,
+        "alpha_mae": 21.237453,
+        "changed_visible_pixels": 38862
+      }
+    },
+    "victory-confetti": {
+      "frames": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "duration_ms": [
+        133,
+        134,
+        166,
+        234
+      ],
+      "loop": false,
+      "total_duration_ms": 667,
+      "nominal_fps": null,
+      "average_fps": 5.997001499250374,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        8,
+        8,
+        10,
+        14
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 267,
+          "at": 2,
+          "position": 2,
+          "at_tick": 16
+        },
+        {
+          "name": "end",
+          "at_ms": 433,
+          "at": 3,
+          "position": 3,
+          "at_tick": 26
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          8,
+          10,
+          14
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "previews/victory-confetti.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 133,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 133,
+            "duration_ms": 134,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 267,
+            "duration_ms": 166,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 433,
+            "duration_ms": 234,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 667,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "5a8d6f39aea615735e8a3af1cbefc733a6c0189384e5e7b2fe83f548212215be"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 7.367857,
+          "alpha_mae": 10.486759,
+          "changed_visible_pixels": 18254
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 10.598999,
+          "alpha_mae": 14.306957,
+          "changed_visible_pixels": 26215
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 8.785022,
+          "alpha_mae": 12.401939,
+          "changed_visible_pixels": 20843
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 5.177467,
+        "alpha_mae": 7.750229,
+        "changed_visible_pixels": 12501
+      }
+    },
+    "reward-stars": {
+      "frames": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "duration_ms": [
+        100,
+        100,
+        150,
+        250
+      ],
+      "loop": false,
+      "total_duration_ms": 600,
+      "nominal_fps": null,
+      "average_fps": 6.666666666666667,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        6,
+        6,
+        9,
+        15
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2,
+          "at_tick": 12
+        },
+        {
+          "name": "end",
+          "at_ms": 350,
+          "at": 3,
+          "position": 3,
+          "at_tick": 21
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          6,
+          6,
+          9,
+          15
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 36.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "previews/reward-stars.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 100,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 100,
+            "duration_ms": 100,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 200,
+            "duration_ms": 150,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 350,
+            "duration_ms": 250,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 600,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "b7b45626afd4a74fb72e5215bb2a4a96a7cef24558b1e07efa1c0d5c4f31d52e"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 8.37252,
+          "alpha_mae": 12.324184,
+          "changed_visible_pixels": 30358
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 12.285991,
+          "alpha_mae": 17.355579,
+          "changed_visible_pixels": 39089
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 7.66357,
+          "alpha_mae": 10.552731,
+          "changed_visible_pixels": 26226
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 4.438798,
+        "alpha_mae": 6.245304,
+        "changed_visible_pixels": 22249
+      }
+    }
+  },
+  "states": {
+    "draw-focus": "draw-focus",
+    "discard-impact": "discard-impact",
+    "player-ring": "player-ring",
+    "hu-burst": "hu-burst",
+    "victory-confetti": "victory-confetti",
+    "reward-stars": "reward-stars"
+  },
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [],
+    "tick_hz": 60,
+    "lint": []
+  },
+  "contact_sheet": {
+    "file": "review/timing-contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "d1d8b05dbc7bc60d83a9be7e279f617137ab0254315c958f83a47934f7e19f63"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "draw-focus": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "discard-impact": {
+        "file": "review/filmstrip-01.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "player-ring": {
+        "file": "review/filmstrip-02.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "hu-burst": {
+        "file": "review/filmstrip-03.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "victory-confetti": {
+        "file": "review/filmstrip-04.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "reward-stars": {
+        "file": "review/filmstrip-05.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "draw-focus": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "discard-impact": {
+        "file": "review/onion-01.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "player-ring": {
+        "file": "review/onion-02.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "hu-burst": {
+        "file": "review/onion-03.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "victory-confetti": {
+        "file": "review/onion-04.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "reward-stars": {
+        "file": "review/onion-05.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "draw-focus",
+          "frame": 0,
+          "anchor_screen_x": 264,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 55.0
+        },
+        {
+          "clip": "discard-impact",
+          "frame": 4,
+          "anchor_screen_x": 792,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 2.0
+        },
+        {
+          "clip": "player-ring",
+          "frame": 8,
+          "anchor_screen_x": 1320,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 1.0
+        },
+        {
+          "clip": "hu-burst",
+          "frame": 12,
+          "anchor_screen_x": 1848,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 13.0
+        },
+        {
+          "clip": "victory-confetti",
+          "frame": 16,
+          "anchor_screen_x": 2376,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 29.0
+        },
+        {
+          "clip": "reward-stars",
+          "frame": 20,
+          "anchor_screen_x": 2904,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 23.0
+        }
+      ],
+      "clips_shown": 6,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 24,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 6,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "pass",
+        "value": 0.333,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.009937,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "clips-input.json",
+        "sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a",
+        "bytes": 3939
+      },
+      {
+        "path": "frames/draw-focus-00.png",
+        "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+        "bytes": 39640
+      },
+      {
+        "path": "frames/draw-focus-01.png",
+        "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+        "bytes": 108215
+      },
+      {
+        "path": "frames/draw-focus-02.png",
+        "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+        "bytes": 129592
+      },
+      {
+        "path": "frames/draw-focus-03.png",
+        "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+        "bytes": 71874
+      },
+      {
+        "path": "frames/discard-impact-00.png",
+        "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+        "bytes": 25078
+      },
+      {
+        "path": "frames/discard-impact-01.png",
+        "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+        "bytes": 60574
+      },
+      {
+        "path": "frames/discard-impact-02.png",
+        "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+        "bytes": 87299
+      },
+      {
+        "path": "frames/discard-impact-03.png",
+        "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+        "bytes": 64016
+      },
+      {
+        "path": "frames/player-ring-00.png",
+        "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+        "bytes": 54928
+      },
+      {
+        "path": "frames/player-ring-01.png",
+        "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+        "bytes": 56354
+      },
+      {
+        "path": "frames/player-ring-02.png",
+        "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+        "bytes": 57570
+      },
+      {
+        "path": "frames/player-ring-03.png",
+        "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+        "bytes": 55053
+      },
+      {
+        "path": "frames/hu-burst-00.png",
+        "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+        "bytes": 41375
+      },
+      {
+        "path": "frames/hu-burst-01.png",
+        "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+        "bytes": 92464
+      },
+      {
+        "path": "frames/hu-burst-02.png",
+        "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+        "bytes": 128663
+      },
+      {
+        "path": "frames/hu-burst-03.png",
+        "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+        "bytes": 102304
+      },
+      {
+        "path": "frames/victory-confetti-00.png",
+        "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+        "bytes": 25709
+      },
+      {
+        "path": "frames/victory-confetti-01.png",
+        "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+        "bytes": 59477
+      },
+      {
+        "path": "frames/victory-confetti-02.png",
+        "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+        "bytes": 58726
+      },
+      {
+        "path": "frames/victory-confetti-03.png",
+        "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+        "bytes": 32090
+      },
+      {
+        "path": "frames/reward-stars-00.png",
+        "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+        "bytes": 15152
+      },
+      {
+        "path": "frames/reward-stars-01.png",
+        "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+        "bytes": 88354
+      },
+      {
+        "path": "frames/reward-stars-02.png",
+        "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+        "bytes": 78916
+      },
+      {
+        "path": "frames/reward-stars-03.png",
+        "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+        "bytes": 56026
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/draw-focus-00.png",
+        "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+        "bytes": 39640
+      },
+      {
+        "path": "frames/draw-focus-01.png",
+        "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+        "bytes": 108215
+      },
+      {
+        "path": "frames/draw-focus-02.png",
+        "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+        "bytes": 129592
+      },
+      {
+        "path": "frames/draw-focus-03.png",
+        "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+        "bytes": 71874
+      },
+      {
+        "path": "frames/discard-impact-00.png",
+        "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+        "bytes": 25078
+      },
+      {
+        "path": "frames/discard-impact-01.png",
+        "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+        "bytes": 60574
+      },
+      {
+        "path": "frames/discard-impact-02.png",
+        "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+        "bytes": 87299
+      },
+      {
+        "path": "frames/discard-impact-03.png",
+        "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+        "bytes": 64016
+      },
+      {
+        "path": "frames/player-ring-00.png",
+        "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+        "bytes": 54928
+      },
+      {
+        "path": "frames/player-ring-01.png",
+        "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+        "bytes": 56354
+      },
+      {
+        "path": "frames/player-ring-02.png",
+        "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+        "bytes": 57570
+      },
+      {
+        "path": "frames/player-ring-03.png",
+        "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+        "bytes": 55053
+      },
+      {
+        "path": "frames/hu-burst-00.png",
+        "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+        "bytes": 41375
+      },
+      {
+        "path": "frames/hu-burst-01.png",
+        "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+        "bytes": 92464
+      },
+      {
+        "path": "frames/hu-burst-02.png",
+        "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+        "bytes": 128663
+      },
+      {
+        "path": "frames/hu-burst-03.png",
+        "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+        "bytes": 102304
+      },
+      {
+        "path": "frames/victory-confetti-00.png",
+        "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+        "bytes": 25709
+      },
+      {
+        "path": "frames/victory-confetti-01.png",
+        "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+        "bytes": 59477
+      },
+      {
+        "path": "frames/victory-confetti-02.png",
+        "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+        "bytes": 58726
+      },
+      {
+        "path": "frames/victory-confetti-03.png",
+        "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+        "bytes": 32090
+      },
+      {
+        "path": "frames/reward-stars-00.png",
+        "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+        "bytes": 15152
+      },
+      {
+        "path": "frames/reward-stars-01.png",
+        "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+        "bytes": 88354
+      },
+      {
+        "path": "frames/reward-stars-02.png",
+        "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+        "bytes": 78916
+      },
+      {
+        "path": "frames/reward-stars-03.png",
+        "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+        "bytes": 56026
+      },
+      {
+        "path": "previews/draw-focus.webp",
+        "sha256": "63df14959d9202ee0dd8ab940469d902d122de90ae87be8e8043e053cd351e7c",
+        "bytes": 269532
+      },
+      {
+        "path": "previews/discard-impact.webp",
+        "sha256": "eb252562f905e41aa977be71bf9f528c241a54400e97480962e326da2e5c833c",
+        "bytes": 174442
+      },
+      {
+        "path": "previews/player-ring.webp",
+        "sha256": "1a9fc09169efcf404d90bd54ec94ec3189d7ca5bbdd62bef69d49fadb176e140",
+        "bytes": 163620
+      },
+      {
+        "path": "previews/hu-burst.webp",
+        "sha256": "709007aed7cdfcf49770409dee1e32914a5a286d4e655fc99e4264391fa1b9e8",
+        "bytes": 281090
+      },
+      {
+        "path": "previews/victory-confetti.webp",
+        "sha256": "5a8d6f39aea615735e8a3af1cbefc733a6c0189384e5e7b2fe83f548212215be",
+        "bytes": 132098
+      },
+      {
+        "path": "previews/reward-stars.webp",
+        "sha256": "b7b45626afd4a74fb72e5215bb2a4a96a7cef24558b1e07efa1c0d5c4f31d52e",
+        "bytes": 190576
+      },
+      {
+        "path": "review/timing-contact-sheet.png",
+        "sha256": "d1d8b05dbc7bc60d83a9be7e279f617137ab0254315c958f83a47934f7e19f63",
+        "bytes": 1171953
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "051f3a9fdda0d68e4d2af6192be4ffd4b39e18bc175926cb1d5f03598ca75265",
+        "bytes": 722877
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "3e1c377098c2b88236f5f9499cac139f89474a2c5fabb9b28b6e262b35660a96",
+        "bytes": 325937
+      },
+      {
+        "path": "review/filmstrip-01.png",
+        "sha256": "0147d8df9bd864d043df7c8457aec69b09fad0d41fe629657761bca4c8345041",
+        "bytes": 556905
+      },
+      {
+        "path": "review/onion-01.png",
+        "sha256": "e3bb6a4fe74742f09749eb8add747ac382be484f97965b94a787175b37c71dd2",
+        "bytes": 227896
+      },
+      {
+        "path": "review/filmstrip-02.png",
+        "sha256": "28042776616499a7816da5c8479ee0829c6c677108ab24d504fc5be5ec69c942",
+        "bytes": 543223
+      },
+      {
+        "path": "review/onion-02.png",
+        "sha256": "d7bbbd1ce29df7deffdda8b05a67ca00cae376956d2136f411896ae817fdb469",
+        "bytes": 217047
+      },
+      {
+        "path": "review/filmstrip-03.png",
+        "sha256": "12ca95a50bf22c69cdf8a29a075d097e8ce222d43d2bd5a9502553fe0b92869f",
+        "bytes": 809937
+      },
+      {
+        "path": "review/onion-03.png",
+        "sha256": "f568e7b99a81f23adbdc22f83c3aed21d035f42a5257c8fd7da04c621f8ef4ee",
+        "bytes": 328392
+      },
+      {
+        "path": "review/filmstrip-04.png",
+        "sha256": "a4556c0da3f5cbcdccfab73d955226f6dceff3ae034a09bf1a31c7f8d621f79f",
+        "bytes": 405258
+      },
+      {
+        "path": "review/onion-04.png",
+        "sha256": "b650f393900177e005ee4134ba0763c6f8c1feaaa24b0bd00d3de1f8b0a5020f",
+        "bytes": 217948
+      },
+      {
+        "path": "review/filmstrip-05.png",
+        "sha256": "a160efea6b841a9d07504507b6089199870f1cc5dfdd3e7bf47f8870ee5a9750",
+        "bytes": 498622
+      },
+      {
+        "path": "review/onion-05.png",
+        "sha256": "96d8ae9a01b3e8b276f1562297122257fa3fb020426581fcd7d79e2d59bb4e7f",
+        "bytes": 244048
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "43191235f7bd4f28785e8529c1a038ee603f10fafb2a60e37ec154b1d567b9cb",
+        "bytes": 321760
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  },
+  "relocation": {
+    "originalBuildManifest": "assets/fx/full-game/qa/clip-build-original.json",
+    "originalSha256": "dc167bc20ca5c18bc6c913821600d6c2efae702e536ff43524525116c37c1fb6",
+    "operation": "relocate paths only to existing byte-identical primary PNGs and copied previews/review files; no timing or pixels changed",
+    "historicalWorkingManifest": "work/full-game-fx/clips-built-final/animation-clips.json"
+  },
+  "productionVisualReview": {
+    "status": "passed",
+    "method": "actual deep/light exported frame contact sheet inspection and Chinese callout visual inspection; effect cores/inner ring registered",
+    "clientEnginePlaybackProven": false,
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  }
+}

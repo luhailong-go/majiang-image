@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/items/avatar-voucher.png",
+  "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+  "createdAt": "2026-10-26T16:37:55.285Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/items-a-sheet-v1.png",
+      "sha256": "91a6ad7e9e0fd5ccb766023ced2624798b12dce50ce40a9d01a934d6efe615ec",
+      "generationRecord": "designs/props/full-game/sources/items-a-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      0,
+      0,
+      540,
+      512
+    ],
+    "nativeContentBounds": [
+      42,
+      99,
+      531,
+      416
+    ],
+    "corePixelsBefore": 99745,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 99745,
+        "box": [
+          42,
+          99,
+          530,
+          415
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      489,
+      317
+    ],
+    "exportContent": [
+      480,
+      311
+    ],
+    "contentBounds": [
+      16,
+      100,
+      480,
+      311
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9815950920245399,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "item-avatar-voucher",
+    "label": "头像券",
+    "group": "item"
+  }
+}

@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": 1,
+  "title": "道家Q版麻将基础牌",
+  "generatedAt": "2026-10-26T08:25:50.470Z",
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "RGBA PNG",
+    "sourceNative": [
+      1024,
+      1536
+    ],
+    "upscaled": false
+  },
+  "sourceStyleReferences": [
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png"
+  ],
+  "modelDisclosure": "Generated painted blanks/backs use builtin image_gen target GPT Image 2.5 Sunburst/max. Actual model/quality unconfirmed. Tile face symbols are deterministic native vectors, not separately generated images.",
+  "base": {
+    "blank": {
+      "file": "assets/tiles/tile-blank.png",
+      "record": "assets/tiles/tile-blank.png.generation.json",
+      "native": {
+        "width": 1024,
+        "height": 1536
+      },
+      "crop": {
+        "left": 101,
+        "top": 173,
+        "width": 843,
+        "height": 1171
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "alphaOperation": "Native alpha >=128 foreground silhouette, fully opaque interior; crop and downscale with Lanczos3 creates only narrow antialiased edge. Removes residual model halo, not a new AI generation."
+    },
+    "back": {
+      "file": "assets/tiles/tile-back.png",
+      "record": "assets/tiles/tile-back.png.generation.json",
+      "native": {
+        "width": 1024,
+        "height": 1536
+      },
+      "crop": {
+        "left": 102,
+        "top": 165,
+        "width": 850,
+        "height": 1219
+      },
+      "contentBounds": [
+        15,
+        20,
+        418,
+        600
+      ],
+      "alphaOperation": "Native alpha >=128 foreground silhouette, fully opaque interior; crop and downscale with Lanczos3 creates only narrow antialiased edge. Removes residual model halo, not a new AI generation."
+    }
+  },
+  "tiles": [
+    {
+      "id": "wan-1",
+      "label": "一万",
+      "suit": "characters",
+      "rank": 1,
+      "glyphs": [
+        "一",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-1.png",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+      "record": "assets/tiles/faces/wan-1.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-1.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-1.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-2",
+      "label": "二万",
+      "suit": "characters",
+      "rank": 2,
+      "glyphs": [
+        "二",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-2.png",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+      "record": "assets/tiles/faces/wan-2.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-2.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-2.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-3",
+      "label": "三万",
+      "suit": "characters",
+      "rank": 3,
+      "glyphs": [
+        "三",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-3.png",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+      "record": "assets/tiles/faces/wan-3.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-3.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-3.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-4",
+      "label": "四万",
+      "suit": "characters",
+      "rank": 4,
+      "glyphs": [
+        "四",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-4.png",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+      "record": "assets/tiles/faces/wan-4.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-4.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-4.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-5",
+      "label": "五万",
+      "suit": "characters",
+      "rank": 5,
+      "glyphs": [
+        "五",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-5.png",
+      "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+      "record": "assets/tiles/faces/wan-5.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-5.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-5.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-6",
+      "label": "六万",
+      "suit": "characters",
+      "rank": 6,
+      "glyphs": [
+        "六",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "record": "assets/tiles/faces/wan-6.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-6.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-6.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-7",
+      "label": "七万",
+      "suit": "characters",
+      "rank": 7,
+      "glyphs": [
+        "七",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-7.png",
+      "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+      "record": "assets/tiles/faces/wan-7.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-7.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-7.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-8",
+      "label": "八万",
+      "suit": "characters",
+      "rank": 8,
+      "glyphs": [
+        "八",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-8.png",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+      "record": "assets/tiles/faces/wan-8.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-8.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-8.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wan-9",
+      "label": "九万",
+      "suit": "characters",
+      "rank": 9,
+      "glyphs": [
+        "九",
+        "萬"
+      ],
+      "file": "assets/tiles/faces/wan-9.png",
+      "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+      "record": "assets/tiles/faces/wan-9.png.generation.json",
+      "symbol": "assets/tiles/symbols/wan-9.svg",
+      "symbolPNG": "assets/tiles/symbols/wan-9.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-1",
+      "label": "一筒",
+      "suit": "dots",
+      "rank": 1,
+      "pipCount": 1,
+      "positions": [
+        [
+          0,
+          0
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-1.png",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+      "record": "assets/tiles/faces/tong-1.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-1.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-1.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-2",
+      "label": "二筒",
+      "suit": "dots",
+      "rank": 2,
+      "pipCount": 2,
+      "positions": [
+        [
+          0,
+          -115
+        ],
+        [
+          0,
+          115
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-2.png",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+      "record": "assets/tiles/faces/tong-2.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-2.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-2.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-3",
+      "label": "三筒",
+      "suit": "dots",
+      "rank": 3,
+      "pipCount": 3,
+      "positions": [
+        [
+          -85,
+          -150
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          85,
+          150
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-3.png",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+      "record": "assets/tiles/faces/tong-3.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-3.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-3.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-4",
+      "label": "四筒",
+      "suit": "dots",
+      "rank": 4,
+      "pipCount": 4,
+      "positions": [
+        [
+          -83,
+          -132
+        ],
+        [
+          83,
+          -132
+        ],
+        [
+          -83,
+          132
+        ],
+        [
+          83,
+          132
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-4.png",
+      "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+      "record": "assets/tiles/faces/tong-4.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-4.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-4.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-5",
+      "label": "五筒",
+      "suit": "dots",
+      "rank": 5,
+      "pipCount": 5,
+      "positions": [
+        [
+          -95,
+          -160
+        ],
+        [
+          95,
+          -160
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -95,
+          160
+        ],
+        [
+          95,
+          160
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-5.png",
+      "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+      "record": "assets/tiles/faces/tong-5.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-5.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-5.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-6",
+      "label": "六筒",
+      "suit": "dots",
+      "rank": 6,
+      "pipCount": 6,
+      "positions": [
+        [
+          -94,
+          -160
+        ],
+        [
+          94,
+          -160
+        ],
+        [
+          -94,
+          0
+        ],
+        [
+          94,
+          0
+        ],
+        [
+          -94,
+          160
+        ],
+        [
+          94,
+          160
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-6.png",
+      "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+      "record": "assets/tiles/faces/tong-6.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-6.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-6.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-7",
+      "label": "七筒",
+      "suit": "dots",
+      "rank": 7,
+      "pipCount": 7,
+      "positions": [
+        [
+          -94,
+          -176
+        ],
+        [
+          0,
+          -116
+        ],
+        [
+          94,
+          -56
+        ],
+        [
+          -94,
+          75
+        ],
+        [
+          94,
+          75
+        ],
+        [
+          -94,
+          188
+        ],
+        [
+          94,
+          188
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-7.png",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+      "record": "assets/tiles/faces/tong-7.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-7.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-7.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-8",
+      "label": "八筒",
+      "suit": "dots",
+      "rank": 8,
+      "pipCount": 8,
+      "positions": [
+        [
+          -88,
+          -181
+        ],
+        [
+          88,
+          -181
+        ],
+        [
+          -88,
+          -60
+        ],
+        [
+          88,
+          -60
+        ],
+        [
+          -88,
+          60
+        ],
+        [
+          88,
+          60
+        ],
+        [
+          -88,
+          181
+        ],
+        [
+          88,
+          181
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-8.png",
+      "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+      "record": "assets/tiles/faces/tong-8.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-8.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-8.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tong-9",
+      "label": "九筒",
+      "suit": "dots",
+      "rank": 9,
+      "pipCount": 9,
+      "positions": [
+        [
+          -98,
+          -166
+        ],
+        [
+          0,
+          -166
+        ],
+        [
+          98,
+          -166
+        ],
+        [
+          -98,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          98,
+          0
+        ],
+        [
+          -98,
+          166
+        ],
+        [
+          0,
+          166
+        ],
+        [
+          98,
+          166
+        ]
+      ],
+      "file": "assets/tiles/faces/tong-9.png",
+      "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+      "record": "assets/tiles/faces/tong-9.png.generation.json",
+      "symbol": "assets/tiles/symbols/tong-9.svg",
+      "symbolPNG": "assets/tiles/symbols/tong-9.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-1",
+      "label": "一条",
+      "suit": "bamboo",
+      "rank": 1,
+      "bambooCount": 1,
+      "positions": [
+        [
+          0,
+          0,
+          76,
+          315
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-1.png",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+      "record": "assets/tiles/faces/tiao-1.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-1.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-1.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-2",
+      "label": "二条",
+      "suit": "bamboo",
+      "rank": 2,
+      "bambooCount": 2,
+      "positions": [
+        [
+          -78,
+          0,
+          58,
+          290
+        ],
+        [
+          78,
+          0,
+          58,
+          290
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-2.png",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+      "record": "assets/tiles/faces/tiao-2.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-2.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-2.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-3",
+      "label": "三条",
+      "suit": "bamboo",
+      "rank": 3,
+      "bambooCount": 3,
+      "positions": [
+        [
+          -102,
+          0,
+          48,
+          290
+        ],
+        [
+          0,
+          0,
+          48,
+          290
+        ],
+        [
+          102,
+          0,
+          48,
+          290
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-3.png",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+      "record": "assets/tiles/faces/tiao-3.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-3.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-3.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-4",
+      "label": "四条",
+      "suit": "bamboo",
+      "rank": 4,
+      "bambooCount": 4,
+      "positions": [
+        [
+          -86,
+          -135,
+          45,
+          170
+        ],
+        [
+          86,
+          -135,
+          45,
+          170
+        ],
+        [
+          -86,
+          135,
+          45,
+          170
+        ],
+        [
+          86,
+          135,
+          45,
+          170
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-4.png",
+      "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+      "record": "assets/tiles/faces/tiao-4.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-4.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-4.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-5",
+      "label": "五条",
+      "suit": "bamboo",
+      "rank": 5,
+      "bambooCount": 5,
+      "positions": [
+        [
+          -101,
+          -164,
+          40,
+          130
+        ],
+        [
+          101,
+          -164,
+          40,
+          130
+        ],
+        [
+          0,
+          0,
+          40,
+          130
+        ],
+        [
+          -101,
+          164,
+          40,
+          130
+        ],
+        [
+          101,
+          164,
+          40,
+          130
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-5.png",
+      "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+      "record": "assets/tiles/faces/tiao-5.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-5.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-5.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-6",
+      "label": "六条",
+      "suit": "bamboo",
+      "rank": 6,
+      "bambooCount": 6,
+      "positions": [
+        [
+          -101,
+          -125,
+          39,
+          172
+        ],
+        [
+          0,
+          -125,
+          39,
+          172
+        ],
+        [
+          101,
+          -125,
+          39,
+          172
+        ],
+        [
+          -101,
+          125,
+          39,
+          172
+        ],
+        [
+          0,
+          125,
+          39,
+          172
+        ],
+        [
+          101,
+          125,
+          39,
+          172
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-6.png",
+      "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+      "record": "assets/tiles/faces/tiao-6.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-6.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-6.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-7",
+      "label": "七条",
+      "suit": "bamboo",
+      "rank": 7,
+      "bambooCount": 7,
+      "positions": [
+        [
+          0,
+          -183,
+          36,
+          108
+        ],
+        [
+          -101,
+          -43,
+          36,
+          108
+        ],
+        [
+          0,
+          -43,
+          36,
+          108
+        ],
+        [
+          101,
+          -43,
+          36,
+          108
+        ],
+        [
+          -101,
+          151,
+          36,
+          108
+        ],
+        [
+          0,
+          151,
+          36,
+          108
+        ],
+        [
+          101,
+          151,
+          36,
+          108
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-7.png",
+      "sha256": "c238b463958fccf4ce130127e2a1f52111c7fe7942cba836257cc2d67a523a62",
+      "record": "assets/tiles/faces/tiao-7.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-7.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-7.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-8",
+      "label": "八条",
+      "suit": "bamboo",
+      "rank": 8,
+      "bambooCount": 8,
+      "positions": [
+        [
+          -130,
+          -128,
+          28,
+          160
+        ],
+        [
+          -43,
+          -128,
+          28,
+          160
+        ],
+        [
+          43,
+          -128,
+          28,
+          160
+        ],
+        [
+          130,
+          -128,
+          28,
+          160
+        ],
+        [
+          -130,
+          128,
+          28,
+          160
+        ],
+        [
+          -43,
+          128,
+          28,
+          160
+        ],
+        [
+          43,
+          128,
+          28,
+          160
+        ],
+        [
+          130,
+          128,
+          28,
+          160
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-8.png",
+      "sha256": "95a27fd4fbc885c87c9d3984bcc9fefc8e75ebf620a2926d32a8fffba4692060",
+      "record": "assets/tiles/faces/tiao-8.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-8.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-8.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "tiao-9",
+      "label": "九条",
+      "suit": "bamboo",
+      "rank": 9,
+      "bambooCount": 9,
+      "positions": [
+        [
+          -101,
+          -176,
+          34,
+          111
+        ],
+        [
+          0,
+          -176,
+          34,
+          111
+        ],
+        [
+          101,
+          -176,
+          34,
+          111
+        ],
+        [
+          -101,
+          0,
+          34,
+          111
+        ],
+        [
+          0,
+          0,
+          34,
+          111
+        ],
+        [
+          101,
+          0,
+          34,
+          111
+        ],
+        [
+          -101,
+          176,
+          34,
+          111
+        ],
+        [
+          0,
+          176,
+          34,
+          111
+        ],
+        [
+          101,
+          176,
+          34,
+          111
+        ]
+      ],
+      "file": "assets/tiles/faces/tiao-9.png",
+      "sha256": "7ba8063ee00305af2f4b1d94418f7f87464c21d07582ca25d69cb5f0fcc4dc87",
+      "record": "assets/tiles/faces/tiao-9.png.generation.json",
+      "symbol": "assets/tiles/symbols/tiao-9.svg",
+      "symbolPNG": "assets/tiles/symbols/tiao-9.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wind-east",
+      "label": "东",
+      "suit": "winds",
+      "glyphs": [
+        "东"
+      ],
+      "file": "assets/tiles/faces/wind-east.png",
+      "sha256": "2723f83ff503861a4add614eab3f0fe82c09766a994d20ecc8fbba7809396476",
+      "record": "assets/tiles/faces/wind-east.png.generation.json",
+      "symbol": "assets/tiles/symbols/wind-east.svg",
+      "symbolPNG": "assets/tiles/symbols/wind-east.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wind-south",
+      "label": "南",
+      "suit": "winds",
+      "glyphs": [
+        "南"
+      ],
+      "file": "assets/tiles/faces/wind-south.png",
+      "sha256": "27dcca17fb90112fcf05a8d6b9a2887b1e22077b8eaa1a1a929b9f8bbedaa069",
+      "record": "assets/tiles/faces/wind-south.png.generation.json",
+      "symbol": "assets/tiles/symbols/wind-south.svg",
+      "symbolPNG": "assets/tiles/symbols/wind-south.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wind-west",
+      "label": "西",
+      "suit": "winds",
+      "glyphs": [
+        "西"
+      ],
+      "file": "assets/tiles/faces/wind-west.png",
+      "sha256": "bc5c4b94ef101eb8d9d253386f2ed3096fffbcd86c91eead7601af8d75968bfb",
+      "record": "assets/tiles/faces/wind-west.png.generation.json",
+      "symbol": "assets/tiles/symbols/wind-west.svg",
+      "symbolPNG": "assets/tiles/symbols/wind-west.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "wind-north",
+      "label": "北",
+      "suit": "winds",
+      "glyphs": [
+        "北"
+      ],
+      "file": "assets/tiles/faces/wind-north.png",
+      "sha256": "54e3b481009dba1cae244f08179ca877505e7a3f8426f8862daf27a624b9fca6",
+      "record": "assets/tiles/faces/wind-north.png.generation.json",
+      "symbol": "assets/tiles/symbols/wind-north.svg",
+      "symbolPNG": "assets/tiles/symbols/wind-north.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "dragon-red",
+      "label": "中",
+      "suit": "dragons",
+      "glyphs": [
+        "中"
+      ],
+      "file": "assets/tiles/faces/dragon-red.png",
+      "sha256": "d2e84f21eeb3000e620e46adc58b63492333741e585c66c8fde9a60139620f18",
+      "record": "assets/tiles/faces/dragon-red.png.generation.json",
+      "symbol": "assets/tiles/symbols/dragon-red.svg",
+      "symbolPNG": "assets/tiles/symbols/dragon-red.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "dragon-green",
+      "label": "发",
+      "suit": "dragons",
+      "glyphs": [
+        "發"
+      ],
+      "file": "assets/tiles/faces/dragon-green.png",
+      "sha256": "7abb6f5b4c13cd0effc319dccc2e9fc2f318b5fbd571707aab3a2a75403e16f7",
+      "record": "assets/tiles/faces/dragon-green.png.generation.json",
+      "symbol": "assets/tiles/symbols/dragon-green.svg",
+      "symbolPNG": "assets/tiles/symbols/dragon-green.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "dragon-white",
+      "label": "白",
+      "suit": "dragons",
+      "whiteDragonFrame": true,
+      "file": "assets/tiles/faces/dragon-white.png",
+      "sha256": "0cdaf0479317c425f631c8ea9c9ec5bb6142319556c6fb0adf7e190043f5952f",
+      "record": "assets/tiles/faces/dragon-white.png.generation.json",
+      "symbol": "assets/tiles/symbols/dragon-white.svg",
+      "symbolPNG": "assets/tiles/symbols/dragon-white.png",
+      "canvas": {
+        "width": 448,
+        "height": 640
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "contentBounds": [
+        8,
+        20,
+        432,
+        600
+      ],
+      "status": "passed"
+    }
+  ],
+  "stateAndOrientationMap": {
+    "faceUp": {
+      "selfDegrees": 0,
+      "rightDegrees": 270,
+      "oppositeDegrees": 180,
+      "leftDegrees": 90,
+      "note": "Clockwise screen rotation with owner at screen edge: self bottom 0, right 270, top 180, left 90. Glyph top points toward table center; never mirror."
+    },
+    "faceDown": "Use tile-back.png; use same 4 seat rotations. Remote concealed hands show backs only.",
+    "hand": {
+      "suggestedDisplay": [
+        112,
+        160
+      ],
+      "pivot": [
+        0.5,
+        0.95
+      ],
+      "selectedRaisePxAtDisplaySize": 12,
+      "spacingPx": 96
+    },
+    "discardAndMeld": {
+      "suggestedDisplay": [
+        45,
+        64
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "note": "Preserve aspect; rotate whole sprite for each seat. Keep identical face identities in meld groups."
+    },
+    "normal": {
+      "tint": "#FFFFFF",
+      "opacity": 1
+    },
+    "selected": {
+      "tint": "#FFFFFF",
+      "opacity": 1,
+      "raiseAtDisplayPx": 12,
+      "outline": "assets/tiles/states/tile-highlight.png"
+    },
+    "legalAction": {
+      "outline": "assets/tiles/states/tile-highlight.png"
+    },
+    "unplayable": {
+      "rendererEffect": "desaturate(1), brightness(.60); preserve alpha; no symbol replacement",
+      "interactive": false
+    },
+    "hover": {
+      "rendererEffect": "brightness(1.06)",
+      "scale": 1
+    },
+    "disabled": {
+      "sameAs": "unplayable"
+    },
+    "tileScaling": "Scale whole sprite uniformly; no nine-slice. Symbols can be drawn separately from outlined SVG at any size."
+  },
+  "counts": {
+    "faces": 34,
+    "characters": 9,
+    "dots": 9,
+    "bamboo": 9,
+    "winds": 4,
+    "dragons": 3,
+    "blank": 1,
+    "back": 1,
+    "highlightOverlay": 1
+  },
+  "checks": {
+    "semantic": "passed",
+    "alpha": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00",
+    "independentVisualReview": "34 faces and deep/light alpha board independently inspected by tile_visual_qa: no blocking issue",
+    "orientationReview": "Final six-wan board inspected by tile producer: self0, left90, opposite180, right270 clockwise, glyph tops toward table center",
+    "rootIndependentReview": "passed: actual full34 contact sheet and final six-wan four-direction/light-dark board"
+  },
+  "previews": [
+    "assets/tiles/previews/tiles-contact-sheet.png",
+    "assets/tiles/previews/tile-states-alpha.png"
+  ],
+  "gallery": "assets/tiles/index.html",
+  "deliveryNotes": "docs/TILES_DELIVERY.md"
+}

@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/items/tablecloth-voucher.png",
+  "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+  "createdAt": "2026-10-26T16:37:55.351Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/items-a-sheet-v1.png",
+      "sha256": "91a6ad7e9e0fd5ccb766023ced2624798b12dce50ce40a9d01a934d6efe615ec",
+      "generationRecord": "designs/props/full-game/sources/items-a-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      540,
+      0,
+      1050,
+      512
+    ],
+    "nativeContentBounds": [
+      553,
+      99,
+      1043,
+      416
+    ],
+    "corePixelsBefore": 100105,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 100105,
+        "box": [
+          553,
+          99,
+          1042,
+          415
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      490,
+      317
+    ],
+    "exportContent": [
+      480,
+      311
+    ],
+    "contentBounds": [
+      16,
+      100,
+      480,
+      311
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9795918367346939,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "item-tablecloth-voucher",
+    "label": "桌布券",
+    "group": "item"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "assets/tiles/symbols/wan-7.svg",
+  "sha256": "8ea76bf4b13eaa67d0776e9b1bd79387473fe7f794a4131f5a4730b6e9f53122",
+  "operation": "Deterministic original SVG symbols; KaiTi text converted to vector outlines, exact pip/bamboo counts. No model call.",
+  "fontSource": {
+    "name": "KaiTi",
+    "outlineData": "assets/tiles/source/glyph-outlines.json",
+    "sha256": "d4a555d0f59d89caaa829454147171ef73d80a1c0c15799d672741ace08b83ee",
+    "fontFileDistributed": false
+  },
+  "semantic": {
+    "label": "七万",
+    "suit": "characters",
+    "rank": 7,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "七",
+      "萬"
+    ],
+    "whiteDragonFrame": false
+  },
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "checks": {
+    "exactSemantics": "passed",
+    "visual": "passed"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/preview-expressions-dark.png",
+  "sha256": "62e403911d8b1a87a227c679d69dbcd67822f0a5a1f30c27618cb1fb39815c09",
+  "exportedAt": "2026-10-26T20:33:02.107182+00:00",
+  "width": 1280,
+  "height": 1440,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "tool": "Pillow deterministic contact-sheet layout",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "This contact sheet is not an AI generation. Follow each derivedFrom source record for actual model/quality evidence.",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/full-game/expression-daotong-happy.png",
+      "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+      "generationRecord": "assets/characters/full-game/expression-daotong-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-thinking.png",
+      "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+      "generationRecord": "assets/characters/full-game/expression-daotong-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-surprised.png",
+      "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+      "generationRecord": "assets/characters/full-game/expression-daotong-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-sad.png",
+      "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+      "generationRecord": "assets/characters/full-game/expression-daotong-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-happy.png",
+      "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+      "generationRecord": "assets/characters/full-game/expression-healer-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-thinking.png",
+      "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+      "generationRecord": "assets/characters/full-game/expression-healer-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-surprised.png",
+      "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+      "generationRecord": "assets/characters/full-game/expression-healer-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-sad.png",
+      "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+      "generationRecord": "assets/characters/full-game/expression-healer-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-happy.png",
+      "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+      "generationRecord": "assets/characters/full-game/expression-master-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-thinking.png",
+      "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+      "generationRecord": "assets/characters/full-game/expression-master-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-surprised.png",
+      "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+      "generationRecord": "assets/characters/full-game/expression-master-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-sad.png",
+      "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+      "generationRecord": "assets/characters/full-game/expression-master-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "generationRecord": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+      "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+      "generationRecord": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+      "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+      "generationRecord": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+      "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+      "generationRecord": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json"
+    }
+  ],
+  "operation": [
+    {
+      "operation": "premultiplied-alpha uniform thumbnail downsample and grid layout",
+      "columns": 4,
+      "rows": 4,
+      "cellSize": [
+        320,
+        360
+      ],
+      "contentMaxSize": [
+        296,
+        306
+      ],
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "composite onto opaque inspection background",
+      "backgroundRgb": [
+        14,
+        44,
+        39
+      ],
+      "tone": "dark"
+    },
+    {
+      "operation": "draw labels from manifest names",
+      "font": "Microsoft YaHei; system msyh.ttc or Pillow fallback",
+      "fontSize": 24
+    }
+  ],
+  "purpose": "retained final visual QA/design contact sheet, not runtime asset",
+  "userApproved": false,
+  "clientIntegrated": false
+}

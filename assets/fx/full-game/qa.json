@@ -1,0 +1,750 @@
+{
+  "schemaVersion": 2,
+  "status": "passed",
+  "generatedAt": "2026-10-26T11:52:29-04:00",
+  "primaryAssets": 35,
+  "callouts": 8,
+  "effectFrames": 24,
+  "distinctFramesPerEffect": 4,
+  "effectClips": 6,
+  "resultDecorations": 2,
+  "blankPlaques": 1,
+  "errors": [],
+  "warnings": [],
+  "files": [
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-00.png",
+      "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-01.png",
+      "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-02.png",
+      "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-03.png",
+      "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-00.png",
+      "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-01.png",
+      "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-02.png",
+      "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-03.png",
+      "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-00.png",
+      "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-01.png",
+      "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-02.png",
+      "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-03.png",
+      "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-00.png",
+      "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-01.png",
+      "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-02.png",
+      "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-03.png",
+      "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+      "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+      "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+      "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+      "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-00.png",
+      "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        253
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-01.png",
+      "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-02.png",
+      "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-03.png",
+      "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callout-base.png",
+      "sha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/chi.png",
+      "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/peng.png",
+      "sha256": "af84cde9b3d469c089a5d093e0623657a2d3e381d178598824d61fb954cb1c3d",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/gang.png",
+      "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/hu.png",
+      "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/ting.png",
+      "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/self-draw.png",
+      "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/draw.png",
+      "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/callouts/victory.png",
+      "sha256": "cbd9d59a728a4889ebdd28bee0680672d7c39d6601eb5711ee7d29848aab40dd",
+      "size": [
+        768,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/settlement-defeat.png",
+      "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    },
+    {
+      "file": "assets/fx/full-game/settlement-draw.png",
+      "sha256": "b75f8593d875ab9b4bb3b495634fb841a4ccf9e8c0ae71bd0a7c5d118ed9cc7d",
+      "size": [
+        512,
+        512
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "edgeVisiblePixels": 0,
+      "transparentCorners": true
+    }
+  ],
+  "visualReview": {
+    "status": "passed",
+    "evidence": [
+      "assets/fx/full-game/previews/frames-alpha.png",
+      "assets/fx/full-game/previews/callouts-alpha.png"
+    ],
+    "method": "actual visual inspection of all final PNGs as contact sheets on both light and dark backgrounds, source art and phase ordering",
+    "loop": "four distinct clockwise glint positions; center registered from inner transparent hole",
+    "text": "吃、碰、杠、胡、听、自摸、流局、胜利逐字检查，准确排版，不是AI生成文字"
+  },
+  "clipBuilder": {
+    "status": "passed_numeric_and_visual_phase_review",
+    "lintWarnings": [],
+    "duplicateGroups": [],
+    "frameAlphaAndTimelineExact": true
+  },
+  "engineRoundTrip": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "aseprite_roundtrip",
+        "status": "pass",
+        "value": {
+          "pages": 1,
+          "frames": 24
+        },
+        "threshold": null
+      },
+      {
+        "id": "aseprite_pivot_rounding_px",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 2582,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 24,
+          "frames": 24
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../qa/clip-build-original.json",
+        "sha256": "dc167bc20ca5c18bc6c913821600d6c2efae702e536ff43524525116c37c1fb6",
+        "bytes": 55056,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/animation-clips.json"
+      },
+      {
+        "path": "../frames/draw-focus-00.png",
+        "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+        "bytes": 39640,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-00.png"
+      },
+      {
+        "path": "../frames/draw-focus-01.png",
+        "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+        "bytes": 108215,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-01.png"
+      },
+      {
+        "path": "../frames/draw-focus-02.png",
+        "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+        "bytes": 129592,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-02.png"
+      },
+      {
+        "path": "../frames/draw-focus-03.png",
+        "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+        "bytes": 71874,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-03.png"
+      },
+      {
+        "path": "../frames/discard-impact-00.png",
+        "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+        "bytes": 25078,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-04.png"
+      },
+      {
+        "path": "../frames/discard-impact-01.png",
+        "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+        "bytes": 60574,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-05.png"
+      },
+      {
+        "path": "../frames/discard-impact-02.png",
+        "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+        "bytes": 87299,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-06.png"
+      },
+      {
+        "path": "../frames/discard-impact-03.png",
+        "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+        "bytes": 64016,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-07.png"
+      },
+      {
+        "path": "../frames/player-ring-00.png",
+        "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+        "bytes": 54928,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-08.png"
+      },
+      {
+        "path": "../frames/player-ring-01.png",
+        "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+        "bytes": 56354,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-09.png"
+      },
+      {
+        "path": "../frames/player-ring-02.png",
+        "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+        "bytes": 57570,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-10.png"
+      },
+      {
+        "path": "../frames/player-ring-03.png",
+        "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+        "bytes": 55053,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-11.png"
+      },
+      {
+        "path": "../frames/hu-burst-00.png",
+        "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+        "bytes": 41375,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-12.png"
+      },
+      {
+        "path": "../frames/hu-burst-01.png",
+        "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+        "bytes": 92464,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-13.png"
+      },
+      {
+        "path": "../frames/hu-burst-02.png",
+        "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+        "bytes": 128663,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-14.png"
+      },
+      {
+        "path": "../frames/hu-burst-03.png",
+        "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+        "bytes": 102304,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-15.png"
+      },
+      {
+        "path": "../frames/victory-confetti-00.png",
+        "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+        "bytes": 25709,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-16.png"
+      },
+      {
+        "path": "../frames/victory-confetti-01.png",
+        "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+        "bytes": 59477,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-17.png"
+      },
+      {
+        "path": "../frames/victory-confetti-02.png",
+        "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+        "bytes": 58726,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-18.png"
+      },
+      {
+        "path": "../frames/victory-confetti-03.png",
+        "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+        "bytes": 32090,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-19.png"
+      },
+      {
+        "path": "../frames/reward-stars-00.png",
+        "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+        "bytes": 15152,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-20.png"
+      },
+      {
+        "path": "../frames/reward-stars-01.png",
+        "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+        "bytes": 88354,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-21.png"
+      },
+      {
+        "path": "../frames/reward-stars-02.png",
+        "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+        "bytes": 78916,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-22.png"
+      },
+      {
+        "path": "../frames/reward-stars-03.png",
+        "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+        "bytes": 56026,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-23.png"
+      }
+    ],
+    "outputs": [
+      {
+        "path": "aseprite/mahjong-fx.png",
+        "sha256": "90786328bf17c292049f1845341d26e929b96ee12f3820dd268ab4c4aedfbddf"
+      },
+      {
+        "path": "aseprite/mahjong-fx.json",
+        "sha256": "4f136e15645e05a06e8de5e720a1ee37d5c14c7bbe746edac45844192ed9dab7"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    },
+    "retentionNote": "Input file paths relocated to retained byte-identical primary assets and original text receipt; hashes unchanged. Temporary duplicate frame PNGs are removed."
+  },
+  "rawAdvisories": {
+    "safe_frame": "raw sources had safe_frame advisories, resolved by uniform downsample and registered transparent canvas padding; final outputs have no visible edge contact",
+    "faint_specks": "source alpha1–4 and isolated haze removed with alpha_hygiene both; soft glow retained",
+    "doctorPythonPath": "python.path WARN: other python.exe on PATH; all executed processing commands explicitly use isolated Python3.12 via forge.ps1, no unresolved interpreter choice"
+  },
+  "notProven": [
+    "真实客户端/引擎中的导入与对局触发尚未运行",
+    "浏览器交互未实测，预览仅做文件与脚本静态检查",
+    "每类只有4张实际生成的关键阶段图；跨阶段混合和结束淡出为客户端补间，不声称连续视频或角色骨骼动画"
+  ],
+  "staticPreviewValidation": {
+    "jsSyntax": "node --check passed",
+    "browserInteraction": "not_run"
+  },
+  "retention": {
+    "report": "work/full-game-fx/cleanup.json",
+    "supersededSource": "designs/fx/full-game/discard-impact-v1.png",
+    "currentSourceCount": 8,
+    "keptCurrentSources": "Current source paintings and final assets retained; superseded original and temporary raster duplicates removed after final assets passed."
+  }
+}

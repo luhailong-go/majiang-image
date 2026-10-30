@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "scope": "UI25 live-client theme art mapping",
+  "themes": [
+    {
+      "id": "jade-cloud",
+      "table": {
+        "conceptLabelInUI25": "青玉云纹",
+        "clientLabel": "青玉云纹",
+        "file": "assets/ui/gameplay/table-background.png",
+        "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad"
+      },
+      "tileBack": {
+        "conceptLabelInUI25": "太极青玉",
+        "clientLabel": "青玉牌背",
+        "file": "assets/tiles/tile-back.png",
+        "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f"
+      }
+    },
+    {
+      "id": "ivory-bamboo",
+      "table": {
+        "conceptLabelInUI25": "竹影清风",
+        "clientLabel": "竹韵米白",
+        "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+        "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c"
+      },
+      "tileBack": {
+        "conceptLabelInUI25": "竹韵墨青",
+        "clientLabel": "竹韵牌背",
+        "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+        "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1"
+      }
+    },
+    {
+      "id": "moon-lotus",
+      "table": {
+        "conceptLabelInUI25": "月白云海",
+        "clientLabel": "月莲青蓝",
+        "file": "assets/scenes/full-game/table-moon-lotus.png",
+        "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d"
+      },
+      "tileBack": {
+        "conceptLabelInUI25": "流云暖金",
+        "clientLabel": "月莲牌背",
+        "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+        "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0"
+      }
+    }
+  ],
+  "notes": [
+    "UI25 was generated before these final theme assets and remains a layout example. Its swatches are illustrative, not exact pixel previews of the final texture files.",
+    "For client implementation use the clientLabel and actual texture file above for each card and table preview; do not crop the illustrated concept swatches as exported texture assets.",
+    "No theme prices or ownership rules are defined."
+  ],
+  "clientIntegrated": false
+}

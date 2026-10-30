@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/edit-sources/ui11-round-result-before-fix.png",
+  "uiId": "UI11",
+  "title": "单局结算",
+  "sha256": "10cb9732e35bdf4195e787c32ea459426a97863a6504f63690141b88dc04132a",
+  "generatedAt": "2026-10-26T08:23:29.327Z",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-3240460b-cd36-49d5-83a5-bae6a758db87",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": [
+    2048,
+    1152
+  ],
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "promptFile": "prompts/core/ui11-round-result.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "结果提供image_url与output_hint及PNG文件路径；尺寸、格式和Alpha由文件检测。工具未返回可核实模型或质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/core/ui11-round-result.prompt.txt",
+  "promptSha256": "7eb08352e2836e6da29a6c84f5905692c3a16226cdd2a775c683831276d041ed",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-3240460b-cd36-49d5-83a5-bae6a758db87.png",
+    "sha256": "10cb9732e35bdf4195e787c32ea459426a97863a6504f63690141b88dc04132a",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "alphaStatistics": null,
+    "visualStatus": "superseded_requires_fix",
+    "issues": [],
+    "unresolvedIssues": [
+      "请只改变第1张单局结算图片右侧三行负积分“-10”的颜色：道友乙、道友甲、道友丙的三个“-10”全部由蓝色改成玉绿色，目标色#196448。本人“+30”保留朱砂红（#B52F20附近）。负号和数字10的字形、数值、位置、大小和清晰度全部保留。仅三处负积分文字换色；标题“本局结算”、第1局、四位头像与昵称、胡牌标记、每行牌面摘要、背景、面板、按钮“退出房间/继续游戏”、关闭X和示例说明全部不变。不得改成另一套牌面、不得改数字、不得修改人物或布局。"
+    ]
+  },
+  "status": {
+    "stage": "full_ui_art",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "胡牌",
+    "四家手牌摘要",
+    "积分变化",
+    "继续",
+    "退出"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-3240460b-cd36-49d5-83a5-bae6a758db87.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "originalFileAtGeneration": "designs/ui/full-suite/core/ui11-round-result.png",
+  "retainedAs": "immutable_input_for_targeted_fix"
+}

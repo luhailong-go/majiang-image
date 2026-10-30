@@ -1,0 +1,942 @@
+[
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\matte-probe.png",
+    "sha256": "13972f019931845e17d50a6c9c5ea57117685721710e7f075f1ff22af3b70c55",
+    "bytes": 352109
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\contact-sheet.png",
+    "sha256": "64239a67c6148dea9780c1af33f207553a736e920097ed0b014f2b4b55f90ef4",
+    "bytes": 1202744
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-00.webp",
+    "sha256": "9bb119363738b6ae2f429f17448113e02000c7c423835fc54406c7fa4726aed9",
+    "bytes": 284200
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-01.webp",
+    "sha256": "1f8e5e60cd9bb1635d3d8de206e510fec3317084a3a3dde614b7a94d544366c9",
+    "bytes": 185004
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-02.webp",
+    "sha256": "aafa55d9c28a021e83a0c4860253d628496afb63d92e59a1ab4970f259b3ed16",
+    "bytes": 179810
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-03.webp",
+    "sha256": "f13dd9035a7e0cf1e63ce278a32bb01c263238eeb7c05ec2becd47ed473d17e5",
+    "bytes": 293464
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-04.webp",
+    "sha256": "09d19f9c4e6b4f273ad7b61adf1ab7839dd89336fed60cc1d643c3d036ed011c",
+    "bytes": 159846
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\clips\\clip-05.webp",
+    "sha256": "bcb14dcd73be21ae58c64261290b7b19c6530d1ede01730c0d9bd569b59ab774",
+    "bytes": 201334
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-00.png",
+    "sha256": "85bb4143179a5711e1566ad156d4fd9548ec51ee97723136d8914674683acd0b",
+    "bytes": 41913
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-01.png",
+    "sha256": "3497d08dd874bed847e4193db0f40daee36e2436ecad33581daa73264b7bf9b0",
+    "bytes": 112534
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-02.png",
+    "sha256": "ef2c5ad01ed4ef493a87d89b1de4650f2918b067ebaf9c2b11836f967bd049ff",
+    "bytes": 132850
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-03.png",
+    "sha256": "e65c520ffbf6d69edef1dab0f6ea064bc125eff6bb27403634ae444a83692ded",
+    "bytes": 77524
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-04.png",
+    "sha256": "63f25aa4f879abc187de1053e5b971e424f32d8abc3cc814144a5c669489ef27",
+    "bytes": 26653
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-05.png",
+    "sha256": "d047bdd0b97036ef35081ab5d991165715ad706dc326d7adc218fc510bc9fd0c",
+    "bytes": 62889
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-06.png",
+    "sha256": "36e87296ae6b062e82e3cdc1c55c49737985b7361d344a9639dfc567263fb2cb",
+    "bytes": 90905
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-07.png",
+    "sha256": "7bf59db11c29aa624ecd314428f32ff9a9aeb4eef72a17894b24f7a72a4aaa71",
+    "bytes": 69280
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-08.png",
+    "sha256": "f5fd5b1274e9510e358aab9969ea139a4e0334e48154b153a9456546cefa768a",
+    "bytes": 60295
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-09.png",
+    "sha256": "caffddca789bd24d78bcf6c3ca68027ab0bdba54cf2d3ebde6c7282c1b0dd288",
+    "bytes": 61368
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-10.png",
+    "sha256": "f58e7d7a047b388751a984b4f9c913c59ae478d37946f3db3faf07d000cf4e11",
+    "bytes": 62451
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-11.png",
+    "sha256": "1044d21974478c8af5d5bfca75048abd6c9b42f6c3ad1b1bcdcf7f9170c41bd8",
+    "bytes": 60519
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-12.png",
+    "sha256": "a33e4ad22c021574b5cb131b7a3ed8de3b8bda883bc0a8522a3b510a15232f94",
+    "bytes": 42874
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-13.png",
+    "sha256": "22e9fbfbe7ffad9a779c5616647947aea5d5b01db35682fcea59e52e478f5006",
+    "bytes": 94514
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-14.png",
+    "sha256": "601e406a0d4c792d5245d4513122e299aa4e8d4698d0fee67447e4b2635cae3b",
+    "bytes": 132067
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-15.png",
+    "sha256": "c90051e1fbbbc820e28607c45e0b8de043f9c701f9ca4f8a05f2c15abca781d5",
+    "bytes": 106581
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-16.png",
+    "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+    "bytes": 30478
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-17.png",
+    "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+    "bytes": 70577
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-18.png",
+    "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+    "bytes": 72275
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-19.png",
+    "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+    "bytes": 41317
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-20.png",
+    "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+    "bytes": 16051
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-21.png",
+    "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+    "bytes": 92427
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-22.png",
+    "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+    "bytes": 81855
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\frames\\frame-23.png",
+    "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+    "bytes": 59617
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-00.png",
+    "sha256": "4591e43b20968b1780cd96593292b029389b0719e6112a0478c6319108d77895",
+    "bytes": 730753
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-01.png",
+    "sha256": "c620b3d044082fbae11132761cb62a5c00f09542039447fb97ffadf186b2c1d1",
+    "bytes": 566914
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-02.png",
+    "sha256": "5e25194a34c7de8c5c936e1f71405ae1b9b6a2017d7fad8658162ca5bb344ad0",
+    "bytes": 562120
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-03.png",
+    "sha256": "8adddb3a5bba4d4ebd3e27585038de64dcfab99c21dae82a762405bd4f0b34e0",
+    "bytes": 819453
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-04.png",
+    "sha256": "990a2dbfce59f96bbac7aeef0cfd6119db39b4817f35f12403fa2ec577884e6b",
+    "bytes": 435605
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\filmstrip-05.png",
+    "sha256": "10fd4f65736bd8725daee82d2f13aaafdb6904b117b7d67b888b4ec5ad8d6165",
+    "bytes": 506745
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-00.png",
+    "sha256": "ef476c598df902b6770dd5f7fb09ad9044324a89297acc5614826a3e1c6f1609",
+    "bytes": 327810
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-01.png",
+    "sha256": "73e9c4f731df769198d9b00915fccfa35da15faa2083da865183a7d2b3647744",
+    "bytes": 230422
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-02.png",
+    "sha256": "5d191f13d14bb819e13bafa033bfaf227d000ede4cbafa79da641430ba36ad5f",
+    "bytes": 232104
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-03.png",
+    "sha256": "b99df41b70ddf6dda6953c64ce2c64b07016b8d72c88d2a3907f5e6f0f0da62a",
+    "bytes": 337456
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-04.png",
+    "sha256": "314ae21a94945a4b5cb2e56558107fbf1f186f80fca1e295093ebdeac2f5e379",
+    "bytes": 227072
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\onion-05.png",
+    "sha256": "0432d45ce1f1b0a009661158db2df950ab614f7158656c935b8ae4fdf9f75a12",
+    "bytes": 245016
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built\\review\\turn-test.png",
+    "sha256": "29a95a71629bc795072ed09a26e7db660f61a47d881bd6addf53967f1b2a9816",
+    "bytes": 330858
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\contact-sheet.png",
+    "sha256": "d1d8b05dbc7bc60d83a9be7e279f617137ab0254315c958f83a47934f7e19f63",
+    "bytes": 1171953
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-00.webp",
+    "sha256": "63df14959d9202ee0dd8ab940469d902d122de90ae87be8e8043e053cd351e7c",
+    "bytes": 269532
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-01.webp",
+    "sha256": "eb252562f905e41aa977be71bf9f528c241a54400e97480962e326da2e5c833c",
+    "bytes": 174442
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-02.webp",
+    "sha256": "1a9fc09169efcf404d90bd54ec94ec3189d7ca5bbdd62bef69d49fadb176e140",
+    "bytes": 163620
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-03.webp",
+    "sha256": "709007aed7cdfcf49770409dee1e32914a5a286d4e655fc99e4264391fa1b9e8",
+    "bytes": 281090
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-04.webp",
+    "sha256": "5a8d6f39aea615735e8a3af1cbefc733a6c0189384e5e7b2fe83f548212215be",
+    "bytes": 132098
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\clips\\clip-05.webp",
+    "sha256": "b7b45626afd4a74fb72e5215bb2a4a96a7cef24558b1e07efa1c0d5c4f31d52e",
+    "bytes": 190576
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-00.png",
+    "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+    "bytes": 39640
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-01.png",
+    "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+    "bytes": 108215
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-02.png",
+    "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+    "bytes": 129592
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-03.png",
+    "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+    "bytes": 71874
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-04.png",
+    "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+    "bytes": 25078
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-05.png",
+    "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+    "bytes": 60574
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-06.png",
+    "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+    "bytes": 87299
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-07.png",
+    "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+    "bytes": 64016
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-08.png",
+    "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+    "bytes": 54928
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-09.png",
+    "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+    "bytes": 56354
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-10.png",
+    "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+    "bytes": 57570
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-11.png",
+    "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+    "bytes": 55053
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-12.png",
+    "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+    "bytes": 41375
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-13.png",
+    "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+    "bytes": 92464
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-14.png",
+    "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+    "bytes": 128663
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-15.png",
+    "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+    "bytes": 102304
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-16.png",
+    "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+    "bytes": 25709
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-17.png",
+    "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+    "bytes": 59477
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-18.png",
+    "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+    "bytes": 58726
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-19.png",
+    "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+    "bytes": 32090
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-20.png",
+    "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+    "bytes": 15152
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-21.png",
+    "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+    "bytes": 88354
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-22.png",
+    "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+    "bytes": 78916
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\frames\\frame-23.png",
+    "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+    "bytes": 56026
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-00.png",
+    "sha256": "051f3a9fdda0d68e4d2af6192be4ffd4b39e18bc175926cb1d5f03598ca75265",
+    "bytes": 722877
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-01.png",
+    "sha256": "0147d8df9bd864d043df7c8457aec69b09fad0d41fe629657761bca4c8345041",
+    "bytes": 556905
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-02.png",
+    "sha256": "28042776616499a7816da5c8479ee0829c6c677108ab24d504fc5be5ec69c942",
+    "bytes": 543223
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-03.png",
+    "sha256": "12ca95a50bf22c69cdf8a29a075d097e8ce222d43d2bd5a9502553fe0b92869f",
+    "bytes": 809937
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-04.png",
+    "sha256": "a4556c0da3f5cbcdccfab73d955226f6dceff3ae034a09bf1a31c7f8d621f79f",
+    "bytes": 405258
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\filmstrip-05.png",
+    "sha256": "a160efea6b841a9d07504507b6089199870f1cc5dfdd3e7bf47f8870ee5a9750",
+    "bytes": 498622
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-00.png",
+    "sha256": "3e1c377098c2b88236f5f9499cac139f89474a2c5fabb9b28b6e262b35660a96",
+    "bytes": 325937
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-01.png",
+    "sha256": "e3bb6a4fe74742f09749eb8add747ac382be484f97965b94a787175b37c71dd2",
+    "bytes": 227896
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-02.png",
+    "sha256": "d7bbbd1ce29df7deffdda8b05a67ca00cae376956d2136f411896ae817fdb469",
+    "bytes": 217047
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-03.png",
+    "sha256": "f568e7b99a81f23adbdc22f83c3aed21d035f42a5257c8fd7da04c621f8ef4ee",
+    "bytes": 328392
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-04.png",
+    "sha256": "b650f393900177e005ee4134ba0763c6f8c1feaaa24b0bd00d3de1f8b0a5020f",
+    "bytes": 217948
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\onion-05.png",
+    "sha256": "96d8ae9a01b3e8b276f1562297122257fa3fb020426581fcd7d79e2d59bb4e7f",
+    "bytes": 244048
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-final\\review\\turn-test.png",
+    "sha256": "43191235f7bd4f28785e8529c1a038ee603f10fafb2a60e37ec154b1d567b9cb",
+    "bytes": 321760
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\contact-sheet.png",
+    "sha256": "1318a0db4e7d5e24a2522a6e0fa5649ea180164cb4f6865cbb05111633a1d872",
+    "bytes": 1202607
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-00.webp",
+    "sha256": "4881a85011d666d1b5e66148eb2e365adc3b5e6059f652ba8af69605f23787a8",
+    "bytes": 284010
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-01.webp",
+    "sha256": "ddbb1b2c01d28d8a13ee8911bb6e994a714b1d1424d19bf64b6f5596127d9679",
+    "bytes": 184958
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-02.webp",
+    "sha256": "0630df7dbea45a800081cae289a6adf0baf27b2e35692a814b1c357a8b35b1a5",
+    "bytes": 179810
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-03.webp",
+    "sha256": "f86d48de85ef64bc8fb48505d03c559e2d5288a6a2c32a7445f0c0a778b8846b",
+    "bytes": 293308
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-04.webp",
+    "sha256": "09d19f9c4e6b4f273ad7b61adf1ab7839dd89336fed60cc1d643c3d036ed011c",
+    "bytes": 159846
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\clips\\clip-05.webp",
+    "sha256": "bcb14dcd73be21ae58c64261290b7b19c6530d1ede01730c0d9bd569b59ab774",
+    "bytes": 201334
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-00.png",
+    "sha256": "8dedf52dca9e7e84269510b5f5903f494c5cea044c33908578e1b43304459d85",
+    "bytes": 41908
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-01.png",
+    "sha256": "5de21f4dbab5f14c30e90a11215e5286b95ddc5ac57459964422dfaf25099d68",
+    "bytes": 112541
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-02.png",
+    "sha256": "a4cf5d0b8bbcbe0640077c57668545e6410dc412b29d5a8bebc5cdf1c2b18241",
+    "bytes": 132863
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-03.png",
+    "sha256": "1461d03a45594a296d8ba960f09570684e51591047b73b7c260634dc008d5e09",
+    "bytes": 77535
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-04.png",
+    "sha256": "7856945a8a01adfd31822109c448ee38b9d8ebb07fe619d4604b0f5a868305a1",
+    "bytes": 26656
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-05.png",
+    "sha256": "ab73b8de1d0baf5cc512cbde9ef4f88c5dce1061a9971afbfefd6ae304492dc3",
+    "bytes": 62929
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-06.png",
+    "sha256": "d762da3b012beb381cad47e8b79ccddf2ec71dfea8323c01e80042a1f011169c",
+    "bytes": 90894
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-07.png",
+    "sha256": "0be148d491e86c76f53a04e4e1b5e8e42900b760c86715c07df04b0944e8d112",
+    "bytes": 69267
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-08.png",
+    "sha256": "747fecb8142d2e947570315d52ac8412debec4a75899ed33ac3191ba86c1e8ed",
+    "bytes": 60295
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-09.png",
+    "sha256": "cad0bf61c2551afffa85d42c26c66073edb453cb390001a0ae2906dea956f210",
+    "bytes": 61386
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-10.png",
+    "sha256": "145228e7b6eab3dbe2a827ad5362e2b7a78d734ceb5c3067fa62693d783df2f4",
+    "bytes": 62448
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-11.png",
+    "sha256": "eec9a1bab88826dcdbea28726483c0c16dbf8680c71a4a5ad13eace7c4ea992c",
+    "bytes": 60537
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-12.png",
+    "sha256": "adb5dc16ade4cdaf0a6482367695bdb6f5f32d6150674b7b1bdf432aff740f22",
+    "bytes": 42855
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-13.png",
+    "sha256": "6aa590a3fb7391232b2489e83611a5428888477934c5b74d2e1e90cce98f6058",
+    "bytes": 94396
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-14.png",
+    "sha256": "f8f40d6ae250d1fcea93690a32c33120b6f4a2b2e801f608cd859619b3ca3a73",
+    "bytes": 132007
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-15.png",
+    "sha256": "a267585be83dc35b3d547c5622e166dfd01277a82039187c24ba494c25450960",
+    "bytes": 106590
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-16.png",
+    "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+    "bytes": 30478
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-17.png",
+    "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+    "bytes": 70577
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-18.png",
+    "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+    "bytes": 72275
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-19.png",
+    "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+    "bytes": 41317
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-20.png",
+    "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+    "bytes": 16051
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-21.png",
+    "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+    "bytes": 92427
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-22.png",
+    "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+    "bytes": 81855
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\frames\\frame-23.png",
+    "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+    "bytes": 59617
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-00.png",
+    "sha256": "dd0421386be4e032749e5fd5b02feff7b531e9c72282d3d74b638bccfe2a25b8",
+    "bytes": 731000
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-01.png",
+    "sha256": "739b60ae55696bb192a14d5ad215b26fb6cf0b3f28cd6800bbe753a01e6aa115",
+    "bytes": 566648
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-02.png",
+    "sha256": "df9cad275320ab9fba2df24d5edd5883f8f03ecd20460a5294febd80f92f6047",
+    "bytes": 562050
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-03.png",
+    "sha256": "d031fccf952e00ac77b9c62a20c4e653a9af64a968f1e676b482f9f6d991aae2",
+    "bytes": 818892
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-04.png",
+    "sha256": "990a2dbfce59f96bbac7aeef0cfd6119db39b4817f35f12403fa2ec577884e6b",
+    "bytes": 435605
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\filmstrip-05.png",
+    "sha256": "10fd4f65736bd8725daee82d2f13aaafdb6904b117b7d67b888b4ec5ad8d6165",
+    "bytes": 506745
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-00.png",
+    "sha256": "88a99865cc62746e1114ecda497ff6bd0f8d75f7bb7dc7e3a41750109ad6c24c",
+    "bytes": 327071
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-01.png",
+    "sha256": "f2a08c8863c8eaef901fe49b9b83cfebaccc62ee035b127706b2ffb66678bffe",
+    "bytes": 230429
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-02.png",
+    "sha256": "9ff7d431f752d8f2862578cb8ae17be13345486bb7cfabdb10fdb32a84a71da5",
+    "bytes": 221764
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-03.png",
+    "sha256": "c084abafda25ebad70a8dc446a76804b97a15f44891e979c9ff8705be65400b9",
+    "bytes": 329866
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-04.png",
+    "sha256": "314ae21a94945a4b5cb2e56558107fbf1f186f80fca1e295093ebdeac2f5e379",
+    "bytes": 227072
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\onion-05.png",
+    "sha256": "0432d45ce1f1b0a009661158db2df950ab614f7158656c935b8ae4fdf9f75a12",
+    "bytes": 245016
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\clips-built-v2\\review\\turn-test.png",
+    "sha256": "48be365ce90f79cea29bc49ce33f199f6d6441e2821c61458d8d78fabc10e858",
+    "bytes": 331043
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\animation.gif",
+    "sha256": "d4891cf57cd56642ef1a8e48b54e1eaddbe6d3378cae2d085fbabaffcfb6c26c",
+    "bytes": 69494
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\raw-sheet-clean.png",
+    "sha256": "10be2bfe2ae6629742aa7ec74f9cd3230bb1fc9559aa90346e2ec09059f3c100",
+    "bytes": 795918
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\raw-sheet.png",
+    "sha256": "1cfd7bc16a165c89fab158077de6ee3597379b82c8a52287e6b2f3a4fa6fa810",
+    "bytes": 958104
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\sheet-1.png",
+    "sha256": "63f25aa4f879abc187de1053e5b971e424f32d8abc3cc814144a5c669489ef27",
+    "bytes": 26653
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\sheet-2.png",
+    "sha256": "d047bdd0b97036ef35081ab5d991165715ad706dc326d7adc218fc510bc9fd0c",
+    "bytes": 62889
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\sheet-3.png",
+    "sha256": "36e87296ae6b062e82e3cdc1c55c49737985b7361d344a9639dfc567263fb2cb",
+    "bytes": 90905
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\sheet-4.png",
+    "sha256": "7bf59db11c29aa624ecd314428f32ff9a9aeb4eef72a17894b24f7a72a4aaa71",
+    "bytes": 69280
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-discard-impact-refined\\sheet-transparent.png",
+    "sha256": "9f7201bd59d449f6732865ebc85ad9f82edf5e339cd4aeb20964780fdeb73f84",
+    "bytes": 247934
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\animation.gif",
+    "sha256": "ccef56468f0f192c9c4d9f6fce09f0ddd2feece2eb4fd7a7a634add2ef9acd4d",
+    "bytes": 65978
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\raw-sheet-clean.png",
+    "sha256": "3595e436837cd041540b2f4d3e6a9cd33bff0c0da8edb1b67e840c0bc4dd10a7",
+    "bytes": 1193721
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\raw-sheet.png",
+    "sha256": "00812345a61de84f6953e76c686a0efd6ac024c0d420ce11314f3a14a828613a",
+    "bytes": 1634129
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\sheet-1.png",
+    "sha256": "85bb4143179a5711e1566ad156d4fd9548ec51ee97723136d8914674683acd0b",
+    "bytes": 41913
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\sheet-2.png",
+    "sha256": "3497d08dd874bed847e4193db0f40daee36e2436ecad33581daa73264b7bf9b0",
+    "bytes": 112534
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\sheet-3.png",
+    "sha256": "ef2c5ad01ed4ef493a87d89b1de4650f2918b067ebaf9c2b11836f967bd049ff",
+    "bytes": 132850
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\sheet-4.png",
+    "sha256": "e65c520ffbf6d69edef1dab0f6ea064bc125eff6bb27403634ae444a83692ded",
+    "bytes": 77524
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-draw-focus\\sheet-transparent.png",
+    "sha256": "3510a0db53d38ab4ee7975bc02b20977f809b35b23726395d8aad9c8ccb9128d",
+    "bytes": 363664
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\animation.gif",
+    "sha256": "be0b02cf8014a3337192474e95272a4f9a57f22eda9d91c9ddc0605a4501ab4d",
+    "bytes": 91347
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\raw-sheet-clean.png",
+    "sha256": "96c4df9958f276840fc9d0d54eabbb9e5725c4213f82b2b487da63ddf5991b50",
+    "bytes": 1256163
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\raw-sheet.png",
+    "sha256": "e7615a38ee903a636e8ba63fa5fed963553a220367ec04b7406668245913cdad",
+    "bytes": 1504750
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\sheet-1.png",
+    "sha256": "a33e4ad22c021574b5cb131b7a3ed8de3b8bda883bc0a8522a3b510a15232f94",
+    "bytes": 42874
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\sheet-2.png",
+    "sha256": "22e9fbfbe7ffad9a779c5616647947aea5d5b01db35682fcea59e52e478f5006",
+    "bytes": 94514
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\sheet-3.png",
+    "sha256": "601e406a0d4c792d5245d4513122e299aa4e8d4698d0fee67447e4b2635cae3b",
+    "bytes": 132067
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\sheet-4.png",
+    "sha256": "c90051e1fbbbc820e28607c45e0b8de043f9c701f9ca4f8a05f2c15abca781d5",
+    "bytes": 106581
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-hu-burst\\sheet-transparent.png",
+    "sha256": "0df6e1b3c209a4f360bf9d70c20c530130492b082dbff387b46f1fd7048f5538",
+    "bytes": 375309
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\animation.gif",
+    "sha256": "1d9ab31a853db45248459e2ea88de977c31483f6306ab0ef4f3e587068b45ce3",
+    "bytes": 66314
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\raw-sheet-clean.png",
+    "sha256": "4cfee0837b0d7061f6485e140a7c4c35da9ae3c3d54710bc786405a6522160e7",
+    "bytes": 766385
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\raw-sheet.png",
+    "sha256": "3e0dd4ff07d66d7f953e5aac6ed694bd401c15e9e23b2fea908de8e40e7b70bb",
+    "bytes": 1082121
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\sheet-1.png",
+    "sha256": "f5fd5b1274e9510e358aab9969ea139a4e0334e48154b153a9456546cefa768a",
+    "bytes": 60295
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\sheet-2.png",
+    "sha256": "caffddca789bd24d78bcf6c3ca68027ab0bdba54cf2d3ebde6c7282c1b0dd288",
+    "bytes": 61368
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\sheet-3.png",
+    "sha256": "f58e7d7a047b388751a984b4f9c913c59ae478d37946f3db3faf07d000cf4e11",
+    "bytes": 62451
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\sheet-4.png",
+    "sha256": "1044d21974478c8af5d5bfca75048abd6c9b42f6c3ad1b1bcdcf7f9170c41bd8",
+    "bytes": 60519
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-player-ring\\sheet-transparent.png",
+    "sha256": "0abd0e710b1690cb37c6d8b35e0ebff1d0172daba6431780896f9dcca0df38eb",
+    "bytes": 242904
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\animation.gif",
+    "sha256": "7439eed7c8710df0905502696aef85213c533f19d1652325a0f0832dab56cb48",
+    "bytes": 40685
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\raw-sheet-clean.png",
+    "sha256": "c905bde1025aba8d187e63f67bd9d8dfd20229c1f1d6c3c377eb810d8b321f86",
+    "bytes": 822832
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\raw-sheet.png",
+    "sha256": "f6d5511414a64a3e520a397b6be976993d4dda2c2c690e9fa026583377017a59",
+    "bytes": 1232252
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\sheet-1.png",
+    "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+    "bytes": 16051
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\sheet-2.png",
+    "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+    "bytes": 92427
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\sheet-3.png",
+    "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+    "bytes": 81855
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\sheet-4.png",
+    "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+    "bytes": 59617
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-reward-stars\\sheet-transparent.png",
+    "sha256": "e85ffd24c043fe629222a38ff2e102391b72c7e203da5c705c7e2b71fc257d9f",
+    "bytes": 248286
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\animation.gif",
+    "sha256": "de72dafdd88e3f1c78756e66a6cca80f1135577dee0ab168fb167913d2309b6b",
+    "bytes": 39057
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\raw-sheet-clean.png",
+    "sha256": "dfe333790b04091a22d4761dc715351e6336260893b9a4f37e39dae319dca45c",
+    "bytes": 592417
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\raw-sheet.png",
+    "sha256": "c3f345bb65c565efbda860736c6743f24a40ca0118563633ce10d785bf4d3ee7",
+    "bytes": 863723
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\sheet-1.png",
+    "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+    "bytes": 30478
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\sheet-2.png",
+    "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+    "bytes": 70577
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\sheet-3.png",
+    "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+    "bytes": 72275
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\sheet-4.png",
+    "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+    "bytes": 41317
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\process-victory-confetti\\sheet-transparent.png",
+    "sha256": "c6fd3d135654dbb482ce2ef7da1ba59208a7b0299392a920f876b0311b34a186",
+    "bytes": 214547
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-discard-impact-refined\\spill-overlay.png",
+    "sha256": "2c02e53a68bbdbcafc158fa4da7ceb1fb72b0b728940e551a639c71fdb4afc7b",
+    "bytes": 660182
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-draw-focus\\spill-overlay.png",
+    "sha256": "dc5d72d62516251fc45202f88f8f6e400db8b4c4bdf599df03305102c2e0b924",
+    "bytes": 911001
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-hu-burst\\spill-overlay.png",
+    "sha256": "80ee337e0e605c561ab1c29f3f8a8d7e216585610fc2261f318dd2930a524a4a",
+    "bytes": 981360
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-player-ring\\spill-overlay.png",
+    "sha256": "4fe6e2ad1374489bfbb4b9979c8f0012f32add254a0a2e7318f3be86e2462837",
+    "bytes": 735312
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-reward-stars\\spill-overlay.png",
+    "sha256": "17a8d6f60b4bd26b02e7e36413ed217491ff7c92d62894373a7ab08f8ab6e904",
+    "bytes": 673282
+  },
+  {
+    "path": "D:\\work\\majiang-image\\work\\full-game-fx\\spill-victory-confetti\\spill-overlay.png",
+    "sha256": "51fc5a19fe8c72bc31611ba9ee240f3a9972ef94500939ed6b4e899cb355e008",
+    "bytes": 497831
+  },
+  {
+    "path": "D:\\work\\majiang-image\\designs\\fx\\full-game\\discard-impact-v1.png",
+    "sha256": "e4ae8af2441095aa50fc975846436180d2166f7fc9d28f02be04dceaa7f1be37",
+    "bytes": 1113710
+  }
+]

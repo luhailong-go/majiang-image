@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "removed": "exports/mahjong-ui-full-suite-v1.zip",
+  "sha256BeforeRemoval": "eb5e1a7ba819e6463ecb9284c929d87200fcfda6d63e4cf2f70ee4de22dc81d3",
+  "bytesBeforeRemoval": 148109407,
+  "replacement": "exports/mahjong-complete-game-art-v2.zip",
+  "replacementSha256": "b3d1326c5506376608683ce6acab1c3df97fc7e0c887eb4de9760e489f0d18ec",
+  "reason": "Superseded UI-only archive; all 127 previous accepted primary PNGs remain unchanged in the complete game art package and project. Keep only the final deliverable archive per asset retention instructions.",
+  "oldTextualProvenanceRetained": true,
+  "deletedAt": "2026-10-26T16:56:31.4574327-04:00",
+  "latestReplacementArchiveSha256": "882ca64183c04fb4abb7692488809aab6763ccc17b49104b32879af8027e370b",
+  "replacementUpdateReason": "Subsequent historical-record clarification only; all 270 primary PNGs unchanged."
+}

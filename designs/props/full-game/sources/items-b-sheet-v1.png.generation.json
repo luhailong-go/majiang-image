@@ -1,0 +1,59 @@
+{
+  "file": "designs/props/full-game/sources/items-b-sheet-v1.png",
+  "sha256": "f58adad626bb766b19b4dd66dd57f2e2ee6b7951474472f7efcfd2d7e7a120ee",
+  "generatedAt": "2026-10-26T15:28:07.473Z",
+  "callStartedAt": "2026-10-26T15:20:12.328Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "png",
+  "mode": "RGBA",
+  "route": "builtin",
+  "tool": "image_gen.imagegen",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed builtin tool did not disclose reliable model/quality metadata.",
+  "evidence": {
+    "toolOutputImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-df55dee0-a63d-4f78-a8db-e043753b23ef.png",
+    "fieldsDisclosed": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "prompt": "prompts/full-game/props/items-b-sheet-v1.prompt.txt",
+  "promptSHA256": "8ce35552512438e979d7f060caab3b035002f4c40a0f352344ed3a2f1b946083",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style reference"
+    }
+  ],
+  "checks": {
+    "nativeAlpha": "present",
+    "finalSliceStatus": "separate derived assets checked separately"
+  }
+}

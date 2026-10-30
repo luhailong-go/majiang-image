@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T11:48:40-04:00",
+  "clips": {
+    "draw-focus": {
+      "name": "摸牌聚光",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/draw-focus-00.png",
+        "assets/fx/full-game/frames/draw-focus-01.png",
+        "assets/fx/full-game/frames/draw-focus-02.png",
+        "assets/fx/full-game/frames/draw-focus-03.png"
+      ],
+      "frameTicks": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "tickHz": 60,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 80,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        83,
+        84,
+        116,
+        117
+      ],
+      "totalDurationMs": 400,
+      "preview": "assets/fx/full-game/previews/draw-focus.webp"
+    },
+    "discard-impact": {
+      "name": "出牌落光",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/discard-impact-00.png",
+        "assets/fx/full-game/frames/discard-impact-01.png",
+        "assets/fx/full-game/frames/discard-impact-02.png",
+        "assets/fx/full-game/frames/discard-impact-03.png"
+      ],
+      "frameTicks": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "tickHz": 60,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 80,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        67,
+        66,
+        84,
+        116
+      ],
+      "totalDurationMs": 333,
+      "preview": "assets/fx/full-game/previews/discard-impact.webp"
+    },
+    "player-ring": {
+      "name": "当前玩家光环",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/player-ring-00.png",
+        "assets/fx/full-game/frames/player-ring-01.png",
+        "assets/fx/full-game/frames/player-ring-02.png",
+        "assets/fx/full-game/frames/player-ring-03.png"
+      ],
+      "frameTicks": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "tickHz": 60,
+      "loop": true,
+      "onComplete": "repeat",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 0,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        167,
+        166,
+        167,
+        167
+      ],
+      "totalDurationMs": 667,
+      "preview": "assets/fx/full-game/previews/player-ring.webp"
+    },
+    "hu-burst": {
+      "name": "胡牌金云",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/hu-burst-00.png",
+        "assets/fx/full-game/frames/hu-burst-01.png",
+        "assets/fx/full-game/frames/hu-burst-02.png",
+        "assets/fx/full-game/frames/hu-burst-03.png"
+      ],
+      "frameTicks": [
+        7,
+        5,
+        8,
+        12
+      ],
+      "tickHz": 60,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 80,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        117,
+        83,
+        133,
+        200
+      ],
+      "totalDurationMs": 533,
+      "preview": "assets/fx/full-game/previews/hu-burst.webp"
+    },
+    "victory-confetti": {
+      "name": "胜利彩纸",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/victory-confetti-00.png",
+        "assets/fx/full-game/frames/victory-confetti-01.png",
+        "assets/fx/full-game/frames/victory-confetti-02.png",
+        "assets/fx/full-game/frames/victory-confetti-03.png"
+      ],
+      "frameTicks": [
+        8,
+        8,
+        10,
+        14
+      ],
+      "tickHz": 60,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 80,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        133,
+        134,
+        166,
+        234
+      ],
+      "totalDurationMs": 667,
+      "preview": "assets/fx/full-game/previews/victory-confetti.webp"
+    },
+    "reward-stars": {
+      "name": "奖励星辉",
+      "artMethod": "generated_phase_sheet",
+      "frameFiles": [
+        "assets/fx/full-game/frames/reward-stars-00.png",
+        "assets/fx/full-game/frames/reward-stars-01.png",
+        "assets/fx/full-game/frames/reward-stars-02.png",
+        "assets/fx/full-game/frames/reward-stars-03.png"
+      ],
+      "frameTicks": [
+        6,
+        6,
+        9,
+        15
+      ],
+      "tickHz": 60,
+      "loop": false,
+      "onComplete": "hide",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "canvasPx": [
+        512,
+        512
+      ],
+      "blendBetweenPhasesMs": 33,
+      "finalFadeOutMs": 80,
+      "clientIntegrated": false,
+      "note": "Four generated distinct phase paintings; alpha conditioning and one common sheet scale. Optional runtime crossfade is interpolation, not additional generated art.",
+      "durationMs": [
+        100,
+        100,
+        150,
+        250
+      ],
+      "totalDurationMs": 600,
+      "preview": "assets/fx/full-game/previews/reward-stars.webp"
+    }
+  },
+  "timingNote": "Integer60Hz ticks. Runtime crossfade/final opacity is optional sprite interpolation over these four phase images; no video/rig/extra native frames are claimed.",
+  "clientIntegrated": false
+}

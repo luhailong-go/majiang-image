@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/preview-bodies-dark.png",
+  "sha256": "6a3c687d30a01e443c5d019335eba139cb2522fa7b4022ebdcad96f731d262fc",
+  "exportedAt": "2026-10-26T20:33:02.107182+00:00",
+  "width": 1536,
+  "height": 440,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "tool": "Pillow deterministic contact-sheet layout",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "This contact sheet is not an AI generation. Follow each derivedFrom source record for actual model/quality evidence.",
+  "derivedFrom": [
+    {
+      "file": "assets/characters/welcome-daotong.png",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "generationRecord": "assets/characters/welcome-daotong.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-healer.png",
+      "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+      "generationRecord": "assets/characters/full-game/fullbody-healer.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-master.png",
+      "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+      "generationRecord": "assets/characters/full-game/fullbody-master.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-swordswoman.png",
+      "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+      "generationRecord": "assets/characters/full-game/fullbody-swordswoman.png.generation.json"
+    }
+  ],
+  "operation": [
+    {
+      "operation": "premultiplied-alpha uniform thumbnail downsample and grid layout",
+      "columns": 4,
+      "rows": 1,
+      "cellSize": [
+        384,
+        440
+      ],
+      "contentMaxSize": [
+        360,
+        386
+      ],
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "composite onto opaque inspection background",
+      "backgroundRgb": [
+        14,
+        44,
+        39
+      ],
+      "tone": "dark"
+    },
+    {
+      "operation": "draw labels from manifest names",
+      "font": "Microsoft YaHei; system msyh.ttc or Pillow fallback",
+      "fontSize": 24
+    }
+  ],
+  "purpose": "retained final visual QA/design contact sheet, not runtime asset",
+  "userApproved": false,
+  "clientIntegrated": false
+}

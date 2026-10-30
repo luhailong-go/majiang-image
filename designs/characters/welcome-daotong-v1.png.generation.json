@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/welcome-daotong-v1.png",
+  "sha256": "46443ec2d9df37ee23bd399e1c70aec1bfa2f5c269140fa6f3e2bdfc063fcc9d",
+  "generatedAt": "2026-10-26T03:32:23.171-04:00",
+  "generationTimestampBasis": "记录工具完成的客户端观察时间，非提供方披露的服务器生成时间",
+  "clientTimezone": "America/New_York",
+  "startedAt": "2026-10-26T03:29:46.547-04:00",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 1536,
+    "height": 1536
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724",
+  "resultReceipt": {
+    "tool": "image_gen.imagegen",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "observedCompletedAt": "2026-10-26T07:32:23.171Z"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png"
+    ],
+    "promptFile": "prompts/welcome-daotong-v1.prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅返回 image_url 与 output_hint，后者披露输出 PNG 路径。未返回可核实模型/质量。PNG尺寸、格式、Alpha与SHA-256由落盘文件实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量；配置目标 GPT Image 2.5 Sunburst/max 不是实际版本证明。",
+  "prompt": "prompts/welcome-daotong-v1.prompt.txt",
+  "promptSha256": "22a8eb68807220f7e9a36b86dd161aa00d11ebba627662194c5aff8d8f2433f2",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "purpose": "首要 UI 风格参考",
+      "generationRecord": null,
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "source": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "purpose": "首要 UI 风格与角色头像参考",
+      "generationRecord": null,
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "references/style/mail-banner-character.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png",
+      "sha256": "4512bd8ea6d454640f4d7f3ce5bbd09217bf1bd12b24db36be7824d7bdefe41a",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\fidelity-20261016\\client\\Assets\\Resources\\UI\\Ugui\\MailV1Fidelity\\mail_banner.png",
+      "purpose": "道童身份与画法补充参考，横幅而非透明人物",
+      "generationRecord": null,
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:/Users/luyua/.codex/generated_images/01a1771b-b60a-7292-ba6f-b19399c31175/exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724.png",
+    "sha256": "46443ec2d9df37ee23bd399e1c70aec1bfa2f5c269140fa6f3e2bdfc063fcc9d",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "status": "reviewable_direction_draft_with_known_issues",
+    "visualInspectionCompleted": true,
+    "independentVisualReviewCompleted": true,
+    "identity": "通过：短棕刺发、金色发带、圆眼笑脸、米白衣裤、玉绿金边外袍、太极扣与金葫芦均保留。",
+    "anatomy": "通过首稿检查：双手双脚与发带衣摆完整；持牌、扶葫芦动作清楚，未见明显多余肢体或截断。",
+    "text": "通过：麻将牌红色“中”清楚。",
+    "style": "通过首稿检查：道家 Q 版手绘身份与参考一致；新图金饰与发带高光较参考更强。",
+    "alpha": "真实 Alpha 通过；透明边缘清洁度未通过正式入库标准。",
+    "composition": "完整全身；顶部与右侧余量偏紧，未达到提示词中四周 8% 留白目标。",
+    "unresolvedIssues": [
+      {
+        "id": "CHAR-EDGE-01",
+        "severity": "minor_for_concept_blocking_for_production",
+        "description": "发丝、发带、衣缘和鞋边在黑底预览有细碎黄红色噪点，透明区域有少量低 Alpha 杂点；后续入库前需清理并在深浅背景复核。"
+      },
+      {
+        "id": "CHAR-FRAME-01",
+        "severity": "minor_for_concept",
+        "description": "构图偏满，主体距顶部/右侧较近；大厅排布应额外留白。"
+      },
+      {
+        "id": "SIZE-TARGET",
+        "severity": "informational",
+        "description": "工具返回原生 1254×1254，未达到提示词目标1536×1536；未插值放大。"
+      }
+    ],
+    "pngIntegrity": "passed",
+    "nativeCopyHashMatches": true,
+    "alphaStatistics": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 740913,
+      "semiTransparentPixels": 830654,
+      "fullyOpaquePixels": 949,
+      "nearOpaquePixels250To255": 749572,
+      "foregroundPixelsAbove128": 777448,
+      "foregroundBBoxAlphaAbove128": [
+        102,
+        15,
+        1234,
+        1234
+      ],
+      "nonzeroAlphaBBox": [
+        0,
+        12,
+        1238,
+        1254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mostCommonAlpha": [
+        {
+          "alpha": 0,
+          "pixels": 740913
+        },
+        {
+          "alpha": 253,
+          "pixels": 598753
+        },
+        {
+          "alpha": 252,
+          "pixels": 118325
+        },
+        {
+          "alpha": 1,
+          "pixels": 24828
+        },
+        {
+          "alpha": 251,
+          "pixels": 19840
+        },
+        {
+          "alpha": 250,
+          "pixels": 9066
+        },
+        {
+          "alpha": 2,
+          "pixels": 7297
+        },
+        {
+          "alpha": 249,
+          "pixels": 5371
+        },
+        {
+          "alpha": 3,
+          "pixels": 4074
+        },
+        {
+          "alpha": 248,
+          "pixels": 3562
+        },
+        {
+          "alpha": 4,
+          "pixels": 2836
+        },
+        {
+          "alpha": 254,
+          "pixels": 2639
+        }
+      ],
+      "note": "存在真实透明区域；主体 Alpha 以252–253为主，不能把全部半透明像素当作边缘。边缘少量低Alpha杂点另列视觉待修。"
+    }
+  },
+  "status": {
+    "assetStage": "direction_draft_v1",
+    "readyForUserReview": true,
+    "userApproved": false,
+    "productionAccepted": false,
+    "uiSlicesDelivered": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false,
+    "remoteConfigured": false
+  }
+}

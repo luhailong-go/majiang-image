@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+  "uiId": "UI27",
+  "title": "新手引导第3步：完成",
+  "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+  "generatedAt": "2026-10-26T12:55:05.230265-04:00",
+  "generationTimestampBasis": "客户端落盘时间，工具未返回生成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-56110984-d801-4ca9-8cba-c32ba8a799ab",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-game\\core\\ui27-tutorial-actions.png"
+    ],
+    "promptFile": "prompts/full-game/ui/core/ui27-tutorial-complete.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅提供image_url及output_hint，尺寸和哈希由落盘文件读取。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/full-game/ui/core/ui27-tutorial-complete.txt",
+  "promptSha256": "f507bb127effa70fe511f3fb28ee63ef9b0addc3ebe69230ac803f554d7f08f6",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+      "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+      "purpose": "角色/场景/连续步骤参考",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-game\\core\\ui27-tutorial-actions.png"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-56110984-d801-4ca9-8cba-c32ba8a799ab.png",
+    "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "visualInspectionCompleted": true,
+    "visualNotes": "全图实看：1/2完成勾选与3完成高亮，主完成回执、再看一次、返回大厅及上一步清楚，角色身份与连续夜景一致，文字清楚无乱码，不附奖励或规则。",
+    "issues": [],
+    "blockingIssues": [],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "full_game_ui_art_v2",
+    "userApproved": false,
+    "productionAccepted": true,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "第3步完成",
+    "再看一次",
+    "返回大厅",
+    "上一步"
+  ],
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-56110984-d801-4ca9-8cba-c32ba8a799ab.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/forms/preview-forms-light.png",
+  "sha256": "d9cbc7c7a3423e20ebd4d6a3073051322f5cf5f4a5d76531180ef938b75ff4ac",
+  "generatedAt": "2026-10-28T09:55:57.394990+00:00",
+  "width": 1640,
+  "height": 1980,
+  "mode": "RGB",
+  "format": "PNG",
+  "tool": "Pillow",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "assets/ui/production-v3/forms/input-focus-overlay.png",
+      "sha256": "dfbb1aa6529e9f2fed9913e0e93a88ff56c615f56f344583eb533394defed972",
+      "record": "assets/ui/production-v3/forms/input-focus-overlay.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/input-error-overlay.png",
+      "sha256": "1b8371b778b20917753f67997537e5ac5a6da894fa4100373b620ee2980388c5",
+      "record": "assets/ui/production-v3/forms/input-error-overlay.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/list-row-selected.png",
+      "sha256": "ba67fdcdbc7c4a49d9b068645d4e314ccdbe5455dec7a84a3b8ed5885281bb16",
+      "record": "assets/ui/production-v3/forms/list-row-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/list-row-pressed.png",
+      "sha256": "f423c5ab837ad7889f37a819434aa281705e99566831f696126ea31c672c48c2",
+      "record": "assets/ui/production-v3/forms/list-row-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-track.png",
+      "sha256": "e00eb528b71e3f6fe430c6ec40b0ce3875d42ba572f3274a6e94f3f39d99ea98",
+      "record": "assets/ui/production-v3/forms/progress-track.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-fill.png",
+      "sha256": "89442565573991775e066a3303bd640b555f55f223ff2b43a5ed3abf28d2a224",
+      "record": "assets/ui/production-v3/forms/progress-fill.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/toggle-track-on.png",
+      "sha256": "d40e8caa6b60a94bb918986d75850eb16013f464996030c68936f761c4e9d24c",
+      "record": "assets/ui/production-v3/forms/toggle-track-on.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/toggle-track-off.png",
+      "sha256": "f0fc1b9a23c0ef5a571d454db54d5dbfcda68ae8ec3095a4a18e1fa60bf0854c",
+      "record": "assets/ui/production-v3/forms/toggle-track-off.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/toggle-thumb.png",
+      "sha256": "8d54d1daec252aae02cb63e465c56bcdbc595697c277389f60f7ad7c9cd3aaa9",
+      "record": "assets/ui/production-v3/forms/toggle-thumb.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/slider-fill.png",
+      "sha256": "61384e30870e8db3bda13fc2caaf425fdcc5e2c3967b20dcebc12d9a3dbb7f49",
+      "record": "assets/ui/production-v3/forms/slider-fill.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/input-field.png",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "record": "assets/ui/common/input-field.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/slider-thumb.png",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "record": "assets/ui/common/slider-thumb.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/slider-track.png",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "record": "assets/ui/common/slider-track.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/keypad-key.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/keypad-key.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA contact composition",
+    "background": "#f4eddb",
+    "nativeChineseLabels": "C:/Windows/Fonts/msyh.ttc",
+    "samples": [
+      "input normal/focus/error/disabled",
+      "list normal/selected/pressed",
+      "progress0/25/50/100",
+      "toggle on/off/disabled",
+      "slider0/50/100",
+      "horizontal-nine-slice widened input",
+      "separate circular thumb"
+    ],
+    "geometryContracts": "assets/ui/production-v3/forms/compositions.json"
+  },
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "reviewer": "full_ui_scope_audit",
+    "qa": "assets/ui/production-v3/forms/qa.json",
+    "qaPreviews": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "remainingFailures": []
+  },
+  "userApproved": false
+}

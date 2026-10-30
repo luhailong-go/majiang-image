@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 2,
+  "assets": [
+    {
+      "id": "tile-back-moon-lotus",
+      "name": "月莲牌背",
+      "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+      "record": "assets/branding/full-game/tile-back-moon-lotus.png.generation.json",
+      "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed"
+    },
+    {
+      "id": "tile-back-ivory-bamboo",
+      "name": "竹韵牌背",
+      "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+      "record": "assets/branding/full-game/tile-back-ivory-bamboo.png.generation.json",
+      "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed"
+    },
+    {
+      "id": "title-plaque",
+      "name": "无字标题装饰",
+      "file": "assets/branding/full-game/title-plaque.png",
+      "record": "assets/branding/full-game/title-plaque.png.generation.json",
+      "sha256": "537b3059c4b9dbac6f13aa78f43a1246b2b3122da04146606a0dee6106fe0111",
+      "width": 1056,
+      "height": 384,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed"
+    },
+    {
+      "id": "loading-ornament",
+      "name": "加载小装饰",
+      "file": "assets/branding/full-game/loading-ornament.png",
+      "record": "assets/branding/full-game/loading-ornament.png.generation.json",
+      "sha256": "1aca309e3fb8bfcf7cc9ceb1aa5f9f7161ba2d49a3fc0f2bca227ac57db20530",
+      "width": 416,
+      "height": 416,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed"
+    },
+    {
+      "id": "app-icon-1024",
+      "name": "应用图标1024",
+      "file": "assets/branding/full-game/app-icon-1024.png",
+      "record": "assets/branding/full-game/app-icon-1024.png.generation.json",
+      "sha256": "f6f9d0d5eca470f3671ab90c7cdd13148f0799dd2740f583e03fc30150bb2b29",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed"
+    },
+    {
+      "id": "app-icon-512",
+      "name": "应用图标512",
+      "file": "assets/branding/full-game/app-icon-512.png",
+      "record": "assets/branding/full-game/app-icon-512.png.generation.json",
+      "sha256": "c12498e2c517347de67fd35ca4f32203c7d48c33514c2cb2ac565a7ac42fb2e0",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed",
+      "variantOf": "app-icon-1024"
+    },
+    {
+      "id": "app-icon-192",
+      "name": "应用图标192",
+      "file": "assets/branding/full-game/app-icon-192.png",
+      "record": "assets/branding/full-game/app-icon-192.png.generation.json",
+      "sha256": "bfd4dc227811356ff803a3078dd61ca463a011d7264b378bb85a9d0f3869df3e",
+      "width": 192,
+      "height": 192,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed",
+      "variantOf": "app-icon-1024"
+    },
+    {
+      "id": "app-icon-128",
+      "name": "应用图标128",
+      "file": "assets/branding/full-game/app-icon-128.png",
+      "record": "assets/branding/full-game/app-icon-128.png.generation.json",
+      "sha256": "3b9fab698c1054bc5279ff93f490788c24f924ace4c4be37e959ee182938f4cd",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed",
+      "variantOf": "app-icon-1024"
+    },
+    {
+      "id": "app-icon-64",
+      "name": "应用图标64",
+      "file": "assets/branding/full-game/app-icon-64.png",
+      "record": "assets/branding/full-game/app-icon-64.png.generation.json",
+      "sha256": "6e3f72cf505f3216bd71caf08eae1cf6a5f1c3d877aa551e3ad3604379fad692",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": null,
+      "scaling": "uniform_only",
+      "status": "passed",
+      "variantOf": "app-icon-1024"
+    }
+  ],
+  "status": "complete_qa_passed",
+  "actualModel": null,
+  "actualQuality": null,
+  "fontTitle": "Client editable; no formal game name invented",
+  "route": "builtin with recorded crop/alpha cleanup/downsampling",
+  "clientIntegrated": false
+}

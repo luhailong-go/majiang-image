@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/full-game/components/item-slot-disabled.png",
+  "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+  "exportedAt": "2026-10-26T11:42:06.355088-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source generated through builtin image_gen; host did not disclose verifiable model or quality.",
+  "width": 660,
+  "height": 508,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeSourceDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "derivedFrom": {
+    "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+    "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+    "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+  },
+  "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling",
+  "crop": [
+    102,
+    690,
+    594,
+    1158
+  ],
+  "componentIsolation": {
+    "method": "8-connected alpha component; all components in each atlas exported once",
+    "selectedStrongPixels": 216492,
+    "selectedAlphaPixels": 218836
+  },
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 37776,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "transparentPadding": [
+    84,
+    20,
+    84,
+    20
+  ],
+  "placement": {
+    "x": 84,
+    "y": 20,
+    "familyCanvas": [
+      660,
+      508
+    ],
+    "sourceContentCenter": [
+      348,
+      924
+    ]
+  },
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "resampled": false,
+  "nineSlice": null,
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "preserveAspect": true,
+    "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 116444,
+    "semiTransparent": 7299,
+    "opaque": 211537,
+    "bbox": [
+      84,
+      20,
+      576,
+      488
+    ],
+    "edgeAlphaMax": 0,
+    "minimumTransparentMargin": 20,
+    "zeroRgbUnderZeroAlpha": true
+  },
+  "family": "itemSlot",
+  "state": "disabled",
+  "dynamicText": "All labels, ranks, quantities, achievement icons and step numbers are separate client elements.",
+  "inspection": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+    "issues": [],
+    "visual": "Actual final light/dark composites inspected: complete edges, no matte, no detached speckles, coherent style, distinguishable states.",
+    "technical": "PNG/hash/dimensions/alpha padding/source provenance passed.",
+    "qaImages": [
+      "work/full-game-ui/components/qa/slots-tutorial-light.png",
+      "work/full-game-ui/components/qa/slots-tutorial-dark.png"
+    ]
+  },
+  "productionAccepted": true,
+  "clientIntegrated": false
+}

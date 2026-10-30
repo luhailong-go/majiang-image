@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "scopeId": "UI18",
+  "title": "邮件详情",
+  "file": "designs/ui/edit-sources/ui18-mail-detail-before-fix.png",
+  "sha256": "bd075de3e271c76e7f7912cda35c4cdb86ec3982ff363ae06496138f06999b02",
+  "generatedAt": "2026-10-26T04:20:21.136000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-dbbef991-783d-4c28-b6e9-ff83651ad16d",
+  "resultReceipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-dbbef991-783d-4c28-b6e9-ff83651ad16d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "size": null,
+    "promptFile": "prompts/system/ui18-mail-detail.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具只披露image_url与output_hint；原生尺寸和哈希由PNG实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/system/ui18-mail-detail.prompt.txt",
+  "promptSha256": "1e19821c44eef73ace7d8ca3a6b67d94f91fd8d9f863cb219c3c3c1f9b59dcbd",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "purpose": "当前大厅风格补充参考",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-dbbef991-783d-4c28-b6e9-ff83651ad16d.png",
+    "sha256": "bd075de3e271c76e7f7912cda35c4cdb86ec3982ff363ae06496138f06999b02",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "superseded_requires_fix",
+    "notes": [
+      "实际查看：标题、日期、三句正文、头像框×1、待领取、领取附件、禁用删除、已领取替换样式、返回/关闭均清楚。",
+      "右下“已领取”是领取后的替换状态样式；客户端同一封邮件不可同时显示可领取与已领取，需按状态映射切换。",
+      "正文与附件明确是示例，不构成真实奖励服务。"
+    ],
+    "unresolvedIssues": [
+      "请只编辑第1张邮件详情完整屏幕，移除右下角灰色“已领取”方块，包括圆形勾与外框，原位置用连续自然的象牙米白纸绢底纹补齐，不再显示任何“已领取”文字或替代状态样式。当前邮件的唯一领取状态是“待领取”：保留附件头像框×1、红色“待领取”、绿色可操作“领取附件”主按钮、灰色禁用“删除”按钮及“领取后可删除”说明。标题、正文、日期、道童和兔子、场景、上下框边、返回列表及关闭X均原样保留。不要把状态样式放在同页，不增加新的按钮、栏目、附件、正文或品牌。不改变任何其他中文、字号、色彩或版式。"
+    ]
+  },
+  "status": {
+    "assetStage": "full_ui_art_candidate",
+    "readyForReview": true,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "productionAccepted": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "originalFileAtGeneration": "designs/ui/full-suite/system/ui18-mail-detail.png",
+  "retainedAs": "immutable_input_for_targeted_fix"
+}

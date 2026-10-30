@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "domain": "rooms_and_states",
+  "scope": "FULL_UI_SCOPE UI04/UI05/UI06/UI07/UI08/UI23/UI24",
+  "generatedAt": "2026-10-26T06:45:01-04:00",
+  "count": 9,
+  "contractIdCount": 7,
+  "completedIds": [
+    "UI04",
+    "UI05",
+    "UI06",
+    "UI07",
+    "UI08",
+    "UI23",
+    "UI24"
+  ],
+  "pages": [
+    {
+      "id": "UI05",
+      "variant": null,
+      "sourceKey": "UI05",
+      "type": "independent_full_screen",
+      "title": "创建房间",
+      "file": "designs/ui/full-suite/rooms/ui05-create-room.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui05-create-room.png.generation.json",
+      "prompt": "prompts/rooms/ui05-create-room-corrected.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "cb79bd22b307e0ae450733f27e674674e22ce9ce955b7490c3824b0b511bfe39",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "通用四人固定；错误两人/三人选项已定向移除",
+          "局数4/8/16选中8局、加入方式、规则摘要清楚",
+          "主操作、返回、关闭俱全",
+          "中文与参考风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI06",
+      "variant": null,
+      "sourceKey": "UI06",
+      "type": "independent_full_screen",
+      "title": "加入房间",
+      "file": "designs/ui/full-suite/rooms/ui06-join-room.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui06-join-room.png.generation.json",
+      "prompt": "prompts/rooms/ui06-join-room.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "f51a82afb5b1feab367fad3fb8a10a7c413aef1e00ad5cc968e7931024aa241d",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "六位房号格1至6完整",
+          "0至9数字键各一枚；清空/删除齐全",
+          "输入焦点、主加入按钮、返回和关闭清楚",
+          "中文与风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI07",
+      "variant": null,
+      "sourceKey": "UI07",
+      "type": "independent_full_screen",
+      "title": "好友房",
+      "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui07-room-waiting.png.generation.json",
+      "prompt": "prompts/rooms/ui07-room-waiting-corrected.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "四席空间清楚：三名玩家和一空座",
+          "房主、准备/未准备、规则摘要、邀请与离开入口齐全",
+          "开始条件明确且开始按钮禁用",
+          "头像沿用统一母版；复制按钮错误图标已AI定向移除",
+          "中文与风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI08",
+      "variant": null,
+      "sourceKey": "UI08",
+      "type": "independent_full_screen",
+      "title": "邀请好友",
+      "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui08-invite-friends.png.generation.json",
+      "prompt": "prompts/rooms/ui08-invite-friends.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "在线可邀请、已邀请、忙碌禁用、离线禁用四状态完整",
+          "搜索/添加好友/返回房间/关闭齐全",
+          "四人物头像沿用统一母版",
+          "中文、对齐、主次和风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": [
+        "列表昵称属于独立示例数据，接入时排除当前账号；UI07房主青云与本页示例青云不可作为真实好友数据。"
+      ]
+    },
+    {
+      "id": "UI04",
+      "variant": null,
+      "sourceKey": "UI04",
+      "type": "independent_full_screen",
+      "title": "休闲匹配·匹配中",
+      "file": "designs/ui/full-suite/rooms/ui04-casual-match.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui04-casual-match.png.generation.json",
+      "prompt": "prompts/rooms/ui04-casual-match.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "569d363bb2d110e2b0c1a6bbaeefab7b75d6aa8a4e1d8b1d52816652b77fe64e",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "匹配进行、已等待00:18、取消匹配、返回齐全",
+          "一人头像与三空席表达寻找对手，无虚构在线人数",
+          "中文、安全留白及风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI04",
+      "variant": "success",
+      "sourceKey": "UI04.success",
+      "type": "independent_full_screen",
+      "title": "休闲匹配·成功",
+      "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui04-match-success.png.generation.json",
+      "prompt": "prompts/rooms/ui04-match-success.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "5bdad3e42ee11bb4b1a9d447601813dca28bd0db1e1a6ac908f02e96345af8e0",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "四名身份不同角色与四个已就位状态齐全",
+          "成功进入牌桌主入口与返回大厅次入口清楚",
+          "不与匹配进行中混画；同ID独立状态图",
+          "中文、安全留白及风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI23",
+      "variant": null,
+      "sourceKey": "UI23",
+      "type": "state_specification_board",
+      "title": "弹窗与控件状态",
+      "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png.generation.json",
+      "prompt": "prompts/rooms/ui23-dialog-controls-board-corrected.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "离开确认与返回房间/确认离开完整",
+          "解散发起、2/4进度、倒计时、同意/拒绝齐全",
+          "房间已解散→大厅、未通过→继续对局两种结果清楚",
+          "正常/按下/选中/禁用按钮、页签、勾选、单选、滑条、六位输入、角标、提示气泡齐全",
+          "移除不统一小头像；中文、安全留白、板结构检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI24",
+      "variant": null,
+      "sourceKey": "UI24",
+      "type": "state_specification_board",
+      "title": "网络错误与空态",
+      "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui24-network-empty-board.png.generation.json",
+      "prompt": "prompts/rooms/ui24-network-empty-board.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "12状态卡完整，非12整屏计数",
+          "重连中/恢复失败/匹配超时/输入错误/房间不存在/已满齐全",
+          "好友/邮件/战绩/搜索无结果各有去向",
+          "半透明加载遮罩与进度条、匹配取消完整",
+          "卡片中文、按钮匹配、可读性和风格检查通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+      },
+      "notes": []
+    },
+    {
+      "id": "UI23",
+      "variant": "draw",
+      "sourceKey": "UI23.draw",
+      "type": "independent_state_screen",
+      "title": "流局结算状态",
+      "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+      "generationRecord": "designs/ui/full-suite/rooms/ui23-draw-result.png.generation.json",
+      "prompt": "prompts/rooms/ui23-draw-result.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce",
+      "status": "artwork_qa_passed",
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualInspectionCompleted": true,
+        "checks": [
+          "实际查看恢复的完整1672×941原生图：本局流局、本局无人成胡中文清楚",
+          "四名身份不同头像与四行本局积分0齐全，未出现胜者或正负积分",
+          "继续下一局为玉绿主操作，返回大厅为米白次操作，关闭X与局次清楚",
+          "不把零分演示态当地方规则；未设置真实计分合同",
+          "生成回执的revisedPrompt与保存提示词完全一致，四个输入参考及哈希核验通过"
+        ],
+        "unresolvedIssues": [],
+        "visualStatus": "passed",
+        "checkedAt": "2026-10-26T06:45:01-04:00",
+        "reviewEvidence": "recovered_generated_output_visually_checked_and_completion_event_verified"
+      },
+      "notes": []
+    }
+  ],
+  "stateCoverage": [
+    {
+      "state": "room.empty_seat",
+      "sources": [
+        "UI07"
+      ],
+      "description": "右侧加号空座、等待加入及邀请好友",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.full",
+      "sources": [
+        "UI07",
+        "UI04.success",
+        "UI23"
+      ],
+      "description": "四席布局复用UI07，头像使用UI04成功态四角色，空座替换为第4玩家，满员且已准备时用UI23正常按钮；这是组件组装映射，未冒称另有满员整屏。",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        },
+        {
+          "key": "UI04.success",
+          "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+          "sha256": "5bdad3e42ee11bb4b1a9d447601813dca28bd0db1e1a6ac908f02e96345af8e0"
+        },
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "component_assembly_mapping"
+    },
+    {
+      "state": "room.host_member",
+      "sources": [
+        "UI07"
+      ],
+      "description": "青云带房主金标；桂枝与墨翎为普通成员",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.ready_unready",
+      "sources": [
+        "UI07"
+      ],
+      "description": "绿色已准备与灰色未准备并置",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.wait_start",
+      "sources": [
+        "UI07"
+      ],
+      "description": "等待玩家准备，满4人且全部准备后可开始；开始按钮禁用",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.leave_confirm",
+      "sources": [
+        "UI23"
+      ],
+      "description": "左侧离开确认，返回房间/确认离开",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_start_progress",
+      "sources": [
+        "UI23"
+      ],
+      "description": "解散发起、2/4同意、2人等待、倒计时",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_vote",
+      "sources": [
+        "UI23"
+      ],
+      "description": "同意与拒绝按钮",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_passed_rejected",
+      "sources": [
+        "UI23"
+      ],
+      "description": "房间已解散→返回大厅；解散未通过→继续对局",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.join_invalid_missing_full",
+      "sources": [
+        "UI24"
+      ],
+      "description": "输入错误、房间不存在、房间已满三个独立状态卡",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.pending_cancel",
+      "sources": [
+        "UI04",
+        "UI24"
+      ],
+      "description": "匹配中00:18，可取消；匹配已取消→返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI04",
+          "file": "designs/ui/full-suite/rooms/ui04-casual-match.png",
+          "sha256": "569d363bb2d110e2b0c1a6bbaeefab7b75d6aa8a4e1d8b1d52816652b77fe64e"
+        },
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.success",
+      "sources": [
+        "UI04.success"
+      ],
+      "description": "四位已就位与进入牌桌",
+      "sourceFiles": [
+        {
+          "key": "UI04.success",
+          "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+          "sha256": "5bdad3e42ee11bb4b1a9d447601813dca28bd0db1e1a6ac908f02e96345af8e0"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.timeout",
+      "sources": [
+        "UI24"
+      ],
+      "description": "匹配超时→重新匹配",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "friends.online_busy_offline_invited",
+      "sources": [
+        "UI08"
+      ],
+      "description": "在线邀请、在线已邀请、忙碌禁用、离线禁用",
+      "sourceFiles": [
+        {
+          "key": "UI08",
+          "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+          "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "friends.search_no_result",
+      "sources": [
+        "UI08",
+        "UI24"
+      ],
+      "description": "搜索与添加入口、未找到结果→清空搜索",
+      "sourceFiles": [
+        {
+          "key": "UI08",
+          "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+          "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0"
+        },
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "empty.friends_mail_history",
+      "sources": [
+        "UI24"
+      ],
+      "description": "暂无好友→添加；暂无邮件→大厅；暂无战绩→开始",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "network.reconnecting_failed",
+      "sources": [
+        "UI24"
+      ],
+      "description": "重新连接中/取消；恢复失败/返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "system.loading_mask",
+      "sources": [
+        "UI24"
+      ],
+      "description": "正在加载卡内半透明遮罩、旋转符号与进度条",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "controls.button_states",
+      "sources": [
+        "UI23"
+      ],
+      "description": "正常、按下、选中、禁用四态",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "controls.tabs_check_radio_slider_input_badge_tip",
+      "sources": [
+        "UI23"
+      ],
+      "description": "页签、勾选、单选、滑条、输入框、角标、提示气泡",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "game.draw_continue_exit",
+      "sources": [
+        "UI23.draw"
+      ],
+      "description": "本局流局→继续下一局/返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI23.draw",
+          "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+          "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "play.draw",
+      "sources": [
+        "UI23.draw"
+      ],
+      "sourceFiles": [
+        {
+          "key": "UI23.draw",
+          "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+          "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce"
+        }
+      ],
+      "description": "真实新增独立流局状态图：四家本局积分0，继续下一局/返回大厅；不再仅映射旧UI23控件板。",
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    }
+  ],
+  "stateMap": [
+    {
+      "state": "room.empty_seat",
+      "sources": [
+        "UI07"
+      ],
+      "description": "右侧加号空座、等待加入及邀请好友",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.full",
+      "sources": [
+        "UI07",
+        "UI04.success",
+        "UI23"
+      ],
+      "description": "四席布局复用UI07，头像使用UI04成功态四角色，空座替换为第4玩家，满员且已准备时用UI23正常按钮；这是组件组装映射，未冒称另有满员整屏。",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        },
+        {
+          "key": "UI04.success",
+          "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+          "sha256": "5bdad3e42ee11bb4b1a9d447601813dca28bd0db1e1a6ac908f02e96345af8e0"
+        },
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "component_assembly_mapping"
+    },
+    {
+      "state": "room.host_member",
+      "sources": [
+        "UI07"
+      ],
+      "description": "青云带房主金标；桂枝与墨翎为普通成员",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.ready_unready",
+      "sources": [
+        "UI07"
+      ],
+      "description": "绿色已准备与灰色未准备并置",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.wait_start",
+      "sources": [
+        "UI07"
+      ],
+      "description": "等待玩家准备，满4人且全部准备后可开始；开始按钮禁用",
+      "sourceFiles": [
+        {
+          "key": "UI07",
+          "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+          "sha256": "66a36a628b78eb9d3aa32af32f781fee61e91684a7a8a891505b0785c9d1781f"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.leave_confirm",
+      "sources": [
+        "UI23"
+      ],
+      "description": "左侧离开确认，返回房间/确认离开",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_start_progress",
+      "sources": [
+        "UI23"
+      ],
+      "description": "解散发起、2/4同意、2人等待、倒计时",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_vote",
+      "sources": [
+        "UI23"
+      ],
+      "description": "同意与拒绝按钮",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.dismiss_passed_rejected",
+      "sources": [
+        "UI23"
+      ],
+      "description": "房间已解散→返回大厅；解散未通过→继续对局",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "room.join_invalid_missing_full",
+      "sources": [
+        "UI24"
+      ],
+      "description": "输入错误、房间不存在、房间已满三个独立状态卡",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.pending_cancel",
+      "sources": [
+        "UI04",
+        "UI24"
+      ],
+      "description": "匹配中00:18，可取消；匹配已取消→返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI04",
+          "file": "designs/ui/full-suite/rooms/ui04-casual-match.png",
+          "sha256": "569d363bb2d110e2b0c1a6bbaeefab7b75d6aa8a4e1d8b1d52816652b77fe64e"
+        },
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.success",
+      "sources": [
+        "UI04.success"
+      ],
+      "description": "四位已就位与进入牌桌",
+      "sourceFiles": [
+        {
+          "key": "UI04.success",
+          "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+          "sha256": "5bdad3e42ee11bb4b1a9d447601813dca28bd0db1e1a6ac908f02e96345af8e0"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "match.timeout",
+      "sources": [
+        "UI24"
+      ],
+      "description": "匹配超时→重新匹配",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "friends.online_busy_offline_invited",
+      "sources": [
+        "UI08"
+      ],
+      "description": "在线邀请、在线已邀请、忙碌禁用、离线禁用",
+      "sourceFiles": [
+        {
+          "key": "UI08",
+          "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+          "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "friends.search_no_result",
+      "sources": [
+        "UI08",
+        "UI24"
+      ],
+      "description": "搜索与添加入口、未找到结果→清空搜索",
+      "sourceFiles": [
+        {
+          "key": "UI08",
+          "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+          "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0"
+        },
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "empty.friends_mail_history",
+      "sources": [
+        "UI24"
+      ],
+      "description": "暂无好友→添加；暂无邮件→大厅；暂无战绩→开始",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "network.reconnecting_failed",
+      "sources": [
+        "UI24"
+      ],
+      "description": "重新连接中/取消；恢复失败/返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "system.loading_mask",
+      "sources": [
+        "UI24"
+      ],
+      "description": "正在加载卡内半透明遮罩、旋转符号与进度条",
+      "sourceFiles": [
+        {
+          "key": "UI24",
+          "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+          "sha256": "78f359b894ec9c44e1aeb5f21c4eb6f8076fe48d5919321c24283164e30429ad"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "controls.button_states",
+      "sources": [
+        "UI23"
+      ],
+      "description": "正常、按下、选中、禁用四态",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "controls.tabs_check_radio_slider_input_badge_tip",
+      "sources": [
+        "UI23"
+      ],
+      "description": "页签、勾选、单选、滑条、输入框、角标、提示气泡",
+      "sourceFiles": [
+        {
+          "key": "UI23",
+          "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+          "sha256": "aa9527a4fa38143fd49691d06d670ab07cc9c98f4293f36a95fe74efc33300a6"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "game.draw_continue_exit",
+      "sources": [
+        "UI23.draw"
+      ],
+      "description": "本局流局→继续下一局/返回大厅",
+      "sourceFiles": [
+        {
+          "key": "UI23.draw",
+          "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+          "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce"
+        }
+      ],
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    },
+    {
+      "state": "play.draw",
+      "sources": [
+        "UI23.draw"
+      ],
+      "sourceFiles": [
+        {
+          "key": "UI23.draw",
+          "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+          "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce"
+        }
+      ],
+      "description": "真实新增独立流局状态图：四家本局积分0，继续下一局/返回大厅；不再仅映射旧UI23控件板。",
+      "status": "mapped_to_verified_artwork",
+      "coverageType": "direct_artwork"
+    }
+  ],
+  "integrationNotes": [
+    "UI04匹配中与成功为互斥状态，运行时分开显示。",
+    "UI23主图和UI24均为状态规范板，板内缩略态不作为额外整屏计数。UI23.draw另为真实独立流局整屏，仍属于UI23一个合同ID。",
+    "房间满员状态采用UI07四座容器+第四个头像/准备标签+正常开始按钮组装；不存在额外满员独立全屏，不应冒算。",
+    "流局0分是本轮通用示例；实际计分与地方规则需由产品/服务端给定。",
+    "示例昵称/房号不是真实用户或服务器数据。"
+  ],
+  "validation": {
+    "checkedAt": "2026-10-26T06:45:01-04:00",
+    "entries": [
+      {
+        "file": "designs/ui/full-suite/rooms/ui05-create-room.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui06-join-room.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui04-casual-match.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      },
+      {
+        "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+        "png": "passed",
+        "fileHash": "passed",
+        "promptHash": "passed",
+        "referenceHashes": "passed",
+        "visual": "passed"
+      }
+    ],
+    "failures": [],
+    "allPassed": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "delivery": {
+    "localOnly": true,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "uploaded": false
+  }
+}

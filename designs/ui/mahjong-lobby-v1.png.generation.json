@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/mahjong-lobby-v1.png",
+  "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+  "generatedAt": "2026-10-26T03:35:54.496-04:00",
+  "generationTimestampBasis": "记录工具完成的客户端观察时间，非提供方披露的服务器生成时间",
+  "clientTimezone": "America/New_York",
+  "startedAt": "2026-10-26T03:34:52.528-04:00",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7",
+  "resultReceipt": {
+    "tool": "image_gen.imagegen",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "observedCompletedAt": "2026-10-26T07:35:54.496Z"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png",
+      "D:\\work\\majiang-image\\designs\\characters\\welcome-daotong-v1.png"
+    ],
+    "promptFile": "prompts/mahjong-lobby-v1.prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅返回 image_url 与 output_hint，后者披露输出 PNG 路径。未返回可核实模型/质量。PNG尺寸、格式、Alpha与SHA-256由落盘文件实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量；配置目标 GPT Image 2.5 Sunburst/max 不是实际版本证明。",
+  "prompt": "prompts/mahjong-lobby-v1.prompt.txt",
+  "promptSha256": "6b10b0e593e4fd014f61b997f695cc7a49427d8ef195bf05235430c039f64ff5",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "purpose": "首要 UI 风格参考",
+      "generationRecord": null,
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "source": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "purpose": "首要 UI 风格与角色头像参考",
+      "generationRecord": null,
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "references/style/mail-banner-character.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png",
+      "sha256": "4512bd8ea6d454640f4d7f3ce5bbd09217bf1bd12b24db36be7824d7bdefe41a",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\fidelity-20261016\\client\\Assets\\Resources\\UI\\Ugui\\MailV1Fidelity\\mail_banner.png",
+      "purpose": "道童身份与画法补充参考，横幅而非透明人物",
+      "generationRecord": null,
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "designs/characters/welcome-daotong-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\welcome-daotong-v1.png",
+      "sha256": "46443ec2d9df37ee23bd399e1c70aec1bfa2f5c269140fa6f3e2bdfc063fcc9d",
+      "source": "本批新生成道童；同项目原生 PNG",
+      "purpose": "大厅角色外观与身份一致性参考",
+      "generationRecord": "designs/characters/welcome-daotong-v1.png.generation.json",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:/Users/luyua/.codex/generated_images/01a1771b-b60a-7292-ba6f-b19399c31175/exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7.png",
+    "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "status": "reviewable_direction_draft",
+    "visualInspectionCompleted": true,
+    "independentVisualReviewCompleted": true,
+    "text": "通过：麻将大厅、开始游戏、创建房间、加入房间、设置均清楚正确；牌面中/發/筒符号为装饰，不代表已确定玩法。",
+    "hierarchy": "通过：玉绿金边主按钮突出，米白次要按钮对齐，设置入口独立。",
+    "style": "通过：玉绿、象牙米白、暖金、云纹、明亮仙山庭院和金发带 Q 道童与参考一致。",
+    "character": "通过：保持本批迎宾道童的外观、麻将牌和太极金葫芦，手足完整。",
+    "scope": "通过：未加入正式游戏名、金币价格、地方玩法、计分规则或商业活动。",
+    "composition": "通过首稿检查：约16:9，角色在左、功能面板在右，主次操作清楚；背景与金饰较丰富，后续按用户方向反馈调整。",
+    "unresolvedIssues": [
+      {
+        "id": "SIZE-TARGET",
+        "severity": "informational",
+        "description": "工具返回原生1672×941（1.776833:1），约16:9；并非目标2048×1152或数学上精确16:9。未裁切、拉伸或插值放大。"
+      },
+      {
+        "id": "UI-TILE-01",
+        "severity": "nonblocking_concept_note",
+        "description": "装饰二筒使用旋纹图案；后续正式牌面需单独统一，当前不把概念装饰当作可用牌面素材。"
+      },
+      {
+        "id": "UI-SMALL-SCREEN-01",
+        "severity": "nonblocking_concept_note",
+        "description": "场景细节与标题较醒目，正式交互稿阶段需在目标小屏尺寸复核视觉负担。"
+      }
+    ],
+    "pngIntegrity": "passed",
+    "nativeCopyHashMatches": true,
+    "alphaStatistics": null
+  },
+  "status": {
+    "assetStage": "direction_draft_v1",
+    "readyForUserReview": true,
+    "userApproved": false,
+    "productionAccepted": false,
+    "uiSlicesDelivered": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false,
+    "remoteConfigured": false
+  }
+}

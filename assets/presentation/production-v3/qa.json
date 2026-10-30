@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "Root final acceptance with full_game_fx independent observations retained and attributed",
+  "checkedAt": "2026-10-28T16:44:21.392295+00:00",
+  "status": "passed",
+  "scope": "Art reference acceptance for presentation bindings, independently viewed affected previews and empty illustrations. Remaining full-set acceptance is explicitly owned by root receipt; no browser/client acceptance.",
+  "browserRun": false,
+  "newRenderRun": false,
+  "newPixelHashBatchRun": false,
+  "exclusiveHeavyJobPauseHonored": true,
+  "bindings": {
+    "status": "path_reference_passed",
+    "files": [
+      {
+        "file": "assets/presentation/production-v3/character-bindings.json",
+        "sha256": "b3473ea17b7733eb6081a0792362c83dbb4ce91fd23d057c2d02c8b3a8af4340",
+        "jsonParsed": true
+      },
+      {
+        "file": "assets/presentation/production-v3/effects-bindings.json",
+        "sha256": "6eaf8c1edc794ae8bc620d96ce80a1facd052dbd81a76688a8aeb82774a86ee2",
+        "jsonParsed": true
+      },
+      {
+        "file": "assets/presentation/production-v3/theme-bindings.json",
+        "sha256": "39fc593d9d15295c30fcca3f7ace147e2b0cf2ef0794acb9e0b594823ec0a7e2",
+        "jsonParsed": true
+      }
+    ],
+    "directUniqueAssetReferenceCount": 78,
+    "currentPixelHashesRechecked": false,
+    "sourceBitmapQa": "Accepted source manifests and previous QA reused; current full raster freshness belongs to root final validation."
+  },
+  "emptyIndependentVisualQa": {
+    "status": "passed",
+    "files": [
+      {
+        "id": "empty-mail",
+        "file": "assets/ui/production-v3/empty/empty-mail.png",
+        "sha256FromAcceptedManifest": "167ef75f52dcfc1400d1a4e23b995180552fd344f78832bb7c813972f90e0c44",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      },
+      {
+        "id": "empty-friends",
+        "file": "assets/ui/production-v3/empty/empty-friends.png",
+        "sha256FromAcceptedManifest": "40c11382a97507fa6008fb1d2a3d884d6a5ee1f5907bac4dca4e297430e9aabf",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      },
+      {
+        "id": "empty-search",
+        "file": "assets/ui/production-v3/empty/empty-search.png",
+        "sha256FromAcceptedManifest": "b894cdcd35ab96472453fb2a6838b6c7655680d69d394a28fe88dbe18540d104",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      },
+      {
+        "id": "empty-records",
+        "file": "assets/ui/production-v3/empty/empty-records.png",
+        "sha256FromAcceptedManifest": "8ecd7bd419d0e4ec689593e261ecddab8be7acc440aaf8ef4b3f069dbe0706c6",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      },
+      {
+        "id": "connection-interrupted",
+        "file": "assets/ui/production-v3/empty/connection-interrupted.png",
+        "sha256FromAcceptedManifest": "d6e96513a611b728252b32d6766b881d0a6a3a6b19b2d51510aef03d07578dc4",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      },
+      {
+        "id": "match-timeout",
+        "file": "assets/ui/production-v3/empty/match-timeout.png",
+        "sha256FromAcceptedManifest": "531037b59b08c3681ae6178d1d334b853b5e20e589dcacef5282637673ac76bc",
+        "visual": "passed on actual current light/dark contact sheets; no obvious halo, cutoff, baked checkerboard, or semantic blocker"
+      }
+    ],
+    "actualViewed": [
+      "assets/ui/production-v3/empty/preview-light.png",
+      "assets/ui/production-v3/empty/preview-dark.png",
+      "assets/ui/production-v3/empty/connection-interrupted.png"
+    ],
+    "manifestSha256": "f405804177f49d454160b5cb66605e75b6b255f9a09ab6050931bb305cc0a17a",
+    "limits": "Contact sheets + native connection icon were actually viewed; no fresh per-pixel alpha/CRC batch was launched."
+  },
+  "ui26": {
+    "status": "passed_four_identity_static_proofs",
+    "proof": "production/previews/pages/UI26.png",
+    "proofSha256": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+    "observation": "Actual existing proof shows correct distinct happy/thinking/surprised/sad PNGs, labeled 开心/思考/惊讶/沮丧, complete daotong body and clear detail text.",
+    "allFourIdentityBinding": "charactersById explicit catalog and exact UI26 fields, with all four final static proofs actually viewed. Actual browser/client switching not claimed.",
+    "catalogSchema": "charactersById[identityId], with fullBody/displayName/description/expressions; characters array preserved as ordered presentation catalog."
+  },
+  "sourceSnapshots": {
+    "production/layouts.json": "01c6569677e9283615f552096457b8abf4e23498354e4fec5feffb0de1e2c5a3",
+    "production/states.json": "ce8526cf81c0415b20b4495ae1b804bfd95bcc48df19d3485c5bb35bf76db841"
+  },
+  "pending": [],
+  "openNewBitmapRequirements": [],
+  "frozenBySubagent": false,
+  "completedAt": "2026-10-28T16:38:41.128377+00:00",
+  "clientIntegrated": false,
+  "rootFinalReceipt": {
+    "file": "production/final-visual-qa.json",
+    "sha256": "d8929b88c79e8f8477f256990b3f49d8ff8b64a26de66aa714e59bf625974d5e",
+    "status": "passed",
+    "scope": "Root actually viewed all32/86 contacts, four identity variant full PNGs and final corrected loss/loading/result images."
+  },
+  "independentlyViewedFinalPreviews": [
+    {
+      "file": "production/previews/states/play.win.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/play.loss.png",
+      "status": "passed",
+      "reviewMethod": "Actual PNG opened via view_image; final loss2 and loading re-opened after root final correction."
+    },
+    {
+      "file": "production/previews/states/match.loss.png",
+      "status": "passed",
+      "reviewMethod": "Actual PNG opened via view_image; final loss2 and loading re-opened after root final correction."
+    },
+    {
+      "file": "production/previews/states/play.draw.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/play.self_draw.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/system.reconnecting.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/system.loading.png",
+      "status": "passed",
+      "reviewMethod": "Actual PNG opened via view_image; final loss2 and loading re-opened after root final correction."
+    },
+    {
+      "file": "production/previews/states/system.recovery_failed.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/room.owner.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/room.member.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/room.wait_start.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/room.dissolve_result.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/system.matching.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/system.match_success.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/system.match_cancel.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/play.offline.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/states/play.autoplay.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/characters/UI26-daotong.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/characters/UI26-healer.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/characters/UI26-master.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    },
+    {
+      "file": "production/previews/characters/UI26-swordswoman.png",
+      "status": "passed",
+      "reviewMethod": "Actual final PNG opened via view_image."
+    }
+  ],
+  "independentFinalObservations": {
+    "results": "Separate four-seat signed scores and colors; explicit draw label and zero scores; self-draw callout below players; final loss pages explicitly identify local player and 未获胜 outcome.",
+    "network": "Reconnecting spinner above illustration and clear of status; final loading entry grey/disabled 等待加载; recovery-failed copy and retry visible.",
+    "rooms": "Owner/member local-role labels differ; incomplete readiness disables start, all-ready enables; dissolution terminal displays all-agreed without pending copy.",
+    "matching": "Entering table disabled during search, enabled after success, cancelled state offers rematch.",
+    "seatFlags": "Offline and autoplay independently viewed with distinct icon and label. Simultaneous-flag runtime layout was not executed by this reviewer; root receipt owns full set, actual engine import stays false.",
+    "characters": "All four current UI26 variants actually viewed: correct body/name/description and happy/thinking/surprised/sad portraits with matching Chinese labels; complete silhouettes and readable layout."
+  },
+  "resolvedFindings": [
+    {
+      "id": "explicit-local-loss-text",
+      "reportedBy": "full_game_fx independent review",
+      "resolution": "Visible 本局未获胜/本场未获胜 title binds result.title; native local player name binds result.localPlayerName; separate localOutcome metadata, no inference from score.",
+      "verifiedBy": "root actual final full PNGs"
+    },
+    {
+      "id": "loading-entry-gate",
+      "reportedBy": "full_game_fx independent review",
+      "resolution": "system.loading entry disabled, labeled 等待加载; loading.ready binding explicit.",
+      "verifiedBy": "root actual final full PNG"
+    }
+  ],
+  "blockingFindings": [],
+  "errors": [],
+  "rootAcceptedRemainder": {
+    "receipt": "production/final-visual-qa.json",
+    "scope": "All32 pages/all86 states contact acceptance, proof freshness and any final preview outside the 21 independent images listed above. Root reviewed the full set; this reviewer does not claim independent viewing of unlisted final images.",
+    "status": "accepted_by_root_receipt"
+  },
+  "targetedPreviewRecheckQueueHistorical": [
+    {
+      "group": "result outcomes",
+      "states": [
+        "play.loss",
+        "match.loss",
+        "play.draw",
+        "play.self_draw"
+      ],
+      "reason": "Per-seat bindings and explicit draw result source fixed; loss samples added."
+    },
+    {
+      "group": "network progress",
+      "states": [
+        "system.reconnecting",
+        "system.loading"
+      ],
+      "reason": "Spinner/source changed; verify no status overlap and no duplicate ring."
+    },
+    {
+      "group": "four identity detail",
+      "states": [
+        "UI26 daotong",
+        "UI26 healer",
+        "UI26 master",
+        "UI26 swordswoman"
+      ],
+      "reason": "Concrete charactersById source bindings; only existing daotong proof actually viewed."
+    },
+    {
+      "group": "room identity and readiness",
+      "states": [
+        "room.owner",
+        "room.member",
+        "room.wait_start"
+      ],
+      "reason": "Root reports local-role/ready gate source fixes; root re-render and inspect."
+    },
+    {
+      "group": "dissolution terminal",
+      "states": [
+        "room.dissolve_result"
+      ],
+      "reason": "Root reports final-all-agreed source fix; ensure no waiting copy remains."
+    },
+    {
+      "group": "match stages",
+      "states": [
+        "system.matching",
+        "system.match_success",
+        "system.match_cancel"
+      ],
+      "reason": "Root reports enter-table enabled only on success and cancellation retry states; verify final proof."
+    },
+    {
+      "group": "peer connection and autoplay",
+      "states": [
+        "play.offline",
+        "play.autoplay"
+      ],
+      "reason": "Distinct flags may coexist; root reports source clarifications; inspect combined display without conflation."
+    }
+  ],
+  "independentReviewCoverage": "Earlier independent observations and reported final result/network/room checks retained; final remaining proof acceptance performed by root, not falsely attributed to the independent worker.",
+  "finalHashValidation": "exports/production-v3-validation.json; final root sweep required separately before packaging",
+  "rootVisualClosure": {
+    "fourIdentityVariants": "All4 full bodies, identity descriptions and4 labeled expressions actually viewed by root; all paths resolve in the offline gallery check.",
+    "results": "Root viewed explicit local-loss titles/player marker, draw0s/title/callout and self-draw below names; scores independently bound.",
+    "network": "Root actual final loading shows disabled wait button; reconnect ring no longer overlaps status.",
+    "roomAndMatch": "Root all-state contacts inspected with owner/member/readiness, vote terminal, matchmaking stage and peer flags visible.",
+    "receipt": "production/final-visual-qa.json",
+    "browserOrEngineAcceptance": false
+  },
+  "targetedPreviewRecheckQueue": [],
+  "frozenByRoot": true,
+  "brandReleaseReconciliation": {
+    "checkedAt": "2026-10-30T03:40:34.555622+00:00",
+    "priorPresentationBitmapsUnchanged": true,
+    "updatedRootProofReceipt": "production/final-visual-qa.json",
+    "note": "Only startup/login/lobby brand and ready sample changed; prior presentation domain pixels reused."
+  }
+}

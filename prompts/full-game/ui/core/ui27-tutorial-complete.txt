@@ -1,0 +1,7 @@
+Use case: ui-mockup
+Create complete polished 16:9 landscape Mahjong tutorial STEP 3 OF 3 completion screen. Images1 and2 establish hand-painted Taoist chibi style, jade green, ivory silk, warm thin gold cloud scrolls. Image3 is actual step2; match exact moonlit mountain courtyard, table, golden-headband child, title/step navigation/footer look so the sequence feels one coherent tutorial. Keep night setting.
+Title “新手引导”. Progress “1 选牌” completed check, “2 操作” completed check, “3 完成” active gold green with check. No skip button on finished step.
+Center ornate but spacious ivory completion panel with jade/gold top medallion check, big heading “引导完成”. Below two clear short lines: “已了解选牌与操作提示。” and “具体规则可在房间内查看。”
+A friendly small complete golden-headband chibi child beside panel gives thumbs-up, same brown hair, gold band, jade clothes and gold taiji gourd identity; no unrelated character.
+At panel bottom two large buttons: secondary ivory “再看一次” and primary jade “返回大厅”. A small “上一步” at lower left outside panel permits reviewing previous step. No “领取奖励”, no bonus or currency.
+Full-width dark-jade silk footer stripe with thin gold border and centered large “引导示例”, no other marks in corners. Background table can have a few ivory Mahjong tile silhouettes, unobtrusive; no full hand or regional scoring. Only exact supplied Chinese, no extra text/signatures/tiny glyphs. Sharp clear typography and generous spacing.

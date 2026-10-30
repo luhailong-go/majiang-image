@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "createdAt": "2026-10-28T09:55:57.394990+00:00",
+  "counts": {
+    "newRuntimeSkins": 10,
+    "nativeAtlases": 2,
+    "finalContacts": 2
+  },
+  "items": [
+    {
+      "id": "input-focus-overlay",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 3106,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          22,
+          15,
+          618,
+          176
+        ],
+        "fullyTransparent": 82665,
+        "semiTransparent": 10767,
+        "opaque": 29448,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": {
+        "testedRect": [
+          132,
+          72,
+          508,
+          120
+        ],
+        "nonzeroAlpha": 0
+      },
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "input-error-overlay",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 3122,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          23,
+          15,
+          617,
+          176
+        ],
+        "fullyTransparent": 82540,
+        "semiTransparent": 9867,
+        "opaque": 30473,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": {
+        "testedRect": [
+          132,
+          72,
+          508,
+          120
+        ],
+        "nonzeroAlpha": 0
+      },
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "list-row-selected",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 1658,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          21,
+          11,
+          619,
+          180
+        ],
+        "fullyTransparent": 25676,
+        "semiTransparent": 5789,
+        "opaque": 91415,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "list-row-pressed",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 1762,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          20,
+          11,
+          620,
+          180
+        ],
+        "fullyTransparent": 25426,
+        "semiTransparent": 5892,
+        "opaque": 91562,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "progress-track",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 1385,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          12,
+          17,
+          647,
+          159
+        ],
+        "fullyTransparent": 34420,
+        "semiTransparent": 6395,
+        "opaque": 75345,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "progress-fill",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 755,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          12,
+          14,
+          555,
+          97
+        ],
+        "fullyTransparent": 20546,
+        "semiTransparent": 3272,
+        "opaque": 39798,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "toggle-track-on",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 987,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          14,
+          14,
+          465,
+          170
+        ],
+        "fullyTransparent": 23699,
+        "semiTransparent": 3094,
+        "opaque": 61527,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "toggle-track-off",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 971,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          14,
+          14,
+          465,
+          170
+        ],
+        "fullyTransparent": 23740,
+        "semiTransparent": 3307,
+        "opaque": 61273,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "toggle-thumb",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 512,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          14,
+          15,
+          194,
+          193
+        ],
+        "fullyTransparent": 18278,
+        "semiTransparent": 1995,
+        "opaque": 22991,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    },
+    {
+      "id": "slider-fill",
+      "discardedSolidPixels": 0,
+      "isolatedLowAlphaPixelsRemoved": 0,
+      "fringeRGBDecontaminatedPixels": 1049,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          12,
+          14,
+          520,
+          78
+        ],
+        "fullyTransparent": 17358,
+        "semiTransparent": 4015,
+        "opaque": 27571,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "transparentCenter": null,
+      "silhouettePreserved": true,
+      "resampled": false
+    }
+  ],
+  "previews": [
+    "designs/ui/production-v3/forms/preview-forms-light.png",
+    "designs/ui/production-v3/forms/preview-forms-dark.png"
+  ],
+  "automatedChecks": {
+    "allExpectedFiles": true,
+    "discardedSolidPixels": 0,
+    "allCornersTransparent": true,
+    "allRGBA": true,
+    "noRuntimeUpscaling": true
+  },
+  "pendingChecks": [],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "frozenAt": "2026-10-28T09:58:19.918844+00:00",
+  "visualReview": {
+    "reviewer": "full_ui_scope_audit",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "method": "Actually viewed both native atlases and both final light/dark composition contacts, plus existing matched skins; verified all 10 sprites in context.",
+    "passed": [
+      "Daoist jade/ivory/gold hand-painted continuity",
+      "no alpha halo on light/dark backgrounds",
+      "complete cloud rims and circular thumb",
+      "input focus/error true transparent center",
+      "normal/focus/error/disabled input readability",
+      "normal/selected/pressed list distinction",
+      "progress0/25/50/100 fits empty channel",
+      "toggle on/off/disabled separate thumb and track",
+      "slider0/50/100 reuses legacy geometry",
+      "horizontal nine-slice widened input; fixed ornament height"
+    ],
+    "remainingFailures": [],
+    "independentRootReview": "awaiting root review; self QA is complete"
+  },
+  "remainingFailures": [],
+  "integrity": {
+    "files": [
+      {
+        "file": "assets/ui/production-v3/forms/input-error-overlay.png",
+        "sha256": "1b8371b778b20917753f67997537e5ac5a6da894fa4100373b620ee2980388c5",
+        "record": "assets/ui/production-v3/forms/input-error-overlay.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/input-focus-overlay.png",
+        "sha256": "dfbb1aa6529e9f2fed9913e0e93a88ff56c615f56f344583eb533394defed972",
+        "record": "assets/ui/production-v3/forms/input-focus-overlay.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/list-row-pressed.png",
+        "sha256": "f423c5ab837ad7889f37a819434aa281705e99566831f696126ea31c672c48c2",
+        "record": "assets/ui/production-v3/forms/list-row-pressed.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/list-row-selected.png",
+        "sha256": "ba67fdcdbc7c4a49d9b068645d4e314ccdbe5455dec7a84a3b8ed5885281bb16",
+        "record": "assets/ui/production-v3/forms/list-row-selected.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/progress-fill.png",
+        "sha256": "89442565573991775e066a3303bd640b555f55f223ff2b43a5ed3abf28d2a224",
+        "record": "assets/ui/production-v3/forms/progress-fill.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/progress-track.png",
+        "sha256": "e00eb528b71e3f6fe430c6ec40b0ce3875d42ba572f3274a6e94f3f39d99ea98",
+        "record": "assets/ui/production-v3/forms/progress-track.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/slider-fill.png",
+        "sha256": "61384e30870e8db3bda13fc2caaf425fdcc5e2c3967b20dcebc12d9a3dbb7f49",
+        "record": "assets/ui/production-v3/forms/slider-fill.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/toggle-thumb.png",
+        "sha256": "8d54d1daec252aae02cb63e465c56bcdbc595697c277389f60f7ad7c9cd3aaa9",
+        "record": "assets/ui/production-v3/forms/toggle-thumb.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/toggle-track-off.png",
+        "sha256": "f0fc1b9a23c0ef5a571d454db54d5dbfcda68ae8ec3095a4a18e1fa60bf0854c",
+        "record": "assets/ui/production-v3/forms/toggle-track-off.png.generation.json"
+      },
+      {
+        "file": "assets/ui/production-v3/forms/toggle-track-on.png",
+        "sha256": "d40e8caa6b60a94bb918986d75850eb16013f464996030c68936f761c4e9d24c",
+        "record": "assets/ui/production-v3/forms/toggle-track-on.png.generation.json"
+      },
+      {
+        "file": "designs/ui/production-v3/forms/forms-list-atlas-native.png",
+        "sha256": "3c94e758fe749d228638d8d6341b12244842a3a639bb54dec3123dbc67a05cf4",
+        "record": "designs/ui/production-v3/forms/forms-list-atlas-native.png.generation.json"
+      },
+      {
+        "file": "designs/ui/production-v3/forms/motion-controls-atlas-native.png",
+        "sha256": "66bfeca13ecda15f0813a3dbf50955832c58b16f79a0cdad551341565f5b2723",
+        "record": "designs/ui/production-v3/forms/motion-controls-atlas-native.png.generation.json"
+      },
+      {
+        "file": "designs/ui/production-v3/forms/preview-forms-dark.png",
+        "sha256": "acd532611402b94a2c786c1933cd0c008fc2a41344791bca5e0feab2bd1fc9af",
+        "record": "designs/ui/production-v3/forms/preview-forms-dark.png.generation.json"
+      },
+      {
+        "file": "designs/ui/production-v3/forms/preview-forms-light.png",
+        "sha256": "d9cbc7c7a3423e20ebd4d6a3073051322f5cf5f4a5d76531180ef938b75ff4ac",
+        "record": "designs/ui/production-v3/forms/preview-forms-light.png.generation.json"
+      }
+    ],
+    "dependencyHashesVerified": true,
+    "PNGRecordsVerified": 14
+  },
+  "retention": {
+    "runtimePNGs": 10,
+    "nativeRebuildSources": 2,
+    "finalQAContacts": 2,
+    "intermediatePNGs": 0,
+    "reason": "All retained images are formal runtime assets, necessary adopted native source atlases or final QA contacts."
+  }
+}

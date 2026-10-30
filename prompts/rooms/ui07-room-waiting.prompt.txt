@@ -1,0 +1,11 @@
+Use case: ui-mockup
+Asset type: 麻将游戏完整UI独立整屏美术稿。直接输出单个完整界面，16:9横屏，目标2048×1152，非概览、非多屏拼图、无手机外框。
+Input images: 图片1为邮件UI主风格参考，图片2为组队UI主风格参考，图片3为本项目当前大厅。实际沿用三图的玉绿金边主按钮、米白纸绢面板、圆润云纹边角、温暖细金线、精细高清手绘完成度。不要复制邮件或组队内容和旧游戏名称。
+统一画面：明亮仙山道观庭院背景适度退后；大面积象牙米白纸绢圆润面板承托信息。顶部功能标题使用玉绿金边牌匾，主操作玉绿米白字，次操作米白底深玉绿字。留白充分、对齐工整，所有中文清楚且正确。只用少量桃花/灯笼/红穗，不要装饰遮住功能，不要3D塑料感、粗黑线、写实人物或现代扁平网页风。
+所有数字和玩家昵称均为界面演示样例，不在画面放“概念稿”“占位”“未接入”“开发”等制作术语。不出现正式游戏品牌、地方麻将名称、金钱、金币、房卡价格、赌博或支付。不要额外增加商业栏目。
+
+页面：好友房等待。顶部中央标题“好友房”；标题下方一行“房间号 123456”旁有“复制”小按钮，右侧规则摘要“4人 · 8局”，右上设置齿轮，左上“离开”入口。
+居中一个淡玉色圆润麻将桌或太极茶案形的等待中心，四个玩家座位明确环绕但不用正在对局的牌。四席分别位于上、左、右、下，各有精致圆头像框与昵称/状态。下方本人是金发带短棕刺发Q道童头像，昵称“青云”，金色小标“房主”，状态“已准备”；左侧是白发女孩头像，昵称“桂枝”，绿色状态“已准备”；上方是黑发高马尾侠女头像，昵称“墨翎”，状态“未准备”；右侧为空座，米白头像圆内加号，下写“等待加入”，小按钮“邀请好友”。四席全部清楚，不出现第五个人物。
+中心温和提示“等待玩家准备”，下面小字“满4人且全部准备后可开始”。底部右侧主按钮“开始游戏”为明显灰显禁用状态，下有简短提示“等待玩家加入”；底部左侧次按钮“取消准备”，旁有正常玉绿按钮“邀请好友”。准备/未准备、房主、空座、离开入口都清楚。没有虚构在线人数、房卡/价格、计分规则。
+Render exact Chinese text, clean readable hierarchy, single finished full screen. Opaque background.
+Additional image4: seat-avatars-atlas-v1.png, the approved four-identity avatar reference. Use these exact identities wherever avatars appear: top-left gold-headband boy; top-right silver-haired healer; bottom-left white-brow elderly Taoist; bottom-right black-haired ponytail swordswoman. Preserve their distinct faces, hairstyles and costumes. Do not invent replacement characters.

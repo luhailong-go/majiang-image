@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+  "sha256": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+  "exportedAt": "2026-10-26T11:42:06.355088-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source generated through builtin image_gen; host did not disclose verifiable model or quality.",
+  "width": 482,
+  "height": 474,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeSourceDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "derivedFrom": {
+    "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+    "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+    "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+  },
+  "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling",
+  "crop": [
+    26,
+    76,
+    476,
+    518
+  ],
+  "componentIsolation": {
+    "method": "8-connected alpha component; all components in each atlas exported once",
+    "selectedStrongPixels": 56269,
+    "selectedAlphaPixels": 94962
+  },
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 93302,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "transparentPadding": [
+    16,
+    16,
+    16,
+    16
+  ],
+  "placement": {
+    "x": 16,
+    "y": 16,
+    "familyCanvas": [
+      482,
+      474
+    ],
+    "sourceContentCenter": [
+      251,
+      297
+    ]
+  },
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "resampled": false,
+  "nineSlice": null,
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "preserveAspect": true,
+    "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 133506,
+    "semiTransparent": 55283,
+    "opaque": 39679,
+    "bbox": [
+      16,
+      16,
+      466,
+      458
+    ],
+    "edgeAlphaMax": 0,
+    "minimumTransparentMargin": 16,
+    "zeroRgbUnderZeroAlpha": true
+  },
+  "family": "spotlight",
+  "state": "default",
+  "dynamicText": "All labels, ranks, quantities, achievement icons and step numbers are separate client elements.",
+  "inspection": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+    "issues": [],
+    "visual": "Actual final light/dark composites inspected: complete edges, no matte, no detached speckles, coherent style, distinguishable states.",
+    "technical": "PNG/hash/dimensions/alpha padding/source provenance passed.",
+    "qaImages": [
+      "work/full-game-ui/components/qa/slots-tutorial-light.png",
+      "work/full-game-ui/components/qa/slots-tutorial-dark.png"
+    ]
+  },
+  "productionAccepted": true,
+  "clientIntegrated": false
+}

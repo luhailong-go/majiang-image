@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/victory-confetti.webp",
+  "sha256": "5a8d6f39aea615735e8a3af1cbefc733a6c0189384e5e7b2fe83f548212215be",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+      "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+      "record": "assets/fx/full-game/frames/victory-confetti-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+      "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+      "record": "assets/fx/full-game/frames/victory-confetti-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+      "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+      "record": "assets/fx/full-game/frames/victory-confetti-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+      "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+      "record": "assets/fx/full-game/frames/victory-confetti-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      133,
+      134,
+      166,
+      234
+    ],
+    "loop": false,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

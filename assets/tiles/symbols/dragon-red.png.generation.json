@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/dragon-red.png",
+  "sha256": "db0432287fa74ee133131cb6f0c9afc04643c212774ed200663b2a0dbbe3edbe",
+  "createdAt": "2026-10-26T08:25:50.402Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/dragon-red.svg",
+    "sha256": "37cc210b931467e8a99de5af349bae401516b60bac742614b9f7ab7f9e9c2d52"
+  },
+  "semantic": {
+    "label": "中",
+    "suit": "dragons",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "中"
+    ],
+    "whiteDragonFrame": false
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/pages/UI09.png",
+  "sha256": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/characters/full-game/expression-daotong-happy.png",
+      "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+      "generationRecord": "assets/characters/full-game/expression-daotong-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-happy.png",
+      "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+      "generationRecord": "assets/characters/full-game/expression-healer-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-happy.png",
+      "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+      "generationRecord": "assets/characters/full-game/expression-master-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "generationRecord": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-1.png",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+      "generationRecord": "assets/tiles/faces/tiao-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-2.png",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+      "generationRecord": "assets/tiles/faces/tiao-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-3.png",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+      "generationRecord": "assets/tiles/faces/tiao-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-4.png",
+      "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+      "generationRecord": "assets/tiles/faces/tiao-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-5.png",
+      "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+      "generationRecord": "assets/tiles/faces/tiao-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-6.png",
+      "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+      "generationRecord": "assets/tiles/faces/tiao-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-1.png",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+      "generationRecord": "assets/tiles/faces/tong-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-2.png",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+      "generationRecord": "assets/tiles/faces/tong-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-3.png",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+      "generationRecord": "assets/tiles/faces/tong-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-4.png",
+      "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+      "generationRecord": "assets/tiles/faces/tong-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-5.png",
+      "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+      "generationRecord": "assets/tiles/faces/tong-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-6.png",
+      "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+      "generationRecord": "assets/tiles/faces/tong-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-7.png",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+      "generationRecord": "assets/tiles/faces/tong-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-8.png",
+      "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+      "generationRecord": "assets/tiles/faces/tong-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-9.png",
+      "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+      "generationRecord": "assets/tiles/faces/tong-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-1.png",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+      "generationRecord": "assets/tiles/faces/wan-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-2.png",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+      "generationRecord": "assets/tiles/faces/wan-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-3.png",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+      "generationRecord": "assets/tiles/faces/wan-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-4.png",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+      "generationRecord": "assets/tiles/faces/wan-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-5.png",
+      "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+      "generationRecord": "assets/tiles/faces/wan-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "generationRecord": "assets/tiles/faces/wan-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-7.png",
+      "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+      "generationRecord": "assets/tiles/faces/wan-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-8.png",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+      "generationRecord": "assets/tiles/faces/wan-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-9.png",
+      "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+      "generationRecord": "assets/tiles/faces/wan-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "generationRecord": "assets/tiles/tile-back.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "generationRecord": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "generationRecord": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "generationRecord": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "generationRecord": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-chat.png",
+      "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e",
+      "generationRecord": "assets/ui/common/icon-chat.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "generationRecord": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-settings.png",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "generationRecord": "assets/ui/common/icon-settings.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "generationRecord": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "generationRecord": "assets/ui/gameplay/avatar-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "generationRecord": "assets/ui/gameplay/countdown-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "generationRecord": "assets/ui/gameplay/dealer-badge.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "generationRecord": "assets/ui/gameplay/table-background.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "generationRecord": "assets/ui/gameplay/wind-round-dial.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/layouts.json",
+    "layoutId": "UI09",
+    "layoutContentSha256": "1220acfa253c7626ee26d3cd5390c14c60c76371015d5187e86dda2f5876ba07",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}

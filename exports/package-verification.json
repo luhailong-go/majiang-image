@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "archive": "exports/mahjong-ui-full-suite-v1.zip",
+  "sha256": "eb5e1a7ba819e6463ecb9284c929d87200fcfda6d63e4cf2f70ee4de22dc81d3",
+  "bytes": 148109407,
+  "memberCount": 529,
+  "payloadFilesHashVerified": 528,
+  "zipCRC": "passed",
+  "relativePaths": true,
+  "verifiedAt": "2026-10-26T09:42:25.000417-04:00",
+  "keyFiles": [
+    "index.html",
+    "README.md",
+    "exports/ui-delivery-manifest.json",
+    "assets/ui/manifest.json",
+    "assets/tiles/manifest.json",
+    "assets/characters/manifest.json"
+  ],
+  "scope": "Complete static UI art delivery; browser interaction was not tested because file:// was policy-blocked."
+}

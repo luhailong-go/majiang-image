@@ -1,0 +1,37 @@
+{
+  "file": "assets/tiles/symbols/tiao-3.png",
+  "sha256": "31aca1e37b05aed266a7ba4878336f33ca2b12d86cae810334ca68586bd86c02",
+  "createdAt": "2026-10-26T08:25:50.023Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/tiao-3.svg",
+    "sha256": "dcf7622e4194d4794782da518115274fd0a2a9fa73d7ffdd2379f249a224f16f"
+  },
+  "semantic": {
+    "label": "三条",
+    "suit": "bamboo",
+    "rank": 3,
+    "pipCount": null,
+    "bambooCount": 3,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  }
+}

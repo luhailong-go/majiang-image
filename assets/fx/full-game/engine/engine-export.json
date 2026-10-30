@@ -1,0 +1,728 @@
+{
+  "schema": "generate2dsprite.engine_export.v1",
+  "name": "mahjong-fx",
+  "tool": {
+    "name": "export_engine.py",
+    "version": "0.4.0"
+  },
+  "source": {
+    "path": "../../../../work/full-game-fx/clips-built-final/animation-clips.json",
+    "sha256": "dc167bc20ca5c18bc6c913821600d6c2efae702e536ff43524525116c37c1fb6",
+    "bytes": 55056,
+    "schema": "generate2dsprite.animation_clips.v2"
+  },
+  "targets": [
+    "aseprite-json"
+  ],
+  "frame_size": [
+    512,
+    512
+  ],
+  "anchor_px": [
+    256.0,
+    256.0
+  ],
+  "sampling": "linear",
+  "pixel_art": false,
+  "art_source": "host_image",
+  "placeholder": false,
+  "default_clip": "draw-focus",
+  "atlas": {
+    "max_size": 4096,
+    "padding": 2,
+    "extrude": 1,
+    "pages": [
+      {
+        "index": 0,
+        "size": [
+          2582,
+          2582
+        ],
+        "cells": 24,
+        "clips": [
+          "draw-focus",
+          "discard-impact",
+          "player-ring",
+          "hu-burst",
+          "victory-confetti",
+          "reward-stars"
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "pixel_size": 0.01,
+    "subject_height_px": 222.0,
+    "world_height": 2.22,
+    "source": "Godot default pixel size",
+    "subject_height_source": "median visible height of clip draw-focus"
+  },
+  "clips": {
+    "draw-focus": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duration_ms": [
+        83,
+        84,
+        116,
+        117
+      ],
+      "total_duration_ms": 400,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 167,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 283,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          7,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 24.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 0,
+        "to": 3
+      }
+    },
+    "discard-impact": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        116
+      ],
+      "total_duration_ms": 333,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 133,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 217,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 4,
+        "to": 7
+      }
+    },
+    "player-ring": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "duration_ms": [
+        167,
+        166,
+        167,
+        167
+      ],
+      "total_duration_ms": 667,
+      "loop": true,
+      "loop_policy": "cycle",
+      "events_ms": [],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 8,
+        "to": 11
+      }
+    },
+    "hu-burst": {
+      "frames": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        117,
+        83,
+        133,
+        200
+      ],
+      "total_duration_ms": 533,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 333,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          5,
+          8,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        7,
+        5,
+        8,
+        12
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 12,
+        "to": 15
+      }
+    },
+    "victory-confetti": {
+      "frames": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "duration_ms": [
+        133,
+        134,
+        166,
+        234
+      ],
+      "total_duration_ms": 667,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 267,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 433,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          8,
+          10,
+          14
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        8,
+        8,
+        10,
+        14
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 16,
+        "to": 19
+      }
+    },
+    "reward-stars": {
+      "frames": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "duration_ms": [
+        100,
+        100,
+        150,
+        250
+      ],
+      "total_duration_ms": 600,
+      "loop": false,
+      "loop_policy": "oneshot",
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2
+        },
+        {
+          "name": "end",
+          "at_ms": 350,
+          "at": 3,
+          "position": 3
+        }
+      ],
+      "page": 0,
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          6,
+          6,
+          9,
+          15
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 36.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "ticks": [
+        6,
+        6,
+        9,
+        15
+      ],
+      "tick_hz": 60,
+      "aseprite": {
+        "file": "mahjong-fx.json",
+        "from": 20,
+        "to": 23
+      }
+    }
+  },
+  "states": {
+    "draw-focus": "draw-focus",
+    "discard-impact": "discard-impact",
+    "player-ring": "player-ring",
+    "hu-burst": "hu-burst",
+    "victory-confetti": "victory-confetti",
+    "reward-stars": "reward-stars"
+  },
+  "unused_frames": [],
+  "mapping": {
+    "anchor_px": [
+      256.0,
+      256.0
+    ],
+    "frame_size": [
+      512,
+      512
+    ],
+    "anchor_normalized_top_left": [
+      0.5,
+      0.5
+    ],
+    "sampling": "linear",
+    "godot": {
+      "animated_sprite_2d": {
+        "centered": false,
+        "offset": [
+          -256.0,
+          -256.0
+        ],
+        "texture_filter": 2
+      },
+      "animated_sprite_3d": {
+        "centered": true,
+        "offset": [
+          0.0,
+          0.0
+        ],
+        "pixel_size": 0.01,
+        "texture_filter": 3
+      }
+    },
+    "unity": {
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixels_per_unit": 100.0,
+      "filter_mode": "Bilinear"
+    },
+    "phaser": {
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "pixel_art": false
+    },
+    "pixi": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scale_mode": "linear"
+    },
+    "pitch_compensation": {
+      "applies_to": "yaw-only (fixed-y) billboards seen by a pitched camera",
+      "formula": "scale_y = 1 / cos(camera_pitch), applied about the anchor"
+    }
+  },
+  "files": [
+    {
+      "path": "aseprite/mahjong-fx.png",
+      "sha256": "90786328bf17c292049f1845341d26e929b96ee12f3820dd268ab4c4aedfbddf",
+      "bytes": 1586594
+    },
+    {
+      "path": "aseprite/mahjong-fx.json",
+      "sha256": "4f136e15645e05a06e8de5e720a1ee37d5c14c7bbe746edac45844192ed9dab7",
+      "bytes": 12104
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "method": "round trip: every written atlas, Aseprite JSON, SpriteFrames .tres, scene .tscn and Sprite3D contract was parsed back and compared with the source frames (exact RGBA), integer durations, loop flags, events and the shared anchor",
+    "notProven": [
+      "Imports into the Aseprite, Godot 4, Phaser, PixiJS and Unity editors or runtimes were not run; only parse-level round trips were checked.",
+      "Engine import settings (filter, compression, mipmaps) are not written; set them as engine-export.md describes.",
+      "Animation quality, timing feel and silhouette consistency are not judged."
+    ],
+    "checks": [
+      {
+        "id": "aseprite_roundtrip",
+        "status": "pass",
+        "value": {
+          "pages": 1,
+          "frames": 24
+        },
+        "threshold": null
+      },
+      {
+        "id": "aseprite_pivot_rounding_px",
+        "status": "pass",
+        "value": 0.0,
+        "threshold": 0
+      },
+      {
+        "id": "atlas_max_side_px",
+        "status": "pass",
+        "value": 2582,
+        "threshold": 4096
+      },
+      {
+        "id": "source_frame_hashes",
+        "status": "pass",
+        "value": {
+          "verified": 24,
+          "frames": 24
+        },
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../qa/clip-build-original.json",
+        "sha256": "dc167bc20ca5c18bc6c913821600d6c2efae702e536ff43524525116c37c1fb6",
+        "bytes": 55056,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/animation-clips.json"
+      },
+      {
+        "path": "../frames/draw-focus-00.png",
+        "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+        "bytes": 39640,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-00.png"
+      },
+      {
+        "path": "../frames/draw-focus-01.png",
+        "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+        "bytes": 108215,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-01.png"
+      },
+      {
+        "path": "../frames/draw-focus-02.png",
+        "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+        "bytes": 129592,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-02.png"
+      },
+      {
+        "path": "../frames/draw-focus-03.png",
+        "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+        "bytes": 71874,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-03.png"
+      },
+      {
+        "path": "../frames/discard-impact-00.png",
+        "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+        "bytes": 25078,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-04.png"
+      },
+      {
+        "path": "../frames/discard-impact-01.png",
+        "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+        "bytes": 60574,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-05.png"
+      },
+      {
+        "path": "../frames/discard-impact-02.png",
+        "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+        "bytes": 87299,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-06.png"
+      },
+      {
+        "path": "../frames/discard-impact-03.png",
+        "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+        "bytes": 64016,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-07.png"
+      },
+      {
+        "path": "../frames/player-ring-00.png",
+        "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+        "bytes": 54928,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-08.png"
+      },
+      {
+        "path": "../frames/player-ring-01.png",
+        "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+        "bytes": 56354,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-09.png"
+      },
+      {
+        "path": "../frames/player-ring-02.png",
+        "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+        "bytes": 57570,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-10.png"
+      },
+      {
+        "path": "../frames/player-ring-03.png",
+        "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+        "bytes": 55053,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-11.png"
+      },
+      {
+        "path": "../frames/hu-burst-00.png",
+        "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+        "bytes": 41375,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-12.png"
+      },
+      {
+        "path": "../frames/hu-burst-01.png",
+        "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+        "bytes": 92464,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-13.png"
+      },
+      {
+        "path": "../frames/hu-burst-02.png",
+        "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+        "bytes": 128663,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-14.png"
+      },
+      {
+        "path": "../frames/hu-burst-03.png",
+        "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+        "bytes": 102304,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-15.png"
+      },
+      {
+        "path": "../frames/victory-confetti-00.png",
+        "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+        "bytes": 25709,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-16.png"
+      },
+      {
+        "path": "../frames/victory-confetti-01.png",
+        "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+        "bytes": 59477,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-17.png"
+      },
+      {
+        "path": "../frames/victory-confetti-02.png",
+        "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+        "bytes": 58726,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-18.png"
+      },
+      {
+        "path": "../frames/victory-confetti-03.png",
+        "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+        "bytes": 32090,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-19.png"
+      },
+      {
+        "path": "../frames/reward-stars-00.png",
+        "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+        "bytes": 15152,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-20.png"
+      },
+      {
+        "path": "../frames/reward-stars-01.png",
+        "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+        "bytes": 88354,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-21.png"
+      },
+      {
+        "path": "../frames/reward-stars-02.png",
+        "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+        "bytes": 78916,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-22.png"
+      },
+      {
+        "path": "../frames/reward-stars-03.png",
+        "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+        "bytes": 56026,
+        "originalWorkingPath": "../../../../work/full-game-fx/clips-built-final/frames/frame-23.png"
+      }
+    ],
+    "outputs": [
+      {
+        "path": "aseprite/mahjong-fx.png",
+        "sha256": "90786328bf17c292049f1845341d26e929b96ee12f3820dd268ab4c4aedfbddf"
+      },
+      {
+        "path": "aseprite/mahjong-fx.json",
+        "sha256": "4f136e15645e05a06e8de5e720a1ee37d5c14c7bbe746edac45844192ed9dab7"
+      }
+    ],
+    "tool": {
+      "name": "export_engine.py",
+      "version": "0.4.0"
+    },
+    "retentionNote": "Input file paths relocated to retained byte-identical primary assets and original text receipt; hashes unchanged. Temporary duplicate frame PNGs are removed."
+  }
+}

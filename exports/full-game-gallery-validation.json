@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "testCount": 26,
+  "tests": [
+    {
+      "name": "Initial page count",
+      "status": "passed"
+    },
+    {
+      "name": "All32 page IDs represented",
+      "status": "passed"
+    },
+    {
+      "name": "UI14 search",
+      "status": "passed"
+    },
+    {
+      "name": "Image viewer opens and closes",
+      "status": "passed"
+    },
+    {
+      "name": "UI29 pending and claimed present",
+      "status": "passed"
+    },
+    {
+      "name": "UI27 has3 tutorial steps",
+      "status": "passed"
+    },
+    {
+      "name": "components tab count",
+      "status": "passed"
+    },
+    {
+      "name": "tiles tab count",
+      "status": "passed"
+    },
+    {
+      "name": "characters tab count",
+      "status": "passed"
+    },
+    {
+      "name": "scenes tab count",
+      "status": "passed"
+    },
+    {
+      "name": "props tab count",
+      "status": "passed"
+    },
+    {
+      "name": "fx tab count",
+      "status": "passed"
+    },
+    {
+      "name": "branding tab count",
+      "status": "passed"
+    },
+    {
+      "name": "Gameplay component filter",
+      "status": "passed"
+    },
+    {
+      "name": "Alpha background toggle",
+      "status": "passed"
+    },
+    {
+      "name": "Tile search remains exact",
+      "status": "passed"
+    },
+    {
+      "name": "Flower filter has8 optional faces",
+      "status": "passed"
+    },
+    {
+      "name": "All16 expressions searchable",
+      "status": "passed"
+    },
+    {
+      "name": "Scene cards are landscape",
+      "status": "passed"
+    },
+    {
+      "name": "Scene table-theme filter has2 extras",
+      "status": "passed"
+    },
+    {
+      "name": "Props exclude flower duplicates",
+      "status": "passed"
+    },
+    {
+      "name": "FX has24 stage frames",
+      "status": "passed"
+    },
+    {
+      "name": "Next previous keyboard and background controls",
+      "status": "passed"
+    },
+    {
+      "name": "Global primary file list is deduplicated",
+      "status": "passed"
+    },
+    {
+      "name": "All primary files and source records exist",
+      "status": "passed"
+    },
+    {
+      "name": "No empty result breaks rendering",
+      "status": "passed"
+    }
+  ],
+  "method": "Static JavaScript executed against an in-memory mock DOM, plus direct file checks; no browser or network",
+  "limits": "Real browser layout/rendering/interaction was not run because local file navigation was policy-blocked."
+}

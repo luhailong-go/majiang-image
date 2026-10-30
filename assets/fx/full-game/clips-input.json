@@ -1,0 +1,214 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "frames": [
+    "frames/draw-focus-00.png",
+    "frames/draw-focus-01.png",
+    "frames/draw-focus-02.png",
+    "frames/draw-focus-03.png",
+    "frames/discard-impact-00.png",
+    "frames/discard-impact-01.png",
+    "frames/discard-impact-02.png",
+    "frames/discard-impact-03.png",
+    "frames/player-ring-00.png",
+    "frames/player-ring-01.png",
+    "frames/player-ring-02.png",
+    "frames/player-ring-03.png",
+    "frames/hu-burst-00.png",
+    "frames/hu-burst-01.png",
+    "frames/hu-burst-02.png",
+    "frames/hu-burst-03.png",
+    "frames/victory-confetti-00.png",
+    "frames/victory-confetti-01.png",
+    "frames/victory-confetti-02.png",
+    "frames/victory-confetti-03.png",
+    "frames/reward-stars-00.png",
+    "frames/reward-stars-01.png",
+    "frames/reward-stars-02.png",
+    "frames/reward-stars-03.png"
+  ],
+  "anchor_px": [
+    256,
+    256
+  ],
+  "clips": {
+    "draw-focus": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ticks": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 2,
+          "name": "impact"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    },
+    "discard-impact": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "ticks": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 2,
+          "name": "impact"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    },
+    "player-ring": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "ticks": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "loop_policy": "cycle",
+      "role": "fx",
+      "events": []
+    },
+    "hu-burst": {
+      "frames": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "ticks": [
+        7,
+        5,
+        8,
+        12
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 2,
+          "name": "impact"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    },
+    "victory-confetti": {
+      "frames": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "ticks": [
+        8,
+        8,
+        10,
+        14
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 2,
+          "name": "impact"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    },
+    "reward-stars": {
+      "frames": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "ticks": [
+        6,
+        6,
+        9,
+        15
+      ],
+      "loop_policy": "oneshot",
+      "role": "fx",
+      "events": [
+        {
+          "at": 0,
+          "name": "in"
+        },
+        {
+          "at": 2,
+          "name": "impact"
+        },
+        {
+          "at": 3,
+          "name": "end"
+        }
+      ]
+    }
+  },
+  "states": {
+    "draw-focus": "draw-focus",
+    "discard-impact": "discard-impact",
+    "player-ring": "player-ring",
+    "hu-burst": "hu-burst",
+    "victory-confetti": "victory-confetti",
+    "reward-stars": "reward-stars"
+  },
+  "sampling": "linear",
+  "pixel_art": false,
+  "art_source": "host_image",
+  "placeholder": false
+}

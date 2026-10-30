@@ -1,0 +1,109 @@
+{
+  "file": "assets/props/full-game/emotes/approval.png",
+  "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+  "createdAt": "2026-10-26T16:37:54.425Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/emotes-a-sheet-v1.png",
+      "sha256": "4b6f2abdbe851cbd997f83c775c12bb5997bf70b05455b913c4216114ac94758",
+      "generationRecord": "designs/props/full-game/sources/emotes-a-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      0,
+      0,
+      520,
+      512
+    ],
+    "nativeContentBounds": [
+      68,
+      11,
+      505,
+      487
+    ],
+    "corePixelsBefore": 117437,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 114451,
+        "box": [
+          94,
+          11,
+          504,
+          486
+        ]
+      },
+      {
+        "pixels": 2375,
+        "box": [
+          78,
+          108,
+          153,
+          193
+        ]
+      },
+      {
+        "pixels": 611,
+        "box": [
+          68,
+          181,
+          101,
+          223
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      437,
+      476
+    ],
+    "exportContent": [
+      437,
+      476
+    ],
+    "contentBounds": [
+      37,
+      18,
+      437,
+      476
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "emote-approval",
+    "label": "赞",
+    "group": "emote"
+  }
+}

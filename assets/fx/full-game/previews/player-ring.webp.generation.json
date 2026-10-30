@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/player-ring.webp",
+  "sha256": "1a9fc09169efcf404d90bd54ec94ec3189d7ca5bbdd62bef69d49fadb176e140",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/player-ring-00.png",
+      "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+      "record": "assets/fx/full-game/frames/player-ring-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-01.png",
+      "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+      "record": "assets/fx/full-game/frames/player-ring-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-02.png",
+      "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+      "record": "assets/fx/full-game/frames/player-ring-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-03.png",
+      "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+      "record": "assets/fx/full-game/frames/player-ring-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      167,
+      166,
+      167,
+      167
+    ],
+    "loop": true,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

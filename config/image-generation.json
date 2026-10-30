@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "max",
+  "builtin_product": "ChatGPT Images 2.5",
+  "selection": "user_selected_gpt_image_2_5",
+  "preferred_route": "builtin",
+  "verified_on": "2026-10-28",
+  "sources": {
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+  },
+  "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+}

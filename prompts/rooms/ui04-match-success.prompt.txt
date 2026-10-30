@@ -1,0 +1,9 @@
+Use case: ui-mockup
+Asset type: 麻将游戏完整UI独立整屏美术稿。直接输出单个完整界面，16:9横屏，目标2048×1152，非概览、非多屏拼图、无手机外框。
+Input images: 图片1为邮件UI主风格参考，图片2为组队UI主风格参考，图片3为本项目当前大厅。实际沿用三图的玉绿金边主按钮、米白纸绢面板、圆润云纹边角、温暖细金线、精细高清手绘完成度。不要复制邮件或组队内容和旧游戏名称。
+统一画面：明亮仙山道观庭院背景适度退后；大面积象牙米白纸绢圆润面板承托信息。顶部功能标题使用玉绿金边牌匾，主操作玉绿米白字，次操作米白底深玉绿字。留白充分、对齐工整，所有中文清楚且正确。只用少量桃花/灯笼/红穗，不要装饰遮住功能，不要3D塑料感、粗黑线、写实人物或现代扁平网页风。
+所有数字和玩家昵称均为界面演示样例，不在画面放“概念稿”“占位”“未接入”“开发”等制作术语。不出现正式游戏品牌、地方麻将名称、金钱、金币、房卡价格、赌博或支付。不要额外增加商业栏目。
+
+页面：休闲匹配成功。顶部功能标题“休闲匹配”，左上“返回”，右上设置齿轮。居中米白宽面板，中央上方大字“匹配成功”，下面“四位牌友已就位”。四个圆润玉绿金边头像等距横排，依次短棕刺发金发带道童“青云”、白发簪花女孩“桂枝”、黑发高马尾侠女“墨翎”、白眉长须老道“松隐”；四人面孔年龄发型职业明显不同，均道家Q版高清手绘。各头像下绿色小勾与“已就位”。底部中心大玉绿主按钮“进入牌桌”，左边米白次按钮“返回大厅”。简洁小字“祝你牌运顺心”。不要同时写正在匹配，不要假在线人数、价格、商标或金币。
+Render exact Chinese text, clean readable hierarchy, single finished full screen or the explicitly requested state specification board. Opaque background.
+Additional image4: seat-avatars-atlas-v1.png, the approved four-identity avatar reference. Use these exact identities wherever avatars appear: top-left gold-headband boy; top-right silver-haired healer; bottom-left white-brow elderly Taoist; bottom-right black-haired ponytail swordswoman. Preserve their distinct faces, hairstyles and costumes. Do not invent replacement characters.

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/production-v3/empty/empty-friends.png",
+  "sha256": "40c11382a97507fa6008fb1d2a3d884d6a5ee1f5907bac4dca4e297430e9aabf",
+  "exportedAt": "2026-10-28T08:29:58.470515+00:00",
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/empty-states-native.png",
+      "sha256": "382db41d9cec67c3b9f8c5239628428a0212149243adb8e5f130385f90ea8f70",
+      "generationRecord": "designs/ui/production-v3/empty-states-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "ownership": "assign each alpha>16 connected component to nearest 3x2 subject center; preserve complete crossing components",
+    "tinyNoiseRemovedBelowPixels": 4,
+    "sourceBBox": [
+      527,
+      136,
+      1021,
+      446
+    ],
+    "sourceComponents": [
+      {
+        "sourceBox": [
+          527,
+          136,
+          1021,
+          446
+        ],
+        "pixels": 71883
+      },
+      {
+        "sourceBox": [
+          913,
+          232,
+          928,
+          243
+        ],
+        "pixels": 130
+      },
+      {
+        "sourceBox": [
+          693,
+          248,
+          704,
+          256
+        ],
+        "pixels": 58
+      },
+      {
+        "sourceBox": [
+          947,
+          249,
+          956,
+          255
+        ],
+        "pixels": 36
+      },
+      {
+        "sourceBox": [
+          888,
+          279,
+          910,
+          293
+        ],
+        "pixels": 196
+      },
+      {
+        "sourceBox": [
+          700,
+          400,
+          737,
+          423
+        ],
+        "pixels": 617
+      }
+    ],
+    "uniformScale": 0.9392712550607287,
+    "canvas": [
+      512,
+      512
+    ],
+    "padding": 24,
+    "rgbRepainting": false
+  },
+  "nativeDetailUpscaled": false
+}

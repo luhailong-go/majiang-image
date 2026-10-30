@@ -1,0 +1,23 @@
+{
+  "file": "assets/tiles/symbols/tong-8.svg",
+  "sha256": "edb8000eaa7e61775e6abf6b4a8de7788b28c1ad6598835b6f51a4472ba41946",
+  "operation": "Deterministic original SVG symbols; KaiTi text converted to vector outlines, exact pip/bamboo counts. No model call.",
+  "fontSource": null,
+  "semantic": {
+    "label": "八筒",
+    "suit": "dots",
+    "rank": 8,
+    "pipCount": 8,
+    "bambooCount": null,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  },
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "checks": {
+    "exactSemantics": "passed",
+    "visual": "passed"
+  }
+}

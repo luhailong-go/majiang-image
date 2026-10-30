@@ -1,0 +1,9 @@
+.work/
+exports/*.zip
+work/
+prototypes/
+*.tmp
+__pycache__/
+.env
+.env.*
+!.env.example

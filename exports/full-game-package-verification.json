@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "status": "passed",
+  "archive": "exports/mahjong-complete-game-art-v2.zip",
+  "sha256": "882ca64183c04fb4abb7692488809aab6763ccc17b49104b32879af8027e370b",
+  "bytes": 307781190,
+  "memberCount": 1154,
+  "payloadHashesVerified": 1153,
+  "zipCRC": "passed",
+  "primaryAssetsIncluded": 270,
+  "verifiedAt": "2026-10-26T17:09:37-04:00",
+  "clientIntegrated": false,
+  "uploaded": false,
+  "browserInteraction": "not_run_policy_blocked",
+  "errors": []
+}

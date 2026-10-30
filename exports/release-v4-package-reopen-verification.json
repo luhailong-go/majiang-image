@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 4,
+  "status": "passed",
+  "verifiedAt": "2026-10-30T03:54:42.363022+00:00",
+  "archive": "exports/yunjian-queshe-complete-art-v4.zip",
+  "sha256": "3576436adaf1766f2becf815a0af2fcfd701ec65a2c8c0fdb7caba57ed058b8d",
+  "method": "Separate read-only reopen: exact member set, CRC, every payload byte count and SHA256, embedded293 asset set,32/86 scope, brand composition and no pending art.",
+  "membersChecked": 1578,
+  "payloadHashesChecked": 1577,
+  "primaryAssets": 293,
+  "pageLayouts": 32,
+  "stateCompositions": 86,
+  "errors": []
+}

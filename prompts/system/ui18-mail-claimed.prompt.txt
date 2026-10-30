@@ -1,0 +1,12 @@
+Use case: precise-object-edit
+Asset: UI18 邮件详情的“已领取”独立状态，完整16:9整屏。
+Input 1 is the exact UI18 pending-claim screen to edit. Images 2 and 3 are style references only (邮件UI、组队UI). Keep the entire existing scene, composition, ornaments, typography, characters, avatar-frame attachment and all unrelated content exactly consistent.
+
+仅将第1张邮件由待领取切换成已领取状态：
+1. 附件头像框×1下面红色“待领取”改为玉绿或中性深灰“已领取”，可带一个小勾。
+2. 原绿色“领取附件”主按钮改成灰米白的禁用按钮，按钮文字仅为“已领取”，文字与边框清楚但明显不可重复领取。不要在该按钮之外再新增第二个已领取状态大框。
+3. 右侧原禁用“删除”按钮改为可用的米白金边次按钮，“删除”字与垃圾桶图标采用清楚深玉绿色。
+4. 原说明“领取后可删除”改为“附件已领取，可删除邮件”。
+保持欢迎来到牌桌标题、系统通知10-26、正文三句、道童与兔子、附件头像框数量、左上返回列表、右上关闭X、所有尺寸位置和画面装饰不变。
+这一整屏只显示已领取状态，绝不能同时出现“待领取”、可点击“领取附件”或其他互斥领取状态。不增添任何新奖励、人物、品牌或功能。
+输出一张原比例完整屏幕，1672×941目标，不透明PNG；不要对比图、拼图或说明板。

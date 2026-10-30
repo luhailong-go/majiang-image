@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/callouts-alpha.png",
+  "sha256": "4de39b099de444d1d78cde4575995bba798446ddcd14e303d60900ee6ff32e92",
+  "derivedAt": "2026-10-26T11:48:40-04:00",
+  "tool": "Pillow contact sheet",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 1536,
+  "height": 1800,
+  "mode": "RGB",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/callout-base.png",
+      "sha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/chi.png",
+      "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/peng.png",
+      "sha256": "af84cde9b3d469c089a5d093e0623657a2d3e381d178598824d61fb954cb1c3d"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/gang.png",
+      "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/hu.png",
+      "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/ting.png",
+      "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/self-draw.png",
+      "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/draw.png",
+      "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/victory.png",
+      "sha256": "cbd9d59a728a4889ebdd28bee0680672d7c39d6601eb5711ee7d29848aab40dd"
+    },
+    {
+      "file": "assets/fx/full-game/settlement-defeat.png",
+      "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2"
+    },
+    {
+      "file": "assets/fx/full-game/settlement-draw.png",
+      "sha256": "b75f8593d875ab9b4bb3b495634fb841a4ccf9e8c0ae71bd0a7c5d118ed9cc7d"
+    }
+  ],
+  "operation": "thumbnail downsample and alpha-composite runtime assets over light/dark review backgrounds; no new art generated",
+  "inspection": {
+    "visualStatus": "passed",
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  }
+}

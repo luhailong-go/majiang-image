@@ -1,0 +1,30 @@
+{
+  "file": "assets/tiles/symbols/wind-west.svg",
+  "sha256": "5405203f790e66604d0a4d1f983ab14d329270c6c07e7422a676dd1bb8133e4a",
+  "operation": "Deterministic original SVG symbols; KaiTi text converted to vector outlines, exact pip/bamboo counts. No model call.",
+  "fontSource": {
+    "name": "KaiTi",
+    "outlineData": "assets/tiles/source/glyph-outlines.json",
+    "sha256": "d4a555d0f59d89caaa829454147171ef73d80a1c0c15799d672741ace08b83ee",
+    "fontFileDistributed": false
+  },
+  "semantic": {
+    "label": "西",
+    "suit": "winds",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "西"
+    ],
+    "whiteDragonFrame": false
+  },
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "checks": {
+    "exactSemantics": "passed",
+    "visual": "passed"
+  }
+}

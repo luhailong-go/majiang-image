@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/expression-daotong-happy.png",
+  "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 131343,
+    "opaquePixels": 116126,
+    "semiTransparentPixels": 14675,
+    "bbox": [
+      32,
+      52,
+      480,
+      480
+    ],
+    "clearMargins": [
+      32,
+      52,
+      32,
+      32
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/daotong-expressions-native.png",
+    "sha256": "46e70a2e589985d6c815ec0da18cdee6c7f5d421c9b8c1cfb0042c34a9267de0",
+    "generationRecord": "designs/characters/full-game/daotong-expressions-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "whole-source ownership slice",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 67638,
+      "removedPixelsAbove128": 0,
+      "componentCount": 4,
+      "RGBRepainted": false,
+      "sourceBox": [
+        11,
+        30,
+        628,
+        619
+      ],
+      "componentCentroid": [
+        307.3593653784958,
+        338.7692946675428
+      ],
+      "sourcePixelsRetained": 241971,
+      "crossGridDetailsPreserved": true,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 223274
+    },
+    {
+      "operation": "uniform downsample with per-identity shared scale",
+      "sourceSize": [
+        617,
+        589
+      ],
+      "outputContentSize": [
+        448,
+        428
+      ],
+      "scale": 0.7260940032414911,
+      "method": "premultiplied LANCZOS",
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "transparent padding",
+      "canvas": [
+        512,
+        512
+      ],
+      "offset": [
+        32,
+        52
+      ],
+      "localSafeMargin": 32
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/daotong-expressions.prompt.txt",
+  "usage": {
+    "identity": "daotong",
+    "identityName": "金带道童",
+    "role": "expression_avatar",
+    "expression": "happy",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": "passed",
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

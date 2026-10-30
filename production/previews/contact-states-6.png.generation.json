@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-6.png",
+  "sha256": "de855ff3d370be7b4f4e596241b895077ac7efda461d9cacd2766e34ec485e01",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/tutorial.select.png",
+      "sha256": "7970dea5a0290488754323b0b8a3999e881bc07f8ed04279225c8da098a80f82",
+      "generationRecord": "production/previews/states/tutorial.select.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/tutorial.actions.png",
+      "sha256": "f6477a126df4a7db389c9685a4a9465f757805edcccd782ef5b423f6c1069794",
+      "generationRecord": "production/previews/states/tutorial.actions.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/tutorial.complete.png",
+      "sha256": "ff54387e165daa0e4741f44e6c764092d837b67252fb0d71d43bd66e26391a81",
+      "generationRecord": "production/previews/states/tutorial.complete.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/reward.not_achieved.png",
+      "sha256": "80619c7791fb0ad73f564ca51e4af997e15d53530c266ec787d97a88d9462bf0",
+      "generationRecord": "production/previews/states/reward.not_achieved.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/reward.claimable.png",
+      "sha256": "8afb739c82dded99611db0c23c4d49fd2895cfddbcd769a68242f7ea45d788b1",
+      "generationRecord": "production/previews/states/reward.claimable.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/reward.claimed.png",
+      "sha256": "5aec930d331c721b1061073b772ebc19f4627b1be7bf9e4fd206896a1c85468b",
+      "generationRecord": "production/previews/states/reward.claimed.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/achievement.locked.png",
+      "sha256": "b76aa1d90df2ea350e7de1cce028d1b04ba56e13d92e6c982793113866a5f884",
+      "generationRecord": "production/previews/states/achievement.locked.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/achievement.unlocked.png",
+      "sha256": "82f97dacb73e91b41ceff9ed18618d30e690039775b74c111641a162d6da6efe",
+      "generationRecord": "production/previews/states/achievement.unlocked.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/ranking.top_three.png",
+      "sha256": "4ffc1c5063c638e52dbb98de2465d0750338ff624f4aa1b9361411d42f43bd4f",
+      "generationRecord": "production/previews/states/ranking.top_three.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/ranking.self.png",
+      "sha256": "461c8671faae29d94bab3b66e0bada969c2d7bc1a37d60f62b0edceecb384311",
+      "generationRecord": "production/previews/states/ranking.self.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/inventory.default.png",
+      "sha256": "9a61d479b4851224bc2c23591cb46782a95c02e430e217ee4aeae03c6ae6446e",
+      "generationRecord": "production/previews/states/inventory.default.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/inventory.selected.png",
+      "sha256": "275c6397850185048b20feac0702ff70508608b72015711daa87539c6cdc35a5",
+      "generationRecord": "production/previews/states/inventory.selected.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

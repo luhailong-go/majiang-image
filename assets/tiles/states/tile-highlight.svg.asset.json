@@ -1,0 +1,14 @@
+{
+  "file": "assets/tiles/states/tile-highlight.svg",
+  "sha256": "f1f0fdd78b3229cfce5b8347bbbdcd71a9451fab9e7927257644d3fda6b240dd",
+  "operation": "Original deterministic SVG state outline, no model call",
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "use": "Overlay on complete upright tile, rotate with tile, no nine-slice",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

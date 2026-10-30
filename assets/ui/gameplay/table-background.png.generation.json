@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/gameplay/table-background.png",
+  "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeSourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "derivedFrom": {
+    "file": "designs/ui/component-sources/table-background-v1.png",
+    "sha256": "c6ca23d0e4e0ec7fed359c2deae5a004a6263b9fb8cf85e7cf0bd0a6b9a8c5ab",
+    "record": "designs/ui/component-sources/table-background-v1.png.generation.json"
+  },
+  "operation": "pixel-identical native RGB PNG re-encode; metadata stripped; no resampling",
+  "crop": null,
+  "transparentPadding": 0,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": null,
+  "alpha": null,
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "resizePolicy": {
+    "mode": "uniform_cover_or_contain",
+    "stretchAxes": [],
+    "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+  },
+  "clientIntegrated": false
+}

@@ -1,0 +1,8 @@
+Use case: ui-mockup
+Generate a polished complete landscape 16:9 Mahjong game tutorial UI, step 1 of 3. Two primary reference images define hand-painted Taoist chibi style, jade greens, ivory silk, thin warm gold cloud borders. Third reference is the established Mahjong table; match fabric/materials and perspective, but simplify the tutorial table. NO product title, no regional Mahjong rule, no scoring.
+Title top center “新手引导”. Three small sequential progress pills under title “1 选牌” active gold/jade, “2 操作” subdued, “3 完成” subdued. Upper right quiet button “跳过”.
+Main area center shows clean jade Mahjong tabletop with one clearly focused hand rack of large ivory tiles along lower center. At least one raised “三萬” tile near center-right has a strong but tasteful gold glowing outline and a hand-shaped tap pointer, spotlight selectively brightening that tile. A thin gold guide arrow from the instruction bubble points exactly at that raised selected tile. Other tiles slightly dimmed with navy translucent tutorial scrim, but still recognizable. Do not put text over the highlighted tile.
+Instruction ivory bubble at upper-left within table uses only these LARGE exact lines: “第1步：选牌” and “点击手牌，查看选中效果。”
+Small non-distracting tag below the rack “选中后，再确认出牌”. No claim about a completed winning hand. A second explanatory strip near bottom says “这是操作演示，具体规则以房间为准”.
+Bottom navigation “返回” secondary at left and “下一步” strong jade primary at right. Footer tiny but legible “引导示例”.
+Large crisp readable Chinese, elegant finished game UI not web app, generous whitespace, no tiny dense instructions, no busy overdecorated scene.

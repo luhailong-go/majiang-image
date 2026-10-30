@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/production-v3/forms/progress-fill.png",
+  "sha256": "89442565573991775e066a3303bd640b555f55f223ff2b43a5ed3abf28d2a224",
+  "generatedAt": "2026-10-28T09:55:57.394990+00:00",
+  "width": 568,
+  "height": 112,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "Pillow / NumPy / SciPy",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/forms/motion-controls-atlas-native.png",
+      "sha256": "66bfeca13ecda15f0813a3dbf50955832c58b16f79a0cdad551341565f5b2723",
+      "record": "designs/ui/production-v3/forms/motion-controls-atlas-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "sourceRegion": [
+      665,
+      0,
+      1254,
+      480
+    ],
+    "nativeCrop": [
+      680,
+      247,
+      1223,
+      330
+    ],
+    "cropSize": [
+      543,
+      83
+    ],
+    "paddingOffset": [
+      12,
+      14
+    ],
+    "outputCanvas": [
+      568,
+      112
+    ],
+    "resample": false,
+    "alphaFloor": 8,
+    "antialiasDistanceLimit": 2,
+    "removeDisconnectedNoise": true,
+    "fringeRGB": "nearest opaque source RGB for alpha<128",
+    "opaquePromotion": "source alpha>=250 to255",
+    "RGBWhenAlphaZero": "zero"
+  },
+  "sourceModelEvidence": "See native source record; inherited actualModel and actualQuality remain null.",
+  "qa": {
+    "id": "progress-fill",
+    "discardedSolidPixels": 0,
+    "isolatedLowAlphaPixelsRemoved": 0,
+    "fringeRGBDecontaminatedPixels": 755,
+    "alpha": {
+      "range": [
+        0,
+        255
+      ],
+      "bbox": [
+        12,
+        14,
+        555,
+        97
+      ],
+      "fullyTransparent": 20546,
+      "semiTransparent": 3272,
+      "opaque": 39798,
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "transparentCenter": null,
+    "silhouettePreserved": true,
+    "resampled": false
+  },
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "reviewer": "full_ui_scope_audit",
+    "qa": "assets/ui/production-v3/forms/qa.json",
+    "qaPreviews": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "remainingFailures": []
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

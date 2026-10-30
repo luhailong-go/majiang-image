@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/spring.label.svg",
+  "sha256": "4491a5b1c4a0cf44be1fd97d492c0649474a02b100f117b289f5122fa314596a",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

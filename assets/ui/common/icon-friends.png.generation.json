@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/icon-friends.png",
+  "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 265,
+  "height": 211,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "derivedFrom": {
+    "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+    "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+    "record": "designs/ui/component-sources/common-controls-atlas-v1.png.generation.json"
+  },
+  "operation": "native crop + low-alpha/isolated speck removal + transparent padding; no scaling",
+  "crop": [
+    364,
+    335,
+    613,
+    530
+  ],
+  "transparentPadding": 8,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": null,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 20456,
+    "semiTransparent": 3385,
+    "opaque": 32074,
+    "bbox": [
+      8,
+      8,
+      257,
+      203
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 7331,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+  },
+  "clientIntegrated": false
+}

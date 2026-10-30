@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/title-plaque.png",
+  "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 620,
+  "height": 214,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "derivedFrom": {
+    "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+    "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+    "record": "designs/ui/component-sources/common-skins-atlas-v1.png.generation.json"
+  },
+  "operation": "native crop + low-alpha/isolated speck removal + transparent padding; no scaling",
+  "crop": [
+    16,
+    105,
+    620,
+    303
+  ],
+  "transparentPadding": 8,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": null,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 47739,
+    "semiTransparent": 5594,
+    "opaque": 79347,
+    "bbox": [
+      8,
+      8,
+      612,
+      206
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 7187,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+  },
+  "clientIntegrated": false
+}

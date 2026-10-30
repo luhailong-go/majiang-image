@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T07:24:41.067337-04:00",
+  "scope": "FULL_UI_SCOPE common and gameplay components",
+  "actualModel": null,
+  "actualQuality": null,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "assets": [
+    {
+      "id": "wind-round-dial",
+      "name": "中央风位与回合牌",
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "record": "assets/ui/gameplay/wind-round-dial.png.generation.json",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "width": 461,
+      "height": 438,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 67340,
+        "semiTransparent": 4389,
+        "opaque": 130189,
+        "bbox": [
+          8,
+          8,
+          453,
+          430
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "avatar-frame",
+      "name": "四座共用头像框",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "record": "assets/ui/gameplay/avatar-frame.png.generation.json",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "width": 370,
+      "height": 378,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 97458,
+        "semiTransparent": 7329,
+        "opaque": 35073,
+        "bbox": [
+          8,
+          8,
+          362,
+          370
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "countdown-frame",
+      "name": "倒计时框",
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "record": "assets/ui/gameplay/countdown-frame.png.generation.json",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "width": 300,
+      "height": 311,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 31395,
+        "semiTransparent": 2906,
+        "opaque": 58999,
+        "bbox": [
+          8,
+          8,
+          292,
+          303
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "dealer-badge",
+      "name": "庄家徽章底图",
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "record": "assets/ui/gameplay/dealer-badge.png.generation.json",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "width": 331,
+      "height": 271,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 41256,
+        "semiTransparent": 3124,
+        "opaque": 45321,
+        "bbox": [
+          8,
+          8,
+          323,
+          263
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "current-player-ring",
+      "name": "当前玩家高亮圈",
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "record": "assets/ui/gameplay/current-player-ring.png.generation.json",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+      "width": 439,
+      "height": 394,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 107843,
+        "semiTransparent": 46104,
+        "opaque": 19019,
+        "bbox": [
+          8,
+          8,
+          431,
+          386
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "offline-badge",
+      "name": "离线标记",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "record": "assets/ui/gameplay/offline-badge.png.generation.json",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "width": 276,
+      "height": 266,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 26038,
+        "semiTransparent": 2646,
+        "opaque": 44732,
+        "bbox": [
+          8,
+          8,
+          268,
+          258
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "autoplay-badge",
+      "name": "托管标记",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "record": "assets/ui/gameplay/autoplay-badge.png.generation.json",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "width": 276,
+      "height": 266,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 26105,
+        "semiTransparent": 2572,
+        "opaque": 44739,
+        "bbox": [
+          8,
+          8,
+          268,
+          258
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "action-button-normal",
+      "name": "对局操作按钮",
+      "file": "assets/ui/gameplay/action-button-normal.png",
+      "record": "assets/ui/gameplay/action-button-normal.png.generation.json",
+      "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+      "width": 546,
+      "height": 192,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 19991,
+        "semiTransparent": 4047,
+        "opaque": 80794,
+        "bbox": [
+          8,
+          8,
+          538,
+          184
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "minimumGeometrySize": [
+        141,
+        61
+      ],
+      "productionAccepted": true
+    },
+    {
+      "id": "settlement-card",
+      "name": "结算卡片",
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "record": "assets/ui/gameplay/settlement-card.png.generation.json",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "width": 285,
+      "height": 360,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 16569,
+        "semiTransparent": 3838,
+        "opaque": 82193,
+        "bbox": [
+          8,
+          8,
+          277,
+          352
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "productionAccepted": true
+    },
+    {
+      "id": "action-button-pressed",
+      "name": "action-button·pressed",
+      "file": "assets/ui/gameplay/action-button-pressed.png",
+      "record": "assets/ui/gameplay/action-button-pressed.png.generation.json",
+      "sha256": "c8ed24e9a30dea4c839f32d3488bb3f990868da336b0d7ee9a8a199c78b70933",
+      "width": 546,
+      "height": 192,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 19991,
+        "semiTransparent": 4047,
+        "opaque": 80794,
+        "bbox": [
+          8,
+          8,
+          538,
+          184
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "minimumGeometrySize": [
+        141,
+        61
+      ],
+      "productionAccepted": true
+    },
+    {
+      "id": "action-button-selected",
+      "name": "action-button·selected",
+      "file": "assets/ui/gameplay/action-button-selected.png",
+      "record": "assets/ui/gameplay/action-button-selected.png.generation.json",
+      "sha256": "3639caf87fc4f6da58caf186b8085d1e493effdfdd59cb7e60c2a58413b4d109",
+      "width": 546,
+      "height": 192,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 19991,
+        "semiTransparent": 4047,
+        "opaque": 80794,
+        "bbox": [
+          8,
+          8,
+          538,
+          184
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "minimumGeometrySize": [
+        141,
+        61
+      ],
+      "productionAccepted": true
+    },
+    {
+      "id": "action-button-disabled",
+      "name": "action-button·disabled",
+      "file": "assets/ui/gameplay/action-button-disabled.png",
+      "record": "assets/ui/gameplay/action-button-disabled.png.generation.json",
+      "sha256": "85bb9eb97bd66f54381cb4d3759ddab5d73c5abb1c15a59ea17f3436d9fad9b6",
+      "width": 546,
+      "height": 192,
+      "mode": "RGBA",
+      "group": "gameplay",
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparent": 19991,
+        "semiTransparent": 4047,
+        "opaque": 80794,
+        "bbox": [
+          8,
+          8,
+          538,
+          184
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "minimumGeometrySize": [
+        141,
+        61
+      ],
+      "productionAccepted": true
+    },
+    {
+      "id": "table-background",
+      "name": "独立牌桌背景",
+      "file": "assets/ui/gameplay/table-background.png",
+      "record": "assets/ui/gameplay/table-background.png.generation.json",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "group": "gameplay",
+      "nineSlice": null,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alpha": null,
+      "status": "passed",
+      "resizePolicy": {
+        "mode": "uniform_cover_or_contain",
+        "stretchAxes": [],
+        "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+      },
+      "productionAccepted": true
+    }
+  ],
+  "compositionFile": "assets/ui/component-compositions.json",
+  "sources": [
+    "designs/ui/component-sources/common-controls-atlas-v1.png",
+    "designs/ui/component-sources/common-extra-icons-v1.png",
+    "designs/ui/component-sources/common-skins-atlas-v1.png",
+    "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+    "designs/ui/component-sources/table-background-v1.png",
+    "designs/ui/component-sources/window-frame-v1.png"
+  ],
+  "notes": [
+    "All painted skins derive from builtin generated masters; crop and alpha cleanup are mechanical exports, not separate AI generations.",
+    "All text and numeric values are separate native client labels.",
+    "Nine-slice is [left,top,right,bottom] in delivered pixels, subject to resizePolicy. Buttons with round end ornaments stretch only horizontally after a uniform base scale.",
+    "Null nineSlice means aspect-preserving scaling only except the constant modal overlay.",
+    "window-frame margins are [200,200,200,200]. settlement-card is uniform-scale-only."
+  ],
+  "status": "passed",
+  "checkedAt": "2026-10-26T08:45:30.784998-04:00",
+  "pngCount": 13
+}

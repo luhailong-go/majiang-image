@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "scopeId": "UI21",
+  "title": "设置",
+  "file": "designs/ui/full-suite/system/ui21-settings.png",
+  "sha256": "618efa2f8a1a8e348594fcc374b3e8d2afc249b367dd78438f025624afefcde6",
+  "generatedAt": "2026-10-26T04:35:26.918000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-d3656d37-e4fd-4695-afec-854ff5e4f8ac",
+  "resultReceipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-d3656d37-e4fd-4695-afec-854ff5e4f8ac.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "size": null,
+    "promptFile": "prompts/system/ui21-settings.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具只披露image_url与output_hint；原生尺寸和哈希由PNG实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/system/ui21-settings.prompt.txt",
+  "promptSha256": "ae576124c687df46553f9d32fe3c7735d8775309e722c2212789f0e637aef08b",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "purpose": "当前大厅风格补充参考",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-d3656d37-e4fd-4695-afec-854ff5e4f8ac.png",
+    "sha256": "618efa2f8a1a8e348594fcc374b3e8d2afc249b367dd78438f025624afefcde6",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "notes": [
+      "实际查看：音乐/音效滑条、语音开启、出牌确认关闭、品质单选、桌布选中与未选中、牌面预览、恢复默认/保存/退出入口均可辨。",
+      "中文核对通过、关闭入口完整。声音/显示/操作页签与本整屏总览选项仅为美术界面组织，实际接入需按状态表实现切换。"
+    ],
+    "unresolvedIssues": []
+  },
+  "status": {
+    "assetStage": "full_ui_art_candidate",
+    "readyForReview": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

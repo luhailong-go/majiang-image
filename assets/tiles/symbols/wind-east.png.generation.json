@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/wind-east.png",
+  "sha256": "9b4f6b7d69a90755d02a7ba608fe28f3547b78cb82df5613d10566625c35febe",
+  "createdAt": "2026-10-26T08:25:50.266Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wind-east.svg",
+    "sha256": "9856fbbf280ac77308de52bf73177c9270de53d7ff55963d77264c1eed22b4f6"
+  },
+  "semantic": {
+    "label": "东",
+    "suit": "winds",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "东"
+    ],
+    "whiteDragonFrame": false
+  }
+}

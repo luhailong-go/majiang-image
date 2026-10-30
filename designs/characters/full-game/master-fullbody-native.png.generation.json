@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/full-game/master-fullbody-native.png",
+  "sha256": "49054ded9fdf14d80ebde2fe83a281c0e8227ebec161845da14f2910d4b65e11",
+  "generatedAt": "2026-10-26T17:01:23.401401+00:00",
+  "completionObservedAt": "2026-10-26T17:44:47.032948+00:00",
+  "timestampBasis": "host artifact filesystem modification time, observed after builtin tool completion",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "generationCallId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\assets\\characters\\avatar-master.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "toolReturnFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "nativeOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17738-5d48-7cd1-bec8-47c9bf0ee60f\\exec-6b62a86f-5f00-45db-b43e-a618cb587b94.png",
+    "nativeOutputSha256": "49054ded9fdf14d80ebde2fe83a281c0e8227ebec161845da14f2910d4b65e11",
+    "copy": "byte-identical"
+  },
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量；配置目标与实际返回证据分开。",
+  "prompt": "prompts/full-game/characters/master-fullbody.prompt.txt",
+  "promptSha256": "b27cd41025ce9aa50db34a885092f2a59af7f2016fccb285eb2a0938e7ed2ee2",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "assets/characters/avatar-master.png",
+      "submittedPath": "D:\\work\\majiang-image\\assets\\characters\\avatar-master.png",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+      "role": "identity reference",
+      "actuallyAttached": true
+    }
+  ],
+  "inspection": {
+    "status": "accepted_as_rebuild_source",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "identity": "passed",
+    "expressions": null,
+    "rawAlpha": "technical low-alpha external speckles removed by recorded export; source art is not the runtime sprite",
+    "runtimeQa": "assets/characters/full-game/qa.json",
+    "unresolvedRuntimeIssues": []
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

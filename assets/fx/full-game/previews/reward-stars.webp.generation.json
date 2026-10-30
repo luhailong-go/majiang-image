@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/reward-stars.webp",
+  "sha256": "b7b45626afd4a74fb72e5215bb2a4a96a7cef24558b1e07efa1c0d5c4f31d52e",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-00.png",
+      "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+      "record": "assets/fx/full-game/frames/reward-stars-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-01.png",
+      "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+      "record": "assets/fx/full-game/frames/reward-stars-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-02.png",
+      "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+      "record": "assets/fx/full-game/frames/reward-stars-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-03.png",
+      "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+      "record": "assets/fx/full-game/frames/reward-stars-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      100,
+      100,
+      150,
+      250
+    ],
+    "loop": false,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

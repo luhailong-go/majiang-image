@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/welcome-daotong.png",
+  "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+  "exportedAt": "2026-10-26T04:13:15.692708-04:00",
+  "width": 1536,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 1568729,
+    "opaquePixels": 759405,
+    "semiTransparentPixels": 31162,
+    "bboxNonzero": [
+      199,
+      157,
+      1336,
+      1379
+    ],
+    "bboxAbove128": [
+      200,
+      160,
+      1335,
+      1378
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "mostCommon": [
+      [
+        0,
+        1568729
+      ],
+      [
+        255,
+        759405
+      ],
+      [
+        249,
+        3381
+      ],
+      [
+        248,
+        2511
+      ],
+      [
+        247,
+        1840
+      ],
+      [
+        246,
+        1401
+      ],
+      [
+        245,
+        1082
+      ],
+      [
+        244,
+        761
+      ]
+    ]
+  },
+  "nativeDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "exportDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "derivedFrom": {
+    "file": "designs/characters/production/welcome-daotong-production-v2.png",
+    "sha256": "1e9aa33f6b44953eec58cc9668861fe221cdf626fc992e8b188cb9ba0f21132e",
+    "generationRecord": "designs/characters/production/welcome-daotong-production-v2.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "alpha sanitation",
+      "lowAlphaThresholdInclusive": 8,
+      "keepComponent": "8-connected component containing center body pixel",
+      "removedNonzeroPixels": 35963,
+      "removedPixelsAbove128": 0,
+      "removedDisconnectedPixelsAbove8": 31,
+      "promoteAlpha250To255": true,
+      "promotedNearOpaquePixels": 757636,
+      "transparentRgbZeroed": true,
+      "note": "Technical alpha export only; no painted RGB detail redrawn."
+    },
+    {
+      "operation": "crop transparent source margins",
+      "box": [
+        99,
+        14,
+        1236,
+        1236
+      ]
+    },
+    {
+      "operation": "pad transparent canvas without resampling",
+      "canvas": [
+        1536,
+        1536
+      ],
+      "offset": [
+        199,
+        157
+      ]
+    }
+  ],
+  "resampled": false,
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/characters/welcome-daotong-production-v2.prompt.txt",
+  "inspection": {
+    "status": "passed",
+    "alphaSanitationMetrics": {
+      "removedPixelsAbove128": 0,
+      "removedDisconnectedPixelsAbove8": 31
+    },
+    "qaPreviews": [
+      "work/characters/welcome-daotong-light-qa.png",
+      "work/characters/welcome-daotong-dark-qa.png"
+    ],
+    "visualInspectionCompleted": true,
+    "pngIntegrity": "passed",
+    "sourceHashes": "passed",
+    "userApproved": false,
+    "clientIntegrated": false,
+    "unresolvedIssues": [],
+    "identity": "matches gold-band Daoist boy, red 中 tile and taiji gourd",
+    "anatomy": "complete hands, shoes, hair, ribbon and robe; no crop",
+    "alpha": "real alpha, cleaned external speckles, full-body interior opaque",
+    "deepAndLightComposite": "passed via actual view_image of both QA composites",
+    "paddingPixels": [
+      199,
+      157,
+      200,
+      157
+    ],
+    "paddingMeets8Percent": true,
+    "cleanupRemovedVisibleSubjectPixels": 0
+  },
+  "usage": {
+    "purpose": "lobby full-body welcome character",
+    "anchor": [
+      0.5,
+      1.0
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "transparent": true
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

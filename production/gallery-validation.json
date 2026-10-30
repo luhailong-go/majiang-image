@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 3,
+  "status": "passed",
+  "checkCount": 129,
+  "checks": [
+    {
+      "name": "32 page options and complete state coverage",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI01",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI02",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI03",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI04",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI05",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI06",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI07",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI08",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI09",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI10",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI11",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI12",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI13",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI14",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI15",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI16",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI17",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI18",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI19",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI20",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI21",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI22",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI23",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI24",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI25",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI26",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI27",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI28",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI29",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI30",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI31",
+      "status": "passed"
+    },
+    {
+      "name": "Render independent layers UI32",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.empty_seat",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.full",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.owner",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.member",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.ready",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.not_ready",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.wait_start",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.leave_confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.dissolve_request",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.dissolve_vote",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.dissolve_progress",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.dissolve_result",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.join_failure",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.wait_discard",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.current_player",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.countdown",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.dealer",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.offline",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.autoplay",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.peng_gang_hu_pass",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.multiple_candidates",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.ready_hand",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.win",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.draw",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.continue_round",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.match_return",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.friend_online",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.friend_offline",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.friend_busy",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.invite_sent",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.friend_application",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.quick_chat",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.emoticons",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.unread",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.read",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.attachment",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.claim_pending",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.claimed",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.delete",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state list.no_results",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.loading",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.error",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.disconnected",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.reconnecting",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.recovery_failed",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.matching",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.match_timeout",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.match_cancel",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.normal",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.pressed",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.selected",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.disabled",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.toggle",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.slider",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state control.input",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state system.match_success",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state cosmetic.unselected",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state cosmetic.preview_selected",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state cosmetic.in_use",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state character.in_use",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state tutorial.select",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state tutorial.actions",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state tutorial.complete",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state reward.not_achieved",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state reward.claimable",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state reward.claimed",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state achievement.locked",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state achievement.unlocked",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state ranking.top_three",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state ranking.self",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state inventory.default",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state inventory.selected",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state inventory.disabled",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state inventory.new",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state announcement.detail",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.loss",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.self_draw",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.chi_prompt",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.gang_prompt",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state play.ting_prompt",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state match.loss",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state mail.empty",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state social.no_friends",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state records.empty",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.join_invalid_code",
+      "status": "passed"
+    },
+    {
+      "name": "Render mapped state room.join_full",
+      "status": "passed"
+    },
+    {
+      "name": "Reward claimed disables both claim controls",
+      "status": "passed"
+    },
+    {
+      "name": "Mail claim has claimed-state skin",
+      "status": "passed"
+    },
+    {
+      "name": "Four character bodies and all expressions resolve",
+      "status": "passed"
+    },
+    {
+      "name": "Theme selection then table changes independent background",
+      "status": "passed"
+    },
+    {
+      "name": "Disabled controls remain noninteractive in DOM",
+      "status": "passed"
+    },
+    {
+      "name": "Close control and Escape return to lobby",
+      "status": "passed"
+    },
+    {
+      "name": "Next previous wrap through full page catalog",
+      "status": "passed"
+    },
+    {
+      "name": "All runtime paths and generation records exist; no baked designs used as skins",
+      "status": "passed"
+    },
+    {
+      "name": "Brand logo is present in login and loading compositions",
+      "status": "passed"
+    },
+    {
+      "name": "Ready and loading entry gates are consistent",
+      "status": "passed"
+    }
+  ],
+  "method": "Offline JavaScript execution in in-memory mock DOM plus direct path checks; not browser automation",
+  "browserInteraction": "not_run_policy_blocked",
+  "clientIntegrated": false
+}

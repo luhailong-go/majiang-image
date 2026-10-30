@@ -1,0 +1,7 @@
+# Preserve provenance hashes: do not normalize line endings of any payload file.
+* -text
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

@@ -1,0 +1,37 @@
+{
+  "file": "assets/tiles/symbols/tong-3.png",
+  "sha256": "303d35623e5e523f13993a112456ac25d240bacdd4245178cde7eb4397097c07",
+  "createdAt": "2026-10-26T08:25:49.702Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/tong-3.svg",
+    "sha256": "59755c532693beede7fdb890a69c9a0af7d96889db7f355a91bd255b5a002b37"
+  },
+  "semantic": {
+    "label": "三筒",
+    "suit": "dots",
+    "rank": 3,
+    "pipCount": 3,
+    "bambooCount": null,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  }
+}

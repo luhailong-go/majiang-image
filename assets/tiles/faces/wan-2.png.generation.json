@@ -1,0 +1,47 @@
+{
+  "file": "assets/tiles/faces/wan-2.png",
+  "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+  "createdAt": "2026-10-26T08:25:49.374Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "alpha composite exact vector symbol over generated hand-painted blank tile"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wan-2.svg",
+    "sha256": "9cbcc09c5993d3966be3c491f079ae8dc0626d2ca00f9fb59bb839a4c33b147b"
+  },
+  "symbolRenderer": "sharp/librsvg, vector paths without runtime font dependency",
+  "semantic": {
+    "label": "二万",
+    "suit": "characters",
+    "rank": 2,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "二",
+      "萬"
+    ],
+    "whiteDragonFrame": false
+  }
+}

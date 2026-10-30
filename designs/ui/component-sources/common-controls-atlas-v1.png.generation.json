@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+  "uiId": null,
+  "title": "common-controls-atlas-v1",
+  "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+  "generatedAt": "2026-10-26T10:29:36.053Z",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-8b4db548-85e8-49b3-ac75-0fe88707bfaf",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "requestedDimensionsInPrompt": [
+    2048,
+    2048
+  ],
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "promptFile": "prompts/components/common-controls-atlas-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "结果提供image_url与output_hint及PNG文件路径；尺寸、格式和Alpha由文件检测。工具未返回可核实模型或质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/components/common-controls-atlas-v1.prompt.txt",
+  "promptSha256": "4f15f353ae65ab0a7575cf08e5367eb737c398bc45faf9b0d16b1800601bb48e",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-8b4db548-85e8-49b3-ac75-0fe88707bfaf.png",
+    "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "alphaStatistics": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparent": 888072,
+      "semiTransparent": 683237,
+      "fullyOpaque": 1207,
+      "bbox": [
+        0,
+        3,
+        1248,
+        1254
+      ]
+    },
+    "visualStatus": "passed_as_source_for_mechanical_export",
+    "issues": [],
+    "note": "Source is not the delivered cutout. Final derived assets carry cleaned alpha and reviewed scaling policies."
+  },
+  "status": {
+    "stage": "full_ui_art",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [],
+  "receipt": {
+    "id": "common-controls-atlas-v1",
+    "startedAt": "2026-10-26T10:22:53.178Z",
+    "completedAt": "2026-10-26T10:29:36.053Z",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58 as C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-8b4db548-85e8-49b3-ac75-0fe88707bfaf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-8b4db548-85e8-49b3-ac75-0fe88707bfaf.png"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

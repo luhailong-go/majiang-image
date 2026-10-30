@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 3,
+  "status": "passed",
+  "verifiedAt": "2026-10-28T16:50:05.901915+00:00",
+  "method": "Separate read-only ZIP reopen, exact member-set comparison, CRC, every payload SHA256/length and embedded manifest/32-page/86-state completeness; no new render or browser/client claim.",
+  "archive": "exports/mahjong-complete-game-art-v3.zip",
+  "archiveSha256": "e5493e7ae501e7111a72d467af5de3c1d12a084d31f1edf25a67a0614ae78281",
+  "membersChecked": 1551,
+  "payloadHashesChecked": 1550,
+  "primaryAssets": 292,
+  "pageLayouts": 32,
+  "stateCompositions": 86,
+  "errors": []
+}

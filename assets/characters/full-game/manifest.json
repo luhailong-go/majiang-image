@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T19:46:44.436401+00:00",
+  "scope": "four distinct full-body characters and sixteen emotional portrait sprites, static art",
+  "root": "D:\\work\\majiang-image",
+  "status": "complete_qa_passed",
+  "expectedAssetCount": 20,
+  "actualAssetCount": 20,
+  "counts": {
+    "fullBodies": 4,
+    "expressionAvatars": 16,
+    "newNativeSources": 7,
+    "reusedBodies": 1,
+    "newRuntimePngFiles": 19
+  },
+  "assets": [
+    {
+      "id": "fullbody-daotong",
+      "name": "金带道童透明全身",
+      "file": "assets/characters/welcome-daotong.png",
+      "record": "assets/characters/welcome-daotong.png.generation.json",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "width": 1536,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 1568729,
+        "opaquePixels": 759405,
+        "semiTransparentPixels": 31162,
+        "bbox": [
+          199,
+          157,
+          1336,
+          1379
+        ],
+        "clearMargins": [
+          199,
+          157,
+          200,
+          157
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "full_body",
+      "identity": "daotong",
+      "expression": null,
+      "anchor": [
+        0.5,
+        0.8977864583333334
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "reusedExistingAsset": true,
+      "newFileWritten": false,
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ]
+    },
+    {
+      "id": "fullbody-healer",
+      "name": "银发医师透明全身",
+      "file": "assets/characters/full-game/fullbody-healer.png",
+      "record": "assets/characters/full-game/fullbody-healer.png.generation.json",
+      "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+      "width": 1536,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 1740896,
+        "opaquePixels": 570971,
+        "semiTransparentPixels": 47429,
+        "bbox": [
+          352,
+          163,
+          1184,
+          1373
+        ],
+        "clearMargins": [
+          352,
+          163,
+          352,
+          163
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "full_body",
+      "identity": "healer",
+      "expression": null,
+      "anchor": [
+        0.5,
+        0.8938802083333334
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ]
+    },
+    {
+      "id": "fullbody-master",
+      "name": "白眉老道透明全身",
+      "file": "assets/characters/full-game/fullbody-master.png",
+      "record": "assets/characters/full-game/fullbody-master.png.generation.json",
+      "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+      "width": 1536,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 1584799,
+        "opaquePixels": 741859,
+        "semiTransparentPixels": 32638,
+        "bbox": [
+          227,
+          171,
+          1308,
+          1365
+        ],
+        "clearMargins": [
+          227,
+          171,
+          228,
+          171
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "full_body",
+      "identity": "master",
+      "expression": null,
+      "anchor": [
+        0.5,
+        0.888671875
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ]
+    },
+    {
+      "id": "fullbody-swordswoman",
+      "name": "黑发侠女透明全身",
+      "file": "assets/characters/full-game/fullbody-swordswoman.png",
+      "record": "assets/characters/full-game/fullbody-swordswoman.png.generation.json",
+      "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+      "width": 1536,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 1753972,
+        "opaquePixels": 551234,
+        "semiTransparentPixels": 54090,
+        "bbox": [
+          298,
+          151,
+          1237,
+          1384
+        ],
+        "clearMargins": [
+          298,
+          151,
+          299,
+          152
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "full_body",
+      "identity": "swordswoman",
+      "expression": null,
+      "anchor": [
+        0.5,
+        0.9010416666666666
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ]
+    },
+    {
+      "id": "expression-daotong-happy",
+      "name": "金带道童开心表情",
+      "file": "assets/characters/full-game/expression-daotong-happy.png",
+      "record": "assets/characters/full-game/expression-daotong-happy.png.generation.json",
+      "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 131343,
+        "opaquePixels": 116126,
+        "semiTransparentPixels": 14675,
+        "bbox": [
+          32,
+          52,
+          480,
+          480
+        ],
+        "clearMargins": [
+          32,
+          52,
+          32,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "daotong",
+      "expression": "happy",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-daotong-thinking",
+      "name": "金带道童思考表情",
+      "file": "assets/characters/full-game/expression-daotong-thinking.png",
+      "record": "assets/characters/full-game/expression-daotong-thinking.png.generation.json",
+      "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 137628,
+        "opaquePixels": 109783,
+        "semiTransparentPixels": 14733,
+        "bbox": [
+          36,
+          59,
+          475,
+          480
+        ],
+        "clearMargins": [
+          36,
+          59,
+          37,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "daotong",
+      "expression": "thinking",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-daotong-surprised",
+      "name": "金带道童惊讶表情",
+      "file": "assets/characters/full-game/expression-daotong-surprised.png",
+      "record": "assets/characters/full-game/expression-daotong-surprised.png.generation.json",
+      "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 133299,
+        "opaquePixels": 114141,
+        "semiTransparentPixels": 14704,
+        "bbox": [
+          37,
+          55,
+          474,
+          480
+        ],
+        "clearMargins": [
+          37,
+          55,
+          38,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "daotong",
+      "expression": "surprised",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-daotong-sad",
+      "name": "金带道童沮丧表情",
+      "file": "assets/characters/full-game/expression-daotong-sad.png",
+      "record": "assets/characters/full-game/expression-daotong-sad.png.generation.json",
+      "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 135288,
+        "opaquePixels": 112759,
+        "semiTransparentPixels": 14097,
+        "bbox": [
+          34,
+          53,
+          477,
+          480
+        ],
+        "clearMargins": [
+          34,
+          53,
+          35,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "daotong",
+      "expression": "sad",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-healer-happy",
+      "name": "银发医师开心表情",
+      "file": "assets/characters/full-game/expression-healer-happy.png",
+      "record": "assets/characters/full-game/expression-healer-happy.png.generation.json",
+      "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 118973,
+        "opaquePixels": 116238,
+        "semiTransparentPixels": 26933,
+        "bbox": [
+          42,
+          32,
+          469,
+          480
+        ],
+        "clearMargins": [
+          42,
+          32,
+          43,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "healer",
+      "expression": "happy",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-healer-thinking",
+      "name": "银发医师思考表情",
+      "file": "assets/characters/full-game/expression-healer-thinking.png",
+      "record": "assets/characters/full-game/expression-healer-thinking.png.generation.json",
+      "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 120346,
+        "opaquePixels": 116999,
+        "semiTransparentPixels": 24799,
+        "bbox": [
+          46,
+          33,
+          465,
+          480
+        ],
+        "clearMargins": [
+          46,
+          33,
+          47,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "healer",
+      "expression": "thinking",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-healer-surprised",
+      "name": "银发医师惊讶表情",
+      "file": "assets/characters/full-game/expression-healer-surprised.png",
+      "record": "assets/characters/full-game/expression-healer-surprised.png.generation.json",
+      "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 113553,
+        "opaquePixels": 122569,
+        "semiTransparentPixels": 26022,
+        "bbox": [
+          37,
+          40,
+          474,
+          480
+        ],
+        "clearMargins": [
+          37,
+          40,
+          38,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "healer",
+      "expression": "surprised",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-healer-sad",
+      "name": "银发医师沮丧表情",
+      "file": "assets/characters/full-game/expression-healer-sad.png",
+      "record": "assets/characters/full-game/expression-healer-sad.png.generation.json",
+      "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 120620,
+        "opaquePixels": 117911,
+        "semiTransparentPixels": 23613,
+        "bbox": [
+          49,
+          34,
+          462,
+          480
+        ],
+        "clearMargins": [
+          49,
+          34,
+          50,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "healer",
+      "expression": "sad",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-master-happy",
+      "name": "白眉老道开心表情",
+      "file": "assets/characters/full-game/expression-master-happy.png",
+      "record": "assets/characters/full-game/expression-master-happy.png.generation.json",
+      "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 124571,
+        "opaquePixels": 123186,
+        "semiTransparentPixels": 14387,
+        "bbox": [
+          36,
+          43,
+          475,
+          480
+        ],
+        "clearMargins": [
+          36,
+          43,
+          37,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "master",
+      "expression": "happy",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-master-thinking",
+      "name": "白眉老道思考表情",
+      "file": "assets/characters/full-game/expression-master-thinking.png",
+      "record": "assets/characters/full-game/expression-master-thinking.png.generation.json",
+      "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 125900,
+        "opaquePixels": 123280,
+        "semiTransparentPixels": 12964,
+        "bbox": [
+          32,
+          44,
+          480,
+          480
+        ],
+        "clearMargins": [
+          32,
+          44,
+          32,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "master",
+      "expression": "thinking",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-master-surprised",
+      "name": "白眉老道惊讶表情",
+      "file": "assets/characters/full-game/expression-master-surprised.png",
+      "record": "assets/characters/full-game/expression-master-surprised.png.generation.json",
+      "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 126741,
+        "opaquePixels": 122064,
+        "semiTransparentPixels": 13339,
+        "bbox": [
+          34,
+          43,
+          478,
+          480
+        ],
+        "clearMargins": [
+          34,
+          43,
+          34,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "master",
+      "expression": "surprised",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-master-sad",
+      "name": "白眉老道沮丧表情",
+      "file": "assets/characters/full-game/expression-master-sad.png",
+      "record": "assets/characters/full-game/expression-master-sad.png.generation.json",
+      "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 129337,
+        "opaquePixels": 121953,
+        "semiTransparentPixels": 10854,
+        "bbox": [
+          38,
+          42,
+          474,
+          480
+        ],
+        "clearMargins": [
+          38,
+          42,
+          38,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "master",
+      "expression": "sad",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-swordswoman-happy",
+      "name": "黑发侠女开心表情",
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "record": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 117367,
+        "opaquePixels": 123765,
+        "semiTransparentPixels": 21012,
+        "bbox": [
+          32,
+          46,
+          480,
+          480
+        ],
+        "clearMargins": [
+          32,
+          46,
+          32,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "swordswoman",
+      "expression": "happy",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-swordswoman-thinking",
+      "name": "黑发侠女思考表情",
+      "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+      "record": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json",
+      "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 123055,
+        "opaquePixels": 119617,
+        "semiTransparentPixels": 19472,
+        "bbox": [
+          40,
+          51,
+          472,
+          480
+        ],
+        "clearMargins": [
+          40,
+          51,
+          40,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "swordswoman",
+      "expression": "thinking",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-swordswoman-surprised",
+      "name": "黑发侠女惊讶表情",
+      "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+      "record": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json",
+      "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 119223,
+        "opaquePixels": 122806,
+        "semiTransparentPixels": 20115,
+        "bbox": [
+          33,
+          48,
+          478,
+          480
+        ],
+        "clearMargins": [
+          33,
+          48,
+          34,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "swordswoman",
+      "expression": "surprised",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    },
+    {
+      "id": "expression-swordswoman-sad",
+      "name": "黑发侠女沮丧表情",
+      "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+      "record": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json",
+      "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 125947,
+        "opaquePixels": 117182,
+        "semiTransparentPixels": 19015,
+        "bbox": [
+          43,
+          49,
+          469,
+          480
+        ],
+        "clearMargins": [
+          43,
+          49,
+          43,
+          32
+        ],
+        "borderPixelsAbove8": 0
+      },
+      "role": "expression_avatar",
+      "identity": "swordswoman",
+      "expression": "sad",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "scaleMode": "uniform contain",
+      "stage": "production_asset_qa_passed",
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ]
+    }
+  ],
+  "sourceImages": [
+    "designs/characters/full-game/healer-fullbody-native.png",
+    "designs/characters/full-game/master-fullbody-native.png",
+    "designs/characters/full-game/swordswoman-fullbody-native.png",
+    "designs/characters/full-game/daotong-expressions-native.png",
+    "designs/characters/full-game/healer-expressions-native.png",
+    "designs/characters/full-game/master-expressions-native.png",
+    "designs/characters/full-game/swordswoman-expressions-native.png"
+  ],
+  "reusedAssets": [
+    "assets/characters/welcome-daotong.png"
+  ],
+  "previewImages": [
+    "assets/characters/full-game/preview-bodies-light.png",
+    "assets/characters/full-game/preview-bodies-dark.png",
+    "assets/characters/full-game/preview-expressions-light.png",
+    "assets/characters/full-game/preview-expressions-dark.png"
+  ],
+  "qaReport": "assets/characters/full-game/qa.json",
+  "exportScript": "work/full-game-characters/export_characters.py",
+  "sourceRegistrationScript": "work/full-game-characters/register_native.py",
+  "actualModel": null,
+  "actualQuality": null,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "notes": [
+    "Full-body canvases are 1536 square with native detail unscaled; transparency padding does not increase source detail.",
+    "Expression avatars are 512 square downsampled from ownership-extracted native sheet components; four emotional states are static portraits, not motion animation.",
+    "Existing avatar identities remain unchanged.",
+    "Builtin generation route; model and quality parameters unavailable and actual values unconfirmed."
+  ],
+  "completedAt": "2026-10-26T20:24:09.537429+00:00",
+  "unresolvedIssues": [],
+  "frozenAt": "2026-10-26T20:33:02.107182+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "file": "assets/tiles/symbols/dragon-white.svg",
+  "sha256": "970edf392810e9de6f2767167d177ab14c5af55a56c8c28ec5f647cf7cb97106",
+  "operation": "Deterministic original SVG symbols; KaiTi text converted to vector outlines, exact pip/bamboo counts. No model call.",
+  "fontSource": null,
+  "semantic": {
+    "label": "白",
+    "suit": "dragons",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": null,
+    "whiteDragonFrame": true
+  },
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "checks": {
+    "exactSemantics": "passed",
+    "visual": "passed"
+  }
+}

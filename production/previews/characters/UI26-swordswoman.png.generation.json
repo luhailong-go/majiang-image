@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/characters/UI26-swordswoman.png",
+  "sha256": "79e1ca15d2611cfa68819f281d6fb811b72bac384709f0150f8835703fc50d98",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "createdAt": "2026-10-30T03:40:34.717742+00:00",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "record": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+      "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+      "record": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+      "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+      "record": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+      "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+      "record": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-swordswoman.png",
+      "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+      "record": "assets/characters/full-game/fullbody-swordswoman.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "record": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "record": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "record": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "record": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "record": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "record": "assets/ui/common/button-secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "record": "assets/ui/common/button-secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "record": "assets/ui/common/button-secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "record": "assets/ui/common/button-secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "record": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "record": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "record": "assets/ui/common/window-frame.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_character_variant",
+    "selectedCharacterId": "swordswoman",
+    "layoutSource": "production/layouts.json",
+    "layoutId": "UI26",
+    "layoutSha256": "01c6569677e9283615f552096457b8abf4e23498354e4fec5feffb0de1e2c5a3",
+    "bindingSource": "assets/presentation/production-v3/character-bindings.json",
+    "bindingSha256": "b3473ea17b7733eb6081a0792362c83dbb4ce91fd23d057c2d02c8b3a8af4340",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "variantScriptSha256": "81efe0b35a1812cd608201c2411b395b4051d86ac18ec43e6fffcf8f867e069d"
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "method": "Exact PNG hash unchanged from actually viewed accepted role proof; only layout metadata refreshed."
+  }
+}

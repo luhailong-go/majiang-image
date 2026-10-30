@@ -1,0 +1,10 @@
+Use case: stylized-concept. Asset type: six distinct inventory/reward icons for a Daoist Q Mahjong game.
+Reference images1 and2 define exact jade green, ivory warm-paper and thin warm-gold high-definition hand-painted style. Use their rounded cloud ornament and finish. No existing text, no old game brand.
+Exact 3-column by 2-row transparent sprite sheet, target3072x2048. One fully isolated clear object per equal cell, generous transparent gaps, no frame around entire sheet, no grid/labels/letters/numbers, clean true alpha, no diffuse aura or floor shadow. Do not render a background scene. Each item reads clearly at64px.
+Top left AVATAR VOUCHER: small ivory ticket with jade/gold trim, a simple cameo silhouette medallion stamped in the middle, tiny red tassel.
+Top center TABLECLOTH VOUCHER: same-family ivory ticket with an elegant jade rolled/folded cloth emblem clearly in the center.
+Top right TILE-BACK VOUCHER: same-family ivory ticket with a single green-backed Mahjong tile and tiny Taiji symbol in center.
+Bottom left EMOTE VOUCHER: same-family ivory ticket with a small friendly golden gourd smile/emote emblem in center.
+Bottom center EXPERIENCE SCROLL: an ivory paper scroll with jade end handles and a small rising warm-gold star design, no writing.
+Bottom right ACHIEVEMENT BADGE: a thick jade/gold achievement medal with one central star, ivory/cloud scroll trim and short vermilion ribbon.
+These are non-monetary cosmetic/game reward items. No cash, no currency, no dollar symbols, no prices. Fine hand-painted shading and material detail, restrained contrast, no glossy toy look or photorealism.

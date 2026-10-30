@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "assets": 5,
+  "nativeSources": 5,
+  "errors": [],
+  "warnings": [],
+  "reviewedAt": "2026-10-26T12:13:16-04:00",
+  "upscaling": false,
+  "rootVisualReview": true,
+  "checks": [
+    "style consistent",
+    "pure scene or empty table",
+    "usable center",
+    "no baked controls or characters",
+    "native dimensions recorded"
+  ]
+}

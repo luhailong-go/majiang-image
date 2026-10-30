@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/autumn.label.svg",
+  "sha256": "e635278757cc8ba05c4641a6f2d53139b81a0cb5d689bf40e1e71380a98c0970",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

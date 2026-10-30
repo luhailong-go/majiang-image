@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/forms/motion-controls-atlas-native.png",
+  "sha256": "66bfeca13ecda15f0813a3dbf50955832c58b16f79a0cdad551341565f5b2723",
+  "generatedAt": "2026-10-28T09:45:28.330844+00:00",
+  "completionObservedAt": "2026-10-28T09:45:41.545246+00:00",
+  "timestampBasis": "host artifact modification time observed after image_gen completion",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\assets\\ui\\common\\slider-track.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "toolReturnFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "hostNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17738-5d48-7cd1-bec8-47c9bf0ee60f\\exec-bef03aad-c263-4446-b2c7-a65fb07d61a2.png",
+    "sha256": "66bfeca13ecda15f0813a3dbf50955832c58b16f79a0cdad551341565f5b2723",
+    "copy": "byte-identical"
+  },
+  "unverifiedReason": "Host managed; tool exposes no model/quality selector or verifiable result metadata.",
+  "prompt": "prompts/production-v3/forms/motion-controls-atlas.prompt.txt",
+  "promptSha256": "e152481831b05e0f629c1cb6ed4b9f1133194c7216c5fd3c43f023aa52762321",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "style reference",
+      "actuallyAttached": true,
+      "inputIndex": 1
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "style reference",
+      "actuallyAttached": true,
+      "inputIndex": 2
+    },
+    {
+      "file": "assets/ui/common/slider-track.png",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "role": "existing function-matched skin reference",
+      "actuallyAttached": true,
+      "inputIndex": 3
+    }
+  ],
+  "inspection": {
+    "status": "passed_as_native_source",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "reviewer": "full_ui_scope_audit",
+    "qa": "assets/ui/production-v3/forms/qa.json",
+    "qaPreviews": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "remainingFailures": [],
+    "note": "Selected native source; low-alpha noise is cleaned in formal derivatives. Native atlas is not a runtime skin."
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

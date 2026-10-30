@@ -1,0 +1,1681 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "checks": [
+    {
+      "id": "fullbody-daotong",
+      "file": "assets/characters/welcome-daotong.png",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "reference existing accepted asset; no duplicate PNG or source record created",
+          "resampled": false
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": null,
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "fullbody-healer",
+      "file": "assets/characters/full-game/fullbody-healer.png",
+      "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "technical alpha sanitation",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 29270,
+          "removedPixelsAbove128": 0,
+          "componentCount": 1,
+          "RGBRepainted": false,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 570418
+        },
+        {
+          "operation": "crop transparent margins",
+          "sourceBox": [
+            249,
+            25,
+            1081,
+            1235
+          ]
+        },
+        {
+          "operation": "transparent padding without resampling",
+          "canvas": [
+            1536,
+            1536
+          ],
+          "offset": [
+            352,
+            163
+          ],
+          "nativeDetailUpscaled": false
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": null,
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "fullbody-master",
+      "file": "assets/characters/full-game/fullbody-master.png",
+      "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "technical alpha sanitation",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 33371,
+          "removedPixelsAbove128": 0,
+          "componentCount": 1,
+          "RGBRepainted": false,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 741218
+        },
+        {
+          "operation": "crop transparent margins",
+          "sourceBox": [
+            105,
+            34,
+            1186,
+            1228
+          ]
+        },
+        {
+          "operation": "transparent padding without resampling",
+          "canvas": [
+            1536,
+            1536
+          ],
+          "offset": [
+            227,
+            171
+          ],
+          "nativeDetailUpscaled": false
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": null,
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "fullbody-swordswoman",
+      "file": "assets/characters/full-game/fullbody-swordswoman.png",
+      "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "technical alpha sanitation",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 55370,
+          "removedPixelsAbove128": 0,
+          "componentCount": 1,
+          "RGBRepainted": false,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 550435
+        },
+        {
+          "operation": "crop transparent margins",
+          "sourceBox": [
+            135,
+            11,
+            1074,
+            1244
+          ]
+        },
+        {
+          "operation": "transparent padding without resampling",
+          "canvas": [
+            1536,
+            1536
+          ],
+          "offset": [
+            298,
+            151
+          ],
+          "nativeDetailUpscaled": false
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-bodies-light.png",
+        "assets/characters/full-game/preview-bodies-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": null,
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-daotong-happy",
+      "file": "assets/characters/full-game/expression-daotong-happy.png",
+      "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 67638,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            11,
+            30,
+            628,
+            619
+          ],
+          "componentCentroid": [
+            307.3593653784958,
+            338.7692946675428
+          ],
+          "sourcePixelsRetained": 241971,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 223274
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            617,
+            589
+          ],
+          "outputContentSize": [
+            448,
+            428
+          ],
+          "scale": 0.7260940032414911,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            32,
+            52
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-daotong-thinking",
+      "file": "assets/characters/full-game/expression-daotong-thinking.png",
+      "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 67638,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            639,
+            41,
+            1244,
+            621
+          ],
+          "componentCentroid": [
+            925.6643347842503,
+            350.76692169822377
+          ],
+          "sourcePixelsRetained": 230429,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 211647
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            605,
+            580
+          ],
+          "outputContentSize": [
+            439,
+            421
+          ],
+          "scale": 0.7260940032414911,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            36,
+            59
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-daotong-surprised",
+      "file": "assets/characters/full-game/expression-daotong-surprised.png",
+      "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 67638,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            27,
+            640,
+            629,
+            1226
+          ],
+          "componentCentroid": [
+            318.899988275787,
+            949.3534808350989
+          ],
+          "sourcePixelsRetained": 238822,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 220185
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            602,
+            586
+          ],
+          "outputContentSize": [
+            437,
+            425
+          ],
+          "scale": 0.7260940032414911,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            37,
+            55
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-daotong-sad",
+      "file": "assets/characters/full-game/expression-daotong-sad.png",
+      "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 67638,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            631,
+            641,
+            1241,
+            1229
+          ],
+          "componentCentroid": [
+            925.7199654204692,
+            951.5937884601462
+          ],
+          "sourcePixelsRetained": 234821,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 216949
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            610,
+            588
+          ],
+          "outputContentSize": [
+            443,
+            427
+          ],
+          "scale": 0.7260940032414911,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            34,
+            53
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-healer-happy",
+      "file": "assets/characters/full-game/expression-healer-happy.png",
+      "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 123957,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            33,
+            16,
+            611,
+            623
+          ],
+          "componentCentroid": [
+            333.6067697710647,
+            348.5432405238356
+          ],
+          "sourcePixelsRetained": 257409,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 216146
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            578,
+            607
+          ],
+          "outputContentSize": [
+            427,
+            448
+          ],
+          "scale": 0.7380560131795717,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            42,
+            32
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-healer-thinking",
+      "file": "assets/characters/full-game/expression-healer-thinking.png",
+      "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 123957,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            673,
+            18,
+            1241,
+            623
+          ],
+          "componentCentroid": [
+            953.287103946637,
+            345.59728409366704
+          ],
+          "sourcePixelsRetained": 255458,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 217626
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            568,
+            605
+          ],
+          "outputContentSize": [
+            419,
+            447
+          ],
+          "scale": 0.7380560131795717,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            46,
+            33
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-healer-surprised",
+      "file": "assets/characters/full-game/expression-healer-surprised.png",
+      "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 123957,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            34,
+            639,
+            626,
+            1235
+          ],
+          "componentCentroid": [
+            344.10480738284673,
+            960.1622482354967
+          ],
+          "sourcePixelsRetained": 267214,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 228197
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            592,
+            596
+          ],
+          "outputContentSize": [
+            437,
+            440
+          ],
+          "scale": 0.7380560131795717,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            37,
+            40
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-healer-sad",
+      "file": "assets/characters/full-game/expression-healer-sad.png",
+      "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 123957,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            674,
+            631,
+            1233,
+            1235
+          ],
+          "componentCentroid": [
+            953.4187990232642,
+            955.3333071614205
+          ],
+          "sourcePixelsRetained": 254726,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 218713
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            559,
+            604
+          ],
+          "outputContentSize": [
+            413,
+            446
+          ],
+          "scale": 0.7380560131795717,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            49,
+            34
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-master-happy",
+      "file": "assets/characters/full-game/expression-master-happy.png",
+      "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 53805,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            10,
+            8,
+            613,
+            609
+          ],
+          "componentCentroid": [
+            302.0387422160063,
+            360.9314422558541
+          ],
+          "sourcePixelsRetained": 255974,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 235706
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            603,
+            601
+          ],
+          "outputContentSize": [
+            439,
+            437
+          ],
+          "scale": 0.7272727272727273,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            36,
+            43
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-master-thinking",
+      "file": "assets/characters/full-game/expression-master-thinking.png",
+      "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 53805,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            634,
+            13,
+            1250,
+            612
+          ],
+          "componentCentroid": [
+            929.3457545252573,
+            366.1745898954663
+          ],
+          "sourcePixelsRetained": 253411,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 235970
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            616,
+            599
+          ],
+          "outputContentSize": [
+            448,
+            436
+          ],
+          "scale": 0.7272727272727273,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            32,
+            44
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-master-surprised",
+      "file": "assets/characters/full-game/expression-master-surprised.png",
+      "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 53805,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            9,
+            629,
+            620,
+            1230
+          ],
+          "componentCentroid": [
+            309.3689741524028,
+            978.3705100068657
+          ],
+          "sourcePixelsRetained": 251977,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 234035
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            611,
+            601
+          ],
+          "outputContentSize": [
+            444,
+            437
+          ],
+          "scale": 0.7272727272727273,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            34,
+            43
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-master-sad",
+      "file": "assets/characters/full-game/expression-master-sad.png",
+      "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 53805,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            638,
+            624,
+            1238,
+            1226
+          ],
+          "componentCentroid": [
+            936.5683010243841,
+            976.6182846713855
+          ],
+          "sourcePixelsRetained": 247661,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 233203
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            600,
+            602
+          ],
+          "outputContentSize": [
+            436,
+            438
+          ],
+          "scale": 0.7272727272727273,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            38,
+            42
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-swordswoman-happy",
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 73438,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            15,
+            19,
+            639,
+            623
+          ],
+          "componentCentroid": [
+            320.8416076858216,
+            348.0860457221701
+          ],
+          "sourcePixelsRetained": 273959,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 243385
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            624,
+            604
+          ],
+          "outputContentSize": [
+            448,
+            434
+          ],
+          "scale": 0.717948717948718,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            32,
+            46
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-swordswoman-thinking",
+      "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+      "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 73438,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            635,
+            25,
+            1237,
+            622
+          ],
+          "componentCentroid": [
+            932.1046429207682,
+            353.93517953460866
+          ],
+          "sourcePixelsRetained": 263821,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 235297
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            602,
+            597
+          ],
+          "outputContentSize": [
+            432,
+            429
+          ],
+          "scale": 0.717948717948718,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            40,
+            51
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-swordswoman-surprised",
+      "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+      "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 73438,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            21,
+            633,
+            641,
+            1235
+          ],
+          "componentCentroid": [
+            323.52496718724655,
+            959.2822081139672
+          ],
+          "sourcePixelsRetained": 271236,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 241754
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            620,
+            602
+          ],
+          "outputContentSize": [
+            445,
+            432
+          ],
+          "scale": 0.717948717948718,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            33,
+            48
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    },
+    {
+      "id": "expression-swordswoman-sad",
+      "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+      "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+      "status": "passed",
+      "pngIntegrity": "passed",
+      "alpha": "real_RGBA",
+      "borderPixelsAbove8": 0,
+      "sourceHashVerified": true,
+      "mechanicalOperations": [
+        {
+          "operation": "whole-source ownership slice",
+          "alphaThreshold": 8,
+          "connectivity": 8,
+          "ownership": "connected subject components on entire source, never equal-grid crop",
+          "removedNonzeroPixels": 73438,
+          "removedPixelsAbove128": 0,
+          "componentCount": 4,
+          "RGBRepainted": false,
+          "sourceBox": [
+            649,
+            633,
+            1243,
+            1234
+          ],
+          "componentCentroid": [
+            943.6591927730879,
+            957.1826914524593
+          ],
+          "sourcePixelsRetained": 258589,
+          "crossGridDetailsPreserved": true,
+          "promoteAlpha250To255": true,
+          "promotedPixels": 230954
+        },
+        {
+          "operation": "uniform downsample with per-identity shared scale",
+          "sourceSize": [
+            594,
+            601
+          ],
+          "outputContentSize": [
+            426,
+            431
+          ],
+          "scale": 0.717948717948718,
+          "method": "premultiplied LANCZOS",
+          "nativeDetailUpscaled": false
+        },
+        {
+          "operation": "transparent padding",
+          "canvas": [
+            512,
+            512
+          ],
+          "offset": [
+            43,
+            49
+          ],
+          "localSafeMargin": 32
+        }
+      ],
+      "qaPreviews": [
+        "assets/characters/full-game/preview-expressions-light.png",
+        "assets/characters/full-game/preview-expressions-dark.png"
+      ],
+      "visualInspectionCompleted": true,
+      "unresolvedIssues": [],
+      "userApproved": false,
+      "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+      "deepAndLightComposite": "passed",
+      "identity": "passed against original unchanged avatar and actual style images",
+      "style": "passed: jade/ivory/fine warm gold, rounded hand-painted chibi",
+      "silhouette": "complete, no canvas-edge crop",
+      "expressionDistinctness": "happy/thinking/surprised/sad clear at UI display size",
+      "strongSourcePixelsDiscarded": 0
+    }
+  ],
+  "scopeComplete": true,
+  "userApproved": false,
+  "pending": [],
+  "completedAt": "2026-10-26T20:24:09.537429+00:00",
+  "assetCount": 20,
+  "newRuntimePngCount": 19,
+  "reusedRuntimePngCount": 1,
+  "sourceCount": 7,
+  "reviewedContactSheets": [
+    "assets/characters/full-game/preview-bodies-light.png",
+    "assets/characters/full-game/preview-bodies-dark.png",
+    "assets/characters/full-game/preview-expressions-light.png",
+    "assets/characters/full-game/preview-expressions-dark.png"
+  ],
+  "summary": {
+    "fullBodies": 4,
+    "expressionAvatars": 16,
+    "realAlpha": 20,
+    "edgeTouchesAboveAlpha8": 0,
+    "opaqueSourcePixelsDiscarded": 0,
+    "nativeDetailUpscaled": false
+  },
+  "limitations": [
+    "Static emotional portraits; no skeletal or walking animation is implied.",
+    "Actual builtin model/quality values are unconfirmed because the tool does not disclose them.",
+    "userApproved=false and clientIntegrated=false."
+  ],
+  "unresolvedIssues": [],
+  "intermediateImageCleanup": {
+    "completedAt": "2026-10-26T20:24:09.537429+00:00",
+    "removedCount": 40,
+    "removed": [
+      {
+        "file": "work/full-game-characters/expression-daotong-happy-dark-qa.png",
+        "sha256": "1725a8071397c80d3ec508128700ec60be5d81c806ebe68ae358488f65565873",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-happy-light-qa.png",
+        "sha256": "231b04b1d9538f61b070f1bbdd0f11e5ecfb0334599a70af42d37eeb70c697be",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-sad-dark-qa.png",
+        "sha256": "b077042393eea86cd927f0b29e380dedcc79599ffd00db0dc68b7a534e5cb672",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-sad-light-qa.png",
+        "sha256": "83a31de9a3811c6c4f589a38bdd96bfe27afd21a8445c41603cd28ef94f61b2d",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-surprised-dark-qa.png",
+        "sha256": "45302a1f775d37df4a1ac7083017f8e774716345e028bbac4332c12215bf2c38",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-surprised-light-qa.png",
+        "sha256": "a6bbb26b9f7975e7050bbe96a1185364a9cf0bbf8c1ccabbe4f7953a983c510c",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-thinking-dark-qa.png",
+        "sha256": "1e6ee3a1c7f394ac9bd82f1ae718be51af8b8b53df9eb5c4ac8afe033826c6a5",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-daotong-thinking-light-qa.png",
+        "sha256": "0a11a76d495b43580a182ab422db847cbecf5bcb41b026f8b201c91d54c93dd9",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-happy-dark-qa.png",
+        "sha256": "7b4a311d6e9e4a2de08c5ab69c41ac4d5846c79a2bb6ec6b69d7410a8657680c",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-happy-light-qa.png",
+        "sha256": "a301e25d7c9b18d6060e6318b2fb7103e716956deef731448f13ef263f1373a7",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-sad-dark-qa.png",
+        "sha256": "a9aa7951f2f2d2f725879c64ccf729918587d633eba0a7ab0d1fd105a775f238",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-sad-light-qa.png",
+        "sha256": "1b199904ef80fcf9e1699eba8040c6fcee1ace396dfbbb4b665b500fb54c5e2e",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-surprised-dark-qa.png",
+        "sha256": "35f9a104dd62003a55824c877acc35144a41d5b5a6907482875e486b3c02d071",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-surprised-light-qa.png",
+        "sha256": "fc7e9cda0f897fc34dd6e82e3fc2c9b16ac4895158ccdea2e30e3b4ec8ead319",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-thinking-dark-qa.png",
+        "sha256": "6eaf2cddf2d8797d019ea99a229ce24d73995eeefe7a4eb3d7522e2845fe7a70",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-healer-thinking-light-qa.png",
+        "sha256": "7a805ad53d42c2106ee690fd9bb4cdd5af3f921a607da43076fc641623f078e8",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-happy-dark-qa.png",
+        "sha256": "627f1413db002c26a7cd12263bb058dfc1982424f75523e552639c95ffaa6864",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-happy-light-qa.png",
+        "sha256": "7638466c6f3c1411c6940e6b9f81e5fdf953397276d3368e42d00cd21074faa4",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-sad-dark-qa.png",
+        "sha256": "1c36d01becb59386f9cdc4b1c54e7c71a7c92bc4bedccc0b471ca72a7c7bc588",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-sad-light-qa.png",
+        "sha256": "4bdb04819bd0dac7755615a07bb5c8ef369760edeec22ed171d0512c18a16450",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-surprised-dark-qa.png",
+        "sha256": "e065377abcc0619393a59def66e9331cf62b3a13031ab19aeeba8980eae3316d",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-surprised-light-qa.png",
+        "sha256": "e66a4cf5eb366b4b1cfd925c323d99222b9a0135ed8080b77acdc90abd393a88",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-thinking-dark-qa.png",
+        "sha256": "66000147a26d24d4c5c94579b158b98a5f57fa382eb9f4bea31bb35eff8d16e3",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-master-thinking-light-qa.png",
+        "sha256": "51bc378a080ac50646c628abcd1ee3e3196e047989e9427382c387e4adbedd26",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-happy-dark-qa.png",
+        "sha256": "b702c0914bfbf34d748af0715d5a9ed926b9f5067db9cd07ba07b58dcae79eb2",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-happy-light-qa.png",
+        "sha256": "ef0869de122f304d00b7e6c9d0d5cd96174cc8c98ebf2e3a119ced985b54a92f",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-sad-dark-qa.png",
+        "sha256": "daa2b774382cf991301bae40e8e1e90c6bf83482c74c6b93e9d9ec14f23a8f2e",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-sad-light-qa.png",
+        "sha256": "c14fbacc23668b7f4324df2d53cc90dd4c421dfec518ebf14dd9eaa644b82fdf",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-surprised-dark-qa.png",
+        "sha256": "1d46c8196868df20a5afa696860acb90e85de1746e5949987e81ab21475d8606",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-surprised-light-qa.png",
+        "sha256": "5e63b5f5c728a66872db12c5cf041fb344886499d8cd07b93e3c3cebe7e33261",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-thinking-dark-qa.png",
+        "sha256": "38f0fced3fd685e63af4c9fd84b5d8b4dbc331ba3f4b002214ac89d1958743e2",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/expression-swordswoman-thinking-light-qa.png",
+        "sha256": "f13b63638c5256b667875bddba665e8d14834ea3f72451ae2ee973a8a6c91742",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-daotong-dark-qa.png",
+        "sha256": "f406e7ef63ea10eeea500fb1b334e9428463530f98ccb77da4c4ecd79d999976",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-daotong-light-qa.png",
+        "sha256": "7b58ad244465158f10adf9d4158f5e94aaff20f3b5c7ae1b250917221cc271fb",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-healer-dark-qa.png",
+        "sha256": "6a46f3283597490d4cd38f64baac1218e81c3cebb038b72c1b002612b579ca43",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-healer-light-qa.png",
+        "sha256": "6f50769424fb9756696affb035aecfb0be5d62d3190d1b2ee5cef745d6453254",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-master-dark-qa.png",
+        "sha256": "360879991458054ead3d0c225ac0fbc51d4e94d3db181050735002e95335d238",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-master-light-qa.png",
+        "sha256": "453d9f1921f43901be5b56211e411b6a7ea382ed93885c6123418d284d4ab769",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-swordswoman-dark-qa.png",
+        "sha256": "40f42d35bc8d65a7e1fb5c3f9753ad15afe75530ca990f81309fb64818a93f90",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      },
+      {
+        "file": "work/full-game-characters/fullbody-swordswoman-light-qa.png",
+        "sha256": "92d930ee7178d3be19a2e7f50c022d6a9cebcc1951f699851a09957a44a8cfe5",
+        "reason": "inspected intermediate deep/light composite superseded by retained final contact sheets"
+      }
+    ],
+    "retained": [
+      "assets/characters/full-game/preview-bodies-light.png",
+      "assets/characters/full-game/preview-bodies-dark.png",
+      "assets/characters/full-game/preview-expressions-light.png",
+      "assets/characters/full-game/preview-expressions-dark.png"
+    ],
+    "nativeSourcesPreserved": 7,
+    "runtimeImagesUnchanged": true
+  },
+  "independentReview": {
+    "reviewer": "root coordinator",
+    "checkedAt": "2026-10-26T20:33:02.107182+00:00",
+    "evidence": "Parent agent confirmed actual view_image review of all four final contact sheets in collaboration message before freeze",
+    "scope": "4 bodies,16 expressions, light and dark composites",
+    "status": "passed",
+    "findings": "distinct identities, complete hands/feet/ribbons, clear emotions, no abnormal residual edge shadows",
+    "userApproval": false
+  },
+  "frozenAt": "2026-10-26T20:33:02.107182+00:00"
+}

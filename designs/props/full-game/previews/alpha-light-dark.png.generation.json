@@ -1,0 +1,231 @@
+{
+  "file": "designs/props/full-game/previews/alpha-light-dark.png",
+  "sha256": "85110cf9b04372c58322d13f28c6649e966e79c35035a1d6e689a782987aece2",
+  "createdAt": "2026-10-26T16:41:12.721880+00:00",
+  "tool": "Pillow final deep/light alpha inspection board",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Preview assembly only",
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/emotes/approval.png",
+      "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+      "generationRecord": "assets/props/full-game/emotes/approval.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/applause.png",
+      "sha256": "33e5c39d454ca3b38663ad3c11f7f4b336c24701ed1d4bddc5da9c8e78f4d9bb",
+      "generationRecord": "assets/props/full-game/emotes/applause.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/respect.png",
+      "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+      "generationRecord": "assets/props/full-game/emotes/respect.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/thinking.png",
+      "sha256": "2c7786b555fa13456971d9ce1c26128392fffdc0e4629cf0537cf836c8d9c6ef",
+      "generationRecord": "assets/props/full-game/emotes/thinking.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/surprise.png",
+      "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+      "generationRecord": "assets/props/full-game/emotes/surprise.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/big-laugh.png",
+      "sha256": "fc9b4a5e8703151ac180f502d672b0f395e5fba33a065d3061f668a2de4f7a4a",
+      "generationRecord": "assets/props/full-game/emotes/big-laugh.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/aggrieved.png",
+      "sha256": "14fca0aa8d61bc07b74224d0fb7e67d59e0d599c3a103589cfa0b1c8867d8f39",
+      "generationRecord": "assets/props/full-game/emotes/aggrieved.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/cheer-on.png",
+      "sha256": "9d12615cc9109750592bacbf251865611d80fc1386c095f28dcd845535d5d66b",
+      "generationRecord": "assets/props/full-game/emotes/cheer-on.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/wait.png",
+      "sha256": "af0b09031de22d860b64f348b352f233ab8c825e0b5464c525fbe4fda85b6ccc",
+      "generationRecord": "assets/props/full-game/emotes/wait.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/sorry.png",
+      "sha256": "41a208f58702125fc8c02349b2e8f4ff154e72d1255d1eba420bdcd8e184f2c2",
+      "generationRecord": "assets/props/full-game/emotes/sorry.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/celebrate.png",
+      "sha256": "f37d277f09c4d5f524e52965b8c74d2223a2e29f3036f7195d57b64b620b3c0e",
+      "generationRecord": "assets/props/full-game/emotes/celebrate.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/hello.png",
+      "sha256": "e8eb609248c25bb0a7ff3b75855c6c289f31d213feb25b2f4b739d6a4bee8f03",
+      "generationRecord": "assets/props/full-game/emotes/hello.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/avatar-voucher.png",
+      "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+      "generationRecord": "assets/props/full-game/items/avatar-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tablecloth-voucher.png",
+      "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+      "generationRecord": "assets/props/full-game/items/tablecloth-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tile-back-voucher.png",
+      "sha256": "0f185b4ea121120c4afe1c3b6807ba7ebab5a6c66e1c4f55e998eac0d7a1a9f9",
+      "generationRecord": "assets/props/full-game/items/tile-back-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/emote-voucher.png",
+      "sha256": "61e32fdc025026c54d68d1d11ddc35eed9543361109881300a49c7dc8a2405c6",
+      "generationRecord": "assets/props/full-game/items/emote-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/experience-scroll.png",
+      "sha256": "2b1df2519402a057ba7f3a68bd7b816c4b757dfb37b30ec54c6f7310da26cd16",
+      "generationRecord": "assets/props/full-game/items/experience-scroll.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/achievement-medal.png",
+      "sha256": "b0c7e46d56a6fe25ab355e11e53a02595b0c259a048c10ccf7679db704507056",
+      "generationRecord": "assets/props/full-game/items/achievement-medal.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/gift-box.png",
+      "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+      "generationRecord": "assets/props/full-game/items/gift-box.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/brocade-pouch.png",
+      "sha256": "8d1434fa4a7e2dd639e9ebb182b35d4f486d4ae726e25357fa5edb253bdeda19",
+      "generationRecord": "assets/props/full-game/items/brocade-pouch.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/envelope.png",
+      "sha256": "230648fb8d25c7e8c98ebfd002e7936b11d7b9823f0ce533cd2c61e2f004829e",
+      "generationRecord": "assets/props/full-game/items/envelope.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/jade-pendant.png",
+      "sha256": "ce6e85ed21856425ff8c13854b34ba2e196ae461be386f92cb156c99f2767c3b",
+      "generationRecord": "assets/props/full-game/items/jade-pendant.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/peach-blossom.png",
+      "sha256": "8e3076e1b5999fed476785b03810846d713408e596068161ac50725fc3f318eb",
+      "generationRecord": "assets/props/full-game/items/peach-blossom.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/golden-gourd.png",
+      "sha256": "d66c9c7bdfe6f1ca96c9657d1c539d1c278bdd5bfd531808b40f133ebda0e05b",
+      "generationRecord": "assets/props/full-game/items/golden-gourd.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/dice-cup-closed.png",
+      "sha256": "7340b1b58a332c0547adbbb1a2838887fe20dda9586386d4ae52aa706ba713b1",
+      "generationRecord": "assets/props/full-game/table/dice-cup-closed.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/dice-cup-open.png",
+      "sha256": "a5ffc7eb38ff30024bf8b7e5b0164625b30874a082e15f997f4da5de0cb2bc3f",
+      "generationRecord": "assets/props/full-game/table/dice-cup-open.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/dealer-marker.png",
+      "sha256": "2277a5740c153574793e2be3d9fb7e4926dd374b299d1a1717bb699869e65a6b",
+      "generationRecord": "assets/props/full-game/table/dealer-marker.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/table/score-sticks.png",
+      "sha256": "c1244e515f900b4b41170a7e4ba4aac687975810eb121197f2bbf2c9126c6bfc",
+      "generationRecord": "assets/props/full-game/table/score-sticks.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/plum.png",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "generationRecord": "assets/tiles/flowers/plum.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/orchid.png",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "generationRecord": "assets/tiles/flowers/orchid.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/bamboo.png",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "generationRecord": "assets/tiles/flowers/bamboo.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "generationRecord": "assets/tiles/flowers/chrysanthemum.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/spring.png",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "generationRecord": "assets/tiles/flowers/spring.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/summer.png",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "generationRecord": "assets/tiles/flowers/summer.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/autumn.png",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "generationRecord": "assets/tiles/flowers/autumn.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/winter.png",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "generationRecord": "assets/tiles/flowers/winter.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-1.png",
+      "sha256": "4cee5f5c1b2c517d6aa3959c87c00841f476b2b336eebc7f923ba09f9d8e929b",
+      "generationRecord": "assets/props/full-game/dice/dice-1.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-2.png",
+      "sha256": "0e28ae3b1d0986b3e5984b0c4fca8574b2340ff12afd6068223badf633023f21",
+      "generationRecord": "assets/props/full-game/dice/dice-2.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-3.png",
+      "sha256": "ec5b83260aa7f964ad2930a4bf17f302a5343c3a15f1a05314ad6983eb65f6de",
+      "generationRecord": "assets/props/full-game/dice/dice-3.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-4.png",
+      "sha256": "4db154fd8c3e27371f5395f1f1f7f93ed16f7a5ff4e87bb64b82ac54de243bc7",
+      "generationRecord": "assets/props/full-game/dice/dice-4.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-5.png",
+      "sha256": "e152e38d6468ef64147b225323ad894e06e5eaaa00b5d24ac127bfd7ef17b7b5",
+      "generationRecord": "assets/props/full-game/dice/dice-5.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/dice/dice-6.png",
+      "sha256": "52323351d35bf9e1c03848d3c1f0ac8893a076adefc638ccc5f95cc5320b9ace",
+      "generationRecord": "assets/props/full-game/dice/dice-6.png.generation.json"
+    }
+  ],
+  "operation": "show identical final transparent assets on light and dark backgrounds",
+  "width": 980,
+  "height": 2105,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual preview inspection",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  }
+}

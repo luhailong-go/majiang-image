@@ -1,0 +1,882 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26T08:45:30.784998-04:00",
+  "status": "passed",
+  "componentCount": 58,
+  "pngHashesUnchanged": true,
+  "checks": [
+    {
+      "id": "window-frame",
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "title-plaque",
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-secondary-normal",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "tab-selected",
+      "file": "assets/ui/common/tab-selected.png",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "tab-normal",
+      "file": "assets/ui/common/tab-normal.png",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "input-field",
+      "file": "assets/ui/common/input-field.png",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "tooltip-bubble",
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "sha256": "af225de902f6aad2c61e930e1af2c2cf93eea3b0c5db828f35eea67f4e66dfc1",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-settings",
+      "file": "assets/ui/common/icon-settings.png",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-close",
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-back",
+      "file": "assets/ui/common/icon-back.png",
+      "sha256": "52b06a7869c96b37f7e07560b39cb5868e4dbf77e0096fdf7c8eafecd07571fa",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-chat",
+      "file": "assets/ui/common/icon-chat.png",
+      "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-profile",
+      "file": "assets/ui/common/icon-profile.png",
+      "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-friends",
+      "file": "assets/ui/common/icon-friends.png",
+      "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-mail",
+      "file": "assets/ui/common/icon-mail.png",
+      "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-records",
+      "file": "assets/ui/common/icon-records.png",
+      "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-sound",
+      "file": "assets/ui/common/icon-sound.png",
+      "sha256": "e289749a1368c5757679e174ccc5e7622cbbe33fc0a8c411c50e0501184165a9",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-muted",
+      "file": "assets/ui/common/icon-muted.png",
+      "sha256": "bc8b473feea1b7b8314983a03b7d4571a3cd804e12510663f4d232444cdaa04d",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "checkbox-on",
+      "file": "assets/ui/common/checkbox-on.png",
+      "sha256": "d4429b96395bea568561b73c53b9c99d2b5efdaed732d75cb76fe1c45bae8848",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "checkbox-off",
+      "file": "assets/ui/common/checkbox-off.png",
+      "sha256": "328b8eb3050742f591545c9041c4fb88cdfe2998b882943fcb8c93b5778a10b7",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "radio-on",
+      "file": "assets/ui/common/radio-on.png",
+      "sha256": "4ca53a085a6120abec65c1ecd7bffea02d4cef602ff26d89d952913856e78a78",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "radio-off",
+      "file": "assets/ui/common/radio-off.png",
+      "sha256": "1dffc3231921d1165cb47b0dcc0582fee4d3c19ba047cdc8109a27aea8c67d37",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "slider-thumb",
+      "file": "assets/ui/common/slider-thumb.png",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "scrollbar-thumb",
+      "file": "assets/ui/common/scrollbar-thumb.png",
+      "sha256": "fb2da278a492a57119715966c6be3cb65259ca38fe6af6672caebdb72bf16c4b",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "scrollbar-track",
+      "file": "assets/ui/common/scrollbar-track.png",
+      "sha256": "d9bc433d95c675b846f628c044c58f656563338068c06b229e293d5b4459621e",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "unread-badge",
+      "file": "assets/ui/common/unread-badge.png",
+      "sha256": "f64b597986f24d914d977e11e122c4a8126a910021d6c9b68c9296187fd3e303",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "loading-ring",
+      "file": "assets/ui/common/loading-ring.png",
+      "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "wind-round-dial",
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "avatar-frame",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "countdown-frame",
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "dealer-badge",
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "current-player-ring",
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "offline-badge",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "autoplay-badge",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "action-button-normal",
+      "file": "assets/ui/gameplay/action-button-normal.png",
+      "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "settlement-card",
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "button-primary-pressed",
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-primary-selected",
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-primary-disabled",
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-secondary-pressed",
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-secondary-selected",
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "button-secondary-disabled",
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "action-button-pressed",
+      "file": "assets/ui/gameplay/action-button-pressed.png",
+      "sha256": "c8ed24e9a30dea4c839f32d3488bb3f990868da336b0d7ee9a8a199c78b70933",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "action-button-selected",
+      "file": "assets/ui/gameplay/action-button-selected.png",
+      "sha256": "3639caf87fc4f6da58caf186b8085d1e493effdfdd59cb7e60c2a58413b4d109",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "action-button-disabled",
+      "file": "assets/ui/gameplay/action-button-disabled.png",
+      "sha256": "85bb9eb97bd66f54381cb4d3759ddab5d73c5abb1c15a59ea17f3436d9fad9b6",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    {
+      "id": "keypad-key",
+      "file": "assets/ui/common/keypad-key.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    {
+      "id": "modal-shade",
+      "file": "assets/ui/common/modal-shade.png",
+      "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "viewport_stretch",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "reason": "Constant RGBA runtime overlay."
+      }
+    },
+    {
+      "id": "table-background",
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_cover_or_contain",
+        "stretchAxes": [],
+        "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+      }
+    },
+    {
+      "id": "icon-search",
+      "file": "assets/ui/common/icon-search.png",
+      "sha256": "598b7103601dfa8b05a7b67e970b2f6526a38b35841f409649e31f7248444320",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-add",
+      "file": "assets/ui/common/icon-add.png",
+      "sha256": "0900e488476226ae5e6ae209c4e20a20563a1695fb3239226814b6fc7f84d07b",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-delete",
+      "file": "assets/ui/common/icon-delete.png",
+      "sha256": "c5269ff5f1cb142067ca6a6577aefac58a26837cd73487a365d2f1929a7f5989",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-voice",
+      "file": "assets/ui/common/icon-voice.png",
+      "sha256": "511a3f8f9699dcf73cc0ad793d724c8a16aabb75622f3b8bd1a27714e5fee237",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-help",
+      "file": "assets/ui/common/icon-help.png",
+      "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-lock",
+      "file": "assets/ui/common/icon-lock.png",
+      "sha256": "3109de9427f383b4f3899b5e92b56a4a487b6597c99d403b46385bc80acb1d43",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-copy",
+      "file": "assets/ui/common/icon-copy.png",
+      "sha256": "b38c1a00011556f29bdd2a840fb0cce0ef6d4440d07cf9bafec4991b9ae65996",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    {
+      "id": "icon-confirm",
+      "file": "assets/ui/common/icon-confirm.png",
+      "sha256": "0c865dd0fad296a2d879f55c04c8f3755db07ed4b6a32c8a04d1138cb439b437",
+      "pngIntegrity": "passed",
+      "recordHash": "passed",
+      "visual": "passed",
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    }
+  ],
+  "sourceAlphaCleanup": "All cleanup records have zero removed pixels with alpha>=128.",
+  "finalComposites": [
+    "work/components/qa/common-light.png",
+    "work/components/qa/common-dark.png",
+    "work/components/qa/gameplay-light.png",
+    "work/components/qa/gameplay-dark.png"
+  ],
+  "scope": "UI artwork assets; not client/service integration"
+}

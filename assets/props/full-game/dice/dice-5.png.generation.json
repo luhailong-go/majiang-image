@@ -1,0 +1,57 @@
+{
+  "file": "assets/props/full-game/dice/dice-5.png",
+  "sha256": "e152e38d6468ef64147b225323ad894e06e5eaaa00b5d24ac127bfd7ef17b7b5",
+  "createdAt": "2026-10-26T16:37:57.184Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/dice/dice-blank.png",
+      "sha256": "3a33236f8c7270ee25bb854351b2d9b796b32c1588931d6f564950545f036348",
+      "generationRecord": "assets/props/full-game/dice/dice-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "compose exact native pip vector overlay over generated ivory jade blank dice face"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "pipCount": 5,
+  "positions": [
+    [
+      -72,
+      -72
+    ],
+    [
+      72,
+      -72
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -72,
+      72
+    ],
+    [
+      72,
+      72
+    ]
+  ],
+  "vectorSource": {
+    "file": "assets/props/full-game/dice/dice-5.pips.svg",
+    "sha256": "5fbbe3d1913f91693f71ddcaa854bcb5b2abc9b534c1e4a4132b3d75d0ee56b4"
+  }
+}

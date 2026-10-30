@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+  "uiId": "UI27",
+  "title": "引导第1步初稿（编辑来源）",
+  "sha256": "9771f150f7c0349054928dc4f648ab1b867f1da7482519deacf535398a3a6946",
+  "generatedAt": "2026-10-26T11:42:54.005315-04:00",
+  "generationTimestampBasis": "客户端落盘时间，工具未返回生成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-4c3ee2ab-fee4-4a4f-907f-44040d82d937",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    ],
+    "promptFile": "prompts/full-game/ui/core/ui27-tutorial-select.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅提供image_url及output_hint，尺寸和哈希由落盘文件读取。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/full-game/ui/core/ui27-tutorial-select.txt",
+  "promptSha256": "de5592ab93749d14db88ec6852df833f6740c5a38493e0b44bc2c6f0343f9817",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "sha256": "e9153d4727e88d72cd6f6d38db12507e6be2b8b162b554e4d7ccdf538fb16e6a",
+      "purpose": "当前游戏角色或桌面参考",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-4c3ee2ab-fee4-4a4f-907f-44040d82d937.png",
+    "sha256": "9771f150f7c0349054928dc4f648ab1b867f1da7482519deacf535398a3a6946",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "needs_correction",
+    "visualInspectionCompleted": true,
+    "visualNotes": "主要中文及选牌高亮通过；右下角存在极小无意义笔画，待清理，此图仅作为编辑来源。",
+    "issues": [
+      "页脚右下存在极小无意义笔画，已由最终版修正。"
+    ],
+    "blockingIssues": [
+      "页脚右下存在极小无意义笔画，已由最终版修正。"
+    ],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "retained_edit_source",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "选牌步骤初稿"
+  ],
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-4c3ee2ab-fee4-4a4f-907f-44040d82d937.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "retainedReason": "最终版AI编辑实际参考，保留像素以维持可核对来源。"
+}
