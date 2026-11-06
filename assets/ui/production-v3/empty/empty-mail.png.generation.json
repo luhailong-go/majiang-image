@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/production-v3/empty/empty-mail.png",
+  "sha256": "167ef75f52dcfc1400d1a4e23b995180552fd344f78832bb7c813972f90e0c44",
+  "exportedAt": "2026-10-28T08:29:58.453046+00:00",
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/empty-states-native.png",
+      "sha256": "382db41d9cec67c3b9f8c5239628428a0212149243adb8e5f130385f90ea8f70",
+      "generationRecord": "designs/ui/production-v3/empty-states-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "ownership": "assign each alpha>16 connected component to nearest 3x2 subject center; preserve complete crossing components",
+    "tinyNoiseRemovedBelowPixels": 4,
+    "sourceBBox": [
+      55,
+      105,
+      508,
+      470
+    ],
+    "sourceComponents": [
+      {
+        "sourceBox": [
+          364,
+          105,
+          438,
+          145
+        ],
+        "pixels": 1387
+      },
+      {
+        "sourceBox": [
+          55,
+          106,
+          508,
+          470
+        ],
+        "pixels": 96541
+      },
+      {
+        "sourceBox": [
+          397,
+          379,
+          466,
+          404
+        ],
+        "pixels": 831
+      },
+      {
+        "sourceBox": [
+          300,
+          422,
+          320,
+          444
+        ],
+        "pixels": 298
+      }
+    ],
+    "uniformScale": 1,
+    "canvas": [
+      512,
+      512
+    ],
+    "padding": 24,
+    "rgbRepainting": false
+  },
+  "nativeDetailUpscaled": false
+}

@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset: 现有麻将UI整屏的定向修复，保持1672×941原图比例和清晰度。
+Input 1 is the exact edit target; Input 2 and Input 3 are style references only. Keep the original edit-target composition, characters, Chinese typography, ornament, textures, and all unrelated pixels as closely as possible.
+Image 2: 邮件主风格参考；Image 3: 组队主风格参考。沿用相同道家Q版、玉绿金边、米白绢纸、细腻手绘。
+请只改变第1张战绩列表图片“积分变化”列里三个数值文字的颜色：第1行“+24”和第4行“+8”由绿色改成朱砂红，目标色#B52F20；第2行“-12”由红色改成玉绿色，目标色#196448。第3行“0”保留中性灰。数字的字形、数值、位置、大小和清晰度必须完全保留。仅这三个积分数字换色，四行所有日期、模式、结果徽章“胜/负/流局”的原有颜色、按钮、标题、道童、背景、页签、留白全部不变。不要改数值、不交换行、不重排内容、不加颜色图例或文案。
+输出一张完整屏幕，不是局部裁片、对比图或设计说明板；不透明背景。

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/production-v3/forms/toggle-track-off.png",
+  "sha256": "f0fc1b9a23c0ef5a571d454db54d5dbfcda68ae8ec3095a4a18e1fa60bf0854c",
+  "generatedAt": "2026-10-28T09:55:57.394990+00:00",
+  "width": 480,
+  "height": 184,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "Pillow / NumPy / SciPy",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/forms/motion-controls-atlas-native.png",
+      "sha256": "66bfeca13ecda15f0813a3dbf50955832c58b16f79a0cdad551341565f5b2723",
+      "record": "designs/ui/production-v3/forms/motion-controls-atlas-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "sourceRegion": [
+      627,
+      480,
+      1254,
+      850
+    ],
+    "nativeCrop": [
+      702,
+      608,
+      1153,
+      764
+    ],
+    "cropSize": [
+      451,
+      156
+    ],
+    "paddingOffset": [
+      14,
+      14
+    ],
+    "outputCanvas": [
+      480,
+      184
+    ],
+    "resample": false,
+    "alphaFloor": 8,
+    "antialiasDistanceLimit": 2,
+    "removeDisconnectedNoise": true,
+    "fringeRGB": "nearest opaque source RGB for alpha<128",
+    "opaquePromotion": "source alpha>=250 to255",
+    "RGBWhenAlphaZero": "zero"
+  },
+  "sourceModelEvidence": "See native source record; inherited actualModel and actualQuality remain null.",
+  "qa": {
+    "id": "toggle-track-off",
+    "discardedSolidPixels": 0,
+    "isolatedLowAlphaPixelsRemoved": 0,
+    "fringeRGBDecontaminatedPixels": 971,
+    "alpha": {
+      "range": [
+        0,
+        255
+      ],
+      "bbox": [
+        14,
+        14,
+        465,
+        170
+      ],
+      "fullyTransparent": 23740,
+      "semiTransparent": 3307,
+      "opaque": 61273,
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "transparentCenter": null,
+    "silhouettePreserved": true,
+    "resampled": false
+  },
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "reviewer": "full_ui_scope_audit",
+    "qa": "assets/ui/production-v3/forms/qa.json",
+    "qaPreviews": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "remainingFailures": []
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

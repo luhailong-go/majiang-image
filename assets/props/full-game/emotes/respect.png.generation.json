@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/emotes/respect.png",
+  "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+  "createdAt": "2026-10-26T16:37:54.568Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/emotes-a-sheet-v1.png",
+      "sha256": "4b6f2abdbe851cbd997f83c775c12bb5997bf70b05455b913c4216114ac94758",
+      "generationRecord": "designs/props/full-game/sources/emotes-a-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1097,
+      6,
+      1464,
+      494
+    ],
+    "corePixelsBefore": 107357,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 107357,
+        "box": [
+          1097,
+          6,
+          1463,
+          493
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      367,
+      488
+    ],
+    "exportContent": [
+      361,
+      480
+    ],
+    "contentBounds": [
+      75,
+      16,
+      361,
+      480
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.9836065573770492,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "emote-respect",
+    "label": "抱拳",
+    "group": "emote"
+  }
+}

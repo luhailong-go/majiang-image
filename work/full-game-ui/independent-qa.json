@@ -1,0 +1,3795 @@
+{
+  "schemaVersion": 1,
+  "scope": "Full-game v2 independent QA",
+  "status": "passed",
+  "root": "D:/work/majiang-image",
+  "expected": {
+    "contractIds": [
+      "UI25",
+      "UI26",
+      "UI27",
+      "UI28",
+      "UI29",
+      "UI30",
+      "UI31",
+      "UI32"
+    ],
+    "independentPageImages": 11,
+    "ui29States": [
+      "claimable",
+      "claimed"
+    ],
+    "minimumNewTransparentComponents": 16,
+    "ui27Steps": [
+      1,
+      2,
+      3
+    ],
+    "plannedNewTransparentComponents": 22
+  },
+  "ownership": "Only work/full-game-ui/independent-qa.json and independent-qa.md are written by this reviewer. Pages, components, root README/index/exports and old manifests remain producer-owned.",
+  "rulesRead": [
+    "AGENTS.md",
+    "config/image-generation.json",
+    "docs/IMAGE_MODEL_POLICY.md",
+    "docs/FULL_UI_SCOPE.md",
+    "docs/PRODUCTION_BRIEF.md",
+    "docs/STYLE_GUIDE.md"
+  ],
+  "contractFile": "docs/UI_FULL_GAME.md",
+  "contractStatus": "read",
+  "reuseBaseline": {
+    "manifestSha256": "a64a3a829d0744770cee2bf9aa23931049293ffa234f1d6fa32dbb0a40595a0f",
+    "assets": [
+      {
+        "id": "window-frame",
+        "file": "assets/ui/common/window-frame.png",
+        "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb"
+      },
+      {
+        "id": "title-plaque",
+        "file": "assets/ui/common/title-plaque.png",
+        "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690"
+      },
+      {
+        "id": "content-card",
+        "file": "assets/ui/common/content-card.png",
+        "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4"
+      },
+      {
+        "id": "button-primary-normal",
+        "file": "assets/ui/common/button-primary-normal.png",
+        "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735"
+      },
+      {
+        "id": "button-secondary-normal",
+        "file": "assets/ui/common/button-secondary-normal.png",
+        "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4"
+      },
+      {
+        "id": "tab-selected",
+        "file": "assets/ui/common/tab-selected.png",
+        "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7"
+      },
+      {
+        "id": "tab-normal",
+        "file": "assets/ui/common/tab-normal.png",
+        "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b"
+      },
+      {
+        "id": "input-field",
+        "file": "assets/ui/common/input-field.png",
+        "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1"
+      },
+      {
+        "id": "tooltip-bubble",
+        "file": "assets/ui/common/tooltip-bubble.png",
+        "sha256": "af225de902f6aad2c61e930e1af2c2cf93eea3b0c5db828f35eea67f4e66dfc1"
+      },
+      {
+        "id": "icon-settings",
+        "file": "assets/ui/common/icon-settings.png",
+        "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0"
+      },
+      {
+        "id": "icon-close",
+        "file": "assets/ui/common/icon-close.png",
+        "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33"
+      },
+      {
+        "id": "icon-back",
+        "file": "assets/ui/common/icon-back.png",
+        "sha256": "52b06a7869c96b37f7e07560b39cb5868e4dbf77e0096fdf7c8eafecd07571fa"
+      },
+      {
+        "id": "icon-chat",
+        "file": "assets/ui/common/icon-chat.png",
+        "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e"
+      },
+      {
+        "id": "icon-profile",
+        "file": "assets/ui/common/icon-profile.png",
+        "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf"
+      },
+      {
+        "id": "icon-friends",
+        "file": "assets/ui/common/icon-friends.png",
+        "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364"
+      },
+      {
+        "id": "icon-mail",
+        "file": "assets/ui/common/icon-mail.png",
+        "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20"
+      },
+      {
+        "id": "icon-records",
+        "file": "assets/ui/common/icon-records.png",
+        "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d"
+      },
+      {
+        "id": "icon-sound",
+        "file": "assets/ui/common/icon-sound.png",
+        "sha256": "e289749a1368c5757679e174ccc5e7622cbbe33fc0a8c411c50e0501184165a9"
+      },
+      {
+        "id": "icon-muted",
+        "file": "assets/ui/common/icon-muted.png",
+        "sha256": "bc8b473feea1b7b8314983a03b7d4571a3cd804e12510663f4d232444cdaa04d"
+      },
+      {
+        "id": "checkbox-on",
+        "file": "assets/ui/common/checkbox-on.png",
+        "sha256": "d4429b96395bea568561b73c53b9c99d2b5efdaed732d75cb76fe1c45bae8848"
+      },
+      {
+        "id": "checkbox-off",
+        "file": "assets/ui/common/checkbox-off.png",
+        "sha256": "328b8eb3050742f591545c9041c4fb88cdfe2998b882943fcb8c93b5778a10b7"
+      },
+      {
+        "id": "radio-on",
+        "file": "assets/ui/common/radio-on.png",
+        "sha256": "4ca53a085a6120abec65c1ecd7bffea02d4cef602ff26d89d952913856e78a78"
+      },
+      {
+        "id": "radio-off",
+        "file": "assets/ui/common/radio-off.png",
+        "sha256": "1dffc3231921d1165cb47b0dcc0582fee4d3c19ba047cdc8109a27aea8c67d37"
+      },
+      {
+        "id": "slider-thumb",
+        "file": "assets/ui/common/slider-thumb.png",
+        "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5"
+      },
+      {
+        "id": "scrollbar-thumb",
+        "file": "assets/ui/common/scrollbar-thumb.png",
+        "sha256": "fb2da278a492a57119715966c6be3cb65259ca38fe6af6672caebdb72bf16c4b"
+      },
+      {
+        "id": "slider-track",
+        "file": "assets/ui/common/slider-track.png",
+        "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985"
+      },
+      {
+        "id": "scrollbar-track",
+        "file": "assets/ui/common/scrollbar-track.png",
+        "sha256": "d9bc433d95c675b846f628c044c58f656563338068c06b229e293d5b4459621e"
+      },
+      {
+        "id": "unread-badge",
+        "file": "assets/ui/common/unread-badge.png",
+        "sha256": "f64b597986f24d914d977e11e122c4a8126a910021d6c9b68c9296187fd3e303"
+      },
+      {
+        "id": "loading-ring",
+        "file": "assets/ui/common/loading-ring.png",
+        "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951"
+      },
+      {
+        "id": "wind-round-dial",
+        "file": "assets/ui/gameplay/wind-round-dial.png",
+        "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b"
+      },
+      {
+        "id": "avatar-frame",
+        "file": "assets/ui/gameplay/avatar-frame.png",
+        "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541"
+      },
+      {
+        "id": "countdown-frame",
+        "file": "assets/ui/gameplay/countdown-frame.png",
+        "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c"
+      },
+      {
+        "id": "dealer-badge",
+        "file": "assets/ui/gameplay/dealer-badge.png",
+        "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef"
+      },
+      {
+        "id": "current-player-ring",
+        "file": "assets/ui/gameplay/current-player-ring.png",
+        "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3"
+      },
+      {
+        "id": "offline-badge",
+        "file": "assets/ui/gameplay/offline-badge.png",
+        "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d"
+      },
+      {
+        "id": "autoplay-badge",
+        "file": "assets/ui/gameplay/autoplay-badge.png",
+        "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0"
+      },
+      {
+        "id": "action-button-normal",
+        "file": "assets/ui/gameplay/action-button-normal.png",
+        "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86"
+      },
+      {
+        "id": "settlement-card",
+        "file": "assets/ui/gameplay/settlement-card.png",
+        "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70"
+      },
+      {
+        "id": "button-primary-pressed",
+        "file": "assets/ui/common/button-primary-pressed.png",
+        "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689"
+      },
+      {
+        "id": "button-primary-selected",
+        "file": "assets/ui/common/button-primary-selected.png",
+        "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0"
+      },
+      {
+        "id": "button-primary-disabled",
+        "file": "assets/ui/common/button-primary-disabled.png",
+        "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc"
+      },
+      {
+        "id": "button-secondary-pressed",
+        "file": "assets/ui/common/button-secondary-pressed.png",
+        "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf"
+      },
+      {
+        "id": "button-secondary-selected",
+        "file": "assets/ui/common/button-secondary-selected.png",
+        "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506"
+      },
+      {
+        "id": "button-secondary-disabled",
+        "file": "assets/ui/common/button-secondary-disabled.png",
+        "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3"
+      },
+      {
+        "id": "action-button-pressed",
+        "file": "assets/ui/gameplay/action-button-pressed.png",
+        "sha256": "c8ed24e9a30dea4c839f32d3488bb3f990868da336b0d7ee9a8a199c78b70933"
+      },
+      {
+        "id": "action-button-selected",
+        "file": "assets/ui/gameplay/action-button-selected.png",
+        "sha256": "3639caf87fc4f6da58caf186b8085d1e493effdfdd59cb7e60c2a58413b4d109"
+      },
+      {
+        "id": "action-button-disabled",
+        "file": "assets/ui/gameplay/action-button-disabled.png",
+        "sha256": "85bb9eb97bd66f54381cb4d3759ddab5d73c5abb1c15a59ea17f3436d9fad9b6"
+      },
+      {
+        "id": "keypad-key",
+        "file": "assets/ui/common/keypad-key.png",
+        "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4"
+      },
+      {
+        "id": "modal-shade",
+        "file": "assets/ui/common/modal-shade.png",
+        "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d"
+      },
+      {
+        "id": "table-background",
+        "file": "assets/ui/gameplay/table-background.png",
+        "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad"
+      },
+      {
+        "id": "icon-search",
+        "file": "assets/ui/common/icon-search.png",
+        "sha256": "598b7103601dfa8b05a7b67e970b2f6526a38b35841f409649e31f7248444320"
+      },
+      {
+        "id": "icon-add",
+        "file": "assets/ui/common/icon-add.png",
+        "sha256": "0900e488476226ae5e6ae209c4e20a20563a1695fb3239226814b6fc7f84d07b"
+      },
+      {
+        "id": "icon-delete",
+        "file": "assets/ui/common/icon-delete.png",
+        "sha256": "c5269ff5f1cb142067ca6a6577aefac58a26837cd73487a365d2f1929a7f5989"
+      },
+      {
+        "id": "icon-voice",
+        "file": "assets/ui/common/icon-voice.png",
+        "sha256": "511a3f8f9699dcf73cc0ad793d724c8a16aabb75622f3b8bd1a27714e5fee237"
+      },
+      {
+        "id": "icon-help",
+        "file": "assets/ui/common/icon-help.png",
+        "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7"
+      },
+      {
+        "id": "icon-lock",
+        "file": "assets/ui/common/icon-lock.png",
+        "sha256": "3109de9427f383b4f3899b5e92b56a4a487b6597c99d403b46385bc80acb1d43"
+      },
+      {
+        "id": "icon-copy",
+        "file": "assets/ui/common/icon-copy.png",
+        "sha256": "b38c1a00011556f29bdd2a840fb0cce0ef6d4440d07cf9bafec4991b9ae65996"
+      },
+      {
+        "id": "icon-confirm",
+        "file": "assets/ui/common/icon-confirm.png",
+        "sha256": "0c865dd0fad296a2d879f55c04c8f3755db07ed4b6a32c8a04d1138cb439b437"
+      }
+    ]
+  },
+  "checksPlanned": [
+    "Contract ID and independent image counts, including UI29 mutually exclusive claimable and claimed states.",
+    "Actual file SHA-256, image decode, native width/height, generation sidecar and prompt hash.",
+    "Two main style references actually recorded; each local reference exists with matching hash.",
+    "Actual model/quality null where built-in tool did not disclose selectors.",
+    "Component source/crop/padding, native and exported dimensions, Alpha edge margins, fully transparent hidden RGB, scaling and nine-slice metadata.",
+    "Actually view each new page and light/dark component contact sheets; distinguish designed availability states from functional client behavior."
+  ],
+  "outputs": [
+    {
+      "file": "designs/ui/full-game/core/ui25-customization-source.png",
+      "uiId": "UI25",
+      "role": "edit_source",
+      "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+      "record": "designs/ui/full-game/core/ui25-customization-source.png.generation.json",
+      "recordSha256": "77876c52b368857e2191f0a52d7819f84fec81cf1a42e68a02f9f38db2b81d25",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui25-customization.txt",
+      "promptSha256": "b94ce019a09ff29f189af7391a6e7969153c09d81b6c84d812b9cb2f24a7f283",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui09-table-base.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui25-customization.png",
+      "uiId": "UI25",
+      "role": "page",
+      "sha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+      "record": "designs/ui/full-game/core/ui25-customization.png.generation.json",
+      "recordSha256": "bce0675022a74c6fc9a438c549f1692bd88ec006400d4ff4ef8274ff7eb5924a",
+      "observed": {
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui25-customization-label-fix.txt",
+      "promptSha256": "2606d151299a02284f0ae88200034907d0fb1297621d31f79e8009a2f030ba05",
+      "references": [
+        {
+          "file": "designs/ui/full-game/core/ui25-customization-source.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+        "method": "Actual final edited full PNG viewed with view_image; targeted comparison against prior reviewed layout",
+        "observations": [
+          "Current-use tile-back caption now reads 太极青玉, matching the selected tile-back name on the right; tablecloth caption 青玉云纹 remains correct.",
+          "Other option groups, preview composition, checkmarks, return/close, preview-in-progress and apply action retain their prior readable hierarchy.",
+          "Same-as-current preview/apply is treated as an idempotent operation, not a conflicting state.",
+          "Native output is 1671×941; no resampling claimed. Client theme textures and labels follow theme-bindings, not exact concept swatch pixels."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui26-character-detail.png",
+      "uiId": "UI26",
+      "role": "page",
+      "sha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+      "record": "designs/ui/full-game/core/ui26-character-detail.png.generation.json",
+      "recordSha256": "6bcaf04c93e0feed6a37e98c18aeb7f19887b55bed81e2e46a33e277b5a855f4",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui26-character-detail.txt",
+      "promptSha256": "7b88383885f5472b88cb5dcc10bbe3886b4c8b494d2bc7182743d0aa2c9364b2",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "assets/characters/welcome-daotong.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui14-character-select.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/mail-banner-character.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Golden-band Daoist child retains consistent identity and full character silhouette.",
+          "Four expression previews are distinct and labelled; character name/description and current-use indicator are readable.",
+          "Already-in-use button is visibly gray/disabled and does not conflict with an enabled use action; return/close remain clear.",
+          "Layout-example note and appearance-only statement are visible."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+      "uiId": "UI27",
+      "role": "page",
+      "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+      "record": "designs/ui/full-game/core/ui27-tutorial-actions.png.generation.json",
+      "recordSha256": "68319b76e233da34c21929b22b8a82c8e0a2eb679c8d46fbf7a0c71a157a0684",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-actions.txt",
+      "promptSha256": "68b195a608ece7b31e5c80b36a752170bf7070aca772ddc42afeeab004aad1bc",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Step 1 completed, step 2 active and step 3 inactive; instructions explain highlighted versus unavailable controls.",
+          "Peng is highlighted with pointer, gang and hu are gray, pass remains legible; instruction defers availability to current-room rules.",
+          "Previous/next/skip and tutorial-example footer remain clear; displayed hand is illustrative, no game legality asserted."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+      "uiId": "UI27",
+      "role": "page",
+      "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+      "record": "designs/ui/full-game/core/ui27-tutorial-complete.png.generation.json",
+      "recordSha256": "e8e6733d4adcfd0448c14a9899cdc92ea39d21ebec0684c9e476e4e8d0dd4207",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-complete.txt",
+      "promptSha256": "f507bb127effa70fe511f3fb28ee63ef9b0addc3ebe69230ac803f554d7f08f6",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Steps 1/2 show complete checks and step 3 is active.",
+          "Guide-complete headline, concise completion explanation, replay and return-to-lobby actions are clear.",
+          "Previous-step navigation and tutorial-example footer are visible; current-room rules remain the source of rules."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+      "uiId": "UI27",
+      "role": "edit_source",
+      "sha256": "9771f150f7c0349054928dc4f648ab1b867f1da7482519deacf535398a3a6946",
+      "record": "designs/ui/full-game/core/ui27-tutorial-select-source.png.generation.json",
+      "recordSha256": "b076e6a4cd38ca29f530041172c4c896f45865807611e10773fd7c5d2f63041c",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-select.txt",
+      "promptSha256": "de5592ab93749d14db88ec6852df833f6740c5a38493e0b44bc2c6f0343f9817",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui09-table-base.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+      "uiId": "UI27",
+      "role": "page",
+      "sha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+      "record": "designs/ui/full-game/core/ui27-tutorial-select.png.generation.json",
+      "recordSha256": "8fbf90fe554ccc2ab78fb93611ba57bbcd75d44aa5db41a25dc654807b2877ef",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/core/ui27-tutorial-select-footer.txt",
+      "promptSha256": "a0ef5a354948c46581531f9fdf319fca6cd2568044262c908cc9972ce58fbfe1",
+      "references": [
+        {
+          "file": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+        "method": "Actual final edited full PNG viewed with view_image",
+        "observations": [
+          "Step 1 active, steps 2/3 inactive; title and instruction text are clean and readable.",
+          "Selected three-wan tile is raised and highlighted with arrow/hand cue; other hand tiles remain legible.",
+          "Return/next/skip and example-only footer are present; no stray corner text remains."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui28-announcement.png",
+      "uiId": "UI28",
+      "role": "page",
+      "sha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+      "record": "designs/ui/full-game/modules/ui28-announcement.png.generation.json",
+      "recordSha256": "9e30d9b2887969c9528ef0f764cbe47b84529981f0b0edc28be01e5306ba2db6",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui28-announcement.prompt.txt",
+      "promptSha256": "ca3184f8231ff69d671f73cabfae158f87e984a9a748de06de7f18810cd47435",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Title, 2026-10-26 example date and three short body paragraphs are readable.",
+          "Return-to-lobby and close controls are clear; optional-module/example-data footer is present.",
+          "No product pricing, recharge or unconfirmed scoring claims."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-claimed.png",
+      "uiId": "UI29",
+      "role": "page",
+      "sha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+      "record": "designs/ui/full-game/modules/ui29-reward-claimed.png.generation.json",
+      "recordSha256": "a033f7598551c420858a7e03381a2730a24a1fe783a88b37979fa17dd4b76bac",
+      "observed": {
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui29-reward-claimed.prompt.txt",
+      "promptSha256": "a6867d76ca2523d075841476be35480bb342b292c91c8bf2d32e2247efed600f",
+      "references": [
+        {
+          "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Same two items, names/counts and layout as pending reference; both now display checked claimed labels.",
+          "Former claim action is gray/disabled and says claimed; success receipt is present, no pending labels or enabled repeat-claim remain.",
+          "Return/close remains available; example/optional-module footers preserved.",
+          "Native width is 1671 rather than pending 1672; actual difference is recorded without resampling."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+      "uiId": "UI29",
+      "role": "page",
+      "sha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+      "record": "designs/ui/full-game/modules/ui29-reward-pending.png.generation.json",
+      "recordSha256": "39df3a4217a8129e1c97d0837283513bf36bddeea7e21ee93643dd864a4edc94",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui29-reward-pending.prompt.txt",
+      "promptSha256": "3677979191362012c2d1a1dd142eebdd65a67df1cc9b0d0322783ab576bf369c",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Two reward items are explicitly pending; active claim action is present and no claimed receipt appears.",
+          "Item names/counts, return/close and reward-example note are readable.",
+          "Optional-module/example-data footer is present; items are cosmetic example rewards."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui30-achievements.png",
+      "uiId": "UI30",
+      "role": "page",
+      "sha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+      "record": "designs/ui/full-game/modules/ui30-achievements.png.generation.json",
+      "recordSha256": "70dc3b48d703a952992107c2366c51d54d0043bcfbc31099f956416ad8d7e58a",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui30-achievements.prompt.txt",
+      "promptSha256": "71a4388eda38c7a903dcff0e925dc2d92071e11e1963851d035905e554ef6b34",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Unlocked 1/1, in-progress 3/10 and locked 0/5 entries use distinct badges, labels and matching progress lengths.",
+          "Text, counts and return/close controls are readable; optional-module/example-data footer is present."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui31-ranking.png",
+      "uiId": "UI31",
+      "role": "page",
+      "sha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+      "record": "designs/ui/full-game/modules/ui31-ranking.png.generation.json",
+      "recordSha256": "53917554fbe9218738e68e0e0d665ae05975dee955458cca0f558bdd8cba202b",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui31-ranking.prompt.txt",
+      "promptSha256": "3c573c3601eae6d5307c46a5c5a7cc43e7c39add030394fd10ab0ebeb99034cb",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Top three rank badges, portraits and scores are distinct; additional ranked rows and self position 12 are visible.",
+          "Positive scores use red, self negative score uses green; descending sample score order is consistent.",
+          "Return/close and optional-module/example-data footer are clear."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui32-item-collection.png",
+      "uiId": "UI32",
+      "role": "page",
+      "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+      "record": "designs/ui/full-game/modules/ui32-item-collection.png.generation.json",
+      "recordSha256": "6f807bace19636a7fe970181e36fb66d0738e923a442c9ed33b7fd079bddffa4",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/modules/ui32-item-collection.prompt.txt",
+      "promptSha256": "d2085c5503731596988f13c37a62abed29678cd438f7d0925370f821a0cc306e",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "passed",
+        "imageSha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+        "method": "Actual full PNG viewed with view_image",
+        "observations": [
+          "Voucher, gift box and badge entries have quantities and unused/selected/in-use labels; an empty slot is explicit.",
+          "Right detail panel corresponds to the selected gift box, with an example-use action; in-use badge is not the selected use target.",
+          "Return/close and optional-module/example-data/footer are readable; no prices or recharge elements."
+        ],
+        "issues": []
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+      "uiId": null,
+      "role": "component_source",
+      "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+      "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json",
+      "recordSha256": "d08cac41e1d0579d145db441473fbda53a698cdab5238edf89aaeb4cd2fc5fe7",
+      "observed": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/components/achievement-rank-badges-v1.prompt.txt",
+      "promptSha256": "0cd2544f5acb374cf1de3a2642f5e1e3a6dd0c66c79c60f0aba14fad2f21edca",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/mahjong-lobby-v1.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+      "uiId": null,
+      "role": "component_source",
+      "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+      "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json",
+      "recordSha256": "e16661dd3782b2c5bd01a419eada63773f5adf6ef77f2643eabb1dbb7ce55f9c",
+      "observed": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/components/inventory-slots-v1.prompt.txt",
+      "promptSha256": "ab470f305d3f31536c2a26274f16bbb04e3efa3d76edc36902f248f3c927e246",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/mahjong-lobby-v1.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+      "uiId": null,
+      "role": "component_source",
+      "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+      "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json",
+      "recordSha256": "76537a44e5ff93ab376a58e70342e97f950db059e5207cc61507e973b8b18320",
+      "observed": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/components/reward-cosmetic-cards-v1.prompt.txt",
+      "promptSha256": "1f96e5c800e4aeb3a6f34d1ac7a55f48f80490f7267879fb9d832395eb267739",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/mahjong-lobby-v1.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    },
+    {
+      "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+      "uiId": null,
+      "role": "component_source",
+      "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+      "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json",
+      "recordSha256": "235c008720c1c151ebf23db853ee178b2af8e2ce420c3e27398f28ec4872d3a3",
+      "observed": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "prompt": "prompts/full-game/ui/components/tutorial-reward-icons-v1.prompt.txt",
+      "promptSha256": "a02ad6bb218babaa7419da104ae71958fbddf550a7d1118d1be8d448feddc679",
+      "references": [
+        {
+          "file": "references/style/01-mail-event.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "references/style/team-ui-v2.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        },
+        {
+          "file": "designs/ui/mahjong-lobby-v1.png",
+          "hashMatches": true,
+          "actuallyAttached": true
+        }
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "technicalStatus": "passed",
+      "visual": {
+        "status": "awaiting_independent_review"
+      },
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "browser": "Not attempted. Existing browser policy blocks file://; no server or alternate browser workaround.",
+  "contractSha256": "1e8cebb7d11556d9095cd64fb78ca03fb46717d9312134c5f78e5b2fb9222deb",
+  "contractAcceptanceNotes": [
+    "UI25 preview remains unsaved until apply succeeds; success receipt belongs to client state.",
+    "UI26 current-in-use state must not offer active use action.",
+    "UI27 three independent step images; example action buttons do not establish game legality.",
+    "UI29 claimable and claimed are mutually exclusive; claimed state prevents repeated claims.",
+    "UI28/UI30/UI31/UI32 optional-module layout samples, no prices/cash/recharge or invented local rules."
+  ],
+  "countsObserved": {
+    "pages": 11,
+    "componentSources": 4
+  },
+  "checkedAt": "2026-10-26T19:23:04.256107+00:00",
+  "visualEvidence": {
+    "designs/ui/full-game/core/ui25-customization.png": {
+      "status": "passed",
+      "imageSha256": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+      "method": "Actual final edited full PNG viewed with view_image; targeted comparison against prior reviewed layout",
+      "observations": [
+        "Current-use tile-back caption now reads 太极青玉, matching the selected tile-back name on the right; tablecloth caption 青玉云纹 remains correct.",
+        "Other option groups, preview composition, checkmarks, return/close, preview-in-progress and apply action retain their prior readable hierarchy.",
+        "Same-as-current preview/apply is treated as an idempotent operation, not a conflicting state.",
+        "Native output is 1671×941; no resampling claimed. Client theme textures and labels follow theme-bindings, not exact concept swatch pixels."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/core/ui26-character-detail.png": {
+      "status": "passed",
+      "imageSha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Golden-band Daoist child retains consistent identity and full character silhouette.",
+        "Four expression previews are distinct and labelled; character name/description and current-use indicator are readable.",
+        "Already-in-use button is visibly gray/disabled and does not conflict with an enabled use action; return/close remain clear.",
+        "Layout-example note and appearance-only statement are visible."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/core/ui27-tutorial-select.png": {
+      "status": "passed",
+      "imageSha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+      "method": "Actual final edited full PNG viewed with view_image",
+      "observations": [
+        "Step 1 active, steps 2/3 inactive; title and instruction text are clean and readable.",
+        "Selected three-wan tile is raised and highlighted with arrow/hand cue; other hand tiles remain legible.",
+        "Return/next/skip and example-only footer are present; no stray corner text remains."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui28-announcement.png": {
+      "status": "passed",
+      "imageSha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Title, 2026-10-26 example date and three short body paragraphs are readable.",
+        "Return-to-lobby and close controls are clear; optional-module/example-data footer is present.",
+        "No product pricing, recharge or unconfirmed scoring claims."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui29-reward-pending.png": {
+      "status": "passed",
+      "imageSha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Two reward items are explicitly pending; active claim action is present and no claimed receipt appears.",
+        "Item names/counts, return/close and reward-example note are readable.",
+        "Optional-module/example-data footer is present; items are cosmetic example rewards."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui30-achievements.png": {
+      "status": "passed",
+      "imageSha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Unlocked 1/1, in-progress 3/10 and locked 0/5 entries use distinct badges, labels and matching progress lengths.",
+        "Text, counts and return/close controls are readable; optional-module/example-data footer is present."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui31-ranking.png": {
+      "status": "passed",
+      "imageSha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Top three rank badges, portraits and scores are distinct; additional ranked rows and self position 12 are visible.",
+        "Positive scores use red, self negative score uses green; descending sample score order is consistent.",
+        "Return/close and optional-module/example-data footer are clear."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui32-item-collection.png": {
+      "status": "passed",
+      "imageSha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Voucher, gift box and badge entries have quantities and unused/selected/in-use labels; an empty slot is explicit.",
+        "Right detail panel corresponds to the selected gift box, with an example-use action; in-use badge is not the selected use target.",
+        "Return/close and optional-module/example-data/footer are readable; no prices or recharge elements."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/modules/ui29-reward-claimed.png": {
+      "status": "passed",
+      "imageSha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Same two items, names/counts and layout as pending reference; both now display checked claimed labels.",
+        "Former claim action is gray/disabled and says claimed; success receipt is present, no pending labels or enabled repeat-claim remain.",
+        "Return/close remains available; example/optional-module footers preserved.",
+        "Native width is 1671 rather than pending 1672; actual difference is recorded without resampling."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/core/ui27-tutorial-actions.png": {
+      "status": "passed",
+      "imageSha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Step 1 completed, step 2 active and step 3 inactive; instructions explain highlighted versus unavailable controls.",
+        "Peng is highlighted with pointer, gang and hu are gray, pass remains legible; instruction defers availability to current-room rules.",
+        "Previous/next/skip and tutorial-example footer remain clear; displayed hand is illustrative, no game legality asserted."
+      ],
+      "issues": []
+    },
+    "designs/ui/full-game/core/ui27-tutorial-complete.png": {
+      "status": "passed",
+      "imageSha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Steps 1/2 show complete checks and step 3 is active.",
+        "Guide-complete headline, concise completion explanation, replay and return-to-lobby actions are clear.",
+        "Previous-step navigation and tutorial-example footer are visible; current-room rules remain the source of rules."
+      ],
+      "issues": []
+    }
+  },
+  "components": {
+    "manifest": "assets/ui/full-game/components/manifest.json",
+    "manifestSha256": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf",
+    "count": 22,
+    "minimumRequired": 16,
+    "planned": 22,
+    "assets": [
+      {
+        "id": "reward-card-default",
+        "file": "assets/ui/full-game/components/reward-card-default.png",
+        "sha256": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+        "record": "assets/ui/full-game/components/reward-card-default.png.generation.json",
+        "recordSha256": "8444a5fcace99618855d1ef4cf31917346aca4e375a1667a58bc61fdd8391c75",
+        "observed": {
+          "width": 514,
+          "height": 312,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 41339,
+            "semiTransparent": 6710,
+            "opaque": 112319,
+            "bbox": [
+              16,
+              21,
+              498,
+              291
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          26,
+          65,
+          508,
+          335
+        ],
+        "transparentPadding": [
+          16,
+          21,
+          16,
+          21
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rewardCard",
+        "state": "default",
+        "strongPixels": 117060,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "reward-card-claimable",
+        "file": "assets/ui/full-game/components/reward-card-claimable.png",
+        "sha256": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+        "record": "assets/ui/full-game/components/reward-card-claimable.png.generation.json",
+        "recordSha256": "250cc1bd29a2bb438fdc99792deb5c38cbb3c07ff24c1dd89220c96c4de3e940",
+        "observed": {
+          "width": 514,
+          "height": 312,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 37605,
+            "semiTransparent": 9431,
+            "opaque": 113332,
+            "bbox": [
+              16,
+              16,
+              497,
+              296
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          529,
+          58,
+          1010,
+          338
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          16
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rewardCard",
+        "state": "claimable",
+        "strongPixels": 118980,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "reward-card-claimed",
+        "file": "assets/ui/full-game/components/reward-card-claimed.png",
+        "sha256": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+        "record": "assets/ui/full-game/components/reward-card-claimed.png.generation.json",
+        "recordSha256": "e8c12343d43d2b100cf309b5fd5585807854ba0bf4f66feccc6c207ed7e01624",
+        "observed": {
+          "width": 514,
+          "height": 312,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 41179,
+            "semiTransparent": 6654,
+            "opaque": 112535,
+            "bbox": [
+              17,
+              22,
+              497,
+              291
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 17,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          1030,
+          66,
+          1510,
+          335
+        ],
+        "transparentPadding": [
+          17,
+          22,
+          17,
+          21
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rewardCard",
+        "state": "claimed",
+        "strongPixels": 117842,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "cosmetic-card-unselected",
+        "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+        "sha256": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+        "record": "assets/ui/full-game/components/cosmetic-card-unselected.png.generation.json",
+        "recordSha256": "d8e094185037a12ec95e647514031b922f491ec00af2b66f9e61bd006ee39a4e",
+        "observed": {
+          "width": 462,
+          "height": 608,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 70520,
+            "semiTransparent": 7521,
+            "opaque": 202855,
+            "bbox": [
+              26,
+              16,
+              435,
+              591
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          74,
+          368,
+          483,
+          943
+        ],
+        "transparentPadding": [
+          26,
+          16,
+          27,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "cosmeticCard",
+        "state": "unselected",
+        "strongPixels": 208122,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "cosmetic-card-selected",
+        "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+        "sha256": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+        "record": "assets/ui/full-game/components/cosmetic-card-selected.png.generation.json",
+        "recordSha256": "efdf251df61e0992edc56ff2931095eb231218f2a00e4237d627ca0e9efe42b8",
+        "observed": {
+          "width": 462,
+          "height": 608,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 70207,
+            "semiTransparent": 11343,
+            "opaque": 199346,
+            "bbox": [
+              24,
+              18,
+              439,
+              590
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 18,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          561,
+          368,
+          976,
+          940
+        ],
+        "transparentPadding": [
+          24,
+          18,
+          23,
+          18
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "cosmeticCard",
+        "state": "selected",
+        "strongPixels": 206601,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "cosmetic-card-in-use",
+        "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+        "sha256": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+        "record": "assets/ui/full-game/components/cosmetic-card-in-use.png.generation.json",
+        "recordSha256": "dc3d707d11f3b199c7f921a19e28a36e1a8f56d20c230227474581088d404dcc",
+        "observed": {
+          "width": 462,
+          "height": 608,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 64986,
+            "semiTransparent": 9286,
+            "opaque": 206624,
+            "bbox": [
+              16,
+              16,
+              446,
+              591
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+          "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+          "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+        },
+        "crop": [
+          1042,
+          370,
+          1472,
+          945
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          16,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "cosmeticCard",
+        "state": "inUse",
+        "strongPixels": 212597,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "achievement-frame-locked",
+        "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+        "sha256": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+        "record": "assets/ui/full-game/components/achievement-frame-locked.png.generation.json",
+        "recordSha256": "64fbd7b2afdc6e4b655f5ac996ea3a21324ea1bf60869ab08c718cca492665ea",
+        "observed": {
+          "width": 618,
+          "height": 526,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 215262,
+            "semiTransparent": 17271,
+            "opaque": 92535,
+            "bbox": [
+              18,
+              17,
+              599,
+              509
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 17,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+          "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+          "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+        },
+        "crop": [
+          119,
+          29,
+          700,
+          521
+        ],
+        "transparentPadding": [
+          18,
+          17,
+          19,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "achievement",
+        "state": "locked",
+        "strongPixels": 105359,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "achievement-frame-unlocked",
+        "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+        "sha256": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+        "record": "assets/ui/full-game/components/achievement-frame-unlocked.png.generation.json",
+        "recordSha256": "a5e012074ff875a11f354e7729c943de0a09b11d50ac89ec7114d57acd2df527",
+        "observed": {
+          "width": 618,
+          "height": 526,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 214266,
+            "semiTransparent": 18352,
+            "opaque": 92450,
+            "bbox": [
+              16,
+              16,
+              602,
+              510
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+          "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+          "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+        },
+        "crop": [
+          828,
+          29,
+          1414,
+          523
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "achievement",
+        "state": "unlocked",
+        "strongPixels": 106247,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "rank-marker-gold",
+        "file": "assets/ui/full-game/components/rank-marker-gold.png",
+        "sha256": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+        "record": "assets/ui/full-game/components/rank-marker-gold.png.generation.json",
+        "recordSha256": "de1dbf1eb984ee57c14481997d9221134de277cf01895823c498b8937dd596a5",
+        "observed": {
+          "width": 486,
+          "height": 498,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 101487,
+            "semiTransparent": 8491,
+            "opaque": 132050,
+            "bbox": [
+              16,
+              16,
+              469,
+              481
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+          "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+          "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+        },
+        "crop": [
+          42,
+          520,
+          495,
+          985
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rank",
+        "state": "gold",
+        "strongPixels": 138487,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "rank-marker-silver",
+        "file": "assets/ui/full-game/components/rank-marker-silver.png",
+        "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+        "record": "assets/ui/full-game/components/rank-marker-silver.png.generation.json",
+        "recordSha256": "1ffdc0811db34846fa58cb1ccc110d46b8a2439c554380c97a0a5da62369f7ad",
+        "observed": {
+          "width": 486,
+          "height": 498,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 107047,
+            "semiTransparent": 9252,
+            "opaque": 125729,
+            "bbox": [
+              22,
+              20,
+              464,
+              478
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 20,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+          "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+          "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+        },
+        "crop": [
+          548,
+          524,
+          990,
+          982
+        ],
+        "transparentPadding": [
+          22,
+          20,
+          22,
+          20
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rank",
+        "state": "silver",
+        "strongPixels": 132677,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "rank-marker-bronze",
+        "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+        "sha256": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+        "record": "assets/ui/full-game/components/rank-marker-bronze.png.generation.json",
+        "recordSha256": "ea11790b4e9a187b7f5ed4f22586adaaf826994149ae525a5e1296ec4b1aec9e",
+        "observed": {
+          "width": 486,
+          "height": 498,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 105885,
+            "semiTransparent": 8064,
+            "opaque": 128079,
+            "bbox": [
+              19,
+              20,
+              467,
+              478
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 19,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+          "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+          "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+        },
+        "crop": [
+          1047,
+          526,
+          1495,
+          984
+        ],
+        "transparentPadding": [
+          19,
+          20,
+          19,
+          20
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "rank",
+        "state": "bronze",
+        "strongPixels": 134120,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "item-slot-default",
+        "file": "assets/ui/full-game/components/item-slot-default.png",
+        "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+        "record": "assets/ui/full-game/components/item-slot-default.png.generation.json",
+        "recordSha256": "00fa3a148dac7f16bed6e0489a37f8df4585e329c5a88acf0b2f45349974269e",
+        "observed": {
+          "width": 660,
+          "height": 508,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 116171,
+            "semiTransparent": 7932,
+            "opaque": 211177,
+            "bbox": [
+              84,
+              20,
+              576,
+              489
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 19,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+          "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+          "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+        },
+        "crop": [
+          102,
+          80,
+          594,
+          549
+        ],
+        "transparentPadding": [
+          84,
+          20,
+          84,
+          19
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "itemSlot",
+        "state": "default",
+        "strongPixels": 216480,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "item-slot-selected",
+        "file": "assets/ui/full-game/components/item-slot-selected.png",
+        "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+        "record": "assets/ui/full-game/components/item-slot-selected.png.generation.json",
+        "recordSha256": "307bc58da99a35d11893a3fa7b456a5c46059017b9c991344568997ddda8fca1",
+        "observed": {
+          "width": 660,
+          "height": 508,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 116425,
+            "semiTransparent": 6640,
+            "opaque": 212215,
+            "bbox": [
+              84,
+              20,
+              577,
+              489
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 19,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+          "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+          "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+        },
+        "crop": [
+          661,
+          80,
+          1154,
+          549
+        ],
+        "transparentPadding": [
+          84,
+          20,
+          83,
+          19
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "itemSlot",
+        "state": "selected",
+        "strongPixels": 216742,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "item-slot-disabled",
+        "file": "assets/ui/full-game/components/item-slot-disabled.png",
+        "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+        "record": "assets/ui/full-game/components/item-slot-disabled.png.generation.json",
+        "recordSha256": "f2a06249c5526adbfbee7e96949631649c2fe33c250578db8bbc394890d193d2",
+        "observed": {
+          "width": 660,
+          "height": 508,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 116444,
+            "semiTransparent": 7299,
+            "opaque": 211537,
+            "bbox": [
+              84,
+              20,
+              576,
+              488
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 20,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+          "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+          "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+        },
+        "crop": [
+          102,
+          690,
+          594,
+          1158
+        ],
+        "transparentPadding": [
+          84,
+          20,
+          84,
+          20
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "itemSlot",
+        "state": "disabled",
+        "strongPixels": 216492,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "item-slot-new",
+        "file": "assets/ui/full-game/components/item-slot-new.png",
+        "sha256": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+        "record": "assets/ui/full-game/components/item-slot-new.png.generation.json",
+        "recordSha256": "38a8c7a95e2b666e2dde7413a73b49b72406ca4e0a497419b8b2fc019240de75",
+        "observed": {
+          "width": 660,
+          "height": 508,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 110495,
+            "semiTransparent": 6191,
+            "opaque": 218594,
+            "bbox": [
+              82,
+              16,
+              643,
+              488
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+          "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+          "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+        },
+        "crop": [
+          660,
+          686,
+          1221,
+          1158
+        ],
+        "transparentPadding": [
+          82,
+          16,
+          17,
+          20
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "itemSlot",
+        "state": "new",
+        "strongPixels": 223090,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "tutorial-spotlight-ring",
+        "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+        "sha256": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+        "record": "assets/ui/full-game/components/tutorial-spotlight-ring.png.generation.json",
+        "recordSha256": "9d69953f54677619b1e37b8a5b1a9355b58f82071364288f3a18b25b6d41fb07",
+        "observed": {
+          "width": 482,
+          "height": 474,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 133506,
+            "semiTransparent": 55283,
+            "opaque": 39679,
+            "bbox": [
+              16,
+              16,
+              466,
+              458
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          26,
+          76,
+          476,
+          518
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "spotlight",
+        "state": "default",
+        "strongPixels": 56269,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "tutorial-arrow",
+        "file": "assets/ui/full-game/components/tutorial-arrow.png",
+        "sha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+        "record": "assets/ui/full-game/components/tutorial-arrow.png.generation.json",
+        "recordSha256": "3c3c52de4bf63b03dfcc25909431ca4532323def5c3bd44738a030357545657e",
+        "observed": {
+          "width": 396,
+          "height": 334,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 87282,
+            "semiTransparent": 3775,
+            "opaque": 41207,
+            "bbox": [
+              16,
+              16,
+              379,
+              317
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          497,
+          159,
+          860,
+          460
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "arrow",
+        "state": "default",
+        "strongPixels": 43956,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "tutorial-step-marker",
+        "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+        "sha256": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+        "record": "assets/ui/full-game/components/tutorial-step-marker.png.generation.json",
+        "recordSha256": "25d41d37cd0c595f64c706d5dd30d821a98d618e203d551d49961812dd223766",
+        "observed": {
+          "width": 342,
+          "height": 304,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 50958,
+            "semiTransparent": 2959,
+            "opaque": 50051,
+            "bbox": [
+              16,
+              16,
+              325,
+              288
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          891,
+          178,
+          1200,
+          450
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          16
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "step",
+        "state": "default",
+        "strongPixels": 52184,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "tutorial-tap-hand",
+        "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+        "sha256": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+        "record": "assets/ui/full-game/components/tutorial-tap-hand.png.generation.json",
+        "recordSha256": "27476589e3c6557618ddc853469e273ffd97a0b07b135ce1a8959b18316e6476",
+        "observed": {
+          "width": 284,
+          "height": 396,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 62711,
+            "semiTransparent": 2979,
+            "opaque": 46774,
+            "bbox": [
+              16,
+              16,
+              268,
+              379
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          1259,
+          127,
+          1511,
+          490
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          16,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "tap",
+        "state": "default",
+        "strongPixels": 48924,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "tutorial-focus-frame",
+        "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+        "sha256": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+        "record": "assets/ui/full-game/components/tutorial-focus-frame.png.generation.json",
+        "recordSha256": "aa2f0e560bd8926bbc960aef3d0e7c1b4068e07d9b7b8664c7c00d1c15fe447f",
+        "observed": {
+          "width": 416,
+          "height": 402,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 135191,
+            "semiTransparent": 10033,
+            "opaque": 22008,
+            "bbox": [
+              16,
+              16,
+              399,
+              385
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          42,
+          568,
+          425,
+          937
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "focus",
+        "state": "default",
+        "strongPixels": 29245,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "item-voucher",
+        "file": "assets/ui/full-game/components/item-voucher.png",
+        "sha256": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+        "record": "assets/ui/full-game/components/item-voucher.png.generation.json",
+        "recordSha256": "e7fc0617a0c3866d2e1fefcf640d9f8a726a1ddca5e2b86f5a787806e4273d7d",
+        "observed": {
+          "width": 436,
+          "height": 324,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 67403,
+            "semiTransparent": 4053,
+            "opaque": 69808,
+            "bbox": [
+              16,
+              16,
+              420,
+              308
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          453,
+          622,
+          857,
+          914
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "voucher",
+        "state": "default",
+        "strongPixels": 72879,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      },
+      {
+        "id": "gift-box",
+        "file": "assets/ui/full-game/components/gift-box.png",
+        "sha256": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+        "record": "assets/ui/full-game/components/gift-box.png.generation.json",
+        "recordSha256": "2333fdacec3eb6f09ee2797e4dbae099aaf254abdbaa4d1980a42122a67bf478",
+        "observed": {
+          "width": 378,
+          "height": 360,
+          "mode": "RGBA",
+          "alpha": {
+            "range": [
+              0,
+              255
+            ],
+            "fullyTransparent": 52039,
+            "semiTransparent": 3954,
+            "opaque": 80087,
+            "bbox": [
+              16,
+              16,
+              361,
+              343
+            ],
+            "edgeAlphaMax": 0,
+            "minimumTransparentMargin": 16,
+            "zeroRgbUnderZeroAlpha": true
+          }
+        },
+        "source": {
+          "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+          "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+          "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+        },
+        "crop": [
+          880,
+          608,
+          1225,
+          935
+        ],
+        "transparentPadding": [
+          16,
+          16,
+          17,
+          17
+        ],
+        "resizePolicy": {
+          "mode": "uniform_scale_only",
+          "stretchAxes": [],
+          "uniformScaleAllowed": true,
+          "preserveAspect": true,
+          "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+        },
+        "family": "gift",
+        "state": "default",
+        "strongPixels": 82992,
+        "technicalStatus": "passed",
+        "visualStatus": "passed",
+        "issues": []
+      }
+    ],
+    "families": {
+      "rewardCard": [
+        {
+          "id": "reward-card-default",
+          "state": "default",
+          "size": [
+            514,
+            312
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "reward-card-claimable",
+          "state": "claimable",
+          "size": [
+            514,
+            312
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "reward-card-claimed",
+          "state": "claimed",
+          "size": [
+            514,
+            312
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "cosmeticCard": [
+        {
+          "id": "cosmetic-card-unselected",
+          "state": "unselected",
+          "size": [
+            462,
+            608
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "cosmetic-card-selected",
+          "state": "selected",
+          "size": [
+            462,
+            608
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "cosmetic-card-in-use",
+          "state": "inUse",
+          "size": [
+            462,
+            608
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "achievement": [
+        {
+          "id": "achievement-frame-locked",
+          "state": "locked",
+          "size": [
+            618,
+            526
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "achievement-frame-unlocked",
+          "state": "unlocked",
+          "size": [
+            618,
+            526
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "rank": [
+        {
+          "id": "rank-marker-gold",
+          "state": "gold",
+          "size": [
+            486,
+            498
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "rank-marker-silver",
+          "state": "silver",
+          "size": [
+            486,
+            498
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "rank-marker-bronze",
+          "state": "bronze",
+          "size": [
+            486,
+            498
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "itemSlot": [
+        {
+          "id": "item-slot-default",
+          "state": "default",
+          "size": [
+            660,
+            508
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "item-slot-selected",
+          "state": "selected",
+          "size": [
+            660,
+            508
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "item-slot-disabled",
+          "state": "disabled",
+          "size": [
+            660,
+            508
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "id": "item-slot-new",
+          "state": "new",
+          "size": [
+            660,
+            508
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "spotlight": [
+        {
+          "id": "tutorial-spotlight-ring",
+          "state": "default",
+          "size": [
+            482,
+            474
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "arrow": [
+        {
+          "id": "tutorial-arrow",
+          "state": "default",
+          "size": [
+            396,
+            334
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "step": [
+        {
+          "id": "tutorial-step-marker",
+          "state": "default",
+          "size": [
+            342,
+            304
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "tap": [
+        {
+          "id": "tutorial-tap-hand",
+          "state": "default",
+          "size": [
+            284,
+            396
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "focus": [
+        {
+          "id": "tutorial-focus-frame",
+          "state": "default",
+          "size": [
+            416,
+            402
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "voucher": [
+        {
+          "id": "item-voucher",
+          "state": "default",
+          "size": [
+            436,
+            324
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ],
+      "gift": [
+        {
+          "id": "gift-box",
+          "state": "default",
+          "size": [
+            378,
+            360
+          ],
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ]
+    },
+    "familyCanvasIssues": [],
+    "sourceStrongPixelCoverage": [
+      {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "sourceAlphaAtLeast128": 981202,
+        "exportedAlphaAtLeast128": 981202,
+        "allStrongPixelsRetainedExactlyOnceByCount": true
+      },
+      {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "sourceAlphaAtLeast128": 616890,
+        "exportedAlphaAtLeast128": 616890,
+        "allStrongPixelsRetainedExactlyOnceByCount": true
+      },
+      {
+        "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+        "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+        "sourceAlphaAtLeast128": 872804,
+        "exportedAlphaAtLeast128": 872804,
+        "allStrongPixelsRetainedExactlyOnceByCount": true
+      },
+      {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "sourceAlphaAtLeast128": 386449,
+        "exportedAlphaAtLeast128": 386449,
+        "allStrongPixelsRetainedExactlyOnceByCount": true
+      }
+    ],
+    "visualReview": {
+      "status": "passed",
+      "previews": [
+        {
+          "file": "work/full-game-ui/components/qa/cards-badges-light.png",
+          "sha256": "aa30b5c6dce5e75db227c37a9f5056621dca58170d0f4a5f83dfe1f26cc92e46",
+          "actuallyViewed": true,
+          "status": "passed"
+        },
+        {
+          "file": "work/full-game-ui/components/qa/cards-badges-dark.png",
+          "sha256": "257797e59e676d83b634fd5dddaadd66e825e49ac10fa5c1841377d642430d66",
+          "actuallyViewed": true,
+          "status": "passed"
+        },
+        {
+          "file": "work/full-game-ui/components/qa/slots-tutorial-light.png",
+          "sha256": "278df68cf411762d609045f2a6f9d45343330d1c5d58d20a2a3502317f1f65e9",
+          "actuallyViewed": true,
+          "status": "passed"
+        },
+        {
+          "file": "work/full-game-ui/components/qa/slots-tutorial-dark.png",
+          "sha256": "ec22a73801be8361366862dbf4da11884877f80a948ca762055632c9bc97c8dd",
+          "actuallyViewed": true,
+          "status": "passed"
+        }
+      ],
+      "observations": [
+        "All 22 final cutouts actually inspected on both supplied backgrounds; clean silhouettes, complete ribbon/hand/crown/cloud ornaments, no adjacent atlas fragments.",
+        "Reward claimable is bright, claimed is muted; cosmetic selected and in-use states differ by badge; rank medals gold/silver/bronze differ clearly.",
+        "Item slots preserve same family canvas while new ribbon remains fully within transparent margins.",
+        "Achievement frames, tutorial spotlight ring and focus frame have real transparent centers; glow is intentional semitransparency."
+      ]
+    },
+    "reuseBaselinePNGChanges": [],
+    "status": "passed",
+    "compositionValidation": {
+      "file": "assets/ui/full-game/components/compositions.json",
+      "sha256": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff",
+      "compositionCount": 7,
+      "stateFamilyCount": 12,
+      "reusedAssetCount": 23,
+      "resolvedReferences": [
+        {
+          "location": ".compositions.rewardCard.states.default.skin",
+          "id": "reward-card-default",
+          "file": "assets/ui/full-game/components/reward-card-default.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rewardCard.states.claimable.skin",
+          "id": "reward-card-claimable",
+          "file": "assets/ui/full-game/components/reward-card-claimable.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rewardCard.states.claimed.skin",
+          "id": "reward-card-claimed",
+          "file": "assets/ui/full-game/components/reward-card-claimed.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.achievement.states.locked.skin",
+          "id": "achievement-frame-locked",
+          "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.achievement.states.unlocked.skin",
+          "id": "achievement-frame-unlocked",
+          "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rank.ranks.1",
+          "id": "rank-marker-gold",
+          "file": "assets/ui/full-game/components/rank-marker-gold.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rank.ranks.2",
+          "id": "rank-marker-silver",
+          "file": "assets/ui/full-game/components/rank-marker-silver.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rank.ranks.3",
+          "id": "rank-marker-bronze",
+          "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.cosmeticCard.states.unselected.skin",
+          "id": "cosmetic-card-unselected",
+          "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.cosmeticCard.states.selected.skin",
+          "id": "cosmetic-card-selected",
+          "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.cosmeticCard.states.inUse.skin",
+          "id": "cosmetic-card-in-use",
+          "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.inventorySlot.states.default.skin",
+          "id": "item-slot-default",
+          "file": "assets/ui/full-game/components/item-slot-default.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.inventorySlot.states.selected.skin",
+          "id": "item-slot-selected",
+          "file": "assets/ui/full-game/components/item-slot-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.inventorySlot.states.disabled.skin",
+          "id": "item-slot-disabled",
+          "file": "assets/ui/full-game/components/item-slot-disabled.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.inventorySlot.states.new.skin",
+          "id": "item-slot-new",
+          "file": "assets/ui/full-game/components/item-slot-new.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.tutorial.sprites.spotlight",
+          "id": "tutorial-spotlight-ring",
+          "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.tutorial.sprites.arrow",
+          "id": "tutorial-arrow",
+          "file": "assets/ui/full-game/components/tutorial-arrow.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.tutorial.sprites.step",
+          "id": "tutorial-step-marker",
+          "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.tutorial.sprites.tap",
+          "id": "tutorial-tap-hand",
+          "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.tutorial.sprites.focus",
+          "id": "tutorial-focus-frame",
+          "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rewardItems.icons.voucher",
+          "id": "item-voucher",
+          "file": "assets/ui/full-game/components/item-voucher.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".compositions.rewardItems.icons.gift",
+          "id": "gift-box",
+          "file": "assets/ui/full-game/components/gift-box.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[0]",
+          "id": "window-frame",
+          "file": "assets/ui/common/window-frame.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[1]",
+          "id": "title-plaque",
+          "file": "assets/ui/common/title-plaque.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[2]",
+          "id": "content-card",
+          "file": "assets/ui/common/content-card.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[3]",
+          "id": "button-primary-normal",
+          "file": "assets/ui/common/button-primary-normal.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[4]",
+          "id": "button-primary-pressed",
+          "file": "assets/ui/common/button-primary-pressed.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[5]",
+          "id": "button-primary-selected",
+          "file": "assets/ui/common/button-primary-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[6]",
+          "id": "button-primary-disabled",
+          "file": "assets/ui/common/button-primary-disabled.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[7]",
+          "id": "button-secondary-normal",
+          "file": "assets/ui/common/button-secondary-normal.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[8]",
+          "id": "button-secondary-pressed",
+          "file": "assets/ui/common/button-secondary-pressed.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[9]",
+          "id": "button-secondary-selected",
+          "file": "assets/ui/common/button-secondary-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[10]",
+          "id": "button-secondary-disabled",
+          "file": "assets/ui/common/button-secondary-disabled.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[11]",
+          "id": "tab-selected",
+          "file": "assets/ui/common/tab-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[12]",
+          "id": "tab-normal",
+          "file": "assets/ui/common/tab-normal.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[13]",
+          "id": "input-field",
+          "file": "assets/ui/common/input-field.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[14]",
+          "id": "icon-search",
+          "file": "assets/ui/common/icon-search.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[15]",
+          "id": "icon-close",
+          "file": "assets/ui/common/icon-close.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[16]",
+          "id": "icon-back",
+          "file": "assets/ui/common/icon-back.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[17]",
+          "id": "icon-confirm",
+          "file": "assets/ui/common/icon-confirm.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[18]",
+          "id": "icon-lock",
+          "file": "assets/ui/common/icon-lock.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[19]",
+          "id": "tooltip-bubble",
+          "file": "assets/ui/common/tooltip-bubble.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[20]",
+          "id": "modal-shade",
+          "file": "assets/ui/common/modal-shade.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[21]",
+          "id": "unread-badge",
+          "file": "assets/ui/common/unread-badge.png",
+          "hashMatches": true
+        },
+        {
+          "location": ".reuse.ids[22]",
+          "id": "loading-ring",
+          "file": "assets/ui/common/loading-ring.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rewardCard.states.default",
+          "id": "reward-card-default",
+          "file": "assets/ui/full-game/components/reward-card-default.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rewardCard.states.claimable",
+          "id": "reward-card-claimable",
+          "file": "assets/ui/full-game/components/reward-card-claimable.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rewardCard.states.claimed",
+          "id": "reward-card-claimed",
+          "file": "assets/ui/full-game/components/reward-card-claimed.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.cosmeticCard.states.unselected",
+          "id": "cosmetic-card-unselected",
+          "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.cosmeticCard.states.selected",
+          "id": "cosmetic-card-selected",
+          "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.cosmeticCard.states.inUse",
+          "id": "cosmetic-card-in-use",
+          "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.achievement.states.locked",
+          "id": "achievement-frame-locked",
+          "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.achievement.states.unlocked",
+          "id": "achievement-frame-unlocked",
+          "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rank.states.gold",
+          "id": "rank-marker-gold",
+          "file": "assets/ui/full-game/components/rank-marker-gold.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rank.states.silver",
+          "id": "rank-marker-silver",
+          "file": "assets/ui/full-game/components/rank-marker-silver.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.rank.states.bronze",
+          "id": "rank-marker-bronze",
+          "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.itemSlot.states.default",
+          "id": "item-slot-default",
+          "file": "assets/ui/full-game/components/item-slot-default.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.itemSlot.states.selected",
+          "id": "item-slot-selected",
+          "file": "assets/ui/full-game/components/item-slot-selected.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.itemSlot.states.disabled",
+          "id": "item-slot-disabled",
+          "file": "assets/ui/full-game/components/item-slot-disabled.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.itemSlot.states.new",
+          "id": "item-slot-new",
+          "file": "assets/ui/full-game/components/item-slot-new.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.spotlight.states.default",
+          "id": "tutorial-spotlight-ring",
+          "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.arrow.states.default",
+          "id": "tutorial-arrow",
+          "file": "assets/ui/full-game/components/tutorial-arrow.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.step.states.default",
+          "id": "tutorial-step-marker",
+          "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.tap.states.default",
+          "id": "tutorial-tap-hand",
+          "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.focus.states.default",
+          "id": "tutorial-focus-frame",
+          "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.voucher.states.default",
+          "id": "item-voucher",
+          "file": "assets/ui/full-game/components/item-voucher.png",
+          "hashMatches": true
+        },
+        {
+          "location": "stateFamilies.gift.states.default",
+          "id": "gift-box",
+          "file": "assets/ui/full-game/components/gift-box.png",
+          "hashMatches": true
+        }
+      ],
+      "issues": [],
+      "status": "passed"
+    },
+    "all22PNGUnchangedFromIndependentVisualReview": true,
+    "arrowHotspotValidation": {
+      "status": "passed",
+      "pointPixels": [
+        350,
+        313
+      ],
+      "pointNormalized": [
+        0.8838383838383839,
+        0.937125748502994
+      ],
+      "sampleAlpha": 245,
+      "lowestStrongRowY": 315,
+      "lowestStrongRowXRange": [
+        344,
+        351
+      ],
+      "sidecarManifestCompositionAgree": true,
+      "evidenceThresholdInterpretation": "Strong row evidence uses alpha > 128; neighboring x=343 at y=315 is exactly alpha128 and is excluded from that range."
+    },
+    "producerFinalStatus": "passed",
+    "producerQA": {
+      "file": "assets/ui/full-game/components/qa.json",
+      "sha256": "051dd4a4631624bd88e1fc2433f72a430ba6023f67122d4be69d626a5c6976d5",
+      "status": "passed"
+    }
+  },
+  "manifestValidation": [
+    {
+      "manifest": "designs/ui/full-game/core/manifest.json",
+      "sha256": "ec5ddc5ebe29b526bb85787802a000bfb37146a20c140f71d1e6764f78126a2a",
+      "pageCount": 5,
+      "stateMappingCount": 0,
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "manifest": "designs/ui/full-game/modules/manifest.json",
+      "sha256": "41ea7e0b99ca3cf61f7a56dc2d344859135b7be19f98d0602686d53729a055dc",
+      "pageCount": 6,
+      "stateMappingCount": 34,
+      "status": "passed",
+      "issues": []
+    }
+  ],
+  "contractValidation": {
+    "status": "passed",
+    "completedIds": [
+      "UI25",
+      "UI26",
+      "UI27",
+      "UI28",
+      "UI29",
+      "UI30",
+      "UI31",
+      "UI32"
+    ],
+    "independentPageCount": 11,
+    "ui27Steps": 3,
+    "ui29States": 2,
+    "newTransparentComponents": 22,
+    "rawComponentSources": 4,
+    "oldComponentsUnchanged": 58,
+    "failedAttemptHistory": {
+      "record": "work/full-game-ui/core/ui27-select-cleanup-failed.png.generation.json",
+      "recordSha256": "5c982dbbde0e3e2eab21c65b7a249f45e673a76ccf0e085e918fb0fd6998044c",
+      "file": "work/full-game-ui/core/ui27-select-cleanup-failed.png",
+      "pixelsPresent": false,
+      "referencedByFinal": false
+    },
+    "retainedEditSources": [
+      {
+        "file": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+        "sha256": "9771f150f7c0349054928dc4f648ab1b867f1da7482519deacf535398a3a6946",
+        "record": "designs/ui/full-game/core/ui27-tutorial-select-source.png.generation.json",
+        "productionAccepted": false,
+        "actuallyReferencedByFinal": true,
+        "status": "passed"
+      },
+      {
+        "file": "designs/ui/full-game/core/ui25-customization-source.png",
+        "sha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+        "record": "designs/ui/full-game/core/ui25-customization-source.png.generation.json",
+        "productionAccepted": false,
+        "actuallyReferencedByFinal": true,
+        "status": "passed"
+      }
+    ],
+    "nativeDimensionCounts": {
+      "1671x941": 2,
+      "1672x941": 9
+    }
+  },
+  "validationMethod": "Read-only Python/Pillow file, SHA-256, metadata, alpha and mapping checks plus actual view_image review of all 11 final full screens and 4 light/dark component contact sheets. Validators ran in memory and did not create production scripts.",
+  "limitations": [
+    "This accepts UI artwork and integration metadata, not live client behavior or game rules.",
+    "Built-in generator did not disclose verifiable model/quality; actual values remain null.",
+    "Browser/file/server execution not attempted because existing browser policy forbids file URLs and workarounds."
+  ],
+  "aggregateDomainValidation": {
+    "status": "passed",
+    "manifests": [
+      {
+        "file": "designs/ui/full-game/manifest.json",
+        "sha256AtReview": "a2a142bc1c476277eaae56191c6ad451b0a807c138a8eefe70705e004825cac7",
+        "statusAtReview": "artwork_passed_pending_domain_final_qa",
+        "sha256ExcludingStatus": "44d304b677e7a481683f8ff7c1435c758736d9a90f0631f88b2ad45b71ea94a6",
+        "postReviewStatusTransitionPermitted": true
+      },
+      {
+        "file": "assets/ui/full-game/manifest.json",
+        "sha256AtReview": "a5877c29d6ebf7b875c8fc11bb75bb02daf884632cd5cbc9b9e9cda889f7d651",
+        "statusAtReview": "passed",
+        "sha256ExcludingStatus": "7170b828c139b8bdf1137ec41209b149f327a378685fb40b7b3a369074e48818",
+        "postReviewStatusTransitionPermitted": true
+      }
+    ],
+    "sourceManifestChecks": [
+      {
+        "file": "designs/ui/full-game/core/manifest.json",
+        "expectedSha256": "ec5ddc5ebe29b526bb85787802a000bfb37146a20c140f71d1e6764f78126a2a",
+        "actualSha256": "ec5ddc5ebe29b526bb85787802a000bfb37146a20c140f71d1e6764f78126a2a",
+        "matches": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/manifest.json",
+        "expectedSha256": "41ea7e0b99ca3cf61f7a56dc2d344859135b7be19f98d0602686d53729a055dc",
+        "actualSha256": "41ea7e0b99ca3cf61f7a56dc2d344859135b7be19f98d0602686d53729a055dc",
+        "matches": true
+      },
+      {
+        "file": "assets/ui/full-game/components/manifest.json",
+        "expectedSha256": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf",
+        "actualSha256": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf",
+        "matches": true
+      }
+    ],
+    "counts": {
+      "uiIds": 8,
+      "pages": 11,
+      "components": 22,
+      "primaryAssets": 33
+    },
+    "themeBindings": {
+      "file": "assets/ui/full-game/theme-bindings.json",
+      "sha256": "dc333d3a21fde794d10bf94c90a1a09ae6940406cc67a82f41f5d0d3fec3174e",
+      "status": "passed",
+      "actualImageCount": 6,
+      "bindings": [
+        {
+          "themeId": "jade-cloud",
+          "category": "table",
+          "conceptLabel": "青玉云纹",
+          "clientLabel": "青玉云纹",
+          "file": "assets/ui/gameplay/table-background.png",
+          "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+          "hashMatches": true,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "themeId": "jade-cloud",
+          "category": "tileBack",
+          "conceptLabel": "太极青玉",
+          "clientLabel": "青玉牌背",
+          "file": "assets/tiles/tile-back.png",
+          "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+          "hashMatches": true,
+          "dimensions": [
+            448,
+            640
+          ]
+        },
+        {
+          "themeId": "ivory-bamboo",
+          "category": "table",
+          "conceptLabel": "竹影清风",
+          "clientLabel": "竹韵米白",
+          "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+          "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+          "hashMatches": true,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "themeId": "ivory-bamboo",
+          "category": "tileBack",
+          "conceptLabel": "竹韵墨青",
+          "clientLabel": "竹韵牌背",
+          "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+          "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1",
+          "hashMatches": true,
+          "dimensions": [
+            448,
+            640
+          ]
+        },
+        {
+          "themeId": "moon-lotus",
+          "category": "table",
+          "conceptLabel": "月白云海",
+          "clientLabel": "月莲青蓝",
+          "file": "assets/scenes/full-game/table-moon-lotus.png",
+          "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d",
+          "hashMatches": true,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "themeId": "moon-lotus",
+          "category": "tileBack",
+          "conceptLabel": "流云暖金",
+          "clientLabel": "月莲牌背",
+          "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+          "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0",
+          "hashMatches": true,
+          "dimensions": [
+            448,
+            640
+          ]
+        }
+      ],
+      "conceptPreviewLimitationVerified": true,
+      "note": "UI25 is retained as an earlier layout concept. The client must use clientLabel and actual texture files; illustrated concept swatches are not pixel-exact final theme previews. External theme artwork itself is not re-authored or re-accepted by this UI binding check."
+    },
+    "issues": []
+  },
+  "supersededVisualEvidence": {
+    "designs/ui/full-game/core/ui25-customization.png": {
+      "status": "superseded_label_inconsistency_fixed",
+      "imageSha256": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+      "method": "Actual full PNG viewed with view_image",
+      "observations": [
+        "Tablecloth and tile-back choice groups each show three distinct options, selected checkmarks and normal options.",
+        "Preview, current use, preview-in-progress status and apply action are visible; layout-example note present.",
+        "Chinese titles and controls are readable; jade/ivory/gold visual system matches existing UI; no price/recharge content."
+      ],
+      "issues": [],
+      "issue": "Current-use tile-back caption incorrectly used tablecloth name."
+    }
+  },
+  "ui25Revision": {
+    "status": "passed",
+    "oldHash": "267909ffdec95da94621d8011856f65b2e2f1144b8428d68989ac1dbd7b22127",
+    "newHash": "2982c6d00a735205f5ac2c597215b485dccd906266ce75c1a79daadd723b02d3",
+    "retainedEditSource": "designs/ui/full-game/core/ui25-customization-source.png",
+    "frozenOthers": [
+      {
+        "file": "designs/ui/full-game/core/ui26-character-detail.png",
+        "sha256": "fcd5e35b6ccd3fc2acd90770674bee91d63311de1fe417109077b5390b2da34d",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/core/ui27-tutorial-actions.png",
+        "sha256": "0496da6f0b025e7e44da290bb107c5a9e02f85dfc8cced9cba45b55843f18aa9",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+        "sha256": "2097991c272dabec69697501c8bafbf8c25780207798f1e6d887bed4e2cf00d9",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+        "sha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui28-announcement.png",
+        "sha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui29-reward-claimed.png",
+        "sha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+        "sha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui30-achievements.png",
+        "sha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui31-ranking.png",
+        "sha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+        "unchanged": true
+      },
+      {
+        "file": "designs/ui/full-game/modules/ui32-item-collection.png",
+        "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/reward-card-default.png",
+        "sha256": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/reward-card-claimable.png",
+        "sha256": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/reward-card-claimed.png",
+        "sha256": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+        "sha256": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+        "sha256": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+        "sha256": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+        "sha256": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+        "sha256": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/rank-marker-gold.png",
+        "sha256": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/rank-marker-silver.png",
+        "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+        "sha256": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/item-slot-default.png",
+        "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/item-slot-selected.png",
+        "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/item-slot-disabled.png",
+        "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/item-slot-new.png",
+        "sha256": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+        "sha256": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/tutorial-arrow.png",
+        "sha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+        "sha256": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+        "sha256": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+        "sha256": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/item-voucher.png",
+        "sha256": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+        "unchanged": true
+      },
+      {
+        "file": "assets/ui/full-game/components/gift-box.png",
+        "sha256": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+        "unchanged": true
+      }
+    ],
+    "all10PagesAnd22ComponentsUnchanged": true
+  },
+  "historicalCleanupMetadataClarification": {
+    "record": "work/full-game-ui/core/ui27-select-cleanup-failed.png.generation.json",
+    "recordSha256BeforeClarification": "5c982dbbde0e3e2eab21c65b7a249f45e673a76ccf0e085e918fb0fd6998044c",
+    "recordSha256AfterClarification": "cd847972499704a4c5430756076d8103add7a074eefbbf810eb1bf6c04b2ac81",
+    "clarifiedAt": "2026-10-26T21:08:18.373408+00:00",
+    "oldReviewRecordSha256IsHistorical": true,
+    "productionImageChanged": false,
+    "replacement": "designs/ui/full-game/core/ui27-tutorial-select.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "file": "designs/props/full-game/previews/items-contact.png",
+  "sha256": "7a8f5e70f57ab7ed86b528e6d78b12cf8f64f42c1350b49d568cb4379e4c522f",
+  "createdAt": "2026-10-26T16:41:12.025429+00:00",
+  "tool": "Pillow labeled contact preview",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Contact sheet assembly only, no model generation",
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/items/avatar-voucher.png",
+      "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+      "generationRecord": "assets/props/full-game/items/avatar-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tablecloth-voucher.png",
+      "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+      "generationRecord": "assets/props/full-game/items/tablecloth-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tile-back-voucher.png",
+      "sha256": "0f185b4ea121120c4afe1c3b6807ba7ebab5a6c66e1c4f55e998eac0d7a1a9f9",
+      "generationRecord": "assets/props/full-game/items/tile-back-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/emote-voucher.png",
+      "sha256": "61e32fdc025026c54d68d1d11ddc35eed9543361109881300a49c7dc8a2405c6",
+      "generationRecord": "assets/props/full-game/items/emote-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/experience-scroll.png",
+      "sha256": "2b1df2519402a057ba7f3a68bd7b816c4b757dfb37b30ec54c6f7310da26cd16",
+      "generationRecord": "assets/props/full-game/items/experience-scroll.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/achievement-medal.png",
+      "sha256": "b0c7e46d56a6fe25ab355e11e53a02595b0c259a048c10ccf7679db704507056",
+      "generationRecord": "assets/props/full-game/items/achievement-medal.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/gift-box.png",
+      "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+      "generationRecord": "assets/props/full-game/items/gift-box.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/brocade-pouch.png",
+      "sha256": "8d1434fa4a7e2dd639e9ebb182b35d4f486d4ae726e25357fa5edb253bdeda19",
+      "generationRecord": "assets/props/full-game/items/brocade-pouch.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/envelope.png",
+      "sha256": "230648fb8d25c7e8c98ebfd002e7936b11d7b9823f0ce533cd2c61e2f004829e",
+      "generationRecord": "assets/props/full-game/items/envelope.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/jade-pendant.png",
+      "sha256": "ce6e85ed21856425ff8c13854b34ba2e196ae461be386f92cb156c99f2767c3b",
+      "generationRecord": "assets/props/full-game/items/jade-pendant.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/peach-blossom.png",
+      "sha256": "8e3076e1b5999fed476785b03810846d713408e596068161ac50725fc3f318eb",
+      "generationRecord": "assets/props/full-game/items/peach-blossom.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/golden-gourd.png",
+      "sha256": "d66c9c7bdfe6f1ca96c9657d1c539d1c278bdd5bfd531808b40f133ebda0e05b",
+      "generationRecord": "assets/props/full-game/items/golden-gourd.png.generation.json"
+    }
+  ],
+  "operation": "uniform downscale and compose final assets with native preview labels",
+  "width": 1380,
+  "height": 630,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual preview inspection",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  }
+}

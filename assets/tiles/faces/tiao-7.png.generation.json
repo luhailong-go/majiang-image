@@ -1,0 +1,44 @@
+{
+  "file": "assets/tiles/faces/tiao-7.png",
+  "sha256": "c238b463958fccf4ce130127e2a1f52111c7fe7942cba836257cc2d67a523a62",
+  "createdAt": "2026-10-26T08:25:50.165Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    }
+  ],
+  "operation": [
+    "alpha composite exact vector symbol over generated hand-painted blank tile"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/tiao-7.svg",
+    "sha256": "3dd19e4cfcc3f23cb0531acfb249d837566a36610951eae448330c92ca7e7bdc"
+  },
+  "symbolRenderer": "sharp/librsvg, vector paths without runtime font dependency",
+  "semantic": {
+    "label": "七条",
+    "suit": "bamboo",
+    "rank": 7,
+    "pipCount": null,
+    "bambooCount": 7,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  }
+}

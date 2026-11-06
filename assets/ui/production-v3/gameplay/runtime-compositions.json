@@ -1,0 +1,2586 @@
+{
+  "schemaVersion": 1,
+  "domain": "production-v3-gameplay",
+  "generatedAt": "2026-10-28T10:01:01.135917+00:00",
+  "status": "passed",
+  "coordinateSystem": {
+    "canvas": [
+      1672,
+      941
+    ],
+    "origin": "top-left",
+    "units": "design pixels",
+    "x": "right",
+    "y": "down",
+    "rotation": "clockwise",
+    "centeredSpriteAnchors": [
+      0.5,
+      0.5
+    ],
+    "defaultFit": "contain preserving source aspect",
+    "noMirroring": true
+  },
+  "assetRegistry": {
+    "wan-1": {
+      "file": "assets/tiles/faces/wan-1.png",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-2": {
+      "file": "assets/tiles/faces/wan-2.png",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-3": {
+      "file": "assets/tiles/faces/wan-3.png",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-4": {
+      "file": "assets/tiles/faces/wan-4.png",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-5": {
+      "file": "assets/tiles/faces/wan-5.png",
+      "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-6": {
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-7": {
+      "file": "assets/tiles/faces/wan-7.png",
+      "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-8": {
+      "file": "assets/tiles/faces/wan-8.png",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wan-9": {
+      "file": "assets/tiles/faces/wan-9.png",
+      "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-1": {
+      "file": "assets/tiles/faces/tong-1.png",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-2": {
+      "file": "assets/tiles/faces/tong-2.png",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-3": {
+      "file": "assets/tiles/faces/tong-3.png",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-4": {
+      "file": "assets/tiles/faces/tong-4.png",
+      "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-5": {
+      "file": "assets/tiles/faces/tong-5.png",
+      "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-6": {
+      "file": "assets/tiles/faces/tong-6.png",
+      "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-7": {
+      "file": "assets/tiles/faces/tong-7.png",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-8": {
+      "file": "assets/tiles/faces/tong-8.png",
+      "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tong-9": {
+      "file": "assets/tiles/faces/tong-9.png",
+      "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-1": {
+      "file": "assets/tiles/faces/tiao-1.png",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-2": {
+      "file": "assets/tiles/faces/tiao-2.png",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-3": {
+      "file": "assets/tiles/faces/tiao-3.png",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-4": {
+      "file": "assets/tiles/faces/tiao-4.png",
+      "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-5": {
+      "file": "assets/tiles/faces/tiao-5.png",
+      "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-6": {
+      "file": "assets/tiles/faces/tiao-6.png",
+      "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-7": {
+      "file": "assets/tiles/faces/tiao-7.png",
+      "sha256": "c238b463958fccf4ce130127e2a1f52111c7fe7942cba836257cc2d67a523a62",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-8": {
+      "file": "assets/tiles/faces/tiao-8.png",
+      "sha256": "95a27fd4fbc885c87c9d3984bcc9fefc8e75ebf620a2926d32a8fffba4692060",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tiao-9": {
+      "file": "assets/tiles/faces/tiao-9.png",
+      "sha256": "7ba8063ee00305af2f4b1d94418f7f87464c21d07582ca25d69cb5f0fcc4dc87",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wind-east": {
+      "file": "assets/tiles/faces/wind-east.png",
+      "sha256": "2723f83ff503861a4add614eab3f0fe82c09766a994d20ecc8fbba7809396476",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wind-south": {
+      "file": "assets/tiles/faces/wind-south.png",
+      "sha256": "27dcca17fb90112fcf05a8d6b9a2887b1e22077b8eaa1a1a929b9f8bbedaa069",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wind-west": {
+      "file": "assets/tiles/faces/wind-west.png",
+      "sha256": "bc5c4b94ef101eb8d9d253386f2ed3096fffbcd86c91eead7601af8d75968bfb",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wind-north": {
+      "file": "assets/tiles/faces/wind-north.png",
+      "sha256": "54e3b481009dba1cae244f08179ca877505e7a3f8426f8862daf27a624b9fca6",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "dragon-red": {
+      "file": "assets/tiles/faces/dragon-red.png",
+      "sha256": "d2e84f21eeb3000e620e46adc58b63492333741e585c66c8fde9a60139620f18",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "dragon-green": {
+      "file": "assets/tiles/faces/dragon-green.png",
+      "sha256": "7abb6f5b4c13cd0effc319dccc2e9fc2f318b5fbd571707aab3a2a75403e16f7",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "dragon-white": {
+      "file": "assets/tiles/faces/dragon-white.png",
+      "sha256": "0cdaf0479317c425f631c8ea9c9ec5bb6142319556c6fb0adf7e190043f5952f",
+      "sourceManifest": "assets/tiles/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-plum": {
+      "file": "assets/tiles/flowers/plum.png",
+      "sha256": "a936086185b1532e7a268241deed185157c4ab552d3e1f4dd1c48c929e73f3d5",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-orchid": {
+      "file": "assets/tiles/flowers/orchid.png",
+      "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-bamboo": {
+      "file": "assets/tiles/flowers/bamboo.png",
+      "sha256": "e7fd7e6f3e8b3bd323c263505fd514ee50e4975b3d0561191f127c29735850fc",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-chrysanthemum": {
+      "file": "assets/tiles/flowers/chrysanthemum.png",
+      "sha256": "df2771dc3cf873ff7d1f284b20802eae316012b922f16f70a81c85c5e84b9b4b",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-spring": {
+      "file": "assets/tiles/flowers/spring.png",
+      "sha256": "caf8dfbfc7deb40e514fe36e0fc61fc7793edbd4637d27d679a7d2460e119f8c",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-summer": {
+      "file": "assets/tiles/flowers/summer.png",
+      "sha256": "3e5ea86e67f94d5dca99c7754d7da2e30acb28e867eca49d52d7a6212644a31b",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-autumn": {
+      "file": "assets/tiles/flowers/autumn.png",
+      "sha256": "6b788308fa85b90ebc6f1b81b1fa1164660d27b9b2780d26dde1fd3ffa0fe92a",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "flower-winter": {
+      "file": "assets/tiles/flowers/winter.png",
+      "sha256": "de117f1a733a8b10a9564874ee8b74d744bcb7a0c1639bcf021046951e16a676",
+      "sourceManifest": "assets/tiles/flowers/manifest.json",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "wind-round-dial": {
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        461,
+        438
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "avatar-frame": {
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        370,
+        378
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "countdown-frame": {
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        300,
+        311
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "dealer-badge": {
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        331,
+        271
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "current-player-ring": {
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        439,
+        394
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "offline-badge": {
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        276,
+        266
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "autoplay-badge": {
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        276,
+        266
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "action-button-normal": {
+      "file": "assets/ui/gameplay/action-button-normal.png",
+      "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        546,
+        192
+      ],
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "settlement-card": {
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        285,
+        360
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "action-button-pressed": {
+      "file": "assets/ui/gameplay/action-button-pressed.png",
+      "sha256": "c8ed24e9a30dea4c839f32d3488bb3f990868da336b0d7ee9a8a199c78b70933",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        546,
+        192
+      ],
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "action-button-selected": {
+      "file": "assets/ui/gameplay/action-button-selected.png",
+      "sha256": "3639caf87fc4f6da58caf186b8085d1e493effdfdd59cb7e60c2a58413b4d109",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        546,
+        192
+      ],
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "action-button-disabled": {
+      "file": "assets/ui/gameplay/action-button-disabled.png",
+      "sha256": "85bb9eb97bd66f54381cb4d3759ddab5d73c5abb1c15a59ea17f3436d9fad9b6",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        546,
+        192
+      ],
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "table-background": {
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "sourceManifest": "assets/ui/gameplay/manifest.json",
+      "size": [
+        1672,
+        941
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_cover_or_contain",
+        "stretchAxes": [],
+        "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+      }
+    },
+    "window-frame": {
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        1642,
+        888
+      ],
+      "nineSlice": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "title-plaque": {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        620,
+        214
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "content-card": {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        582,
+        235
+      ],
+      "nineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "button-primary-normal": {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-secondary-normal": {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "tab-selected": {
+      "file": "assets/ui/common/tab-selected.png",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        470,
+        145
+      ],
+      "nineSlice": [
+        60,
+        24,
+        60,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "tab-normal": {
+      "file": "assets/ui/common/tab-normal.png",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        473,
+        144
+      ],
+      "nineSlice": [
+        60,
+        24,
+        60,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "input-field": {
+      "file": "assets/ui/common/input-field.png",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        588,
+        156
+      ],
+      "nineSlice": [
+        34,
+        30,
+        34,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "tooltip-bubble": {
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "sha256": "af225de902f6aad2c61e930e1af2c2cf93eea3b0c5db828f35eea67f4e66dfc1",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        516,
+        203
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-settings": {
+      "file": "assets/ui/common/icon-settings.png",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        260,
+        253
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-close": {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        272,
+        271
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-back": {
+      "file": "assets/ui/common/icon-back.png",
+      "sha256": "52b06a7869c96b37f7e07560b39cb5868e4dbf77e0096fdf7c8eafecd07571fa",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        251,
+        204
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-chat": {
+      "file": "assets/ui/common/icon-chat.png",
+      "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        274,
+        228
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-profile": {
+      "file": "assets/ui/common/icon-profile.png",
+      "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        222,
+        233
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-friends": {
+      "file": "assets/ui/common/icon-friends.png",
+      "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        265,
+        211
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-mail": {
+      "file": "assets/ui/common/icon-mail.png",
+      "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        255,
+        182
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-records": {
+      "file": "assets/ui/common/icon-records.png",
+      "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        243,
+        237
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-sound": {
+      "file": "assets/ui/common/icon-sound.png",
+      "sha256": "e289749a1368c5757679e174ccc5e7622cbbe33fc0a8c411c50e0501184165a9",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        247,
+        204
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-muted": {
+      "file": "assets/ui/common/icon-muted.png",
+      "sha256": "bc8b473feea1b7b8314983a03b7d4571a3cd804e12510663f4d232444cdaa04d",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        239,
+        204
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "checkbox-on": {
+      "file": "assets/ui/common/checkbox-on.png",
+      "sha256": "d4429b96395bea568561b73c53b9c99d2b5efdaed732d75cb76fe1c45bae8848",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        195,
+        188
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "checkbox-off": {
+      "file": "assets/ui/common/checkbox-off.png",
+      "sha256": "328b8eb3050742f591545c9041c4fb88cdfe2998b882943fcb8c93b5778a10b7",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        194,
+        192
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "radio-on": {
+      "file": "assets/ui/common/radio-on.png",
+      "sha256": "4ca53a085a6120abec65c1ecd7bffea02d4cef602ff26d89d952913856e78a78",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        215,
+        210
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "radio-off": {
+      "file": "assets/ui/common/radio-off.png",
+      "sha256": "1dffc3231921d1165cb47b0dcc0582fee4d3c19ba047cdc8109a27aea8c67d37",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        216,
+        215
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "slider-thumb": {
+      "file": "assets/ui/common/slider-thumb.png",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        172,
+        185
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "scrollbar-thumb": {
+      "file": "assets/ui/common/scrollbar-thumb.png",
+      "sha256": "fb2da278a492a57119715966c6be3cb65259ca38fe6af6672caebdb72bf16c4b",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        103,
+        231
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "slider-track": {
+      "file": "assets/ui/common/slider-track.png",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        359,
+        95
+      ],
+      "nineSlice": [
+        45,
+        24,
+        45,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "scrollbar-track": {
+      "file": "assets/ui/common/scrollbar-track.png",
+      "sha256": "d9bc433d95c675b846f628c044c58f656563338068c06b229e293d5b4459621e",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        75,
+        229
+      ],
+      "nineSlice": [
+        24,
+        45,
+        24,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "unread-badge": {
+      "file": "assets/ui/common/unread-badge.png",
+      "sha256": "f64b597986f24d914d977e11e122c4a8126a910021d6c9b68c9296187fd3e303",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        137,
+        135
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "loading-ring": {
+      "file": "assets/ui/common/loading-ring.png",
+      "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        215,
+        226
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "button-primary-pressed": {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-primary-selected": {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-primary-disabled": {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-secondary-pressed": {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-secondary-selected": {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "button-secondary-disabled": {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        577,
+        178
+      ],
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      }
+    },
+    "keypad-key": {
+      "file": "assets/ui/common/keypad-key.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        582,
+        235
+      ],
+      "nineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      }
+    },
+    "modal-shade": {
+      "file": "assets/ui/common/modal-shade.png",
+      "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        8,
+        8
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "viewport_stretch",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "reason": "Constant RGBA runtime overlay."
+      }
+    },
+    "icon-search": {
+      "file": "assets/ui/common/icon-search.png",
+      "sha256": "598b7103601dfa8b05a7b67e970b2f6526a38b35841f409649e31f7248444320",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        389,
+        379
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-add": {
+      "file": "assets/ui/common/icon-add.png",
+      "sha256": "0900e488476226ae5e6ae209c4e20a20563a1695fb3239226814b6fc7f84d07b",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        291,
+        291
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-delete": {
+      "file": "assets/ui/common/icon-delete.png",
+      "sha256": "c5269ff5f1cb142067ca6a6577aefac58a26837cd73487a365d2f1929a7f5989",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        292,
+        342
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-voice": {
+      "file": "assets/ui/common/icon-voice.png",
+      "sha256": "511a3f8f9699dcf73cc0ad793d724c8a16aabb75622f3b8bd1a27714e5fee237",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        269,
+        390
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-help": {
+      "file": "assets/ui/common/icon-help.png",
+      "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        410,
+        331
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-lock": {
+      "file": "assets/ui/common/icon-lock.png",
+      "sha256": "3109de9427f383b4f3899b5e92b56a4a487b6597c99d403b46385bc80acb1d43",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        282,
+        324
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-copy": {
+      "file": "assets/ui/common/icon-copy.png",
+      "sha256": "b38c1a00011556f29bdd2a840fb0cce0ef6d4440d07cf9bafec4991b9ae65996",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        319,
+        294
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "icon-confirm": {
+      "file": "assets/ui/common/icon-confirm.png",
+      "sha256": "0c865dd0fad296a2d879f55c04c8f3755db07ed4b6a32c8a04d1138cb439b437",
+      "sourceManifest": "assets/ui/common/manifest.json",
+      "size": [
+        342,
+        300
+      ],
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      }
+    },
+    "candidate-panel": {
+      "file": "assets/ui/production-v3/gameplay/candidate-panel.png",
+      "sha256": "8f8f78fe02a243c28eb77e9ce400af590a86dd79faac39e60d63d549ad5ed6db",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        756,
+        323
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "ready-hand-panel": {
+      "file": "assets/ui/production-v3/gameplay/ready-hand-panel.png",
+      "sha256": "10a15d8a0c76d7c8b26590ddf3905ec3160c4681dda4c85984935c88e89229d2",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        511,
+        310
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "candidate-selected-outline": {
+      "file": "assets/ui/production-v3/gameplay/candidate-selected-outline.png",
+      "sha256": "2ca0515c49fd9b5c70e62dd215f3f93c08127c8b30be0b17c67de32b42323108",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        703,
+        341
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "illegal-tile-badge": {
+      "file": "assets/ui/production-v3/gameplay/illegal-tile-badge.png",
+      "sha256": "ebf0afe9e71803aaf1d43510550103279e79c198f9142920c73eaa508ce70f2d",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        288,
+        284
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "discard-pointer": {
+      "file": "assets/ui/production-v3/gameplay/discard-pointer.png",
+      "sha256": "8c5c7127b9a71338d553bc6a5bca2744282ee08e1e323e4b6b31e5e1a85f2feb",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        242,
+        265
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "ready-hand-badge": {
+      "file": "assets/ui/production-v3/gameplay/ready-hand-badge.png",
+      "sha256": "62a720dd5876feba3ce3884f7b69d9599c8d99bc18da2702dd48c292d9edd4d4",
+      "sourceManifest": "assets/ui/production-v3/gameplay/manifest.json",
+      "size": [
+        274,
+        270
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tile-back": {
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tile-blank": {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "tile-highlight": {
+      "file": "assets/tiles/states/tile-highlight.png",
+      "sha256": "4ff5d2b7deaac8cf55bdebb428100ab00f6fa5e460c0c95eb5f01117128ab3e2",
+      "size": [
+        448,
+        640
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "avatar-daotong": {
+      "file": "assets/characters/avatar-daotong.png",
+      "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb",
+      "size": [
+        512,
+        512
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "avatar-healer": {
+      "file": "assets/characters/avatar-healer.png",
+      "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412",
+      "size": [
+        512,
+        512
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "avatar-master": {
+      "file": "assets/characters/avatar-master.png",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+      "size": [
+        512,
+        512
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "avatar-swordswoman": {
+      "file": "assets/characters/avatar-swordswoman.png",
+      "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c",
+      "size": [
+        512,
+        512
+      ],
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only"
+    }
+  },
+  "compositions": {
+    "table": {
+      "background": {
+        "asset": "table-background",
+        "bounds": [
+          0,
+          0,
+          1672,
+          941
+        ],
+        "fit": "contain"
+      },
+      "seats": {
+        "self": {
+          "clockwiseDegrees": 0,
+          "handOrigin": [
+            836,
+            830
+          ],
+          "handTileSize": [
+            70,
+            100
+          ],
+          "handStride": 54,
+          "meldOrigin": [
+            836,
+            756
+          ],
+          "meldTileSize": [
+            24,
+            34.2857
+          ],
+          "discardOrigin": [
+            836,
+            607
+          ],
+          "wallOrigin": [
+            836,
+            710
+          ],
+          "avatarCenter": [
+            120,
+            800
+          ],
+          "sampleWind": "北",
+          "avatar": "avatar-daotong"
+        },
+        "left": {
+          "clockwiseDegrees": 90,
+          "handOrigin": [
+            290,
+            465
+          ],
+          "handTileSize": [
+            35,
+            50
+          ],
+          "handStride": 28,
+          "meldOrigin": [
+            358,
+            465
+          ],
+          "discardOrigin": [
+            551,
+            465
+          ],
+          "wallOrigin": [
+            422,
+            465
+          ],
+          "avatarCenter": [
+            122,
+            396
+          ],
+          "sampleWind": "东",
+          "avatar": "avatar-master"
+        },
+        "opposite": {
+          "clockwiseDegrees": 180,
+          "handOrigin": [
+            836,
+            211
+          ],
+          "handTileSize": [
+            30,
+            42.8571
+          ],
+          "handStride": 24,
+          "meldOrigin": [
+            836,
+            258
+          ],
+          "meldTileSize": [
+            24,
+            34.2857
+          ],
+          "discardOrigin": [
+            836,
+            360
+          ],
+          "wallOrigin": [
+            836,
+            306
+          ],
+          "wallTileSize": [
+            21,
+            30
+          ],
+          "avatarCenter": [
+            836,
+            96
+          ],
+          "sampleWind": "南",
+          "avatar": "avatar-healer"
+        },
+        "right": {
+          "clockwiseDegrees": 270,
+          "handOrigin": [
+            1382,
+            465
+          ],
+          "handTileSize": [
+            35,
+            50
+          ],
+          "handStride": 28,
+          "meldOrigin": [
+            1314,
+            465
+          ],
+          "discardOrigin": [
+            1121,
+            465
+          ],
+          "wallOrigin": [
+            1250,
+            465
+          ],
+          "avatarCenter": [
+            1550,
+            396
+          ],
+          "sampleWind": "西",
+          "avatar": "avatar-swordswoman"
+        }
+      },
+      "hand": {
+        "sampleCount": 13,
+        "countBinding": "players[seat].concealedCount",
+        "tileIdentityBinding": "players[seat].hand[index] only for local owner or revealed state",
+        "concealedAsset": "tile-back",
+        "concealedRemoteFacesForbidden": true,
+        "centered": true,
+        "drawnTileGapAtSelfPx": 28,
+        "selectedRaiseLocalPx": [
+          0,
+          -12
+        ],
+        "render": "uniform source scale; rotate entire raster clockwise by seat; never mirror",
+        "tileStates": {
+          "normal": {
+            "interactive": "serverAllowsDiscard"
+          },
+          "selected": {
+            "overlay": "tile-highlight",
+            "raise": [
+              0,
+              -12
+            ]
+          },
+          "legal": {
+            "overlay": "tile-highlight"
+          },
+          "illegal": {
+            "grayscale": 1,
+            "brightness": 0.6,
+            "interactive": false,
+            "cornerBadge": "illegal-tile-badge",
+            "badgeSize": [
+              24,
+              24
+            ]
+          },
+          "disabled": {
+            "grayscale": 1,
+            "brightness": 0.6,
+            "interactive": false
+          }
+        }
+      },
+      "wall": {
+        "asset": "tile-back",
+        "tileSize": [
+          28,
+          40
+        ],
+        "stackStrideLocal": [
+          24,
+          0
+        ],
+        "lowerOffsetLocal": [
+          0,
+          0
+        ],
+        "upperOffsetLocal": [
+          0,
+          -8
+        ],
+        "layersDrawOrder": [
+          "lower",
+          "upper"
+        ],
+        "stackCountBinding": "wall[seat].stacks.length",
+        "perStackVisibleLayersBinding": "wall[seat].stacks[index].visibleLayers",
+        "sampleStackCount": 12,
+        "maxStacksInLayout": 18,
+        "note": "Flat 2D face-down stack construction from accepted back texture; no new perspective tile or new painted wall art. Absent stack/layer must not be drawn; no hardcoded 136/144 tile rule."
+      },
+      "discardGrid": {
+        "tileSize": [
+          31.5,
+          45
+        ],
+        "columns": 6,
+        "stepLocal": [
+          34,
+          47
+        ],
+        "firstLocalOffset": [
+          -85,
+          -47
+        ],
+        "maxRows": 3,
+        "order": "oldest to newest in server array, local columns then rows",
+        "seatOverrides": {
+          "opposite": {
+            "tileSize": [
+              25.2,
+              36
+            ],
+            "stepLocal": [
+              28,
+              38
+            ],
+            "maxRows": 2,
+            "firstLocalOffset": [
+              -70,
+              -19
+            ]
+          }
+        },
+        "countBinding": "discards[seat].length",
+        "lastDiscard": {
+          "asset": "discard-pointer",
+          "size": [
+            22,
+            24
+          ],
+          "localOffset": [
+            0,
+            -38
+          ],
+          "targetBinding": "lastDiscard.seat/index",
+          "pointTowardTile": true,
+          "visibleOnlyIfTileStillInDiscardPool": true,
+          "notAnActionAvailabilitySignal": true
+        },
+        "overflow": "Use continuation page/row reflow from client; never overlap or shrink glyphs below stated tile size."
+      },
+      "meldStrip": {
+        "tileSize": [
+          31.5,
+          45
+        ],
+        "groupGap": 12,
+        "tileGap": 2,
+        "arrange": "center groups along local x; size driven by tiles and called placement",
+        "types": {
+          "triplet": {
+            "input": "3 tile ids, calledIndex 0..2 and fromSeat",
+            "calledTileRotationRelative": 90,
+            "sameIdentityRequired": true
+          },
+          "open-kong": {
+            "input": "4 same tile ids, calledIndex 0..3 and fromSeat",
+            "calledTileRotationRelative": 90,
+            "sameIdentityRequired": true
+          },
+          "added-kong": {
+            "input": "accepted triplet plus fourth of same id",
+            "extraTile": "same identity, same orientation as called tile, over called tile",
+            "extraOffsetLocal": [
+              0,
+              -18
+            ],
+            "sameIdentityRequired": true
+          },
+          "concealed-kong": {
+            "input": "four same tile ids, visibility policy from rules/server",
+            "defaultArtExample": [
+              "back",
+              "face",
+              "face",
+              "back"
+            ],
+            "hiddenTilesUse": "tile-back",
+            "noIdentityLeakForHiddenSlots": true
+          },
+          "sequence-when-supported": {
+            "optional": true,
+            "input": "3 server-validated ids and calledIndex/fromSeat",
+            "calledTileRotationRelative": 90,
+            "artDoesNotEnableSequenceRule": true
+          }
+        },
+        "calledSlotBinding": "server validated calledIndex/fromSeat; do not infer legality from art",
+        "sourceSeatRelativeMap": {
+          "fromLeft": "slot 0",
+          "fromOpposite": "middle slot",
+          "fromRight": "last slot",
+          "overriddenByServer": true
+        },
+        "seatRotationAppliedAfterMeldLocalLayout": true,
+        "drawOrder": "base tiles left to right, then added-kong top tile"
+      },
+      "statusLayer": {
+        "avatarFrame": "avatar-frame",
+        "avatarSize": [
+          96,
+          96
+        ],
+        "avatarMask": "native circular clip inside frame; do not alter source pixels",
+        "frameSize": [
+          111,
+          113.4
+        ],
+        "nameplate": "button-primary-normal (uniform fit, native label)",
+        "currentPlayer": "current-player-ring",
+        "currentRingSize": [
+          128,
+          114.9
+        ],
+        "dealer": "dealer-badge",
+        "dealerSize": [
+          38,
+          31.1
+        ],
+        "dealerNativeText": "庄",
+        "wind": "players[seat].seatWind (dynamic, not fixed cardinal positions)",
+        "windBadgeSkin": "ready-hand-badge (blank jade disk reused with wind text, not a listening rule)",
+        "offline": {
+          "asset": "offline-badge",
+          "size": [
+            34,
+            32.8
+          ],
+          "text": "离线",
+          "binding": "players[seat].offline"
+        },
+        "autoplay": {
+          "asset": "autoplay-badge",
+          "size": [
+            34,
+            32.8
+          ],
+          "text": "托管",
+          "binding": "players[seat].autoplay"
+        },
+        "offlineAndAutoplayAreSeparate": true,
+        "coexistPlacement": "outside avatar at(-83,0) and(+83,0), labels beneath their own icons; never overlap or merge"
+      },
+      "centerHud": {
+        "windDial": "wind-round-dial",
+        "center": [
+          836,
+          475
+        ],
+        "size": [
+          124,
+          117.8
+        ],
+        "windBindings": {
+          "left": "players.left.seatWind",
+          "top": "players.opposite.seatWind",
+          "right": "players.right.seatWind",
+          "bottom": "players.self.seatWind"
+        },
+        "windLabelAnchors": [
+          [
+            0.13,
+            0.5
+          ],
+          [
+            0.5,
+            0.13
+          ],
+          [
+            0.87,
+            0.5
+          ],
+          [
+            0.5,
+            0.87
+          ]
+        ],
+        "nativeFields": [
+          "roundLabel",
+          "tilesRemaining"
+        ],
+        "countdown": {
+          "asset": "countdown-frame",
+          "center": [
+            836,
+            488
+          ],
+          "size": [
+            46,
+            47.7
+          ],
+          "valueBinding": "turn.secondsRemaining",
+          "warningBinding": "turn.isCountdownWarning",
+          "normalColor": "#FFF4D9",
+          "warningColor": "#B52F20"
+        },
+        "activePlayerBinding": "turn.seat",
+        "turnDoesNotRotateSeatWindIdentity": true,
+        "nativeFieldNodes": [
+          {
+            "kind": "sprite",
+            "asset": "button-secondary-normal",
+            "center": [
+              695,
+              452
+            ],
+            "maxSize": [
+              140,
+              43
+            ],
+            "fit": "contain",
+            "textBinding": "roundLabel",
+            "textSize": 20
+          },
+          {
+            "kind": "sprite",
+            "asset": "button-secondary-normal",
+            "center": [
+              695,
+              501
+            ],
+            "maxSize": [
+              140,
+              43
+            ],
+            "fit": "contain",
+            "textBinding": "tilesRemainingLabel",
+            "textSize": 20
+          }
+        ],
+        "previewStatus": "passed"
+      },
+      "layers": [
+        "background",
+        "wallsLower",
+        "wallsUpper",
+        "discards",
+        "meldBase",
+        "meldAdded",
+        "hands",
+        "selectionIllegalAndLastDiscard",
+        "avatars",
+        "statusBadgesAndHud",
+        "hintsAndActions",
+        "modalOrSettlement"
+      ]
+    },
+    "actionChoices": {
+      "buttonAssets": {
+        "normal": "action-button-normal",
+        "pressed": "action-button-pressed",
+        "selected": "action-button-selected",
+        "disabled": "action-button-disabled"
+      },
+      "buttonBox": [
+        164,
+        57.67
+      ],
+      "centers": [
+        [
+          725,
+          690
+        ],
+        [
+          911,
+          690
+        ],
+        [
+          1097,
+          690
+        ],
+        [
+          1283,
+          690
+        ]
+      ],
+      "labels": [
+        {
+          "id": "peng",
+          "label": "碰"
+        },
+        {
+          "id": "gang",
+          "label": "杠"
+        },
+        {
+          "id": "hu",
+          "label": "胡"
+        },
+        {
+          "id": "pass",
+          "label": "过"
+        }
+      ],
+      "availabilityBinding": "server.legalActions",
+      "interactiveOnlyIfLegal": true,
+      "hiddenOrDisabledWhenIllegal": "client product choice, never active",
+      "nativeLabel": true,
+      "noLocalLegalityRule": true
+    },
+    "candidateChoice": {
+      "panel": "candidate-panel",
+      "panelCenter": [
+        1260,
+        213
+      ],
+      "panelMaxSize": [
+        520,
+        222.2
+      ],
+      "title": "可选组合",
+      "groupsBinding": "server.legalCandidates",
+      "groupTileSize": [
+        35,
+        50
+      ],
+      "maxVisibleGroups": 2,
+      "groupTileGap": 3,
+      "groupPadding": [
+        12,
+        13
+      ],
+      "selectionOutline": "candidate-selected-outline",
+      "singleSelectedIdBinding": "selection.candidateId",
+      "emptyText": "暂无可选组合",
+      "emptyStateInteractive": false,
+      "confirmButton": "button-primary-normal",
+      "confirmDisabledButton": "button-primary-disabled",
+      "confirmText": "确认",
+      "confirmRequires": "selected id remains in current server candidates and action not submitted",
+      "cancelText": "取消",
+      "cancelButton": "button-secondary-normal",
+      "confirmSends": "selected candidate id, not screenshot tile identities",
+      "closedOn": "cancel / success / action change / timeout",
+      "excessGroups": "scroll or page, do not compress glyphs",
+      "allTilesNativeSprites": true,
+      "sampleCandidatesAreLayoutOnly": true,
+      "wrapper": {
+        "size": [
+          520,
+          400
+        ],
+        "panelCenter": [
+          260,
+          140
+        ],
+        "titleCenter": [
+          260,
+          91
+        ],
+        "groupCenters": [
+          [
+            160,
+            160
+          ],
+          [
+            360,
+            160
+          ]
+        ],
+        "outlineMaxSize": [
+          172,
+          84
+        ],
+        "confirmCenter": [
+          375,
+          310
+        ],
+        "cancelCenter": [
+          145,
+          310
+        ],
+        "buttonMaxSize": [
+          210,
+          64
+        ],
+        "emptyCenter": [
+          260,
+          160
+        ],
+        "tileCentersWithinGroup": "centered at (tileIndex-(count-1)/2)*(tileWidth+gap)",
+        "onlyTwoGroupsVisible": true
+      }
+    },
+    "readyHand": {
+      "panel": "ready-hand-panel",
+      "center": [
+        274,
+        610
+      ],
+      "maxSize": [
+        300,
+        182
+      ],
+      "title": "听牌提示",
+      "badge": "ready-hand-badge",
+      "badgeLabelNative": "听",
+      "tilesBinding": "server.readyHandCandidates",
+      "tileSize": [
+        31.5,
+        45
+      ],
+      "countNativeBinding": "candidate.remainingCount or omit if not supplied",
+      "maxVisibleTiles": 4,
+      "emptyText": "暂无听牌提示",
+      "visibilityBinding": "server.readyHandVisible",
+      "artNeverCalculatesReadyHand": true,
+      "wrapOrScroll": "page after 4, never stretch or cover glyphs",
+      "contentSlots": {
+        "titleUV": [
+          0.5,
+          0.3
+        ],
+        "tileRowUV": 0.514,
+        "countRowUV": 0.684,
+        "tileCenterOffsetsXForFour": [
+          -90,
+          -30,
+          30,
+          90
+        ],
+        "tileCenterOffsetsXForTwo": [
+          -40,
+          40
+        ],
+        "badgeOffsetFromPanelCenter": [
+          -188,
+          -61
+        ],
+        "badgeMaxSize": [
+          40,
+          39.4
+        ]
+      }
+    },
+    "illegalTile": {
+      "baseState": "table.hand.tileStates.illegal",
+      "hintSkin": "tooltip-bubble",
+      "reasonTextBinding": "server.discardError or localized generic 该牌当前不可出",
+      "interactivity": false,
+      "badgeDoesNotReplaceTileIdentity": true,
+      "badgeOffsetFromTileCenter": "rotate([tileWidth/2-8,-tileHeight/2+8],seatClockwiseDegrees)"
+    },
+    "settlement": {
+      "window": "window-frame",
+      "fill": "content-card",
+      "title": "title-plaque",
+      "background": "table-background",
+      "rowSkin": "content-card",
+      "rowNineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "rowSize": [
+        1040,
+        118
+      ],
+      "rowCenters": [
+        [
+          836,
+          260
+        ],
+        [
+          836,
+          385
+        ],
+        [
+          836,
+          510
+        ],
+        [
+          836,
+          635
+        ]
+      ],
+      "avatarSize": [
+        80,
+        80
+      ],
+      "fields": [
+        "player.displayName",
+        "player.roundDelta",
+        "player.totalScore",
+        "player.resultLabel"
+      ],
+      "positiveColor": "#B52F20",
+      "negativeColor": "#196448",
+      "zeroColor": "#183D35",
+      "retainSign": true,
+      "allDataServerBound": true,
+      "states": {
+        "round-result": {
+          "title": "本局结算",
+          "continueText": "继续下一局",
+          "continue": "button-primary-normal",
+          "backText": "返回大厅",
+          "back": "button-secondary-normal"
+        },
+        "draw-result": {
+          "title": "本局流局",
+          "message": "本局无人结果由服务端状态决定",
+          "delta": "server values, not forced zero for every local rule",
+          "continueText": "继续下一局",
+          "continue": "button-primary-normal",
+          "backText": "返回大厅",
+          "back": "button-secondary-normal"
+        },
+        "match-result": {
+          "title": "整场结算",
+          "continueVisible": false,
+          "backText": "返回大厅",
+          "back": "button-primary-normal"
+        }
+      },
+      "noBakedScores": true,
+      "sampleNumbersAreLayoutOnly": true,
+      "fieldOffsets": {
+        "avatar": [
+          -426,
+          0
+        ],
+        "displayName": [
+          -236,
+          0
+        ],
+        "roundDeltaLabel": [
+          122,
+          0
+        ],
+        "roundDelta": [
+          354,
+          0
+        ]
+      },
+      "titleCenter": [
+        836,
+        130
+      ],
+      "titleMaxSize": [
+        500,
+        172.58
+      ],
+      "backButton": {
+        "center": [
+          592,
+          801
+        ],
+        "maxSize": [
+          290,
+          82
+        ],
+        "textSize": 30
+      },
+      "continueButton": {
+        "center": [
+          1080,
+          801
+        ],
+        "maxSize": [
+          320,
+          82
+        ],
+        "textSize": 30
+      }
+    },
+    "dialogs": {
+      "skins": [
+        "window-frame",
+        "content-card",
+        "title-plaque",
+        "button-primary-normal",
+        "button-secondary-normal",
+        "loading-ring",
+        "modal-shade"
+      ],
+      "variants": [
+        "leave-confirm",
+        "dissolve-vote",
+        "vote-success",
+        "vote-rejected",
+        "reconnecting",
+        "restore-failed"
+      ],
+      "textAndAvailability": "native fields and genuine server states; UI23/24 boards are references only"
+    }
+  },
+  "nativeText": {
+    "familyForPreview": "KaiTi from local Windows font for preview only; no font file redistributed",
+    "liveFontBinding": "client licensed Chinese font",
+    "textPrimary": "#183D35",
+    "textOnJade": "#FFF4D9",
+    "fontSizesAtDesignCanvas": {
+      "title": 36,
+      "body": 22,
+      "small": 18,
+      "timer": 24
+    },
+    "allChineseDynamic": true
+  },
+  "limits": {
+    "logicalRules": "Not implemented by art; server owns tile pool, flower enablement, legal actions, meld visibility and scores.",
+    "clientIntegrated": false,
+    "newArtworkCount": 6,
+    "nativeGenerationCalls": 1,
+    "fourSeatArtReuseNotNewOriginals": true
+  },
+  "verificationPreviews": [
+    "designs/ui/production-v3/gameplay/table-four-seats.png",
+    "designs/ui/production-v3/gameplay/melds-and-directions.png",
+    "designs/ui/production-v3/gameplay/candidates-and-states.png",
+    "designs/ui/production-v3/gameplay/settlement-composition.png",
+    "designs/ui/production-v3/gameplay/skins-alpha-light-dark.png"
+  ],
+  "updatedAt": "2026-10-28T10:35:30.815290+00:00",
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00",
+  "verificationRecords": [
+    {
+      "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+      "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+      "status": "passed"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/melds-and-directions.png",
+      "sha256": "745cf7df93ae9c9451378723194dd06301c90eb46383456f10277ac5141a167e",
+      "status": "passed"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/candidates-and-states.png",
+      "sha256": "b067405339f6e704d64abc3113347e4a0947b82a84005ff2ecdad90f7bc11edc",
+      "status": "passed"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/settlement-composition.png",
+      "sha256": "d460789c0a783d8449747d6ca4681b2da9fad8b32358cd1c244e9a6b63a2b1a7",
+      "status": "passed"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/skins-alpha-light-dark.png",
+      "sha256": "ed51a7326c7d4a69430c2c087c9346e7bc1b9e142cbed8da645e530c8a1c7ae4",
+      "status": "passed"
+    }
+  ],
+  "independentTargetedReview": {
+    "reviewer": "root coordinator",
+    "source": "direct parent receipt after user-authorized single-thread art closeout",
+    "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+    "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+    "status": "passed",
+    "scope": "targeted final table preview only",
+    "evidence": "Root actually viewed refreshed table: HUD at center-left does not collide with left/right discards or central countdown; text complete. Other four preview pixels unchanged per root receipt.",
+    "recordedAt": "2026-10-28T14:57:27.194603+00:00"
+  }
+}

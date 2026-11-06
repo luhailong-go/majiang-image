@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/expression-healer-sad.png",
+  "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 120620,
+    "opaquePixels": 117911,
+    "semiTransparentPixels": 23613,
+    "bbox": [
+      49,
+      34,
+      462,
+      480
+    ],
+    "clearMargins": [
+      49,
+      34,
+      50,
+      32
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/healer-expressions-native.png",
+    "sha256": "0a14aa6ba37395b16d84563551cd52dc1bcaa0f3a37680f3d036f257bed88a48",
+    "generationRecord": "designs/characters/full-game/healer-expressions-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "whole-source ownership slice",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 123957,
+      "removedPixelsAbove128": 0,
+      "componentCount": 4,
+      "RGBRepainted": false,
+      "sourceBox": [
+        674,
+        631,
+        1233,
+        1235
+      ],
+      "componentCentroid": [
+        953.4187990232642,
+        955.3333071614205
+      ],
+      "sourcePixelsRetained": 254726,
+      "crossGridDetailsPreserved": true,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 218713
+    },
+    {
+      "operation": "uniform downsample with per-identity shared scale",
+      "sourceSize": [
+        559,
+        604
+      ],
+      "outputContentSize": [
+        413,
+        446
+      ],
+      "scale": 0.7380560131795717,
+      "method": "premultiplied LANCZOS",
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "transparent padding",
+      "canvas": [
+        512,
+        512
+      ],
+      "offset": [
+        49,
+        34
+      ],
+      "localSafeMargin": 32
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/healer-expressions.prompt.txt",
+  "usage": {
+    "identity": "healer",
+    "identityName": "银发医师",
+    "role": "expression_avatar",
+    "expression": "sad",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": "passed",
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

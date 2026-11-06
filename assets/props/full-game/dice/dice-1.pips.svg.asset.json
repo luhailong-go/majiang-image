@@ -1,0 +1,15 @@
+{
+  "file": "assets/props/full-game/dice/dice-1.pips.svg",
+  "sha256": "eae3f842d7bb02acc5798923ca8a58b39b1bf46eabfe160770e88da5f5286b38",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "exact circular dice pips",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

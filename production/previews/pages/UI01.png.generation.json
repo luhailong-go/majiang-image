@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/pages/UI01.png",
+  "sha256": "ada8ba8786cae04ecbcf764db12ae07cd255f1eb7a53bd3df3dec516884def26",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/branding/yunjian-queshe/logo-primary.png",
+      "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+      "generationRecord": "assets/branding/yunjian-queshe/logo-primary.png.generation.json"
+    },
+    {
+      "file": "assets/characters/welcome-daotong.png",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "generationRecord": "assets/characters/welcome-daotong.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/waterside-night.png",
+      "sha256": "78d207b4645ff47aa0f13690b8abd9f59cadbd28f7977d6ae6126379b465509f",
+      "generationRecord": "assets/scenes/full-game/waterside-night.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "generationRecord": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "generationRecord": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "generationRecord": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "generationRecord": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "generationRecord": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-fill.png",
+      "sha256": "89442565573991775e066a3303bd640b555f55f223ff2b43a5ed3abf28d2a224",
+      "generationRecord": "assets/ui/production-v3/forms/progress-fill.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-track.png",
+      "sha256": "e00eb528b71e3f6fe430c6ec40b0ce3875d42ba572f3274a6e94f3f39d99ea98",
+      "generationRecord": "assets/ui/production-v3/forms/progress-track.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/layouts.json",
+    "layoutId": "UI01",
+    "layoutContentSha256": "1220acfa253c7626ee26d3cd5390c14c60c76371015d5187e86dda2f5876ba07",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}

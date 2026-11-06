@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/production-v3/forms/input-focus-overlay.png",
+  "sha256": "dfbb1aa6529e9f2fed9913e0e93a88ff56c615f56f344583eb533394defed972",
+  "generatedAt": "2026-10-28T09:55:57.394990+00:00",
+  "width": 640,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "Pillow / NumPy / SciPy",
+  "route": "local_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "newModelGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/forms/forms-list-atlas-native.png",
+      "sha256": "3c94e758fe749d228638d8d6341b12244842a3a639bb54dec3123dbc67a05cf4",
+      "record": "designs/ui/production-v3/forms/forms-list-atlas-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "sourceRegion": [
+      0,
+      0,
+      627,
+      627
+    ],
+    "nativeCrop": [
+      15,
+      254,
+      611,
+      415
+    ],
+    "cropSize": [
+      596,
+      161
+    ],
+    "paddingOffset": [
+      22,
+      15
+    ],
+    "outputCanvas": [
+      640,
+      192
+    ],
+    "resample": false,
+    "alphaFloor": 8,
+    "antialiasDistanceLimit": 2,
+    "removeDisconnectedNoise": true,
+    "fringeRGB": "nearest opaque source RGB for alpha<128",
+    "opaquePromotion": "source alpha>=250 to255",
+    "RGBWhenAlphaZero": "zero"
+  },
+  "sourceModelEvidence": "See native source record; inherited actualModel and actualQuality remain null.",
+  "qa": {
+    "id": "input-focus-overlay",
+    "discardedSolidPixels": 0,
+    "isolatedLowAlphaPixelsRemoved": 0,
+    "fringeRGBDecontaminatedPixels": 3106,
+    "alpha": {
+      "range": [
+        0,
+        255
+      ],
+      "bbox": [
+        22,
+        15,
+        618,
+        176
+      ],
+      "fullyTransparent": 82665,
+      "semiTransparent": 10767,
+      "opaque": 29448,
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "transparentCenter": {
+      "testedRect": [
+        132,
+        72,
+        508,
+        120
+      ],
+      "nonzeroAlpha": 0
+    },
+    "silhouettePreserved": true,
+    "resampled": false
+  },
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-28T09:58:19.918844+00:00",
+    "reviewer": "full_ui_scope_audit",
+    "qa": "assets/ui/production-v3/forms/qa.json",
+    "qaPreviews": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "remainingFailures": []
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

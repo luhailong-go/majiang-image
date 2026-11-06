@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/production-v3/empty/preview-dark.png",
+  "sha256": "37213c5c6b040be0ae27226098ede39c7e3736258bfab63326826a492f4b9a49",
+  "exportedAt": "2026-10-28T08:29:58.707464+00:00",
+  "width": 1260,
+  "height": 850,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/ui/production-v3/empty/empty-mail.png",
+      "sha256": "167ef75f52dcfc1400d1a4e23b995180552fd344f78832bb7c813972f90e0c44",
+      "generationRecord": "assets/ui/production-v3/empty/empty-mail.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-friends.png",
+      "sha256": "40c11382a97507fa6008fb1d2a3d884d6a5ee1f5907bac4dca4e297430e9aabf",
+      "generationRecord": "assets/ui/production-v3/empty/empty-friends.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-search.png",
+      "sha256": "b894cdcd35ab96472453fb2a6838b6c7655680d69d394a28fe88dbe18540d104",
+      "generationRecord": "assets/ui/production-v3/empty/empty-search.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-records.png",
+      "sha256": "8ecd7bd419d0e4ec689593e261ecddab8be7acc440aaf8ef4b3f069dbe0706c6",
+      "generationRecord": "assets/ui/production-v3/empty/empty-records.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/connection-interrupted.png",
+      "sha256": "d6e96513a611b728252b32d6766b881d0a6a3a6b19b2d51510aef03d07578dc4",
+      "generationRecord": "assets/ui/production-v3/empty/connection-interrupted.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/match-timeout.png",
+      "sha256": "531037b59b08c3681ae6178d1d334b853b5e20e589dcacef5282637673ac76bc",
+      "generationRecord": "assets/ui/production-v3/empty/match-timeout.png.generation.json"
+    }
+  ],
+  "operation": {
+    "operation": "QA contact sheet over opaque inspection background",
+    "background": "#123e34",
+    "newRuntimeAsset": false
+  },
+  "nativeDetailUpscaled": false
+}

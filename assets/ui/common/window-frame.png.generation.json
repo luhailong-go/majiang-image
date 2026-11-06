@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/window-frame.png",
+  "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 1642,
+  "height": 888,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "derivedFrom": {
+    "file": "designs/ui/component-sources/window-frame-v1.png",
+    "sha256": "d626fb45ee5ab2a54cd3fb0aa02e604a7b4dc77be8a164cf0525f0831a6cd4fd",
+    "record": "designs/ui/component-sources/window-frame-v1.png.generation.json"
+  },
+  "operation": "native crop + low-alpha/isolated speck removal + transparent padding; no scaling",
+  "crop": [
+    28,
+    38,
+    1646,
+    902
+  ],
+  "transparentPadding": 12,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": [
+    200,
+    200,
+    200,
+    200
+  ],
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 1062267,
+    "semiTransparent": 29183,
+    "opaque": 366646,
+    "bbox": [
+      12,
+      12,
+      1630,
+      876
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 38878,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "resizePolicy": {
+    "mode": "nine_slice",
+    "stretchAxes": [
+      "x",
+      "y"
+    ],
+    "uniformScaleAllowed": true
+  },
+  "minimumGeometrySize": [
+    401,
+    401
+  ],
+  "clientIntegrated": false
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 3,
+  "file": "assets/branding/yunjian-queshe/logo-primary.png",
+  "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+  "generatedAt": "2026-10-29T03:28:52.322583+00:00",
+  "recordedAt": "2026-10-29T03:56:56.191365+00:00",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin_host_managed",
+  "callResultId": "exec-58b33156-8ef6-469f-ae8c-8c5d700bfcce",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "promptFile": "prompts/branding/yunjian-queshe-v1.txt",
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "references/style/01-mail-event.png",
+      "references/style/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "observedToolOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-b3d7-7af3-90f2-a95cb20aeee2\\exec-58b33156-8ef6-469f-ae8c-8c5d700bfcce.png",
+    "returnedNativeCanvas": [
+      1536,
+      1024
+    ],
+    "explicitModelQualitySelectorsAvailable": false,
+    "officialTargetVerifiedOn": "2026-10-28",
+    "officialTargetSource": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst"
+  },
+  "unverifiedReason": "Builtin host manages generation; actual model/version/quality were not disclosed. Config and prompt do not prove actual submitted API model or quality.",
+  "prompt": {
+    "file": "prompts/branding/yunjian-queshe-v1.txt",
+    "sha256": "b8be871127a864e3d7f6d0ffd369f12d7b551df89355762d9f0bd41528e1aeaa",
+    "submittedTextSha256": "8a15422d0f6ed4474d4d23f30ed244a443acf8bdcd1b10b38df346c61c2f0cb2",
+    "note": "Prompt file has a terminal newline; actual submitted text omits only that newline."
+  },
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual attached style reference only"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual attached style reference only"
+    }
+  ],
+  "newModelGeneration": true,
+  "operation": "Native generated PNG copied byte-for-byte; no upscale, repaint, alpha thresholding or background replacement.",
+  "inspection": {
+    "status": "passed",
+    "receipt": "assets/branding/yunjian-queshe/qa.json",
+    "mainText": "云间雀社",
+    "genreText": "麻将",
+    "actualViewed": "assets/branding/yunjian-queshe/preview-light-dark.png",
+    "acceptedPromptDeviation": "Decorative bamboo tile shows four valid bamboo bars rather than requested three; it is a brand ornament, not a runtime playable face."
+  }
+}

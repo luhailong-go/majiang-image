@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/gameplay/current-player-ring.png",
+  "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 439,
+  "height": 394,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "derivedFrom": {
+    "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+    "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+    "record": "designs/ui/component-sources/gameplay-components-atlas-v1.png.generation.json"
+  },
+  "operation": "native crop + low-alpha/isolated speck removal + transparent padding; no scaling",
+  "crop": [
+    459,
+    495,
+    882,
+    873
+  ],
+  "transparentPadding": 8,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": null,
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 107843,
+    "semiTransparent": 46104,
+    "opaque": 19019,
+    "bbox": [
+      8,
+      8,
+      431,
+      386
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/gameplay-light.png",
+      "work/components/qa/gameplay-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 34868,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+  },
+  "clientIntegrated": false
+}

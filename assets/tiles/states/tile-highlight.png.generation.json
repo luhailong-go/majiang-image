@@ -1,0 +1,28 @@
+{
+  "file": "assets/tiles/states/tile-highlight.png",
+  "sha256": "4ff5d2b7deaac8cf55bdebb428100ab00f6fa5e460c0c95eb5f01117128ab3e2",
+  "createdAt": "2026-10-26T08:25:50.470Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector state rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render deterministic state outline overlay"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "vectorSource": {
+    "file": "assets/tiles/states/tile-highlight.svg",
+    "sha256": "f1f0fdd78b3229cfce5b8347bbbdcd71a9451fab9e7927257644d3fda6b240dd"
+  }
+}

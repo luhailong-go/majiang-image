@@ -1,0 +1,9 @@
+Use case: ui-mockup. Asset type: six independent transparent empty-state illustrations for a finished Mahjong game UI. Use the TWO attached UI images as actual style references: jade-green, ivory paper, fine warm-gold, rounded Daoist chibi high-definition hand-painted. Do not reproduce their UI text, characters or background scenes.
+Create ONE tidy 3-column by 2-row contact sheet on a truly transparent background, each cell a SINGLE separate illustration, generous empty space around it. Six completely isolated subjects, same visual scale, no overlap, no panels, no grid separators, absolutely no letters, Chinese characters, numbers or labels.
+Row1 left: no mail — open ivory envelope, jade Taiji wax seal, small cloud and pale leaf, visibly empty.
+Row1 center: no friends — two empty round jade-and-ivory seat cushions beside small tea tray, short red tassel; no people or faces.
+Row1 right: no search results — warm gold magnifying glass examining tiny clean white cloud, no marks inside it.
+Row2 left: no records — small unrolled blank ivory scroll with jade end-caps and tiny gourd ornament; no writing.
+Row2 center: connection interrupted — two halves of simple jade knotted cord separated by visible gap, pale cloud behind, muted amber spark at gap. Friendly, non-threatening.
+Row2 right: timeout — small rounded gold-and-jade hourglass with sand, ivory clouds and red tassel.
+Precise hand-painted outlines, soft warm shading, clean alpha edges, no plastic 3D, fuzzy noise or photorealism. Chunky readable silhouettes at180px display. Equal3x2 grid, fully transparent margins. UI asset sheet, not screenshot; no typography or watermark. Native highest resolution supported.

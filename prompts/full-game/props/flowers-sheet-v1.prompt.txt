@@ -1,0 +1,14 @@
+Use case: stylized-concept. Asset type: eight optional Mahjong flower-tile botanical illustrations, isolated sprite sheet, not complete Mahjong tiles.
+Reference images 1 and 2 give the exact hand-painted Daoist chibi style, jade green/ivory/warm gold materials, soft rounded forms and exquisite finish. Use that painting style only.
+Create EIGHT separate botanical illustrations in an exact 4-column by 2-row layout, each illustration centered within its own equal rectangular cell, consistent visual scale, generous transparent space between objects. Target 3072x1536 landscape transparent PNG. Every illustration completely inside its cell. Do not draw cell borders or labels or complete cards; no text at all. True alpha exterior with no floor/shadow/aura/background. High-definition hand-painted miniature plants, enough contrast for a small Mahjong face, rounded elegant leaves and petals, clean coherent silhouette.
+Top row left to right:
+1. PLUM: one curved dark-brown plum twig with five-petal red/pink plum blossoms and buds, no snow.
+2. ORCHID: one graceful pale cream/purple orchid spray with long narrow jade-green leaves.
+3. BAMBOO: two fresh green bamboo stems with several pointed leaf clusters.
+4. CHRYSANTHEMUM: two round golden chrysanthemum flowers with many narrow petals and dark green leaves.
+Bottom row left to right:
+5. SPRING: a fresh pink peach-blossom branch, tiny green leaf buds and one small swallow, lively spring miniature.
+6. SUMMER: a pink lotus flower with broad round lotus leaf and one small blue dragonfly.
+7. AUTUMN: orange/red maple leaves with a golden grain ear and tiny acorn, harvest autumn miniature.
+8. WINTER: evergreen pine twig and one red winter berry with clean white snow caps, a small visible snowflake.
+All eight are separate production assets, consistent delicate hand-painted Daoist Q game rendering, not photorealistic, not plastic, no words, no numbers, no symbols masquerading as letters, no full scenic backgrounds, no overlapping cells.

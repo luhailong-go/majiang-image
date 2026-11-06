@@ -1,0 +1,100 @@
+{
+  "file": "assets/tiles/flowers/motifs/autumn.png",
+  "sha256": "e3b36259ac12a6d7b356bb385cc11cde7393d10c3f9f5b0043338a3418c3d3c5",
+  "createdAt": "2026-10-26T16:37:56.960Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "generationRecord": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 384,
+  "height": 384,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      895,
+      455,
+      1340,
+      887
+    ],
+    "nativeContentBounds": [
+      901,
+      481,
+      1332,
+      839
+    ],
+    "corePixelsBefore": 74572,
+    "removedTinyCorePixels": 2,
+    "components": [
+      {
+        "pixels": 73656,
+        "box": [
+          901,
+          481,
+          1326,
+          838
+        ]
+      },
+      {
+        "pixels": 914,
+        "box": [
+          1293,
+          744,
+          1331,
+          807
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      431,
+      358
+    ],
+    "exportContent": [
+      352,
+      292
+    ],
+    "contentBounds": [
+      16,
+      46,
+      352,
+      292
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.8167053364269141,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "flower-motif-autumn",
+    "label": "秋·花木插画",
+    "group": "flower-motif"
+  }
+}

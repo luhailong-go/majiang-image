@@ -1,0 +1,23 @@
+{
+  "file": "assets/tiles/symbols/tiao-7.svg",
+  "sha256": "3dd19e4cfcc3f23cb0531acfb249d837566a36610951eae448330c92ca7e7bdc",
+  "operation": "Deterministic original SVG symbols; KaiTi text converted to vector outlines, exact pip/bamboo counts. No model call.",
+  "fontSource": null,
+  "semantic": {
+    "label": "七条",
+    "suit": "bamboo",
+    "rank": 7,
+    "pipCount": null,
+    "bambooCount": 7,
+    "glyphs": null,
+    "whiteDragonFrame": false
+  },
+  "canvas": {
+    "width": 448,
+    "height": 640
+  },
+  "checks": {
+    "exactSemantics": "passed",
+    "visual": "passed"
+  }
+}

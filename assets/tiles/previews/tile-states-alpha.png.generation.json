@@ -1,0 +1,35 @@
+{
+  "file": "assets/tiles/previews/tile-states-alpha.png",
+  "sha256": "b1663779779036be62b77a629863e336afc0a457c4c73ea2e558c0204cc6d317",
+  "createdAt": "2026-10-26T08:27:52.305558+00:00",
+  "route": "derived",
+  "tool": "Pillow contact sheet assembly",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Preview assembled from delivered tile assets, no model call",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/faces/wan-6.png",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "generationRecord": "assets/tiles/faces/wan-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "generationRecord": "assets/tiles/tile-back.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/states/tile-highlight.png",
+      "sha256": "4ff5d2b7deaac8cf55bdebb428100ab00f6fa5e460c0c95eb5f01117128ab3e2",
+      "generationRecord": "assets/tiles/states/tile-highlight.png.generation.json"
+    }
+  ],
+  "operation": "downscale and arrange exported sprites on labeled preview boards; native source sizes remain in manifest",
+  "width": 1600,
+  "height": 710,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  }
+}

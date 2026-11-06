@@ -1,0 +1,91 @@
+{
+  "file": "assets/tiles/flowers/motifs/chrysanthemum.png",
+  "sha256": "9ffc72af74f9a70da05c41780cf96490f31acfd8a02b4fe46dee69cc302a90e4",
+  "createdAt": "2026-10-26T16:37:56.707Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "generationRecord": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 384,
+  "height": 384,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      1340,
+      0,
+      1774,
+      455
+    ],
+    "nativeContentBounds": [
+      1362,
+      82,
+      1738,
+      449
+    ],
+    "corePixelsBefore": 81807,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 81807,
+        "box": [
+          1362,
+          82,
+          1737,
+          448
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      376,
+      367
+    ],
+    "exportContent": [
+      352,
+      344
+    ],
+    "contentBounds": [
+      16,
+      20,
+      352,
+      344
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.9361702127659575,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "flower-motif-chrysanthemum",
+    "label": "菊·花木插画",
+    "group": "flower-motif"
+  }
+}

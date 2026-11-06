@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-1.png",
+  "sha256": "9a271c34e26677df46638eb6e9ffc6e2ff799df97061813856707c86715fc48d",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/room.empty_seat.png",
+      "sha256": "26fa60eab99bcd4e6598ecb278357422b188e7c86a6ec49fadcdacf98acbeb86",
+      "generationRecord": "production/previews/states/room.empty_seat.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.full.png",
+      "sha256": "e5a6169a437af3b240724142295a749600e84187cfe6279f73e087c3823f54d8",
+      "generationRecord": "production/previews/states/room.full.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.owner.png",
+      "sha256": "4f43d6947b19ab2c53fbdcac4121494d6ebaa1a5826976b2d7f94f5acf957b61",
+      "generationRecord": "production/previews/states/room.owner.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.member.png",
+      "sha256": "bfc1117c09d9eb81d3c7298c85e5f2d14f5c908d58e553d094de3595cfc82362",
+      "generationRecord": "production/previews/states/room.member.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.ready.png",
+      "sha256": "e5a6169a437af3b240724142295a749600e84187cfe6279f73e087c3823f54d8",
+      "generationRecord": "production/previews/states/room.ready.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.not_ready.png",
+      "sha256": "3cdb88745f5a07b650653f84b7fea35987b84a7c6e7b35a7aa2f4fbc5c7173a2",
+      "generationRecord": "production/previews/states/room.not_ready.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.wait_start.png",
+      "sha256": "6449653bad99a539da11b70f930b5d453e8232d473bac0d06e65c83b78e884a2",
+      "generationRecord": "production/previews/states/room.wait_start.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.leave_confirmation.png",
+      "sha256": "2a889d3df3defcdf34853a415191a49ca2c3ebabb0ead5a5c17afc2d36646c04",
+      "generationRecord": "production/previews/states/room.leave_confirmation.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.dissolve_request.png",
+      "sha256": "a7bf83ff09ac6ed0472ad13d2f6f4b47a41d1cb3d6cd79d31f44aa98ea92beef",
+      "generationRecord": "production/previews/states/room.dissolve_request.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.dissolve_vote.png",
+      "sha256": "d12c400ae5a98a9de4a5bd290571e0924f9bb9fe1a6fc71f574607f26cfd652b",
+      "generationRecord": "production/previews/states/room.dissolve_vote.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.dissolve_progress.png",
+      "sha256": "34970f100b141d833814aef53d6a23dab32a7a746d4ad284ab7312540b09cc6e",
+      "generationRecord": "production/previews/states/room.dissolve_progress.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.dissolve_result.png",
+      "sha256": "2215f0e6019769e63fc2886cf84c68144e17a149634dad77bf353458bbe8d5e6",
+      "generationRecord": "production/previews/states/room.dissolve_result.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

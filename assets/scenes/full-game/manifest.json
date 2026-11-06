@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 2,
+  "status": "passed",
+  "scope": "three pure backgrounds, two extra table themes; static baked plates with no map collision",
+  "assets": [
+    {
+      "id": "courtyard-day",
+      "name": "日景仙山庭院",
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "record": "assets/scenes/full-game/courtyard-day.png.generation.json",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "usage": "lobby",
+      "art_source": "host_image",
+      "native": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "safeOverlayRectNormalized": [
+        0.18,
+        0.2,
+        0.82,
+        0.94
+      ],
+      "playableTablePolygonNormalized": null,
+      "sceneMode": "baked_scene_mode",
+      "collision": null,
+      "status": "passed"
+    },
+    {
+      "id": "waterside-night",
+      "name": "月夜水榭",
+      "file": "assets/scenes/full-game/waterside-night.png",
+      "record": "assets/scenes/full-game/waterside-night.png.generation.json",
+      "sha256": "78d207b4645ff47aa0f13690b8abd9f59cadbd28f7977d6ae6126379b465509f",
+      "width": 1672,
+      "height": 940,
+      "mode": "RGB",
+      "usage": "login",
+      "art_source": "host_image",
+      "native": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "safeOverlayRectNormalized": [
+        0.18,
+        0.2,
+        0.82,
+        0.94
+      ],
+      "playableTablePolygonNormalized": null,
+      "sceneMode": "baked_scene_mode",
+      "collision": null,
+      "status": "passed"
+    },
+    {
+      "id": "tea-room",
+      "name": "室内茶室",
+      "file": "assets/scenes/full-game/tea-room.png",
+      "record": "assets/scenes/full-game/tea-room.png.generation.json",
+      "sha256": "8b07f9b69400143c8c562cc70218ee0ee8dbc94ea6d79243da1aca8790fd253f",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "usage": "room",
+      "art_source": "host_image",
+      "native": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "safeOverlayRectNormalized": [
+        0.18,
+        0.2,
+        0.82,
+        0.94
+      ],
+      "playableTablePolygonNormalized": null,
+      "sceneMode": "baked_scene_mode",
+      "collision": null,
+      "status": "passed"
+    },
+    {
+      "id": "table-moon-lotus",
+      "name": "月莲青蓝桌面",
+      "file": "assets/scenes/full-game/table-moon-lotus.png",
+      "record": "assets/scenes/full-game/table-moon-lotus.png.generation.json",
+      "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "usage": "table",
+      "art_source": "host_image",
+      "native": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "safeOverlayRectNormalized": [
+        0.18,
+        0.2,
+        0.82,
+        0.94
+      ],
+      "playableTablePolygonNormalized": [
+        [
+          0.17,
+          0.23
+        ],
+        [
+          0.83,
+          0.23
+        ],
+        [
+          0.98,
+          0.89
+        ],
+        [
+          0.02,
+          0.89
+        ]
+      ],
+      "sceneMode": "baked_scene_mode",
+      "collision": null,
+      "status": "passed"
+    },
+    {
+      "id": "table-ivory-bamboo",
+      "name": "竹韵米白桌面",
+      "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+      "record": "assets/scenes/full-game/table-ivory-bamboo.png.generation.json",
+      "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "usage": "table",
+      "art_source": "host_image",
+      "native": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "safeOverlayRectNormalized": [
+        0.18,
+        0.2,
+        0.82,
+        0.94
+      ],
+      "playableTablePolygonNormalized": [
+        [
+          0.17,
+          0.23
+        ],
+        [
+          0.83,
+          0.23
+        ],
+        [
+          0.98,
+          0.89
+        ],
+        [
+          0.02,
+          0.89
+        ]
+      ],
+      "sceneMode": "baked_scene_mode",
+      "collision": null,
+      "status": "passed"
+    }
+  ],
+  "existingTheme": "assets/ui/gameplay/table-background.png",
+  "actualModel": null,
+  "actualQuality": null,
+  "art_source": "host_image",
+  "clientIntegrated": false
+}

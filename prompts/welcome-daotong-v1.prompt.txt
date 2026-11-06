@@ -1,0 +1,16 @@
+Use case: stylized-concept
+Asset type: 麻将游戏大厅迎宾角色，第一版美术方向稿，单人全身透明 PNG。
+Primary request: 依据随附三张实际图片，生成与参考同一套道家 Q 版高清手绘风格的金色发带小道童。目标画布 1536×1536，正方形，真实透明背景。
+
+Input images:
+1. 01-mail-event.png — 玉绿金边、象牙米白、暖金与精细手绘材质的主风格参考，不复制 UI 或文字。
+2. team-ui-v2.png — 明亮、干净、饱满的道家 Q 版画法与人物脸部比例参考，不复制面板。
+3. mail-banner-character.png — 角色身份的首要参考：短棕色刺发、金色发带与飘带、大圆棕眼、圆脸、红润脸颊、开朗笑容、玉绿金边外袍/背心、米白内衫和裤装、太极扣及金色太极葫芦。
+
+Subject and pose: 仅一个完整独立迎宾道童，约 2.5 头身、大头短身、短四肢，脸与神态紧贴图 3。正面略转身，亲切笑着看向观众。画面左侧的一只手清楚地举起一枚白色玉质麻将牌，牌面朝向观众，上面仅有一个正确、清楚的红色汉字“中”。另一手自然扶住身侧金色葫芦，葫芦有清楚的黑白太极图。双手五指结构合理，手、牌、葫芦各自清楚。全身从发尖、发带飘尾到双脚完整可见，穿玉绿布鞋。姿态稳定，方便后续大厅角色展示。
+Composition: 单角色居中，四周至少 8% 透明留白，不裁切脚、发带或道具。角色是唯一内容，不要宠物、第二个人、额外道具或背景。
+Style: 高清细腻手绘游戏原画，柔和轮廓、自然明暗，圆润的 Q 版比例，纸绢衣料和适度金玉质感，与三张参考统一。清晰边缘；避免 3D 玩具、塑料高光、写实少年体型、写实皮肤、厚黑线、密集噪点。
+Palette: 玉绿、青绿、象牙米白、暖金，小面积朱砂红/红穗。
+Transparency: Background must be truly transparent alpha, including gaps between the limbs and clothing. No background color, no scene, no floor, no shadow plate, no baked checkerboard, no frame. Preserve softly antialiased hair and garment edges with alpha.
+Text: 唯一文字是麻将牌上的红色“中”；无标题、署名、水印或品牌名。
+This is a new character concept inspired by supplied references, not an edit of the reference banner. Do not include the moon, rabbit, lanterns, scene, or UI from the references.

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "scope": "full_game_ui_v2",
+  "status": "passed",
+  "verifiedAt": "2026-10-26T15:47:02.624868-04:00",
+  "uiIds": [
+    "UI25",
+    "UI26",
+    "UI27",
+    "UI28",
+    "UI29",
+    "UI30",
+    "UI31",
+    "UI32"
+  ],
+  "pageCount": 11,
+  "componentCount": 22,
+  "primaryAssetCount": 33,
+  "manifest": "designs/ui/full-game/manifest.json",
+  "manifestSha256": "3c5f200cb1c51faf172b4b260b8dd8d39e81536b7a16b89839dbd6710ef9dfe1",
+  "independentQA": "work/full-game-ui/independent-qa.json",
+  "independentQASha256": "6c8387e5b6c2ef2a96e878c43757641a9e58a80e7b3703c5729cb8d163f842aa",
+  "componentQA": "assets/ui/full-game/components/qa.json",
+  "componentQASha256": "051dd4a4631624bd88e1fc2433f72a430ba6023f67122d4be69d626a5c6976d5",
+  "nativeDimensionsNote": "9 pages 1672x941; UI25 and UI29 claimed 1671x941. No resampling of full page outputs.",
+  "errors": [],
+  "unpassedItems": [],
+  "browserTested": false,
+  "clientIntegrated": false,
+  "actualModel": null,
+  "actualQuality": null
+}

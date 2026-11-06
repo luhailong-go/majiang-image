@@ -1,0 +1,25 @@
+{
+  "file": "production/previews/contact-states-8.png",
+  "sha256": "0e946099913875744a39eb0f56a84992e28ab6c4f34eab8cd1665f23da9870ce",
+  "width": 1440,
+  "height": 302,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/room.join_invalid_code.png",
+      "sha256": "88b288b183d9fa6e113929a8225c00e47ca2761c948059a7a36adca8ca2a88d1",
+      "generationRecord": "production/previews/states/room.join_invalid_code.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/room.join_full.png",
+      "sha256": "c0978f71beaadb54ca560bd3968079c741b4c63515f74b5ab37bb985fe194123",
+      "generationRecord": "production/previews/states/room.join_full.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

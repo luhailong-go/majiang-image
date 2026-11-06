@@ -1,0 +1,100 @@
+{
+  "file": "assets/tiles/flowers/motifs/summer.png",
+  "sha256": "2b2e08a774bcf1a29ac717eb0285b5df0f261cd1b8f9438aec7a640c0a72fd77",
+  "createdAt": "2026-10-26T16:37:56.877Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/flowers-sheet-v1.png",
+      "sha256": "29c16a7cd55dc40851e3e88de5d1d98890ae0da4f1ad4ad613c19158f776fa37",
+      "generationRecord": "designs/props/full-game/sources/flowers-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 384,
+  "height": 384,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      450,
+      455,
+      895,
+      887
+    ],
+    "nativeContentBounds": [
+      484,
+      463,
+      867,
+      846
+    ],
+    "corePixelsBefore": 85588,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 5948,
+        "box": [
+          681,
+          463,
+          841,
+          591
+        ]
+      },
+      {
+        "pixels": 79640,
+        "box": [
+          484,
+          529,
+          866,
+          845
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1774,
+      887
+    ],
+    "nativeCroppedContent": [
+      383,
+      383
+    ],
+    "exportContent": [
+      352,
+      352
+    ],
+    "contentBounds": [
+      16,
+      16,
+      352,
+      352
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "scale": 0.9190600522193212,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "flower-motif-summer",
+    "label": "夏·花木插画",
+    "group": "flower-motif"
+  }
+}

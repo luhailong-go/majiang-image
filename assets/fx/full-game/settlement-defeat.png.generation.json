@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/settlement-defeat.png",
+  "title": "失败结算无字装饰",
+  "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2",
+  "generatedAt": "2026-10-26T11:48:40-04:00",
+  "derivedAt": "2026-10-26T11:48:40-04:00",
+  "tool": "generate2dsprite.py process / Pillow deterministic export",
+  "route": "derivative_of_builtin_host_image",
+  "art_source": "host_image_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "原始内置生成未披露可核实型号/质量；本文件是切片或文字合成，不是新模型生成。",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1774,
+    887
+  ],
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "derivedFrom": [
+    {
+      "file": "designs/fx/full-game/settlement-decor-v1.png",
+      "sha256": "7056684c36398aaa7131410878b9a8bcc3e70ea0c3fe39678ce0e44b24e9045d",
+      "record": "designs/fx/full-game/settlement-decor-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_alpha_slice_hygiene_downsample_pad",
+    "sourceBox": [
+      0,
+      0,
+      887,
+      887
+    ],
+    "sourceToOutputScale": 0.496054114994363,
+    "resampler": "premultiplied_lanczos",
+    "alphaHygiene": {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 32954,
+      "detached_px": 17,
+      "detached_components": 4,
+      "max_removed_alpha": 28
+    },
+    "padOffsetPx": [
+      36,
+      36
+    ],
+    "textIncluded": false,
+    "finalAlphaHygiene": {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 2135,
+      "detached_px": 0,
+      "detached_components": 0,
+      "max_removed_alpha": 4
+    }
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 212784,
+    "opaquePixels": 763,
+    "semiTransparentPixels": 48597,
+    "bboxNonzero": [
+      45,
+      151,
+      465,
+      384
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "inspection": {
+    "visualStatus": "passed",
+    "method": "actual exported pixels inspected on deep jade and light ivory backgrounds, complete silhouettes, exact Chinese text; phase progression reviewed",
+    "issues": [],
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

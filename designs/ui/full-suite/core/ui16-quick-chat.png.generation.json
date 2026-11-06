@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-suite/core/ui16-quick-chat.png",
+  "uiId": "UI16",
+  "title": "快捷聊天与表情",
+  "sha256": "6f5448c8c8e9ec550f33d8cd7e5a44be7e4bee59c224c6bfdc9f213c0e3e0595",
+  "generatedAt": "2026-10-26T08:29:01.088Z",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-daba2f5a-46d3-46ae-a414-b8bcf1445def",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": [
+    2048,
+    1152
+  ],
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    ],
+    "promptFile": "prompts/core/ui16-quick-chat.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "结果提供image_url与output_hint及PNG文件路径；尺寸、格式和Alpha由文件检测。工具未返回可核实模型或质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/core/ui16-quick-chat.prompt.txt",
+  "promptSha256": "c309f912926a16c1fe8543c1b5e336a16a1c62eb3c755952e3422b3108a78b29",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格参考",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "purpose": "本项目牌桌布局",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png",
+      "sha256": "e9153d4727e88d72cd6f6d38db12507e6be2b8b162b554e4d7ccdf538fb16e6a",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-daba2f5a-46d3-46ae-a414-b8bcf1445def.png",
+    "sha256": "6f5448c8c8e9ec550f33d8cd7e5a44be7e4bee59c224c6bfdc9f213c0e3e0595",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "alphaStatistics": null,
+    "visualStatus": "passed",
+    "issues": [],
+    "visualInspectionCompleted": true,
+    "visualNotes": "快捷语/表情页签、4条快捷语与4个表情、发送/关闭/语音/静音清楚，叠加牌桌背景符合面板用途。",
+    "blockingIssues": [],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "full_ui_art",
+    "userApproved": false,
+    "productionAccepted": true,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "快捷语",
+    "表情页签",
+    "发送",
+    "关闭",
+    "语音/静音"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-daba2f5a-46d3-46ae-a414-b8bcf1445def.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

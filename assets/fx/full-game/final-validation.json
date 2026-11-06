@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "verifiedAt": "2026-10-26T11:56:43-04:00",
+  "primaryAssets": 35,
+  "supplementalMedia": 21,
+  "hashedMedia": 56,
+  "sourcePaintings": 8,
+  "atlasExactRGBAFrames": 24,
+  "runtimeFramesChecked": 24,
+  "runtimeClipsChecked": 6,
+  "htmlLinks": "passed",
+  "jsSyntax": "node --check passed",
+  "browserInteraction": "not_run",
+  "errors": [],
+  "warnings": []
+}

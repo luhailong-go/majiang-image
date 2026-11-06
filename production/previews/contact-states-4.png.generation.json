@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-4.png",
+  "sha256": "60c512bf23a09c8639d26cb67223d71e42bbc675ead8860354f633172340df48",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/mail.claim_pending.png",
+      "sha256": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+      "generationRecord": "production/previews/states/mail.claim_pending.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.claimed.png",
+      "sha256": "4853639102fe8f8a1b5cc0b05e598dc529348d6baa79adadc6234249bef121c9",
+      "generationRecord": "production/previews/states/mail.claimed.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.delete.png",
+      "sha256": "534fba60d42f50753617011931e472bb0be10bf46a5c539969e138b8a5ee00cf",
+      "generationRecord": "production/previews/states/mail.delete.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/list.no_results.png",
+      "sha256": "a04a8c5f2839ac3581b2335e884129420781034cba774570fcb77ec4aa006b23",
+      "generationRecord": "production/previews/states/list.no_results.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.loading.png",
+      "sha256": "0db0c5363c4be41a9cc446705aabbde638d762d4e521152b6a2e8ab364e32603",
+      "generationRecord": "production/previews/states/system.loading.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.error.png",
+      "sha256": "51d6322734038712a8ef676c7b8889372a30d5179628fe562bbb0e77c07a6721",
+      "generationRecord": "production/previews/states/system.error.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.disconnected.png",
+      "sha256": "7b407f0ca821a6854bd6d2eff8354aea8ce4ee6aa9d6fffc2d7f5a29ae41ea32",
+      "generationRecord": "production/previews/states/system.disconnected.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.reconnecting.png",
+      "sha256": "65aaaf835693f052e1160071961c17ecfa801a3849237d231de596d2022cd872",
+      "generationRecord": "production/previews/states/system.reconnecting.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.recovery_failed.png",
+      "sha256": "a9cedfbcbfc142b78d1382f00c70931048351a5cb9b26cdacf4e3d60bcc7591f",
+      "generationRecord": "production/previews/states/system.recovery_failed.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.matching.png",
+      "sha256": "0328bb5e1ce7794814bee9d388f6146a0d3eebb2df473709b765cbceb52dcd3f",
+      "generationRecord": "production/previews/states/system.matching.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.match_timeout.png",
+      "sha256": "7a6e813bc656ad5507c0b1bf811ccdc8a031298b01b13f9f811da5452077b9ce",
+      "generationRecord": "production/previews/states/system.match_timeout.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/system.match_cancel.png",
+      "sha256": "58e12f150b370b9332b8acf218b363506d24893cf2fb5cc8f1036d6b6347fde4",
+      "generationRecord": "production/previews/states/system.match_cancel.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/review/turn-test.png",
+  "sha256": "43191235f7bd4f28785e8529c1a038ee603f10fafb2a60e37ec154b1d567b9cb",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 3168,
+  "height": 1112,
+  "mode": "RGB",
+  "format": "PNG",
+  "frameCount": 1,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-00.png",
+      "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+      "record": "assets/fx/full-game/frames/draw-focus-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-01.png",
+      "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+      "record": "assets/fx/full-game/frames/draw-focus-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-02.png",
+      "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+      "record": "assets/fx/full-game/frames/draw-focus-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-03.png",
+      "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+      "record": "assets/fx/full-game/frames/draw-focus-03.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-00.png",
+      "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+      "record": "assets/fx/full-game/frames/discard-impact-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-01.png",
+      "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+      "record": "assets/fx/full-game/frames/discard-impact-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-02.png",
+      "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+      "record": "assets/fx/full-game/frames/discard-impact-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-03.png",
+      "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+      "record": "assets/fx/full-game/frames/discard-impact-03.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-00.png",
+      "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+      "record": "assets/fx/full-game/frames/player-ring-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-01.png",
+      "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+      "record": "assets/fx/full-game/frames/player-ring-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-02.png",
+      "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+      "record": "assets/fx/full-game/frames/player-ring-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/player-ring-03.png",
+      "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+      "record": "assets/fx/full-game/frames/player-ring-03.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-00.png",
+      "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+      "record": "assets/fx/full-game/frames/hu-burst-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-01.png",
+      "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+      "record": "assets/fx/full-game/frames/hu-burst-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-02.png",
+      "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+      "record": "assets/fx/full-game/frames/hu-burst-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-03.png",
+      "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+      "record": "assets/fx/full-game/frames/hu-burst-03.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+      "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+      "record": "assets/fx/full-game/frames/victory-confetti-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+      "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+      "record": "assets/fx/full-game/frames/victory-confetti-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+      "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+      "record": "assets/fx/full-game/frames/victory-confetti-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+      "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+      "record": "assets/fx/full-game/frames/victory-confetti-03.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-00.png",
+      "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+      "record": "assets/fx/full-game/frames/reward-stars-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-01.png",
+      "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+      "record": "assets/fx/full-game/frames/reward-stars-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-02.png",
+      "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+      "record": "assets/fx/full-game/frames/reward-stars-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/reward-stars-03.png",
+      "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+      "record": "assets/fx/full-game/frames/reward-stars-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "phase_filmstrip_or_onion_review",
+    "byteCopyOfBuilderOutput": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

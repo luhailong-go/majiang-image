@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/orchid.label.svg",
+  "sha256": "9b4b1e8a29ed2d0e9678902ffe836d91d77d7954e8ee04df27d57348db83fbe9",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/full-game/components/tutorial-arrow.png",
+  "sha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+  "exportedAt": "2026-10-26T11:42:06.355088-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source generated through builtin image_gen; host did not disclose verifiable model or quality.",
+  "width": 396,
+  "height": 334,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeSourceDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "derivedFrom": {
+    "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+    "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+    "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+  },
+  "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling",
+  "crop": [
+    497,
+    159,
+    860,
+    460
+  ],
+  "componentIsolation": {
+    "method": "8-connected alpha component; all components in each atlas exported once",
+    "selectedStrongPixels": 43956,
+    "selectedAlphaPixels": 44982
+  },
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 93302,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "transparentPadding": [
+    16,
+    16,
+    17,
+    17
+  ],
+  "placement": {
+    "x": 16,
+    "y": 16,
+    "familyCanvas": [
+      396,
+      334
+    ],
+    "sourceContentCenter": [
+      678.5,
+      309.5
+    ]
+  },
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "resampled": false,
+  "nineSlice": null,
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "preserveAspect": true,
+    "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 87282,
+    "semiTransparent": 3775,
+    "opaque": 41207,
+    "bbox": [
+      16,
+      16,
+      379,
+      317
+    ],
+    "edgeAlphaMax": 0,
+    "minimumTransparentMargin": 16,
+    "zeroRgbUnderZeroAlpha": true
+  },
+  "family": "arrow",
+  "state": "default",
+  "dynamicText": "All labels, ranks, quantities, achievement icons and step numbers are separate client elements.",
+  "inspection": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+    "issues": [],
+    "visual": "Actual final light/dark composites inspected: complete edges, no matte, no detached speckles, coherent style, distinguishable states.",
+    "technical": "PNG/hash/dimensions/alpha padding/source provenance passed.",
+    "qaImages": [
+      "work/full-game-ui/components/qa/slots-tutorial-light.png",
+      "work/full-game-ui/components/qa/slots-tutorial-dark.png"
+    ]
+  },
+  "productionAccepted": true,
+  "clientIntegrated": false,
+  "hotspot": {
+    "pointPixels": [
+      350,
+      313
+    ],
+    "pointNormalized": [
+      0.8838383838383839,
+      0.937125748502994
+    ],
+    "normalization": "x / imageWidth, y / imageHeight; origin top-left; coordinates refer to full delivered PNG canvas.",
+    "imageDimensions": [
+      396,
+      334
+    ],
+    "role": "arrow tip target alignment",
+    "evidence": {
+      "sampleAlpha": 245,
+      "strongAlphaThreshold": 128,
+      "lowestStrongRowY": 315,
+      "lowestStrongRowXRange": [
+        344,
+        351
+      ],
+      "basis": "Native pixel inspection; chosen point lies in the opaque lower arrowhead near the terminal tip."
+    },
+    "assetSha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e"
+  }
+}

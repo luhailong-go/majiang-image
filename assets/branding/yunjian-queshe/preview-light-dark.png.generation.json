@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 3,
+  "file": "assets/branding/yunjian-queshe/preview-light-dark.png",
+  "sha256": "102721dd0b08de87d58313da1563ef6720b968061dc142c37c5465a75ba9b642",
+  "createdAt": "2026-10-29T03:56:56.191365+00:00",
+  "width": 1536,
+  "height": 1072,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/branding/yunjian-queshe/logo-primary.png",
+      "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+      "record": "assets/branding/yunjian-queshe/logo-primary.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "deterministic_visual_QA_composition",
+    "sourceDisplaySize": [
+      768,
+      512
+    ],
+    "backgrounds": [
+      "#f5f0e3",
+      "#123d34"
+    ],
+    "premultipliedAlphaDownscale": true,
+    "sourcePixelsUnchanged": true
+  },
+  "inspection": {
+    "status": "passed_actual_visual_review",
+    "receipt": "assets/branding/yunjian-queshe/qa.json"
+  }
+}

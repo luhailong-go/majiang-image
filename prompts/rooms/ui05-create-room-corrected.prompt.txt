@@ -1,0 +1,4 @@
+Use case: precise-object-edit
+Edit target: the fourth attached image, the just-generated 创建房间 screen. Images1-3 are the unchanged project style references.
+Change only the “对局人数” row in the upper-left configuration area: keep the selected jade-gold “四人” control; REMOVE the entire “三人” and “两人” controls and their radio circles/icons. In their place leave clean ivory silk-paper negative space with a small, unobtrusive line of dark green text “固定四席”. The game UI contract is four-player Mahjong only; do not show selectable two-player or three-player variants.
+Preserve absolutely everything else from the fourth image: 16:9 full screen composition, title, scene, frame, exact 4局/8局/16局 choices with8局 selected, 加入方式, 规则选择, 房间摘要, 返回 and 创建房间 buttons, all colours, material and decorative details. No other changes, no extra text or extra controls. Single full screen, opaque PNG, target2048×1152.

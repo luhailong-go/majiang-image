@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T04:13:15.692708-04:00",
+  "scope": "FULL_UI_SCOPE role assets: one clean transparent full body and four differentiated avatars",
+  "root": "D:/work/majiang-image",
+  "actualModel": null,
+  "actualQuality": null,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "assets": [
+    {
+      "id": "welcome-daotong",
+      "name": "迎宾道童透明全身",
+      "file": "assets/characters/welcome-daotong.png",
+      "record": "assets/characters/welcome-daotong.png.generation.json",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "width": 1536,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 1568729,
+        "opaquePixels": 759405,
+        "semiTransparentPixels": 31162,
+        "bboxNonzero": [
+          199,
+          157,
+          1336,
+          1379
+        ],
+        "bboxAbove128": [
+          200,
+          160,
+          1335,
+          1378
+        ],
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mostCommon": [
+          [
+            0,
+            1568729
+          ],
+          [
+            255,
+            759405
+          ],
+          [
+            249,
+            3381
+          ],
+          [
+            248,
+            2511
+          ],
+          [
+            247,
+            1840
+          ],
+          [
+            246,
+            1401
+          ],
+          [
+            245,
+            1082
+          ],
+          [
+            244,
+            761
+          ]
+        ]
+      },
+      "role": "full_body",
+      "stage": "production_asset_qa_passed"
+    },
+    {
+      "id": "avatar-daotong",
+      "name": "金带道童",
+      "file": "assets/characters/avatar-daotong.png",
+      "record": "assets/characters/avatar-daotong.png.generation.json",
+      "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGB",
+      "role": "avatar",
+      "stage": "production_asset_qa_passed"
+    },
+    {
+      "id": "avatar-healer",
+      "name": "银发医师",
+      "file": "assets/characters/avatar-healer.png",
+      "record": "assets/characters/avatar-healer.png.generation.json",
+      "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGB",
+      "role": "avatar",
+      "stage": "production_asset_qa_passed"
+    },
+    {
+      "id": "avatar-master",
+      "name": "白眉老道",
+      "file": "assets/characters/avatar-master.png",
+      "record": "assets/characters/avatar-master.png.generation.json",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGB",
+      "role": "avatar",
+      "stage": "production_asset_qa_passed"
+    },
+    {
+      "id": "avatar-swordswoman",
+      "name": "黑发侠女",
+      "file": "assets/characters/avatar-swordswoman.png",
+      "record": "assets/characters/avatar-swordswoman.png.generation.json",
+      "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGB",
+      "role": "avatar",
+      "stage": "production_asset_qa_passed"
+    }
+  ],
+  "sourceImages": [
+    "designs/characters/production/welcome-daotong-production-v2.png",
+    "designs/characters/production/seat-avatars-atlas-v1.png"
+  ],
+  "qaReport": "assets/characters/QA.md",
+  "exportScript": "work/characters/export_characters.py",
+  "note": "Avatar files are derived crops/downsamples of one generated atlas. The 1536 transparent full-body canvas contains unscaled native character detail from a 1254 image; padding is not native resolution increase.",
+  "status": "complete_qa_passed",
+  "completedAt": "2026-10-26T04:18:28.944080-04:00"
+}

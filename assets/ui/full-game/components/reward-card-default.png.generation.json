@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/full-game/components/reward-card-default.png",
+  "sha256": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+  "exportedAt": "2026-10-26T11:42:06.355088-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source generated through builtin image_gen; host did not disclose verifiable model or quality.",
+  "width": 514,
+  "height": 312,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeSourceDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "derivedFrom": {
+    "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+    "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+    "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+  },
+  "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling",
+  "crop": [
+    26,
+    65,
+    508,
+    335
+  ],
+  "componentIsolation": {
+    "method": "8-connected alpha component; all components in each atlas exported once",
+    "selectedStrongPixels": 117060,
+    "selectedAlphaPixels": 119029
+  },
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 81987,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "transparentPadding": [
+    16,
+    21,
+    16,
+    21
+  ],
+  "placement": {
+    "x": 16,
+    "y": 21,
+    "familyCanvas": [
+      514,
+      312
+    ],
+    "sourceContentCenter": [
+      267,
+      200
+    ]
+  },
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "resampled": false,
+  "nineSlice": null,
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "preserveAspect": true,
+    "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 41339,
+    "semiTransparent": 6710,
+    "opaque": 112319,
+    "bbox": [
+      16,
+      21,
+      498,
+      291
+    ],
+    "edgeAlphaMax": 0,
+    "minimumTransparentMargin": 16,
+    "zeroRgbUnderZeroAlpha": true
+  },
+  "family": "rewardCard",
+  "state": "default",
+  "dynamicText": "All labels, ranks, quantities, achievement icons and step numbers are separate client elements.",
+  "inspection": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+    "issues": [],
+    "visual": "Actual final light/dark composites inspected: complete edges, no matte, no detached speckles, coherent style, distinguishable states.",
+    "technical": "PNG/hash/dimensions/alpha padding/source provenance passed.",
+    "qaImages": [
+      "work/full-game-ui/components/qa/cards-badges-light.png",
+      "work/full-game-ui/components/qa/cards-badges-dark.png"
+    ]
+  },
+  "productionAccepted": true,
+  "clientIntegrated": false
+}

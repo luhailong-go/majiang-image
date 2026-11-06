@@ -1,0 +1,5 @@
+Use case: precise-object-edit
+Edit image 1, the completed Mahjong tutorial screen. Keep all artwork above pixel y=880 unchanged, including every tile, character, title, instruction text, progress steps, and bottom navigation buttons.
+Redesign ONLY the full-width bottom footer strip from y=881 to y=941: paint a clean continuous dark-jade silk ribbon with fine warm gold top border, completely covering the existing blurred flowers/ground and ALL existing text in that bottom strip. Inside the NEW ribbon put only one centered crisp text “引导示例”. The rest of this new strip is empty jade silk. Absolutely no tiny writing, signatures, watermarks or glyphs in the lower right or lower left.
+This deliberate full-width footer replacement is essential: cover every old pixel in the bottom 60-pixel strip so no old corner marks survive. Do not alter the image height or any content above y=880.
+References 2 and 3 provide the established hand-painted jade/ivory/thin warm gold style. Same landscape 1672x941 composition.

@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-3.png",
+  "sha256": "157dd414dc7ed19448cd303ecf30ae0706f95c14645ab8449277272e252965ec",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/play.continue_round.png",
+      "sha256": "a8a75554be145ff024b6b01c638f7c4711cb9358c7e1c390545f44d7e35ccb68",
+      "generationRecord": "production/previews/states/play.continue_round.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.match_return.png",
+      "sha256": "50eac21aedf6e337a7f5ce2f5ae95b970b3d23832a1694fbc59f8b9296c5d6a5",
+      "generationRecord": "production/previews/states/play.match_return.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.friend_online.png",
+      "sha256": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+      "generationRecord": "production/previews/states/social.friend_online.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.friend_offline.png",
+      "sha256": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+      "generationRecord": "production/previews/states/social.friend_offline.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.friend_busy.png",
+      "sha256": "74c16069ad24f3c65f7b5e836798f0eec1742c3e1194756484615be7b8e31235",
+      "generationRecord": "production/previews/states/social.friend_busy.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.invite_sent.png",
+      "sha256": "5eb07bb3c02bc5fa4a118716d48c43593f99b0a800068ccd435907cfe47cf29a",
+      "generationRecord": "production/previews/states/social.invite_sent.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.friend_application.png",
+      "sha256": "a9c87066ffb351a5423960147ac41566585759b661e9978d046a4005f0fbf90a",
+      "generationRecord": "production/previews/states/social.friend_application.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.quick_chat.png",
+      "sha256": "533f15e8140e652b1fe51be73c736336ef71670791f64d6dcedad2a422fe8277",
+      "generationRecord": "production/previews/states/social.quick_chat.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.emoticons.png",
+      "sha256": "1e8043f9993078d8792c7167a576197b558168d74f2a2cfb10728d1d404e2dca",
+      "generationRecord": "production/previews/states/social.emoticons.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.unread.png",
+      "sha256": "bc8ba1e299bc569f73b3dad83dac2fbdfbd127d0e6c7253395020dcc566e7ab9",
+      "generationRecord": "production/previews/states/mail.unread.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.read.png",
+      "sha256": "a07a0a589d083ae29576c143d941e0ba33b6c8d6c2a3362f1661c80c8d9d4eeb",
+      "generationRecord": "production/previews/states/mail.read.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.attachment.png",
+      "sha256": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+      "generationRecord": "production/previews/states/mail.attachment.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

@@ -1,0 +1,10 @@
+Use case: stylized-concept. Asset type: six distinct non-monetary generic inventory/reward icons for a Daoist Q Mahjong game.
+Images1 and2 are the exact Daoist Q hand-painted material/style references: jade green, ivory, warm gold, rounded cloud curls, refined painted highlights, tiny vermilion tassels. No copied text or characters.
+Exact3-column by2-row transparent sprite sheet, target3072x2048. Exactly one complete isolated object in each equal cell, generous clear spacing, every part and ribbon stays inside cell, clean true alpha, no floor shadow/diffuse halo/background, no visible grid/labels/words/letters/numbers.
+Top left GIFT BOX: small ivory/jade gift box with warm-gold edging and rich red silk bow.
+Top center BROCADE POUCH: plump jade-green silk drawstring pouch with ivory cloud motif, gold cord and small red tassel.
+Top right ENVELOPE: ivory folded letter/envelope sealed with a jade Taiji seal and fine gold edging, no writing.
+Bottom left JADE PENDANT: elegant rounded jade bi-disc pendant with a small warm-gold clasp, ivory bead and red tassel, not a coin/currency.
+Bottom center PEACH BLOSSOM: one short graceful branch with three soft five-petal pink peach flowers and a few jade leaves.
+Bottom right GOLDEN GOURD: one plump gold Daoist gourd with jade neck band and small red tassel, plain object with no face.
+Friendly rounded shapes, readable at64px, sophisticated but delicate high-definition hand-painted game art. Not plastic, not photorealistic. No money, currency values or prices.

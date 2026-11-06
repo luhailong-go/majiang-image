@@ -1,0 +1,127 @@
+{
+  "file": "assets/props/full-game/emotes/surprise.png",
+  "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+  "createdAt": "2026-10-26T16:37:54.715Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/emotes-a-sheet-v1.png",
+      "sha256": "4b6f2abdbe851cbd997f83c775c12bb5997bf70b05455b913c4216114ac94758",
+      "generationRecord": "designs/props/full-game/sources/emotes-a-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      520,
+      512,
+      1024,
+      1024
+    ],
+    "nativeContentBounds": [
+      572,
+      527,
+      991,
+      1000
+    ],
+    "corePixelsBefore": 115266,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 109873,
+        "box": [
+          575,
+          527,
+          978,
+          999
+        ]
+      },
+      {
+        "pixels": 1338,
+        "box": [
+          603,
+          585,
+          642,
+          646
+        ]
+      },
+      {
+        "pixels": 1766,
+        "box": [
+          922,
+          612,
+          977,
+          684
+        ]
+      },
+      {
+        "pixels": 1234,
+        "box": [
+          572,
+          628,
+          624,
+          670
+        ]
+      },
+      {
+        "pixels": 1055,
+        "box": [
+          943,
+          667,
+          990,
+          703
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      419,
+      473
+    ],
+    "exportContent": [
+      419,
+      473
+    ],
+    "contentBounds": [
+      46,
+      19,
+      419,
+      473
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "emote-surprise",
+    "label": "惊讶",
+    "group": "emote"
+  }
+}

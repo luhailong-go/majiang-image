@@ -1,0 +1,82 @@
+{
+  "scope": "UI28–UI32 六张独立图",
+  "timestamp": "2026-10-26T13:24:34.107638-04:00",
+  "imageCount": 6,
+  "contractIds": [
+    "UI28",
+    "UI29",
+    "UI30",
+    "UI31",
+    "UI32"
+  ],
+  "checks": [
+    {
+      "file": "designs/ui/full-game/modules/ui28-announcement.png",
+      "sha256": "42e0573f2fb45b995f5f327db75eba8b02fca3ee9432ba2043960aa655e12cbd",
+      "result": "passed",
+      "notes": [
+        "标题公告/欢迎来到牌桌、2026-10-26及三句正文清楚；有返回大厅和关闭；可选通用模块与示例数据标注可见。",
+        "卷轴和麻将装饰未遮挡正文，未添加领取/收费内容。"
+      ]
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+      "sha256": "94d689ce3de7e3ece75725721607e2a591dd866489b72ad64585cb02b1cf6b09",
+      "result": "passed",
+      "notes": [
+        "头像框×1、收藏徽章×1及两处待领取标记清楚；领取奖励为可用玉绿主按钮，返回大厅可用。",
+        "当前只有待领取状态，无已领取回执或成功勾记；奖励内容为展示示例且可选模块脚注可见。"
+      ]
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui29-reward-claimed.png",
+      "sha256": "c0ab91828b53c5c201c1ffe59ca6aa666b01789ce25eb41f8e3682448498eb5e",
+      "result": "passed",
+      "notes": [
+        "两项附件均为已领取并带勾，主按钮灰色禁用仅显示已领取，另有领取成功回执；返回大厅和关闭仍可用。",
+        "未残留待领取/活跃领取奖励动作；同一礼盒与两项附件保持一致，两态分别交付。",
+        "本编辑返回原生1671×941，比待领态宽度少1像素；未裁切/放大或伸缩改写原生文件，接入时按独立原生文本与控件布局。"
+      ]
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui30-achievements.png",
+      "sha256": "cf70fe76c9331d4d32fae7c159486e3e5abd6a1e59d2205bcf1158083dcbab63",
+      "result": "passed",
+      "notes": [
+        "已解锁1/1满进度、进行中3/10约30%进度、未解锁0/5空进度匹配；三行名称/说明和返回关闭均清楚。",
+        "未把未解锁项画成可领奖励；可选模块示例数据脚注可见。"
+      ]
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui31-ranking.png",
+      "sha256": "722ea9e2a03499fd0188bd5ae8693f8172837fb75c636bd5a1d06b1db8d22c94",
+      "result": "passed",
+      "notes": [
+        "前三名与第4/5名及本人第12位清楚，+320/+260/+180/+120/+80均朱砂红，-12为玉绿，数字符号完整。",
+        "四角色身份沿用头像母版；返回关闭和可选示例标注可见，无现金或商业奖励。"
+      ]
+    },
+    {
+      "file": "designs/ui/full-game/modules/ui32-item-collection.png",
+      "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+      "result": "passed",
+      "notes": [
+        "装扮体验券×2未使用、收藏礼盒×1已选中、太极徽章×1使用中及空槽完整可见。",
+        "右详情名称/图标与选中礼盒一致，使用按钮对应礼盒而非使用中的徽章；返回关闭与可选示例标注可见。"
+      ]
+    }
+  ],
+  "technicalValidation": {
+    "pngIntegrity": "passed",
+    "imageHashes": "passed",
+    "promptHashes": "passed",
+    "referenceHashes": "passed",
+    "twoPrimaryReferencesAttached": "passed",
+    "visualReview": "passed",
+    "actualModel": null,
+    "actualQuality": null,
+    "unverifiedReason": "宿主管理，工具未披露可核实版本/质量"
+  },
+  "externalIndependentQA": "work/full-game-ui/independent-qa.json",
+  "unresolvedIssues": []
+}

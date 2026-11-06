@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/branding/full-game/app-icon-v1.png",
+  "sha256": "fe8e0659f56de800880ad376acdcfd97ba1b29fa57288ac07e3bddb0d496f182",
+  "generatedAt": "2026-10-26T11:57:12-04:00",
+  "generationTimestampBasis": "client observed completion, not provider timestamp",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\branding\\full-game\\backs-and-brand-v1.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实实际型号/质量。配置目标不等于真实返回参数。",
+  "evidence": "工具output_hint提供PNG落盘路径；尺寸/格式/哈希由文件实测。",
+  "prompt": "prompts/full-game/scenes/app-icon.txt",
+  "promptSha256": "e25f9406106c0fcaf6affca437704c7802f3c72fbdcf428c76f670f26b1ae38f",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/branding/full-game/backs-and-brand-v1.png",
+      "sha256": "c9c65704516c2c8859a0fac0baadb2782be247e4379f8efb25e62093e523b147",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-b3d7-7af3-90f2-a95cb20aeee2\\exec-92819fc0-b1f5-439e-848a-8ec50efb5a41.png",
+    "sha256": "fe8e0659f56de800880ad376acdcfd97ba1b29fa57288ac07e3bddb0d496f182",
+    "operation": "byte-identical copy"
+  },
+  "width": 1254,
+  "height": 1254,
+  "nativeDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "mode": "RGBA",
+  "format": "PNG",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "bbox": [
+      24,
+      17,
+      1218,
+      1254
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "resampled": false,
+  "purpose": "独立大图应用图标原生母图",
+  "inspection": {
+    "status": "passed_as_production_source",
+    "visualReview": "root inspected generated source; layout and motif correct; low-alpha speckles cleaned in final derived PNG; use runtime exports for integration"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "assetStage": "production_source_not_runtime"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

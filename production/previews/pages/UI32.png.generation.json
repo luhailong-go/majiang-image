@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/pages/UI32.png",
+  "sha256": "275c6397850185048b20feac0702ff70508608b72015711daa87539c6cdc35a5",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/items/achievement-medal.png",
+      "sha256": "b0c7e46d56a6fe25ab355e11e53a02595b0c259a048c10ccf7679db704507056",
+      "generationRecord": "assets/props/full-game/items/achievement-medal.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/avatar-voucher.png",
+      "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+      "generationRecord": "assets/props/full-game/items/avatar-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/brocade-pouch.png",
+      "sha256": "8d1434fa4a7e2dd639e9ebb182b35d4f486d4ae726e25357fa5edb253bdeda19",
+      "generationRecord": "assets/props/full-game/items/brocade-pouch.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/emote-voucher.png",
+      "sha256": "61e32fdc025026c54d68d1d11ddc35eed9543361109881300a49c7dc8a2405c6",
+      "generationRecord": "assets/props/full-game/items/emote-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/experience-scroll.png",
+      "sha256": "2b1df2519402a057ba7f3a68bd7b816c4b757dfb37b30ec54c6f7310da26cd16",
+      "generationRecord": "assets/props/full-game/items/experience-scroll.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/gift-box.png",
+      "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+      "generationRecord": "assets/props/full-game/items/gift-box.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tablecloth-voucher.png",
+      "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+      "generationRecord": "assets/props/full-game/items/tablecloth-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tile-back-voucher.png",
+      "sha256": "0f185b4ea121120c4afe1c3b6807ba7ebab5a6c66e1c4f55e998eac0d7a1a9f9",
+      "generationRecord": "assets/props/full-game/items/tile-back-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "generationRecord": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "generationRecord": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "generationRecord": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "generationRecord": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "generationRecord": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "generationRecord": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "generationRecord": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-normal.png",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "generationRecord": "assets/ui/common/tab-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-selected.png",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "generationRecord": "assets/ui/common/tab-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "generationRecord": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "generationRecord": "assets/ui/common/window-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-default.png",
+      "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+      "generationRecord": "assets/ui/full-game/components/item-slot-default.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-selected.png",
+      "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+      "generationRecord": "assets/ui/full-game/components/item-slot-selected.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/layouts.json",
+    "layoutId": "UI32",
+    "layoutContentSha256": "1220acfa253c7626ee26d3cd5390c14c60c76371015d5187e86dda2f5876ba07",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}

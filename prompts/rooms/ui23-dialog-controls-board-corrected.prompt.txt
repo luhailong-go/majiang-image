@@ -1,0 +1,4 @@
+Use case: precise-object-edit
+Edit only image4, the 弹窗与控件状态 specification board. Images1-3 are style references.
+Make one local simplification inside the middle “解散投票” dialog: remove the four small circular portrait images from the four player rows, leaving clean ivory-paper row backgrounds in their place. Keep all four names “青云”“桂枝”“墨翎”“松隐” and their current 同意/等待 statuses, align the names neatly toward the left of their rows. The vote list should be text-and-status-only, no portrait, no new decoration.
+Keep every other element unchanged: the board's three top panels, all exact Chinese words, 2/4 progress,00:30 timer,同意/拒绝 buttons, left离开 confirmation, right result cards, lower button/tab/check/radio/slider/input/badge/tooltip samples, all borders/materials/layout. Single full16:9 opaque board.

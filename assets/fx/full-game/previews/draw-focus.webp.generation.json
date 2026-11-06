@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/draw-focus.webp",
+  "sha256": "63df14959d9202ee0dd8ab940469d902d122de90ae87be8e8043e053cd351e7c",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-00.png",
+      "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+      "record": "assets/fx/full-game/frames/draw-focus-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-01.png",
+      "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+      "record": "assets/fx/full-game/frames/draw-focus-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-02.png",
+      "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+      "record": "assets/fx/full-game/frames/draw-focus-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/draw-focus-03.png",
+      "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+      "record": "assets/fx/full-game/frames/draw-focus-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      83,
+      84,
+      116,
+      117
+    ],
+    "loop": false,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

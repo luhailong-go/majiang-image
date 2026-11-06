@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/expression-master-surprised.png",
+  "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 126741,
+    "opaquePixels": 122064,
+    "semiTransparentPixels": 13339,
+    "bbox": [
+      34,
+      43,
+      478,
+      480
+    ],
+    "clearMargins": [
+      34,
+      43,
+      34,
+      32
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/master-expressions-native.png",
+    "sha256": "a301c5267c6d286dac29a2deb7c99525b9c0e7969fba34cc8f2578187bfd4418",
+    "generationRecord": "designs/characters/full-game/master-expressions-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "whole-source ownership slice",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 53805,
+      "removedPixelsAbove128": 0,
+      "componentCount": 4,
+      "RGBRepainted": false,
+      "sourceBox": [
+        9,
+        629,
+        620,
+        1230
+      ],
+      "componentCentroid": [
+        309.3689741524028,
+        978.3705100068657
+      ],
+      "sourcePixelsRetained": 251977,
+      "crossGridDetailsPreserved": true,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 234035
+    },
+    {
+      "operation": "uniform downsample with per-identity shared scale",
+      "sourceSize": [
+        611,
+        601
+      ],
+      "outputContentSize": [
+        444,
+        437
+      ],
+      "scale": 0.7272727272727273,
+      "method": "premultiplied LANCZOS",
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "transparent padding",
+      "canvas": [
+        512,
+        512
+      ],
+      "offset": [
+        34,
+        43
+      ],
+      "localSafeMargin": 32
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/master-expressions.prompt.txt",
+  "usage": {
+    "identity": "master",
+    "identityName": "白眉老道",
+    "role": "expression_avatar",
+    "expression": "surprised",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": "passed",
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

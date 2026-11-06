@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-suite/core/ui09-table-base.png",
+  "uiId": "UI09",
+  "title": "四人牌桌基础态",
+  "sha256": "e9153d4727e88d72cd6f6d38db12507e6be2b8b162b554e4d7ccdf538fb16e6a",
+  "generatedAt": "2026-10-26T08:10:45.616Z",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-a8ca64aa-73b1-4991-9cee-807e7af36828",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": [
+    2048,
+    1152
+  ],
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "promptFile": "prompts/core/ui09-table-base.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "结果提供image_url与output_hint及PNG文件路径；尺寸、格式和Alpha由文件检测。工具未返回可核实模型或质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/core/ui09-table-base.prompt.txt",
+  "promptSha256": "212e4a847af22b15708d59b3e48335d65240120099cbe09ee6a1cc20dfa99587",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格和层级",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a8ca64aa-73b1-4991-9cee-807e7af36828.png",
+    "sha256": "e9153d4727e88d72cd6f6d38db12507e6be2b8b162b554e4d7ccdf538fb16e6a",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "alphaStatistics": null,
+    "visualStatus": "passed",
+    "issues": [],
+    "visualInspectionCompleted": true,
+    "visualNotes": "四座手牌/弃牌/副露与牌墙、风位、轮次、余牌、倒计时、庄家与设置/聊天齐全；本人13张加独立摸牌。",
+    "blockingIssues": [],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "full_ui_art",
+    "userApproved": false,
+    "productionAccepted": true,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "等待出牌",
+    "当前玩家",
+    "倒计时",
+    "庄家",
+    "四方弃牌/副露",
+    "牌墙/余牌",
+    "设置/聊天入口"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a8ca64aa-73b1-4991-9cee-807e7af36828.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

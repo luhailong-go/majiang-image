@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-29T05:28:44.397345+00:00",
+  "repository": "https://github.com/luhailong-go/majiang-image",
+  "visibilityEvidence": "Existing public repository and successful new anonymous HTTPS fetch with credential helper and extra headers disabled.",
+  "repoMetadataApiCheck": "Unavailable: host DNS resolution of api.github.com failed; this receipt relies on actual anonymous Git transfer instead.",
+  "commit": "65e2f64f8ec2dff523a4fd43bc6dad8df0cfb77e",
+  "commitCount": 1,
+  "verifiedFiles": 1573,
+  "primaryArtAssets": 293,
+  "newNativeLogos": 1,
+  "anonymousDownloadVerified": true,
+  "allPayloadSha256": "passed",
+  "errors": []
+}

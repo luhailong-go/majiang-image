@@ -1,0 +1,37 @@
+{
+  "file": "assets/tiles/symbols/dragon-white.png",
+  "sha256": "9deb3727947dc7c76fbf1abb9b5a6530c58ac2a281432b5de722a34488dab91c",
+  "createdAt": "2026-10-26T08:25:50.464Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/dragon-white.svg",
+    "sha256": "970edf392810e9de6f2767167d177ab14c5af55a56c8c28ec5f647cf7cb97106"
+  },
+  "semantic": {
+    "label": "白",
+    "suit": "dragons",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": null,
+    "whiteDragonFrame": true
+  }
+}

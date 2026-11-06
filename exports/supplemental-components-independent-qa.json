@@ -1,0 +1,1707 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "startedAt": "2026-10-26T12:52:16-04:00",
+  "readOnlyTargetDomain": true,
+  "beforeHashes": {
+    "assets/ui/full-game/components/manifest.json": "f9232e14a17fe95321dd561b58428fa7338901c63a2075a07c037bd1b445ebc8",
+    "assets/ui/full-game/components/compositions.json": "76756dccef13f85fe79ebdc00aeda0bef91d20ba864733ee2d13499ed1fd4017",
+    "assets/ui/full-game/components/README.md": "3866dd9654e10772580f8b3c0412bee28a715bc4c9d37e9eefb83d1d58ff2241",
+    "assets/ui/full-game/components/reward-card-default.png": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+    "assets/ui/full-game/components/reward-card-default.png.generation.json": "8444a5fcace99618855d1ef4cf31917346aca4e375a1667a58bc61fdd8391c75",
+    "assets/ui/full-game/components/reward-card-claimable.png": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+    "assets/ui/full-game/components/reward-card-claimable.png.generation.json": "250cc1bd29a2bb438fdc99792deb5c38cbb3c07ff24c1dd89220c96c4de3e940",
+    "assets/ui/full-game/components/reward-card-claimed.png": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+    "assets/ui/full-game/components/reward-card-claimed.png.generation.json": "e8c12343d43d2b100cf309b5fd5585807854ba0bf4f66feccc6c207ed7e01624",
+    "assets/ui/full-game/components/cosmetic-card-unselected.png": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+    "assets/ui/full-game/components/cosmetic-card-unselected.png.generation.json": "d8e094185037a12ec95e647514031b922f491ec00af2b66f9e61bd006ee39a4e",
+    "assets/ui/full-game/components/cosmetic-card-selected.png": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+    "assets/ui/full-game/components/cosmetic-card-selected.png.generation.json": "efdf251df61e0992edc56ff2931095eb231218f2a00e4237d627ca0e9efe42b8",
+    "assets/ui/full-game/components/cosmetic-card-in-use.png": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+    "assets/ui/full-game/components/cosmetic-card-in-use.png.generation.json": "dc3d707d11f3b199c7f921a19e28a36e1a8f56d20c230227474581088d404dcc",
+    "assets/ui/full-game/components/achievement-frame-locked.png": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+    "assets/ui/full-game/components/achievement-frame-locked.png.generation.json": "64fbd7b2afdc6e4b655f5ac996ea3a21324ea1bf60869ab08c718cca492665ea",
+    "assets/ui/full-game/components/achievement-frame-unlocked.png": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+    "assets/ui/full-game/components/achievement-frame-unlocked.png.generation.json": "a5e012074ff875a11f354e7729c943de0a09b11d50ac89ec7114d57acd2df527",
+    "assets/ui/full-game/components/rank-marker-gold.png": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+    "assets/ui/full-game/components/rank-marker-gold.png.generation.json": "de1dbf1eb984ee57c14481997d9221134de277cf01895823c498b8937dd596a5",
+    "assets/ui/full-game/components/rank-marker-silver.png": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+    "assets/ui/full-game/components/rank-marker-silver.png.generation.json": "1ffdc0811db34846fa58cb1ccc110d46b8a2439c554380c97a0a5da62369f7ad",
+    "assets/ui/full-game/components/rank-marker-bronze.png": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+    "assets/ui/full-game/components/rank-marker-bronze.png.generation.json": "ea11790b4e9a187b7f5ed4f22586adaaf826994149ae525a5e1296ec4b1aec9e",
+    "assets/ui/full-game/components/item-slot-default.png": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+    "assets/ui/full-game/components/item-slot-default.png.generation.json": "00fa3a148dac7f16bed6e0489a37f8df4585e329c5a88acf0b2f45349974269e",
+    "assets/ui/full-game/components/item-slot-selected.png": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+    "assets/ui/full-game/components/item-slot-selected.png.generation.json": "307bc58da99a35d11893a3fa7b456a5c46059017b9c991344568997ddda8fca1",
+    "assets/ui/full-game/components/item-slot-disabled.png": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+    "assets/ui/full-game/components/item-slot-disabled.png.generation.json": "f2a06249c5526adbfbee7e96949631649c2fe33c250578db8bbc394890d193d2",
+    "assets/ui/full-game/components/item-slot-new.png": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+    "assets/ui/full-game/components/item-slot-new.png.generation.json": "38a8c7a95e2b666e2dde7413a73b49b72406ca4e0a497419b8b2fc019240de75",
+    "assets/ui/full-game/components/tutorial-spotlight-ring.png": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+    "assets/ui/full-game/components/tutorial-spotlight-ring.png.generation.json": "9d69953f54677619b1e37b8a5b1a9355b58f82071364288f3a18b25b6d41fb07",
+    "assets/ui/full-game/components/tutorial-arrow.png": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+    "assets/ui/full-game/components/tutorial-arrow.png.generation.json": "f8a73c19207379c97347c4a8bc4f8e70b7a58834178673eafc261da7f85e42ae",
+    "assets/ui/full-game/components/tutorial-step-marker.png": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+    "assets/ui/full-game/components/tutorial-step-marker.png.generation.json": "25d41d37cd0c595f64c706d5dd30d821a98d618e203d551d49961812dd223766",
+    "assets/ui/full-game/components/tutorial-tap-hand.png": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+    "assets/ui/full-game/components/tutorial-tap-hand.png.generation.json": "27476589e3c6557618ddc853469e273ffd97a0b07b135ce1a8959b18316e6476",
+    "assets/ui/full-game/components/tutorial-focus-frame.png": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+    "assets/ui/full-game/components/tutorial-focus-frame.png.generation.json": "aa2f0e560bd8926bbc960aef3d0e7c1b4068e07d9b7b8664c7c00d1c15fe447f",
+    "assets/ui/full-game/components/item-voucher.png": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+    "assets/ui/full-game/components/item-voucher.png.generation.json": "e7fc0617a0c3866d2e1fefcf640d9f8a726a1ddca5e2b86f5a787806e4273d7d",
+    "assets/ui/full-game/components/gift-box.png": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+    "assets/ui/full-game/components/gift-box.png.generation.json": "2333fdacec3eb6f09ee2797e4dbae099aaf254abdbaa4d1980a42122a67bf478"
+  },
+  "assets": [
+    {
+      "id": "reward-card-default",
+      "file": "assets/ui/full-game/components/reward-card-default.png",
+      "record": "assets/ui/full-game/components/reward-card-default.png.generation.json",
+      "width": 514,
+      "height": 312,
+      "family": "rewardCard",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "reward-card-claimable",
+      "file": "assets/ui/full-game/components/reward-card-claimable.png",
+      "record": "assets/ui/full-game/components/reward-card-claimable.png.generation.json",
+      "width": 514,
+      "height": 312,
+      "family": "rewardCard",
+      "state": "claimable",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "reward-card-claimed",
+      "file": "assets/ui/full-game/components/reward-card-claimed.png",
+      "record": "assets/ui/full-game/components/reward-card-claimed.png.generation.json",
+      "width": 514,
+      "height": 312,
+      "family": "rewardCard",
+      "state": "claimed",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "cosmetic-card-unselected",
+      "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+      "record": "assets/ui/full-game/components/cosmetic-card-unselected.png.generation.json",
+      "width": 462,
+      "height": 608,
+      "family": "cosmeticCard",
+      "state": "unselected",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "cosmetic-card-selected",
+      "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+      "record": "assets/ui/full-game/components/cosmetic-card-selected.png.generation.json",
+      "width": 462,
+      "height": 608,
+      "family": "cosmeticCard",
+      "state": "selected",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "cosmetic-card-in-use",
+      "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+      "record": "assets/ui/full-game/components/cosmetic-card-in-use.png.generation.json",
+      "width": 462,
+      "height": 608,
+      "family": "cosmeticCard",
+      "state": "inUse",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+        "sha256": "eaaed97cf16e280374ffb10ad0c869c9dbc5435807ece0776ee0e775a948d49f",
+        "record": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "achievement-frame-locked",
+      "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+      "record": "assets/ui/full-game/components/achievement-frame-locked.png.generation.json",
+      "width": 618,
+      "height": 526,
+      "family": "achievement",
+      "state": "locked",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "achievement-frame-unlocked",
+      "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+      "record": "assets/ui/full-game/components/achievement-frame-unlocked.png.generation.json",
+      "width": 618,
+      "height": 526,
+      "family": "achievement",
+      "state": "unlocked",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "rank-marker-gold",
+      "file": "assets/ui/full-game/components/rank-marker-gold.png",
+      "record": "assets/ui/full-game/components/rank-marker-gold.png.generation.json",
+      "width": 486,
+      "height": 498,
+      "family": "rank",
+      "state": "gold",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "rank-marker-silver",
+      "file": "assets/ui/full-game/components/rank-marker-silver.png",
+      "record": "assets/ui/full-game/components/rank-marker-silver.png.generation.json",
+      "width": 486,
+      "height": 498,
+      "family": "rank",
+      "state": "silver",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "rank-marker-bronze",
+      "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+      "record": "assets/ui/full-game/components/rank-marker-bronze.png.generation.json",
+      "width": 486,
+      "height": 498,
+      "family": "rank",
+      "state": "bronze",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+        "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+        "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "item-slot-default",
+      "file": "assets/ui/full-game/components/item-slot-default.png",
+      "record": "assets/ui/full-game/components/item-slot-default.png.generation.json",
+      "width": 660,
+      "height": 508,
+      "family": "itemSlot",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+        "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+        "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "item-slot-selected",
+      "file": "assets/ui/full-game/components/item-slot-selected.png",
+      "record": "assets/ui/full-game/components/item-slot-selected.png.generation.json",
+      "width": 660,
+      "height": 508,
+      "family": "itemSlot",
+      "state": "selected",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+        "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+        "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "item-slot-disabled",
+      "file": "assets/ui/full-game/components/item-slot-disabled.png",
+      "record": "assets/ui/full-game/components/item-slot-disabled.png.generation.json",
+      "width": 660,
+      "height": 508,
+      "family": "itemSlot",
+      "state": "disabled",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+        "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+        "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "item-slot-new",
+      "file": "assets/ui/full-game/components/item-slot-new.png",
+      "record": "assets/ui/full-game/components/item-slot-new.png.generation.json",
+      "width": 660,
+      "height": 508,
+      "family": "itemSlot",
+      "state": "new",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/inventory-slots-v1.png",
+        "sha256": "b13c4ba5b44b8d375268c65e0e896e534e93b9e75bb765026ea9c99f4eeae6c1",
+        "record": "designs/ui/full-game/component-sources/inventory-slots-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "tutorial-spotlight-ring",
+      "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+      "record": "assets/ui/full-game/components/tutorial-spotlight-ring.png.generation.json",
+      "width": 482,
+      "height": 474,
+      "family": "spotlight",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "tutorial-arrow",
+      "file": "assets/ui/full-game/components/tutorial-arrow.png",
+      "record": "assets/ui/full-game/components/tutorial-arrow.png.generation.json",
+      "width": 396,
+      "height": 334,
+      "family": "arrow",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "tutorial-step-marker",
+      "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+      "record": "assets/ui/full-game/components/tutorial-step-marker.png.generation.json",
+      "width": 342,
+      "height": 304,
+      "family": "step",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "tutorial-tap-hand",
+      "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+      "record": "assets/ui/full-game/components/tutorial-tap-hand.png.generation.json",
+      "width": 284,
+      "height": 396,
+      "family": "tap",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "tutorial-focus-frame",
+      "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+      "record": "assets/ui/full-game/components/tutorial-focus-frame.png.generation.json",
+      "width": 416,
+      "height": 402,
+      "family": "focus",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "item-voucher",
+      "file": "assets/ui/full-game/components/item-voucher.png",
+      "record": "assets/ui/full-game/components/item-voucher.png.generation.json",
+      "width": 436,
+      "height": 324,
+      "family": "voucher",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    },
+    {
+      "id": "gift-box",
+      "file": "assets/ui/full-game/components/gift-box.png",
+      "record": "assets/ui/full-game/components/gift-box.png.generation.json",
+      "width": 378,
+      "height": 360,
+      "family": "gift",
+      "state": "default",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "preserveAspect": true,
+        "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+      },
+      "derivedFrom": {
+        "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+        "sha256": "0d838c9830f1fb32423826c601d1534f5f35a38dd9d49f3cd4ff65b22b8dc75d",
+        "record": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png.generation.json"
+      },
+      "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling"
+    }
+  ],
+  "checkedAt": "2026-10-26T13:16:25-04:00",
+  "assetCount": 22,
+  "checks": [
+    {
+      "id": "reward-card-default",
+      "file": "assets/ui/full-game/components/reward-card-default.png",
+      "sha256": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+      "size": [
+        514,
+        312
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        21,
+        498,
+        291
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 117060,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "reward-card-claimable",
+      "file": "assets/ui/full-game/components/reward-card-claimable.png",
+      "sha256": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+      "size": [
+        514,
+        312
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        497,
+        296
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 118980,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "reward-card-claimed",
+      "file": "assets/ui/full-game/components/reward-card-claimed.png",
+      "sha256": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+      "size": [
+        514,
+        312
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        17,
+        22,
+        497,
+        291
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 17,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 117842,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "cosmetic-card-unselected",
+      "file": "assets/ui/full-game/components/cosmetic-card-unselected.png",
+      "sha256": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+      "size": [
+        462,
+        608
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        26,
+        16,
+        435,
+        591
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 208122,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "cosmetic-card-selected",
+      "file": "assets/ui/full-game/components/cosmetic-card-selected.png",
+      "sha256": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+      "size": [
+        462,
+        608
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        24,
+        18,
+        439,
+        590
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 18,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 206601,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "cosmetic-card-in-use",
+      "file": "assets/ui/full-game/components/cosmetic-card-in-use.png",
+      "sha256": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+      "size": [
+        462,
+        608
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        446,
+        591
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 212597,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "achievement-frame-locked",
+      "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+      "sha256": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+      "size": [
+        618,
+        526
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        18,
+        17,
+        599,
+        509
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 17,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 105359,
+      "nativeRgbMismatches": 0,
+      "center90x90AlphaMax": 0
+    },
+    {
+      "id": "achievement-frame-unlocked",
+      "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+      "sha256": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+      "size": [
+        618,
+        526
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        602,
+        510
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 106247,
+      "nativeRgbMismatches": 0,
+      "center90x90AlphaMax": 0
+    },
+    {
+      "id": "rank-marker-gold",
+      "file": "assets/ui/full-game/components/rank-marker-gold.png",
+      "sha256": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+      "size": [
+        486,
+        498
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        469,
+        481
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 138487,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "rank-marker-silver",
+      "file": "assets/ui/full-game/components/rank-marker-silver.png",
+      "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+      "size": [
+        486,
+        498
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        22,
+        20,
+        464,
+        478
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 20,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 132677,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "rank-marker-bronze",
+      "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+      "sha256": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+      "size": [
+        486,
+        498
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        19,
+        20,
+        467,
+        478
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 19,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 134120,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "item-slot-default",
+      "file": "assets/ui/full-game/components/item-slot-default.png",
+      "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+      "size": [
+        660,
+        508
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        84,
+        20,
+        576,
+        489
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 19,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 216480,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "item-slot-selected",
+      "file": "assets/ui/full-game/components/item-slot-selected.png",
+      "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+      "size": [
+        660,
+        508
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        84,
+        20,
+        577,
+        489
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 19,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 216742,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "item-slot-disabled",
+      "file": "assets/ui/full-game/components/item-slot-disabled.png",
+      "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+      "size": [
+        660,
+        508
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        84,
+        20,
+        576,
+        488
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 20,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 216492,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "item-slot-new",
+      "file": "assets/ui/full-game/components/item-slot-new.png",
+      "sha256": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+      "size": [
+        660,
+        508
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        82,
+        16,
+        643,
+        488
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1254,
+        1254
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 223090,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "tutorial-spotlight-ring",
+      "file": "assets/ui/full-game/components/tutorial-spotlight-ring.png",
+      "sha256": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+      "size": [
+        482,
+        474
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        466,
+        458
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 56269,
+      "nativeRgbMismatches": 0,
+      "center90x90AlphaMax": 0
+    },
+    {
+      "id": "tutorial-arrow",
+      "file": "assets/ui/full-game/components/tutorial-arrow.png",
+      "sha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+      "size": [
+        396,
+        334
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        379,
+        317
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 43956,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "tutorial-step-marker",
+      "file": "assets/ui/full-game/components/tutorial-step-marker.png",
+      "sha256": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+      "size": [
+        342,
+        304
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        325,
+        288
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 52184,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "tutorial-tap-hand",
+      "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+      "sha256": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+      "size": [
+        284,
+        396
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        268,
+        379
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 48924,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "tutorial-focus-frame",
+      "file": "assets/ui/full-game/components/tutorial-focus-frame.png",
+      "sha256": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+      "size": [
+        416,
+        402
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        399,
+        385
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 29245,
+      "nativeRgbMismatches": 0,
+      "center90x90AlphaMax": 0
+    },
+    {
+      "id": "item-voucher",
+      "file": "assets/ui/full-game/components/item-voucher.png",
+      "sha256": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+      "size": [
+        436,
+        324
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        420,
+        308
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 72879,
+      "nativeRgbMismatches": 0
+    },
+    {
+      "id": "gift-box",
+      "file": "assets/ui/full-game/components/gift-box.png",
+      "sha256": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+      "size": [
+        378,
+        360
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        16,
+        16,
+        361,
+        343
+      ],
+      "edgeAlphaMax": 0,
+      "transparentMargin": 16,
+      "zeroRgbUnderZeroAlpha": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "nineSlice": null,
+      "resizePolicy": "uniform_scale_only",
+      "sourceHashMatches": true,
+      "nativeSourceSize": [
+        1536,
+        1024
+      ],
+      "resampled": false,
+      "nativeRgbComparedPixels": 82992,
+      "nativeRgbMismatches": 0
+    }
+  ],
+  "nativeRgbComparedPixels": 2857345,
+  "nativeRgbMismatches": 0,
+  "stateBindingsExclusive": true,
+  "tutorialPointerCheck": {
+    "arrowCanvas": [
+      396,
+      334
+    ],
+    "configuredArrowTipPx": [
+      350.0,
+      313.0
+    ],
+    "visuallyMeasuredArrowTipPx": [
+      350,
+      313
+    ],
+    "tipDistancePx": 0.0,
+    "suggestedNormalized": [
+      0.8838383838383839,
+      0.937125748502994
+    ],
+    "tapHotspotPx": [
+      96.56,
+      23.759999999999998
+    ],
+    "tapVisual": "inside upper pointing finger, acceptable",
+    "configuredArrowTipNormalized": [
+      0.8838383838383839,
+      0.937125748502994
+    ],
+    "status": "passed",
+    "recheckEvidence": {
+      "method": "focused metadata and current arrow PNG alpha/hash check; previous22 asset reviews reused",
+      "normalizedTip": [
+        0.8838383838383839,
+        0.937125748502994
+      ],
+      "configuredTipPx": [
+        350.0,
+        313.0
+      ],
+      "declaredTipPixels": [
+        350,
+        313
+      ],
+      "sampleAlphaAtTip": 245,
+      "strongLowestRow": {
+        "y": 315,
+        "xMin": 344,
+        "xMax": 351
+      },
+      "arrowPngSha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+      "arrowPngMatchesPreviouslyReviewed": true,
+      "compositionBeforeSha256": "76756dccef13f85fe79ebdc00aeda0bef91d20ba864733ee2d13499ed1fd4017",
+      "compositionAfterSha256": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff",
+      "reviewedAt": "2026-10-26T14:05:28-04:00",
+      "companionMetadataRevalidated": {
+        "files": [
+          "assets/ui/full-game/components/README.md",
+          "assets/ui/full-game/components/compositions.json",
+          "assets/ui/full-game/components/manifest.json",
+          "assets/ui/full-game/components/tutorial-arrow.png.generation.json"
+        ],
+        "manifestHotspotEqualsRecordHotspot": true,
+        "declaredPointMatchesComposition": true,
+        "sourceCropAndOperationUnchanged": true,
+        "all22OriginalCoreManifestFieldsUnchanged": true,
+        "READMECoordinatesMatch": true,
+        "rewardActionFamilySource": "assets/ui/component-compositions.json"
+      }
+    }
+  },
+  "errors": [],
+  "afterHashes": {
+    "assets/ui/full-game/components/manifest.json": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf",
+    "assets/ui/full-game/components/compositions.json": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff",
+    "assets/ui/full-game/components/README.md": "df558e7ad158d8c30f9783324c2e47deece8bbe77d2ff7c9e8f8c55acfa92bf6",
+    "assets/ui/full-game/components/reward-card-default.png": "aff18ada4077f0a19040bb389e1f6083c0c47746b8285df9dc2a11afc8cb82c7",
+    "assets/ui/full-game/components/reward-card-default.png.generation.json": "8444a5fcace99618855d1ef4cf31917346aca4e375a1667a58bc61fdd8391c75",
+    "assets/ui/full-game/components/reward-card-claimable.png": "e01938f4e5dc39f24f92fdeda4e1270cec0c41d9a1777b5803d40df906c06b70",
+    "assets/ui/full-game/components/reward-card-claimable.png.generation.json": "250cc1bd29a2bb438fdc99792deb5c38cbb3c07ff24c1dd89220c96c4de3e940",
+    "assets/ui/full-game/components/reward-card-claimed.png": "ea202734c1de7e3b3146bc1fd97d50b511a098541a5ec5b1af04dbcc778e2189",
+    "assets/ui/full-game/components/reward-card-claimed.png.generation.json": "e8c12343d43d2b100cf309b5fd5585807854ba0bf4f66feccc6c207ed7e01624",
+    "assets/ui/full-game/components/cosmetic-card-unselected.png": "0624048c5ed5559c112155a270dd9d1571fca0a4c93b2863d4b2c2ab8b5ab64a",
+    "assets/ui/full-game/components/cosmetic-card-unselected.png.generation.json": "d8e094185037a12ec95e647514031b922f491ec00af2b66f9e61bd006ee39a4e",
+    "assets/ui/full-game/components/cosmetic-card-selected.png": "1cc46426c2cb25d7069d389264607963fbdeacd6e0e32aa4293fe02372162fdd",
+    "assets/ui/full-game/components/cosmetic-card-selected.png.generation.json": "efdf251df61e0992edc56ff2931095eb231218f2a00e4237d627ca0e9efe42b8",
+    "assets/ui/full-game/components/cosmetic-card-in-use.png": "e2cab2b7c8d286c8deeb05795b3272d2ab498f5c53db9bab870d6ea440373076",
+    "assets/ui/full-game/components/cosmetic-card-in-use.png.generation.json": "dc3d707d11f3b199c7f921a19e28a36e1a8f56d20c230227474581088d404dcc",
+    "assets/ui/full-game/components/achievement-frame-locked.png": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+    "assets/ui/full-game/components/achievement-frame-locked.png.generation.json": "64fbd7b2afdc6e4b655f5ac996ea3a21324ea1bf60869ab08c718cca492665ea",
+    "assets/ui/full-game/components/achievement-frame-unlocked.png": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+    "assets/ui/full-game/components/achievement-frame-unlocked.png.generation.json": "a5e012074ff875a11f354e7729c943de0a09b11d50ac89ec7114d57acd2df527",
+    "assets/ui/full-game/components/rank-marker-gold.png": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+    "assets/ui/full-game/components/rank-marker-gold.png.generation.json": "de1dbf1eb984ee57c14481997d9221134de277cf01895823c498b8937dd596a5",
+    "assets/ui/full-game/components/rank-marker-silver.png": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+    "assets/ui/full-game/components/rank-marker-silver.png.generation.json": "1ffdc0811db34846fa58cb1ccc110d46b8a2439c554380c97a0a5da62369f7ad",
+    "assets/ui/full-game/components/rank-marker-bronze.png": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+    "assets/ui/full-game/components/rank-marker-bronze.png.generation.json": "ea11790b4e9a187b7f5ed4f22586adaaf826994149ae525a5e1296ec4b1aec9e",
+    "assets/ui/full-game/components/item-slot-default.png": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+    "assets/ui/full-game/components/item-slot-default.png.generation.json": "00fa3a148dac7f16bed6e0489a37f8df4585e329c5a88acf0b2f45349974269e",
+    "assets/ui/full-game/components/item-slot-selected.png": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+    "assets/ui/full-game/components/item-slot-selected.png.generation.json": "307bc58da99a35d11893a3fa7b456a5c46059017b9c991344568997ddda8fca1",
+    "assets/ui/full-game/components/item-slot-disabled.png": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+    "assets/ui/full-game/components/item-slot-disabled.png.generation.json": "f2a06249c5526adbfbee7e96949631649c2fe33c250578db8bbc394890d193d2",
+    "assets/ui/full-game/components/item-slot-new.png": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+    "assets/ui/full-game/components/item-slot-new.png.generation.json": "38a8c7a95e2b666e2dde7413a73b49b72406ca4e0a497419b8b2fc019240de75",
+    "assets/ui/full-game/components/tutorial-spotlight-ring.png": "247180b3907085fddf745e3cb9bd0214805b4ffb84fbd2ae35ccf2b5bbfa0899",
+    "assets/ui/full-game/components/tutorial-spotlight-ring.png.generation.json": "9d69953f54677619b1e37b8a5b1a9355b58f82071364288f3a18b25b6d41fb07",
+    "assets/ui/full-game/components/tutorial-arrow.png": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+    "assets/ui/full-game/components/tutorial-arrow.png.generation.json": "3c3c52de4bf63b03dfcc25909431ca4532323def5c3bd44738a030357545657e",
+    "assets/ui/full-game/components/tutorial-step-marker.png": "2ec92139dbb747f1f566754b3bacce0791419611e9d0fe639e7b0165af122fe8",
+    "assets/ui/full-game/components/tutorial-step-marker.png.generation.json": "25d41d37cd0c595f64c706d5dd30d821a98d618e203d551d49961812dd223766",
+    "assets/ui/full-game/components/tutorial-tap-hand.png": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+    "assets/ui/full-game/components/tutorial-tap-hand.png.generation.json": "27476589e3c6557618ddc853469e273ffd97a0b07b135ce1a8959b18316e6476",
+    "assets/ui/full-game/components/tutorial-focus-frame.png": "c68e7dfc869d741178f7f26eeba32fa8779e6d3181d38d08c537657d447b42c5",
+    "assets/ui/full-game/components/tutorial-focus-frame.png.generation.json": "aa2f0e560bd8926bbc960aef3d0e7c1b4068e07d9b7b8664c7c00d1c15fe447f",
+    "assets/ui/full-game/components/item-voucher.png": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+    "assets/ui/full-game/components/item-voucher.png.generation.json": "e7fc0617a0c3866d2e1fefcf640d9f8a726a1ddca5e2b86f5a787806e4273d7d",
+    "assets/ui/full-game/components/gift-box.png": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+    "assets/ui/full-game/components/gift-box.png.generation.json": "2333fdacec3eb6f09ee2797e4dbae099aaf254abdbaa4d1980a42122a67bf478"
+  },
+  "changedFiles": [
+    "assets/ui/full-game/components/manifest.json",
+    "assets/ui/full-game/components/compositions.json",
+    "assets/ui/full-game/components/README.md",
+    "assets/ui/full-game/components/tutorial-arrow.png.generation.json"
+  ],
+  "needsRevalidation": [],
+  "pngHashesUnchanged": true,
+  "visualReview": {
+    "contactSheetsActuallyViewed": [
+      "work/full-game-ui/components/qa/cards-badges-light.png",
+      "work/full-game-ui/components/qa/cards-badges-dark.png",
+      "work/full-game-ui/components/qa/slots-tutorial-light.png",
+      "work/full-game-ui/components/qa/slots-tutorial-dark.png"
+    ],
+    "keyNativePNGsActuallyViewed": [
+      "tutorial-arrow",
+      "tutorial-tap-hand",
+      "cosmetic-card-selected",
+      "cosmetic-card-in-use",
+      "reward-card-claimable",
+      "reward-card-claimed"
+    ],
+    "result": "All22 visuals pass on deep/light backgrounds; the one pending finding is arrow-tip metadata, not painted pixels.",
+    "stateReview": "Claimable jade glow versus claimed muted ivory; selected cosmetic jade glow versus in-use distinct top-right jade socket with native labels; new item ribbon does not move body alignment."
+  },
+  "notProven": [
+    "Real client state changes and pointer placement not executed",
+    "No supplemental full-screen UI reviewed in this scope"
+  ],
+  "visualStatus": "passed",
+  "technicalAssetStatus": "passed",
+  "blockingFindings": [],
+  "nonBlockingFindings": [],
+  "finalDisposition": "22 PNG art/provenance and state composition metadata approved. The single arrow-tip issue is resolved by an exact coordinate correction; no image regenerated or modified.",
+  "resolvedFindings": [
+    {
+      "id": "tutorial_arrow_tip_metadata",
+      "severity": "P2",
+      "file": "assets/ui/full-game/components/compositions.json",
+      "field": "compositions.tutorial.arrowTipNormalized",
+      "current": [
+        0.86,
+        0.84
+      ],
+      "currentPx": [
+        340.56,
+        280.56
+      ],
+      "suggested": [
+        0.8838383838383839,
+        0.937125748502994
+      ],
+      "actualTipPx": [
+        350,
+        313
+      ],
+      "deltaPx": 33.78560640272718,
+      "imageChangeNeeded": false,
+      "status": "resolved",
+      "reason": "Point aligns inside the arrowhead rather than its outer tip; target registration would be about32px low at native size.",
+      "resolution": {
+        "method": "focused metadata and current arrow PNG alpha/hash check; previous22 asset reviews reused",
+        "normalizedTip": [
+          0.8838383838383839,
+          0.937125748502994
+        ],
+        "configuredTipPx": [
+          350.0,
+          313.0
+        ],
+        "declaredTipPixels": [
+          350,
+          313
+        ],
+        "sampleAlphaAtTip": 245,
+        "strongLowestRow": {
+          "y": 315,
+          "xMin": 344,
+          "xMax": 351
+        },
+        "arrowPngSha256": "7406aea70b7e9cf7a48b7104d62f3cea85ac594358700ddf05b5ced051b94a6e",
+        "arrowPngMatchesPreviouslyReviewed": true,
+        "compositionBeforeSha256": "76756dccef13f85fe79ebdc00aeda0bef91d20ba864733ee2d13499ed1fd4017",
+        "compositionAfterSha256": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff",
+        "reviewedAt": "2026-10-26T14:05:28-04:00",
+        "companionMetadataRevalidated": {
+          "files": [
+            "assets/ui/full-game/components/README.md",
+            "assets/ui/full-game/components/compositions.json",
+            "assets/ui/full-game/components/manifest.json",
+            "assets/ui/full-game/components/tutorial-arrow.png.generation.json"
+          ],
+          "manifestHotspotEqualsRecordHotspot": true,
+          "declaredPointMatchesComposition": true,
+          "sourceCropAndOperationUnchanged": true,
+          "all22OriginalCoreManifestFieldsUnchanged": true,
+          "READMECoordinatesMatch": true,
+          "rewardActionFamilySource": "assets/ui/component-compositions.json"
+        }
+      }
+    }
+  ],
+  "knownChangesRevalidated": [
+    {
+      "file": "assets/ui/full-game/components/manifest.json",
+      "beforeSha256": "f9232e14a17fe95321dd561b58428fa7338901c63a2075a07c037bd1b445ebc8",
+      "afterSha256": "fec8911cc2ce5d71f3c570650ae264f77333efb4fa2cbf8de94a2757e8edbaaf",
+      "reason": "Synchronized exact arrow-tip coordinate and its source evidence; reviewed current metadata, no painted pixel change"
+    },
+    {
+      "file": "assets/ui/full-game/components/compositions.json",
+      "beforeSha256": "76756dccef13f85fe79ebdc00aeda0bef91d20ba864733ee2d13499ed1fd4017",
+      "afterSha256": "9b3bce38ab4002dffdfb276f1cc8fed56ba24a31e4911f776abf609fc1110fff",
+      "reason": "Synchronized exact arrow-tip coordinate and its source evidence; reviewed current metadata, no painted pixel change"
+    },
+    {
+      "file": "assets/ui/full-game/components/README.md",
+      "beforeSha256": "3866dd9654e10772580f8b3c0412bee28a715bc4c9d37e9eefb83d1d58ff2241",
+      "afterSha256": "df558e7ad158d8c30f9783324c2e47deece8bbe77d2ff7c9e8f8c55acfa92bf6",
+      "reason": "Synchronized exact arrow-tip coordinate and its source evidence; reviewed current metadata, no painted pixel change"
+    },
+    {
+      "file": "assets/ui/full-game/components/tutorial-arrow.png.generation.json",
+      "beforeSha256": "f8a73c19207379c97347c4a8bc4f8e70b7a58834178673eafc261da7f85e42ae",
+      "afterSha256": "3c3c52de4bf63b03dfcc25909431ca4532323def5c3bd44738a030357545657e",
+      "reason": "Synchronized exact arrow-tip coordinate and its source evidence; reviewed current metadata, no painted pixel change"
+    }
+  ],
+  "allPreviouslyReviewedPNGAndRecordsUnchanged": false,
+  "completedAt": "2026-10-26T14:05:28-04:00",
+  "allPreviouslyReviewedPNGUnchanged": true,
+  "knownChangedArrowRecordRevalidated": true,
+  "unchangedOtherGenerationRecords": 21
+}

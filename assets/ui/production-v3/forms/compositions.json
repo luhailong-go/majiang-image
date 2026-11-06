@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "coordinateSystem": "asset-local design pixels; multiply all dimensions uniformly before horizontal resize",
+  "dynamicTextPolicy": "All labels, values, placeholders and errors are native client text; no baked text.",
+  "input": {
+    "base": "input-field",
+    "focusOverlay": "input-focus-overlay",
+    "errorOverlay": "input-error-overlay",
+    "sharedDisplayRect": [
+      0,
+      0,
+      640,
+      192
+    ],
+    "baseDisplayRect": [
+      20,
+      16,
+      620,
+      176
+    ],
+    "overlayDisplayRect": [
+      0,
+      0,
+      640,
+      192
+    ],
+    "textRect": [
+      100,
+      58,
+      540,
+      134
+    ],
+    "resizeOrder": "uniform scale all parts first; then horizontal nine-slice to same requested width",
+    "verticalStretchAllowed": false,
+    "validationErrorText": "native below the field; never baked into paper",
+    "disabled": {
+      "opacity": 0.48,
+      "interactive": false
+    },
+    "focusAndErrorPrecedence": "error overlay supersedes focus"
+  },
+  "codeEntry": {
+    "normalCell": "keypad-key",
+    "focusOverlay": "input-focus-overlay",
+    "errorOverlay": "input-error-overlay",
+    "overlayUse": "horizontal nine-slice only: minimum native width161, height192; for square cells use common whole-container border or native focus ring, do not squash this artwork into six squares",
+    "digitsAreNative": true,
+    "reuseOnly": true
+  },
+  "list": {
+    "normal": "content-card",
+    "selected": "list-row-selected",
+    "pressed": "list-row-pressed",
+    "displaySize": [
+      640,
+      192
+    ],
+    "textRect": [
+      104,
+      42,
+      536,
+      150
+    ],
+    "selectedAndPressedPrecedence": "pressed replaces selected while held",
+    "resizePolicy": "uniform scale entire family first, then horizontal nine-slice only; fixed row height preserves side cloud ornaments; native text/counters/icons are independent"
+  },
+  "progress": {
+    "track": "progress-track",
+    "fill": "progress-fill",
+    "trackSize": [
+      660,
+      176
+    ],
+    "contentRect": [
+      66,
+      48,
+      594,
+      128
+    ],
+    "fillPaintedRect": "fit opaque painted fill silhouette inside contentRect; discard transparent canvas padding before display sizing",
+    "fillAssetCrop": [
+      12,
+      14,
+      555,
+      97
+    ],
+    "trackNineSlice": [
+      96,
+      40,
+      96,
+      40
+    ],
+    "valueRange": [
+      0,
+      1
+    ],
+    "clip": "left-to-right in contentRect; fill hidden at0, full at1",
+    "labelIsNative": true,
+    "heightLockedAfterUniformScale": true,
+    "minimumNativeWidth": 193
+  },
+  "toggle": {
+    "onTrack": "toggle-track-on",
+    "offTrack": "toggle-track-off",
+    "thumb": "toggle-thumb",
+    "trackSize": [
+      480,
+      184
+    ],
+    "thumbPaintedDiameter": 112,
+    "thumbCenters": {
+      "off": [
+        87,
+        92
+      ],
+      "on": [
+        393,
+        92
+      ]
+    },
+    "thumbAssetCrop": [
+      14,
+      15,
+      194,
+      193
+    ],
+    "stateChangesGeometry": false,
+    "resizePolicy": "uniform scale entire composition only; never stretch capsules/circle",
+    "disabled": {
+      "opacity": 0.48,
+      "interactive": false
+    },
+    "labelsAreNative": true
+  },
+  "slider": {
+    "track": "slider-track",
+    "fill": "slider-fill",
+    "thumb": "slider-thumb",
+    "trackSize": [
+      359,
+      95
+    ],
+    "contentRect": [
+      50,
+      32,
+      309,
+      63
+    ],
+    "fillAssetCrop": [
+      12,
+      14,
+      520,
+      78
+    ],
+    "thumbCenters": {
+      "min": [
+        50,
+        47.5
+      ],
+      "max": [
+        309,
+        47.5
+      ]
+    },
+    "thumbPaintedDiameter": 68,
+    "thumbAssetCrop": [
+      8,
+      8,
+      164,
+      177
+    ],
+    "valueRange": [
+      0,
+      1
+    ],
+    "clip": "left-to-right contentRect; hide at0",
+    "resizePolicy": "uniform scale first then horizontal track/fill resize; thumb always uniform",
+    "disabled": {
+      "opacity": 0.48,
+      "interactive": false
+    }
+  },
+  "runtimeStates": {
+    "loading": "progress 0—1; loading-ring for indeterminate",
+    "settings": "toggle and slider",
+    "loginSearchRoom": "input normal/focus/error/disabled",
+    "mailRecordsFriends": "list normal/selected/pressed",
+    "notClientIntegrated": true
+  },
+  "reusedAssets": [
+    {
+      "id": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/content-card.png.generation.json",
+      "reuseOnly": true
+    },
+    {
+      "id": "input-field",
+      "file": "assets/ui/common/input-field.png",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "record": "assets/ui/common/input-field.png.generation.json",
+      "reuseOnly": true
+    },
+    {
+      "id": "slider-thumb",
+      "file": "assets/ui/common/slider-thumb.png",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "record": "assets/ui/common/slider-thumb.png.generation.json",
+      "reuseOnly": true
+    },
+    {
+      "id": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "record": "assets/ui/common/slider-track.png.generation.json",
+      "reuseOnly": true
+    },
+    {
+      "id": "keypad-key",
+      "file": "assets/ui/common/keypad-key.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/keypad-key.png.generation.json",
+      "reuseOnly": true
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "reviewedAt": "2026-10-28T09:58:19.918844+00:00"
+}

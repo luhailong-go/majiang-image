@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 4,
+  "status": "passed",
+  "verifiedAt": "2026-10-30T04:29:40.846951+00:00",
+  "repository": "https://github.com/luhailong-go/majiang-image",
+  "visibilityEvidence": "New anonymous HTTPS Git fetch succeeded with credential helper and HTTP extra headers disabled.",
+  "remoteMainCommit": "c780294e988ff95092ae8700567da14f90dd2feb",
+  "localCommit": "c780294e988ff95092ae8700567da14f90dd2feb",
+  "downloadedCommit": "c780294e988ff95092ae8700567da14f90dd2feb",
+  "commitCount": 1,
+  "parentCount": 0,
+  "tags": [],
+  "verifiedFiles": 1582,
+  "verifiedBytes": 508646158,
+  "primaryAssets": 293,
+  "pageLayouts": 32,
+  "stateCompositions": 86,
+  "allFileHashes": "passed",
+  "artPendingItems": [],
+  "clientIntegrated": false,
+  "errors": []
+}

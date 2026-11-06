@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-pages-2.png",
+  "sha256": "d81267e02b269db6c3e4a576af1d4abf2bdb26591372ecb8ec060e7438055096",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/pages/UI13.png",
+      "sha256": "0ea93c2f6216caf7057d0de670285a215f97263488223f86fef5bb2d5b4f6d53",
+      "generationRecord": "production/previews/pages/UI13.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI14.png",
+      "sha256": "8caa5454dba500c11f27de1d8dbaef02a085f2033de701a67d4b1276ced02857",
+      "generationRecord": "production/previews/pages/UI14.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI15.png",
+      "sha256": "730e52f2f250ad13b7ae51748f868985ef5b43caefe7bfc55db664d9e6ff8fe4",
+      "generationRecord": "production/previews/pages/UI15.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI16.png",
+      "sha256": "533f15e8140e652b1fe51be73c736336ef71670791f64d6dcedad2a422fe8277",
+      "generationRecord": "production/previews/pages/UI16.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI17.png",
+      "sha256": "7ccfe468a59505a24944180ced7c3ced827e14a2137d59610d57aed50c6a548c",
+      "generationRecord": "production/previews/pages/UI17.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI18.png",
+      "sha256": "d50a7bbf909ea5fc4016667a55dcc8fa14dac936c40fa09108dae5a3bdd74cfa",
+      "generationRecord": "production/previews/pages/UI18.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI19.png",
+      "sha256": "478c093eecef54a4f350864d55bd75f7a44b7b78f8ba98ffe5174b857528c08c",
+      "generationRecord": "production/previews/pages/UI19.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI20.png",
+      "sha256": "25c95bf051d6e228980ae17ea83b769024e419ce9c8746144a00adc2c7d0f59f",
+      "generationRecord": "production/previews/pages/UI20.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI21.png",
+      "sha256": "d74cb2c299e69bb479aabf5bb45b479ba75f11cd84d1a6b2de3101fee00d4155",
+      "generationRecord": "production/previews/pages/UI21.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI22.png",
+      "sha256": "dd5251b6f3f97d8e385ad76003a981f35c23d9e0e887d87abbd39ae8852ebfbc",
+      "generationRecord": "production/previews/pages/UI22.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI23.png",
+      "sha256": "2a889d3df3defcdf34853a415191a49ca2c3ebabb0ead5a5c17afc2d36646c04",
+      "generationRecord": "production/previews/pages/UI23.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI24.png",
+      "sha256": "0a84cc2f1c57789f1643bdb1dadd49b0ff2a696d1f48571ca8f3a2e3a29b1c78",
+      "generationRecord": "production/previews/pages/UI24.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

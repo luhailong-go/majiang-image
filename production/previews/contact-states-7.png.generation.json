@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-7.png",
+  "sha256": "9339d6ad86dce0e318b3ae53292456fc64c12108ae1f275920d8908065e1fac0",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/inventory.disabled.png",
+      "sha256": "ef3425380c5853d0b340c139887b3b66a48344f15ca604bbfaa1ede2ca81f8c5",
+      "generationRecord": "production/previews/states/inventory.disabled.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/inventory.new.png",
+      "sha256": "8293d3b9110dbd3640c78c759a5c8bf7df5252868ad8767821e0ed569acc16ea",
+      "generationRecord": "production/previews/states/inventory.new.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/announcement.detail.png",
+      "sha256": "3a6184719187d7e380f2a78e8d4206c0acaba7602c700779be26644d02bb9a68",
+      "generationRecord": "production/previews/states/announcement.detail.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.loss.png",
+      "sha256": "b6752bc8c96f8ed49d643510d3d4b11b97c09022572eae770aa4dfa88bb8ad8a",
+      "generationRecord": "production/previews/states/play.loss.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.self_draw.png",
+      "sha256": "2f3bd9f3e6aa9c827f378b335293f135bf6642639884c3ef0ce660692c9c850c",
+      "generationRecord": "production/previews/states/play.self_draw.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.chi_prompt.png",
+      "sha256": "b7762ac367df809e2d176c881fa5ed4599422834836edaf79f55075ddd90dc20",
+      "generationRecord": "production/previews/states/play.chi_prompt.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.gang_prompt.png",
+      "sha256": "5e8ca00adaa1093d421ad0208e6ad6de5042f446f02cb8dd688cb9b46a4bdf25",
+      "generationRecord": "production/previews/states/play.gang_prompt.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.ting_prompt.png",
+      "sha256": "56f414394215f8e3a598fb7d557275b9e0b5f0778cb8a4491460c2ef92e92e7a",
+      "generationRecord": "production/previews/states/play.ting_prompt.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/match.loss.png",
+      "sha256": "cbc3e7c99ad416a68ace0e019a9533dcb1bc478c4d2fca926188f468a92d71be",
+      "generationRecord": "production/previews/states/match.loss.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/mail.empty.png",
+      "sha256": "aef884db991d2ac8d1bae99f9688ee664f23ada500e1c856f7aac1d98d9192cb",
+      "generationRecord": "production/previews/states/mail.empty.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/social.no_friends.png",
+      "sha256": "1f5e86b1b7bfea7d52af752074ac1d16c0e90578c2d8d796a1a535dc33b32e42",
+      "generationRecord": "production/previews/states/social.no_friends.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/records.empty.png",
+      "sha256": "35bd0f384b68b64adb44db600a052d64cf82779f57b593330726deb48444a472",
+      "generationRecord": "production/previews/states/records.empty.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

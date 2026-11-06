@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "UI08",
+  "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+  "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0",
+  "generatedAt": "2026-10-26T08:31:15.957Z",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间，非服务端披露时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-caa3c9cf-f6ae-499e-b530-eaffd0884b19",
+  "resultReceipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3 as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-caa3c9cf-f6ae-499e-b530-eaffd0884b19.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png"
+    ],
+    "promptFile": "prompts/rooms/ui08-invite-friends.prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "返回值仅提供image_url/output_hint及PNG路径；尺寸、哈希、格式实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/rooms/ui08-invite-friends.prompt.txt",
+  "promptSha256": "92c40d730f72e8b66be2d17616adaf28163ab620de558d23815fde018abd3c37",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "purpose": "首要UI手绘材质、玉绿金边与米白正文层级",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "明亮场景、卡片留白、人物差异与操作层级",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "本项目统一大厅风格与功能语境",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+      "purpose": "统一四个座位头像身份参考",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png",
+      "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-caa3c9cf-f6ae-499e-b530-eaffd0884b19.png",
+    "sha256": "dbc8a34844ef4b6cb70c41b1b39bd14ef85f7747d4864071e68905dca30543b0",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualInspectionCompleted": true,
+    "checks": [
+      "在线可邀请、已邀请、忙碌禁用、离线禁用四状态完整",
+      "搜索/添加好友/返回房间/关闭齐全",
+      "四人物头像沿用统一母版",
+      "中文、对齐、主次和风格检查通过"
+    ],
+    "unresolvedIssues": [],
+    "visualStatus": "passed",
+    "checkedAt": "2026-10-26T06:45:01-04:00",
+    "reviewEvidence": "prior_worker_visual_checks_reused_at_unchanged_sha256_and_parent_independent_review"
+  },
+  "status": {
+    "assetStage": "complete_ui_art_direction_v1",
+    "readyForUserReview": true,
+    "userApproved": false,
+    "productionAccepted": true,
+    "clientIntegrated": false,
+    "acceptanceScope": "static_ui_artwork_qa"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false,
+    "remoteConfigured": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "gameName": "云间雀社",
+  "primaryAssetCount": 1,
+  "derivedProofCount": 1,
+  "assets": [
+    {
+      "id": "yunjian-queshe-logo-primary",
+      "name": "云间雀社品牌Logo",
+      "title": "《云间雀社》Logo",
+      "group": "正式品牌",
+      "file": "assets/branding/yunjian-queshe/logo-primary.png",
+      "record": "assets/branding/yunjian-queshe/logo-primary.png.generation.json",
+      "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "scaling": "uniform_only",
+      "nineSlice": null,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "status": "passed",
+      "nativeModelOutput": true
+    }
+  ],
+  "proofs": [
+    {
+      "file": "assets/branding/yunjian-queshe/preview-light-dark.png",
+      "sha256": "102721dd0b08de87d58313da1563ef6720b968061dc142c37c5465a75ba9b642",
+      "record": "assets/branding/yunjian-queshe/preview-light-dark.png.generation.json"
+    }
+  ],
+  "brandConfig": "config/brand.json",
+  "actualModel": null,
+  "actualQuality": null
+}

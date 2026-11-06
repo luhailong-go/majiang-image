@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/pages/UI03.png",
+  "sha256": "0a0a435269e0fd301160d26a01142f0eab921a7eaddb5b5f5b4a50bc5985cf8b",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/characters/welcome-daotong.png",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "generationRecord": "assets/characters/welcome-daotong.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "generationRecord": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "generationRecord": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "generationRecord": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "generationRecord": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "generationRecord": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "generationRecord": "assets/ui/common/button-secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "generationRecord": "assets/ui/common/button-secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "generationRecord": "assets/ui/common/button-secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "generationRecord": "assets/ui/common/button-secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "generationRecord": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-friends.png",
+      "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+      "generationRecord": "assets/ui/common/icon-friends.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-help.png",
+      "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7",
+      "generationRecord": "assets/ui/common/icon-help.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-mail.png",
+      "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20",
+      "generationRecord": "assets/ui/common/icon-mail.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-profile.png",
+      "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf",
+      "generationRecord": "assets/ui/common/icon-profile.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-records.png",
+      "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d",
+      "generationRecord": "assets/ui/common/icon-records.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-settings.png",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "generationRecord": "assets/ui/common/icon-settings.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "generationRecord": "assets/ui/common/title-plaque.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/layouts.json",
+    "layoutId": "UI03",
+    "layoutContentSha256": "1220acfa253c7626ee26d3cd5390c14c60c76371015d5187e86dda2f5876ba07",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}
