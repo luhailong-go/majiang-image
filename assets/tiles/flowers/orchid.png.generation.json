@@ -1,0 +1,59 @@
+{
+  "file": "assets/tiles/flowers/orchid.png",
+  "sha256": "d1a990a054331112c905d4b451d99cad23fcb95771a669ec345067bfd1f3c8a0",
+  "createdAt": "2026-10-26T16:37:56.571Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/tile-blank.png",
+      "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+      "generationRecord": "assets/tiles/tile-blank.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/flowers/motifs/orchid.png",
+      "sha256": "0109886406db3899a30099a382c77b2a137f4785e4c3a0b9597e1373372221f7",
+      "generationRecord": "assets/tiles/flowers/motifs/orchid.png.generation.json"
+    }
+  ],
+  "operation": [
+    "reuse existing hand-painted tile blank without mutation",
+    "downscale separate AI botanical illustration",
+    "compose exact outlined KaiTi glyph on separate label layer"
+  ],
+  "width": 448,
+  "height": 640,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "optional": true,
+  "changesGameRules": false,
+  "label": "兰",
+  "labelSVG": {
+    "file": "assets/tiles/flowers/orchid.label.svg",
+    "sha256": "9b4b1e8a29ed2d0e9678902ffe836d91d77d7954e8ee04df27d57348db83fbe9"
+  },
+  "labelFontSource": {
+    "file": "work/full-game-props/flower-glyphs.json",
+    "sha256": "d24558795e8b97bc40ae99eecbe5e4a7cddfab3b731ad8e01493187ceb76ccf4",
+    "fontFileDistributed": false
+  },
+  "nativeCanvas": [
+    448,
+    640
+  ],
+  "illustrationExportBox": [
+    78,
+    270,
+    280,
+    280
+  ]
+}

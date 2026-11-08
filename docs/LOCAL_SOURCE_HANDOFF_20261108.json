@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-08T08:09:36.961456+00:00",
+  "repository": "https://github.com/luhailong-go/majiang-image",
+  "priorVerifiedCommit": "11237b41782e5f18cb00d4bd91a320da22bd0523",
+  "priorTree": "d4c82a610ccba1092caa0bc8454751a41cb55d04",
+  "purpose": "Retain source/provenance and current publication evidence before authorized local directory removal",
+  "originalPublishedResourceBytesRetained": true,
+  "priorBlobCount": 1583,
+  "supplementaryFiles": [
+    {
+      "file": "docs/publication-verification-20261106.json",
+      "bytes": 681,
+      "sha256": "4d782fc8ee0544e50097c3f54dc23c20763054425871e7fa89bbb117b5e743e6"
+    },
+    {
+      "file": "work/characters/avatars-v1-receipt.json",
+      "bytes": 855,
+      "sha256": "57b1386cd925ef6fa37ba2d744df62f6a4e4bd9e039166a728e14dd169319d22"
+    },
+    {
+      "file": "work/characters/export-summary.json",
+      "bytes": 5204,
+      "sha256": "2068beb85d66cde37f22529b11206a4fbaa4e853e9c9a3f89a41626b10908a2e"
+    },
+    {
+      "file": "work/characters/inspect_character.py",
+      "bytes": 1089,
+      "sha256": "bf45aea54fadc20e4390b1d57daccafae284a62ca9b00b079cb508df21254e2b"
+    },
+    {
+      "file": "work/characters/production-v2-receipt.json",
+      "bytes": 855,
+      "sha256": "c303c7926fccd762126c2e9746ab05f278b2d7b65f941703db47f5f5abd451c6"
+    },
+    {
+      "file": "work/characters/production-v2-statistics.json",
+      "bytes": 880,
+      "sha256": "ab475af4b1c9a16dd96fe3aed05434f845160354ae3afc72aa784e158793ce66"
+    },
+    {
+      "file": "work/components/common-controls-atlas-v1-receipt.json",
+      "bytes": 892,
+      "sha256": "8fcc4b9b7ad90073b2bd00b3e4999495849b4842d2eed2d2b03cda44cb1ffb39"
+    },
+    {
+      "file": "work/components/common-controls-atlas-v1-request.json",
+      "bytes": 1676,
+      "sha256": "d6ea713728a8dab04b551c7463ddb7ca23ddd1bf62b4bf4a0b4365ce3f1e760a"
+    },
+    {
+      "file": "work/components/common-extra-icons-v1-receipt.json",
+      "bytes": 889,
+      "sha256": "da74ad5bdb3c7df333e87f02e5ad31cb260b0c21f441eedebe9076de191a528f"
+    },
+    {
+      "file": "work/components/common-extra-icons-v1-request.json",
+      "bytes": 1670,
+      "sha256": "a846dc565424aabcd65035f1a1cb09a0c773002dc4cd55e7afcbfaca5fa9c10d"
+    },
+    {
+      "file": "work/components/common-skins-atlas-v1-receipt.json",
+      "bytes": 889,
+      "sha256": "7a40a92d2a308f529fd240cc4b91da65e7097e8ec1a9c139c46c039064427fa8"
+    },
+    {
+      "file": "work/components/common-skins-atlas-v1-request.json",
+      "bytes": 1664,
+      "sha256": "a000faa3c65181f5b34daeb241ec60c507eb52f43ab740a830e38c396a0f1d3a"
+    },
+    {
+      "file": "work/components/gameplay-components-atlas-v1-receipt.json",
+      "bytes": 896,
+      "sha256": "e5cec37559513c60b7b057cc4f04785483500a2783375daa656a421f14a8b1a0"
+    },
+    {
+      "file": "work/components/gameplay-components-atlas-v1-request.json",
+      "bytes": 1807,
+      "sha256": "d7952ca2856f082938138cf0befd8ff5f1ee4740bf7685a286c1202329ccb125"
+    },
+    {
+      "file": "work/components/jobs.json",
+      "bytes": 11066,
+      "sha256": "5843178ec1b3fb0a415687e96e11466c64cb9a46b4915ba20757d38ccb2c4feb"
+    },
+    {
+      "file": "work/components/table-background-v1-receipt.json",
+      "bytes": 887,
+      "sha256": "478535544e32ae09b6bef3e7f5df0d375f0f8d5ccc75b0c1e19ae6c6bc37cf34"
+    },
+    {
+      "file": "work/components/table-background-v1-request.json",
+      "bytes": 1772,
+      "sha256": "4f97636af135bb7923a93b1eeab70047bf17bc947768903622d39c86fe608767"
+    },
+    {
+      "file": "work/components/window-frame-v1-request.json",
+      "bytes": 899,
+      "sha256": "8a67bc26533b9c8735e1e4e459afc674fe9f8fed6cde9bd9071b1e5033eb708c"
+    },
+    {
+      "file": "work/finalize_index.py",
+      "bytes": 4768,
+      "sha256": "06c726c74a11d5e63954e6fe0076054ce0619838d14d9b9f27ce8aa52b404371"
+    },
+    {
+      "file": "work/full-game-characters/doctor.json",
+      "bytes": 9192,
+      "sha256": "fa3c50401504252bfc9527d36097ac0dac3cce297422c01794bab59559fcbd98"
+    },
+    {
+      "file": "work/full-game-characters/finalize_qa.py",
+      "bytes": 4894,
+      "sha256": "f0d7c66755f098cd858d46bdc72c5006ebf44f934e9a16d5a4ba6aad1a0cc89d"
+    },
+    {
+      "file": "work/full-game-characters/freeze_support.py",
+      "bytes": 2864,
+      "sha256": "9a314fb765ed68aa16af9856fb619f3c43a65e8f86a6c69782ef58e4634c31ce"
+    },
+    {
+      "file": "work/full-game-characters/inspect_alpha.py",
+      "bytes": 1761,
+      "sha256": "e532056c52a136bf4a1f49661b7f8ad6995dd69ba8c9919dd0ef08c70d74334f"
+    },
+    {
+      "file": "work/full-game-fx/adjust_prompts.py",
+      "bytes": 761,
+      "sha256": "394d03b6bbad61e76f3e2311305263196b77b5a916be38d76d7d41a03e96cb5d"
+    },
+    {
+      "file": "work/full-game-fx/audit_root_scenes_branding.py",
+      "bytes": 8432,
+      "sha256": "a17caeb1813c238f91cf9b3f3543f7fea85e14cd2450af814ed15acbc92b3d98"
+    },
+    {
+      "file": "work/full-game-fx/build_preview.py",
+      "bytes": 6972,
+      "sha256": "f5df41e2104b37d7b835dee1701166177ecc837bd683862f1f066c498e0ba0ce"
+    },
+    {
+      "file": "work/full-game-fx/clips-built-final/source-manifest.json",
+      "bytes": 3939,
+      "sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a"
+    },
+    {
+      "file": "work/full-game-fx/clips-built-v2/animation-clips.json",
+      "bytes": 55060,
+      "sha256": "384b256ff83e574dde4b29fe2aa85769acfa057bc929d49e8fb4d6c7349b65ed"
+    },
+    {
+      "file": "work/full-game-fx/clips-built-v2/source-manifest.json",
+      "bytes": 3939,
+      "sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a"
+    },
+    {
+      "file": "work/full-game-fx/clips-built/animation-clips.json",
+      "bytes": 55058,
+      "sha256": "16b9fbdc4ee09b60910092e3dc5620325257a5faec4e0ae6c7a862892be78ac0"
+    },
+    {
+      "file": "work/full-game-fx/clips-built/source-manifest.json",
+      "bytes": 3939,
+      "sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a"
+    },
+    {
+      "file": "work/full-game-fx/doctor.json",
+      "bytes": 9192,
+      "sha256": "b00b91007757f9527ccbce778357da97a69cffdac4410d50fdd7bded4bd3907e"
+    },
+    {
+      "file": "work/full-game-fx/export_fx.py",
+      "bytes": 13035,
+      "sha256": "deee2660b7fd9fde5760e65a3255a16ab8b93391fffe437a004d482a0c41ed1f"
+    },
+    {
+      "file": "work/full-game-fx/finalize_fx.py",
+      "bytes": 10465,
+      "sha256": "0ef7cb7d88316dca66ff6e75b1e153d2e062b580a469e6fe649e4cb34b4530b6"
+    },
+    {
+      "file": "work/full-game-fx/jobs.json",
+      "bytes": 13235,
+      "sha256": "3db5ae02dc8942ebd6aa9986129ec178bb8c93a06552dfe3f1f158fb6f81ebdc"
+    },
+    {
+      "file": "work/full-game-fx/matte_probe.py",
+      "bytes": 1031,
+      "sha256": "f3bd3681b6381ef0fc1331e8751810e30b7f420cb4c1457c7985aa6444fee3de"
+    },
+    {
+      "file": "work/full-game-fx/prepare_fx.py",
+      "bytes": 6414,
+      "sha256": "21afd08cfb5bb90b207e9d52b35b6d4a01169a482fdf8a5849ccd26e32260c76"
+    },
+    {
+      "file": "work/full-game-fx/process-discard-impact-refined/prompt-used.txt",
+      "bytes": 1123,
+      "sha256": "1ac014a1fd57acc1b0486a581538905b7e578e54a0633e4fbb4f5070955eea31"
+    },
+    {
+      "file": "work/full-game-fx/process-draw-focus/prompt-used.txt",
+      "bytes": 1696,
+      "sha256": "c7ef0cfa2591ba83c6c688320815637f945e9152915e80db0f91aa20644cbb67"
+    },
+    {
+      "file": "work/full-game-fx/process-hu-burst/prompt-used.txt",
+      "bytes": 2078,
+      "sha256": "aec583fcab4716c1ddfe098db407296d810c32677352f83b2648e8627ffc5728"
+    },
+    {
+      "file": "work/full-game-fx/process-player-ring/prompt-used.txt",
+      "bytes": 2154,
+      "sha256": "092546d0d70ef2a5de44dfcb0c31f9530d7aa11cecbf07c4802f282864c8b905"
+    },
+    {
+      "file": "work/full-game-fx/process-reward-stars/prompt-used.txt",
+      "bytes": 2067,
+      "sha256": "0c1b092549db6f790eec3e2b9422388fc92d40e13869b05fe47194204e8eeb64"
+    },
+    {
+      "file": "work/full-game-fx/process-victory-confetti/prompt-used.txt",
+      "bytes": 2158,
+      "sha256": "51f594a3c97c18528f48d7812c1d2b242ea7cfd4aa1f0f2b9a714526b39ad68a"
+    },
+    {
+      "file": "work/full-game-fx/record_source.py",
+      "bytes": 2473,
+      "sha256": "2c066c26628405d18007799b8b541aca6493ce520a4359ec1c3fc4c796ed7fd6"
+    },
+    {
+      "file": "work/full-game-fx/root-scenes-independent-qa.md",
+      "bytes": 1883,
+      "sha256": "d9eee8d669d2722f7e4ed35cf430dc537defece69dc8a912e69273ed0667dc5c"
+    },
+    {
+      "file": "work/full-game-fx/spill-discard-impact-refined/sheet-qc.json",
+      "bytes": 7206,
+      "sha256": "25c49bf1237c4affd537390c28af49dd4093e1d7d92944acd580bd7dcccf3812"
+    },
+    {
+      "file": "work/full-game-fx/spill-draw-focus/sheet-qc.json",
+      "bytes": 7197,
+      "sha256": "0d8b5f52a7f947e69009c907ab3eb92a3339a9e831be1ad05f6455325469fb62"
+    },
+    {
+      "file": "work/full-game-fx/spill-hu-burst/sheet-qc.json",
+      "bytes": 7195,
+      "sha256": "af42b235ee8665d5feb5100ab73e695b8eef34f2a5a491210fd0c159f670e9f4"
+    },
+    {
+      "file": "work/full-game-fx/spill-player-ring/sheet-qc.json",
+      "bytes": 7247,
+      "sha256": "74e88dc010dbe54f5cf01900f9b86f39f11d10315d30626494acfdfc49ba0686"
+    },
+    {
+      "file": "work/full-game-fx/spill-reward-stars/sheet-qc.json",
+      "bytes": 7202,
+      "sha256": "8cd0d2b01ca349ca71ca7ef3de65fa7e1e133a70307809aee7b1ba6c91ea596c"
+    },
+    {
+      "file": "work/full-game-fx/spill-victory-confetti/sheet-qc.json",
+      "bytes": 7207,
+      "sha256": "5ade218adde10fd6cacccc7b3962a69ea4f980fd81875f3c8724c66658b33674"
+    },
+    {
+      "file": "work/full-game-fx/ui-components-independent-qa.md",
+      "bytes": 2947,
+      "sha256": "c436f4cd5d162a3fddb1b44c0ad0c7d3a077830a73c94820bbee0040781ac414"
+    },
+    {
+      "file": "work/full-game-fx/verify_fx.py",
+      "bytes": 7095,
+      "sha256": "5f3937c754c87a927c1a094c687c652e97b0628ef02d5f6538c426f496ece124"
+    },
+    {
+      "file": "work/full-game-props/build-gallery.cjs",
+      "bytes": 4563,
+      "sha256": "0e46883742f003c026d7d6552a31030472b2d58a5fa57f9b75d05d5ad8531b11"
+    },
+    {
+      "file": "work/full-game-props/export-flower-font.ps1",
+      "bytes": 1581,
+      "sha256": "fb6132274a04dbad6868551564e8aff1443a3338f90e56869f8db5b08cab431e"
+    },
+    {
+      "file": "work/full-game-props/finalize-qa.py",
+      "bytes": 4522,
+      "sha256": "a25b87b309ba1ba6dcefed8dc97d82374aa93039d87fcca22c797ea31108542b"
+    },
+    {
+      "file": "work/full-game-props/frozen-png-hashes.json",
+      "bytes": 8373,
+      "sha256": "d95973a9e19f8bc01dd3dbc8c0d3c8f49cadb24436d2c827e10405bf6d004374"
+    },
+    {
+      "file": "work/full-game-props/inspect-alpha.cjs",
+      "bytes": 895,
+      "sha256": "7a27b31ff513b29d0c6d876aedc356e2691fa5c5694c2eac06054510444b9b95"
+    },
+    {
+      "file": "work/full-game-props/progress.json",
+      "bytes": 281,
+      "sha256": "1354636d18330efb5831de306e534e2277fab8e194a6673cb494f10fb9f28065"
+    },
+    {
+      "file": "work/full-game-props/qa-preview.py",
+      "bytes": 6598,
+      "sha256": "07f4669132a30396c7f3e91d6f9da9344716dfc893d8cee65afb1ed6beb09335"
+    },
+    {
+      "file": "work/full-game-props/segment-diagnostics.cjs",
+      "bytes": 1002,
+      "sha256": "34fc051a2f5a814277ae2b839f59035e9c8df27a969ecd756a848f29209ba01b"
+    },
+    {
+      "file": "work/full-game-props/source-jobs.json",
+      "bytes": 2753,
+      "sha256": "b9c43de0ce6f460c23e27c21727cb789b7b9842ce14f1c97e98f28079c46b419"
+    },
+    {
+      "file": "work/full-game-ui/build_domain.py",
+      "bytes": 8148,
+      "sha256": "b86c2144af6e08e6448e7061126232567bc86fd432ca89245c2b7708bdadc325"
+    },
+    {
+      "file": "work/full-game-ui/components/achievement-rank-badges-v1-request.json",
+      "bytes": 927,
+      "sha256": "f9a3dcfa80a4cd95ec01f4a595e4f82852fd105005b21d8f2834d84d7af28cc9"
+    },
+    {
+      "file": "work/full-game-ui/components/analyze_alpha.py",
+      "bytes": 2953,
+      "sha256": "28d467b62096e2e841cb8f586bb2647183bd205d92d6371651edf8d94178313d"
+    },
+    {
+      "file": "work/full-game-ui/components/finalize_components.py",
+      "bytes": 4773,
+      "sha256": "c862993be2e3748745515c036a029db348296c32d8eb13c51eaabfd7c32b72a5"
+    },
+    {
+      "file": "work/full-game-ui/components/inventory-slots-v1-request.json",
+      "bytes": 903,
+      "sha256": "dc13c1a046fa157d20db741182316aba02818e84a513bed5a0e873f37ced88cf"
+    },
+    {
+      "file": "work/full-game-ui/components/jobs.json",
+      "bytes": 9030,
+      "sha256": "86fb5e3a4775570effa0b7e04780b07f4052cf2fad7ac5cdbfdd49939e92c78f"
+    },
+    {
+      "file": "work/full-game-ui/components/revise_metadata.py",
+      "bytes": 3521,
+      "sha256": "68975bdd5137fd6e7ef89834f1a619bb72e07a183264548b3259603db23df95e"
+    },
+    {
+      "file": "work/full-game-ui/components/reward-cosmetic-cards-v1-request.json",
+      "bytes": 927,
+      "sha256": "a5d87a7c2d25ccf7cd58a1cd0476478594098252f8a0db44afb8cdfeb036a470"
+    },
+    {
+      "file": "work/full-game-ui/components/tutorial-reward-icons-v1-request.json",
+      "bytes": 927,
+      "sha256": "d82c100e6bdc32a2773a757b75c85432dc76ced8a05fbdf8c1dd376c3da5f930"
+    },
+    {
+      "file": "work/full-game-ui/core/finalize_core.py",
+      "bytes": 3275,
+      "sha256": "fc88ae9e0f9900c69f307d4a9517ecfd1906a6120716d55748cf125d6bcdfbe3"
+    },
+    {
+      "file": "work/full-game-ui/core/import_generation.py",
+      "bytes": 3624,
+      "sha256": "e69973366dc2cf96b9e1f7ca991f94477e9a534c41f3ed448c1b223aa7011808"
+    },
+    {
+      "file": "work/full-game-ui/core/retain_ui25_source.py",
+      "bytes": 965,
+      "sha256": "d2a2bf6b829fbeff1b9e83b85f0131fd55b3fe98cf642883ee3838cebc26be22"
+    },
+    {
+      "file": "work/full-game-ui/core/ui25-fix-import.json",
+      "bytes": 1559,
+      "sha256": "cf6df48a5964b728056533badaf88b7da6d90152cd8969519350bca2485524a5"
+    },
+    {
+      "file": "work/full-game-ui/core/ui25-import.json",
+      "bytes": 1358,
+      "sha256": "44a325f420fa8f78d77cec59069b7be8d83af4c4e21adba8a7ac112e5bd3e587"
+    },
+    {
+      "file": "work/full-game-ui/core/ui26-import.json",
+      "bytes": 1465,
+      "sha256": "969c52ce52f4ef902fca55e8efe2afd598d6b18bc4157630e4a41235176dc9c4"
+    },
+    {
+      "file": "work/full-game-ui/core/ui27-cleanup-failed-import.json",
+      "bytes": 1374,
+      "sha256": "54e22a8d874ab2551a7a5108e6f768393d73bc517cce0650333ec021b060115d"
+    },
+    {
+      "file": "work/full-game-ui/core/ui27a-import.json",
+      "bytes": 1437,
+      "sha256": "2ebe64129278d9d932ccf156d979dfa5066bbd4b8ac2aeb776c57ac58e1c6689"
+    },
+    {
+      "file": "work/full-game-ui/core/ui27a-source-import.json",
+      "bytes": 1245,
+      "sha256": "de872248fc30093033b01d1f4a6fb2c4f39a87ddca0fe9666b8df69b339e8853"
+    },
+    {
+      "file": "work/full-game-ui/core/ui27b-import.json",
+      "bytes": 1414,
+      "sha256": "e6401b869d9f0f7965bbbda6a5755e21bfb504bda1f8737a14bba1b899e14928"
+    },
+    {
+      "file": "work/full-game-ui/core/ui27c-import.json",
+      "bytes": 1372,
+      "sha256": "81dbaa24c0a577f52e0c2104e8622dcb231fcac2746f7bd0c5d274465166dfb2"
+    },
+    {
+      "file": "work/full-game-ui/freeze_domain.py",
+      "bytes": 1988,
+      "sha256": "4c9694620a935ff2e55bb986ddc8e0c87201006e8a14c86dbd43458b70c28f05"
+    },
+    {
+      "file": "work/full-game-ui/independent-qa.md",
+      "bytes": 5677,
+      "sha256": "aff5dc0e7c19dd55b3072bf64cdc00556a7bfc69fe7f53564ca82d7f82cd86b9"
+    },
+    {
+      "file": "work/full-game-ui/modules/claimed-job.json",
+      "bytes": 2110,
+      "sha256": "02fcc0a430c797878ca7f190baa8e94b8304f6cbcd301c5d97b04130562b11a6"
+    },
+    {
+      "file": "work/full-game-ui/modules/finalize.py",
+      "bytes": 7570,
+      "sha256": "e85accd5c7f5e156ec08eb862a2d6481401004594fb283aceb39d7adb0f439ce"
+    },
+    {
+      "file": "work/full-game-ui/modules/jobs.json",
+      "bytes": 17717,
+      "sha256": "b114698ac287ba19d2c79a5f4b1fb116f8e9fdfd0b56e7f5a7f0d0e404d59954"
+    },
+    {
+      "file": "work/full-game-ui/modules/record.py",
+      "bytes": 2865,
+      "sha256": "725f6f66d00a5d8c7c89b5e42bba256d9db357c6808e42a858e2122d20b4ff5d"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui28-announcement-request.json",
+      "bytes": 3783,
+      "sha256": "8c1606cea0993885806af401370268c567ab6027fbbc238f1d3a9062f6112194"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui29-reward-claimed-request.json",
+      "bytes": 2989,
+      "sha256": "e230b844184838ecd7e90a5d2e1d8f0ad6e0764c2522462a276b1f06cf53e893"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui29-reward-pending-request.json",
+      "bytes": 4071,
+      "sha256": "c24ad6490a45b7fcc3b2bf3b4f18b421fb0acfda9d740c83e4ad8ba580e0bdbb"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui30-achievements-request.json",
+      "bytes": 4390,
+      "sha256": "6e1688320490a23a55c9275bc485d3fd305a7d1f83bb0d30807dacf8764eb084"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui31-ranking-request.json",
+      "bytes": 4870,
+      "sha256": "f0c4e368b13db67e384652468cc801ea980e180a22076f97c736ac8e7e84b827"
+    },
+    {
+      "file": "work/full-game-ui/modules/ui32-item-collection-request.json",
+      "bytes": 4784,
+      "sha256": "710b62ffff46e903776ea32858a29da0483f37c205b3d48aef6d3df3ccf99a5f"
+    },
+    {
+      "file": "work/full-game-ui/sync_revision_metadata.py",
+      "bytes": 1051,
+      "sha256": "c50b47337d56331111f5d7ff374f492b2e289c98b444675cba58d69072db3ec0"
+    },
+    {
+      "file": "work/full_ui/UI01-request.json",
+      "bytes": 1395,
+      "sha256": "21fe0f413452b44bb6f7aca64732e5d36cfb523b5d4c546603819385a153bcbe"
+    },
+    {
+      "file": "work/full_ui/UI02-request.json",
+      "bytes": 1414,
+      "sha256": "8ea0eb2f0a5aa059fd7712d21f9c4af3ab328d9746230e482f5210275ecb1a79"
+    },
+    {
+      "file": "work/full_ui/UI03-request.json",
+      "bytes": 1463,
+      "sha256": "5842192577da173c0b006da6b7c06ebfa245156a94419a269088bc4b986c34be"
+    },
+    {
+      "file": "work/full_ui/UI09-request.json",
+      "bytes": 1499,
+      "sha256": "001bc553878c3e9b5ba80715304bd3c486df01efac54fd14a9d7b93941461394"
+    },
+    {
+      "file": "work/full_ui/UI10-request.json",
+      "bytes": 1594,
+      "sha256": "63a843838edd79cc69bbfc1f4073853808e1bb9523645355fe11af20f6a56f71"
+    },
+    {
+      "file": "work/full_ui/UI11-request.json",
+      "bytes": 1439,
+      "sha256": "4ab5428fa05f19765f01c9a7f1aef367d5f38a1ebc65087cd05e04d00502ab6f"
+    },
+    {
+      "file": "work/full_ui/UI12-request.json",
+      "bytes": 1411,
+      "sha256": "2c99b492bca6fa5ce072631e4f22ffdd9764df8270dcba037498fedaf22ab6f7"
+    },
+    {
+      "file": "work/full_ui/UI14-request.json",
+      "bytes": 1570,
+      "sha256": "226764913577c2206428ad77598fccb322de61acb03509216a85d22434e22213"
+    },
+    {
+      "file": "work/full_ui/UI16-request.json",
+      "bytes": 1560,
+      "sha256": "f6c8eb46c50c40ca66225db77f1b966425b7a253d5f28317c4141a8494e4cb92"
+    },
+    {
+      "file": "work/full_ui/build_gallery.py",
+      "bytes": 6974,
+      "sha256": "8f89ab0bac14db9648f7652c047abfc32a258a42eab176176125273d741f00cb"
+    },
+    {
+      "file": "work/full_ui/core-jobs.json",
+      "bytes": 22695,
+      "sha256": "18eafc80a8e978cc0542a48a00c0976d68b0acd8e7292a4e34c9402727342680"
+    },
+    {
+      "file": "work/full_ui/finalize_delivery.py",
+      "bytes": 6851,
+      "sha256": "1cffbbfdb49b38dd0bfb5dbaa323488c7ba4a9ac0474bdc709907e79d0c2feb4"
+    },
+    {
+      "file": "work/full_ui/gallery-runtime.js",
+      "bytes": 78801,
+      "sha256": "7202948078067d1a0328eda8d9358564f9c4abc334e5202c723f132e7ae42ea2"
+    },
+    {
+      "file": "work/full_ui/package_delivery.py",
+      "bytes": 3478,
+      "sha256": "bc1c9d921dcc2a6616722981ca5cdcfb95065600c00021f4c8002c2e08a24374"
+    },
+    {
+      "file": "work/full_ui/patch_component_gallery.py",
+      "bytes": 750,
+      "sha256": "e268e93cb049ee4463b935c11d38a4ecb68a96f75fef08fcd7dead2e5d71297a"
+    },
+    {
+      "file": "work/full_ui/patch_gallery_tokens.py",
+      "bytes": 2780,
+      "sha256": "dbab3c0658ffa4c45a6615978c6c478e4f6fc6d5ec603e4cff07b806fad8e5dc"
+    },
+    {
+      "file": "work/full_ui/patch_retention_validation.py",
+      "bytes": 1967,
+      "sha256": "80232562975ead851091120edff73061cf1668402c1348535184f4a92b8b51e6"
+    },
+    {
+      "file": "work/full_ui/patch_state_coverage.py",
+      "bytes": 2283,
+      "sha256": "94e683ff9d7bdde59f515a847776d51428845b18148e06672524eff0a84d4965"
+    },
+    {
+      "file": "work/full_ui/record_core_qa.py",
+      "bytes": 1634,
+      "sha256": "6c5752af0323deee8fac4e9449959ced6ba7243a4d3f8317399d0f8a16ab1fc5"
+    },
+    {
+      "file": "work/full_ui/record_generated.py",
+      "bytes": 3190,
+      "sha256": "e15f4ca8a03fd3174af62d3784bab0c56a4c91c12a1e4ab8adf87cdcf739fe77"
+    },
+    {
+      "file": "work/full_ui/required-states.json",
+      "bytes": 2293,
+      "sha256": "ad5d7fc5d30b0464856112196f034378d3bdd59ada2c04b3d727afdd7686191b"
+    },
+    {
+      "file": "work/full_ui/start_scope.py",
+      "bytes": 2131,
+      "sha256": "20f96925a5607f05af274b1bcbda4e139c20bdc37bd2587873a32c1129d85de4"
+    },
+    {
+      "file": "work/full_ui/test_gallery_source.cjs",
+      "bytes": 3606,
+      "sha256": "3cb43a13bfcdea1320d010a736155e4325de8a04721c7a389e7769cc70058a2e"
+    },
+    {
+      "file": "work/full_ui/validate_delivery.py",
+      "bytes": 6393,
+      "sha256": "fb8760a8f2cf1d01066269f75039c85d316c559052a24460140653e874d83d0d"
+    },
+    {
+      "file": "work/record-input.json",
+      "bytes": 6609,
+      "sha256": "b8c5139e731b8e161807f9a2165ec6846a651caddddccb2656e4367b8aa0e792"
+    },
+    {
+      "file": "work/rooms/finalize-input.json",
+      "bytes": 9713,
+      "sha256": "ab190255f1a9581ffb7917768d3bb9c6f9a60a63b56ca80afaf3ccd8fda31876"
+    },
+    {
+      "file": "work/rooms/finalize_rooms.py",
+      "bytes": 6267,
+      "sha256": "553d47e308eb3655e80965d512e57d2f45ba0df8562f4f16537308a3354d7a51"
+    },
+    {
+      "file": "work/rooms/gallery-inline-static-check.js",
+      "bytes": 35578,
+      "sha256": "4870329b49b67c1d4b554ccdf9c447a5e99afc8cd0792828cc4ee0860f3e6ea4"
+    },
+    {
+      "file": "work/rooms/gallery-static-qa.json",
+      "bytes": 892,
+      "sha256": "103a893de6f3142f7491f4d66c464f7ffed07ea1e34395ed66403b841fcb5f7c"
+    },
+    {
+      "file": "work/rooms/gallery_static_qa.py",
+      "bytes": 2102,
+      "sha256": "d1b9299ffc6cde0d5446ae80b96db56900e7a23812ee293e87406cd501179c4c"
+    },
+    {
+      "file": "work/rooms/inspect_recovery.py",
+      "bytes": 909,
+      "sha256": "30b7946a7a41573441813a9ba41ebbb5c176c8d73cb2cbabc60abf12be028c68"
+    },
+    {
+      "file": "work/rooms/recover_draw.py",
+      "bytes": 1423,
+      "sha256": "e2b588118f1366fe0b38899c654efdf8f9832916df5dea4038ef722a12da9164"
+    },
+    {
+      "file": "work/rooms/save-ui04-casual-match.json",
+      "bytes": 1543,
+      "sha256": "5acdc231987c0ca5a62cc60f18fb10cb3d6003dda4993f687b6d6e8fec149eed"
+    },
+    {
+      "file": "work/rooms/save-ui04-match-success.json",
+      "bytes": 1545,
+      "sha256": "2808afb434b20573bce508215a5c404e320938faba5ea44f81919a0987388eff"
+    },
+    {
+      "file": "work/rooms/save-ui05-attempt01.json",
+      "bytes": 1392,
+      "sha256": "8f3b7bf6e675aaa9f922672d4ae0806bd411c8032dfec89e8c9363b6f3e0e719"
+    },
+    {
+      "file": "work/rooms/save-ui05.json",
+      "bytes": 1559,
+      "sha256": "d828a5be176fd3b3cde9d177296e123694729815fb087506d55ec058fc3b914b"
+    },
+    {
+      "file": "work/rooms/save-ui06-join-room.json",
+      "bytes": 1395,
+      "sha256": "a077ff4835b6712480af2df7071c965c0cce6153c1bcfd086c70a6638d13aa7b"
+    },
+    {
+      "file": "work/rooms/save-ui07-attempt01.json",
+      "bytes": 1536,
+      "sha256": "f20541a517a134c65049b52a6a5cdff8c016698b88c953c010272362d5d66031"
+    },
+    {
+      "file": "work/rooms/save-ui07.json",
+      "bytes": 1709,
+      "sha256": "93432e69cdf04a88e506ff426036fbd96e7e7d883c17ff1a0eb5ce4a12b7d6a3"
+    },
+    {
+      "file": "work/rooms/save-ui08-invite-friends.json",
+      "bytes": 1547,
+      "sha256": "2dbe24ac213b145b0b3806d613162e866cc034c7922041d756a3d3c3ab508e13"
+    },
+    {
+      "file": "work/rooms/save-ui23-attempt01.json",
+      "bytes": 1412,
+      "sha256": "375856796ee8d5b37980cdf8a7ef183107a0485a8604f417ace7902de02f330f"
+    },
+    {
+      "file": "work/rooms/save-ui23-draw-result.json",
+      "bytes": 2130,
+      "sha256": "b5cff90388b93f80296d485ad0b5e6f3859fb22c22e737611cfe2a10b6d2d60b"
+    },
+    {
+      "file": "work/rooms/save-ui23.json",
+      "bytes": 1582,
+      "sha256": "bceea710ead7c0e1f77fce03be740c027f7014698c0add484ab34e989152085a"
+    },
+    {
+      "file": "work/rooms/save-ui24-network-empty-board.json",
+      "bytes": 1415,
+      "sha256": "1a59d3162ec00e4660852e0627fa462200cf170676590d7ce5dbac3a15678312"
+    },
+    {
+      "file": "work/rooms/save_generation.py",
+      "bytes": 2648,
+      "sha256": "0cdfa9262dcf792287a0e51e66ef8ae600e4d8908cbaf8775b3a3d039f6fb4b9"
+    },
+    {
+      "file": "work/rooms/ui05-create-room-attempt01.png.generation.json",
+      "bytes": 4844,
+      "sha256": "05fec22ebee584e4a01392e2cb7e951102c32603bdbfa7cd2fe55ada58debd23"
+    },
+    {
+      "file": "work/rooms/ui07-room-waiting-attempt01.png.generation.json",
+      "bytes": 5340,
+      "sha256": "9369c034a0a22c3ac0136aaff6e075bee75546ef27577741f29a48c5422144a6"
+    },
+    {
+      "file": "work/rooms/ui23-dialog-controls-board-attempt01.png.generation.json",
+      "bytes": 4874,
+      "sha256": "d6b9b13320b59d2dafd0ab2ce11a006c68001a4b82dd1a5bb7c304bc9ff3d68b"
+    },
+    {
+      "file": "work/system-fixes/UI11-receipt.json",
+      "bytes": 1094,
+      "sha256": "886ec2e2c185594c666efbb837b6207886f8fd21fb05430b2a96438d4ef62c9d"
+    },
+    {
+      "file": "work/system-fixes/UI18-claimed-receipt.json",
+      "bytes": 1112,
+      "sha256": "722f03968e7bd9b1c8533826fc14db010c88643a2fd0dbb5e7ede065bb709d6f"
+    },
+    {
+      "file": "work/system-fixes/UI18-receipt.json",
+      "bytes": 1093,
+      "sha256": "181826e3078c48d652a1c3027f9da8f6e5aff4013ee0f072b4dd1e9848a01a76"
+    },
+    {
+      "file": "work/system-fixes/UI19-receipt.json",
+      "bytes": 1089,
+      "sha256": "49b87cb1792a4df19d71b560f4438033af9aea25924fba587909cb1be8a546cf"
+    },
+    {
+      "file": "work/system-fixes/finalize_claimed_and_manifest.py",
+      "bytes": 6487,
+      "sha256": "87da8402daa1523ac132a8aedff3a3665a98ca6040424fa633e1a62e8c6f86f2"
+    },
+    {
+      "file": "work/system-fixes/finalize_fixes.py",
+      "bytes": 4533,
+      "sha256": "5d293f8c5c476c4fae07e9cd2cfe9516a6701ab867ddd9164309d9cf7a5e5708"
+    },
+    {
+      "file": "work/system-fixes/jobs.json",
+      "bytes": 6601,
+      "sha256": "7950b924b6b3298631ad9473c89c8a19592975aecb087d28438b961d5b827eb9"
+    },
+    {
+      "file": "work/system-fixes/score-color-verification.json",
+      "bytes": 1942,
+      "sha256": "47f300c91c0cc760efd8a5bf4ef212be6111165276670a9509de560b9cff6886"
+    },
+    {
+      "file": "work/system-fixes/verify_score_colors.py",
+      "bytes": 1482,
+      "sha256": "4b9268caf7b20dec32bb27eb9a8ddf0357614c60034fc7388635e68a80d9fdbf"
+    },
+    {
+      "file": "work/system/finalize.py",
+      "bytes": 4773,
+      "sha256": "2ec75fc4bc89e53d94ff4270d5df62218aee33d193cd7d198a1d357c500f25d2"
+    },
+    {
+      "file": "work/system/persist.py",
+      "bytes": 2884,
+      "sha256": "d72c120e45e7d13e904d2b86e56769d9a22ff62cf56bf42b0573718bfe22c0c7"
+    },
+    {
+      "file": "work/system/ui13-profile.json",
+      "bytes": 3758,
+      "sha256": "5485b0e996fe42cb3417d29088c69018164e520c1f7708a9c06c9bf5f0a4e752"
+    },
+    {
+      "file": "work/system/ui15-friends.json",
+      "bytes": 4243,
+      "sha256": "8ff5ee95e876e37dc41115d4a8fbceec473e8a66992b3adeb70570a021a71ec1"
+    },
+    {
+      "file": "work/system/ui17-mail-list.json",
+      "bytes": 4276,
+      "sha256": "3198b191ad4d7802dcfc2f2c6c67c78f713097cfcd6af15515fc7220b04cfaf1"
+    },
+    {
+      "file": "work/system/ui18-mail-detail.json",
+      "bytes": 4237,
+      "sha256": "6ed8b063f409ace65c80726ac20ac77cc2d441de1f87886b6bd333383069d37b"
+    },
+    {
+      "file": "work/system/ui19-records.json",
+      "bytes": 3977,
+      "sha256": "072ad716edde93a3e526559c74fa1868e5a5e8c2062be1154b72d4dd95b7a579"
+    },
+    {
+      "file": "work/system/ui20-record-detail.json",
+      "bytes": 4348,
+      "sha256": "83f8bfc16120826319e9a12f0dcebb4051769518b3c52dfdf67f9bca81b0590b"
+    },
+    {
+      "file": "work/system/ui21-settings.json",
+      "bytes": 4144,
+      "sha256": "3c27cd5870d6fb9d268efd3f29113f7661855ddf4733ddac53e9186f46808b2e"
+    },
+    {
+      "file": "work/system/ui22-help.json",
+      "bytes": 4307,
+      "sha256": "bde7a020b6e47418911b30307b141c0d44d44ead11f0f547782d7d4ed088134a"
+    },
+    {
+      "file": "work/verify_and_record.py",
+      "bytes": 5219,
+      "sha256": "583247517b1f1aec7ffb689398a23ae1383d7a1fb4ec9047248a21aaa393aa9d"
+    },
+    {
+      "file": "work/verify_final.py",
+      "bytes": 1052,
+      "sha256": "b1e71767be4050cf1dbff3a3bd436ecfd44e17866b48c7b9f49930e37ae40aed"
+    }
+  ],
+  "reviewedLocalExclusions": [
+    "prototypes/ui-flow is the historical 2026-10-27 unfinished preview, superseded by production/index.html with 32 pages and 86 states",
+    "work/characters production-v2 light/dark/black contact sheets are superseded review intermediates",
+    ".work private Git, obsolete transport scripts, downloaded archives and caches",
+    "exports/yunjian-queshe-complete-art-v4.zip is reproducible from current delivered resources"
+  ],
+  "artAcceptanceUnchanged": true,
+  "entry": "production/index.html",
+  "priorManifestsKeepTheirOriginalFixedBatchMeaning": true
+}

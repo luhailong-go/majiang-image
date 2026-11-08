@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "file": "work/full-game-ui/core/ui27-select-cleanup-failed.png",
+  "uiId": "UI27",
+  "title": "选牌页角落清理未成功尝试（已替代）",
+  "sha256": "62f9700a714301c3be331f906962db5ac9844b42770ba366b72954801d61f136",
+  "generatedAt": "2026-10-26T13:03:00.343240-04:00",
+  "generationTimestampBasis": "客户端落盘时间，工具未返回生成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-6bba7177-f675-46a7-a932-b59e1d5714f5",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\designs\\ui\\full-game\\core\\ui27-tutorial-select-source.png",
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    ],
+    "promptFile": "prompts/full-game/ui/core/ui27-tutorial-select-cleanup.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅提供image_url及output_hint，尺寸和哈希由落盘文件读取。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/full-game/ui/core/ui27-tutorial-select-cleanup.txt",
+  "promptSha256": "a1e2fdb0d099233f55c76511dd83117ea5c8ff2274ed777c61364d11deb57950",
+  "references": [
+    {
+      "file": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+      "sha256": "9771f150f7c0349054928dc4f648ab1b867f1da7482519deacf535398a3a6946",
+      "purpose": "AI编辑对象",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-game\\core\\ui27-tutorial-select-source.png"
+    },
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格",
+      "actuallyAttached": true,
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-6bba7177-f675-46a7-a932-b59e1d5714f5.png",
+    "sha256": "62f9700a714301c3be331f906962db5ac9844b42770ba366b72954801d61f136",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "needs_correction",
+    "visualInspectionCompleted": true,
+    "visualNotes": "主图仍好但极小角落字迹清理不成功；由页脚重制版本取代。",
+    "issues": [
+      "右下极小无意义笔画仍在"
+    ],
+    "blockingIssues": [
+      "右下极小无意义笔画仍在"
+    ],
+    "nativeDimensionsChecked": true
+  },
+  "status": {
+    "stage": "superseded_candidate_or_edit_source",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [
+    "清理尝试"
+  ],
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-6bba7177-f675-46a7-a932-b59e1d5714f5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "generationType": "ai_edit",
+  "editTarget": "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+  "pixelsRetainedInProject": false,
+  "cleanup": {
+    "reason": "已由更明确页脚重制取代，不用于任何后续参考；保留提示词、结果证据、哈希与记录。",
+    "removedAt": "2026-10-26T13:03:00.347310-04:00",
+    "sha256BeforeRemoval": "62f9700a714301c3be331f906962db5ac9844b42770ba366b72954801d61f136",
+    "replacement": "designs/ui/full-game/core/ui27-tutorial-select.png",
+    "replacementSha256": "b828e01215e33979e55a3f082c012109224ffd85294587a92f1b2076ab7e23a6",
+    "metadataClarification": {
+      "clarifiedAt": "2026-10-26T21:08:18.373408+00:00",
+      "previousRecordSha256": "5c982dbbde0e3e2eab21c65b7a249f45e673a76ccf0e085e918fb0fd6998044c",
+      "evidence": "Existing removedAt, pixelsRetainedInProject=false, recorded native result SHA and producer visual note explicitly say the failed cleanup was superseded by the footer remake. The retained UI27 footer remake is identified here; no pixels were restored or rehashed after deletion.",
+      "sha256Evidence": "Copied from the native-result hash already recorded before deletion; not a new read of deleted image pixels",
+      "scope": "Complete explicit historical cleanup linkage; original generation time, failure findings and actual model/quality remain unchanged"
+    }
+  }
+}

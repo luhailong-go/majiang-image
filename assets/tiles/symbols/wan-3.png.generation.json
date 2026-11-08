@@ -1,0 +1,40 @@
+{
+  "file": "assets/tiles/symbols/wan-3.png",
+  "sha256": "befdad1e1b6ac9a33a519610b8a97c377d9b9e8bd150c6f130f77ac7cf92a3a1",
+  "createdAt": "2026-10-26T08:25:49.405Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wan-3.svg",
+    "sha256": "093a66e50c3e24ef0321721ce3d59a6800a654a8634ea8b6dee95382eb967211"
+  },
+  "semantic": {
+    "label": "三万",
+    "suit": "characters",
+    "rank": 3,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "三",
+      "萬"
+    ],
+    "whiteDragonFrame": false
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 2,
+  "scopeId": "UI18",
+  "uiId": "UI18",
+  "title": "邮件详情 · 已领取独立状态",
+  "file": "designs/ui/full-suite/system/ui18-mail-claimed.png",
+  "sha256": "51e8e881647a22fdc23d9b01ab83c792b9ea093f631ad8575287771eecdf1db5",
+  "generatedAt": "2026-10-26T07:08:18.388000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 1672,
+    "height": 941
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "operation": "AI targeted edit",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-d66d99f1-c59d-4fa1-a8d3-7b7c6d1de14d",
+  "resultReceipt": {
+    "uiId": "UI18",
+    "variant": "claimed",
+    "observedCompletedAt": "2026-10-26T11:08:18.388Z",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b as C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-d66d99f1-c59d-4fa1-a8d3-7b7c6d1de14d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-d66d99f1-c59d-4fa1-a8d3-7b7c6d1de14d.png",
+    "submittedReferences": [
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\system\\ui18-mail-detail.png",
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    ]
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\system\\ui18-mail-detail.png",
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+    ],
+    "promptFile": "prompts/system/ui18-mail-claimed.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具仅披露image_url与output_hint路径；原生尺寸和SHA-256由PNG实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/system/ui18-mail-claimed.prompt.txt",
+  "promptSha256": "ae309e16962d75b76bd26626632a3a34c776049a3d40d2a53704f913b105d4a3",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-suite\\system\\ui18-mail-detail.png",
+      "sha256": "25039bd07812953bc4abc401704ab7bcfb4d3a49b2df68f0bc4c26e84b531448",
+      "purpose": "修正后的待领取页作为编辑目标",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格参考",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-d66d99f1-c59d-4fa1-a8d3-7b7c6d1de14d.png",
+    "sha256": "51e8e881647a22fdc23d9b01ab83c792b9ea093f631ad8575287771eecdf1db5",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "editTarget": {
+    "file": "designs/ui/full-suite/system/ui18-mail-detail.png",
+    "sha256": "25039bd07812953bc4abc401704ab7bcfb4d3a49b2df68f0bc4c26e84b531448",
+    "generationRecord": "designs/ui/full-suite/system/ui18-mail-detail.png.generation.json"
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "notes": [
+      "实际查看独立已领取状态：附件标记已领取，灰色禁用按钮仅显示已领取，删除按钮深玉绿字及图标可用。",
+      "页面不出现待领取或可领取按钮；辅助文案为附件已领取，可删除邮件。",
+      "与待领取页的标题、日期、正文、附件、道童兔子、背景、框板、返回及关闭保持一致。"
+    ],
+    "unresolvedIssues": []
+  },
+  "status": {
+    "assetStage": "full_ui_art_candidate",
+    "readyForReview": true,
+    "artworkQaPassed": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "variant": "claimed"
+}

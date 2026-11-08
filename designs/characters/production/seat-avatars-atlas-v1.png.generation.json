@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+  "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+  "generatedAt": "2026-10-26T04:09:16.764000-04:00",
+  "timestampBasis": "tool completion observed by client",
+  "clientTimezone": "America/New_York",
+  "startedAt": "2026-10-26T08:06:44.268Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 2048
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-493349e9-be5e-4bdf-8d00-7184b91aae96",
+  "resultReceipt": {
+    "startedAt": "2026-10-26T08:06:44.268Z",
+    "completedAt": "2026-10-26T08:09:16.764Z",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771c-66bc-7870-8ba6-dbca8e734ace as C:\\Users\\luyua\\.codex\\generated_images\\01a1771c-66bc-7870-8ba6-dbca8e734ace\\exec-493349e9-be5e-4bdf-8d00-7184b91aae96.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771c-66bc-7870-8ba6-dbca8e734ace\\exec-493349e9-be5e-4bdf-8d00-7184b91aae96.png"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\designs\\characters\\welcome-daotong-v1.png",
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png"
+    ],
+    "promptFile": "prompts/characters/seat-avatars-atlas-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "Tool returned image_url and output_hint only; source file copied byte-identically. PNG properties and hash measured locally.",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量；配置目标不等于实际返回型号。",
+  "prompt": "prompts/characters/seat-avatars-atlas-v1.prompt.txt",
+  "promptSha256": "0096a93cd385f3913e05f32093ceb5de01deb48931cd45752af5e42cfb98a9bc",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "designs/characters/welcome-daotong-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\welcome-daotong-v1.png",
+      "sha256": "46443ec2d9df37ee23bd399e1c70aec1bfa2f5c269140fa6f3e2bdfc063fcc9d",
+      "source": "designs/characters/welcome-daotong-v1.png",
+      "role": "identity edit target",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "role": "首要 UI 风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "source": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "role": "首要 UI 风格与角色头像参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "references/style/mail-banner-character.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\mail-banner-character.png",
+      "sha256": "4512bd8ea6d454640f4d7f3ce5bbd09217bf1bd12b24db36be7824d7bdefe41a",
+      "source": "D:\\work\\image\\designs\\mail-ui-v1\\fidelity-20261016\\client\\Assets\\Resources\\UI\\Ugui\\MailV1Fidelity\\mail_banner.png",
+      "role": "道童身份与画法补充参考，横幅而非透明人物",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771c-66bc-7870-8ba6-dbca8e734ace\\exec-493349e9-be5e-4bdf-8d00-7184b91aae96.png",
+    "operation": "byte-identical copy",
+    "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3"
+  },
+  "inspection": {
+    "status": "accepted_for_derived_portraits",
+    "visualInspectionCompleted": true,
+    "distinctIdentities": "passed: boy/healer/elder/swordswoman clearly distinguished",
+    "style": "passed against both UI references",
+    "layout": "four quadrant portraits; square crop intended; selected hair/ribbon tails may reach portrait edges",
+    "text": "no lettering",
+    "unresolvedIssues": []
+  },
+  "status": {
+    "stage": "production_source",
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

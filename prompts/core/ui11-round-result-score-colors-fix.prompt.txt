@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Asset: 现有麻将UI整屏的定向修复，保持1672×941原图比例和清晰度。
+Input 1 is the exact edit target; Input 2 and Input 3 are style references only. Keep the original edit-target composition, characters, Chinese typography, ornament, textures, and all unrelated pixels as closely as possible.
+Image 2: 邮件主风格参考；Image 3: 组队主风格参考。沿用相同道家Q版、玉绿金边、米白绢纸、细腻手绘。
+请只改变第1张单局结算图片右侧三行负积分“-10”的颜色：道友乙、道友甲、道友丙的三个“-10”全部由蓝色改成玉绿色，目标色#196448。本人“+30”保留朱砂红（#B52F20附近）。负号和数字10的字形、数值、位置、大小和清晰度全部保留。仅三处负积分文字换色；标题“本局结算”、第1局、四位头像与昵称、胡牌标记、每行牌面摘要、背景、面板、按钮“退出房间/继续游戏”、关闭X和示例说明全部不变。不得改成另一套牌面、不得改数字、不得修改人物或布局。
+输出一张完整屏幕，不是局部裁片、对比图或设计说明板；不透明背景。

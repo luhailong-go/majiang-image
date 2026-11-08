@@ -1,0 +1,32 @@
+{
+  "id": "UI05",
+  "file": "designs/ui/full-suite/rooms/ui05-create-room.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-516e47f6-3809-4eb0-b317-af89c7f7f544.png",
+  "prompt": "prompts/rooms/ui05-create-room-corrected.prompt.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "首要UI手绘材质、玉绿金边与米白正文层级"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "明亮场景、卡片留白、人物差异与操作层级"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "本项目统一大厅风格与功能语境"
+    },
+    {
+      "file": "work/rooms/ui05-create-room-attempt01.png",
+      "purpose": "本次编辑目标，仅移除未授权两人/三人选项"
+    }
+  ],
+  "generatedAt": "2026-10-26T08:15:21.903Z",
+  "receipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3 as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-516e47f6-3809-4eb0-b317-af89c7f7f544.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

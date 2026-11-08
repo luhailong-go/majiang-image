@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 3,
+  "status": "passed",
+  "assets": [
+    {
+      "id": "empty-mail",
+      "name": "暂无邮件",
+      "file": "assets/ui/production-v3/empty/empty-mail.png",
+      "record": "assets/ui/production-v3/empty/empty-mail.png.generation.json",
+      "sha256": "167ef75f52dcfc1400d1a4e23b995180552fd344f78832bb7c813972f90e0c44",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    },
+    {
+      "id": "empty-friends",
+      "name": "暂无好友",
+      "file": "assets/ui/production-v3/empty/empty-friends.png",
+      "record": "assets/ui/production-v3/empty/empty-friends.png.generation.json",
+      "sha256": "40c11382a97507fa6008fb1d2a3d884d6a5ee1f5907bac4dca4e297430e9aabf",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    },
+    {
+      "id": "empty-search",
+      "name": "暂无搜索结果",
+      "file": "assets/ui/production-v3/empty/empty-search.png",
+      "record": "assets/ui/production-v3/empty/empty-search.png.generation.json",
+      "sha256": "b894cdcd35ab96472453fb2a6838b6c7655680d69d394a28fe88dbe18540d104",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    },
+    {
+      "id": "empty-records",
+      "name": "暂无战绩",
+      "file": "assets/ui/production-v3/empty/empty-records.png",
+      "record": "assets/ui/production-v3/empty/empty-records.png.generation.json",
+      "sha256": "8ecd7bd419d0e4ec689593e261ecddab8be7acc440aaf8ef4b3f069dbe0706c6",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    },
+    {
+      "id": "connection-interrupted",
+      "name": "连接中断",
+      "file": "assets/ui/production-v3/empty/connection-interrupted.png",
+      "record": "assets/ui/production-v3/empty/connection-interrupted.png.generation.json",
+      "sha256": "d6e96513a611b728252b32d6766b881d0a6a3a6b19b2d51510aef03d07578dc4",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    },
+    {
+      "id": "match-timeout",
+      "name": "等待超时",
+      "file": "assets/ui/production-v3/empty/match-timeout.png",
+      "record": "assets/ui/production-v3/empty/match-timeout.png.generation.json",
+      "sha256": "531037b59b08c3681ae6178d1d334b853b5e20e589dcacef5282637673ac76bc",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "recommendedDisplaySize": [
+        180,
+        180
+      ],
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "nineSlice": null
+      },
+      "status": "passed"
+    }
+  ],
+  "primaryAssetCount": 6,
+  "previews": [
+    "assets/ui/production-v3/empty/preview-light.png",
+    "assets/ui/production-v3/empty/preview-dark.png"
+  ],
+  "source": "designs/ui/production-v3/empty-states-native.png"
+}

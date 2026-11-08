@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "file": "assets/characters/welcome-daotong.png",
+      "status": "passed",
+      "visualInspectionCompleted": true,
+      "pngIntegrity": "passed",
+      "sourceHashes": "passed",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "unresolvedIssues": [],
+      "identity": "matches gold-band Daoist boy, red 中 tile and taiji gourd",
+      "anatomy": "complete hands, shoes, hair, ribbon and robe; no crop",
+      "alpha": "real alpha, cleaned external speckles, full-body interior opaque",
+      "deepAndLightComposite": "passed via actual view_image of both QA composites",
+      "paddingPixels": [
+        199,
+        157,
+        200,
+        157
+      ],
+      "paddingMeets8Percent": true,
+      "cleanupRemovedVisibleSubjectPixels": 0
+    },
+    {
+      "file": "assets/characters/avatar-daotong.png",
+      "status": "passed",
+      "visualInspectionCompleted": true,
+      "pngIntegrity": "passed",
+      "sourceHashes": "passed",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "unresolvedIssues": [],
+      "identity": "distinct face, age/hair/costume, consistent hand-painted style",
+      "crop": "face fully visible; portrait intentionally trims shoulders and selected outer hair/ribbon ends",
+      "text": "none",
+      "transparency": "opaque square portrait by design, use client mask",
+      "productionSizes": "512 export from 627 native crop, downsample only"
+    },
+    {
+      "file": "assets/characters/avatar-healer.png",
+      "status": "passed",
+      "visualInspectionCompleted": true,
+      "pngIntegrity": "passed",
+      "sourceHashes": "passed",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "unresolvedIssues": [],
+      "identity": "distinct face, age/hair/costume, consistent hand-painted style",
+      "crop": "face fully visible; portrait intentionally trims shoulders and selected outer hair/ribbon ends",
+      "text": "none",
+      "transparency": "opaque square portrait by design, use client mask",
+      "productionSizes": "512 export from 627 native crop, downsample only"
+    },
+    {
+      "file": "assets/characters/avatar-master.png",
+      "status": "passed",
+      "visualInspectionCompleted": true,
+      "pngIntegrity": "passed",
+      "sourceHashes": "passed",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "unresolvedIssues": [],
+      "identity": "distinct face, age/hair/costume, consistent hand-painted style",
+      "crop": "face fully visible; portrait intentionally trims shoulders and selected outer hair/ribbon ends",
+      "text": "none",
+      "transparency": "opaque square portrait by design, use client mask",
+      "productionSizes": "512 export from 627 native crop, downsample only"
+    },
+    {
+      "file": "assets/characters/avatar-swordswoman.png",
+      "status": "passed",
+      "visualInspectionCompleted": true,
+      "pngIntegrity": "passed",
+      "sourceHashes": "passed",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "unresolvedIssues": [],
+      "identity": "distinct face, age/hair/costume, consistent hand-painted style",
+      "crop": "face fully visible; portrait intentionally trims shoulders and selected outer hair/ribbon ends",
+      "text": "none",
+      "transparency": "opaque square portrait by design, use client mask",
+      "productionSizes": "512 export from 627 native crop, downsample only"
+    }
+  ],
+  "scopeComplete": true
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/frames/player-ring-02.png",
+  "title": "当前玩家光环 第3阶段",
+  "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+  "generatedAt": "2026-10-26T11:48:40-04:00",
+  "derivedAt": "2026-10-26T11:48:40-04:00",
+  "tool": "generate2dsprite.py process / Pillow deterministic export",
+  "route": "derivative_of_builtin_host_image",
+  "art_source": "host_image_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "原始内置生成未披露可核实型号/质量；本文件是切片或文字合成，不是新模型生成。",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "derivedFrom": [
+    {
+      "file": "designs/fx/full-game/player-ring-v1.png",
+      "sha256": "3e0dd4ff07d66d7f953e5aac6ed694bd401c15e9e23b2fea908de8e40e7b70bb",
+      "record": "designs/fx/full-game/player-ring-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_alpha_slice_registered_downsample",
+    "sourceBox": [
+      0,
+      627,
+      627,
+      1254
+    ],
+    "sourceAnchorPx": [
+      313.5,
+      313.5
+    ],
+    "sourceToOutputScale": 0.5062838915470494,
+    "outputAnchorPx": [
+      256,
+      256
+    ],
+    "globalOffsetPx": [
+      97,
+      97
+    ],
+    "resampler": "premultiplied_lanczos",
+    "alphaHygiene": {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 224598,
+      "detached_px": 28,
+      "detached_components": 24,
+      "max_removed_alpha": 5
+    },
+    "pixelsRegenerated": false,
+    "sourceDimensions": [
+      1254,
+      1254
+    ],
+    "outputDimensions": [
+      512,
+      512
+    ],
+    "pipelineReport": "assets/fx/full-game/qa/process-player-ring.json",
+    "pipelineFrame": 2,
+    "centerDriftCorrection": {
+      "method": "center_of_enclosed_avatar_hole_not_outer_glow_bbox",
+      "unadjustedHoleCenterPx": [
+        262.5,
+        254.5
+      ],
+      "translationOutputPx": [
+        -6,
+        2
+      ],
+      "scaleUnchanged": true,
+      "blankPaddingOnly": true
+    },
+    "finalAlphaHygiene": {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 1076,
+      "detached_px": 0,
+      "detached_components": 0,
+      "max_removed_alpha": 4
+    },
+    "originalWorkingPipelineReport": "work/full-game-fx/process-player-ring/pipeline-meta.json"
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 245928,
+    "opaquePixels": 470,
+    "semiTransparentPixels": 15746,
+    "bboxNonzero": [
+      145,
+      152,
+      368,
+      372
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "inspection": {
+    "visualStatus": "passed",
+    "method": "actual exported pixels inspected on deep jade and light ivory backgrounds, complete silhouettes, exact Chinese text; phase progression reviewed",
+    "issues": [],
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "frameIndex": 2,
+  "phase": "bottom"
+}

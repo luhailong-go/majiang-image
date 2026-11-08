@@ -1,0 +1,75 @@
+{
+  "file": "production/previews/contact-states-2.png",
+  "sha256": "21c9aba787691f430a658712cf7442ad9d4bb7c690e69d980eaf654343e7759c",
+  "width": 1440,
+  "height": 1208,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/states/room.join_failure.png",
+      "sha256": "29dfcc84a57b1b1b6b79546d31ea91fda8d80c57a6aa718860cce8fc945da512",
+      "generationRecord": "production/previews/states/room.join_failure.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.wait_discard.png",
+      "sha256": "f6a46f424aab0e7e7346af8406dd316c59f1cad9c974331171aeb6e4d12caa08",
+      "generationRecord": "production/previews/states/play.wait_discard.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.current_player.png",
+      "sha256": "660f69beac21890a920fc0da669036cc513ddeca53cbc0858043b8e3620f5ea4",
+      "generationRecord": "production/previews/states/play.current_player.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.countdown.png",
+      "sha256": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+      "generationRecord": "production/previews/states/play.countdown.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.dealer.png",
+      "sha256": "1b3868c38f2b94217c9bd7dc653b9dc5a38ac68bcf0d923fcea37de7313d7bf9",
+      "generationRecord": "production/previews/states/play.dealer.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.offline.png",
+      "sha256": "8a203c3199bacd349781c133c07b9ccde47fe9fedfaf7651595afc728fcdb4c4",
+      "generationRecord": "production/previews/states/play.offline.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.autoplay.png",
+      "sha256": "3e4cb0f90387be2e6fe74afc02d1c2e275fc4c0441b9109859543ea578b3db41",
+      "generationRecord": "production/previews/states/play.autoplay.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.peng_gang_hu_pass.png",
+      "sha256": "7136eba9235796dd72b213066ac48562abf7b7767daf360f7e78fba08079cd0a",
+      "generationRecord": "production/previews/states/play.peng_gang_hu_pass.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.multiple_candidates.png",
+      "sha256": "429612153db4148fb90f843afdcae6ca687da8026f215f636da4db6707a72ba5",
+      "generationRecord": "production/previews/states/play.multiple_candidates.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.ready_hand.png",
+      "sha256": "502bf65a052bff66de79c0efc36d092cbc99d2cecebac47becabd7b0a7bb0d3d",
+      "generationRecord": "production/previews/states/play.ready_hand.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.win.png",
+      "sha256": "06d4a2daabe4bb8f89ddc52775e1513f8e7bef46af6dfafb7e865b5c9ea1035a",
+      "generationRecord": "production/previews/states/play.win.png.generation.json"
+    },
+    {
+      "file": "production/previews/states/play.draw.png",
+      "sha256": "3660158198d01887b4a1c4def565597fa448220a6335a55f2b95d5441e3d432d",
+      "generationRecord": "production/previews/states/play.draw.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

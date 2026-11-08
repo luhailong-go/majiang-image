@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "domain": "production-v3-gameplay",
+  "reviewedAt": "2026-10-28T14:57:27.194603+00:00",
+  "status": "passed",
+  "newPrimaryPngs": 6,
+  "nativeCalls": 1,
+  "nativeSourceSize": [
+    1254,
+    1254
+  ],
+  "producerVisual": {
+    "skins": "passed",
+    "lightDarkAlpha": "passed",
+    "sixWanFourSeatDirections": "passed",
+    "fourMeldTypesAtFourSeats": "passed",
+    "candidatesReadyHandIllegalEmptyDisabled": "passed",
+    "settlement": "passed",
+    "table": "passed: current exact SHA actually viewed at original size; HUD in center-left gap, all discard faces/countdown unobscured"
+  },
+  "observedChecksBeforeExclusiveSlot": {
+    "standardFaces": {
+      "decoded": 34,
+      "hashAndDimensions": "passed",
+      "RGBA": 34
+    },
+    "optionalFlowers": {
+      "decoded": 8,
+      "hashAndDimensions": "passed",
+      "RGBA": 8
+    },
+    "gameplayComponents": {
+      "decoded": 13,
+      "hashAndDimensions": "passed",
+      "RGBA": 12,
+      "RGBBackground": 1
+    },
+    "commonComponents": {
+      "decoded": 45,
+      "hashAndDimensions": "passed",
+      "RGBA": 45,
+      "intentionalConstantAlpha": "modal-shade is constant translucent fill, not an alpha defect"
+    },
+    "registeredDependencies": {
+      "count": 113,
+      "filesReadAndHashesRecordedAtCompositionBuild": true
+    }
+  },
+  "newSpriteExportInvariants": {
+    "exactNativeCropPlus16pxPadding": true,
+    "noUpscaleOrResampling": true,
+    "originalAlphaInsideCleanedSupport": true,
+    "outsideSupportAlphaZero": true,
+    "zeroRGBUnderZeroAlpha": true,
+    "centerOfSelectionOutlineVisuallyTransparent": true
+  },
+  "assets": [
+    {
+      "id": "candidate-panel",
+      "file": "assets/ui/production-v3/gameplay/candidate-panel.png",
+      "sha256": "8f8f78fe02a243c28eb77e9ce400af590a86dd79faac39e60d63d549ad5ed6db",
+      "size": [
+        756,
+        323
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "ready-hand-panel",
+      "file": "assets/ui/production-v3/gameplay/ready-hand-panel.png",
+      "sha256": "10a15d8a0c76d7c8b26590ddf3905ec3160c4681dda4c85984935c88e89229d2",
+      "size": [
+        511,
+        310
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "candidate-selected-outline",
+      "file": "assets/ui/production-v3/gameplay/candidate-selected-outline.png",
+      "sha256": "2ca0515c49fd9b5c70e62dd215f3f93c08127c8b30be0b17c67de32b42323108",
+      "size": [
+        703,
+        341
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "illegal-tile-badge",
+      "file": "assets/ui/production-v3/gameplay/illegal-tile-badge.png",
+      "sha256": "ebf0afe9e71803aaf1d43510550103279e79c198f9142920c73eaa508ce70f2d",
+      "size": [
+        288,
+        284
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "discard-pointer",
+      "file": "assets/ui/production-v3/gameplay/discard-pointer.png",
+      "sha256": "8c5c7127b9a71338d553bc6a5bca2744282ee08e1e323e4b6b31e5e1a85f2feb",
+      "size": [
+        242,
+        265
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "ready-hand-badge",
+      "file": "assets/ui/production-v3/gameplay/ready-hand-badge.png",
+      "sha256": "62a720dd5876feba3ce3884f7b69d9599c8d99bc18da2702dd48c292d9edd4d4",
+      "size": [
+        274,
+        270
+      ],
+      "status": "passed"
+    }
+  ],
+  "previews": [
+    {
+      "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+      "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+      "visual": "passed: current exact file actually viewed at original size after HUD move",
+      "reviewedAt": "2026-10-28T14:57:27.194603+00:00",
+      "independentReview": {
+        "reviewer": "root coordinator",
+        "source": "direct parent receipt after user-authorized single-thread art closeout",
+        "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+        "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+        "status": "passed",
+        "scope": "targeted final table preview only",
+        "evidence": "Root actually viewed refreshed table: HUD at center-left does not collide with left/right discards or central countdown; text complete. Other four preview pixels unchanged per root receipt.",
+        "recordedAt": "2026-10-28T14:57:27.194603+00:00"
+      }
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/melds-and-directions.png",
+      "sha256": "745cf7df93ae9c9451378723194dd06301c90eb46383456f10277ac5141a167e",
+      "visual": "passed: actual final original-size preview inspected"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/candidates-and-states.png",
+      "sha256": "b067405339f6e704d64abc3113347e4a0947b82a84005ff2ecdad90f7bc11edc",
+      "visual": "passed: actual final original-size preview inspected"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/settlement-composition.png",
+      "sha256": "d460789c0a783d8449747d6ca4681b2da9fad8b32358cd1c244e9a6b63a2b1a7",
+      "visual": "passed: actual final original-size preview inspected"
+    },
+    {
+      "file": "designs/ui/production-v3/gameplay/skins-alpha-light-dark.png",
+      "sha256": "ed51a7326c7d4a69430c2c087c9346e7bc1b9e142cbed8da645e530c8a1c7ae4",
+      "visual": "passed: actual final original-size preview inspected"
+    }
+  ],
+  "blockingFindings": [],
+  "pendingChecks": [],
+  "productionFilesModified": false,
+  "onlyNewDomainWritten": true,
+  "clientIntegrated": false,
+  "rulesImplemented": false,
+  "modelEvidence": "Builtin target gpt-image-2.5-sunburst/max, actual model and quality null because not disclosed.",
+  "history": [
+    {
+      "status": "pending_targeted_table_preview",
+      "tableSha256": "3f0889d049f1ecb7a15c3f7a0b714850c3bc3d436d8a8ea19b0bf6c5409382d5",
+      "resolution": "Root ran only targeted table render after user authorized single-thread art closeout."
+    }
+  ],
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00",
+  "independentReview": {
+    "reviewer": "root coordinator",
+    "source": "direct parent receipt after user-authorized single-thread art closeout",
+    "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+    "sha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+    "status": "passed",
+    "scope": "targeted final table preview only",
+    "evidence": "Root actually viewed refreshed table: HUD at center-left does not collide with left/right discards or central countdown; text complete. Other four preview pixels unchanged per root receipt.",
+    "recordedAt": "2026-10-28T14:57:27.194603+00:00"
+  },
+  "resolvedFindings": [
+    {
+      "id": "gameplay-hud-label-placement",
+      "severity": "P2",
+      "status": "resolved",
+      "file": "designs/ui/production-v3/gameplay/table-four-seats.png",
+      "observed": "Round and remaining tile tags at x996 intrude into right discard margin.",
+      "preparedFix": "runtime-compositions.json nativeFieldNodes moved to x695, width140; renderer edit ready.",
+      "whyNotRendered": "Root reserved this machine for exclusive heavy acceptance job and explicitly paused batch rendering.",
+      "required": "After slot release, re-render ONLY table-four-seats and actual view; keep other accepted PNGs frozen.",
+      "resolvedAt": "2026-10-28T14:57:27.194603+00:00",
+      "resolvedSha256": "9521bec298989a9d3b34d179636490d096228cc18b9945f132caf09b1613c049",
+      "resolution": "Root targeted table-only render; producer and root final actual visual checks passed."
+    }
+  ],
+  "existingProductionFilesModified": false,
+  "closureValidationScope": {
+    "targetPngHash": "verified before/after final actual view and metadata update",
+    "otherFourPreviewHashes": "retained unchanged from existing passed records and root targeted-render receipt",
+    "globalDependencySweep": "Coordinator integration check; no all-domain scripts or batch rendering run by this worker."
+  }
+}

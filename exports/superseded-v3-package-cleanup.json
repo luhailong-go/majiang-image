@@ -1,0 +1,11 @@
+{
+  "status": "removed_superseded_archive",
+  "removedAt": "2026-10-30T04:00:05.1969476Z",
+  "file": "exports/mahjong-complete-game-art-v3.zip",
+  "sha256BeforeRemoval": "e5493e7ae501e7111a72d467af5de3c1d12a084d31f1edf25a67a0614ae78281",
+  "bytes": 490631787,
+  "replacement": "exports/yunjian-queshe-complete-art-v4.zip",
+  "replacementSha256": "3576436adaf1766f2becf815a0af2fcfd701ec65a2c8c0fdb7caba57ed058b8d",
+  "evidence": "exports/release-v4-package-reopen-verification.json",
+  "historicalTextRecordsRetained": true
+}

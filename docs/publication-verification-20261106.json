@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-11-06T10:51:21.089218+00:00",
+  "repository": "https://github.com/luhailong-go/majiang-image",
+  "account": "luhailong-go",
+  "commit": "11237b41782e5f18cb00d4bd91a320da22bd0523",
+  "tree": "d4c82a610ccba1092caa0bc8454751a41cb55d04",
+  "parentCount": 0,
+  "files": 1583,
+  "fullRemoteTreeMatched": true,
+  "independentChangedBlobDownloadsVerified": 2,
+  "unchangedArtSHA256Verified": 1581,
+  "changed": [
+    "exports/git-publication-files.json",
+    "exports/release-v4-publication-verification.json"
+  ],
+  "scope": "Publish historical acceptance receipt and updated file manifest; art bytes unchanged.",
+  "localWorkingTreeClean": true
+}

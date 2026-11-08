@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/gameplay/settlement-composition.png",
+  "sha256": "d460789c0a783d8449747d6ca4681b2da9fad8b32358cd1c244e9a6b63a2b1a7",
+  "generatedAt": "2026-10-28T10:01:03.585708+00:00",
+  "width": 1672,
+  "height": 941,
+  "format": "RGB PNG",
+  "tool": "Pillow deterministic assembly",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "operation": "Composite accepted independent raster skins, whole-sprite right-angle rotations, proportional downscales, approved nine-slice and native preview labels. No new AI image, no code-drawn replacement painting.",
+  "description": "Independent background, transparent frame, nine-slice cards and buttons, portraits and native Chinese/score fields. Scores retain signs and color; match completion removes continue.",
+  "nativeTextFont": "C:\\Windows\\Fonts\\simkai.ttf",
+  "fontRedistributed": false,
+  "derivedFrom": [
+    {
+      "id": "avatar-daotong",
+      "file": "assets/characters/avatar-daotong.png",
+      "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb"
+    },
+    {
+      "id": "avatar-healer",
+      "file": "assets/characters/avatar-healer.png",
+      "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412"
+    },
+    {
+      "id": "avatar-master",
+      "file": "assets/characters/avatar-master.png",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b"
+    },
+    {
+      "id": "avatar-swordswoman",
+      "file": "assets/characters/avatar-swordswoman.png",
+      "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c"
+    },
+    {
+      "id": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735"
+    },
+    {
+      "id": "button-secondary-normal",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4"
+    },
+    {
+      "id": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4"
+    },
+    {
+      "id": "table-background",
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad"
+    },
+    {
+      "id": "title-plaque",
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690"
+    },
+    {
+      "id": "window-frame",
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb"
+    }
+  ],
+  "runtimeContract": "assets/ui/production-v3/gameplay/runtime-compositions.json",
+  "clientIntegrated": false,
+  "checks": {
+    "visual": "passed: actual final original-size preview inspected",
+    "technical": "Previously assembled from registered independent assets; unchanged during root table-only render. Global sweep belongs to coordinator integration.",
+    "reviewedAt": "2026-10-28T10:35:30.815290+00:00"
+  },
+  "status": "passed",
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00"
+}

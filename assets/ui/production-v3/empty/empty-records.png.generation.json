@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/production-v3/empty/empty-records.png",
+  "sha256": "8ecd7bd419d0e4ec689593e261ecddab8be7acc440aaf8ef4b3f069dbe0706c6",
+  "exportedAt": "2026-10-28T08:29:58.506261+00:00",
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/empty-states-native.png",
+      "sha256": "382db41d9cec67c3b9f8c5239628428a0212149243adb8e5f130385f90ea8f70",
+      "generationRecord": "designs/ui/production-v3/empty-states-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "ownership": "assign each alpha>16 connected component to nearest 3x2 subject center; preserve complete crossing components",
+    "tinyNoiseRemovedBelowPixels": 4,
+    "sourceBBox": [
+      43,
+      605,
+      496,
+      968
+    ],
+    "sourceComponents": [
+      {
+        "sourceBox": [
+          43,
+          605,
+          496,
+          968
+        ],
+        "pixels": 85428
+      },
+      {
+        "sourceBox": [
+          155,
+          639,
+          233,
+          693
+        ],
+        "pixels": 1764
+      }
+    ],
+    "uniformScale": 1,
+    "canvas": [
+      512,
+      512
+    ],
+    "padding": 24,
+    "rgbRepainting": false
+  },
+  "nativeDetailUpscaled": false
+}

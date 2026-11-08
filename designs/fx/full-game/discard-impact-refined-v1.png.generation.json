@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/fx/full-game/discard-impact-refined-v1.png",
+  "title": "discard-impact-refined",
+  "sha256": "1cfd7bc16a165c89fab158077de6ee3597379b82c8a52287e6b2f3a4fa6fa810",
+  "generatedAt": "2026-10-26T11:39:37-04:00",
+  "clientTimezone": "America/New_York",
+  "generationTimestampBasis": "observed tool return and adoption time",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\fx\\full-game\\discard-impact-v1.png"
+    ],
+    "promptFile": "prompts/full-game/fx/discard-impact-refined.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "Tool returned image_url, output_hint and native PNG path; no model or quality disclosed.",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "resampled": false,
+  "prompt": "prompts/full-game/fx/discard-impact-refined.txt",
+  "promptSha256": "0271200c50bc6de2d6885796bcbc72b5f0310f625f007d1b841decf6c02647bc",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true,
+      "role": "style_reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true,
+      "role": "style_reference"
+    },
+    {
+      "file": "designs/fx/full-game/discard-impact-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\fx\\full-game\\discard-impact-v1.png",
+      "sha256": "e4ae8af2441095aa50fc975846436180d2166f7fc9d28f02be04dceaa7f1be37",
+      "actuallyAttached": true,
+      "role": "edit_target",
+      "pixelsPresentInProject": false,
+      "cleanupRecord": "designs/fx/full-game/discard-impact-v1.png.generation.json"
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a178c6-07e9-7753-bec9-ca56f6aeb2c8\\exec-843f699b-d170-4553-99fa-2c481eb0b80e.png",
+    "sha256": "1cfd7bc16a165c89fab158077de6ee3597379b82c8a52287e6b2f3a4fa6fa810",
+    "operation": "byte-identical copy"
+  },
+  "inspection": {
+    "visualStatus": "passed_as_source_for_derived_assets",
+    "issues": [],
+    "rawAlphaAdvisories": "near-invisible haze in source is cleaned only in final exports; source remains byte-identical",
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  },
+  "status": {
+    "productionAccepted": false,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "sourceDesignAccepted": true
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

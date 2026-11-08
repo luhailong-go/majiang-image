@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 1,
+  "domain": "system_social_records",
+  "scope": "docs/FULL_UI_SCOPE.md",
+  "count": 9,
+  "completedIds": [
+    "UI13",
+    "UI15",
+    "UI17",
+    "UI18",
+    "UI19",
+    "UI20",
+    "UI21",
+    "UI22"
+  ],
+  "pages": [
+    {
+      "id": "UI13",
+      "title": "个人资料",
+      "file": "designs/ui/full-suite/system/ui13-profile.png",
+      "generationRecord": "designs/ui/full-suite/system/ui13-profile.png.generation.json",
+      "prompt": "prompts/system/ui13-profile.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "b19d96261648291a93a3172727a35b0fd6a00a65d96a2cb25065c29c3b22f41d",
+      "status": "artwork_qa_passed",
+      "states": [
+        "profile.default",
+        "profile.edit-entry",
+        "profile.statistics",
+        "profile.recent-game",
+        "navigation.back-lobby",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看整屏：个人资料、头像昵称ID、基础统计、修改资料、查看战绩及返回均清楚；样例24局/12胜/50%相互一致；无明显错字或裁切。",
+          "独立原生整屏，非总览裁切。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI15",
+      "title": "好友与申请",
+      "file": "designs/ui/full-suite/system/ui15-friends.png",
+      "generationRecord": "designs/ui/full-suite/system/ui15-friends.png.generation.json",
+      "prompt": "prompts/system/ui15-friends.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "f206893325628aa0b4b788e20eb7d0129a23701abdeadd896bc43d33a532fa6e",
+      "status": "artwork_qa_passed",
+      "states": [
+        "friends.tab.selected",
+        "requests.tab.unselected.badge",
+        "friends.search",
+        "friends.add-entry",
+        "friends.online",
+        "friends.offline",
+        "friends.busy",
+        "friends.invite.enabled",
+        "friends.invite.disabled",
+        "requests.pending.accept",
+        "requests.pending.reject",
+        "friends.empty-navigation",
+        "navigation.back-lobby",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看：好友/申请页签、搜索添加、在线/离线/忙碌、邀请、接受拒绝、空态去向、返回均有明确表现。",
+          "示例朋友及申请头像为原画中的独立人物，非客户端头像资产引用；统一座位头像由角色域交付。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI17",
+      "title": "邮件列表",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png",
+      "generationRecord": "designs/ui/full-suite/system/ui17-mail-list.png.generation.json",
+      "prompt": "prompts/system/ui17-mail-list.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "580e83b144fd4ebcef4067bc06366218024320c6e3337ef2735987140d6879fb",
+      "status": "artwork_qa_passed",
+      "states": [
+        "mail.category.selected",
+        "mail.category.unselected",
+        "mail.row.selected",
+        "mail.unread",
+        "mail.read",
+        "mail.with-attachment",
+        "mail.pending-claim",
+        "mail.claimed",
+        "mail.clean-read",
+        "mail.refresh",
+        "mail.open-detail",
+        "navigation.back-lobby",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看：邮件分类、红点/开封图标、选中、待领取、已读、未读、已领取各有清楚视觉表现；清理已读、刷新、查看与返回入口齐备。",
+          "中文核对通过，示例邮件标记可见；无旧游戏名或商业活动。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI18",
+      "title": "邮件详情 · 待领取单一状态",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png",
+      "generationRecord": "designs/ui/full-suite/system/ui18-mail-detail.png.generation.json",
+      "prompt": "prompts/system/ui18-mail-detail-state-fix.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "25039bd07812953bc4abc401704ab7bcfb4d3a49b2df68f0bc4c26e84b531448",
+      "status": "artwork_qa_passed",
+      "states": [
+        "mail.detail",
+        "mail.attachment.pending-claim",
+        "mail.claim.enabled",
+        "mail.delete.disabled-unclaimed",
+        "navigation.back-list",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看修复后整屏：右下灰色“已领取”块已完全移除，纸绢底纹连续。",
+          "本页仅为待领取状态；红色待领取、领取附件主按钮、禁用删除及领取后可删除保留。",
+          "标题、日期、三句正文、头像框附件、道童兔子、场景、返回与关闭均保持清楚。"
+        ],
+        "unresolvedIssues": []
+      },
+      "variant": "pending_claim"
+    },
+    {
+      "id": "UI18",
+      "variant": "claimed",
+      "title": "邮件详情 · 已领取独立状态",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png",
+      "generationRecord": "designs/ui/full-suite/system/ui18-mail-claimed.png.generation.json",
+      "prompt": "prompts/system/ui18-mail-claimed.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "51e8e881647a22fdc23d9b01ab83c792b9ea093f631ad8575287771eecdf1db5",
+      "status": "artwork_qa_passed",
+      "states": [
+        "mail.detail.claimed",
+        "mail.attachment.claimed",
+        "mail.claim.disabled-claimed",
+        "mail.delete.enabled-claimed",
+        "navigation.back-list",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看独立已领取状态：附件标记已领取，灰色禁用按钮仅显示已领取，删除按钮深玉绿字及图标可用。",
+          "页面不出现待领取或可领取按钮；辅助文案为附件已领取，可删除邮件。",
+          "与待领取页的标题、日期、正文、附件、道童兔子、背景、框板、返回及关闭保持一致。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI19",
+      "title": "战绩列表 · 统一积分颜色",
+      "file": "designs/ui/full-suite/system/ui19-records.png",
+      "generationRecord": "designs/ui/full-suite/system/ui19-records.png.generation.json",
+      "prompt": "prompts/system/ui19-records-score-colors-fix.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "e95b6cf820b5679c2e59ad58b02d0957b9eb5ed73173378f82e6ca4bf279872c",
+      "status": "artwork_qa_passed",
+      "states": [
+        "records.category.selected",
+        "records.category.unselected",
+        "records.win",
+        "records.loss",
+        "records.draw",
+        "records.detail-entry",
+        "records.empty-navigation",
+        "navigation.back-lobby",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看修复后整屏：+24、+8为朱砂红；-12为玉绿；0保留中性灰。",
+          "四行数值、日期时间、胜负/流局结果徽章、详情入口和其他版式保持不变。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI20",
+      "title": "战绩详情",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png",
+      "generationRecord": "designs/ui/full-suite/system/ui20-record-detail.png.generation.json",
+      "prompt": "prompts/system/ui20-record-detail.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "0884359157e3c91193ca8d305b2bcb0b76eaf87975a4e966c55265742d440a06",
+      "status": "artwork_qa_passed",
+      "states": [
+        "records.four-player-summary",
+        "records.per-round-table",
+        "records.replay-entry-only",
+        "navigation.back-records",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看：四座角色外观与附入头像母版保持一致；四家累计分+24/-8/-4/-12和分局表逐项核对正确，所有行合计0，所有列累计对应结果卡。",
+          "回放入口标明“仅界面示意”，样例数据、返回与关闭入口清楚。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI21",
+      "title": "设置",
+      "file": "designs/ui/full-suite/system/ui21-settings.png",
+      "generationRecord": "designs/ui/full-suite/system/ui21-settings.png.generation.json",
+      "prompt": "prompts/system/ui21-settings.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "618efa2f8a1a8e348594fcc374b3e8d2afc249b367dd78438f025624afefcde6",
+      "status": "artwork_qa_passed",
+      "states": [
+        "settings.music-slider",
+        "settings.sfx-slider",
+        "settings.voice.on",
+        "settings.confirm-play.off",
+        "settings.quality.selected",
+        "settings.quality.unselected",
+        "settings.tile-preview",
+        "settings.tablecloth.selected",
+        "settings.tablecloth.unselected",
+        "settings.restore-default",
+        "settings.save",
+        "settings.logout-entry",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看：音乐/音效滑条、语音开启、出牌确认关闭、品质单选、桌布选中与未选中、牌面预览、恢复默认/保存/退出入口均可辨。",
+          "中文核对通过、关闭入口完整。声音/显示/操作页签与本整屏总览选项仅为美术界面组织，实际接入需按状态表实现切换。"
+        ],
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "id": "UI22",
+      "title": "规则与帮助",
+      "file": "designs/ui/full-suite/system/ui22-help.png",
+      "generationRecord": "designs/ui/full-suite/system/ui22-help.png.generation.json",
+      "prompt": "prompts/system/ui22-help.prompt.txt",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "sha256": "7d3467dd434dc88291d9ef06a16ee23164224a463a63f59611bce7e9b01bb607",
+      "status": "artwork_qa_passed",
+      "states": [
+        "help.directory.selected",
+        "help.directory.unselected",
+        "help.select-play-instruction",
+        "help.action-choice-instruction",
+        "help.ready-room-instruction",
+        "help.tile-suits",
+        "help.rules-configurable",
+        "navigation.back",
+        "navigation.close"
+      ],
+      "inspection": {
+        "pngIntegrity": "passed",
+        "visualStatus": "passed",
+        "notes": [
+          "实际查看：规则目录、三条操作说明、碰杠胡过、四人准备、万筒条示意、房间配置提示与返回入口齐备；中文可读。",
+          "牌型示意仅识别三大花色，不声明完整胡牌规则；地方规则明确待配置。操作指引按本轮通用交互假设示意，最终接入以实际规则与控件行为为准。"
+        ],
+        "unresolvedIssues": []
+      }
+    }
+  ],
+  "stateCoverage": [
+    {
+      "state": "profile.default",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "profile.edit-entry",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "profile.statistics",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "profile.recent-game",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "navigation.back-lobby",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI13",
+      "file": "designs/ui/full-suite/system/ui13-profile.png"
+    },
+    {
+      "state": "friends.tab.selected",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "requests.tab.unselected.badge",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.search",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.add-entry",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.online",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.offline",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.busy",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.invite.enabled",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.invite.disabled",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "requests.pending.accept",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "requests.pending.reject",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "friends.empty-navigation",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "navigation.back-lobby",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI15",
+      "file": "designs/ui/full-suite/system/ui15-friends.png"
+    },
+    {
+      "state": "mail.category.selected",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.category.unselected",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.row.selected",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.unread",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.read",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.with-attachment",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.pending-claim",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.claimed",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.clean-read",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.refresh",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.open-detail",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "navigation.back-lobby",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI17",
+      "file": "designs/ui/full-suite/system/ui17-mail-list.png"
+    },
+    {
+      "state": "mail.detail",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "mail.attachment.pending-claim",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "mail.claim.enabled",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "mail.delete.disabled-unclaimed",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "navigation.back-list",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png"
+    },
+    {
+      "state": "mail.detail.claimed",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "mail.attachment.claimed",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "mail.claim.disabled-claimed",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "mail.delete.enabled-claimed",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "navigation.back-list",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI18",
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png"
+    },
+    {
+      "state": "records.category.selected",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.category.unselected",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.win",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.loss",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.draw",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.detail-entry",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.empty-navigation",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "navigation.back-lobby",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI19",
+      "file": "designs/ui/full-suite/system/ui19-records.png"
+    },
+    {
+      "state": "records.four-player-summary",
+      "sourceId": "UI20",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png"
+    },
+    {
+      "state": "records.per-round-table",
+      "sourceId": "UI20",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png"
+    },
+    {
+      "state": "records.replay-entry-only",
+      "sourceId": "UI20",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png"
+    },
+    {
+      "state": "navigation.back-records",
+      "sourceId": "UI20",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI20",
+      "file": "designs/ui/full-suite/system/ui20-record-detail.png"
+    },
+    {
+      "state": "settings.music-slider",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.sfx-slider",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.voice.on",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.confirm-play.off",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.quality.selected",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.quality.unselected",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.tile-preview",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.tablecloth.selected",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.tablecloth.unselected",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.restore-default",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.save",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "settings.logout-entry",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI21",
+      "file": "designs/ui/full-suite/system/ui21-settings.png"
+    },
+    {
+      "state": "help.directory.selected",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.directory.unselected",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.select-play-instruction",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.action-choice-instruction",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.ready-room-instruction",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.tile-suits",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "help.rules-configurable",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "navigation.back",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    },
+    {
+      "state": "navigation.close",
+      "sourceId": "UI22",
+      "file": "designs/ui/full-suite/system/ui22-help.png"
+    }
+  ],
+  "externalStateDependencies": [
+    {
+      "scopeId": "UI23",
+      "purpose": "按钮按下/禁用/选中、通用确认、成功提示等共享控件状态",
+      "owner": "rooms"
+    },
+    {
+      "scopeId": "UI24",
+      "purpose": "无好友/无邮件/无战绩/无搜索结果及网络错误状态",
+      "owner": "rooms"
+    }
+  ],
+  "integrationNotes": [
+    "所有图片为独立原生整屏艺术图，不是已接入客户端。正式界面须将动态文字和控件拆开实现。",
+    "列表与面板的示例数据用于布局，不代表用户账号、真实好友、奖励或计分合同。",
+    "UI20四家结果+24/-8/-4/-12，分局列累计一致，每行总和0。回放按钮仅入口示意。",
+    "UI22只说明通用交互，地方玩法与番型/计分仍待配置。",
+    "设置页所有开关/滑条/单选是美术示意，具体数值保存与音频/显示行为由客户端接入实现。",
+    "UI18待领取与已领取分别使用ui18-mail-detail.png和ui18-mail-claimed.png，两张是同合同ID的互斥独立状态，不能同时叠加显示。",
+    "积分数值统一语义：正分朱砂红（请求token #B52F20）、负分玉绿（#196448）、零分中性灰；胜/负结果徽章是独立装饰标签，不作为积分颜色token。"
+  ],
+  "validation": {
+    "allImageHashesMatch": true,
+    "allPromptHashesMatch": true,
+    "allReferenceHashesMatch": true,
+    "allVisualReviewsPassed": true,
+    "actualModel": null,
+    "actualQuality": null,
+    "unverifiedReason": "宿主管理，工具未披露可核实版本/质量"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false,
+    "clientIntegrated": false
+  },
+  "imageCount": 9,
+  "contractPageCount": 8
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/production-v3/empty/empty-search.png",
+  "sha256": "b894cdcd35ab96472453fb2a6838b6c7655680d69d394a28fe88dbe18540d104",
+  "exportedAt": "2026-10-28T08:29:58.488236+00:00",
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/empty-states-native.png",
+      "sha256": "382db41d9cec67c3b9f8c5239628428a0212149243adb8e5f130385f90ea8f70",
+      "generationRecord": "designs/ui/production-v3/empty-states-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "ownership": "assign each alpha>16 connected component to nearest 3x2 subject center; preserve complete crossing components",
+    "tinyNoiseRemovedBelowPixels": 4,
+    "sourceBBox": [
+      1080,
+      113,
+      1495,
+      513
+    ],
+    "sourceComponents": [
+      {
+        "sourceBox": [
+          1080,
+          113,
+          1495,
+          513
+        ],
+        "pixels": 73195
+      },
+      {
+        "sourceBox": [
+          1414,
+          177,
+          1461,
+          252
+        ],
+        "pixels": 1446
+      },
+      {
+        "sourceBox": [
+          1191,
+          340,
+          1201,
+          350
+        ],
+        "pixels": 71
+      },
+      {
+        "sourceBox": [
+          1106,
+          352,
+          1125,
+          367
+        ],
+        "pixels": 186
+      },
+      {
+        "sourceBox": [
+          1289,
+          356,
+          1371,
+          387
+        ],
+        "pixels": 1343
+      }
+    ],
+    "uniformScale": 1,
+    "canvas": [
+      512,
+      512
+    ],
+    "padding": 24,
+    "rgbRepainting": false
+  },
+  "nativeDetailUpscaled": false
+}

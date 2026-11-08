@@ -1,0 +1,947 @@
+{
+  "schemaVersion": 2,
+  "status": "complete_qa_passed",
+  "scope": "Full game Mahjong FX:8 callouts,24 generated key-phase frames,2 textless result ornaments,1 reusable blank plaque",
+  "assetCount": 35,
+  "assets": [
+    {
+      "id": "draw-focus-00",
+      "name": "摸牌聚光 第1阶段",
+      "file": "assets/fx/full-game/frames/draw-focus-00.png",
+      "record": "assets/fx/full-game/frames/draw-focus-00.png.generation.json",
+      "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "draw-focus-01",
+      "name": "摸牌聚光 第2阶段",
+      "file": "assets/fx/full-game/frames/draw-focus-01.png",
+      "record": "assets/fx/full-game/frames/draw-focus-01.png.generation.json",
+      "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "draw-focus-02",
+      "name": "摸牌聚光 第3阶段",
+      "file": "assets/fx/full-game/frames/draw-focus-02.png",
+      "record": "assets/fx/full-game/frames/draw-focus-02.png.generation.json",
+      "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "draw-focus-03",
+      "name": "摸牌聚光 第4阶段",
+      "file": "assets/fx/full-game/frames/draw-focus-03.png",
+      "record": "assets/fx/full-game/frames/draw-focus-03.png.generation.json",
+      "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "discard-impact-00",
+      "name": "出牌落光 第1阶段",
+      "file": "assets/fx/full-game/frames/discard-impact-00.png",
+      "record": "assets/fx/full-game/frames/discard-impact-00.png.generation.json",
+      "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "discard-impact-01",
+      "name": "出牌落光 第2阶段",
+      "file": "assets/fx/full-game/frames/discard-impact-01.png",
+      "record": "assets/fx/full-game/frames/discard-impact-01.png.generation.json",
+      "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "discard-impact-02",
+      "name": "出牌落光 第3阶段",
+      "file": "assets/fx/full-game/frames/discard-impact-02.png",
+      "record": "assets/fx/full-game/frames/discard-impact-02.png.generation.json",
+      "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "discard-impact-03",
+      "name": "出牌落光 第4阶段",
+      "file": "assets/fx/full-game/frames/discard-impact-03.png",
+      "record": "assets/fx/full-game/frames/discard-impact-03.png.generation.json",
+      "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "player-ring-00",
+      "name": "当前玩家光环 第1阶段",
+      "file": "assets/fx/full-game/frames/player-ring-00.png",
+      "record": "assets/fx/full-game/frames/player-ring-00.png.generation.json",
+      "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "player-ring-01",
+      "name": "当前玩家光环 第2阶段",
+      "file": "assets/fx/full-game/frames/player-ring-01.png",
+      "record": "assets/fx/full-game/frames/player-ring-01.png.generation.json",
+      "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "player-ring-02",
+      "name": "当前玩家光环 第3阶段",
+      "file": "assets/fx/full-game/frames/player-ring-02.png",
+      "record": "assets/fx/full-game/frames/player-ring-02.png.generation.json",
+      "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "player-ring-03",
+      "name": "当前玩家光环 第4阶段",
+      "file": "assets/fx/full-game/frames/player-ring-03.png",
+      "record": "assets/fx/full-game/frames/player-ring-03.png.generation.json",
+      "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "hu-burst-00",
+      "name": "胡牌金云 第1阶段",
+      "file": "assets/fx/full-game/frames/hu-burst-00.png",
+      "record": "assets/fx/full-game/frames/hu-burst-00.png.generation.json",
+      "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "hu-burst-01",
+      "name": "胡牌金云 第2阶段",
+      "file": "assets/fx/full-game/frames/hu-burst-01.png",
+      "record": "assets/fx/full-game/frames/hu-burst-01.png.generation.json",
+      "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "hu-burst-02",
+      "name": "胡牌金云 第3阶段",
+      "file": "assets/fx/full-game/frames/hu-burst-02.png",
+      "record": "assets/fx/full-game/frames/hu-burst-02.png.generation.json",
+      "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "hu-burst-03",
+      "name": "胡牌金云 第4阶段",
+      "file": "assets/fx/full-game/frames/hu-burst-03.png",
+      "record": "assets/fx/full-game/frames/hu-burst-03.png.generation.json",
+      "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "victory-confetti-00",
+      "name": "胜利彩纸 第1阶段",
+      "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+      "record": "assets/fx/full-game/frames/victory-confetti-00.png.generation.json",
+      "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "victory-confetti-01",
+      "name": "胜利彩纸 第2阶段",
+      "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+      "record": "assets/fx/full-game/frames/victory-confetti-01.png.generation.json",
+      "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "victory-confetti-02",
+      "name": "胜利彩纸 第3阶段",
+      "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+      "record": "assets/fx/full-game/frames/victory-confetti-02.png.generation.json",
+      "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "victory-confetti-03",
+      "name": "胜利彩纸 第4阶段",
+      "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+      "record": "assets/fx/full-game/frames/victory-confetti-03.png.generation.json",
+      "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "reward-stars-00",
+      "name": "奖励星辉 第1阶段",
+      "file": "assets/fx/full-game/frames/reward-stars-00.png",
+      "record": "assets/fx/full-game/frames/reward-stars-00.png.generation.json",
+      "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "reward-stars-01",
+      "name": "奖励星辉 第2阶段",
+      "file": "assets/fx/full-game/frames/reward-stars-01.png",
+      "record": "assets/fx/full-game/frames/reward-stars-01.png.generation.json",
+      "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "reward-stars-02",
+      "name": "奖励星辉 第3阶段",
+      "file": "assets/fx/full-game/frames/reward-stars-02.png",
+      "record": "assets/fx/full-game/frames/reward-stars-02.png.generation.json",
+      "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "reward-stars-03",
+      "name": "奖励星辉 第4阶段",
+      "file": "assets/fx/full-game/frames/reward-stars-03.png",
+      "record": "assets/fx/full-game/frames/reward-stars-03.png.generation.json",
+      "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "animation_frame",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "callout-base",
+      "name": "麻将操作提示空底",
+      "file": "assets/fx/full-game/callout-base.png",
+      "record": "assets/fx/full-game/callout-base.png.generation.json",
+      "sha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_blank",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "chi",
+      "name": "操作提示：吃",
+      "file": "assets/fx/full-game/callouts/chi.png",
+      "record": "assets/fx/full-game/callouts/chi.png.generation.json",
+      "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "peng",
+      "name": "操作提示：碰",
+      "file": "assets/fx/full-game/callouts/peng.png",
+      "record": "assets/fx/full-game/callouts/peng.png.generation.json",
+      "sha256": "af84cde9b3d469c089a5d093e0623657a2d3e381d178598824d61fb954cb1c3d",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "gang",
+      "name": "操作提示：杠",
+      "file": "assets/fx/full-game/callouts/gang.png",
+      "record": "assets/fx/full-game/callouts/gang.png.generation.json",
+      "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "hu",
+      "name": "操作提示：胡",
+      "file": "assets/fx/full-game/callouts/hu.png",
+      "record": "assets/fx/full-game/callouts/hu.png.generation.json",
+      "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "ting",
+      "name": "操作提示：听",
+      "file": "assets/fx/full-game/callouts/ting.png",
+      "record": "assets/fx/full-game/callouts/ting.png.generation.json",
+      "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "self-draw",
+      "name": "操作提示：自摸",
+      "file": "assets/fx/full-game/callouts/self-draw.png",
+      "record": "assets/fx/full-game/callouts/self-draw.png.generation.json",
+      "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "draw",
+      "name": "操作提示：流局",
+      "file": "assets/fx/full-game/callouts/draw.png",
+      "record": "assets/fx/full-game/callouts/draw.png.generation.json",
+      "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "victory",
+      "name": "操作提示：胜利",
+      "file": "assets/fx/full-game/callouts/victory.png",
+      "record": "assets/fx/full-game/callouts/victory.png.generation.json",
+      "sha256": "cbd9d59a728a4889ebdd28bee0680672d7c39d6601eb5711ee7d29848aab40dd",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "callout_label",
+      "anchorPx": [
+        384,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "settlement-defeat",
+      "name": "失败结算无字装饰",
+      "file": "assets/fx/full-game/settlement-defeat.png",
+      "record": "assets/fx/full-game/settlement-defeat.png.generation.json",
+      "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "settlement_decoration",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    },
+    {
+      "id": "settlement-draw",
+      "name": "平局结算无字装饰",
+      "file": "assets/fx/full-game/settlement-draw.png",
+      "record": "assets/fx/full-game/settlement-draw.png.generation.json",
+      "sha256": "b75f8593d875ab9b4bb3b495634fb841a4ccf9e8c0ae71bd0a7c5d118ed9cc7d",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "kind": "settlement_decoration",
+      "anchorPx": [
+        256,
+        256
+      ],
+      "scaleMode": "uniform_scale_only",
+      "nineSlice": null,
+      "status": "passed"
+    }
+  ],
+  "sourceImages": [
+    "designs/fx/full-game/draw-focus-v1.png",
+    "designs/fx/full-game/discard-impact-refined-v1.png",
+    "designs/fx/full-game/player-ring-v1.png",
+    "designs/fx/full-game/hu-burst-v1.png",
+    "designs/fx/full-game/victory-confetti-v1.png",
+    "designs/fx/full-game/reward-stars-v1.png",
+    "designs/fx/full-game/callout-plate-v1.png",
+    "designs/fx/full-game/settlement-decor-v1.png"
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "art_source": "host_image_and_derived_typesetting",
+  "clientIntegrated": false,
+  "userApproved": false,
+  "clips": "assets/fx/full-game/timelines.json",
+  "clipInput": "assets/fx/full-game/clips-input.json",
+  "engineExport": "assets/fx/full-game/engine/engine-export.json",
+  "qaReport": "assets/fx/full-game/qa.json",
+  "processingReceipts": "assets/fx/full-game/processing-receipts.json",
+  "previews": [
+    {
+      "file": "assets/fx/full-game/previews/frames-alpha.png",
+      "sha256": "a1ed466d6a10cbfa033c23fc6b0d443ce101c00b7e91c16d98e9d3606c2aad0b",
+      "purpose": "24 FX phase frame alpha review",
+      "derivedFrom": [
+        {
+          "file": "assets/fx/full-game/frames/draw-focus-00.png",
+          "sha256": "443719dabb8a155a19f7ef8f5bd1a752c5742442ac57256f0c97bc093a2eac99"
+        },
+        {
+          "file": "assets/fx/full-game/frames/draw-focus-01.png",
+          "sha256": "a8803b9bbee6e024ffc059517cf2a32c6d40bd8a537e8bd396b7562eee95f345"
+        },
+        {
+          "file": "assets/fx/full-game/frames/draw-focus-02.png",
+          "sha256": "ae991069b8c82a47dde2d20d2050159a12adbf9d361b2a037e49c7bc6d2b58f4"
+        },
+        {
+          "file": "assets/fx/full-game/frames/draw-focus-03.png",
+          "sha256": "04b60d945d396d1b8bb91f963d390730fd0bfb9177d8afe403fc39c0eff633e3"
+        },
+        {
+          "file": "assets/fx/full-game/frames/discard-impact-00.png",
+          "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3"
+        },
+        {
+          "file": "assets/fx/full-game/frames/discard-impact-01.png",
+          "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192"
+        },
+        {
+          "file": "assets/fx/full-game/frames/discard-impact-02.png",
+          "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07"
+        },
+        {
+          "file": "assets/fx/full-game/frames/discard-impact-03.png",
+          "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf"
+        },
+        {
+          "file": "assets/fx/full-game/frames/player-ring-00.png",
+          "sha256": "960259c3530b6f5d11b5a49cb5400ff89bd78bb59fd890e1a11a5ca660d14faa"
+        },
+        {
+          "file": "assets/fx/full-game/frames/player-ring-01.png",
+          "sha256": "bf142a6149616a49084edaadca2795b7bf33e9e461021bfeec1520a2cae9e4e1"
+        },
+        {
+          "file": "assets/fx/full-game/frames/player-ring-02.png",
+          "sha256": "9c38c1fe9bb007bfbbd93789f685e0562cb06a9041d8a845d517431c09e06bf4"
+        },
+        {
+          "file": "assets/fx/full-game/frames/player-ring-03.png",
+          "sha256": "4a915cdbbc13f9338390bd24aae6b2347ee948a90890644fcd4abc186b9edd18"
+        },
+        {
+          "file": "assets/fx/full-game/frames/hu-burst-00.png",
+          "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b"
+        },
+        {
+          "file": "assets/fx/full-game/frames/hu-burst-01.png",
+          "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f"
+        },
+        {
+          "file": "assets/fx/full-game/frames/hu-burst-02.png",
+          "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d"
+        },
+        {
+          "file": "assets/fx/full-game/frames/hu-burst-03.png",
+          "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174"
+        },
+        {
+          "file": "assets/fx/full-game/frames/victory-confetti-00.png",
+          "sha256": "dd37ea88a350a1bd97095d8044399815a518592bddb9ea0bbb8517eaedd58578"
+        },
+        {
+          "file": "assets/fx/full-game/frames/victory-confetti-01.png",
+          "sha256": "bacdfcf8cc762dbdab0c565b44271e5edb4b4beb4e5be7e78961bc5aa144e2c9"
+        },
+        {
+          "file": "assets/fx/full-game/frames/victory-confetti-02.png",
+          "sha256": "586978259498389efd0c9628e5e1ba13cb36f6864b0be0be0b7e75c25b447836"
+        },
+        {
+          "file": "assets/fx/full-game/frames/victory-confetti-03.png",
+          "sha256": "0faf46949a697a6326f7ee07bd53c0bf1de518831989bbfca26e8cba38f27a07"
+        },
+        {
+          "file": "assets/fx/full-game/frames/reward-stars-00.png",
+          "sha256": "a991fcf0261b9446474e068206a9e44ecc16da7eb8aba6a7e2291529c47af2ff"
+        },
+        {
+          "file": "assets/fx/full-game/frames/reward-stars-01.png",
+          "sha256": "3cd14036e993e6c92e9806bf63b7bf21d57dd24181b22d782f2192a28be00c34"
+        },
+        {
+          "file": "assets/fx/full-game/frames/reward-stars-02.png",
+          "sha256": "09e5f758d4bd7d37fe838f64035fa42f453f81a837bc1f83d65c2300f246246d"
+        },
+        {
+          "file": "assets/fx/full-game/frames/reward-stars-03.png",
+          "sha256": "7735ce4eebca0bca8ba5b9187f22adb1c57a6157a3678cad3b280549c07b9d32"
+        }
+      ]
+    },
+    {
+      "file": "assets/fx/full-game/previews/callouts-alpha.png",
+      "sha256": "4de39b099de444d1d78cde4575995bba798446ddcd14e303d60900ee6ff32e92",
+      "purpose": "8 Chinese callouts and3 blanks/result ornaments alpha review",
+      "derivedFrom": [
+        {
+          "file": "assets/fx/full-game/callout-base.png",
+          "sha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/chi.png",
+          "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/peng.png",
+          "sha256": "af84cde9b3d469c089a5d093e0623657a2d3e381d178598824d61fb954cb1c3d"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/gang.png",
+          "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/hu.png",
+          "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/ting.png",
+          "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/self-draw.png",
+          "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/draw.png",
+          "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4"
+        },
+        {
+          "file": "assets/fx/full-game/callouts/victory.png",
+          "sha256": "cbd9d59a728a4889ebdd28bee0680672d7c39d6601eb5711ee7d29848aab40dd"
+        },
+        {
+          "file": "assets/fx/full-game/settlement-defeat.png",
+          "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2"
+        },
+        {
+          "file": "assets/fx/full-game/settlement-draw.png",
+          "sha256": "b75f8593d875ab9b4bb3b495634fb841a4ccf9e8c0ae71bd0a7c5d118ed9cc7d"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-10-26T11:52:29-04:00",
+  "runtimeClips": "assets/fx/full-game/animation-clips.json",
+  "supplementalMedia": [
+    {
+      "file": "assets/fx/full-game/previews/draw-focus.webp",
+      "record": "assets/fx/full-game/previews/draw-focus.webp.generation.json",
+      "sha256": "63df14959d9202ee0dd8ab940469d902d122de90ae87be8e8043e053cd351e7c",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/previews/discard-impact.webp",
+      "record": "assets/fx/full-game/previews/discard-impact.webp.generation.json",
+      "sha256": "eb252562f905e41aa977be71bf9f528c241a54400e97480962e326da2e5c833c",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/previews/player-ring.webp",
+      "record": "assets/fx/full-game/previews/player-ring.webp.generation.json",
+      "sha256": "1a9fc09169efcf404d90bd54ec94ec3189d7ca5bbdd62bef69d49fadb176e140",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/previews/hu-burst.webp",
+      "record": "assets/fx/full-game/previews/hu-burst.webp.generation.json",
+      "sha256": "709007aed7cdfcf49770409dee1e32914a5a286d4e655fc99e4264391fa1b9e8",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/previews/victory-confetti.webp",
+      "record": "assets/fx/full-game/previews/victory-confetti.webp.generation.json",
+      "sha256": "5a8d6f39aea615735e8a3af1cbefc733a6c0189384e5e7b2fe83f548212215be",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/previews/reward-stars.webp",
+      "record": "assets/fx/full-game/previews/reward-stars.webp.generation.json",
+      "sha256": "b7b45626afd4a74fb72e5215bb2a4a96a7cef24558b1e07efa1c0d5c4f31d52e",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-00.png",
+      "record": "assets/fx/full-game/review/filmstrip-00.png.generation.json",
+      "sha256": "051f3a9fdda0d68e4d2af6192be4ffd4b39e18bc175926cb1d5f03598ca75265",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-01.png",
+      "record": "assets/fx/full-game/review/filmstrip-01.png.generation.json",
+      "sha256": "0147d8df9bd864d043df7c8457aec69b09fad0d41fe629657761bca4c8345041",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-02.png",
+      "record": "assets/fx/full-game/review/filmstrip-02.png.generation.json",
+      "sha256": "28042776616499a7816da5c8479ee0829c6c677108ab24d504fc5be5ec69c942",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-03.png",
+      "record": "assets/fx/full-game/review/filmstrip-03.png.generation.json",
+      "sha256": "12ca95a50bf22c69cdf8a29a075d097e8ce222d43d2bd5a9502553fe0b92869f",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-04.png",
+      "record": "assets/fx/full-game/review/filmstrip-04.png.generation.json",
+      "sha256": "a4556c0da3f5cbcdccfab73d955226f6dceff3ae034a09bf1a31c7f8d621f79f",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/filmstrip-05.png",
+      "record": "assets/fx/full-game/review/filmstrip-05.png.generation.json",
+      "sha256": "a160efea6b841a9d07504507b6089199870f1cc5dfdd3e7bf47f8870ee5a9750",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-00.png",
+      "record": "assets/fx/full-game/review/onion-00.png.generation.json",
+      "sha256": "3e1c377098c2b88236f5f9499cac139f89474a2c5fabb9b28b6e262b35660a96",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-01.png",
+      "record": "assets/fx/full-game/review/onion-01.png.generation.json",
+      "sha256": "e3bb6a4fe74742f09749eb8add747ac382be484f97965b94a787175b37c71dd2",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-02.png",
+      "record": "assets/fx/full-game/review/onion-02.png.generation.json",
+      "sha256": "d7bbbd1ce29df7deffdda8b05a67ca00cae376956d2136f411896ae817fdb469",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-03.png",
+      "record": "assets/fx/full-game/review/onion-03.png.generation.json",
+      "sha256": "f568e7b99a81f23adbdc22f83c3aed21d035f42a5257c8fd7da04c621f8ef4ee",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-04.png",
+      "record": "assets/fx/full-game/review/onion-04.png.generation.json",
+      "sha256": "b650f393900177e005ee4134ba0763c6f8c1feaaa24b0bd00d3de1f8b0a5020f",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/onion-05.png",
+      "record": "assets/fx/full-game/review/onion-05.png.generation.json",
+      "sha256": "96d8ae9a01b3e8b276f1562297122257fa3fb020426581fcd7d79e2d59bb4e7f",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/turn-test.png",
+      "record": "assets/fx/full-game/review/turn-test.png.generation.json",
+      "sha256": "43191235f7bd4f28785e8529c1a038ee603f10fafb2a60e37ec154b1d567b9cb",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/review/timing-contact-sheet.png",
+      "record": "assets/fx/full-game/review/timing-contact-sheet.png.generation.json",
+      "sha256": "d1d8b05dbc7bc60d83a9be7e279f617137ab0254315c958f83a47934f7e19f63",
+      "kind": "runtime_packaging_or_qa_preview"
+    },
+    {
+      "file": "assets/fx/full-game/engine/aseprite/mahjong-fx.png",
+      "record": "assets/fx/full-game/engine/aseprite/mahjong-fx.png.generation.json",
+      "sha256": "90786328bf17c292049f1845341d26e929b96ee12f3820dd268ab4c4aedfbddf",
+      "kind": "runtime_packaging_or_qa_preview"
+    }
+  ],
+  "previewPage": "assets/fx/full-game/index.html",
+  "integrationDoc": "docs/FX_FULL_GAME.md",
+  "finalValidation": "assets/fx/full-game/final-validation.json"
+}

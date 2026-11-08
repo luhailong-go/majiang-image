@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "ready-hand-badge",
+  "name": "听牌状态底章",
+  "file": "assets/ui/production-v3/gameplay/ready-hand-badge.png",
+  "record": "assets/ui/production-v3/gameplay/ready-hand-badge.png.generation.json",
+  "sha256": "62a720dd5876feba3ce3884f7b69d9599c8d99bc18da2702dd48c292d9edd4d4",
+  "width": 274,
+  "height": 270,
+  "mode": "RGBA",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "nineSlice": null,
+  "resizePolicy": "uniform_scale_only",
+  "recommendedDisplay": [
+    40,
+    40
+  ],
+  "nativeCrop": [
+    882,
+    928,
+    242,
+    238
+  ],
+  "contentBounds": [
+    16,
+    16,
+    242,
+    238
+  ],
+  "upscaled": false,
+  "status": "passed",
+  "productionAccepted": true,
+  "generatedAt": "2026-10-28T09:34:56.548128+00:00",
+  "tool": "Pillow deterministic crop/alpha export",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-28",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/production-v3/gameplay/gameplay-state-atlas.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "actual attached style reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "actual attached style reference"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/ui/production-v3/gameplay/gameplay-state-atlas-native.png",
+      "sha256": "ef38dcbe4d5ed2a54259945e7ba5d8074f494367b0bf537b3974a78af2af3d88",
+      "record": "designs/ui/production-v3/gameplay/gameplay-state-atlas-native.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_atlas_slice",
+    "sourceCropXYWH": [
+      882,
+      928,
+      242,
+      238
+    ],
+    "alphaCleanup": "Keep largest connected component at alpha>=64 within assigned cell, dilate support by 2 source pixels, multiply original alpha by support; preserve interior transparency; zero RGB under zero Alpha.",
+    "paddingPx": 16,
+    "resampling": "none",
+    "nativeDetailSize": [
+      242,
+      238
+    ],
+    "outputSize": [
+      274,
+      270
+    ],
+    "upscaled": false
+  },
+  "checks": {
+    "visual": "passed: actual source atlas and six exported skins on final light/dark preview",
+    "alpha": "native alpha retained inside connected silhouette; 16px transparent export margin; transparent outline center visually verified",
+    "export": "exact native crop plus padding, no resampling or upscaling"
+  },
+  "visualReviewedAt": "2026-10-28T10:35:30.815290+00:00"
+}

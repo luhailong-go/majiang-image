@@ -1,0 +1,20 @@
+{
+  "file": "designs/ui/full-game/core/ui27-tutorial-complete.png",
+  "uiId": "UI27",
+  "title": "新手引导第3步：完成",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-56110984-d801-4ca9-8cba-c32ba8a799ab.png",
+  "references": [
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png",
+    "designs/ui/full-game/core/ui27-tutorial-actions.png"
+  ],
+  "prompt": "prompts/full-game/ui/core/ui27-tutorial-complete.txt",
+  "notes": "全图实看：1/2完成勾选与3完成高亮，主完成回执、再看一次、返回大厅及上一步清楚，角色身份与连续夜景一致，文字清楚无乱码，不附奖励或规则。",
+  "states": [
+    "第3步完成",
+    "再看一次",
+    "返回大厅",
+    "上一步"
+  ],
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-56110984-d801-4ca9-8cba-c32ba8a799ab.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

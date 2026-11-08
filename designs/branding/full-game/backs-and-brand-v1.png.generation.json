@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/branding/full-game/backs-and-brand-v1.png",
+  "sha256": "c9c65704516c2c8859a0fac0baadb2782be247e4379f8efb25e62093e523b147",
+  "generatedAt": "2026-10-26T11:43:26-04:00",
+  "generationTimestampBasis": "client observed completion, not provider timestamp",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\assets\\tiles\\tile-back.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实实际型号/质量。配置目标不等于真实返回参数。",
+  "evidence": "工具output_hint提供PNG落盘路径；尺寸/格式/哈希由文件实测。",
+  "prompt": "prompts/full-game/scenes/backs-and-brand.txt",
+  "promptSha256": "12ebda0f0e63d7a1f1f230ca8afa153b21368763a0aac0115290c391d00cfece",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "assets/tiles/tile-back.png",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-b3d7-7af3-90f2-a95cb20aeee2\\exec-a1c80b5e-097d-4f58-9244-02029f20a0ea.png",
+    "sha256": "c9c65704516c2c8859a0fac0baadb2782be247e4379f8efb25e62093e523b147",
+    "operation": "byte-identical copy"
+  },
+  "width": 1448,
+  "height": 1086,
+  "nativeDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "mode": "RGBA",
+  "format": "PNG",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "bbox": [
+      0,
+      4,
+      1430,
+      1086
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "resampled": false,
+  "purpose": "2牌背与应用图标/标题牌/加载装饰生产母图",
+  "inspection": {
+    "status": "passed_as_production_source",
+    "visualReview": "root inspected generated source; layout and motif correct; low-alpha speckles cleaned in final derived PNG; use runtime exports for integration"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "assetStage": "production_source_not_runtime"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

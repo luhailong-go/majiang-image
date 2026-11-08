@@ -1,0 +1,26 @@
+{
+  "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-998e6e1a-8af9-488b-8fe1-210602915ce8.png",
+  "title": "成就与排行徽章透明母版",
+  "prompt": "prompts/full-game/ui/components/achievement-rank-badges-v1.prompt.txt",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "transparent": true,
+  "receipt": "work/full-game-ui/components/achievement-rank-badges-v1-receipt.json",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "role": "primary material, palette and hand-painted UI reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "role": "primary hierarchy, card and selection treatment reference"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "role": "current mahjong lobby continuity"
+    }
+  ]
+}

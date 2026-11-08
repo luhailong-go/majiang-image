@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/expression-master-happy.png",
+  "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 124571,
+    "opaquePixels": 123186,
+    "semiTransparentPixels": 14387,
+    "bbox": [
+      36,
+      43,
+      475,
+      480
+    ],
+    "clearMargins": [
+      36,
+      43,
+      37,
+      32
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/master-expressions-native.png",
+    "sha256": "a301c5267c6d286dac29a2deb7c99525b9c0e7969fba34cc8f2578187bfd4418",
+    "generationRecord": "designs/characters/full-game/master-expressions-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "whole-source ownership slice",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 53805,
+      "removedPixelsAbove128": 0,
+      "componentCount": 4,
+      "RGBRepainted": false,
+      "sourceBox": [
+        10,
+        8,
+        613,
+        609
+      ],
+      "componentCentroid": [
+        302.0387422160063,
+        360.9314422558541
+      ],
+      "sourcePixelsRetained": 255974,
+      "crossGridDetailsPreserved": true,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 235706
+    },
+    {
+      "operation": "uniform downsample with per-identity shared scale",
+      "sourceSize": [
+        603,
+        601
+      ],
+      "outputContentSize": [
+        439,
+        437
+      ],
+      "scale": 0.7272727272727273,
+      "method": "premultiplied LANCZOS",
+      "nativeDetailUpscaled": false
+    },
+    {
+      "operation": "transparent padding",
+      "canvas": [
+        512,
+        512
+      ],
+      "offset": [
+        36,
+        43
+      ],
+      "localSafeMargin": 32
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/master-expressions.prompt.txt",
+  "usage": {
+    "identity": "master",
+    "identityName": "白眉老道",
+    "role": "expression_avatar",
+    "expression": "happy",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": "passed",
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

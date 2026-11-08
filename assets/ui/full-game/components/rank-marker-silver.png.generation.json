@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/ui/full-game/components/rank-marker-silver.png",
+  "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+  "exportedAt": "2026-10-26T11:42:06.355088-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source generated through builtin image_gen; host did not disclose verifiable model or quality.",
+  "width": 486,
+  "height": 498,
+  "mode": "RGBA",
+  "format": "PNG",
+  "nativeSourceDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "derivedFrom": {
+    "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+    "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+    "record": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png.generation.json"
+  },
+  "operation": "mechanical native connected-sprite selection + low-alpha cleanup + crop + family-aligned transparent padding; no resampling",
+  "crop": [
+    548,
+    524,
+    990,
+    982
+  ],
+  "componentIsolation": {
+    "method": "8-connected alpha component; all components in each atlas exported once",
+    "selectedStrongPixels": 132677,
+    "selectedAlphaPixels": 134981
+  },
+  "alphaCleanup": {
+    "thresholdAlpha": 8,
+    "removeFloatingComponentsWithoutAlphaAtLeast128": true,
+    "normalizeAlpha250To255": true,
+    "removedPixels": 106670,
+    "removedAlphaAtLeast128": 0,
+    "zeroRGBUnderZeroAlpha": true
+  },
+  "transparentPadding": [
+    22,
+    20,
+    22,
+    20
+  ],
+  "placement": {
+    "x": 22,
+    "y": 20,
+    "familyCanvas": [
+      486,
+      498
+    ],
+    "sourceContentCenter": [
+      769,
+      753
+    ]
+  },
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "resampled": false,
+  "nineSlice": null,
+  "resizePolicy": {
+    "mode": "uniform_scale_only",
+    "stretchAxes": [],
+    "uniformScaleAllowed": true,
+    "preserveAspect": true,
+    "reason": "Keep rounded clouds, beads, crown, ribbon and pointer shapes undistorted; no nine-slice has been approved."
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 107047,
+    "semiTransparent": 9252,
+    "opaque": 125729,
+    "bbox": [
+      22,
+      20,
+      464,
+      478
+    ],
+    "edgeAlphaMax": 0,
+    "minimumTransparentMargin": 20,
+    "zeroRgbUnderZeroAlpha": true
+  },
+  "family": "rank",
+  "state": "silver",
+  "dynamicText": "All labels, ranks, quantities, achievement icons and step numbers are separate client elements.",
+  "inspection": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T11:55:26.276178-04:00",
+    "issues": [],
+    "visual": "Actual final light/dark composites inspected: complete edges, no matte, no detached speckles, coherent style, distinguishable states.",
+    "technical": "PNG/hash/dimensions/alpha padding/source provenance passed.",
+    "qaImages": [
+      "work/full-game-ui/components/qa/cards-badges-light.png",
+      "work/full-game-ui/components/qa/cards-badges-dark.png"
+    ]
+  },
+  "productionAccepted": true,
+  "clientIntegrated": false
+}

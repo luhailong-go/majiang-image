@@ -1,0 +1,74 @@
+[
+  {
+    "id": "window-frame-v1",
+    "transparent": true,
+    "size": [
+      2048,
+      1152
+    ],
+    "refs": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.\nCreate ONE large landscape hollow rectangular game window frame on a 16:9 canvas, requested 2048x1152. Front-on orthographic view, perfectly level. The external frame fills about 88% canvas width and 78% height, with 6%+ transparent margin. Warm ivory carved border, jade-green thin inner trim, refined gold edging and rounded cloud details confined to the four corners. Straight edges and quiet central stretches suitable for nine-slice scaling. The entire large rectangular CENTER HOLE must be genuinely transparent, with no ivory panel fill, no glass and no artwork. The outside is also transparent. Do not include a title plaque or any button. Deliver only the continuous hollow border."
+  },
+  {
+    "id": "common-skins-atlas-v1",
+    "transparent": true,
+    "size": [
+      2048,
+      2048
+    ],
+    "refs": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.\nCreate a square 2048x2048 requested sprite atlas: EXACTLY 2 columns and 4 rows, 8 equal grid cells, no grid lines. One isolated horizontal component centered in each cell. Every sprite fits within the central 82% width and 70% height of its own cell, so none touches another. Read row-major left-to-right, top-to-bottom:\nCell 1: wide jade-green title plaque with ivory-gold cloud corner caps, empty center, no taiji emblem.\nCell 2: warm ivory content card with fine gold border, subtly rounded corners, almost empty center.\nCell 3: jade-green PRIMARY rounded button, restrained gold border, empty center.\nCell 4: ivory SECONDARY rounded button, restrained gold border, empty center.\nCell 5: SELECTED jade-green tab, compact rounded rectangle, fine gold edge.\nCell 6: UNSELECTED ivory tab, same size and shape as cell 5, fine gold edge.\nCell 7: wide recessed ivory INPUT field, restrained green inner line, shallow gold border, empty center.\nCell 8: ivory TOOLTIP speech bubble, rounded rectangle with one small centered downward pointer, fine gold border, empty center.\nAll faces nearly flat for readable client text; ornament only on edges. No icons or writing. Actual true transparent surroundings and gutter."
+  },
+  {
+    "id": "common-controls-atlas-v1",
+    "transparent": true,
+    "size": [
+      2048,
+      2048
+    ],
+    "refs": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "prompt": "Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.\nCreate a square 2048x2048 requested sprite atlas, EXACTLY 4 columns and 5 rows (20 equal cells). Each icon/control centered entirely in its own cell, no grid lines. At least 18% empty transparent padding inside each cell. Large simple hand-painted shapes. Row-major order:\nRow 1: (1) gold settings gear icon; (2) ivory X close icon in small jade circular medallion; (3) gold left arrow back icon; (4) jade chat bubble with three ivory dots.\nRow 2: (5) simple jade user silhouette icon; (6) two jade people friends icon; (7) ivory sealed envelope with gold edge mail icon; (8) ivory scroll with gold edge history icon.\nRow 3: (9) gold speaker with sound waves; (10) same gold speaker with small red mute slash; (11) jade square checkbox with ivory check mark; (12) matching empty ivory square checkbox.\nRow 4: (13) jade circular radio with warm gold filled center; (14) matching unselected hollow ivory radio ring; (15) small round gold-and-jade slider thumb; (16) vertical rounded jade scrollbar thumb.\nRow 5: (17) thin horizontal ivory/gold slider TRACK only, empty center, no thumb, about 3:1 shape; (18) thin vertical ivory/gold scrollbar TRACK only, no thumb, about 1:3 shape; (19) small clean red circular unread badge, blank; (20) simple gold incomplete circular loading ring with no number.\nNo words, labels, numbers or surrounding interface. Hollow controls should preserve real alpha holes where applicable. No uncontrolled decorative effects outside cell."
+  },
+  {
+    "id": "gameplay-components-atlas-v1",
+    "transparent": true,
+    "size": [
+      2048,
+      2048
+    ],
+    "refs": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    ],
+    "prompt": "Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.\nImage 4 is the current four-player table layout; borrow its game-board materials. Create a square requested 2048x2048 sprite atlas, EXACTLY 3 columns by 3 rows with 9 equal cells, no grid lines. Each sprite centered, isolated, and fully inside the central 78% of its cell; generous transparent gutters. Row-major order:\n1. A round jade-green central wind/round dial with fine gold outer ring, four restrained cardinal divider marks, and an EMPTY dark jade central circle for live round and remaining-count text. NO Chinese or digits.\n2. A round hollow gold-and-jade AVATAR FRAME, transparent circular center, subtle jade bead at top. No portrait or text.\n3. A small dark jade round COUNTDOWN medallion with bright gold edge and an empty central text area. No digits.\n4. A small warm-gold DEALER badge medallion with an empty center. No letter or Chinese.\n5. A separate luminous-but-crisp gold CURRENT PLAYER outline ring, hollow transparent center; no fuzzy glow extending beyond cell.\n6. A small ivory OFFLINE status badge bearing a simple broken-link symbol, restrained charcoal and gold.\n7. A small ivory AUTOPLAY status badge bearing a friendly simplified bronze robot face, no words.\n8. A rounded JADE action button with gold edging, squarish horizontal 1.8:1 proportion, empty center for live 碰/杠/胡/过/听 text; no baked text.\n9. An ivory SETTLEMENT result card with subtle gold edge and small jade corner ornaments, blank central area, no numbers or text.\nOne of each. No characters, tiles, scene, text or numbers. All dynamic text is added separately by the client."
+  },
+  {
+    "id": "table-background-v1",
+    "transparent": false,
+    "size": [
+      2048,
+      1152
+    ],
+    "refs": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui09-table-base.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Asset: independent mahjong table and environment background, 16:9 requested 2048x1152. Images 1 and 2 are the exact UI style references. Image 3 is the lobby style; IMAGE 4 is the primary edit target table-base scene. Preserve Image 4's jade-teal felt table, warm gold/ivory rounded frame, correct table perspective, bright Daoist pavilion, jade rooftops, distant mountain waterfall scenery, sparse peach blossoms and warm lanterns. Remove ALL foreground interface and gameplay items: every mahjong tile and tile wall, every avatar/portrait/frame, every text/number/label, every central wind dial, countdown, badge, button, chat/settings icon, seat name plate, empty slot outline, glowing selection, instruction bar and sample-layout note. Cleanly reconstruct the underlying table felt and scene. Keep the large playable green center quiet and even, with only extremely faint cloud texture near corners; absolutely no objects or characters on the table. The table should occupy most of the canvas exactly like the source composition. This is a complete opaque RGB environment background, not a transparency preview. No new controls, no labels, no logos, no words, no border around the entire image. High-fidelity hand-painted Daoist chibi world; no photorealism or plastic gloss."
+  }
+]

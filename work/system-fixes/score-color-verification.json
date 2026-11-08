@@ -1,0 +1,103 @@
+{
+  "method": "read-only ROI color-family counts; actual image editing used builtin image_gen",
+  "checks": [
+    {
+      "uiId": "UI19",
+      "sample": "positive_24",
+      "roi": [
+        1105,
+        361,
+        1205,
+        411
+      ],
+      "expectedFamily": "red",
+      "redPixels": 508,
+      "greenPixels": 0,
+      "passed": true
+    },
+    {
+      "uiId": "UI19",
+      "sample": "negative_12",
+      "roi": [
+        1105,
+        453,
+        1205,
+        504
+      ],
+      "expectedFamily": "green",
+      "redPixels": 0,
+      "greenPixels": 335,
+      "passed": true
+    },
+    {
+      "uiId": "UI19",
+      "sample": "positive_8",
+      "roi": [
+        1105,
+        635,
+        1205,
+        683
+      ],
+      "expectedFamily": "red",
+      "redPixels": 357,
+      "greenPixels": 0,
+      "passed": true
+    },
+    {
+      "uiId": "UI11",
+      "sample": "positive_30",
+      "roi": [
+        1303,
+        253,
+        1445,
+        333
+      ],
+      "expectedFamily": "red",
+      "redPixels": 2586,
+      "greenPixels": 0,
+      "passed": true
+    },
+    {
+      "uiId": "UI11",
+      "sample": "negative_10_row2",
+      "roi": [
+        1348,
+        427,
+        1445,
+        480
+      ],
+      "expectedFamily": "green",
+      "redPixels": 0,
+      "greenPixels": 777,
+      "passed": true
+    },
+    {
+      "uiId": "UI11",
+      "sample": "negative_10_row3",
+      "roi": [
+        1348,
+        549,
+        1445,
+        603
+      ],
+      "expectedFamily": "green",
+      "redPixels": 0,
+      "greenPixels": 791,
+      "passed": true
+    },
+    {
+      "uiId": "UI11",
+      "sample": "negative_10_row4",
+      "roi": [
+        1348,
+        673,
+        1445,
+        729
+      ],
+      "expectedFamily": "green",
+      "redPixels": 0,
+      "greenPixels": 796,
+      "passed": true
+    }
+  ]
+}

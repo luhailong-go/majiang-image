@@ -1,0 +1,1115 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-28T10:42:37.778643+00:00",
+  "scope": "Four existing identities, static bodies and expression portraits; canonical UI14/UI26 bindings",
+  "status": "binding_reference_ready",
+  "projectRootRelativePaths": true,
+  "sourceManifestHashes": {
+    "assets/characters/full-game/manifest.json": "3572cbf237f0df7c07bd50359dc8228ca49bbe694a1cc08ad952dde9a15e8a4c",
+    "assets/characters/manifest.json": "896a22ebde8abcfc7384f6f360a85a217ea7f10df39542855a646d57b35afbba"
+  },
+  "clientIntegrated": false,
+  "userApproved": false,
+  "validationScope": "Lightweight JSON/path checks only. Accepted bitmap QA is reused; no new raster batch, rendering or browser/engine test was started during exclusive heavy-job pause.",
+  "expressionOrder": [
+    "happy",
+    "thinking",
+    "surprised",
+    "sad"
+  ],
+  "expressionLabels": {
+    "happy": "开心",
+    "thinking": "思考",
+    "surprised": "惊讶",
+    "sad": "沮丧"
+  },
+  "characters": [
+    {
+      "id": "daotong",
+      "displayName": "金带道童",
+      "description": "金带、玉袍与太极葫芦",
+      "fullBody": {
+        "assetId": "fullbody-daotong",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/welcome-daotong.png",
+        "record": "assets/characters/welcome-daotong.png.generation.json",
+        "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.8977864583333334
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-daotong",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-daotong.png",
+        "record": "assets/characters/avatar-daotong.png.generation.json",
+        "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-daotong-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-happy.png",
+          "record": "assets/characters/full-game/expression-daotong-happy.png.generation.json",
+          "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-daotong-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-thinking.png",
+          "record": "assets/characters/full-game/expression-daotong-thinking.png.generation.json",
+          "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-daotong-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-surprised.png",
+          "record": "assets/characters/full-game/expression-daotong-surprised.png.generation.json",
+          "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-daotong-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-sad.png",
+          "record": "assets/characters/full-game/expression-daotong-sad.png.generation.json",
+          "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    {
+      "id": "healer",
+      "displayName": "银发医师",
+      "description": "银发花簪、玉绿绣裙与草药袋",
+      "fullBody": {
+        "assetId": "fullbody-healer",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-healer.png",
+        "record": "assets/characters/full-game/fullbody-healer.png.generation.json",
+        "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.8938802083333334
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-healer",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-healer.png",
+        "record": "assets/characters/avatar-healer.png.generation.json",
+        "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-healer-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-happy.png",
+          "record": "assets/characters/full-game/expression-healer-happy.png.generation.json",
+          "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-healer-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-thinking.png",
+          "record": "assets/characters/full-game/expression-healer-thinking.png.generation.json",
+          "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-healer-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-surprised.png",
+          "record": "assets/characters/full-game/expression-healer-surprised.png.generation.json",
+          "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-healer-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-sad.png",
+          "record": "assets/characters/full-game/expression-healer-sad.png.generation.json",
+          "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    {
+      "id": "master",
+      "displayName": "白眉老道",
+      "description": "白眉长须、玉绿道袍与玉如意",
+      "fullBody": {
+        "assetId": "fullbody-master",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-master.png",
+        "record": "assets/characters/full-game/fullbody-master.png.generation.json",
+        "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.888671875
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-master",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-master.png",
+        "record": "assets/characters/avatar-master.png.generation.json",
+        "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-master-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-happy.png",
+          "record": "assets/characters/full-game/expression-master-happy.png.generation.json",
+          "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-master-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-thinking.png",
+          "record": "assets/characters/full-game/expression-master-thinking.png.generation.json",
+          "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-master-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-surprised.png",
+          "record": "assets/characters/full-game/expression-master-surprised.png.generation.json",
+          "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-master-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-sad.png",
+          "record": "assets/characters/full-game/expression-master-sad.png.generation.json",
+          "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    {
+      "id": "swordswoman",
+      "displayName": "黑发侠女",
+      "description": "黑发高马尾、玉绿朱砂武服与鞘剑",
+      "fullBody": {
+        "assetId": "fullbody-swordswoman",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-swordswoman.png",
+        "record": "assets/characters/full-game/fullbody-swordswoman.png.generation.json",
+        "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.9010416666666666
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-swordswoman",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-swordswoman.png",
+        "record": "assets/characters/avatar-swordswoman.png.generation.json",
+        "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-swordswoman-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+          "record": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json",
+          "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-swordswoman-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+          "record": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json",
+          "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-swordswoman-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+          "record": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json",
+          "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-swordswoman-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+          "record": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json",
+          "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    }
+  ],
+  "detailView": {
+    "pageId": "UI26",
+    "templateSource": "production/layouts.json",
+    "identityBinding": "viewModel.selectedCharacterId",
+    "validIdentityIds": [
+      "daotong",
+      "healer",
+      "master",
+      "swordswoman"
+    ],
+    "fullBodyBinding": "charactersById[selectedCharacterId].fullBody",
+    "nameBinding": "charactersById[selectedCharacterId].displayName",
+    "descriptionBinding": "charactersById[selectedCharacterId].description",
+    "previewBindings": [
+      {
+        "expression": "happy",
+        "label": "开心",
+        "assetBinding": "charactersById[selectedCharacterId].expressions.happy"
+      },
+      {
+        "expression": "thinking",
+        "label": "思考",
+        "assetBinding": "charactersById[selectedCharacterId].expressions.thinking"
+      },
+      {
+        "expression": "surprised",
+        "label": "惊讶",
+        "assetBinding": "charactersById[selectedCharacterId].expressions.surprised"
+      },
+      {
+        "expression": "sad",
+        "label": "沮丧",
+        "assetBinding": "charactersById[selectedCharacterId].expressions.sad"
+      }
+    ],
+    "equippedIdentityBinding": "viewModel.equippedCharacterId",
+    "equipAction": {
+      "whenSelectedIsEquipped": {
+        "label": "已使用",
+        "enabled": false
+      },
+      "otherwise": {
+        "label": "使用角色",
+        "enabled": true,
+        "commitOn": "application confirmation"
+      }
+    },
+    "legacyConceptNote": "designs/ui/full-game/core/ui26-character-detail.png has 微笑/喝彩/思考/问候 baked into its concept preview. Production uses the canonical happy/thinking/surprised/sad assets and native labels above. Do not rename existing expression pixels to match legacy concept labels.",
+    "catalogBinding": "charactersById"
+  },
+  "seatBindings": {
+    "identity": "table.playersByDisplaySeat[seatIndex].characterId",
+    "nickname": "table.playersByDisplaySeat[seatIndex].name",
+    "portrait": "charactersById[characterId].idlePortrait or charactersById[characterId].expressions[portraitExpression]",
+    "state": "table.playersByDisplaySeat[seatIndex].portraitExpression",
+    "idleFallback": "idlePortrait",
+    "expressionOptionalFeedback": {
+      "thinking": "local thinking/selection, if desired",
+      "happy": "explicit celebration",
+      "surprised": "explicit surprise reaction",
+      "sad": "explicit disappointment"
+    },
+    "rules": [
+      "Keep seat index stable; identity and nickname are separate.",
+      "Do not infer localOutcome from portrait expression.",
+      "All four expressions are static portraits, not full-body animation."
+    ]
+  },
+  "charactersById": {
+    "daotong": {
+      "id": "daotong",
+      "displayName": "金带道童",
+      "description": "金带、玉袍与太极葫芦",
+      "fullBody": {
+        "assetId": "fullbody-daotong",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/welcome-daotong.png",
+        "record": "assets/characters/welcome-daotong.png.generation.json",
+        "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.8977864583333334
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-daotong",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-daotong.png",
+        "record": "assets/characters/avatar-daotong.png.generation.json",
+        "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-daotong-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-happy.png",
+          "record": "assets/characters/full-game/expression-daotong-happy.png.generation.json",
+          "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-daotong-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-thinking.png",
+          "record": "assets/characters/full-game/expression-daotong-thinking.png.generation.json",
+          "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-daotong-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-surprised.png",
+          "record": "assets/characters/full-game/expression-daotong-surprised.png.generation.json",
+          "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-daotong-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-daotong-sad.png",
+          "record": "assets/characters/full-game/expression-daotong-sad.png.generation.json",
+          "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    "healer": {
+      "id": "healer",
+      "displayName": "银发医师",
+      "description": "银发花簪、玉绿绣裙与草药袋",
+      "fullBody": {
+        "assetId": "fullbody-healer",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-healer.png",
+        "record": "assets/characters/full-game/fullbody-healer.png.generation.json",
+        "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.8938802083333334
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-healer",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-healer.png",
+        "record": "assets/characters/avatar-healer.png.generation.json",
+        "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-healer-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-happy.png",
+          "record": "assets/characters/full-game/expression-healer-happy.png.generation.json",
+          "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-healer-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-thinking.png",
+          "record": "assets/characters/full-game/expression-healer-thinking.png.generation.json",
+          "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-healer-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-surprised.png",
+          "record": "assets/characters/full-game/expression-healer-surprised.png.generation.json",
+          "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-healer-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-healer-sad.png",
+          "record": "assets/characters/full-game/expression-healer-sad.png.generation.json",
+          "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    "master": {
+      "id": "master",
+      "displayName": "白眉老道",
+      "description": "白眉长须、玉绿道袍与玉如意",
+      "fullBody": {
+        "assetId": "fullbody-master",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-master.png",
+        "record": "assets/characters/full-game/fullbody-master.png.generation.json",
+        "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.888671875
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-master",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-master.png",
+        "record": "assets/characters/avatar-master.png.generation.json",
+        "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-master-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-happy.png",
+          "record": "assets/characters/full-game/expression-master-happy.png.generation.json",
+          "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-master-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-thinking.png",
+          "record": "assets/characters/full-game/expression-master-thinking.png.generation.json",
+          "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-master-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-surprised.png",
+          "record": "assets/characters/full-game/expression-master-surprised.png.generation.json",
+          "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-master-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-master-sad.png",
+          "record": "assets/characters/full-game/expression-master-sad.png.generation.json",
+          "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    },
+    "swordswoman": {
+      "id": "swordswoman",
+      "displayName": "黑发侠女",
+      "description": "黑发高马尾、玉绿朱砂武服与鞘剑",
+      "fullBody": {
+        "assetId": "fullbody-swordswoman",
+        "sourceManifest": "assets/characters/full-game/manifest.json",
+        "file": "assets/characters/full-game/fullbody-swordswoman.png",
+        "record": "assets/characters/full-game/fullbody-swordswoman.png.generation.json",
+        "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+        "sizePx": [
+          1536,
+          1536
+        ],
+        "mode": "RGBA",
+        "anchor": [
+          0.5,
+          0.9010416666666666
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform contain"
+      },
+      "idlePortrait": {
+        "assetId": "avatar-swordswoman",
+        "sourceManifest": "assets/characters/manifest.json",
+        "file": "assets/characters/avatar-swordswoman.png",
+        "record": "assets/characters/avatar-swordswoman.png.generation.json",
+        "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c",
+        "sizePx": [
+          512,
+          512
+        ],
+        "mode": "RGB",
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "anchorUnits": "normalized",
+        "nineSlice": null,
+        "resizePolicy": "uniform_contain"
+      },
+      "expressions": {
+        "happy": {
+          "label": "开心",
+          "assetId": "expression-swordswoman-happy",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+          "record": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json",
+          "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "thinking": {
+          "label": "思考",
+          "assetId": "expression-swordswoman-thinking",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+          "record": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json",
+          "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "surprised": {
+          "label": "惊讶",
+          "assetId": "expression-swordswoman-surprised",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+          "record": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json",
+          "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        },
+        "sad": {
+          "label": "沮丧",
+          "assetId": "expression-swordswoman-sad",
+          "sourceManifest": "assets/characters/full-game/manifest.json",
+          "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+          "record": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json",
+          "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+          "sizePx": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "anchorUnits": "normalized",
+          "nineSlice": null,
+          "resizePolicy": "uniform contain"
+        }
+      },
+      "bodyPlacement": "Use delivered foot anchor for baseline placement; contain uniformly. Never equate canvas bottom with feet.",
+      "portraitPlacement": "Center on portrait slot, contain uniformly; chest truncation is intentional."
+    }
+  },
+  "charactersIsOrderedCatalog": true
+}

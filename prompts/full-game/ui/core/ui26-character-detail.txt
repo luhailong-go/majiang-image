@@ -1,0 +1,9 @@
+Use case: ui-mockup
+Produce one complete landscape 16:9 UI26 "角色详情" page for a hand-painted Taoist chibi Mahjong game. Reference 1 and 2 are mandatory main style: jade green, ivory silk, thin warm gold, rounded cloud ornament, spacious Chinese typography, blue sky immortal mountains. Reference 3 is the existing full-body golden-headband Taoist child; exactly preserve his face, short spiky brown hair, gold band, jade vest, ivory clothes, taiji gold gourd, chibi proportions, outfit and friendly identity. Reference 4 has the four selected character portraits; match the golden-headband child.
+Large centered jade title “角色详情”, close X at upper right.
+Left half features that single full-body gold-headband child standing on a soft small cloud platform, holding an ivory Mahjong tile, complete hands/feet, with a small gold check plaque “当前使用”.
+Right half ivory panel: title “金带道童”; subline “笑迎牌友 · 云间作伴”; two spacious short readable description lines “热情开朗，喜欢结交牌友。” and “与道友同桌，共享闲趣。”
+Below, header “表情预览” and four circular clear face preview portraits of the SAME child: smile, cheering, thinking, greeting. Exact labels below “微笑”“喝彩”“思考”“问候”. Each distinct pose and expressive face, no extra people, no new identities.
+Under previews a modest clear line “外观展示，不影响对局”.
+Bottom buttons left “返回”, right grey muted disabled button with check “已使用” (no simultaneous enabled use button). Bottom small “布局示例”.
+High-quality polished illustrated game production screen. Plenty of breathing room, large clearly readable Chinese. Keep artwork within panel and ornamental borders, no edge truncation. No price, store, payment, levels, stats, named game title, no regional rules.

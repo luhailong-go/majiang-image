@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "reviewedAt": "2026-10-26T12:23:54-04:00",
+  "reviewer": "/root/full_game_fx",
+  "readOnlyTargetDomains": true,
+  "imageCount": 14,
+  "beforeAfterPNGHashesEqual": true,
+  "errors": [],
+  "blockingFindings": [],
+  "nonBlockingFindings": [],
+  "files": [
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "actualSize": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "native": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "nativeDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "nativeCopy": true,
+      "resampled": false,
+      "ratio": 1.7768331562167907,
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/scenes/full-game/waterside-night.png",
+      "sha256": "78d207b4645ff47aa0f13690b8abd9f59cadbd28f7977d6ae6126379b465509f",
+      "actualSize": [
+        1672,
+        940
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "native": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "nativeDimensions": {
+        "width": 1672,
+        "height": 940
+      },
+      "nativeCopy": true,
+      "resampled": false,
+      "ratio": 1.778723404255319,
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/scenes/full-game/tea-room.png",
+      "sha256": "8b07f9b69400143c8c562cc70218ee0ee8dbc94ea6d79243da1aca8790fd253f",
+      "actualSize": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "native": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "nativeDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "nativeCopy": true,
+      "resampled": false,
+      "ratio": 1.7768331562167907,
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/scenes/full-game/table-moon-lotus.png",
+      "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d",
+      "actualSize": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "native": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "nativeDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "nativeCopy": true,
+      "resampled": false,
+      "ratio": 1.7768331562167907,
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+      "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+      "actualSize": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_cover_16_9",
+      "nineSlice": null,
+      "native": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "nativeDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "nativeCopy": true,
+      "resampled": false,
+      "ratio": 1.7768331562167907,
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/tile-back-moon-lotus.png",
+      "sha256": "601073a0b84c96bdaa58fd95828c0141ad655066d551aa8ff2356dced5ff0aa0",
+      "actualSize": [
+        448,
+        640
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        21,
+        18,
+        427,
+        621
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "crop_alpha_condition_downscale_pad",
+        "cropBox": [
+          0,
+          0,
+          477,
+          710
+        ],
+        "nativeCropContentSize": [
+          406,
+          603
+        ],
+        "alpha": "threshold128, gaussian0.45px; no RGB repaint",
+        "scale": 1,
+        "upscaled": false,
+        "paddingOffset": [
+          21,
+          18
+        ],
+        "sourcePixelsRemainNativeOrDownsampled": true
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/tile-back-ivory-bamboo.png",
+      "sha256": "e24815f6afb214a5cb047abc0db8e844b538b105216cf36d9110958bd409d2c1",
+      "actualSize": [
+        448,
+        640
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        21,
+        19,
+        427,
+        621
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "crop_alpha_condition_downscale_pad",
+        "cropBox": [
+          477,
+          0,
+          933,
+          710
+        ],
+        "nativeCropContentSize": [
+          406,
+          602
+        ],
+        "alpha": "threshold128, gaussian0.45px; no RGB repaint",
+        "scale": 1,
+        "upscaled": false,
+        "paddingOffset": [
+          21,
+          19
+        ],
+        "sourcePixelsRemainNativeOrDownsampled": true
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/title-plaque.png",
+      "sha256": "537b3059c4b9dbac6f13aa78f43a1246b2b3122da04146606a0dee6106fe0111",
+      "actualSize": [
+        1056,
+        384
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        37,
+        54,
+        1018,
+        329
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "crop_alpha_condition_downscale_pad",
+        "cropBox": [
+          0,
+          710,
+          1053,
+          1086
+        ],
+        "nativeCropContentSize": [
+          981,
+          275
+        ],
+        "alpha": "threshold128, gaussian0.45px; no RGB repaint",
+        "scale": 1,
+        "upscaled": false,
+        "paddingOffset": [
+          37,
+          54
+        ],
+        "sourcePixelsRemainNativeOrDownsampled": true
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/loading-ornament.png",
+      "sha256": "1aca309e3fb8bfcf7cc9ceb1aa5f9f7161ba2d49a3fc0f2bca227ac57db20530",
+      "actualSize": [
+        416,
+        416
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        41,
+        43,
+        375,
+        373
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "crop_alpha_condition_downscale_pad",
+        "cropBox": [
+          1053,
+          682,
+          1448,
+          1086
+        ],
+        "nativeCropContentSize": [
+          334,
+          330
+        ],
+        "alpha": "threshold128, gaussian0.45px; no RGB repaint",
+        "scale": 1,
+        "upscaled": false,
+        "paddingOffset": [
+          41,
+          43
+        ],
+        "sourcePixelsRemainNativeOrDownsampled": true
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-1024.png",
+      "sha256": "f6f9d0d5eca470f3671ab90c7cdd13148f0799dd2740f583e03fc30150bb2b29",
+      "actualSize": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        65,
+        64,
+        959,
+        960
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "crop_alpha_condition_downscale_pad",
+        "cropBox": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "nativeCropContentSize": [
+          1111,
+          1113
+        ],
+        "alpha": "threshold128, gaussian0.45px; no RGB repaint",
+        "scale": 0.8050314465408805,
+        "upscaled": false,
+        "paddingOffset": [
+          65,
+          64
+        ],
+        "sourcePixelsRemainNativeOrDownsampled": true
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-512.png",
+      "sha256": "c12498e2c517347de67fd35ca4f32203c7d48c33514c2cb2ac565a7ac42fb2e0",
+      "actualSize": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        31,
+        30,
+        481,
+        482
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "uniform_lanczos_downsample",
+        "scale": 0.5,
+        "upscaled": false
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-192.png",
+      "sha256": "bfd4dc227811356ff803a3078dd61ca463a011d7264b378bb85a9d0f3869df3e",
+      "actualSize": [
+        192,
+        192
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        10,
+        10,
+        182,
+        182
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "uniform_lanczos_downsample",
+        "scale": 0.1875,
+        "upscaled": false
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-128.png",
+      "sha256": "3b9fab698c1054bc5279ff93f490788c24f924ace4c4be37e959ee182938f4cd",
+      "actualSize": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        6,
+        6,
+        122,
+        122
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "uniform_lanczos_downsample",
+        "scale": 0.125,
+        "upscaled": false
+      },
+      "visualReview": "passed"
+    },
+    {
+      "file": "assets/branding/full-game/app-icon-64.png",
+      "sha256": "6e3f72cf505f3216bd71caf08eae1cf6a5f1c3d877aa551e3ad3604379fad692",
+      "actualSize": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "manifestHashMatches": true,
+      "recordHashMatches": true,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "fit": "uniform_only",
+      "nineSlice": null,
+      "native": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaBBox": [
+        2,
+        1,
+        62,
+        63
+      ],
+      "visibleEdgePixels": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "operation": {
+        "type": "uniform_lanczos_downsample",
+        "scale": 0.0625,
+        "upscaled": false
+      },
+      "visualReview": "passed"
+    }
+  ],
+  "visualFindings": [
+    "All five full native scenes actually viewed: consistent jade/ivory/gold hand-painted Daoist style, no people, no baked Mahjong tiles or dynamic UI.",
+    "Day courtyard, waterside night and tea room center/foreground can take opaque UI and standees; scenery is a baked background, not navigation geometry.",
+    "Two new tabletop surfaces are empty, low-contrast texture with decorative clouds at edges; no blocked central discard/meld area.",
+    "Nine actual branding PNGs and final deep/light alpha contact sheet actually viewed; complete silhouettes, clean true transparent edges, matching tile-back ratio and distinct themes.",
+    "Current1024 app icon has safe transparent padding; 512/192/128/64 variants retain icon readability and have zero alpha at file edges.",
+    "Title plaque center is blank, loading ornament is separate and uniformly scaled; formal game name was not invented."
+  ],
+  "metadataFindings": [
+    "All14 actual image hashes/sizes/modes match both manifest and records.",
+    "Five scenes are byte-identical native outputs1672×940/941; no upscale claim.",
+    "Nine branding exports preserve native crop details or downsample, with padding recorded; anchors center and all nineSlice null.",
+    "Model/quality targets correctly separate from actual values, which remain null."
+  ],
+  "scopeInventorySnapshot": {
+    "assets/characters/full-game/manifest.json": {
+      "exists": false
+    },
+    "assets/props/full-game/manifest.json": {
+      "exists": false
+    },
+    "assets/tiles/flowers/manifest.json": {
+      "exists": false
+    },
+    "assets/ui/full-game/components/manifest.json": {
+      "exists": true,
+      "status": "passed",
+      "assets": 22,
+      "keys": [
+        "schemaVersion",
+        "generatedAt",
+        "scope",
+        "status",
+        "newAssetCount",
+        "actualModel",
+        "actualQuality",
+        "userApproved",
+        "clientIntegrated",
+        "assets",
+        "stateFamilies",
+        "reusedAssets",
+        "sources",
+        "compositionFile",
+        "notes",
+        "checkedAt",
+        "unresolvedIssues"
+      ]
+    }
+  },
+  "supplementalUIFileSnapshot": [
+    {
+      "id": "UI25",
+      "files": [
+        "designs/ui/full-game/core/ui25-customization.png"
+      ]
+    },
+    {
+      "id": "UI26",
+      "files": [
+        "designs/ui/full-game/core/ui26-character-detail.png"
+      ]
+    },
+    {
+      "id": "UI27",
+      "files": [
+        "designs/ui/full-game/core/ui27-tutorial-select.png"
+      ]
+    },
+    {
+      "id": "UI28",
+      "files": [
+        "designs/ui/full-game/modules/ui28-announcement.png"
+      ]
+    },
+    {
+      "id": "UI29",
+      "files": [
+        "designs/ui/full-game/modules/ui29-reward-pending.png"
+      ]
+    },
+    {
+      "id": "UI30",
+      "files": [
+        "designs/ui/full-game/modules/ui30-achievements.png"
+      ]
+    },
+    {
+      "id": "UI31",
+      "files": [
+        "designs/ui/full-game/modules/ui31-ranking.png"
+      ]
+    },
+    {
+      "id": "UI32",
+      "files": [
+        "designs/ui/full-game/modules/ui32-item-collection.png"
+      ]
+    }
+  ],
+  "scopeCompletenessOpinion": "FULL_GAME_ART_SCOPE covers the necessary visual categories for the stated generic four-player2D Mahjong game. No additional mandatory visual class is missing beyond checking each already-assigned domain finishes its listed files and final package validation. Local variants/paid systems/combat/video animation are outside the given product assumptions.",
+  "clientIntegrationCaveat": "Table safe polygon is documented as placement reference rather than a verified client coordinate contract; real seat/discard/hand placements still require client integration validation."
+}

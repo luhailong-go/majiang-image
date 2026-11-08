@@ -1,0 +1,12 @@
+Use case: game-ui-assets. Create ONE production atlas of exactly SEVEN transparent UI sprites for a Chinese mahjong game. Canvas genuine transparent RGBA, target1536x1024 landscape, clean 4-column x2-row layout with the bottom-right cell EMPTY transparent. Each icon isolated within its cell with wide transparent gutters and full outer margins. No page background, grid, captions, letters, words, digits, watermark or fake checkerboard.
+Actual reference image1 mail and image2 team govern style: fine hand-painted jade green/cream and restrained warm gold, rounded soft cloud curls, moderate soft dimensionality, polished small-game UI. Image3 current mahjong lobby for consistency. No characters/scenery from references.
+TOP ROW left-to-right:
+1 tutorial SPOTLIGHT RING: fine circular jade-gold highlight ring with soft tightly contained pale-gold outer glow, empty fully transparent center, no icon inside.
+2 tutorial DIRECTION ARROW: a single thick curved hand-painted jade-green arrow pointing down-right, warm gold border, complete arrowhead and curved tail, easy to read, not a generic flat vector.
+3 tutorial STEP MARKER: small circular gold-edged jade medallion with a clean solid blank jade face for native step number, tiny symmetric cloud lobe decoration, no number.
+4 tutorial TAP HAND: stylized cute ivory gloved pointing hand with jade cuff and tiny gold cuff edge, index finger pointing upward, complete wrist, no cursor or pointer attached, no click burst, no extra fingers.
+BOTTOM ROW left-to-right:
+5 tutorial FOCUS FRAME: thin complete square corner-focus outline in jade and gold with four rounded ornamental corners, fully transparent center and sides mostly thin so underlying UI stays visible; no solid background.
+6 GENERIC ITEM VOUCHER: one small ivory paper ticket with scalloped ends, soft gold rim, a jade cloud seal WITHOUT words/numbers, slight artistic angle, readable voucher silhouette, no currency, no price.
+7 GIFT BOX: one closed small warm gold/ivory rounded rectangular gift box with jade ribbon and tidy bow, two tiny red tassel accents, no labels, clearly collectible reward object.
+Bottom-right remains empty. No duplicate object. No detached floating speckles or large halo rectangle. Fully preserved alpha edges and all parts inside canvas.

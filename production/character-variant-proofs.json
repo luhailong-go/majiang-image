@@ -1,0 +1,32 @@
+{
+  "status": "passed_art_reference",
+  "createdAt": "2026-10-30T03:40:34.717742+00:00",
+  "images": [
+    {
+      "id": "daotong",
+      "file": "production/previews/characters/UI26-daotong.png",
+      "sha256": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+      "record": "production/previews/characters/UI26-daotong.png.generation.json"
+    },
+    {
+      "id": "healer",
+      "file": "production/previews/characters/UI26-healer.png",
+      "sha256": "c361c44f1abe97e25c071d57d660a896ece3b028e693a5bfefaa0696db6e5824",
+      "record": "production/previews/characters/UI26-healer.png.generation.json"
+    },
+    {
+      "id": "master",
+      "file": "production/previews/characters/UI26-master.png",
+      "sha256": "8ee77c116faab22027d76ea35e319a80748ef54facb90a69d77a6fcd7919255e",
+      "record": "production/previews/characters/UI26-master.png.generation.json"
+    },
+    {
+      "id": "swordswoman",
+      "file": "production/previews/characters/UI26-swordswoman.png",
+      "sha256": "79e1ca15d2611cfa68819f281d6fb811b72bac384709f0150f8835703fc50d98",
+      "record": "production/previews/characters/UI26-swordswoman.png.generation.json"
+    }
+  ],
+  "browserInteraction": false,
+  "clientIntegrated": false
+}

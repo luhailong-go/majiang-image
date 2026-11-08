@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/branding/full-game/app-icon-192.png",
+  "sha256": "bfd4dc227811356ff803a3078dd61ca463a011d7264b378bb85a9d0f3869df3e",
+  "generatedAt": "2026-10-26T12:13:15-04:00",
+  "tool": "Pillow",
+  "route": "derived_from_builtin_image_gen",
+  "art_source": "host_image",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实实际型号/质量。配置目标不等于真实返回参数。",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/full-game/scenes/app-icon.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/branding/full-game/backs-and-brand-v1.png",
+      "sha256": "c9c65704516c2c8859a0fac0baadb2782be247e4379f8efb25e62093e523b147",
+      "actuallyAttached": true
+    }
+  ],
+  "derivedFrom": [
+    {
+      "file": "assets/branding/full-game/app-icon-1024.png",
+      "sha256": "f6f9d0d5eca470f3671ab90c7cdd13148f0799dd2740f583e03fc30150bb2b29",
+      "record": "assets/branding/full-game/app-icon-1024.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "uniform_lanczos_downsample",
+    "scale": 0.1875,
+    "upscaled": false
+  },
+  "width": 192,
+  "height": 192,
+  "format": "PNG",
+  "mode": "RGBA",
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-26T12:13:16-04:00",
+    "visualReview": "root inspected actual deep/light composite: no stray red/yellow speckles; gold/jade/ivory finish; complete shape; empty title surface; no stretching",
+    "alphaCheck": "true RGBA; transparent corner and margin; no painted checkerboard"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

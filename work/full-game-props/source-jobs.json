@@ -1,0 +1,52 @@
+[
+  {
+    "id": "flowers-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-cfd28edf-76eb-4ecb-bc58-50e7b49feaff.png",
+    "callStartedAt": "2026-10-26T15:20:12.300Z",
+    "prompt": "prompts/full-game/props/flowers-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/flowers-sheet-v1.png"
+  },
+  {
+    "id": "table-props-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-5200efd7-eb47-471e-8f0c-dd032b08dea4.png",
+    "callStartedAt": "2026-10-26T15:20:12.309Z",
+    "prompt": "prompts/full-game/props/table-props-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/table-props-sheet-v1.png"
+  },
+  {
+    "id": "emotes-a-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-db27893c-d5ac-478c-b50f-387d1d5444bd.png",
+    "callStartedAt": "2026-10-26T15:20:12.303Z",
+    "prompt": "prompts/full-game/props/emotes-a-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/emotes-a-sheet-v1.png"
+  },
+  {
+    "id": "emotes-b-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-eadcbf7d-8cde-40dc-b460-72462b431ebb.png",
+    "callStartedAt": "2026-10-26T15:20:12.328Z",
+    "prompt": "prompts/full-game/props/emotes-b-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/emotes-b-sheet-v1.png"
+  },
+  {
+    "id": "items-a-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-b6d6adab-bbad-43dd-a5a9-c44b8ba5909f.png",
+    "callStartedAt": "2026-10-26T15:20:12.346Z",
+    "prompt": "prompts/full-game/props/items-a-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/items-a-sheet-v1.png"
+  },
+  {
+    "id": "items-b-sheet-v1",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-df55dee0-a63d-4f78-a8db-e043753b23ef.png",
+    "callStartedAt": "2026-10-26T15:20:12.328Z",
+    "prompt": "prompts/full-game/props/items-b-sheet-v1.prompt.txt",
+    "target": "designs/props/full-game/sources/items-b-sheet-v1.png"
+  },
+  {
+    "id": "voucher-tile-back-v2",
+    "toolImagePath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773e-0bce-79e3-9860-5aa2d27a397d\\exec-89e05297-d65a-463d-ae0c-65dc097e38f7.png",
+    "callStartedAt": "2026-10-26T16:11:43.303Z",
+    "prompt": "prompts/full-game/props/voucher-tile-back-v2.prompt.txt",
+    "target": "designs/props/full-game/sources/voucher-tile-back-v2.png",
+    "editTarget": "designs/props/full-game/sources/items-a-sheet-v1.png"
+  }
+]

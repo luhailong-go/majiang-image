@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "normalized anchors or explicit design pixels as specified",
+  "dynamicTextPolicy": "All Chinese labels, digits, names, timestamps and scores are native client text, separate from painted skins.",
+  "clientIntegrated": false,
+  "tokens": {
+    "textPrimary": "#183D35",
+    "textOnJade": "#FFF4D9",
+    "scorePositive": "#B52F20",
+    "scoreNegative": "#196448",
+    "textDisabled": "#85877D",
+    "error": "#B52F20",
+    "focus": "#D6B260",
+    "modalAlpha": 144
+  },
+  "buttonFamilies": {
+    "primary": {
+      "normal": "button-primary-normal",
+      "pressed": "button-primary-pressed",
+      "selected": "button-primary-selected",
+      "disabled": "button-primary-disabled",
+      "disabledInteractive": false,
+      "labelColor": "textOnJade",
+      "labelsAreNative": true,
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true
+      }
+    },
+    "secondary": {
+      "normal": "button-secondary-normal",
+      "pressed": "button-secondary-pressed",
+      "selected": "button-secondary-selected",
+      "disabled": "button-secondary-disabled",
+      "disabledInteractive": false,
+      "labelColor": "textPrimary",
+      "labelsAreNative": true,
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true
+      }
+    },
+    "action": {
+      "normal": "action-button-normal",
+      "pressed": "action-button-pressed",
+      "selected": "action-button-selected",
+      "disabled": "action-button-disabled",
+      "disabledInteractive": false,
+      "labelColor": "textOnJade",
+      "labelsAreNative": true,
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true
+      }
+    }
+  },
+  "compositions": {
+    "window": {
+      "frame": "window-frame",
+      "fill": "content-card",
+      "title": "title-plaque",
+      "closeIcon": "icon-close",
+      "titleAspectPreserved": true,
+      "frameNineSlice": true,
+      "fillNineSlice": true,
+      "frameNineSliceMargins": [
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "tab": {
+      "normal": "tab-normal",
+      "selected": "tab-selected",
+      "pressed": {
+        "asset": "tab-normal",
+        "brightness": 0.78
+      },
+      "disabled": {
+        "asset": "tab-normal",
+        "grayscaleBlend": 0.82,
+        "contrast": 0.72,
+        "interactive": false
+      }
+    },
+    "checkbox": {
+      "off": "checkbox-off",
+      "on": "checkbox-on",
+      "pressedBrightness": 0.78,
+      "disabledOpacity": 0.55
+    },
+    "radio": {
+      "off": "radio-off",
+      "on": "radio-on",
+      "pressedBrightness": 0.78,
+      "disabledOpacity": 0.55
+    },
+    "toggle": {
+      "track": "slider-track",
+      "thumb": "slider-thumb",
+      "offThumbNormalizedX": 0.22,
+      "onThumbNormalizedX": 0.78,
+      "valueLabels": [
+        "关",
+        "开"
+      ],
+      "disabledOpacity": 0.55
+    },
+    "slider": {
+      "track": "slider-track",
+      "thumb": "slider-thumb",
+      "orientation": "horizontal",
+      "valueRange": [
+        0,
+        1
+      ],
+      "thumbPositionBinding": "value",
+      "disabledOpacity": 0.55
+    },
+    "scrollbar": {
+      "track": "scrollbar-track",
+      "thumb": "scrollbar-thumb",
+      "orientation": "vertical",
+      "thumbPositionBinding": "scrollOffset / scrollRange",
+      "thumbSizeBinding": "visibleRange / totalRange",
+      "minThumbSize": 24
+    },
+    "progress": {
+      "track": "slider-track",
+      "fillSkin": "button-primary-normal",
+      "method": "native UI clipping mask reveals fill by progress 0..1; no baked percentage",
+      "textBinding": "round(progress*100)+'%'"
+    },
+    "input": {
+      "skin": "input-field",
+      "textBinding": "value",
+      "placeholderNative": true,
+      "focusedTint": "focus",
+      "invalidTint": "error",
+      "disabledOpacity": 0.55
+    },
+    "numericKeypad": {
+      "canvas": [
+        768,
+        576
+      ],
+      "keySkin": "keypad-key",
+      "keyNineSlice": true,
+      "keyTextColor": "textPrimary",
+      "keyTextSize": 32,
+      "keys": [
+        {
+          "label": "1",
+          "bounds": [
+            32,
+            40,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "bounds": [
+            272,
+            40,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "bounds": [
+            512,
+            40,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "bounds": [
+            32,
+            168,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "bounds": [
+            272,
+            168,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "bounds": [
+            512,
+            168,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "bounds": [
+            32,
+            296,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "bounds": [
+            272,
+            296,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "8"
+        },
+        {
+          "label": "9",
+          "bounds": [
+            512,
+            296,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "9"
+        },
+        {
+          "label": "清空",
+          "bounds": [
+            32,
+            424,
+            224,
+            112
+          ],
+          "action": "clear",
+          "value": null
+        },
+        {
+          "label": "0",
+          "bounds": [
+            272,
+            424,
+            224,
+            112
+          ],
+          "action": "appendDigit",
+          "value": "0"
+        },
+        {
+          "label": "删除",
+          "bounds": [
+            512,
+            424,
+            224,
+            112
+          ],
+          "action": "backspace",
+          "value": null
+        }
+      ],
+      "stateEffects": {
+        "normal": {},
+        "pressed": {
+          "brightness": 0.78
+        },
+        "selected": {
+          "brightness": 1.12,
+          "color": 1.12
+        },
+        "disabled": {
+          "grayscaleBlend": 0.82,
+          "contrast": 0.72,
+          "interactive": false
+        }
+      }
+    },
+    "sixDigitRoomCode": {
+      "cells": 6,
+      "skin": "input-field",
+      "cellSize": [
+        90,
+        90
+      ],
+      "gap": 12,
+      "allowed": "0-9",
+      "alignment": "center",
+      "errorSource": "UI24",
+      "labelsAreNative": true
+    },
+    "tooltip": {
+      "skin": "tooltip-bubble",
+      "preserveAspect": true,
+      "textNative": true,
+      "anchor": "pointer bottom-center"
+    },
+    "unread": {
+      "skin": "unread-badge",
+      "recommendedSize": [
+        24,
+        24
+      ],
+      "text": null,
+      "numberOptionalNative": true,
+      "hideWhenZero": true
+    },
+    "loadingOverlay": {
+      "shade": "modal-shade",
+      "shadeStretch": "full viewport",
+      "spinner": "loading-ring",
+      "spinnerRotation": "native continuous rotation",
+      "statusNative": true,
+      "cancelOptionalNative": true
+    },
+    "fourSeats": {
+      "avatarFrame": "avatar-frame",
+      "currentPlayerOverlay": "current-player-ring",
+      "portraits": [
+        "assets/characters/avatar-daotong.png",
+        "assets/characters/avatar-healer.png",
+        "assets/characters/avatar-master.png",
+        "assets/characters/avatar-swordswoman.png"
+      ],
+      "seatNames": [
+        "self",
+        "left",
+        "opposite",
+        "right"
+      ],
+      "recommendedPortraitSize": [
+        144,
+        144
+      ],
+      "frameAspectPreserved": true
+    },
+    "windRound": {
+      "skin": "wind-round-dial",
+      "recommendedSize": [
+        260,
+        260
+      ],
+      "nativeLabels": [
+        {
+          "text": "东",
+          "anchor": [
+            0.13,
+            0.5
+          ]
+        },
+        {
+          "text": "南",
+          "anchor": [
+            0.5,
+            0.13
+          ]
+        },
+        {
+          "text": "西",
+          "anchor": [
+            0.87,
+            0.5
+          ]
+        },
+        {
+          "text": "北",
+          "anchor": [
+            0.5,
+            0.87
+          ]
+        }
+      ],
+      "dynamicLabels": [
+        {
+          "binding": "roundLabel",
+          "anchor": [
+            0.5,
+            0.44
+          ]
+        },
+        {
+          "binding": "tilesRemaining",
+          "anchor": [
+            0.5,
+            0.59
+          ]
+        }
+      ]
+    },
+    "countdown": {
+      "skin": "countdown-frame",
+      "recommendedSize": [
+        96,
+        96
+      ],
+      "nativeNumber": true,
+      "warningColorToken": "error"
+    },
+    "dealer": {
+      "skin": "dealer-badge",
+      "nativeText": "庄",
+      "recommendedSize": [
+        64,
+        64
+      ]
+    },
+    "offline": {
+      "skin": "offline-badge",
+      "nativeTextOptional": "离线",
+      "recommendedSize": [
+        48,
+        48
+      ]
+    },
+    "autoplay": {
+      "skin": "autoplay-badge",
+      "nativeTextOptional": "托管",
+      "recommendedSize": [
+        48,
+        48
+      ],
+      "stateIsSeparateFromOffline": true
+    },
+    "actionChoices": {
+      "skinFamily": "action",
+      "options": [
+        {
+          "id": "peng",
+          "label": "碰"
+        },
+        {
+          "id": "gang",
+          "label": "杠"
+        },
+        {
+          "id": "hu",
+          "label": "胡"
+        },
+        {
+          "id": "pass",
+          "label": "过"
+        }
+      ],
+      "availability": "client renders only legal actions from game rules/server; demonstration images are not availability logic",
+      "candidatePanelSkin": "content-card",
+      "candidateSelectedSkin": "tab-selected",
+      "resizePolicy": {
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true
+      }
+    },
+    "readyHand": {
+      "skin": "tooltip-bubble",
+      "nativeTitle": "听牌提示",
+      "tiles": "assets/tiles/manifest.json",
+      "remainingCountNative": true,
+      "labelsAreNative": true
+    },
+    "settlement": {
+      "skin": "settlement-card",
+      "avatarFrame": "avatar-frame",
+      "positiveToken": "scorePositive",
+      "negativeToken": "scoreNegative",
+      "zeroToken": "textPrimary",
+      "nativeLabels": [
+        "昵称",
+        "累计积分"
+      ],
+      "resultNativeText": [
+        "胡牌",
+        "流局"
+      ],
+      "scoresAreSampleInDesigns": true,
+      "nineSlice": null,
+      "preserveAspect": true,
+      "resizePolicy": "uniform_scale_only"
+    },
+    "dialog": {
+      "frame": "window-frame",
+      "fill": "content-card",
+      "title": "title-plaque",
+      "confirmFamily": "primary",
+      "cancelFamily": "secondary",
+      "nativeText": true,
+      "modalShade": "modal-shade",
+      "variants": [
+        "退出确认",
+        "解散发起",
+        "解散投票",
+        "解散进度",
+        "解散结果",
+        "重连",
+        "恢复失败",
+        "匹配超时",
+        "加入失败"
+      ]
+    }
+  }
+}

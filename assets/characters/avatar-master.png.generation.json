@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/avatar-master.png",
+  "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+  "exportedAt": "2026-10-26T04:13:15.692708-04:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 627,
+    "height": 627
+  },
+  "exportDimensions": {
+    "width": 512,
+    "height": 512
+  },
+  "derivedFrom": {
+    "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+    "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+    "generationRecord": "designs/characters/production/seat-avatars-atlas-v1.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "quadrant crop",
+      "box": [
+        0,
+        627,
+        627,
+        1254
+      ]
+    },
+    {
+      "operation": "resize down",
+      "method": "LANCZOS",
+      "from": [
+        627,
+        627
+      ],
+      "to": [
+        512,
+        512
+      ]
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/characters/seat-avatars-atlas-v1.prompt.txt",
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "pngIntegrity": "passed",
+    "sourceHashes": "passed",
+    "userApproved": false,
+    "clientIntegrated": false,
+    "unresolvedIssues": [],
+    "identity": "distinct face, age/hair/costume, consistent hand-painted style",
+    "crop": "face fully visible; portrait intentionally trims shoulders and selected outer hair/ribbon ends",
+    "text": "none",
+    "transparency": "opaque square portrait by design, use client mask",
+    "productionSizes": "512 export from 627 native crop, downsample only"
+  },
+  "usage": {
+    "identity": "白眉老道",
+    "purpose": "seat/profile/character selector avatar",
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "scaleMode": "uniform cover",
+    "nineSlice": null,
+    "transparent": false,
+    "mask": "client circular or rounded-square clip; no border baked in"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/ui/production-v3/gameplay/skins-alpha-light-dark.png",
+  "sha256": "ed51a7326c7d4a69430c2c087c9346e7bc1b9e142cbed8da645e530c8a1c7ae4",
+  "generatedAt": "2026-10-28T10:01:03.659692+00:00",
+  "width": 1600,
+  "height": 1000,
+  "format": "RGB PNG",
+  "tool": "Pillow deterministic assembly",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "operation": "Composite accepted independent raster skins, whole-sprite right-angle rotations, proportional downscales, approved nine-slice and native preview labels. No new AI image, no code-drawn replacement painting.",
+  "description": "Six native atlas slices at actual game-size or smaller on light and dark backgrounds; no drawn replacement artwork.",
+  "nativeTextFont": "C:\\Windows\\Fonts\\simkai.ttf",
+  "fontRedistributed": false,
+  "derivedFrom": [
+    {
+      "id": "candidate-panel",
+      "file": "assets/ui/production-v3/gameplay/candidate-panel.png",
+      "sha256": "8f8f78fe02a243c28eb77e9ce400af590a86dd79faac39e60d63d549ad5ed6db"
+    },
+    {
+      "id": "candidate-selected-outline",
+      "file": "assets/ui/production-v3/gameplay/candidate-selected-outline.png",
+      "sha256": "2ca0515c49fd9b5c70e62dd215f3f93c08127c8b30be0b17c67de32b42323108"
+    },
+    {
+      "id": "discard-pointer",
+      "file": "assets/ui/production-v3/gameplay/discard-pointer.png",
+      "sha256": "8c5c7127b9a71338d553bc6a5bca2744282ee08e1e323e4b6b31e5e1a85f2feb"
+    },
+    {
+      "id": "illegal-tile-badge",
+      "file": "assets/ui/production-v3/gameplay/illegal-tile-badge.png",
+      "sha256": "ebf0afe9e71803aaf1d43510550103279e79c198f9142920c73eaa508ce70f2d"
+    },
+    {
+      "id": "ready-hand-badge",
+      "file": "assets/ui/production-v3/gameplay/ready-hand-badge.png",
+      "sha256": "62a720dd5876feba3ce3884f7b69d9599c8d99bc18da2702dd48c292d9edd4d4"
+    },
+    {
+      "id": "ready-hand-panel",
+      "file": "assets/ui/production-v3/gameplay/ready-hand-panel.png",
+      "sha256": "10a15d8a0c76d7c8b26590ddf3905ec3160c4681dda4c85984935c88e89229d2"
+    }
+  ],
+  "runtimeContract": "assets/ui/production-v3/gameplay/runtime-compositions.json",
+  "clientIntegrated": false,
+  "checks": {
+    "visual": "passed: actual final original-size preview inspected",
+    "technical": "Previously assembled from registered independent assets; unchanged during root table-only render. Global sweep belongs to coordinator integration.",
+    "reviewedAt": "2026-10-28T10:35:30.815290+00:00"
+  },
+  "status": "passed",
+  "frozenAt": "2026-10-28T14:57:27.194603+00:00"
+}

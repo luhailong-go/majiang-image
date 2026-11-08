@@ -1,0 +1,154 @@
+{
+  "scope": "UI18领取状态拆分、UI19/UI11正负积分语义统一",
+  "completedAt": "2026-10-26T08:00:38.902659-04:00",
+  "ui18States": {
+    "pending": "designs/ui/full-suite/system/ui18-mail-detail.png",
+    "claimed": "designs/ui/full-suite/system/ui18-mail-claimed.png",
+    "mutuallyExclusive": true
+  },
+  "checks": [
+    {
+      "file": "designs/ui/full-suite/system/ui18-mail-detail.png",
+      "sha256": "25039bd07812953bc4abc401704ab7bcfb4d3a49b2df68f0bc4c26e84b531448",
+      "width": 1672,
+      "height": 941,
+      "visualStatus": "passed",
+      "promptAndReferenceHashes": "passed",
+      "record": "designs/ui/full-suite/system/ui18-mail-detail.png.generation.json"
+    },
+    {
+      "file": "designs/ui/full-suite/system/ui18-mail-claimed.png",
+      "sha256": "51e8e881647a22fdc23d9b01ab83c792b9ea093f631ad8575287771eecdf1db5",
+      "width": 1672,
+      "height": 941,
+      "visualStatus": "passed",
+      "promptAndReferenceHashes": "passed",
+      "record": "designs/ui/full-suite/system/ui18-mail-claimed.png.generation.json"
+    },
+    {
+      "file": "designs/ui/full-suite/system/ui19-records.png",
+      "sha256": "e95b6cf820b5679c2e59ad58b02d0957b9eb5ed73173378f82e6ca4bf279872c",
+      "width": 1672,
+      "height": 941,
+      "visualStatus": "passed",
+      "promptAndReferenceHashes": "passed",
+      "record": "designs/ui/full-suite/system/ui19-records.png.generation.json"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui11-round-result.png",
+      "sha256": "4cf97b9f54a14f3730fa11e7af57c3e2e2c4093564c3eadb0de9bba1b1c67d00",
+      "width": 1672,
+      "height": 941,
+      "visualStatus": "passed",
+      "promptAndReferenceHashes": "passed",
+      "record": "designs/ui/full-suite/core/ui11-round-result.png.generation.json"
+    }
+  ],
+  "scoreColorEvidence": {
+    "method": "read-only ROI color-family counts; actual image editing used builtin image_gen",
+    "checks": [
+      {
+        "uiId": "UI19",
+        "sample": "positive_24",
+        "roi": [
+          1105,
+          361,
+          1205,
+          411
+        ],
+        "expectedFamily": "red",
+        "redPixels": 508,
+        "greenPixels": 0,
+        "passed": true
+      },
+      {
+        "uiId": "UI19",
+        "sample": "negative_12",
+        "roi": [
+          1105,
+          453,
+          1205,
+          504
+        ],
+        "expectedFamily": "green",
+        "redPixels": 0,
+        "greenPixels": 335,
+        "passed": true
+      },
+      {
+        "uiId": "UI19",
+        "sample": "positive_8",
+        "roi": [
+          1105,
+          635,
+          1205,
+          683
+        ],
+        "expectedFamily": "red",
+        "redPixels": 357,
+        "greenPixels": 0,
+        "passed": true
+      },
+      {
+        "uiId": "UI11",
+        "sample": "positive_30",
+        "roi": [
+          1303,
+          253,
+          1445,
+          333
+        ],
+        "expectedFamily": "red",
+        "redPixels": 2586,
+        "greenPixels": 0,
+        "passed": true
+      },
+      {
+        "uiId": "UI11",
+        "sample": "negative_10_row2",
+        "roi": [
+          1348,
+          427,
+          1445,
+          480
+        ],
+        "expectedFamily": "green",
+        "redPixels": 0,
+        "greenPixels": 777,
+        "passed": true
+      },
+      {
+        "uiId": "UI11",
+        "sample": "negative_10_row3",
+        "roi": [
+          1348,
+          549,
+          1445,
+          603
+        ],
+        "expectedFamily": "green",
+        "redPixels": 0,
+        "greenPixels": 791,
+        "passed": true
+      },
+      {
+        "uiId": "UI11",
+        "sample": "negative_10_row4",
+        "roi": [
+          1348,
+          673,
+          1445,
+          729
+        ],
+        "expectedFamily": "green",
+        "redPixels": 0,
+        "greenPixels": 796,
+        "passed": true
+      }
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "userApproved": false,
+  "clientIntegrated": false
+}

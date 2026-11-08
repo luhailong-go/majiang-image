@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/table/dice-cup-open.png",
+  "sha256": "a5ffc7eb38ff30024bf8b7e5b0164625b30874a082e15f997f4da5de0cb2bc3f",
+  "createdAt": "2026-10-26T16:37:56.251Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/table-props-sheet-v1.png",
+      "sha256": "ad353b807051cecd786c1f43575517949c182c00cf05d01dc143ae43bcb5c310",
+      "generationRecord": "designs/props/full-game/sources/table-props-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "nativeContentBounds": [
+      1025,
+      104,
+      1519,
+      498
+    ],
+    "corePixelsBefore": 126563,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 126563,
+        "box": [
+          1025,
+          104,
+          1518,
+          497
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      494,
+      394
+    ],
+    "exportContent": [
+      480,
+      383
+    ],
+    "contentBounds": [
+      16,
+      64,
+      480,
+      383
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 0.97165991902834,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "dice-cup-open",
+    "label": "骰盅·开",
+    "group": "table-prop"
+  }
+}

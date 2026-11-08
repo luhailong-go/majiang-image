@@ -1,0 +1,22 @@
+{
+  "score": {
+    "positive": "#B52F20",
+    "negative": "#196448",
+    "neutral": "#6F6654"
+  },
+  "action": {
+    "primary": "#165B4A"
+  },
+  "text": {
+    "primary": "#183D35"
+  },
+  "surface": {
+    "paper": "#FFF9E9"
+  },
+  "border": {
+    "gold": "#BCA16A"
+  },
+  "state": {
+    "disabled": "#A8A18E"
+  }
+}

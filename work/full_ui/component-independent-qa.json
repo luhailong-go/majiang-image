@@ -1,0 +1,6056 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T12:56:12.316911+00:00",
+  "reviewer": "independent rooms_finish_qa agent",
+  "scope": "Read-only component validation plus character/tile hash recheck; no asset file mutation",
+  "status": "passed",
+  "actualModel": null,
+  "actualQuality": null,
+  "manifests": [
+    {
+      "file": "assets/ui/manifest.json",
+      "sha256": "a64a3a829d0744770cee2bf9aa23931049293ffa234f1d6fa32dbb0a40595a0f"
+    },
+    {
+      "file": "assets/ui/common/manifest.json",
+      "sha256": "b265a4aa3e930637216e7dabd4c0f25197264dbb70e9ed2ad9339878a20e234a"
+    },
+    {
+      "file": "assets/ui/gameplay/manifest.json",
+      "sha256": "22a8a6275d64e125c9396f984217a87134ef746f805cc77479911f0b0f985a18"
+    },
+    {
+      "file": "assets/ui/component-compositions.json",
+      "sha256": "1dbeef41852c0e519d9b7e5716a34bff843e6cec4a924530883660e0b195949d"
+    }
+  ],
+  "counts": {
+    "ui": 58,
+    "common": 45,
+    "gameplay": 13,
+    "characters": 5,
+    "tileRasters": 37,
+    "compositionGroups": 24,
+    "resolvedCompositionReferences": 60
+  },
+  "structuralChecks": [
+    {
+      "check": "58 unique component IDs",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "common manifest matches total manifest",
+      "status": "passed",
+      "detail": {
+        "count": 45
+      }
+    },
+    {
+      "check": "gameplay manifest matches total manifest",
+      "status": "passed",
+      "detail": {
+        "count": 13
+      }
+    },
+    {
+      "check": "all composition raster/file references resolve",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "check": "three button families expose four actual raster states",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "window frame has conservative 200px margins",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "settlement card preserves aspect without nine-slicing",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "12 button states and 3 families allow only horizontal stretch with locked height",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "all 58 PNG hashes unchanged from independent visual review",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "background operation accurately describes PNG re-encode",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "check": "table background is pixel-identical to native source",
+      "status": "passed",
+      "detail": {
+        "operation": "pixel-identical native RGB PNG re-encode; metadata stripped; no resampling",
+        "sourceSha256": "c6ca23d0e4e0ec7fed359c2deae5a004a6263b9fb8cf85e7cf0bd0a6b9a8c5ab",
+        "exportSha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "window-frame",
+      "file": "assets/ui/common/window-frame.png",
+      "record": "assets/ui/common/window-frame.png.generation.json",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "recordSha256": "22af34399d5f07150960b5954819d40c8d0255442079ba2e6964fa4bfb1b30a8",
+      "observed": {
+        "width": 1642,
+        "height": 888,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 1062267,
+          "semiTransparent": 29183,
+          "opaque": 366646,
+          "bbox": [
+            12,
+            12,
+            1630,
+            876
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      "nineSlice": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/window-frame-v1.png",
+          "sha256": "d626fb45ee5ab2a54cd3fb0aa02e604a7b4dc77be8a164cf0525f0831a6cd4fd",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "title-plaque",
+      "file": "assets/ui/common/title-plaque.png",
+      "record": "assets/ui/common/title-plaque.png.generation.json",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "recordSha256": "53007b39aac5dd726d64ced26d5ff0679514a41e45f18fd3e7c23b4306bb5a6f",
+      "observed": {
+        "width": 620,
+        "height": 214,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 47739,
+          "semiTransparent": 5594,
+          "opaque": 79347,
+          "bbox": [
+            8,
+            8,
+            612,
+            206
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "record": "assets/ui/common/content-card.png.generation.json",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "recordSha256": "6a7f19efefe436efe8d83980630df0396d70c514605c3c0c16db801703b7a198",
+      "observed": {
+        "width": 582,
+        "height": 235,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 16412,
+          "semiTransparent": 6434,
+          "opaque": 113924,
+          "bbox": [
+            8,
+            8,
+            574,
+            227
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "record": "assets/ui/common/button-primary-normal.png.generation.json",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "recordSha256": "b13b0179507abb9beaff987993e0885723b9c44236d8c69841a6a64db3c1bbce",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21322,
+          "semiTransparent": 3505,
+          "opaque": 77879,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-secondary-normal",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "record": "assets/ui/common/button-secondary-normal.png.generation.json",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "recordSha256": "7840d179cb9cf9d03ba1daecc81921cd9fce279f4a9aa0b9752d4b5b06267add",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21299,
+          "semiTransparent": 3273,
+          "opaque": 78134,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "tab-selected",
+      "file": "assets/ui/common/tab-selected.png",
+      "record": "assets/ui/common/tab-selected.png.generation.json",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "recordSha256": "d3c89e8bd54d5e64e075674c54ed18f694c709d16d2e8fd596daab90a4086311",
+      "observed": {
+        "width": 470,
+        "height": 145,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 16231,
+          "semiTransparent": 4743,
+          "opaque": 47176,
+          "bbox": [
+            8,
+            8,
+            462,
+            137
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        60,
+        24,
+        60,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "tab-normal",
+      "file": "assets/ui/common/tab-normal.png",
+      "record": "assets/ui/common/tab-normal.png.generation.json",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "recordSha256": "9312a52f840b7b64409181de2b59a458a287fd092a2b6904a1abe7c9afe07698",
+      "observed": {
+        "width": 473,
+        "height": 144,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 15861,
+          "semiTransparent": 4778,
+          "opaque": 47473,
+          "bbox": [
+            8,
+            8,
+            465,
+            136
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        60,
+        24,
+        60,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "input-field",
+      "file": "assets/ui/common/input-field.png",
+      "record": "assets/ui/common/input-field.png.generation.json",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "recordSha256": "4eae5de8db9d9370eb5e4e347ee0d0174143fc8c455489018253f120efde8313",
+      "observed": {
+        "width": 588,
+        "height": 156,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 14356,
+          "semiTransparent": 4997,
+          "opaque": 72375,
+          "bbox": [
+            8,
+            8,
+            580,
+            148
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        34,
+        30,
+        34,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "tooltip-bubble",
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "record": "assets/ui/common/tooltip-bubble.png.generation.json",
+      "sha256": "af225de902f6aad2c61e930e1af2c2cf93eea3b0c5db828f35eea67f4e66dfc1",
+      "recordSha256": "891e0a9b45ce03c422f87e7aec2a16ae2c9afca7d69256f0d3dfc1a87f2075e1",
+      "observed": {
+        "width": 516,
+        "height": 203,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 27543,
+          "semiTransparent": 3653,
+          "opaque": 73552,
+          "bbox": [
+            8,
+            8,
+            508,
+            195
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-skins-atlas-v1.png",
+          "sha256": "346ed3caf191fbbf750f0cd1e4c26b5b824c3c3bca5a4f54eff94538e145b95c",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-settings",
+      "file": "assets/ui/common/icon-settings.png",
+      "record": "assets/ui/common/icon-settings.png.generation.json",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "recordSha256": "33b1c48559db7a9c783e96148ccbf7936a15f94136d447d91b9f2c331ccfff17",
+      "observed": {
+        "width": 260,
+        "height": 253,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 30630,
+          "semiTransparent": 5023,
+          "opaque": 30127,
+          "bbox": [
+            8,
+            8,
+            252,
+            245
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-close",
+      "file": "assets/ui/common/icon-close.png",
+      "record": "assets/ui/common/icon-close.png.generation.json",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "recordSha256": "2ea4ae2bee4d7bc923a17ca5f18eba254cdcd319d54b2894e24126215f678035",
+      "observed": {
+        "width": 272,
+        "height": 271,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 34112,
+          "semiTransparent": 2849,
+          "opaque": 36751,
+          "bbox": [
+            8,
+            8,
+            264,
+            263
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-back",
+      "file": "assets/ui/common/icon-back.png",
+      "record": "assets/ui/common/icon-back.png.generation.json",
+      "sha256": "52b06a7869c96b37f7e07560b39cb5868e4dbf77e0096fdf7c8eafecd07571fa",
+      "recordSha256": "92e5e5c2a12abe0fa8283ddaf075ff2ecc3b60a6dfecfcf5ebf548560c613275",
+      "observed": {
+        "width": 251,
+        "height": 204,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 24643,
+          "semiTransparent": 3131,
+          "opaque": 23430,
+          "bbox": [
+            8,
+            8,
+            243,
+            196
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-chat",
+      "file": "assets/ui/common/icon-chat.png",
+      "record": "assets/ui/common/icon-chat.png.generation.json",
+      "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e",
+      "recordSha256": "6180f244146e0ec0d1e336304437b8e2f5ef06271a3e3f73625e5d7e75aff45b",
+      "observed": {
+        "width": 274,
+        "height": 228,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 23178,
+          "semiTransparent": 2926,
+          "opaque": 36368,
+          "bbox": [
+            8,
+            8,
+            266,
+            220
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-profile",
+      "file": "assets/ui/common/icon-profile.png",
+      "record": "assets/ui/common/icon-profile.png.generation.json",
+      "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf",
+      "recordSha256": "d101e5bed64be5a7cc94ab68d384cde2826982a326bb763f13ab3bdb8d55fc83",
+      "observed": {
+        "width": 222,
+        "height": 233,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21886,
+          "semiTransparent": 2894,
+          "opaque": 26946,
+          "bbox": [
+            8,
+            8,
+            214,
+            225
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-friends",
+      "file": "assets/ui/common/icon-friends.png",
+      "record": "assets/ui/common/icon-friends.png.generation.json",
+      "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+      "recordSha256": "38c8b3c051affd284e75b0050911bedd4aae5938cd58c9060eec8723f7ee44f7",
+      "observed": {
+        "width": 265,
+        "height": 211,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 20456,
+          "semiTransparent": 3385,
+          "opaque": 32074,
+          "bbox": [
+            8,
+            8,
+            257,
+            203
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-mail",
+      "file": "assets/ui/common/icon-mail.png",
+      "record": "assets/ui/common/icon-mail.png.generation.json",
+      "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20",
+      "recordSha256": "3b080115c51f19966dfcd9779fafda5e081c82e2e89f394a8a36c5c307331c78",
+      "observed": {
+        "width": 255,
+        "height": 182,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 7408,
+          "semiTransparent": 2864,
+          "opaque": 36138,
+          "bbox": [
+            8,
+            8,
+            247,
+            174
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-records",
+      "file": "assets/ui/common/icon-records.png",
+      "record": "assets/ui/common/icon-records.png.generation.json",
+      "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d",
+      "recordSha256": "576f93df3c57c29b8bd3d1765c590204951955ccc07b7c1c633f57da374c548e",
+      "observed": {
+        "width": 243,
+        "height": 237,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 25541,
+          "semiTransparent": 3177,
+          "opaque": 28873,
+          "bbox": [
+            8,
+            8,
+            235,
+            229
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-sound",
+      "file": "assets/ui/common/icon-sound.png",
+      "record": "assets/ui/common/icon-sound.png.generation.json",
+      "sha256": "e289749a1368c5757679e174ccc5e7622cbbe33fc0a8c411c50e0501184165a9",
+      "recordSha256": "2d5053d0a964e1b64ba6a6b37e7159bab32c446767fd11ca2f495b74de02027c",
+      "observed": {
+        "width": 247,
+        "height": 204,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 23694,
+          "semiTransparent": 5493,
+          "opaque": 21201,
+          "bbox": [
+            8,
+            8,
+            239,
+            196
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-muted",
+      "file": "assets/ui/common/icon-muted.png",
+      "record": "assets/ui/common/icon-muted.png.generation.json",
+      "sha256": "bc8b473feea1b7b8314983a03b7d4571a3cd804e12510663f4d232444cdaa04d",
+      "recordSha256": "45fc6e5d2d8602e58737e3ebf73b598786d18d80de57b98cf457173fda4219bb",
+      "observed": {
+        "width": 239,
+        "height": 204,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 22406,
+          "semiTransparent": 5184,
+          "opaque": 21166,
+          "bbox": [
+            8,
+            8,
+            231,
+            196
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "checkbox-on",
+      "file": "assets/ui/common/checkbox-on.png",
+      "record": "assets/ui/common/checkbox-on.png.generation.json",
+      "sha256": "d4429b96395bea568561b73c53b9c99d2b5efdaed732d75cb76fe1c45bae8848",
+      "recordSha256": "5ba81692bc58c917ce22f151e7433e0f6188cfb0ca4995297b373e534ead364c",
+      "observed": {
+        "width": 195,
+        "height": 188,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 7312,
+          "semiTransparent": 2503,
+          "opaque": 26845,
+          "bbox": [
+            8,
+            8,
+            187,
+            180
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "checkbox-off",
+      "file": "assets/ui/common/checkbox-off.png",
+      "record": "assets/ui/common/checkbox-off.png.generation.json",
+      "sha256": "328b8eb3050742f591545c9041c4fb88cdfe2998b882943fcb8c93b5778a10b7",
+      "recordSha256": "9bb235b6e43a064ed0282bff1bebc3df5289f11d88fd6ffede4b9cee26681ae8",
+      "observed": {
+        "width": 194,
+        "height": 192,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 7209,
+          "semiTransparent": 1925,
+          "opaque": 28114,
+          "bbox": [
+            8,
+            8,
+            186,
+            184
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "radio-on",
+      "file": "assets/ui/common/radio-on.png",
+      "record": "assets/ui/common/radio-on.png.generation.json",
+      "sha256": "4ca53a085a6120abec65c1ecd7bffea02d4cef602ff26d89d952913856e78a78",
+      "recordSha256": "03064fac32bb319d6143f4735940cc64581e8e801a17945aa82727b09e5b40f9",
+      "observed": {
+        "width": 215,
+        "height": 210,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 14607,
+          "semiTransparent": 2225,
+          "opaque": 28318,
+          "bbox": [
+            8,
+            8,
+            207,
+            202
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "radio-off",
+      "file": "assets/ui/common/radio-off.png",
+      "record": "assets/ui/common/radio-off.png.generation.json",
+      "sha256": "1dffc3231921d1165cb47b0dcc0582fee4d3c19ba047cdc8109a27aea8c67d37",
+      "recordSha256": "f6db8c165f5473f8ff3c14e09963cfa171d34fa25bfcd0e1f15133c785df40dd",
+      "observed": {
+        "width": 216,
+        "height": 215,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 20561,
+          "semiTransparent": 3556,
+          "opaque": 22323,
+          "bbox": [
+            8,
+            8,
+            208,
+            207
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "slider-thumb",
+      "file": "assets/ui/common/slider-thumb.png",
+      "record": "assets/ui/common/slider-thumb.png.generation.json",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "recordSha256": "a069a79754e8adc8c878684240e18e8f9a36e7ac1c1700669e09f15ee6cf8078",
+      "observed": {
+        "width": 172,
+        "height": 185,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 12675,
+          "semiTransparent": 1965,
+          "opaque": 17180,
+          "bbox": [
+            8,
+            8,
+            164,
+            177
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "scrollbar-thumb",
+      "file": "assets/ui/common/scrollbar-thumb.png",
+      "record": "assets/ui/common/scrollbar-thumb.png.generation.json",
+      "sha256": "fb2da278a492a57119715966c6be3cb65259ca38fe6af6672caebdb72bf16c4b",
+      "recordSha256": "80eb0d633d894734b125c9aaff7fa7f8fa2b6ea8b42df2cce0b4edf82da77bfb",
+      "observed": {
+        "width": 103,
+        "height": 231,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 7599,
+          "semiTransparent": 2289,
+          "opaque": 13905,
+          "bbox": [
+            8,
+            8,
+            95,
+            223
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "record": "assets/ui/common/slider-track.png.generation.json",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "recordSha256": "c94d1ebd00615765d3de819efdf049b7e4501a12fa930865e67247bb1944ba13",
+      "observed": {
+        "width": 359,
+        "height": 95,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 9421,
+          "semiTransparent": 2335,
+          "opaque": 22349,
+          "bbox": [
+            8,
+            8,
+            351,
+            87
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        45,
+        24,
+        45,
+        24
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "scrollbar-track",
+      "file": "assets/ui/common/scrollbar-track.png",
+      "record": "assets/ui/common/scrollbar-track.png.generation.json",
+      "sha256": "d9bc433d95c675b846f628c044c58f656563338068c06b229e293d5b4459621e",
+      "recordSha256": "942a69b3fde8ff7c9579a24898a972093429f7a15b0ba0c739688d4dc9fcb815",
+      "observed": {
+        "width": 75,
+        "height": 229,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 6008,
+          "semiTransparent": 1779,
+          "opaque": 9388,
+          "bbox": [
+            8,
+            8,
+            67,
+            221
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        24,
+        45,
+        24,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "unread-badge",
+      "file": "assets/ui/common/unread-badge.png",
+      "record": "assets/ui/common/unread-badge.png.generation.json",
+      "sha256": "f64b597986f24d914d977e11e122c4a8126a910021d6c9b68c9296187fd3e303",
+      "recordSha256": "1dc106bf1c2827a77215189fdaed5b22d4f8f28db0401219b1feab3e3109fa0a",
+      "observed": {
+        "width": 137,
+        "height": 135,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 7228,
+          "semiTransparent": 1351,
+          "opaque": 9916,
+          "bbox": [
+            8,
+            8,
+            129,
+            127
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "loading-ring",
+      "file": "assets/ui/common/loading-ring.png",
+      "record": "assets/ui/common/loading-ring.png.generation.json",
+      "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951",
+      "recordSha256": "a23d08dec8fbf4dab5e4b8ed2e96d484cd28267a9f0404db2afefd0d1736c6a2",
+      "observed": {
+        "width": 215,
+        "height": 226,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 28288,
+          "semiTransparent": 10386,
+          "opaque": 9916,
+          "bbox": [
+            8,
+            8,
+            207,
+            218
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-controls-atlas-v1.png",
+          "sha256": "a427aca01f89b8ffc8117a726097a974b9f14ea75f42f0512a212b3ded80e902",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "wind-round-dial",
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "record": "assets/ui/gameplay/wind-round-dial.png.generation.json",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "recordSha256": "88f170d2623a6c532ad459c7307567a5582a9050d4d9c9c38052e962f871c6f7",
+      "observed": {
+        "width": 461,
+        "height": 438,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 67340,
+          "semiTransparent": 4389,
+          "opaque": 130189,
+          "bbox": [
+            8,
+            8,
+            453,
+            430
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "avatar-frame",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "record": "assets/ui/gameplay/avatar-frame.png.generation.json",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "recordSha256": "c685684626f98d84ebc9989d9633d316fd18958d0a8992cee032204ce07568c7",
+      "observed": {
+        "width": 370,
+        "height": 378,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 97458,
+          "semiTransparent": 7329,
+          "opaque": 35073,
+          "bbox": [
+            8,
+            8,
+            362,
+            370
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "countdown-frame",
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "record": "assets/ui/gameplay/countdown-frame.png.generation.json",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "recordSha256": "ad01049682f51467c600e24ecaf09d8359cf7eda65462e2f981f01cee36fe0ac",
+      "observed": {
+        "width": 300,
+        "height": 311,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 31395,
+          "semiTransparent": 2906,
+          "opaque": 58999,
+          "bbox": [
+            8,
+            8,
+            292,
+            303
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "dealer-badge",
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "record": "assets/ui/gameplay/dealer-badge.png.generation.json",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "recordSha256": "f854230322f99059fde69d8ddf3419565c226addb3cf63f68cd407e0121d0ece",
+      "observed": {
+        "width": 331,
+        "height": 271,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 41256,
+          "semiTransparent": 3124,
+          "opaque": 45321,
+          "bbox": [
+            8,
+            8,
+            323,
+            263
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "current-player-ring",
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "record": "assets/ui/gameplay/current-player-ring.png.generation.json",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+      "recordSha256": "82f6197ccab4abe766c526fe8de2ff1e7ad3d9f6b6b1f18f32388d9cbe1ed7dd",
+      "observed": {
+        "width": 439,
+        "height": 394,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 107843,
+          "semiTransparent": 46104,
+          "opaque": 19019,
+          "bbox": [
+            8,
+            8,
+            431,
+            386
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "offline-badge",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "record": "assets/ui/gameplay/offline-badge.png.generation.json",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "recordSha256": "661b066a74c7f71b4ed2af2f5f5769428d58a98c94b2f883be6e945dd389d439",
+      "observed": {
+        "width": 276,
+        "height": 266,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 26038,
+          "semiTransparent": 2646,
+          "opaque": 44732,
+          "bbox": [
+            8,
+            8,
+            268,
+            258
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "autoplay-badge",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "record": "assets/ui/gameplay/autoplay-badge.png.generation.json",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "recordSha256": "4c8ae47224679b27b4bd5e83e9f8e6e43512f911452f2a6e1d36e92cf5b64609",
+      "observed": {
+        "width": 276,
+        "height": 266,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 26105,
+          "semiTransparent": 2572,
+          "opaque": 44739,
+          "bbox": [
+            8,
+            8,
+            268,
+            258
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "action-button-normal",
+      "file": "assets/ui/gameplay/action-button-normal.png",
+      "record": "assets/ui/gameplay/action-button-normal.png.generation.json",
+      "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+      "recordSha256": "b2a1da831e6b2f1b3d12f0154708cad2136b7257ff86c1743373bf91d3c961fe",
+      "observed": {
+        "width": 546,
+        "height": 192,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 19991,
+          "semiTransparent": 4047,
+          "opaque": 80794,
+          "bbox": [
+            8,
+            8,
+            538,
+            184
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "settlement-card",
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "record": "assets/ui/gameplay/settlement-card.png.generation.json",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "recordSha256": "b3219051111d5831d6f17610fe6803cec7f8a2f62221ac1202db0638614bdea1",
+      "observed": {
+        "width": 285,
+        "height": 360,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 16569,
+          "semiTransparent": 3838,
+          "opaque": 82193,
+          "bbox": [
+            8,
+            8,
+            277,
+            352
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+          "sha256": "69325c1793529a8ae26631645a425c3f5ace78101e2b50839df00d62214eae3d",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-primary-pressed",
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "record": "assets/ui/common/button-primary-pressed.png.generation.json",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "recordSha256": "996d9af142043fd917da724787ed9dd9ca6a6894613c8dbb28539c226e4f1a47",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21322,
+          "semiTransparent": 3505,
+          "opaque": 77879,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-primary-normal.png",
+          "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-primary-selected",
+      "file": "assets/ui/common/button-primary-selected.png",
+      "record": "assets/ui/common/button-primary-selected.png.generation.json",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "recordSha256": "88481d42a316278715b868f86cf649b8e974aad448d7f45d1e498a23552283d4",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21322,
+          "semiTransparent": 3505,
+          "opaque": 77879,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-primary-normal.png",
+          "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-primary-disabled",
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "record": "assets/ui/common/button-primary-disabled.png.generation.json",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "recordSha256": "f6ec0eefaf62e59801462428dd2961a93222686c9b89c4465a9a67486f22930d",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21322,
+          "semiTransparent": 3505,
+          "opaque": 77879,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-primary-normal.png",
+          "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-secondary-pressed",
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "record": "assets/ui/common/button-secondary-pressed.png.generation.json",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "recordSha256": "a15d3ea637f611ed69d4d53e3422434c196d9d37559f8b59f26e989a65bcb91a",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21299,
+          "semiTransparent": 3273,
+          "opaque": 78134,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-secondary-normal.png",
+          "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-secondary-selected",
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "record": "assets/ui/common/button-secondary-selected.png.generation.json",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "recordSha256": "95c11d3c3d4013cc3dce5e09ffeaec8851b3bca7e7fe0eac2e171485eceb42ca",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21299,
+          "semiTransparent": 3273,
+          "opaque": 78134,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-secondary-normal.png",
+          "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "button-secondary-disabled",
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "record": "assets/ui/common/button-secondary-disabled.png.generation.json",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "recordSha256": "d1fcb5f519b3cba1be5fbaf73ba2be8c877423067f3984e5f9811c89f878f859",
+      "observed": {
+        "width": 577,
+        "height": 178,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 21299,
+          "semiTransparent": 3273,
+          "opaque": 78134,
+          "bbox": [
+            8,
+            8,
+            569,
+            170
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        80,
+        28,
+        80,
+        28
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/button-secondary-normal.png",
+          "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "action-button-pressed",
+      "file": "assets/ui/gameplay/action-button-pressed.png",
+      "record": "assets/ui/gameplay/action-button-pressed.png.generation.json",
+      "sha256": "c8ed24e9a30dea4c839f32d3488bb3f990868da336b0d7ee9a8a199c78b70933",
+      "recordSha256": "1e6c2e0ed1481679bf8f348d3877a058488b029c4d2a86fc732d39134b8120a8",
+      "observed": {
+        "width": 546,
+        "height": 192,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 19991,
+          "semiTransparent": 4047,
+          "opaque": 80794,
+          "bbox": [
+            8,
+            8,
+            538,
+            184
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/gameplay/action-button-normal.png",
+          "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "action-button-selected",
+      "file": "assets/ui/gameplay/action-button-selected.png",
+      "record": "assets/ui/gameplay/action-button-selected.png.generation.json",
+      "sha256": "3639caf87fc4f6da58caf186b8085d1e493effdfdd59cb7e60c2a58413b4d109",
+      "recordSha256": "96829ed3d4d21359a47522001fbd35afa19e3602f82fb19580dc522d86f7887e",
+      "observed": {
+        "width": 546,
+        "height": 192,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 19991,
+          "semiTransparent": 4047,
+          "opaque": 80794,
+          "bbox": [
+            8,
+            8,
+            538,
+            184
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/gameplay/action-button-normal.png",
+          "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "action-button-disabled",
+      "file": "assets/ui/gameplay/action-button-disabled.png",
+      "record": "assets/ui/gameplay/action-button-disabled.png.generation.json",
+      "sha256": "85bb9eb97bd66f54381cb4d3759ddab5d73c5abb1c15a59ea17f3436d9fad9b6",
+      "recordSha256": "d5f8ba74d90bcead4f130933bb076818ebb363850b79ccc208c9c7fb9e8b972a",
+      "observed": {
+        "width": 546,
+        "height": 192,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 19991,
+          "semiTransparent": 4047,
+          "opaque": 80794,
+          "bbox": [
+            8,
+            8,
+            538,
+            184
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        70,
+        30,
+        70,
+        30
+      ],
+      "resizePolicy": {
+        "mode": "horizontal_nine_slice_only",
+        "stretchAxes": [
+          "x"
+        ],
+        "lockHeightAfterUniformScale": true,
+        "uniformScaleAllowed": true,
+        "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+      },
+      "sources": [
+        {
+          "file": "assets/ui/gameplay/action-button-normal.png",
+          "sha256": "4beb00efd940244908051e427227d4b6d06f40998b9953d681d2b0ef6e4bff86",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "keypad-key",
+      "file": "assets/ui/common/keypad-key.png",
+      "record": "assets/ui/common/keypad-key.png.generation.json",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "recordSha256": "71b576118cb4e79c33b6553e1c429eacbd8bdab7c5a6f1831f50772c48d23331",
+      "observed": {
+        "width": 582,
+        "height": 235,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 16412,
+          "semiTransparent": 6434,
+          "opaque": 113924,
+          "bbox": [
+            8,
+            8,
+            574,
+            227
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "resizePolicy": {
+        "mode": "nine_slice",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "uniformScaleAllowed": true
+      },
+      "sources": [
+        {
+          "file": "assets/ui/common/content-card.png",
+          "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "modal-shade",
+      "file": "assets/ui/common/modal-shade.png",
+      "record": "assets/ui/common/modal-shade.png.generation.json",
+      "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d",
+      "recordSha256": "038d76e0329fc8b2a908b5630a4a75d4a0d4262eccacf81e951dd5683698f9cd",
+      "observed": {
+        "width": 8,
+        "height": 8,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            144,
+            144
+          ],
+          "fullyTransparent": 0,
+          "semiTransparent": 64,
+          "opaque": 0,
+          "bbox": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "corners": [
+            144,
+            144,
+            144,
+            144
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "viewport_stretch",
+        "stretchAxes": [
+          "x",
+          "y"
+        ],
+        "reason": "Constant RGBA runtime overlay."
+      },
+      "sources": [],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "table-background",
+      "file": "assets/ui/gameplay/table-background.png",
+      "record": "assets/ui/gameplay/table-background.png.generation.json",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "recordSha256": "597c5c82da0eb7f1fa045e8a53d5e4a4e6d07cf59a16ab4b8220aca78c70907f",
+      "observed": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_cover_or_contain",
+        "stretchAxes": [],
+        "reason": "Preserve table/environment perspective; crop at viewport only if needed."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/table-background-v1.png",
+          "sha256": "c6ca23d0e4e0ec7fed359c2deae5a004a6263b9fb8cf85e7cf0bd0a6b9a8c5ab",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-search",
+      "file": "assets/ui/common/icon-search.png",
+      "record": "assets/ui/common/icon-search.png.generation.json",
+      "sha256": "598b7103601dfa8b05a7b67e970b2f6526a38b35841f409649e31f7248444320",
+      "recordSha256": "1cf706c314d32e8714a851fbac73d75b641bb2b76571e597875698d9252893a1",
+      "observed": {
+        "width": 389,
+        "height": 379,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 79555,
+          "semiTransparent": 31173,
+          "opaque": 36703,
+          "bbox": [
+            8,
+            8,
+            381,
+            371
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-add",
+      "file": "assets/ui/common/icon-add.png",
+      "record": "assets/ui/common/icon-add.png.generation.json",
+      "sha256": "0900e488476226ae5e6ae209c4e20a20563a1695fb3239226814b6fc7f84d07b",
+      "recordSha256": "4da40d9728aa5ac1ee5553ce08e942061c90eb1df370299ba273fd0f55bbcf57",
+      "observed": {
+        "width": 291,
+        "height": 291,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 48612,
+          "semiTransparent": 2500,
+          "opaque": 33569,
+          "bbox": [
+            8,
+            8,
+            283,
+            283
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-delete",
+      "file": "assets/ui/common/icon-delete.png",
+      "record": "assets/ui/common/icon-delete.png.generation.json",
+      "sha256": "c5269ff5f1cb142067ca6a6577aefac58a26837cd73487a365d2f1929a7f5989",
+      "recordSha256": "df368c435d4e8c948352523cd5bfb3882fa729b9d9a9a795731bfe4b24bd6a05",
+      "observed": {
+        "width": 292,
+        "height": 342,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 32487,
+          "semiTransparent": 3924,
+          "opaque": 63453,
+          "bbox": [
+            8,
+            8,
+            284,
+            334
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-voice",
+      "file": "assets/ui/common/icon-voice.png",
+      "record": "assets/ui/common/icon-voice.png.generation.json",
+      "sha256": "511a3f8f9699dcf73cc0ad793d724c8a16aabb75622f3b8bd1a27714e5fee237",
+      "recordSha256": "6086d988eb6e553697bd6aa68998f961961c10eabf841db45964b2a69a9117c6",
+      "observed": {
+        "width": 269,
+        "height": 390,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 50327,
+          "semiTransparent": 6028,
+          "opaque": 48555,
+          "bbox": [
+            8,
+            8,
+            261,
+            382
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-help",
+      "file": "assets/ui/common/icon-help.png",
+      "record": "assets/ui/common/icon-help.png.generation.json",
+      "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7",
+      "recordSha256": "9d38b5adb93e361eba49ab9a122b5c359528104f3dd50b2beb2bc1acfa1668eb",
+      "observed": {
+        "width": 410,
+        "height": 331,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 46428,
+          "semiTransparent": 4184,
+          "opaque": 85098,
+          "bbox": [
+            8,
+            8,
+            402,
+            323
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-lock",
+      "file": "assets/ui/common/icon-lock.png",
+      "record": "assets/ui/common/icon-lock.png.generation.json",
+      "sha256": "3109de9427f383b4f3899b5e92b56a4a487b6597c99d403b46385bc80acb1d43",
+      "recordSha256": "7e8254cfc891ee63327fa0a8333614ca0680bcb532244315c0f4c8702fcc3402",
+      "observed": {
+        "width": 282,
+        "height": 324,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 30302,
+          "semiTransparent": 3714,
+          "opaque": 57352,
+          "bbox": [
+            8,
+            8,
+            274,
+            316
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-copy",
+      "file": "assets/ui/common/icon-copy.png",
+      "record": "assets/ui/common/icon-copy.png.generation.json",
+      "sha256": "b38c1a00011556f29bdd2a840fb0cce0ef6d4440d07cf9bafec4991b9ae65996",
+      "recordSha256": "37cbcb76da6929252032393b8a87547305e4975a443f19f23a900d30e33c30c1",
+      "observed": {
+        "width": 319,
+        "height": 294,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 25944,
+          "semiTransparent": 3050,
+          "opaque": 64792,
+          "bbox": [
+            8,
+            8,
+            311,
+            286
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    },
+    {
+      "id": "icon-confirm",
+      "file": "assets/ui/common/icon-confirm.png",
+      "record": "assets/ui/common/icon-confirm.png.generation.json",
+      "sha256": "0c865dd0fad296a2d879f55c04c8f3755db07ed4b6a32c8a04d1138cb439b437",
+      "recordSha256": "e7133686646b3824df4018280390a1d7cb9133ceb184f1861787cb5bcacdee1a",
+      "observed": {
+        "width": 342,
+        "height": 300,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "range": [
+            0,
+            255
+          ],
+          "fullyTransparent": 64274,
+          "semiTransparent": 2972,
+          "opaque": 35354,
+          "bbox": [
+            8,
+            8,
+            334,
+            292
+          ],
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "transparentPixelHiddenRGBCount": 0,
+        "nonzeroAlphaMargins": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "nineSlice": null,
+      "resizePolicy": {
+        "mode": "uniform_scale_only",
+        "stretchAxes": [],
+        "uniformScaleAllowed": true,
+        "reason": "Preserve central ornaments, pointer, circular shape or icon proportions."
+      },
+      "sources": [
+        {
+          "file": "designs/ui/component-sources/common-extra-icons-v1.png",
+          "sha256": "7f9b9f54c6950e0acc7f4e1e5da0c271e28e44c2f805664fbee16641b59bee20",
+          "declaredHashMatches": true
+        }
+      ],
+      "status": "passed",
+      "issues": []
+    }
+  ],
+  "compositionReferences": [
+    {
+      "location": ".buttonFamilies.primary.normal",
+      "target": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.primary.pressed",
+      "target": "button-primary-pressed",
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.primary.selected",
+      "target": "button-primary-selected",
+      "file": "assets/ui/common/button-primary-selected.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.primary.disabled",
+      "target": "button-primary-disabled",
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.secondary.normal",
+      "target": "button-secondary-normal",
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.secondary.pressed",
+      "target": "button-secondary-pressed",
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.secondary.selected",
+      "target": "button-secondary-selected",
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.secondary.disabled",
+      "target": "button-secondary-disabled",
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.action.normal",
+      "target": "action-button-normal",
+      "file": "assets/ui/gameplay/action-button-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.action.pressed",
+      "target": "action-button-pressed",
+      "file": "assets/ui/gameplay/action-button-pressed.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.action.selected",
+      "target": "action-button-selected",
+      "file": "assets/ui/gameplay/action-button-selected.png",
+      "exists": true
+    },
+    {
+      "location": ".buttonFamilies.action.disabled",
+      "target": "action-button-disabled",
+      "file": "assets/ui/gameplay/action-button-disabled.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.window.frame",
+      "target": "window-frame",
+      "file": "assets/ui/common/window-frame.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.window.fill",
+      "target": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.window.title",
+      "target": "title-plaque",
+      "file": "assets/ui/common/title-plaque.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.window.closeIcon",
+      "target": "icon-close",
+      "file": "assets/ui/common/icon-close.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.tab.normal",
+      "target": "tab-normal",
+      "file": "assets/ui/common/tab-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.tab.selected",
+      "target": "tab-selected",
+      "file": "assets/ui/common/tab-selected.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.tab.pressed.asset",
+      "target": "tab-normal",
+      "file": "assets/ui/common/tab-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.tab.disabled.asset",
+      "target": "tab-normal",
+      "file": "assets/ui/common/tab-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.checkbox.off",
+      "target": "checkbox-off",
+      "file": "assets/ui/common/checkbox-off.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.checkbox.on",
+      "target": "checkbox-on",
+      "file": "assets/ui/common/checkbox-on.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.radio.off",
+      "target": "radio-off",
+      "file": "assets/ui/common/radio-off.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.radio.on",
+      "target": "radio-on",
+      "file": "assets/ui/common/radio-on.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.toggle.track",
+      "target": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.toggle.thumb",
+      "target": "slider-thumb",
+      "file": "assets/ui/common/slider-thumb.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.slider.track",
+      "target": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.slider.thumb",
+      "target": "slider-thumb",
+      "file": "assets/ui/common/slider-thumb.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.scrollbar.track",
+      "target": "scrollbar-track",
+      "file": "assets/ui/common/scrollbar-track.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.scrollbar.thumb",
+      "target": "scrollbar-thumb",
+      "file": "assets/ui/common/scrollbar-thumb.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.progress.track",
+      "target": "slider-track",
+      "file": "assets/ui/common/slider-track.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.progress.fillSkin",
+      "target": "button-primary-normal",
+      "file": "assets/ui/common/button-primary-normal.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.input.skin",
+      "target": "input-field",
+      "file": "assets/ui/common/input-field.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.numericKeypad.keySkin",
+      "target": "keypad-key",
+      "file": "assets/ui/common/keypad-key.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.sixDigitRoomCode.skin",
+      "target": "input-field",
+      "file": "assets/ui/common/input-field.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.tooltip.skin",
+      "target": "tooltip-bubble",
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.unread.skin",
+      "target": "unread-badge",
+      "file": "assets/ui/common/unread-badge.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.loadingOverlay.shade",
+      "target": "modal-shade",
+      "file": "assets/ui/common/modal-shade.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.loadingOverlay.spinner",
+      "target": "loading-ring",
+      "file": "assets/ui/common/loading-ring.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.avatarFrame",
+      "target": "avatar-frame",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.currentPlayerOverlay",
+      "target": "current-player-ring",
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.portraits[0]",
+      "target": "assets/characters/avatar-daotong.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.portraits[1]",
+      "target": "assets/characters/avatar-healer.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.portraits[2]",
+      "target": "assets/characters/avatar-master.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.fourSeats.portraits[3]",
+      "target": "assets/characters/avatar-swordswoman.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.windRound.skin",
+      "target": "wind-round-dial",
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.countdown.skin",
+      "target": "countdown-frame",
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.dealer.skin",
+      "target": "dealer-badge",
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.offline.skin",
+      "target": "offline-badge",
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.autoplay.skin",
+      "target": "autoplay-badge",
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.actionChoices.candidatePanelSkin",
+      "target": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.actionChoices.candidateSelectedSkin",
+      "target": "tab-selected",
+      "file": "assets/ui/common/tab-selected.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.readyHand.skin",
+      "target": "tooltip-bubble",
+      "file": "assets/ui/common/tooltip-bubble.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.readyHand.tiles",
+      "target": "assets/tiles/manifest.json",
+      "exists": true
+    },
+    {
+      "location": ".compositions.settlement.skin",
+      "target": "settlement-card",
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.settlement.avatarFrame",
+      "target": "avatar-frame",
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.dialog.frame",
+      "target": "window-frame",
+      "file": "assets/ui/common/window-frame.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.dialog.fill",
+      "target": "content-card",
+      "file": "assets/ui/common/content-card.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.dialog.title",
+      "target": "title-plaque",
+      "file": "assets/ui/common/title-plaque.png",
+      "exists": true
+    },
+    {
+      "location": ".compositions.dialog.modalShade",
+      "target": "modal-shade",
+      "file": "assets/ui/common/modal-shade.png",
+      "exists": true
+    }
+  ],
+  "supportingAssetRecheck": [
+    {
+      "manifest": "assets/characters/manifest.json",
+      "manifestSha256": "896a22ebde8abcfc7384f6f360a85a217ea7f10df39542855a646d57b35afbba",
+      "assets": [
+        {
+          "id": "welcome-daotong",
+          "file": "assets/characters/welcome-daotong.png",
+          "record": "assets/characters/welcome-daotong.png.generation.json",
+          "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+          "recordSha256": "654938713164bfda72b6bcf457791e800da628f6527682d8e5962f02c31b8857",
+          "observed": {
+            "width": 1536,
+            "height": 1536,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 1568729,
+              "semiTransparent": 31162,
+              "opaque": 759405,
+              "bbox": [
+                199,
+                157,
+                1336,
+                1379
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              199,
+              157,
+              200,
+              157
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "designs/characters/production/welcome-daotong-production-v2.png",
+              "sha256": "1e9aa33f6b44953eec58cc9668861fe221cdf626fc992e8b188cb9ba0f21132e",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "avatar-daotong",
+          "file": "assets/characters/avatar-daotong.png",
+          "record": "assets/characters/avatar-daotong.png.generation.json",
+          "sha256": "54f1abef1f40d2305af5980f192cae6479a8b74fd2e48697d357f28b051e8cdb",
+          "recordSha256": "671683c8b412eb0fc73abd40a899e6e77351b84352d1b902a95b8dfcde079a25",
+          "observed": {
+            "width": 512,
+            "height": 512,
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+              "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "avatar-healer",
+          "file": "assets/characters/avatar-healer.png",
+          "record": "assets/characters/avatar-healer.png.generation.json",
+          "sha256": "e9f72d31cf233ce8b44e84767faaae5d6f3bedb1f58d55ff1cc23fe750a92412",
+          "recordSha256": "20519634b93bf474ac1fd1f5dcb4243d6863ec2d4d74137a3a5f1be3ae387906",
+          "observed": {
+            "width": 512,
+            "height": 512,
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+              "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "avatar-master",
+          "file": "assets/characters/avatar-master.png",
+          "record": "assets/characters/avatar-master.png.generation.json",
+          "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+          "recordSha256": "ce2eb7da3e98bdfa4ef1a7197fee7bab5ece48faec42eb174c553c6f9c55cfdf",
+          "observed": {
+            "width": 512,
+            "height": 512,
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+              "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "avatar-swordswoman",
+          "file": "assets/characters/avatar-swordswoman.png",
+          "record": "assets/characters/avatar-swordswoman.png.generation.json",
+          "sha256": "132c518f30bbae35c648414ac13512f8d42768f1b00928728d1e094b295b518c",
+          "recordSha256": "9a578a478737d3e58be3767f43039cca19821c8bfafdf0479f3d027eec2c7a3a",
+          "observed": {
+            "width": 512,
+            "height": 512,
+            "mode": "RGB",
+            "format": "PNG"
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+              "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        }
+      ]
+    },
+    {
+      "manifest": "assets/tiles/manifest.json",
+      "manifestSha256": "2fd0baf56de9d131c2b12720cce8e190bcbeaae539a36e6acdfcd9d91b0645bc",
+      "assets": [
+        {
+          "id": "wan-1",
+          "file": "assets/tiles/faces/wan-1.png",
+          "record": "assets/tiles/faces/wan-1.png.generation.json",
+          "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+          "recordSha256": "aa839b3b0bb4c746c88e4de8a980f98e58d88195608cc890ebf058cd8bed9bf9",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-2",
+          "file": "assets/tiles/faces/wan-2.png",
+          "record": "assets/tiles/faces/wan-2.png.generation.json",
+          "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+          "recordSha256": "03b401f54e52d858b38886dcc7832237a64280d729f9af74be48e01ea86426b8",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-3",
+          "file": "assets/tiles/faces/wan-3.png",
+          "record": "assets/tiles/faces/wan-3.png.generation.json",
+          "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+          "recordSha256": "a3a2e29dc0c50e7f2c4800b5520a57dd26288ffc79ffe6c46c35b21573f8073f",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-4",
+          "file": "assets/tiles/faces/wan-4.png",
+          "record": "assets/tiles/faces/wan-4.png.generation.json",
+          "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+          "recordSha256": "1abba0e33683e7e7104fb65783e364dcf49bc40df4e01dd28be431f4da80e2f5",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-5",
+          "file": "assets/tiles/faces/wan-5.png",
+          "record": "assets/tiles/faces/wan-5.png.generation.json",
+          "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+          "recordSha256": "8bb2e684b5bcb29cbd394be35d67516901397f5539f4c370a889805fb8d4888e",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-6",
+          "file": "assets/tiles/faces/wan-6.png",
+          "record": "assets/tiles/faces/wan-6.png.generation.json",
+          "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+          "recordSha256": "280257e6c8694771e254e9ff244073414e9840c7be1142a9e3314afef095290d",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-7",
+          "file": "assets/tiles/faces/wan-7.png",
+          "record": "assets/tiles/faces/wan-7.png.generation.json",
+          "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+          "recordSha256": "a0113d5e1b1866f95b392abfca4f213350f1011dd9c4905b162230115aad0b24",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-8",
+          "file": "assets/tiles/faces/wan-8.png",
+          "record": "assets/tiles/faces/wan-8.png.generation.json",
+          "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+          "recordSha256": "20a77f6513789fcce8e46358c44d92479163c32fb0c474975f0febc975631706",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wan-9",
+          "file": "assets/tiles/faces/wan-9.png",
+          "record": "assets/tiles/faces/wan-9.png.generation.json",
+          "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+          "recordSha256": "9b2386ee9d131ff97ced1fae6ded4299325b794023e161bda084f517e7e995b4",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-1",
+          "file": "assets/tiles/faces/tong-1.png",
+          "record": "assets/tiles/faces/tong-1.png.generation.json",
+          "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+          "recordSha256": "b2e0fd06d2aca93ef313b99ba55c0d02ac141b49ddd5d69b8121fc89b9905a82",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-2",
+          "file": "assets/tiles/faces/tong-2.png",
+          "record": "assets/tiles/faces/tong-2.png.generation.json",
+          "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+          "recordSha256": "86c5f80fd6f0a65bc2af6cd43b55296eb168730e12159a0069dd801dabbde0c1",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-3",
+          "file": "assets/tiles/faces/tong-3.png",
+          "record": "assets/tiles/faces/tong-3.png.generation.json",
+          "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+          "recordSha256": "0973add965614e10941c2f14875e6a7537063773c5056df6c5c6f70ae71320ab",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-4",
+          "file": "assets/tiles/faces/tong-4.png",
+          "record": "assets/tiles/faces/tong-4.png.generation.json",
+          "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+          "recordSha256": "0dc59be0c97c62cc7d4612a53dc3471185796dc32368f288dabc2b1ca53f296d",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-5",
+          "file": "assets/tiles/faces/tong-5.png",
+          "record": "assets/tiles/faces/tong-5.png.generation.json",
+          "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+          "recordSha256": "20f854c89d7977576627089ff37b67c4e428a36415e2bce6ce8cedd0476b1160",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-6",
+          "file": "assets/tiles/faces/tong-6.png",
+          "record": "assets/tiles/faces/tong-6.png.generation.json",
+          "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+          "recordSha256": "83b67b17d255dd409638a5f606fa6f8927f0bbdfa21cb23eeb021b3639ee3055",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-7",
+          "file": "assets/tiles/faces/tong-7.png",
+          "record": "assets/tiles/faces/tong-7.png.generation.json",
+          "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+          "recordSha256": "f03b296b2f690964cc1fe97c9a8ba31bab951dfa4ed820bcf0cd154f0cbb1be4",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-8",
+          "file": "assets/tiles/faces/tong-8.png",
+          "record": "assets/tiles/faces/tong-8.png.generation.json",
+          "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+          "recordSha256": "d70a04e6ca91f78455aef1bd7cb185e6e6e1c0c679a800c3893f322b6812e0ee",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tong-9",
+          "file": "assets/tiles/faces/tong-9.png",
+          "record": "assets/tiles/faces/tong-9.png.generation.json",
+          "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+          "recordSha256": "174e38aec90e87e8e31ebfc7daeab94e43bcdde169ee7e4efe40ef4937b06115",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-1",
+          "file": "assets/tiles/faces/tiao-1.png",
+          "record": "assets/tiles/faces/tiao-1.png.generation.json",
+          "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+          "recordSha256": "0a695b86d2476b466ac69cbb5167faae044e7ee85ae7931cb98389fb7da97d95",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-2",
+          "file": "assets/tiles/faces/tiao-2.png",
+          "record": "assets/tiles/faces/tiao-2.png.generation.json",
+          "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+          "recordSha256": "f8fcdef515e586524f7f4e79d04cf872ff5c05cbba8a01d8b53b27861a5dfe29",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-3",
+          "file": "assets/tiles/faces/tiao-3.png",
+          "record": "assets/tiles/faces/tiao-3.png.generation.json",
+          "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+          "recordSha256": "f7022d2529528782eddd0d6006e7e77fd9eb354c4699f02082f2ee63b2b61776",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-4",
+          "file": "assets/tiles/faces/tiao-4.png",
+          "record": "assets/tiles/faces/tiao-4.png.generation.json",
+          "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+          "recordSha256": "271dce7b3cc926db051f3e46dad15401f0dc0e069e7455d05826649b38b8527e",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-5",
+          "file": "assets/tiles/faces/tiao-5.png",
+          "record": "assets/tiles/faces/tiao-5.png.generation.json",
+          "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+          "recordSha256": "3490c36e724d631fd0023fc690d5f3bd9cbba8086e1e75f4e2e612413e743d66",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-6",
+          "file": "assets/tiles/faces/tiao-6.png",
+          "record": "assets/tiles/faces/tiao-6.png.generation.json",
+          "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+          "recordSha256": "c59ac2d7244d1bd607412cf70947f87a47233e66063e6e922b3c84c33e9192e6",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-7",
+          "file": "assets/tiles/faces/tiao-7.png",
+          "record": "assets/tiles/faces/tiao-7.png.generation.json",
+          "sha256": "c238b463958fccf4ce130127e2a1f52111c7fe7942cba836257cc2d67a523a62",
+          "recordSha256": "ccf87bcba32bdb686672acf03d76328721a388aaa6186bb2794c9571305795ba",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-8",
+          "file": "assets/tiles/faces/tiao-8.png",
+          "record": "assets/tiles/faces/tiao-8.png.generation.json",
+          "sha256": "95a27fd4fbc885c87c9d3984bcc9fefc8e75ebf620a2926d32a8fffba4692060",
+          "recordSha256": "8884b4b27ebdf9cca2de991a429f75b71dea7285a5c4292d53f97e3ac9296abe",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tiao-9",
+          "file": "assets/tiles/faces/tiao-9.png",
+          "record": "assets/tiles/faces/tiao-9.png.generation.json",
+          "sha256": "7ba8063ee00305af2f4b1d94418f7f87464c21d07582ca25d69cb5f0fcc4dc87",
+          "recordSha256": "87486a6f6f4d23274d6111c15eb362e53890f7d65aab5ae352bcec42ea866115",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wind-east",
+          "file": "assets/tiles/faces/wind-east.png",
+          "record": "assets/tiles/faces/wind-east.png.generation.json",
+          "sha256": "2723f83ff503861a4add614eab3f0fe82c09766a994d20ecc8fbba7809396476",
+          "recordSha256": "f9c72733db2e52109061563b7386d2869c10f906b30ab8860efdf254dab955b8",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wind-south",
+          "file": "assets/tiles/faces/wind-south.png",
+          "record": "assets/tiles/faces/wind-south.png.generation.json",
+          "sha256": "27dcca17fb90112fcf05a8d6b9a2887b1e22077b8eaa1a1a929b9f8bbedaa069",
+          "recordSha256": "761e58ec792fb574c348e610a0b04632220b1f6e04968863f0ceac30bae29269",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wind-west",
+          "file": "assets/tiles/faces/wind-west.png",
+          "record": "assets/tiles/faces/wind-west.png.generation.json",
+          "sha256": "bc5c4b94ef101eb8d9d253386f2ed3096fffbcd86c91eead7601af8d75968bfb",
+          "recordSha256": "d6834bfd0d0281bc181a78b0f3206894dd7721fc96c0a8d341f260fa568dac9f",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "wind-north",
+          "file": "assets/tiles/faces/wind-north.png",
+          "record": "assets/tiles/faces/wind-north.png.generation.json",
+          "sha256": "54e3b481009dba1cae244f08179ca877505e7a3f8426f8862daf27a624b9fca6",
+          "recordSha256": "4fde05a1a7b771ae595aa17c0ce4ff520fcf0c2a3eee28e6b89698fbb5dd3bfc",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "dragon-red",
+          "file": "assets/tiles/faces/dragon-red.png",
+          "record": "assets/tiles/faces/dragon-red.png.generation.json",
+          "sha256": "d2e84f21eeb3000e620e46adc58b63492333741e585c66c8fde9a60139620f18",
+          "recordSha256": "fbfde165c481315347b3dcf6f3c1537eab724c1ddf8edcfe54e9e99fdc6a580f",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "dragon-green",
+          "file": "assets/tiles/faces/dragon-green.png",
+          "record": "assets/tiles/faces/dragon-green.png.generation.json",
+          "sha256": "7abb6f5b4c13cd0effc319dccc2e9fc2f318b5fbd571707aab3a2a75403e16f7",
+          "recordSha256": "38785a27b3c30da92ebcfda73c201e7ef1dfea35059e2863c784ef1c1052ef39",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "dragon-white",
+          "file": "assets/tiles/faces/dragon-white.png",
+          "record": "assets/tiles/faces/dragon-white.png.generation.json",
+          "sha256": "0cdaf0479317c425f631c8ea9c9ec5bb6142319556c6fb0adf7e190043f5952f",
+          "recordSha256": "8092cef588eef523698975208643a0178ee3aeaf2b1938943d1d17cf3cca8085",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/tile-blank.png",
+              "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tile-blank",
+          "file": "assets/tiles/tile-blank.png",
+          "record": "assets/tiles/tile-blank.png.generation.json",
+          "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+          "recordSha256": "3be80ed668fb8842b00d3429eda5331e02ea6db6525598935e7ab97b9cffb1be",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 30174,
+              "semiTransparent": 2610,
+              "opaque": 253936,
+              "bbox": [
+                8,
+                20,
+                440,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              8,
+              20,
+              8,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/source/tile-blank-v2.png",
+              "sha256": "dc30eb33b88418a4a21bca068366dc46d80ace43e16e1443eb1ba78bdc8f3d67",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tile-back",
+          "file": "assets/tiles/tile-back.png",
+          "record": "assets/tiles/tile-back.png.generation.json",
+          "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+          "recordSha256": "d7a9007a50c8421dacf3968884cfbf9587d9802a49c272fb81a654bde60bfcdf",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 38247,
+              "semiTransparent": 2737,
+              "opaque": 245736,
+              "bbox": [
+                15,
+                20,
+                433,
+                620
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              15,
+              20,
+              15,
+              20
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [
+            {
+              "file": "assets/tiles/source/tile-back-v1.png",
+              "sha256": "b2d63a77db2fe94860ef055f34d0a763ac0cbba8b68e67e2598ba024c7bc4128",
+              "declaredHashMatches": true
+            }
+          ],
+          "status": "passed",
+          "issues": []
+        },
+        {
+          "id": "tile-highlight",
+          "file": "assets/tiles/states/tile-highlight.png",
+          "record": "assets/tiles/states/tile-highlight.png.generation.json",
+          "sha256": "4ff5d2b7deaac8cf55bdebb428100ab00f6fa5e460c0c95eb5f01117128ab3e2",
+          "recordSha256": "fa5c6fc4e6d4eeaf54640ac7f621e667d4847a886f241c227a687fe6cc80d472",
+          "observed": {
+            "width": 448,
+            "height": 640,
+            "mode": "RGBA",
+            "format": "PNG",
+            "alpha": {
+              "range": [
+                0,
+                255
+              ],
+              "fullyTransparent": 264655,
+              "semiTransparent": 6180,
+              "opaque": 15885,
+              "bbox": [
+                1,
+                10,
+                447,
+                629
+              ],
+              "corners": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "transparentPixelHiddenRGBCount": 0,
+            "nonzeroAlphaMargins": [
+              1,
+              10,
+              1,
+              11
+            ]
+          },
+          "nineSlice": null,
+          "resizePolicy": null,
+          "sources": [],
+          "status": "passed",
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "visualReview": {
+    "status": "passed",
+    "method": "Actually opened and inspected all four supplied light/dark contact sheets using view_image. Reused parent independent full 58 PNG visual acceptance for unchanged hashes; checked contact sheet silhouettes, interior transparency and absence of adjacent atlas fragments. Modal shade is an intentional constant-alpha runtime primitive. Table background is an opaque full frame. No new generation was requested.",
+    "previews": [
+      {
+        "file": "work/components/qa/common-light.png",
+        "sha256": "708db8e14ec470e78b7b222fdf220dbe1c6ab4959c2d236fcdbfa61e32166ad7",
+        "dimensions": {
+          "width": 1300,
+          "height": 1935
+        },
+        "actualViewed": true
+      },
+      {
+        "file": "work/components/qa/common-dark.png",
+        "sha256": "0f2d22218b5eeec4a36ca793cd775471d09e33574a4b7b882bb63fbc2c94b7c4",
+        "dimensions": {
+          "width": 1300,
+          "height": 1935
+        },
+        "actualViewed": true
+      },
+      {
+        "file": "work/components/qa/gameplay-light.png",
+        "sha256": "c6ded48dfd9c713a3fdebf39c1b4d47b8e42247157bfa5152f2447cae02481c5",
+        "dimensions": {
+          "width": 1300,
+          "height": 645
+        },
+        "actualViewed": true
+      },
+      {
+        "file": "work/components/qa/gameplay-dark.png",
+        "sha256": "11317c66d2061bc68b1fb2d3fa81120483789385e19fa0ec66dfed21d755c3c0",
+        "dimensions": {
+          "width": 1300,
+          "height": 645
+        },
+        "actualViewed": true
+      }
+    ],
+    "observations": [
+      "45 common skins/icons maintain complete silhouettes on light and dark backgrounds; transparent interior in window-frame and hole-bearing icons is correct.",
+      "12 cutout gameplay elements have intact silhouettes; avatar-frame and current-player-ring retain transparent centers.",
+      "Pressed, selected and disabled button rasters preserve geometry and are visually distinguishable.",
+      "Loading-ring/current-player-ring glow is intentional semi-transparent light, not an opaque matte."
+    ]
+  },
+  "limitations": [
+    "No engine/client integration claimed. Nine-slice stretch behavior is validated by metadata and source appearance, not executed in a client.",
+    "No browser execution: prior file:// request was rejected by browser policy; no alternative browser or server attempted."
+  ],
+  "issues": [],
+  "supportingVisualReview": {
+    "previews": [
+      {
+        "file": "work/characters/welcome-daotong-light-qa.png",
+        "sha256": "7b58ad244465158f10adf9d4158f5e94aaff20f3b5c7ae1b250917221cc271fb",
+        "actualViewed": true,
+        "status": "passed"
+      },
+      {
+        "file": "work/characters/welcome-daotong-dark-qa.png",
+        "sha256": "f406e7ef63ea10eeea500fb1b334e9428463530f98ccb77da4c4ecd79d999976",
+        "actualViewed": true,
+        "status": "passed"
+      },
+      {
+        "file": "assets/tiles/previews/tile-states-alpha.png",
+        "sha256": "b1663779779036be62b77a629863e336afc0a457c4c73ea2e558c0204cc6d317",
+        "actualViewed": true,
+        "status": "passed"
+      },
+      {
+        "file": "assets/tiles/previews/tiles-contact-sheet.png",
+        "sha256": "7e6842021e405d1d36cafe1599d3175b9c0f8620e4de3305e8b76d1f41431a6e",
+        "actualViewed": true,
+        "status": "passed"
+      }
+    ],
+    "observations": [
+      "Final padded welcome-daotong export, not raw generation, retains complete hair, ribbons, hands, feet and costume on light and dark backgrounds.",
+      "Tile contact sheet has 34 distinct identities and clean blank/back; state sheet preserves same identity in highlight, disabled, and 90/180/270 degree rotations."
+    ]
+  },
+  "validationScript": "work/full_ui/component_independent_qa.py",
+  "producerFinalQA": {
+    "file": "assets/ui/qa.json",
+    "sha256": "1f8ea8e105afb18e08295ff8b560d302437c8894fdd915c58b49512226939096",
+    "status": "passed"
+  }
+}

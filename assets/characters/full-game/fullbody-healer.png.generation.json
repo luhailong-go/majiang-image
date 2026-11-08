@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/characters/full-game/fullbody-healer.png",
+  "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+  "exportedAt": "2026-10-26T19:46:44.436401+00:00",
+  "width": 1536,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 1740896,
+    "opaquePixels": 570971,
+    "semiTransparentPixels": 47429,
+    "bbox": [
+      352,
+      163,
+      1184,
+      1373
+    ],
+    "clearMargins": [
+      352,
+      163,
+      352,
+      163
+    ],
+    "borderPixelsAbove8": 0
+  },
+  "derivedFrom": {
+    "file": "designs/characters/full-game/healer-fullbody-native.png",
+    "sha256": "a3f0c3659826356cb06e9ea9dfa7b2458b81f6469e73af519d15985889c044fe",
+    "generationRecord": "designs/characters/full-game/healer-fullbody-native.png.generation.json"
+  },
+  "operation": [
+    {
+      "operation": "technical alpha sanitation",
+      "alphaThreshold": 8,
+      "connectivity": 8,
+      "ownership": "connected subject components on entire source, never equal-grid crop",
+      "removedNonzeroPixels": 29270,
+      "removedPixelsAbove128": 0,
+      "componentCount": 1,
+      "RGBRepainted": false,
+      "promoteAlpha250To255": true,
+      "promotedPixels": 570418
+    },
+    {
+      "operation": "crop transparent margins",
+      "sourceBox": [
+        249,
+        25,
+        1081,
+        1235
+      ]
+    },
+    {
+      "operation": "transparent padding without resampling",
+      "canvas": [
+        1536,
+        1536
+      ],
+      "offset": [
+        352,
+        163
+      ],
+      "nativeDetailUpscaled": false
+    }
+  ],
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "prompts/full-game/characters/healer-fullbody.prompt.txt",
+  "usage": {
+    "identity": "healer",
+    "identityName": "银发医师",
+    "role": "full_body",
+    "expression": null,
+    "anchor": [
+      0.5,
+      0.8938802083333334
+    ],
+    "scaleMode": "uniform contain",
+    "nineSlice": null,
+    "isAnimationFrame": false,
+    "filter": "linear",
+    "alphaMode": "straight RGBA; premultiplied sampling recommended"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "inspection": {
+    "status": "passed",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "deepAndLightComposite": "passed: actual contact-sheet review, plus native full-body and selected 512px expression composites",
+    "silhouette": "complete head, ornaments, ribbons, hands/feet for body; portraits have intentional natural chest cut",
+    "style": "matches supplied Daoist chibi hand-painted references",
+    "identity": "matches unchanged identity avatar",
+    "expressionDistinctness": null,
+    "unresolvedIssues": [],
+    "qaReport": "assets/characters/full-game/qa.json"
+  }
+}

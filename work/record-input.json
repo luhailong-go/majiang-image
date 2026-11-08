@@ -1,0 +1,117 @@
+{
+  "root": "D:/work/majiang-image",
+  "timezone": "America/New_York",
+  "records": [
+    {
+      "file": "designs/characters/welcome-daotong-v1.png",
+      "prompt": "prompts/welcome-daotong-v1.prompt.txt",
+      "source": "C:/Users/luyua/.codex/generated_images/01a1771b-b60a-7292-ba6f-b19399c31175/exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724.png",
+      "id": "exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724",
+      "started": "2026-10-26T07:29:46.547Z",
+      "finished": "2026-10-26T07:32:23.171Z",
+      "transparent": true,
+      "requested": [
+        1536,
+        1536
+      ],
+      "refs": [
+        "references/style/01-mail-event.png",
+        "references/style/team-ui-v2.png",
+        "references/style/mail-banner-character.png"
+      ],
+      "receipt": {
+        "tool": "image_gen.imagegen",
+        "resultKeys": [
+          "image_url",
+          "output_hint"
+        ],
+        "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-13db1ff8-7980-4d2e-8afe-c256b6d7d724.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "observedCompletedAt": "2026-10-26T07:32:23.171Z"
+      },
+      "checks": {
+        "status": "reviewable_direction_draft_with_known_issues",
+        "visualInspectionCompleted": true,
+        "independentVisualReviewCompleted": true,
+        "identity": "通过：短棕刺发、金色发带、圆眼笑脸、米白衣裤、玉绿金边外袍、太极扣与金葫芦均保留。",
+        "anatomy": "通过首稿检查：双手双脚与发带衣摆完整；持牌、扶葫芦动作清楚，未见明显多余肢体或截断。",
+        "text": "通过：麻将牌红色“中”清楚。",
+        "style": "通过首稿检查：道家 Q 版手绘身份与参考一致；新图金饰与发带高光较参考更强。",
+        "alpha": "真实 Alpha 通过；透明边缘清洁度未通过正式入库标准。",
+        "composition": "完整全身；顶部与右侧余量偏紧，未达到提示词中四周 8% 留白目标。",
+        "unresolvedIssues": [
+          {
+            "id": "CHAR-EDGE-01",
+            "severity": "minor_for_concept_blocking_for_production",
+            "description": "发丝、发带、衣缘和鞋边在黑底预览有细碎黄红色噪点，透明区域有少量低 Alpha 杂点；后续入库前需清理并在深浅背景复核。"
+          },
+          {
+            "id": "CHAR-FRAME-01",
+            "severity": "minor_for_concept",
+            "description": "构图偏满，主体距顶部/右侧较近；大厅排布应额外留白。"
+          },
+          {
+            "id": "SIZE-TARGET",
+            "severity": "informational",
+            "description": "工具返回原生 1254×1254，未达到提示词目标1536×1536；未插值放大。"
+          }
+        ]
+      }
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "prompt": "prompts/mahjong-lobby-v1.prompt.txt",
+      "source": "C:/Users/luyua/.codex/generated_images/01a1771b-b60a-7292-ba6f-b19399c31175/exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7.png",
+      "id": "exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7",
+      "started": "2026-10-26T07:34:52.528Z",
+      "finished": "2026-10-26T07:35:54.496Z",
+      "transparent": false,
+      "requested": [
+        2048,
+        1152
+      ],
+      "refs": [
+        "references/style/01-mail-event.png",
+        "references/style/team-ui-v2.png",
+        "references/style/mail-banner-character.png",
+        "designs/characters/welcome-daotong-v1.png"
+      ],
+      "receipt": {
+        "tool": "image_gen.imagegen",
+        "resultKeys": [
+          "image_url",
+          "output_hint"
+        ],
+        "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-ee130c8a-8267-4ce4-8c7a-202ce28a17d7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "observedCompletedAt": "2026-10-26T07:35:54.496Z"
+      },
+      "checks": {
+        "status": "reviewable_direction_draft",
+        "visualInspectionCompleted": true,
+        "independentVisualReviewCompleted": true,
+        "text": "通过：麻将大厅、开始游戏、创建房间、加入房间、设置均清楚正确；牌面中/發/筒符号为装饰，不代表已确定玩法。",
+        "hierarchy": "通过：玉绿金边主按钮突出，米白次要按钮对齐，设置入口独立。",
+        "style": "通过：玉绿、象牙米白、暖金、云纹、明亮仙山庭院和金发带 Q 道童与参考一致。",
+        "character": "通过：保持本批迎宾道童的外观、麻将牌和太极金葫芦，手足完整。",
+        "scope": "通过：未加入正式游戏名、金币价格、地方玩法、计分规则或商业活动。",
+        "composition": "通过首稿检查：约16:9，角色在左、功能面板在右，主次操作清楚；背景与金饰较丰富，后续按用户方向反馈调整。",
+        "unresolvedIssues": [
+          {
+            "id": "SIZE-TARGET",
+            "severity": "informational",
+            "description": "工具返回原生1672×941（1.776833:1），约16:9；并非目标2048×1152或数学上精确16:9。未裁切、拉伸或插值放大。"
+          },
+          {
+            "id": "UI-TILE-01",
+            "severity": "nonblocking_concept_note",
+            "description": "装饰二筒使用旋纹图案；后续正式牌面需单独统一，当前不把概念装饰当作可用牌面素材。"
+          },
+          {
+            "id": "UI-SMALL-SCREEN-01",
+            "severity": "nonblocking_concept_note",
+            "description": "场景细节与标题较醒目，正式交互稿阶段需在目标小屏尺寸复核视觉负担。"
+          }
+        ]
+      }
+    }
+  ]
+}

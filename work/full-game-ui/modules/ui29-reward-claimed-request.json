@@ -1,0 +1,32 @@
+{
+  "job": {
+    "id": "UI29",
+    "slug": "ui29-reward-claimed",
+    "title": "奖励领取 · 已领取",
+    "variant": "claimed",
+    "file": "designs/ui/full-game/modules/ui29-reward-claimed.png",
+    "promptFile": "prompts/full-game/ui/modules/ui29-reward-claimed.prompt.txt",
+    "states": [
+      "reward.claimed",
+      "reward.claim.disabled",
+      "reward.receipt.success",
+      "navigation.back-lobby",
+      "navigation.close"
+    ],
+    "references": [
+      "designs/ui/full-game/modules/ui29-reward-pending.png",
+      "references/style/01-mail-event.png",
+      "references/style/team-ui-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit\nAsset: 已有奖励领取完整屏幕的独立“已领取”状态，保持原1672×941画布比例与精修手绘。\n图1是准确的编辑目标（本项目奖励待领取页）；图2邮件主参考和图3组队主参考仅用于保持材质和道家Q版画法，不能照抄其业务内容。\n只改奖励领取状态，严格保持图1原本的礼盒、头像框×1、收藏徽章×1、两张卡片的位置大小、背景、金边、标题“奖励领取”、关闭X和返回大厅按钮：\n1. 两张奖励卡下面的红色“待领取”都改为玉绿色“已领取”，带小勾即可。不可残留待领取。\n2. 底部左侧原绿色可点击“领取奖励”按钮，改成明显禁用的灰米白按钮，文字仅“已领取”，不可继续点击。\n3. 两张卡与按钮之间的空隙，或按钮正下方原辅助文案位置，清楚写简短成功回执“领取成功”，不要新加大弹窗或新卡片。原辅助说明“奖励内容为展示示例”保留，可调整为与成功回执分行。\n4. “返回大厅”保持米白可用状态。右上X保留。\n此图仅为已领取状态：绝对没有“待领取”或活跃“领取奖励”按钮，不新增奖励或数量、不改变礼盒样式，不画待领/已领对比板。\n保留底部小字“可选通用模块 · 示例数据”。不新增价格、充值、现金、限时或地方玩法。\n输出完整一张不透明PNG整屏，不是局部裁片、缩略图或拼图。"
+  },
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-30c76746-fa98-4790-9f19-e71280ab7bbf.png",
+  "finished": "2026-10-26T17:00:50.461Z",
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b as C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-30c76746-fa98-4790-9f19-e71280ab7bbf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

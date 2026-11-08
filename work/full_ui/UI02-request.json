@@ -1,0 +1,35 @@
+{
+  "file": "designs/ui/full-suite/core/ui02-login.png",
+  "uiId": "UI02",
+  "title": "登录入口",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-e1412087-a137-49fa-85eb-31b11cf0005b.png",
+  "prompt": "prompts/core/ui02-login.prompt.txt",
+  "generatedAt": "2026-10-26T08:19:55.484Z",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格"
+    }
+  ],
+  "coveredStates": [
+    "进入游戏",
+    "账号入口",
+    "协议已勾选",
+    "帮助"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-e1412087-a137-49fa-85eb-31b11cf0005b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

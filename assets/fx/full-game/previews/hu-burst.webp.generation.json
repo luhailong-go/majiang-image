@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/hu-burst.webp",
+  "sha256": "709007aed7cdfcf49770409dee1e32914a5a286d4e655fc99e4264391fa1b9e8",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-00.png",
+      "sha256": "c63a03520755157945a3c1dd8ef2a8e4d7159fe6196f84c903d11618294ed28b",
+      "record": "assets/fx/full-game/frames/hu-burst-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-01.png",
+      "sha256": "597048a175b54710756936f979a1a460bb73fc7b88fbd35fa93cc8901aaa1e7f",
+      "record": "assets/fx/full-game/frames/hu-burst-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-02.png",
+      "sha256": "c91a178599e948fce0024e5cc8f5e49ab39531a8fc795714d1dbc7fa3442969d",
+      "record": "assets/fx/full-game/frames/hu-burst-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/hu-burst-03.png",
+      "sha256": "a36b95edb8fd3aa4bce416c7e702f08d1a2a5a2b5061faedf34be8c970426174",
+      "record": "assets/fx/full-game/frames/hu-burst-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      117,
+      83,
+      133,
+      200
+    ],
+    "loop": false,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

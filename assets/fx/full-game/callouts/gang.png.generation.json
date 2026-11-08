@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/callouts/gang.png",
+  "title": "操作提示：杠",
+  "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f",
+  "generatedAt": "2026-10-26T11:48:40-04:00",
+  "derivedAt": "2026-10-26T11:48:40-04:00",
+  "tool": "generate2dsprite.py process / Pillow deterministic export",
+  "route": "derivative_of_builtin_host_image",
+  "art_source": "host_image_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "原始内置生成未披露可核实型号/质量；本文件是切片或文字合成，不是新模型生成。",
+  "width": 768,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1536,
+    1024
+  ],
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null
+  },
+  "derivedFrom": [
+    {
+      "file": "designs/fx/full-game/callout-plate-v1.png",
+      "sha256": "d4bf88d321f80090763fc7565d9ac38c6cb7f5f4226961a2cdc968ef689673b9",
+      "record": "designs/fx/full-game/callout-plate-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "generated_plaque_plus_deterministic_typesetting",
+    "baseFile": "assets/fx/full-game/callout-base.png",
+    "baseSha256": "8a84af397b17a14718c8f69d7bef9f61b1e4236acb065eb81c495065c90c39fb",
+    "text": "杠",
+    "fontFamily": "KaiTi / 楷体",
+    "fontFileLocal": "C:\\Windows\\Fonts\\simkai.ttf",
+    "fontSha256": "95b3e69321f4e55f6ecf36b29d1e31a0c1205acfde0117df6472a17494c3cbd2",
+    "fontDistributed": false,
+    "fontSizePx": 118,
+    "fill": "#174B3C",
+    "stroke": "warm gold 1px",
+    "targetCenterPx": [
+      384,
+      256
+    ],
+    "sourceToOutputScale": 0.5,
+    "AIgeneratedText": false,
+    "finalAlphaHygiene": {
+      "mode": "both",
+      "floor": 4,
+      "solid_min": 32,
+      "attach_radius": 2,
+      "connectivity": 8,
+      "floor_px": 2261,
+      "detached_px": 0,
+      "detached_components": 0,
+      "max_removed_alpha": 4
+    }
+  },
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "transparentPixels": 280073,
+    "opaquePixels": 4795,
+    "semiTransparentPixels": 108348,
+    "bboxNonzero": [
+      10,
+      151,
+      758,
+      350
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "inspection": {
+    "visualStatus": "passed",
+    "method": "actual exported pixels inspected on deep jade and light ivory backgrounds, complete silhouettes, exact Chinese text; phase progression reviewed",
+    "issues": [],
+    "reviewedAt": "2026-10-26T11:52:29-04:00"
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  },
+  "exactText": "杠"
+}

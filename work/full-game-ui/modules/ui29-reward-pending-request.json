@@ -1,0 +1,33 @@
+{
+  "job": {
+    "id": "UI29",
+    "slug": "ui29-reward-pending",
+    "title": "奖励领取 · 待领取",
+    "variant": "pending_claim",
+    "states": [
+      "reward.pending",
+      "reward.claim.enabled",
+      "reward.no_receipt_yet",
+      "navigation.back-lobby",
+      "navigation.close"
+    ],
+    "body": "画面顶部功能标题“奖励领取”，中央精致米白金边大面板。中间偏上大号手绘玉绿丝带礼盒开启，少量暖金光点，不能出现钱币或现金。礼盒下方并列两张清晰奖励卡：左“头像框 ×1”，图标是玉绿金边圆框；右“收藏徽章 ×1”，图标是玉绿太极徽章。卡片下面是清楚的朱砂状态“待领取”。底部大玉绿金边主按钮“领取奖励”，旁边米白次按钮“返回大厅”。主按钮显示可点击正常态。右上关闭X。辅助小字“奖励内容为展示示例”。这是单一待领态，不出现“已领取”“领取成功”或任何成功勾记；不把另一状态放在同一张页面。不要倒计时、限时活动、日期、连续签到、兑换价格或数值经济。",
+    "prompt": "Use case: ui-mockup\nAsset type: 完整麻将游戏的独立横屏UI美术稿，16:9，目标2048×1152。\n实际输入参考：图1 邮件主UI，图2 组队主UI，图3 本项目完整大厅。请承接同一套道家Q版高清手绘风格：玉绿/青绿标题与主按钮，象牙米白绢纸面板，细暖金边，柔和云纹和如意卷边，明亮仙山庭院。细腻自然明暗，字体清楚工整，装饰适量，充足留白与安全边距，不使用网页扁平风、塑料3D感或粗黑线。单独完整一屏，不是多页总览、拼图、设备模型或设计说明书。\n这只是未确定是否开启的可选通用模块；示例数据不得当真实账户。底部清楚显示小字“可选通用模块 · 示例数据”。不写正式游戏名，不添加现金、充值、价格、商业促销或地方麻将番型。\n中文大字号、少段落，精确按指定文案。所有入口有返回/关闭，状态语义不能自相矛盾。\n画面顶部功能标题“奖励领取”，中央精致米白金边大面板。中间偏上大号手绘玉绿丝带礼盒开启，少量暖金光点，不能出现钱币或现金。礼盒下方并列两张清晰奖励卡：左“头像框 ×1”，图标是玉绿金边圆框；右“收藏徽章 ×1”，图标是玉绿太极徽章。卡片下面是清楚的朱砂状态“待领取”。底部大玉绿金边主按钮“领取奖励”，旁边米白次按钮“返回大厅”。主按钮显示可点击正常态。右上关闭X。辅助小字“奖励内容为展示示例”。这是单一待领态，不出现“已领取”“领取成功”或任何成功勾记；不把另一状态放在同一张页面。不要倒计时、限时活动、日期、连续签到、兑换价格或数值经济。",
+    "file": "designs/ui/full-game/modules/ui29-reward-pending.png",
+    "promptFile": "prompts/full-game/ui/modules/ui29-reward-pending.prompt.txt",
+    "references": [
+      "references/style/01-mail-event.png",
+      "references/style/team-ui-v2.png",
+      "designs/ui/full-suite/core/ui03-lobby-complete.png"
+    ]
+  },
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-f6c38968-178d-490b-b3f7-3c4f134c85f2.png",
+  "finished": "2026-10-26T16:10:27.229Z",
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b as C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-f6c38968-178d-490b-b3f7-3c4f134c85f2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

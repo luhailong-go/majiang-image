@@ -1,0 +1,26 @@
+{
+  "file": "designs/ui/full-game/component-sources/tutorial-reward-icons-v1.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-0b22b141-42cf-4c2e-8626-7f75dbb00fed.png",
+  "title": "教程指引与奖励小图透明母版",
+  "prompt": "prompts/full-game/ui/components/tutorial-reward-icons-v1.prompt.txt",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "transparent": true,
+  "receipt": "work/full-game-ui/components/tutorial-reward-icons-v1-receipt.json",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "role": "primary material, palette and hand-painted UI reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "role": "primary hierarchy, card and selection treatment reference"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "role": "current mahjong lobby continuity"
+    }
+  ]
+}

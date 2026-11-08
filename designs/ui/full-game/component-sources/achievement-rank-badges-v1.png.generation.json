@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 2,
+  "file": "designs/ui/full-game/component-sources/achievement-rank-badges-v1.png",
+  "uiId": null,
+  "title": "成就与排行徽章透明母版",
+  "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+  "generatedAt": "2026-10-26T11:27:08-04:00",
+  "generationTimestampBasis": "客户端观察到工具返回的完成时间",
+  "clientTimezone": "America/New_York",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-998e6e1a-8af9-488b-8fe1-210602915ce8",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "requestedDimensionsInPrompt": [
+    1536,
+    1024
+  ],
+  "resampled": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "promptFile": "prompts/full-game/ui/components/achievement-rank-badges-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "结果提供image_url与output_hint及PNG文件路径；尺寸、格式和Alpha由文件检测。工具未返回可核实模型或质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量。配置目标不是实际版本证明。",
+  "prompt": "prompts/full-game/ui/components/achievement-rank-badges-v1.prompt.txt",
+  "promptSha256": "0cd2544f5acb374cf1de3a2642f5e1e3a6dd0c66c79c60f0aba14fad2f21edca",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "role": "primary material, palette and hand-painted UI reference",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "role": "primary hierarchy, card and selection treatment reference",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "role": "current mahjong lobby continuity",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-998e6e1a-8af9-488b-8fe1-210602915ce8.png",
+    "sha256": "0cf081950fa36d018e7e3cd92d08046af84a504aa32fad5c4f1a7e4c50b21aad",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "alphaStatistics": {
+      "range": [
+        0,
+        254
+      ],
+      "fullyTransparent": 833921,
+      "semiTransparent": 738943,
+      "fullyOpaque": 0,
+      "bbox": [
+        0,
+        9,
+        1520,
+        1024
+      ]
+    },
+    "visualStatus": "passed_as_source_for_mechanical_export",
+    "issues": [],
+    "note": "Final acceptance applies to separately exported transparent sprites; source atlas remains derivation material."
+  },
+  "status": {
+    "stage": "full_ui_art",
+    "userApproved": false,
+    "productionAccepted": false,
+    "clientIntegrated": false
+  },
+  "coveredStates": [],
+  "receipt": "work/full-game-ui/components/achievement-rank-badges-v1-receipt.json",
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

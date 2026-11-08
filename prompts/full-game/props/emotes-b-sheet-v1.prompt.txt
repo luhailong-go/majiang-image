@@ -1,0 +1,10 @@
+Use case: stylized-concept. Asset type: six expressive chat/emote icons, set B, for Daoist chibi Mahjong game.
+Reference images 1 and 2 define the hand-painted jade/ivory/warm-gold Q art. Use that finish; do not copy any people or UI. Draw the same friendly little golden gourd mascot in all six cells: green leaf top, tiny arms, large expressive eyes, small jade sash. No human faces.
+Exact 3-column by 2-row transparent sprite sheet, target3072x2048. One complete gourd emote per equal cell, generous clear spacing, clean true alpha, every attached effect inside cell. No background, grid, labels, words, letters, numbers, checkerboard, diffuse halo or floor shadow.
+Top left SAD/AGGRIEVED: gourd with watery pleading eyes, little downturned mouth and one large tear, holding its hands together gently.
+Top center CHEER ON: enthusiastic gourd pumping a small fist, one tiny red ribbon and warm star.
+Top right WAIT: patient gourd holding a tiny ivory-and-jade sand hourglass, calm neutral expression, no digits.
+Bottom left SORRY: apologetic gourd bowing, hands joined, closed eyes, one tiny sweat drop.
+Bottom center CELEBRATE: joyful gourd lifting both arms, two tiny colored confetti strips and one warm-gold sparkle, restrained effect extent.
+Bottom right HELLO: smiling gourd waving one open hand, friendly welcoming expression.
+Each icon is distinct and readable at 64px. Exquisite soft painted modeling, rounded hand-painted materials, no photorealism or glossy plastic. Mascot is a gourd object, not a human character portrait.

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 3,
+  "status": "passed",
+  "reviewedAt": "2026-10-29T03:56:56.191365+00:00",
+  "reviewer": "root actual native generated image and light/dark composition review",
+  "actualViewed": [
+    {
+      "file": "assets/branding/yunjian-queshe/logo-primary.png",
+      "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671"
+    },
+    {
+      "file": "assets/branding/yunjian-queshe/preview-light-dark.png",
+      "sha256": "102721dd0b08de87d58313da1563ef6720b968061dc142c37c5465a75ba9b642"
+    }
+  ],
+  "text": {
+    "main": "云间雀社",
+    "subtitle": "麻将",
+    "glyphAccuracy": "passed actual visual review",
+    "noReferenceUIWordsCopied": true
+  },
+  "style": "Jade/teal, ivory-gold lettering, rounded clouds, mahjong tiles and Taiji gourd match the actual project references.",
+  "silhouette": "Complete tiles, cloud tips, gourd and tassel; no opaque rectangle or checkerboard; clear silhouette on both actual light/dark composites.",
+  "alpha": {
+    "mode": "RGBA",
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 868773,
+    "nonzeroBelow16": 26937,
+    "visibleSupportAtAlpha16": [
+      41,
+      146,
+      1494,
+      874
+    ],
+    "outerEdgeMaximum": 1,
+    "note": "Native maximum alpha254 is preserved. Only alpha1 residue reaches outer edge (under0.4% opacity); no visible fringe on actual light/dark previews."
+  },
+  "originalNativeBytesPreserved": true,
+  "actualModel": null,
+  "actualQuality": null,
+  "unresolvedFindings": [],
+  "clientIntegrated": false,
+  "userFinalApproval": false,
+  "independentVisualReview": {
+    "reviewer": "logo_name_check",
+    "actualViewed": "assets/branding/yunjian-queshe/preview-light-dark.png",
+    "status": "passed",
+    "findings": "Main 云间雀社 and subtitle 麻将 read correctly; jade/ivory/warm-gold clouds and Taiji gourd match style; no visible fringe, crop or baked background on actual light/dark preview."
+  }
+}

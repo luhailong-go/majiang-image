@@ -1,0 +1,2008 @@
+{
+  "schema": "generate2dsprite.animation_clips.v2",
+  "source_manifest": {
+    "path": "../../../assets/fx/full-game/clips-input.json",
+    "file_sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a",
+    "copy": "source-manifest.json"
+  },
+  "frame_size": [
+    512,
+    512
+  ],
+  "anchor_px": [
+    256,
+    256
+  ],
+  "anchor_semantics": "shared canvas/root origin, often a ground reference; not per-frame visible bottom",
+  "sampling": "linear",
+  "pixel_art": false,
+  "placeholder": false,
+  "art_source": "host_image",
+  "frames": [
+    {
+      "index": 0,
+      "name": "draw-focus-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-00.png",
+        "file_sha256": "8dedf52dca9e7e84269510b5f5903f494c5cea044c33908578e1b43304459d85",
+        "bytes": 41908,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "f3f56e2c5c8c980713cb3cf18aa4a9eb89adbe1bbb5a5fbbf52ae753b752240d",
+      "transparent_pixel_count": 249355,
+      "visible_pixel_count": 12789,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-00.png"
+    },
+    {
+      "index": 1,
+      "name": "draw-focus-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-01.png",
+        "file_sha256": "5de21f4dbab5f14c30e90a11215e5286b95ddc5ac57459964422dfaf25099d68",
+        "bytes": 112541,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "ad9f69edc82c7269cc685f127059e3dd0194f44e3010b22220c86896ed224024",
+      "transparent_pixel_count": 224764,
+      "visible_pixel_count": 37380,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-01.png"
+    },
+    {
+      "index": 2,
+      "name": "draw-focus-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-02.png",
+        "file_sha256": "a4cf5d0b8bbcbe0640077c57668545e6410dc412b29d5a8bebc5cdf1c2b18241",
+        "bytes": 132863,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5263a7d7952d35ef1eb818b5e6bcb4f1e429cf45ece10abd22e7fc1a8b145517",
+      "transparent_pixel_count": 215424,
+      "visible_pixel_count": 46720,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-02.png"
+    },
+    {
+      "index": 3,
+      "name": "draw-focus-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-03.png",
+        "file_sha256": "1461d03a45594a296d8ba960f09570684e51591047b73b7c260634dc008d5e09",
+        "bytes": 77535,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "69df4fe1768126aa85bd5d6937bfcf3f11534cdcbadcb9976a6fd5ce5c222d83",
+      "transparent_pixel_count": 237858,
+      "visible_pixel_count": 24286,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-03.png"
+    },
+    {
+      "index": 4,
+      "name": "discard-impact-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-00.png",
+        "file_sha256": "7856945a8a01adfd31822109c448ee38b9d8ebb07fe619d4604b0f5a868305a1",
+        "bytes": 26656,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "c80256f4444efa9c411ed182ca8dc0b9f47fa806d7466b083598f7d7cc49d8d7",
+      "transparent_pixel_count": 253594,
+      "visible_pixel_count": 8550,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-04.png"
+    },
+    {
+      "index": 5,
+      "name": "discard-impact-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-01.png",
+        "file_sha256": "ab73b8de1d0baf5cc512cbde9ef4f88c5dce1061a9971afbfefd6ae304492dc3",
+        "bytes": 62929,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "5b647dd3dd5ec0f54c0dabe360d82850a53dd567c480990d27954ec842c609ac",
+      "transparent_pixel_count": 239437,
+      "visible_pixel_count": 22707,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-05.png"
+    },
+    {
+      "index": 6,
+      "name": "discard-impact-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-02.png",
+        "file_sha256": "d762da3b012beb381cad47e8b79ccddf2ec71dfea8323c01e80042a1f011169c",
+        "bytes": 90894,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3b1c5dd879e5b1069705524de6c311b0590d2b36e96adb8603fbb824ab293740",
+      "transparent_pixel_count": 229924,
+      "visible_pixel_count": 32220,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-06.png"
+    },
+    {
+      "index": 7,
+      "name": "discard-impact-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-03.png",
+        "file_sha256": "0be148d491e86c76f53a04e4e1b5e8e42900b760c86715c07df04b0944e8d112",
+        "bytes": 69267,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "fb62c79e99a002cf39bf8bba7345991557f88e9f868c5b8d9decf4cbf38c9524",
+      "transparent_pixel_count": 240690,
+      "visible_pixel_count": 21454,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-07.png"
+    },
+    {
+      "index": 8,
+      "name": "player-ring-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/player-ring-00.png",
+        "file_sha256": "747fecb8142d2e947570315d52ac8412debec4a75899ed33ac3191ba86c1e8ed",
+        "bytes": 60295,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "363b3f64316edc16d02d7800c2ee43378d59490b67f36100de9572546e773e9d",
+      "transparent_pixel_count": 245872,
+      "visible_pixel_count": 16272,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-08.png"
+    },
+    {
+      "index": 9,
+      "name": "player-ring-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/player-ring-01.png",
+        "file_sha256": "cad0bf61c2551afffa85d42c26c66073edb453cb390001a0ae2906dea956f210",
+        "bytes": 61386,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7d0aa25c0ac66d4ac7494b67452984e27dc3ab725b1dfc34bb9caecabbd3f151",
+      "transparent_pixel_count": 245323,
+      "visible_pixel_count": 16821,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-09.png"
+    },
+    {
+      "index": 10,
+      "name": "player-ring-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/player-ring-02.png",
+        "file_sha256": "145228e7b6eab3dbe2a827ad5362e2b7a78d734ceb5c3067fa62693d783df2f4",
+        "bytes": 62448,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "4a2b115250fb51179d331905dcfb185c0bb1625679aed3ccf27298337595d21c",
+      "transparent_pixel_count": 244852,
+      "visible_pixel_count": 17292,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-10.png"
+    },
+    {
+      "index": 11,
+      "name": "player-ring-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/player-ring-03.png",
+        "file_sha256": "eec9a1bab88826dcdbea28726483c0c16dbf8680c71a4a5ad13eace7c4ea992c",
+        "bytes": 60537,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7947e5b8498391be58b639cfb17f5b4212150ad4e693fa84eaefbfc19cb95713",
+      "transparent_pixel_count": 245677,
+      "visible_pixel_count": 16467,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-11.png"
+    },
+    {
+      "index": 12,
+      "name": "hu-burst-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-00.png",
+        "file_sha256": "adb5dc16ade4cdaf0a6482367695bdb6f5f32d6150674b7b1bdf432aff740f22",
+        "bytes": 42855,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "804ef3024edeb15cd9612809e22fc9a64911d9a93dc71d440419701b8a8a3dd8",
+      "transparent_pixel_count": 248847,
+      "visible_pixel_count": 13297,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-12.png"
+    },
+    {
+      "index": 13,
+      "name": "hu-burst-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-01.png",
+        "file_sha256": "6aa590a3fb7391232b2489e83611a5428888477934c5b74d2e1e90cce98f6058",
+        "bytes": 94396,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "7f3f2ba4dd5fb867409bc479230d7fb24d699cea6f3555228abd1c347f4c8277",
+      "transparent_pixel_count": 231314,
+      "visible_pixel_count": 30830,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-13.png"
+    },
+    {
+      "index": 14,
+      "name": "hu-burst-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-02.png",
+        "file_sha256": "f8f40d6ae250d1fcea93690a32c33120b6f4a2b2e801f608cd859619b3ca3a73",
+        "bytes": 132007,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "231b45cd364189e99571e45ac7e5fecbf01ce69f2bd6bdf6e0581301fcad84e8",
+      "transparent_pixel_count": 218597,
+      "visible_pixel_count": 43547,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-14.png"
+    },
+    {
+      "index": 15,
+      "name": "hu-burst-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-03.png",
+        "file_sha256": "a267585be83dc35b3d547c5622e166dfd01277a82039187c24ba494c25450960",
+        "bytes": 106590,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3e69a6b74c53a3ff4f4af4350ac885971d64b56fdca3f1c1c58ab440463cb7b4",
+      "transparent_pixel_count": 228316,
+      "visible_pixel_count": 33828,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-15.png"
+    },
+    {
+      "index": 16,
+      "name": "victory-confetti-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-00.png",
+        "file_sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+        "bytes": 30478,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "2fcb1359da452dbcf352b3adbdfb5fb20caa12485a2dbaeb150bcd7fb47a5222",
+      "transparent_pixel_count": 254936,
+      "visible_pixel_count": 7208,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-16.png"
+    },
+    {
+      "index": 17,
+      "name": "victory-confetti-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-01.png",
+        "file_sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+        "bytes": 70577,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "ffc1b285ecc7430c31f2b04c9d6ccf79faf8974eafcba34075a75d6552f0358a",
+      "transparent_pixel_count": 244201,
+      "visible_pixel_count": 17943,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-17.png"
+    },
+    {
+      "index": 18,
+      "name": "victory-confetti-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-02.png",
+        "file_sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+        "bytes": 72275,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "323dae24500168b05bc17d5315f9f08d707911744eadd5fde6d5b163a9fdabff",
+      "transparent_pixel_count": 244183,
+      "visible_pixel_count": 17961,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-18.png"
+    },
+    {
+      "index": 19,
+      "name": "victory-confetti-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-03.png",
+        "file_sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+        "bytes": 41317,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3098c62f68becf9e8848da64343f3e54966e5c3fc93e91a5ca7b00e8539737c3",
+      "transparent_pixel_count": 252696,
+      "visible_pixel_count": 9448,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-19.png"
+    },
+    {
+      "index": 20,
+      "name": "reward-stars-00",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-00.png",
+        "file_sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+        "bytes": 16051,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "34201cf872375f178242a4c337a1866ffc022deb69999e28beed4f7deb4aa35a",
+      "transparent_pixel_count": 257431,
+      "visible_pixel_count": 4713,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-20.png"
+    },
+    {
+      "index": 21,
+      "name": "reward-stars-01",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-01.png",
+        "file_sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+        "bytes": 92427,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "3e0bcedf250a400405f6df3d478a35a3addc4d8d2b1e6f520f096cb005a2498d",
+      "transparent_pixel_count": 231808,
+      "visible_pixel_count": 30336,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-21.png"
+    },
+    {
+      "index": 22,
+      "name": "reward-stars-02",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-02.png",
+        "file_sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+        "bytes": 81855,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "6684398362d0b39827adc783d1a63abb0133c80e74279ee0a87fc1c81a3c0a6d",
+      "transparent_pixel_count": 235673,
+      "visible_pixel_count": 26471,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-22.png"
+    },
+    {
+      "index": 23,
+      "name": "reward-stars-03",
+      "source": {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-03.png",
+        "file_sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+        "bytes": 59617,
+        "size": [
+          512,
+          512
+        ],
+        "mode": "RGBA"
+      },
+      "rgba_pixel_sha256": "580661b31cb1a8025655752f26b02af3acb75608d1271545d8ee886d2888ce5d",
+      "transparent_pixel_count": 243193,
+      "visible_pixel_count": 18951,
+      "near_duplicates": [],
+      "holds": [],
+      "file": "frames/frame-23.png"
+    }
+  ],
+  "clips": {
+    "draw-focus": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "duration_ms": [
+        83,
+        84,
+        116,
+        117
+      ],
+      "loop": false,
+      "total_duration_ms": 400,
+      "nominal_fps": null,
+      "average_fps": 10.0,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 167,
+          "at": 2,
+          "position": 2,
+          "at_tick": 10
+        },
+        {
+          "name": "end",
+          "at_ms": 283,
+          "at": 3,
+          "position": 3,
+          "at_tick": 17
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          5,
+          5,
+          7,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 24.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-00.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 83,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 83,
+            "duration_ms": 84,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 167,
+            "duration_ms": 116,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 283,
+            "duration_ms": 117,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 400,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "4881a85011d666d1b5e66148eb2e365adc3b5e6059f652ba8af69605f23787a8"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 12.043259,
+          "alpha_mae": 17.161053,
+          "changed_visible_pixels": 37935
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 15.788643,
+          "alpha_mae": 20.916786,
+          "changed_visible_pixels": 48936
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 17.335905,
+          "alpha_mae": 23.722855,
+          "changed_visible_pixels": 48356
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 8.320015,
+        "alpha_mae": 11.614201,
+        "changed_visible_pixels": 31633
+      }
+    },
+    "discard-impact": {
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "duration_ms": [
+        67,
+        66,
+        84,
+        116
+      ],
+      "loop": false,
+      "total_duration_ms": 333,
+      "nominal_fps": null,
+      "average_fps": 12.012012012012011,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 133,
+          "at": 2,
+          "position": 2,
+          "at_tick": 8
+        },
+        {
+          "name": "end",
+          "at_ms": 217,
+          "at": 3,
+          "position": 3,
+          "at_tick": 13
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          4,
+          4,
+          5,
+          7
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 19.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-01.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 67,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 67,
+            "duration_ms": 66,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 133,
+            "duration_ms": 84,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 217,
+            "duration_ms": 116,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 333,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "ddbb1b2c01d28d8a13ee8911bb6e994a714b1d1424d19bf64b6f5596127d9679"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 9.683436,
+          "alpha_mae": 12.150883,
+          "changed_visible_pixels": 22707
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 12.939049,
+          "alpha_mae": 15.390347,
+          "changed_visible_pixels": 33895
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 13.468341,
+          "alpha_mae": 16.388268,
+          "changed_visible_pixels": 34739
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 14.111934,
+        "alpha_mae": 19.833145,
+        "changed_visible_pixels": 29608
+      }
+    },
+    "player-ring": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "duration_ms": [
+        167,
+        166,
+        167,
+        167
+      ],
+      "loop": true,
+      "total_duration_ms": 667,
+      "nominal_fps": 6.0,
+      "average_fps": 5.997001499250374,
+      "loop_policy": "cycle",
+      "timing_source": "ticks",
+      "ticks": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "tick_hz": 60,
+      "fps_rational": "6/1",
+      "events_ms": [],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "zero_tick_positions": [],
+        "even": true,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "seam": {
+        "frames": 4,
+        "seam": 2.788775,
+        "adjacent_median": 2.545674,
+        "adjacent_p95": 3.153063,
+        "adjacent_max": 3.220551,
+        "seam_over_median": 1.095496,
+        "seam_over_p95": 0.884465,
+        "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+        "adjacent_mean": 2.761399,
+        "wrap_ratio": 1.009914
+      },
+      "preview": {
+        "file": "clips/clip-02.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 167,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 167,
+            "duration_ms": 166,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 333,
+            "duration_ms": 167,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 500,
+            "duration_ms": 167,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 667,
+        "native_loop_count": 0,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "0630df7dbea45a800081cae289a6adf0baf27b2e35692a814b1c357a8b35b1a5"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 2.805313,
+          "alpha_mae": 1.766754,
+          "changed_visible_pixels": 19371
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 3.475956,
+          "alpha_mae": 2.454334,
+          "changed_visible_pixels": 20368
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 2.71695,
+          "alpha_mae": 1.921043,
+          "changed_visible_pixels": 20002
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": true,
+        "premultiplied_rgb_mae": 3.038082,
+        "alpha_mae": 2.040852,
+        "changed_visible_pixels": 19107
+      }
+    },
+    "hu-burst": {
+      "frames": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "duration_ms": [
+        117,
+        83,
+        133,
+        200
+      ],
+      "loop": false,
+      "total_duration_ms": 533,
+      "nominal_fps": null,
+      "average_fps": 7.5046904315197,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        7,
+        5,
+        8,
+        12
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2,
+          "at_tick": 12
+        },
+        {
+          "name": "end",
+          "at_ms": 333,
+          "at": 3,
+          "position": 3,
+          "at_tick": 20
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          7,
+          5,
+          8,
+          12
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 31.98,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-03.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 117,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 117,
+            "duration_ms": 83,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 200,
+            "duration_ms": 133,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 333,
+            "duration_ms": 200,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 533,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "f86d48de85ef64bc8fb48505d03c559e2d5288a6a2c32a7445f0c0a778b8846b"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 12.358337,
+          "alpha_mae": 15.327412,
+          "changed_visible_pixels": 30966
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 16.224648,
+          "alpha_mae": 19.108665,
+          "changed_visible_pixels": 45146
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 20.582207,
+          "alpha_mae": 25.88213,
+          "changed_visible_pixels": 46727
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 15.887769,
+        "alpha_mae": 21.240204,
+        "changed_visible_pixels": 39962
+      }
+    },
+    "victory-confetti": {
+      "frames": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "duration_ms": [
+        133,
+        134,
+        166,
+        234
+      ],
+      "loop": false,
+      "total_duration_ms": 667,
+      "nominal_fps": null,
+      "average_fps": 5.997001499250374,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        8,
+        8,
+        10,
+        14
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 267,
+          "at": 2,
+          "position": 2,
+          "at_tick": 16
+        },
+        {
+          "name": "end",
+          "at_ms": 433,
+          "at": 3,
+          "position": 3,
+          "at_tick": 26
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.333,
+        "frame_ticks": [
+          8,
+          8,
+          10,
+          14
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 40.02,
+        "cycle_aligned": false,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-04.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 133,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 133,
+            "duration_ms": 134,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 267,
+            "duration_ms": 166,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 433,
+            "duration_ms": 234,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 667,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "09d19f9c4e6b4f273ad7b61adf1ab7839dd89336fed60cc1d643c3d036ed011c"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 7.373792,
+          "alpha_mae": 10.495857,
+          "changed_visible_pixels": 20430
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 10.606422,
+          "alpha_mae": 14.317833,
+          "changed_visible_pixels": 29245
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 8.795468,
+          "alpha_mae": 12.418308,
+          "changed_visible_pixels": 23933
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 5.183023,
+        "alpha_mae": 7.759861,
+        "changed_visible_pixels": 14358
+      }
+    },
+    "reward-stars": {
+      "frames": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "duration_ms": [
+        100,
+        100,
+        150,
+        250
+      ],
+      "loop": false,
+      "total_duration_ms": 600,
+      "nominal_fps": null,
+      "average_fps": 6.666666666666667,
+      "loop_policy": "oneshot",
+      "timing_source": "ticks",
+      "ticks": [
+        6,
+        6,
+        9,
+        15
+      ],
+      "tick_hz": 60,
+      "events_ms": [
+        {
+          "name": "in",
+          "at_ms": 0,
+          "at": 0,
+          "position": 0,
+          "at_tick": 0
+        },
+        {
+          "name": "impact",
+          "at_ms": 200,
+          "at": 2,
+          "position": 2,
+          "at_tick": 12
+        },
+        {
+          "name": "end",
+          "at_ms": 350,
+          "at": 3,
+          "position": 3,
+          "at_tick": 21
+        }
+      ],
+      "role": "fx",
+      "tick_grid": {
+        "hz": 60,
+        "max_drift_ms": 0.0,
+        "frame_ticks": [
+          6,
+          6,
+          9,
+          15
+        ],
+        "zero_tick_positions": [],
+        "even": false,
+        "cycle_ticks": 36.0,
+        "cycle_aligned": true,
+        "method": "cumulative integer-ms frame boundaries rounded half-up to the nearest tick"
+      },
+      "holds": [],
+      "preview": {
+        "file": "clips/clip-05.webp",
+        "decoded_frames": [
+          {
+            "index": 0,
+            "start_ms": 0,
+            "duration_ms": 100,
+            "clip_positions": [
+              0
+            ]
+          },
+          {
+            "index": 1,
+            "start_ms": 100,
+            "duration_ms": 100,
+            "clip_positions": [
+              1
+            ]
+          },
+          {
+            "index": 2,
+            "start_ms": 200,
+            "duration_ms": 150,
+            "clip_positions": [
+              2
+            ]
+          },
+          {
+            "index": 3,
+            "start_ms": 350,
+            "duration_ms": 250,
+            "clip_positions": [
+              3
+            ]
+          }
+        ],
+        "decoded_frame_count": 4,
+        "total_duration_ms": 600,
+        "native_loop_count": 1,
+        "timeline_verified": true,
+        "alpha_and_visible_rgb_exact": true,
+        "hidden_rgb_guaranteed": false,
+        "lossless": true,
+        "file_sha256": "bcb14dcd73be21ae58c64261290b7b19c6530d1ede01730c0d9bd569b59ab774"
+      },
+      "transitions": [
+        {
+          "from_position": 0,
+          "to_position": 1,
+          "premultiplied_rgb_mae": 8.377697,
+          "alpha_mae": 12.333145,
+          "changed_visible_pixels": 31703
+        },
+        {
+          "from_position": 1,
+          "to_position": 2,
+          "premultiplied_rgb_mae": 12.286095,
+          "alpha_mae": 17.356022,
+          "changed_visible_pixels": 40328
+        },
+        {
+          "from_position": 2,
+          "to_position": 3,
+          "premultiplied_rgb_mae": 7.66221,
+          "alpha_mae": 10.550762,
+          "changed_visible_pixels": 27180
+        }
+      ],
+      "last_to_first": {
+        "applies_to_playback": false,
+        "premultiplied_rgb_mae": 4.445732,
+        "alpha_mae": 6.257835,
+        "changed_visible_pixels": 23597
+      }
+    }
+  },
+  "states": {
+    "draw-focus": "draw-focus",
+    "discard-impact": "discard-impact",
+    "player-ring": "player-ring",
+    "hu-burst": "hu-burst",
+    "victory-confetti": "victory-confetti",
+    "reward-stars": "reward-stars"
+  },
+  "diagnostics": {
+    "visible_pixel_duplicate_groups": [],
+    "visual_approval": false,
+    "note": "Pixel differences and duplicates do not establish animation quality or physical root stability.",
+    "near_duplicate_mae": 1.5,
+    "near_duplicate_pairs": [],
+    "tick_hz": 60,
+    "lint": []
+  },
+  "contact_sheet": {
+    "file": "contact-sheet.png",
+    "native_scale": true,
+    "scale": 1,
+    "requested_scale": 1,
+    "annotated_with_shared_root": true,
+    "not_a_runtime_atlas": true,
+    "file_sha256": "1318a0db4e7d5e24a2522a6e0fa5649ea180164cb4f6865cbb05111633a1d872"
+  },
+  "review": {
+    "scale": 1,
+    "requested_scale": 1,
+    "backgrounds": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "filmstrips": {
+      "draw-focus": {
+        "file": "review/filmstrip-00.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "discard-impact": {
+        "file": "review/filmstrip-01.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "player-ring": {
+        "file": "review/filmstrip-02.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "hu-burst": {
+        "file": "review/filmstrip-03.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "victory-confetti": {
+        "file": "review/filmstrip-04.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "reward-stars": {
+        "file": "review/filmstrip-05.png",
+        "backgrounds": [
+          "light",
+          "dark",
+          "checker"
+        ],
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "onion": {
+      "draw-focus": {
+        "file": "review/onion-00.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "discard-impact": {
+        "file": "review/onion-01.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "player-ring": {
+        "file": "review/onion-02.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "hu-burst": {
+        "file": "review/onion-03.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "victory-confetti": {
+        "file": "review/onion-04.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      },
+      "reward-stars": {
+        "file": "review/onion-05.png",
+        "background": "checker",
+        "positions_shown": 4,
+        "truncated": false
+      }
+    },
+    "transitions": [],
+    "turn_test": {
+      "file": "review/turn-test.png",
+      "background": "dark",
+      "anchor_mark_rgb": [
+        255,
+        220,
+        80
+      ],
+      "cells": [
+        {
+          "clip": "draw-focus",
+          "frame": 0,
+          "anchor_screen_x": 264,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 55.0
+        },
+        {
+          "clip": "discard-impact",
+          "frame": 4,
+          "anchor_screen_x": 792,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 2.0
+        },
+        {
+          "clip": "player-ring",
+          "frame": 8,
+          "anchor_screen_x": 1320,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 1.0
+        },
+        {
+          "clip": "hu-burst",
+          "frame": 12,
+          "anchor_screen_x": 1848,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 13.0
+        },
+        {
+          "clip": "victory-confetti",
+          "frame": 16,
+          "anchor_screen_x": 2376,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 29.0
+        },
+        {
+          "clip": "reward-stars",
+          "frame": 20,
+          "anchor_screen_x": 2904,
+          "rows": [
+            [
+              32,
+              544
+            ],
+            [
+              560,
+              1072
+            ]
+          ],
+          "mirrored_offset_px": 0,
+          "turn_slide_px": 23.0
+        }
+      ],
+      "clips_shown": 6,
+      "truncated": false
+    }
+  },
+  "processing": {
+    "source_pngs_byte_identical": true,
+    "resized": false,
+    "cropped": false,
+    "per_frame_alignment": false,
+    "chroma_keyed": false
+  },
+  "alpha_validation": "Every input has fully transparent and visible pixels; edge quality still requires visual review.",
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Frame PNGs are byte copies (sha256 checked); each WebP preview is decoded and its timing, alpha and visible RGB compared with the source frames; tick grid = cumulative integer-ms boundaries rounded to the nearest tick; holds = repeated indices or premultiplied union-visible MAE <= 1.5; seams = forge_core.seam_report with wrap_ratio = seam / mean adjacent step; telegraph = tell -> hit in 60 Hz ticks.",
+    "notProven": [
+      "animation quality, gait, anatomy or identity",
+      "physical root stability or foot contact (anchor_px is declared, not measured)",
+      "runtime playback on a device (previews are verified files, not a game loop)",
+      "that near-duplicate thresholds suit every art style (heuristic)"
+    ],
+    "checks": [
+      {
+        "id": "png_byte_copy",
+        "status": "pass",
+        "value": 24,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 6,
+        "threshold": null
+      },
+      {
+        "id": "tick_grid",
+        "status": "pass",
+        "value": 0.333,
+        "threshold": null
+      },
+      {
+        "id": "telegraph",
+        "threshold": 28,
+        "status": "skipped",
+        "value": null
+      },
+      {
+        "id": "near_duplicate_holds",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.009914,
+        "threshold": null
+      },
+      {
+        "id": "manifest_lint",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../../../assets/fx/full-game/clips-input.json",
+        "sha256": "445db73c84a0e3014df6ec0b5421e6343b90f3ec2ba86d733553b4b89feab69a",
+        "bytes": 3939
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-00.png",
+        "sha256": "8dedf52dca9e7e84269510b5f5903f494c5cea044c33908578e1b43304459d85",
+        "bytes": 41908
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-01.png",
+        "sha256": "5de21f4dbab5f14c30e90a11215e5286b95ddc5ac57459964422dfaf25099d68",
+        "bytes": 112541
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-02.png",
+        "sha256": "a4cf5d0b8bbcbe0640077c57668545e6410dc412b29d5a8bebc5cdf1c2b18241",
+        "bytes": 132863
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/draw-focus-03.png",
+        "sha256": "1461d03a45594a296d8ba960f09570684e51591047b73b7c260634dc008d5e09",
+        "bytes": 77535
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-00.png",
+        "sha256": "7856945a8a01adfd31822109c448ee38b9d8ebb07fe619d4604b0f5a868305a1",
+        "bytes": 26656
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-01.png",
+        "sha256": "ab73b8de1d0baf5cc512cbde9ef4f88c5dce1061a9971afbfefd6ae304492dc3",
+        "bytes": 62929
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-02.png",
+        "sha256": "d762da3b012beb381cad47e8b79ccddf2ec71dfea8323c01e80042a1f011169c",
+        "bytes": 90894
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/discard-impact-03.png",
+        "sha256": "0be148d491e86c76f53a04e4e1b5e8e42900b760c86715c07df04b0944e8d112",
+        "bytes": 69267
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/player-ring-00.png",
+        "sha256": "747fecb8142d2e947570315d52ac8412debec4a75899ed33ac3191ba86c1e8ed",
+        "bytes": 60295
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/player-ring-01.png",
+        "sha256": "cad0bf61c2551afffa85d42c26c66073edb453cb390001a0ae2906dea956f210",
+        "bytes": 61386
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/player-ring-02.png",
+        "sha256": "145228e7b6eab3dbe2a827ad5362e2b7a78d734ceb5c3067fa62693d783df2f4",
+        "bytes": 62448
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/player-ring-03.png",
+        "sha256": "eec9a1bab88826dcdbea28726483c0c16dbf8680c71a4a5ad13eace7c4ea992c",
+        "bytes": 60537
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-00.png",
+        "sha256": "adb5dc16ade4cdaf0a6482367695bdb6f5f32d6150674b7b1bdf432aff740f22",
+        "bytes": 42855
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-01.png",
+        "sha256": "6aa590a3fb7391232b2489e83611a5428888477934c5b74d2e1e90cce98f6058",
+        "bytes": 94396
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-02.png",
+        "sha256": "f8f40d6ae250d1fcea93690a32c33120b6f4a2b2e801f608cd859619b3ca3a73",
+        "bytes": 132007
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/hu-burst-03.png",
+        "sha256": "a267585be83dc35b3d547c5622e166dfd01277a82039187c24ba494c25450960",
+        "bytes": 106590
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-00.png",
+        "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+        "bytes": 30478
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-01.png",
+        "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+        "bytes": 70577
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-02.png",
+        "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+        "bytes": 72275
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/victory-confetti-03.png",
+        "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+        "bytes": 41317
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-00.png",
+        "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+        "bytes": 16051
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-01.png",
+        "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+        "bytes": 92427
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-02.png",
+        "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+        "bytes": 81855
+      },
+      {
+        "path": "../../../assets/fx/full-game/frames/reward-stars-03.png",
+        "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+        "bytes": 59617
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "8dedf52dca9e7e84269510b5f5903f494c5cea044c33908578e1b43304459d85",
+        "bytes": 41908
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "5de21f4dbab5f14c30e90a11215e5286b95ddc5ac57459964422dfaf25099d68",
+        "bytes": 112541
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "a4cf5d0b8bbcbe0640077c57668545e6410dc412b29d5a8bebc5cdf1c2b18241",
+        "bytes": 132863
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "1461d03a45594a296d8ba960f09570684e51591047b73b7c260634dc008d5e09",
+        "bytes": 77535
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "7856945a8a01adfd31822109c448ee38b9d8ebb07fe619d4604b0f5a868305a1",
+        "bytes": 26656
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "ab73b8de1d0baf5cc512cbde9ef4f88c5dce1061a9971afbfefd6ae304492dc3",
+        "bytes": 62929
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "d762da3b012beb381cad47e8b79ccddf2ec71dfea8323c01e80042a1f011169c",
+        "bytes": 90894
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "0be148d491e86c76f53a04e4e1b5e8e42900b760c86715c07df04b0944e8d112",
+        "bytes": 69267
+      },
+      {
+        "path": "frames/frame-08.png",
+        "sha256": "747fecb8142d2e947570315d52ac8412debec4a75899ed33ac3191ba86c1e8ed",
+        "bytes": 60295
+      },
+      {
+        "path": "frames/frame-09.png",
+        "sha256": "cad0bf61c2551afffa85d42c26c66073edb453cb390001a0ae2906dea956f210",
+        "bytes": 61386
+      },
+      {
+        "path": "frames/frame-10.png",
+        "sha256": "145228e7b6eab3dbe2a827ad5362e2b7a78d734ceb5c3067fa62693d783df2f4",
+        "bytes": 62448
+      },
+      {
+        "path": "frames/frame-11.png",
+        "sha256": "eec9a1bab88826dcdbea28726483c0c16dbf8680c71a4a5ad13eace7c4ea992c",
+        "bytes": 60537
+      },
+      {
+        "path": "frames/frame-12.png",
+        "sha256": "adb5dc16ade4cdaf0a6482367695bdb6f5f32d6150674b7b1bdf432aff740f22",
+        "bytes": 42855
+      },
+      {
+        "path": "frames/frame-13.png",
+        "sha256": "6aa590a3fb7391232b2489e83611a5428888477934c5b74d2e1e90cce98f6058",
+        "bytes": 94396
+      },
+      {
+        "path": "frames/frame-14.png",
+        "sha256": "f8f40d6ae250d1fcea93690a32c33120b6f4a2b2e801f608cd859619b3ca3a73",
+        "bytes": 132007
+      },
+      {
+        "path": "frames/frame-15.png",
+        "sha256": "a267585be83dc35b3d547c5622e166dfd01277a82039187c24ba494c25450960",
+        "bytes": 106590
+      },
+      {
+        "path": "frames/frame-16.png",
+        "sha256": "32537b73cdde7c2ec2be60f56d5cf5636619f4e4526800ff00badd3b498eb9a8",
+        "bytes": 30478
+      },
+      {
+        "path": "frames/frame-17.png",
+        "sha256": "6ecd824d53c3e2a497e9c0cd523f634d0c317af86ef732b9d622fd48fdf7665c",
+        "bytes": 70577
+      },
+      {
+        "path": "frames/frame-18.png",
+        "sha256": "6485e2806bee21ae7db2afa7372b604bf3be2267126cb138b77107f68ae57ede",
+        "bytes": 72275
+      },
+      {
+        "path": "frames/frame-19.png",
+        "sha256": "d4ec56baaa0f4a54518fa87090883a3fc49e5f5113d7e47e0de34c0f290c3e0b",
+        "bytes": 41317
+      },
+      {
+        "path": "frames/frame-20.png",
+        "sha256": "eb962442706a9ca9813dc46faaadb567c1e8fa3d161c0ffb531e8f8f7be6bed3",
+        "bytes": 16051
+      },
+      {
+        "path": "frames/frame-21.png",
+        "sha256": "5508bd726b2fd6941742be99d13cdc2c2fa0d877877f50b075c03e2bcd744313",
+        "bytes": 92427
+      },
+      {
+        "path": "frames/frame-22.png",
+        "sha256": "bb9ce388d90c50e0c11a8ea7747766b8793f1f01b70ccdd53702dc2d5b6f423d",
+        "bytes": 81855
+      },
+      {
+        "path": "frames/frame-23.png",
+        "sha256": "edcbb0b4056befed4747c06bfd75b09457df521be11062f4ac644babf89da375",
+        "bytes": 59617
+      },
+      {
+        "path": "clips/clip-00.webp",
+        "sha256": "4881a85011d666d1b5e66148eb2e365adc3b5e6059f652ba8af69605f23787a8",
+        "bytes": 284010
+      },
+      {
+        "path": "clips/clip-01.webp",
+        "sha256": "ddbb1b2c01d28d8a13ee8911bb6e994a714b1d1424d19bf64b6f5596127d9679",
+        "bytes": 184958
+      },
+      {
+        "path": "clips/clip-02.webp",
+        "sha256": "0630df7dbea45a800081cae289a6adf0baf27b2e35692a814b1c357a8b35b1a5",
+        "bytes": 179810
+      },
+      {
+        "path": "clips/clip-03.webp",
+        "sha256": "f86d48de85ef64bc8fb48505d03c559e2d5288a6a2c32a7445f0c0a778b8846b",
+        "bytes": 293308
+      },
+      {
+        "path": "clips/clip-04.webp",
+        "sha256": "09d19f9c4e6b4f273ad7b61adf1ab7839dd89336fed60cc1d643c3d036ed011c",
+        "bytes": 159846
+      },
+      {
+        "path": "clips/clip-05.webp",
+        "sha256": "bcb14dcd73be21ae58c64261290b7b19c6530d1ede01730c0d9bd569b59ab774",
+        "bytes": 201334
+      },
+      {
+        "path": "contact-sheet.png",
+        "sha256": "1318a0db4e7d5e24a2522a6e0fa5649ea180164cb4f6865cbb05111633a1d872",
+        "bytes": 1202607
+      },
+      {
+        "path": "review/filmstrip-00.png",
+        "sha256": "dd0421386be4e032749e5fd5b02feff7b531e9c72282d3d74b638bccfe2a25b8",
+        "bytes": 731000
+      },
+      {
+        "path": "review/onion-00.png",
+        "sha256": "88a99865cc62746e1114ecda497ff6bd0f8d75f7bb7dc7e3a41750109ad6c24c",
+        "bytes": 327071
+      },
+      {
+        "path": "review/filmstrip-01.png",
+        "sha256": "739b60ae55696bb192a14d5ad215b26fb6cf0b3f28cd6800bbe753a01e6aa115",
+        "bytes": 566648
+      },
+      {
+        "path": "review/onion-01.png",
+        "sha256": "f2a08c8863c8eaef901fe49b9b83cfebaccc62ee035b127706b2ffb66678bffe",
+        "bytes": 230429
+      },
+      {
+        "path": "review/filmstrip-02.png",
+        "sha256": "df9cad275320ab9fba2df24d5edd5883f8f03ecd20460a5294febd80f92f6047",
+        "bytes": 562050
+      },
+      {
+        "path": "review/onion-02.png",
+        "sha256": "9ff7d431f752d8f2862578cb8ae17be13345486bb7cfabdb10fdb32a84a71da5",
+        "bytes": 221764
+      },
+      {
+        "path": "review/filmstrip-03.png",
+        "sha256": "d031fccf952e00ac77b9c62a20c4e653a9af64a968f1e676b482f9f6d991aae2",
+        "bytes": 818892
+      },
+      {
+        "path": "review/onion-03.png",
+        "sha256": "c084abafda25ebad70a8dc446a76804b97a15f44891e979c9ff8705be65400b9",
+        "bytes": 329866
+      },
+      {
+        "path": "review/filmstrip-04.png",
+        "sha256": "990a2dbfce59f96bbac7aeef0cfd6119db39b4817f35f12403fa2ec577884e6b",
+        "bytes": 435605
+      },
+      {
+        "path": "review/onion-04.png",
+        "sha256": "314ae21a94945a4b5cb2e56558107fbf1f186f80fca1e295093ebdeac2f5e379",
+        "bytes": 227072
+      },
+      {
+        "path": "review/filmstrip-05.png",
+        "sha256": "10fd4f65736bd8725daee82d2f13aaafdb6904b117b7d67b888b4ec5ad8d6165",
+        "bytes": 506745
+      },
+      {
+        "path": "review/onion-05.png",
+        "sha256": "0432d45ce1f1b0a009661158db2df950ab614f7158656c935b8ae4fdf9f75a12",
+        "bytes": 245016
+      },
+      {
+        "path": "review/turn-test.png",
+        "sha256": "48be365ce90f79cea29bc49ce33f199f6d6441e2821c61458d8d78fabc10e858",
+        "bytes": 331043
+      }
+    ],
+    "tool": {
+      "name": "build_animation_clips",
+      "version": "0.4.0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Use case: ui-mockup. Production UI sprite source for the supplied hand-painted Daoist chibi mahjong game. Images 1 and 2 are mandatory style references; Image 3 is the current lobby. Match jade green, warm ivory silk, restrained warm gold edging, soft rounded cloud/rǔyì corners and fine hand-painted shading. Crisp readable shapes; avoid plastic gloss, noisy textures, photorealism. NO text, NO letters, NO numbers, NO watermarks, NO characters, NO scenery. Empty control faces are intentional: all labels will be native client text. Real transparent RGBA background; never draw checkerboards or matte backdrops. Each sprite must have a clean alpha outline and be fully isolated with generous spacing.
+Create a square 2048x2048 requested sprite atlas: EXACTLY 2 columns and 4 rows, 8 equal grid cells, no grid lines. One isolated horizontal component centered in each cell. Every sprite fits within the central 82% width and 70% height of its own cell, so none touches another. Read row-major left-to-right, top-to-bottom:
+Cell 1: wide jade-green title plaque with ivory-gold cloud corner caps, empty center, no taiji emblem.
+Cell 2: warm ivory content card with fine gold border, subtly rounded corners, almost empty center.
+Cell 3: jade-green PRIMARY rounded button, restrained gold border, empty center.
+Cell 4: ivory SECONDARY rounded button, restrained gold border, empty center.
+Cell 5: SELECTED jade-green tab, compact rounded rectangle, fine gold edge.
+Cell 6: UNSELECTED ivory tab, same size and shape as cell 5, fine gold edge.
+Cell 7: wide recessed ivory INPUT field, restrained green inner line, shallow gold border, empty center.
+Cell 8: ivory TOOLTIP speech bubble, rounded rectangle with one small centered downward pointer, fine gold border, empty center.
+All faces nearly flat for readable client text; ornament only on edges. No icons or writing. Actual true transparent surroundings and gutter.

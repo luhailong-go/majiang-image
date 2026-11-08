@@ -1,0 +1,39 @@
+{
+  "file": "assets/props/full-game/dice/dice-2.pips.png",
+  "sha256": "bdc60f4a414f3a7f04a7031272fc956e2f6c512f6cc32d69e48a23c6013cc548",
+  "createdAt": "2026-10-26T16:37:57.104Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; exact vector symbols.",
+  "derivedFrom": [],
+  "operation": [
+    "render exact native pip vector overlay"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "pipCount": 2,
+  "positions": [
+    [
+      -72,
+      -72
+    ],
+    [
+      72,
+      72
+    ]
+  ],
+  "vectorSource": {
+    "file": "assets/props/full-game/dice/dice-2.pips.svg",
+    "sha256": "909eb552aa4ac0e2732dfcceee129cffdf6ccae1da89feb91637f7e112f436ae"
+  }
+}

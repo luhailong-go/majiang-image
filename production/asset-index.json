@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": 3,
+  "status": "passed_art_reference",
+  "assetCount": 142,
+  "assets": [
+    {
+      "file": "assets/branding/yunjian-queshe/logo-primary.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+      "record": "assets/branding/yunjian-queshe/logo-primary.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "b51b9d45fedcf9f96c1a2bab44a3c8af76584621bd04c52116cb91b81bedc738",
+      "record": "assets/characters/full-game/expression-daotong-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "8e3f45b54bfb3e61dde34033d5323c88a86bbc9804b8feb5eb6f9d24d1c687ac",
+      "record": "assets/characters/full-game/expression-daotong-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "238d923566dac121ade1d1e1127879efe3e636e5ee48728cdceb7d96c8e1c62c",
+      "record": "assets/characters/full-game/expression-daotong-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-daotong-thinking.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "9f42e1e263195c9173e89470ac5b2b3ca666f5ca4f198c1bde8efe9b7d862c35",
+      "record": "assets/characters/full-game/expression-daotong-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "5e1b360f9f23d3ec03c79e0313aa737b770f0adcec87d9b360f5fab757c02cc6",
+      "record": "assets/characters/full-game/expression-healer-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "41bdcde2c57d3a384f11356226e3ab46a2944e230177d19708907a5c1c6dbae8",
+      "record": "assets/characters/full-game/expression-healer-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "fa070e033c7b5eeea6c1912f95751cc867343169366d49756b744a78f1058bd2",
+      "record": "assets/characters/full-game/expression-healer-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-healer-thinking.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "eb8a1bea6aa4bc6643b522ae20e9ca9467e6bfdcb8ae3208b7136f2b5d2c6a83",
+      "record": "assets/characters/full-game/expression-healer-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "bad8c4e3886b22725272f6549c67e9fa80a1ae1cc5b3c1b4c5f08314d7885f47",
+      "record": "assets/characters/full-game/expression-master-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "71dc214b7409672e7d6a5acb42fe9eb7a4705fa6c9ba5239f9cbfc99bc76b0dd",
+      "record": "assets/characters/full-game/expression-master-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "20b00ebc4a2802546ff0399df67a0eaf29263234c3fde37f296e356d65e01d84",
+      "record": "assets/characters/full-game/expression-master-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-master-thinking.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "fbcbb9d6b9bb6ba70cc44752450f9e236895772683120b88afaab29957e03220",
+      "record": "assets/characters/full-game/expression-master-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "349d1c45a7cb159919f38aea021001e414fba36c1a8fb874475a4684a6c60abd",
+      "record": "assets/characters/full-game/expression-swordswoman-happy.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "f3e93d181c6d02afc06a896d84a3d2e432b45ddf715cba8c87924ef1d58b5dbb",
+      "record": "assets/characters/full-game/expression-swordswoman-sad.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "ddf331eb8855ee3856176f64384dda82ea23f79194a654f113a1313f3ace2f74",
+      "record": "assets/characters/full-game/expression-swordswoman-surprised.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/expression-swordswoman-thinking.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "5036d7c2c57740ae552f3bd25dc82fe7f1de336da6688f40524aa5944db167c8",
+      "record": "assets/characters/full-game/expression-swordswoman-thinking.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-healer.png",
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "3c35052f7ad557b4cf60cd9337babffb9b8be28a7b94a64b36666d4a0b65a56a",
+      "record": "assets/characters/full-game/fullbody-healer.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-master.png",
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "95a7707ffcf2eeb95445020c4929f2bb3c3cabd07d680081464147dd7731ec55",
+      "record": "assets/characters/full-game/fullbody-master.png.generation.json"
+    },
+    {
+      "file": "assets/characters/full-game/fullbody-swordswoman.png",
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "6c528ab0a2e0e4215d0e31c269b9742e616fd210f2c23daa45c6addec5c747ed",
+      "record": "assets/characters/full-game/fullbody-swordswoman.png.generation.json"
+    },
+    {
+      "file": "assets/characters/welcome-daotong.png",
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "b597f80dfb88083e8932759af4758c8f46434ac8f2d8370406214b5506b99416",
+      "record": "assets/characters/welcome-daotong.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/chi.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "3b655411f8a0601b7d880799651c43eb848cc9f0d149ea2a35a123c2c738decc",
+      "record": "assets/fx/full-game/callouts/chi.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/draw.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "1a72dc4d2b882c90d1a703f76d5753e382532f8aabf5bb9cf9197569a724e7a4",
+      "record": "assets/fx/full-game/callouts/draw.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/gang.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "44542425cfceff66fb555ac1ef2bebbdb4e9a1298ab51b9882962c6c415a600f",
+      "record": "assets/fx/full-game/callouts/gang.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/hu.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "154dd090ec4ce2650344846b3a061c7df003098638b9b178b2d26592421d621b",
+      "record": "assets/fx/full-game/callouts/hu.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/self-draw.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "e0d81145ecae1e9c101c701955af1946becad79856568885908e2234e89506b3",
+      "record": "assets/fx/full-game/callouts/self-draw.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/callouts/ting.png",
+      "width": 768,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "958ba42731adfc6400f7cd92ea0ae452204d14c78780d0790bec0395178f4c99",
+      "record": "assets/fx/full-game/callouts/ting.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/settlement-defeat.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "40b84d0e246ec01f29539d974463919b13cf9d54592aaccdb2210b6a2d7d40e2",
+      "record": "assets/fx/full-game/settlement-defeat.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/aggrieved.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "14fca0aa8d61bc07b74224d0fb7e67d59e0d599c3a103589cfa0b1c8867d8f39",
+      "record": "assets/props/full-game/emotes/aggrieved.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/applause.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "33e5c39d454ca3b38663ad3c11f7f4b336c24701ed1d4bddc5da9c8e78f4d9bb",
+      "record": "assets/props/full-game/emotes/applause.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/approval.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+      "record": "assets/props/full-game/emotes/approval.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/big-laugh.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "fc9b4a5e8703151ac180f502d672b0f395e5fba33a065d3061f668a2de4f7a4a",
+      "record": "assets/props/full-game/emotes/big-laugh.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/celebrate.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "f37d277f09c4d5f524e52965b8c74d2223a2e29f3036f7195d57b64b620b3c0e",
+      "record": "assets/props/full-game/emotes/celebrate.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/cheer-on.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "9d12615cc9109750592bacbf251865611d80fc1386c095f28dcd845535d5d66b",
+      "record": "assets/props/full-game/emotes/cheer-on.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/hello.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "e8eb609248c25bb0a7ff3b75855c6c289f31d213feb25b2f4b739d6a4bee8f03",
+      "record": "assets/props/full-game/emotes/hello.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/respect.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+      "record": "assets/props/full-game/emotes/respect.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/sorry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "41a208f58702125fc8c02349b2e8f4ff154e72d1255d1eba420bdcd8e184f2c2",
+      "record": "assets/props/full-game/emotes/sorry.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/surprise.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+      "record": "assets/props/full-game/emotes/surprise.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/thinking.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "2c7786b555fa13456971d9ce1c26128392fffdc0e4629cf0537cf836c8d9c6ef",
+      "record": "assets/props/full-game/emotes/thinking.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/wait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "af0b09031de22d860b64f348b352f233ab8c825e0b5464c525fbe4fda85b6ccc",
+      "record": "assets/props/full-game/emotes/wait.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/achievement-medal.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "b0c7e46d56a6fe25ab355e11e53a02595b0c259a048c10ccf7679db704507056",
+      "record": "assets/props/full-game/items/achievement-medal.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/avatar-voucher.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "6316f08dfda4a93798d873113d9e3ca87eb892bcda9c707782d059c5084ee712",
+      "record": "assets/props/full-game/items/avatar-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/brocade-pouch.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "8d1434fa4a7e2dd639e9ebb182b35d4f486d4ae726e25357fa5edb253bdeda19",
+      "record": "assets/props/full-game/items/brocade-pouch.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/emote-voucher.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "61e32fdc025026c54d68d1d11ddc35eed9543361109881300a49c7dc8a2405c6",
+      "record": "assets/props/full-game/items/emote-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/experience-scroll.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "2b1df2519402a057ba7f3a68bd7b816c4b757dfb37b30ec54c6f7310da26cd16",
+      "record": "assets/props/full-game/items/experience-scroll.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/gift-box.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+      "record": "assets/props/full-game/items/gift-box.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tablecloth-voucher.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "7dcde20ab1b2df7ccf3b061d72742f35d4944e1e740befa53c010616d5b73b42",
+      "record": "assets/props/full-game/items/tablecloth-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/items/tile-back-voucher.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "0f185b4ea121120c4afe1c3b6807ba7ebab5a6c66e1c4f55e998eac0d7a1a9f9",
+      "record": "assets/props/full-game/items/tile-back-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "record": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+      "record": "assets/scenes/full-game/table-ivory-bamboo.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/table-moon-lotus.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "abafd05f1736cbdeafe0aa37ac0b64b9790fa6448508178f19520a9f01ed8c0d",
+      "record": "assets/scenes/full-game/table-moon-lotus.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/waterside-night.png",
+      "width": 1672,
+      "height": 940,
+      "mode": "RGB",
+      "sha256": "78d207b4645ff47aa0f13690b8abd9f59cadbd28f7977d6ae6126379b465509f",
+      "record": "assets/scenes/full-game/waterside-night.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-1.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "ec763774635c904f8769c85acc8ea347f32f2d02ed3db8e7de3fd1f21f375a54",
+      "record": "assets/tiles/faces/tiao-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-2.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "980de6ddceb5208b6278e4336a5cf3148dd68028b28f9df270b07e6cf9aec653",
+      "record": "assets/tiles/faces/tiao-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-3.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "5e372f8cf18132dc00bd35a25494010a3381a3428c7d9ab937d67c0cd1748506",
+      "record": "assets/tiles/faces/tiao-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-4.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "4ddc9c78d22f969962535de64048c17c0094c891260c4e09937ce260400a1f96",
+      "record": "assets/tiles/faces/tiao-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-5.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "095852779b57bdd43555311dbffdea3116f9319f2a721d89bf4808f56d205dfc",
+      "record": "assets/tiles/faces/tiao-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tiao-6.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "3741fa88d4d2b31324ea88927efe9ebc9618358a0e094becb6ad98fa1bc5d98a",
+      "record": "assets/tiles/faces/tiao-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-1.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "ad844675c95eb8944da957d647bfc8c8621e4257daddb0e63739dce950accf4c",
+      "record": "assets/tiles/faces/tong-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-2.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "20bdb89f39bff691068bcb6c27db6b0fd5561257f0a275b19d2f3e662f48a37d",
+      "record": "assets/tiles/faces/tong-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-3.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "569ae7aee333b37c73467a2b876a6e5bd9b47d69ba6717f61971c8e399f09ea2",
+      "record": "assets/tiles/faces/tong-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-4.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "71c79a9a1d958f9adea35b19958902b3be850efa549fc15f0022983662d09d0b",
+      "record": "assets/tiles/faces/tong-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-5.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "e6de842ade02302dc45d710389225477654ecb664084910a338d710463ceadbd",
+      "record": "assets/tiles/faces/tong-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-6.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "699b9daa2521d7dfc83f7b58026daa0d380a1a36dfef0996de90352ea24a66a0",
+      "record": "assets/tiles/faces/tong-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-7.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "cc3875b0876025e826add2666ee088f4638209cd78c6df2d2b272b9641338deb",
+      "record": "assets/tiles/faces/tong-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-8.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "ca21420611543ae6b710029677c8ce91c302cfe3fc94bda0917b92a44daed56c",
+      "record": "assets/tiles/faces/tong-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/tong-9.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "60836391f65e3a0cdcad559e248d7f326513d8e46c1cdaae2361627f0cbd5c96",
+      "record": "assets/tiles/faces/tong-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-1.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "16e4e607a4b792acb8b5afcc08e2573d703a951199e46ca139542e779b33e5ba",
+      "record": "assets/tiles/faces/wan-1.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-2.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "f14b583ba8d72df29d2dd445c0ed562e8326d2043f408fab91fa2f4a4fb18782",
+      "record": "assets/tiles/faces/wan-2.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-3.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "8a31b14924df1b4800548e558ab097224ad2f88c03cb98c28c8c1633b2759e88",
+      "record": "assets/tiles/faces/wan-3.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-4.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "a98ade812f7519a6b21f89a9014cf1ecb8e3a670392f6f341d24f18846facd2f",
+      "record": "assets/tiles/faces/wan-4.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-5.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "6b038c61a1c1ade40e7a3025f2dd04ddca7b48952311c537d6a98f45ff78dc32",
+      "record": "assets/tiles/faces/wan-5.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-6.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "a1a932016763b1d48434c98b789a529946c9e0cf3063e5302becd8fe4ed5f910",
+      "record": "assets/tiles/faces/wan-6.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-7.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "e3434b78ee65f2b76d4a37a01abc03b1ec633f78c234bbd1331f31696fef1634",
+      "record": "assets/tiles/faces/wan-7.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-8.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "f280ffb1392d9520284934592d572e7d17ddee1f025b24d0268959896b246ca8",
+      "record": "assets/tiles/faces/wan-8.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/faces/wan-9.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "171b95a9408dc19dcbe16d1a37acacdf3ab1f60dcda35e91b96168faef1cbc75",
+      "record": "assets/tiles/faces/wan-9.png.generation.json"
+    },
+    {
+      "file": "assets/tiles/tile-back.png",
+      "width": 448,
+      "height": 640,
+      "mode": "RGBA",
+      "sha256": "4be658b8f12f4189e82aebd777d4e4e2fa4e01aa3d6e8df773dacfe79c67264f",
+      "record": "assets/tiles/tile-back.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-disabled.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "f68271c04c1c4ac6dfdb1afdd4dc27982f84ba1a7d7b0147457f508e3989e1cc",
+      "record": "assets/ui/common/button-primary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-normal.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "94fd4105c9a5627f6240e9a46ef98ea27c58013672824f8be085e5d5d49b3735",
+      "record": "assets/ui/common/button-primary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-pressed.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "70943cce987414ff1e9f835a7c47386db70dff5f80dfde8ee813e2c4e0b1e689",
+      "record": "assets/ui/common/button-primary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-primary-selected.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "56b58d07a623854f3fa640750d193d85c4e2f2912e8f00924b23cb9d8c63b7d0",
+      "record": "assets/ui/common/button-primary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "record": "assets/ui/common/button-secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "record": "assets/ui/common/button-secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "record": "assets/ui/common/button-secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "width": 577,
+      "height": 178,
+      "mode": "RGBA",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "record": "assets/ui/common/button-secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/checkbox-on.png",
+      "width": 195,
+      "height": 188,
+      "mode": "RGBA",
+      "sha256": "d4429b96395bea568561b73c53b9c99d2b5efdaed732d75cb76fe1c45bae8848",
+      "record": "assets/ui/common/checkbox-on.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "width": 582,
+      "height": 235,
+      "mode": "RGBA",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-add.png",
+      "width": 291,
+      "height": 291,
+      "mode": "RGBA",
+      "sha256": "0900e488476226ae5e6ae209c4e20a20563a1695fb3239226814b6fc7f84d07b",
+      "record": "assets/ui/common/icon-add.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-chat.png",
+      "width": 274,
+      "height": 228,
+      "mode": "RGBA",
+      "sha256": "34cdff6b7017c04a4bca631a26505b0d30a3610aeb9c474779772153c63cf67e",
+      "record": "assets/ui/common/icon-chat.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "width": 272,
+      "height": 271,
+      "mode": "RGBA",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "record": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-confirm.png",
+      "width": 342,
+      "height": 300,
+      "mode": "RGBA",
+      "sha256": "0c865dd0fad296a2d879f55c04c8f3755db07ed4b6a32c8a04d1138cb439b437",
+      "record": "assets/ui/common/icon-confirm.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-friends.png",
+      "width": 265,
+      "height": 211,
+      "mode": "RGBA",
+      "sha256": "6dfdc9207c5ca716a1ee3b1b5f5a9944e3344b413385250dbf536a1c6a4c7364",
+      "record": "assets/ui/common/icon-friends.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-help.png",
+      "width": 410,
+      "height": 331,
+      "mode": "RGBA",
+      "sha256": "cc18c02e30ebf4a0d4a281634a6560daa11dc5463bc99c47c61f6b9aa7b75ca7",
+      "record": "assets/ui/common/icon-help.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-mail.png",
+      "width": 255,
+      "height": 182,
+      "mode": "RGBA",
+      "sha256": "222a003ed19e28979433c6b58875c518bcce565a445ff0e70c1c5f7d5e752f20",
+      "record": "assets/ui/common/icon-mail.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-profile.png",
+      "width": 222,
+      "height": 233,
+      "mode": "RGBA",
+      "sha256": "7b12221a6bccfb0c55f4e75a6381b8536c3051c64148e03c735ca6ab02df6bdf",
+      "record": "assets/ui/common/icon-profile.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-records.png",
+      "width": 243,
+      "height": 237,
+      "mode": "RGBA",
+      "sha256": "445b505fb6b7c9a8c7fbe6c0f592550a2a0b4e83074a98cb2c70326a06e8976d",
+      "record": "assets/ui/common/icon-records.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-settings.png",
+      "width": 260,
+      "height": 253,
+      "mode": "RGBA",
+      "sha256": "d560ba93c1e018b089b7ab6f2f262e9ba385d25adb9bd86a5fdc1317b7786af0",
+      "record": "assets/ui/common/icon-settings.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/input-field.png",
+      "width": 588,
+      "height": 156,
+      "mode": "RGBA",
+      "sha256": "3a71904fc5ee9f0dc22399ca69c663785750323ea387d11ac37fbbdbe199acd1",
+      "record": "assets/ui/common/input-field.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/keypad-key.png",
+      "width": 582,
+      "height": 235,
+      "mode": "RGBA",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "record": "assets/ui/common/keypad-key.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/loading-ring.png",
+      "width": 215,
+      "height": 226,
+      "mode": "RGBA",
+      "sha256": "89ea763b1a9e747f7cf274f340f5a8ed6954c277448236277f13154c8bba2951",
+      "record": "assets/ui/common/loading-ring.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/slider-thumb.png",
+      "width": 172,
+      "height": 185,
+      "mode": "RGBA",
+      "sha256": "b6bef9f1b5f173e8e09f2ecc59f5d9e1644d271ec18d7546cf42b052306a2be5",
+      "record": "assets/ui/common/slider-thumb.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/slider-track.png",
+      "width": 359,
+      "height": 95,
+      "mode": "RGBA",
+      "sha256": "2accf9551d2a5c7a486a3b70473de2f41f1983ae690e83fc27721a8148794985",
+      "record": "assets/ui/common/slider-track.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-normal.png",
+      "width": 473,
+      "height": 144,
+      "mode": "RGBA",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "record": "assets/ui/common/tab-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-selected.png",
+      "width": 470,
+      "height": 145,
+      "mode": "RGBA",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "record": "assets/ui/common/tab-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "width": 620,
+      "height": 214,
+      "mode": "RGBA",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "record": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/unread-badge.png",
+      "width": 137,
+      "height": 135,
+      "mode": "RGBA",
+      "sha256": "f64b597986f24d914d977e11e122c4a8126a910021d6c9b68c9296187fd3e303",
+      "record": "assets/ui/common/unread-badge.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/window-frame.png",
+      "width": 1642,
+      "height": 888,
+      "mode": "RGBA",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "record": "assets/ui/common/window-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/achievement-frame-locked.png",
+      "width": 618,
+      "height": 526,
+      "mode": "RGBA",
+      "sha256": "ca071ed8228c4a0518914925a098aa04edd8125767704e9c5200550d589401b2",
+      "record": "assets/ui/full-game/components/achievement-frame-locked.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/achievement-frame-unlocked.png",
+      "width": 618,
+      "height": 526,
+      "mode": "RGBA",
+      "sha256": "1ad36c4d474527206bf8366436b376dddd0f63d2644ba49b393d5fdb6fe9bfa0",
+      "record": "assets/ui/full-game/components/achievement-frame-unlocked.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/gift-box.png",
+      "width": 378,
+      "height": 360,
+      "mode": "RGBA",
+      "sha256": "51f3ded04fc75da334a9e4421293d9dbea87435970d4d328867f81de83d90b01",
+      "record": "assets/ui/full-game/components/gift-box.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-default.png",
+      "width": 660,
+      "height": 508,
+      "mode": "RGBA",
+      "sha256": "b5ae3a9b2bedc66659f22c822d9a5627094b0a9bc109483b4d878af34fef04a4",
+      "record": "assets/ui/full-game/components/item-slot-default.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-disabled.png",
+      "width": 660,
+      "height": 508,
+      "mode": "RGBA",
+      "sha256": "c81f27538439697557043492bd4b2c007de05eca1462ba27cde12e29d1887a76",
+      "record": "assets/ui/full-game/components/item-slot-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-new.png",
+      "width": 660,
+      "height": 508,
+      "mode": "RGBA",
+      "sha256": "6f17b982fc6a1a090029983ccd4b6c1c4941afc4b829a47bc12ee3f902d860ab",
+      "record": "assets/ui/full-game/components/item-slot-new.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-slot-selected.png",
+      "width": 660,
+      "height": 508,
+      "mode": "RGBA",
+      "sha256": "66dd901d36c028680d92e320766364779b24c3705e101397048d0d1947319ebb",
+      "record": "assets/ui/full-game/components/item-slot-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/item-voucher.png",
+      "width": 436,
+      "height": 324,
+      "mode": "RGBA",
+      "sha256": "d7bd69ff0e9d98969b5370823abcac992364d69415d0606728550cb2ab03d208",
+      "record": "assets/ui/full-game/components/item-voucher.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/rank-marker-bronze.png",
+      "width": 486,
+      "height": 498,
+      "mode": "RGBA",
+      "sha256": "8ed0e9da06573469815a465e14979c674acac36b35e47f1e80e30ebfe5fba614",
+      "record": "assets/ui/full-game/components/rank-marker-bronze.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/rank-marker-gold.png",
+      "width": 486,
+      "height": 498,
+      "mode": "RGBA",
+      "sha256": "3aa3b44608373041314befe4d7eafb0218e0af811bdb6c19c7d4fdc9e4116bb6",
+      "record": "assets/ui/full-game/components/rank-marker-gold.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/rank-marker-silver.png",
+      "width": 486,
+      "height": 498,
+      "mode": "RGBA",
+      "sha256": "d57d9bd5677af165529404566e3827a34014bf10f7f923d2ad34156bbc1a22ee",
+      "record": "assets/ui/full-game/components/rank-marker-silver.png.generation.json"
+    },
+    {
+      "file": "assets/ui/full-game/components/tutorial-tap-hand.png",
+      "width": 284,
+      "height": 396,
+      "mode": "RGBA",
+      "sha256": "0683d26e639ed8d3e82c1c154bcf259e8fa3a7c6a86ea40f2e796551e0f2a3bb",
+      "record": "assets/ui/full-game/components/tutorial-tap-hand.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/autoplay-badge.png",
+      "width": 276,
+      "height": 266,
+      "mode": "RGBA",
+      "sha256": "603514c71b7c00d842d131bbc29ace8202231d56c8d5b53386e316de03a65cf0",
+      "record": "assets/ui/gameplay/autoplay-badge.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/avatar-frame.png",
+      "width": 370,
+      "height": 378,
+      "mode": "RGBA",
+      "sha256": "6610d20fe4c10a0291fb105f142f72574f34d4da9fd04c35b806092c66341541",
+      "record": "assets/ui/gameplay/avatar-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/countdown-frame.png",
+      "width": 300,
+      "height": 311,
+      "mode": "RGBA",
+      "sha256": "809303ee1f4a00afaef0a8a71ce74feb015c088fa4f1e674a4caa2a762eea21c",
+      "record": "assets/ui/gameplay/countdown-frame.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/current-player-ring.png",
+      "width": 439,
+      "height": 394,
+      "mode": "RGBA",
+      "sha256": "2e5717a1f9deebe5a604e1e060b40627d8ca6327a381252beb7eb921de0196e3",
+      "record": "assets/ui/gameplay/current-player-ring.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/dealer-badge.png",
+      "width": 331,
+      "height": 271,
+      "mode": "RGBA",
+      "sha256": "40dcb862bfc068337a920948fa71191cb947befaba94f8d03ed46e4196a083ef",
+      "record": "assets/ui/gameplay/dealer-badge.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/offline-badge.png",
+      "width": 276,
+      "height": 266,
+      "mode": "RGBA",
+      "sha256": "bc91c862ac7b2fd7f91ec374b91e0f6522ac425b170a8998ae95cfd2f324b46d",
+      "record": "assets/ui/gameplay/offline-badge.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/settlement-card.png",
+      "width": 285,
+      "height": 360,
+      "mode": "RGBA",
+      "sha256": "60ef6815519228b3d4ba713096354a09c096124de96238b7d895847c022b9a70",
+      "record": "assets/ui/gameplay/settlement-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/table-background.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "record": "assets/ui/gameplay/table-background.png.generation.json"
+    },
+    {
+      "file": "assets/ui/gameplay/wind-round-dial.png",
+      "width": 461,
+      "height": 438,
+      "mode": "RGBA",
+      "sha256": "1310e536199366621998fbee5911d04e3514bfdfd85318874daf418dab51578b",
+      "record": "assets/ui/gameplay/wind-round-dial.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/connection-interrupted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "d6e96513a611b728252b32d6766b881d0a6a3a6b19b2d51510aef03d07578dc4",
+      "record": "assets/ui/production-v3/empty/connection-interrupted.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-friends.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "40c11382a97507fa6008fb1d2a3d884d6a5ee1f5907bac4dca4e297430e9aabf",
+      "record": "assets/ui/production-v3/empty/empty-friends.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-mail.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "167ef75f52dcfc1400d1a4e23b995180552fd344f78832bb7c813972f90e0c44",
+      "record": "assets/ui/production-v3/empty/empty-mail.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-records.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "8ecd7bd419d0e4ec689593e261ecddab8be7acc440aaf8ef4b3f069dbe0706c6",
+      "record": "assets/ui/production-v3/empty/empty-records.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/empty-search.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "b894cdcd35ab96472453fb2a6838b6c7655680d69d394a28fe88dbe18540d104",
+      "record": "assets/ui/production-v3/empty/empty-search.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/empty/match-timeout.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "sha256": "531037b59b08c3681ae6178d1d334b853b5e20e589dcacef5282637673ac76bc",
+      "record": "assets/ui/production-v3/empty/match-timeout.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/input-error-overlay.png",
+      "width": 640,
+      "height": 192,
+      "mode": "RGBA",
+      "sha256": "1b8371b778b20917753f67997537e5ac5a6da894fa4100373b620ee2980388c5",
+      "record": "assets/ui/production-v3/forms/input-error-overlay.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/input-focus-overlay.png",
+      "width": 640,
+      "height": 192,
+      "mode": "RGBA",
+      "sha256": "dfbb1aa6529e9f2fed9913e0e93a88ff56c615f56f344583eb533394defed972",
+      "record": "assets/ui/production-v3/forms/input-focus-overlay.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/list-row-selected.png",
+      "width": 640,
+      "height": 192,
+      "mode": "RGBA",
+      "sha256": "ba67fdcdbc7c4a49d9b068645d4e314ccdbe5455dec7a84a3b8ed5885281bb16",
+      "record": "assets/ui/production-v3/forms/list-row-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-fill.png",
+      "width": 568,
+      "height": 112,
+      "mode": "RGBA",
+      "sha256": "89442565573991775e066a3303bd640b555f55f223ff2b43a5ed3abf28d2a224",
+      "record": "assets/ui/production-v3/forms/progress-fill.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/progress-track.png",
+      "width": 660,
+      "height": 176,
+      "mode": "RGBA",
+      "sha256": "e00eb528b71e3f6fe430c6ec40b0ce3875d42ba572f3274a6e94f3f39d99ea98",
+      "record": "assets/ui/production-v3/forms/progress-track.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/slider-fill.png",
+      "width": 532,
+      "height": 92,
+      "mode": "RGBA",
+      "sha256": "61384e30870e8db3bda13fc2caaf425fdcc5e2c3967b20dcebc12d9a3dbb7f49",
+      "record": "assets/ui/production-v3/forms/slider-fill.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/toggle-thumb.png",
+      "width": 208,
+      "height": 208,
+      "mode": "RGBA",
+      "sha256": "8d54d1daec252aae02cb63e465c56bcdbc595697c277389f60f7ad7c9cd3aaa9",
+      "record": "assets/ui/production-v3/forms/toggle-thumb.png.generation.json"
+    },
+    {
+      "file": "assets/ui/production-v3/forms/toggle-track-on.png",
+      "width": 480,
+      "height": 184,
+      "mode": "RGBA",
+      "sha256": "d40e8caa6b60a94bb918986d75850eb16013f464996030c68936f761c4e9d24c",
+      "record": "assets/ui/production-v3/forms/toggle-track-on.png.generation.json"
+    }
+  ],
+  "allImagesIndependent": true,
+  "screenConceptsUsedAsRuntimeSkins": false,
+  "pageCount": 32,
+  "stateCount": 86
+}

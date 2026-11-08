@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 3,
+  "reviewer": "root coordinator independent of forms/gameplay asset producers",
+  "reviewDate": "2026-10-28",
+  "method": "Actual light/dark and composition PNG viewing, followed by bounded single-thread final exports authorized directly by the human.",
+  "empty": {
+    "status": "passed",
+    "assets": 6,
+    "reviewed": [
+      "assets/ui/production-v3/empty/preview-light.png",
+      "assets/ui/production-v3/empty/preview-dark.png"
+    ],
+    "findings": "Six distinct complete silhouettes, clean light/dark edges, no text baked into illustrations; source ownership preserved crossing decorations."
+  },
+  "forms": {
+    "status": "passed",
+    "assets": 10,
+    "reviewed": [
+      "designs/ui/production-v3/forms/preview-forms-light.png",
+      "designs/ui/production-v3/forms/preview-forms-dark.png"
+    ],
+    "findings": "Focus/error retain transparent centers; list states distinct; progress0/25/50/100, toggle off/on/disabled and slider0/0.5/1 remain legible; labels and ornaments complete. Horizontal nine-slice and uniform thumb restrictions are explicit."
+  },
+  "gameplaySkins": {
+    "status": "passed",
+    "assets": 6,
+    "reviewed": [
+      "designs/ui/production-v3/gameplay/skins-alpha-light-dark.png",
+      "designs/ui/production-v3/gameplay/candidates-and-states.png",
+      "designs/ui/production-v3/gameplay/melds-and-directions.png",
+      "designs/ui/production-v3/gameplay/settlement-composition.png",
+      "designs/ui/production-v3/gameplay/table-four-seats.png"
+    ],
+    "findings": "All six skins clean; candidate/empty/disabled/illegal/last-discard readable; sixteen seat/meld examples rotate the entire glyph together without mirroring; settlement uses distinct portraits and correct signed score colors.",
+    "tableHudCorrection": "passed actual final PNG"
+  },
+  "remainingCompositionChecks": [],
+  "productionPixelsModifiedByThisReview": false,
+  "status": "passed",
+  "browserInteraction": "not_run_policy_blocked",
+  "clientIntegrated": false,
+  "finalCompositionReceipt": "production/final-visual-qa.json"
+}

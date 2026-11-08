@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/keypad-key.png",
+  "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 582,
+  "height": 235,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 582,
+    "height": 235
+  },
+  "derivedFrom": {
+    "file": "assets/ui/common/content-card.png",
+    "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+    "record": "assets/ui/common/content-card.png.generation.json"
+  },
+  "operation": "byte-identical skin reuse for native-labelled numeric keys",
+  "crop": null,
+  "transparentPadding": 0,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": [
+    45,
+    45,
+    45,
+    45
+  ],
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 16412,
+    "semiTransparent": 6434,
+    "opaque": 113924,
+    "bbox": [
+      8,
+      8,
+      574,
+      227
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "resizePolicy": {
+    "mode": "nine_slice",
+    "stretchAxes": [
+      "x",
+      "y"
+    ],
+    "uniformScaleAllowed": true
+  },
+  "minimumGeometrySize": [
+    91,
+    91
+  ],
+  "clientIntegrated": false
+}

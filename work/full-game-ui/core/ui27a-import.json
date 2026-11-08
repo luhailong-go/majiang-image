@@ -1,0 +1,21 @@
+{
+  "file": "designs/ui/full-game/core/ui27-tutorial-select.png",
+  "uiId": "UI27",
+  "title": "新手引导第1步：选牌",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-6a89e6e6-dc4c-4cc0-a9c2-33e26fa0c8c2.png",
+  "references": [
+    "designs/ui/full-game/core/ui27-tutorial-select-source.png",
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png"
+  ],
+  "prompt": "prompts/full-game/ui/core/ui27-tutorial-select-footer.txt",
+  "notes": "全图复看：第1步、高亮三萬、点击手势、指向箭头及下一步清楚；底部采用新玉绿引导示例条，右下无乱码。工具同时删去两个次级说明条，主指引仍完整；非逐像素保真编辑。",
+  "states": [
+    "第1步选牌",
+    "三萬选中高亮",
+    "点击指示",
+    "跳过",
+    "下一步"
+  ],
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-6a89e6e6-dc4c-4cc0-a9c2-33e26fa0c8c2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

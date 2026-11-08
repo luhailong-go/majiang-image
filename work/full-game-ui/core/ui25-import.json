@@ -1,0 +1,22 @@
+{
+  "file": "designs/ui/full-game/core/ui25-customization.png",
+  "uiId": "UI25",
+  "title": "装扮设置",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-01e69988-7d41-460c-bf78-d7b53019c11e.png",
+  "references": [
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png",
+    "designs/ui/full-suite/core/ui09-table-base.png"
+  ],
+  "prompt": "prompts/full-game/ui/core/ui25-customization.txt",
+  "notes": "实看全图：桌布和牌背各三选项，选中金边勾选与未选中清楚，预览中与应用按钮、当前使用区区分；文字清晰，无价格或充值。",
+  "states": [
+    "桌布选择",
+    "牌背选择",
+    "选中/未选中",
+    "当前使用",
+    "预览中",
+    "应用装扮"
+  ],
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-01e69988-7d41-460c-bf78-d7b53019c11e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

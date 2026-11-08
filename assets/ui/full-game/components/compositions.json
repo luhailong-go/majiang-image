@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "scope": "full_game_v2_additional_components",
+  "clientIntegrated": false,
+  "manifest": "assets/ui/full-game/components/manifest.json",
+  "global": {
+    "scaling": "Uniform scaling only; apply the same scale to all members of a state family.",
+    "textLayer": "Native Chinese/number rendering separate from art.",
+    "pointerEvents": "Read interactionEnabled; disabled art alone does not prevent input.",
+    "colors": {
+      "body": "#183D35",
+      "button": "#FFF4D9",
+      "positive": "#B52F20",
+      "negative": "#196448",
+      "muted": "#78827A"
+    }
+  },
+  "compositions": {
+    "rewardCard": {
+      "family": "rewardCard",
+      "safeContentRectNormalized": [
+        0.19,
+        0.25,
+        0.62,
+        0.5
+      ],
+      "states": {
+        "default": {
+          "skin": "reward-card-default",
+          "label": "未达成",
+          "interactionEnabled": false,
+          "actionVisible": false
+        },
+        "claimable": {
+          "skin": "reward-card-claimable",
+          "label": "领取",
+          "interactionEnabled": true,
+          "actionVisible": true,
+          "actionFamily": "primary",
+          "actionFamilySource": "assets/ui/component-compositions.json"
+        },
+        "claimed": {
+          "skin": "reward-card-claimed",
+          "label": "已领取",
+          "interactionEnabled": false,
+          "actionVisible": false
+        }
+      },
+      "exclusiveStates": true,
+      "bindings": [
+        "rewardIcon",
+        "title",
+        "progressCurrent",
+        "progressRequired",
+        "quantity"
+      ],
+      "rules": [
+        "Only one skin and one status label visible per reward.",
+        "Claim state changes only after application confirms reward receipt.",
+        "Never show the claim action together with the claimed label."
+      ]
+    },
+    "achievement": {
+      "family": "achievement",
+      "iconCenterNormalized": [
+        0.5,
+        0.445
+      ],
+      "iconRadiusNormalizedToWidth": 0.2,
+      "states": {
+        "locked": {
+          "skin": "achievement-frame-locked",
+          "label": "未解锁",
+          "iconOpacity": 0.45
+        },
+        "unlocked": {
+          "skin": "achievement-frame-unlocked",
+          "label": "已解锁",
+          "iconOpacity": 1
+        }
+      },
+      "nativeLabels": [
+        "achievementName",
+        "progress",
+        "unlockTime"
+      ],
+      "hole": "Alpha-transparent center; composited achievement icon sits behind frame."
+    },
+    "rank": {
+      "family": "rank",
+      "ranks": {
+        "1": "rank-marker-gold",
+        "2": "rank-marker-silver",
+        "3": "rank-marker-bronze"
+      },
+      "nativeNumberAreaNormalized": [
+        0.3,
+        0.28,
+        0.4,
+        0.28
+      ],
+      "bindings": [
+        "rankNumber",
+        "displayName",
+        "value"
+      ],
+      "rules": [
+        "Ranks 1/2/3 are native labels, not painted pixels.",
+        "Medals do not encode a fixed leaderboard metric."
+      ]
+    },
+    "cosmeticCard": {
+      "family": "cosmeticCard",
+      "safeContentRectNormalized": [
+        0.2,
+        0.18,
+        0.6,
+        0.65
+      ],
+      "states": {
+        "unselected": {
+          "skin": "cosmetic-card-unselected",
+          "label": "",
+          "interactionEnabled": true
+        },
+        "selected": {
+          "skin": "cosmetic-card-selected",
+          "label": "已选择",
+          "interactionEnabled": true
+        },
+        "inUse": {
+          "skin": "cosmetic-card-in-use",
+          "label": "使用中",
+          "interactionEnabled": false
+        }
+      },
+      "exclusiveStates": true,
+      "bindings": [
+        "previewArt",
+        "name",
+        "ownership",
+        "duration"
+      ],
+      "rules": [
+        "The status socket is ornamental and blank; use native status text beneath the preview.",
+        "Ownership, selected preview and active cosmetic are separate data properties.",
+        "Confirm successful equip before switching to inUse."
+      ]
+    },
+    "inventorySlot": {
+      "family": "itemSlot",
+      "safeContentRectNormalized": [
+        0.24,
+        0.2,
+        0.52,
+        0.6
+      ],
+      "states": {
+        "default": {
+          "skin": "item-slot-default",
+          "interactionEnabled": true
+        },
+        "selected": {
+          "skin": "item-slot-selected",
+          "interactionEnabled": true
+        },
+        "disabled": {
+          "skin": "item-slot-disabled",
+          "interactionEnabled": false
+        },
+        "new": {
+          "skin": "item-slot-new",
+          "interactionEnabled": true
+        }
+      },
+      "nativeLabels": [
+        "itemName",
+        "quantity",
+        "expiry"
+      ],
+      "rules": [
+        "Use the common family canvas; do not center only the new-state bounding box or its ribbon shifts the item.",
+        "New-state ribbon is decoration, not a hard-coded event name.",
+        "Select skin priority in application state; do not layer several filled slot PNGs."
+      ]
+    },
+    "tutorial": {
+      "sprites": {
+        "spotlight": "tutorial-spotlight-ring",
+        "arrow": "tutorial-arrow",
+        "step": "tutorial-step-marker",
+        "tap": "tutorial-tap-hand",
+        "focus": "tutorial-focus-frame"
+      },
+      "stepNumberCenterNormalized": [
+        0.5,
+        0.52
+      ],
+      "tapHotspotNormalized": [
+        0.34,
+        0.06
+      ],
+      "arrowTipNormalized": [
+        0.8838383838383839,
+        0.937125748502994
+      ],
+      "nativeLabels": [
+        "stepNumber",
+        "instruction",
+        "next",
+        "skip"
+      ],
+      "rules": [
+        "Place ring or focus frame around the target and keep their center fully transparent.",
+        "Viewport dimming and the revealed target hole are native compositor masks; do not stretch or alter the painted ornament.",
+        "Arrow can rotate as a whole; retain its aspect ratio.",
+        "Targets and next/skip handlers are supplied by the client."
+      ],
+      "arrowTipPixels": [
+        350,
+        313
+      ],
+      "arrowTipEvidence": {
+        "sampleAlpha": 245,
+        "strongAlphaThreshold": 128,
+        "lowestStrongRowY": 315,
+        "lowestStrongRowXRange": [
+          344,
+          351
+        ],
+        "basis": "Native pixel inspection; chosen point lies in the opaque lower arrowhead near the terminal tip."
+      },
+      "arrowTipNormalization": "x / imageWidth, y / imageHeight; origin top-left; coordinates refer to full delivered PNG canvas."
+    },
+    "rewardItems": {
+      "icons": {
+        "voucher": "item-voucher",
+        "gift": "gift-box"
+      },
+      "skins": "itemSlot",
+      "nativeLabels": [
+        "itemName",
+        "quantity",
+        "source"
+      ],
+      "rules": [
+        "Voucher art contains no price or currency denomination.",
+        "Gift box art does not imply purchase, randomized contents or a reward guarantee."
+      ]
+    }
+  },
+  "reuse": {
+    "manifest": "assets/ui/manifest.json",
+    "compositions": "assets/ui/component-compositions.json",
+    "ids": [
+      "window-frame",
+      "title-plaque",
+      "content-card",
+      "button-primary-normal",
+      "button-primary-pressed",
+      "button-primary-selected",
+      "button-primary-disabled",
+      "button-secondary-normal",
+      "button-secondary-pressed",
+      "button-secondary-selected",
+      "button-secondary-disabled",
+      "tab-selected",
+      "tab-normal",
+      "input-field",
+      "icon-search",
+      "icon-close",
+      "icon-back",
+      "icon-confirm",
+      "icon-lock",
+      "tooltip-bubble",
+      "modal-shade",
+      "unread-badge",
+      "loading-ring"
+    ]
+  }
+}

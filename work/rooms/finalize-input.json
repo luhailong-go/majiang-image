@@ -1,0 +1,294 @@
+{
+  "scopeIds": [
+    "UI04",
+    "UI05",
+    "UI06",
+    "UI07",
+    "UI08",
+    "UI23",
+    "UI24"
+  ],
+  "finals": [
+    {
+      "id": "UI05",
+      "slug": "ui05-create-room",
+      "title": "创建房间",
+      "file": "designs/ui/full-suite/rooms/ui05-create-room.png",
+      "prompt": "prompts/rooms/ui05-create-room-corrected.prompt.txt",
+      "checks": [
+        "通用四人固定；错误两人/三人选项已定向移除",
+        "局数4/8/16选中8局、加入方式、规则摘要清楚",
+        "主操作、返回、关闭俱全",
+        "中文与参考风格检查通过"
+      ]
+    },
+    {
+      "id": "UI06",
+      "slug": "ui06-join-room",
+      "title": "加入房间",
+      "file": "designs/ui/full-suite/rooms/ui06-join-room.png",
+      "prompt": "prompts/rooms/ui06-join-room.prompt.txt",
+      "checks": [
+        "六位房号格1至6完整",
+        "0至9数字键各一枚；清空/删除齐全",
+        "输入焦点、主加入按钮、返回和关闭清楚",
+        "中文与风格检查通过"
+      ]
+    },
+    {
+      "id": "UI07",
+      "slug": "ui07-room-waiting",
+      "title": "好友房",
+      "file": "designs/ui/full-suite/rooms/ui07-room-waiting.png",
+      "prompt": "prompts/rooms/ui07-room-waiting-corrected.prompt.txt",
+      "checks": [
+        "四席空间清楚：三名玩家和一空座",
+        "房主、准备/未准备、规则摘要、邀请与离开入口齐全",
+        "开始条件明确且开始按钮禁用",
+        "头像沿用统一母版；复制按钮错误图标已AI定向移除",
+        "中文与风格检查通过"
+      ]
+    },
+    {
+      "id": "UI08",
+      "slug": "ui08-invite-friends",
+      "title": "邀请好友",
+      "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+      "prompt": "prompts/rooms/ui08-invite-friends.prompt.txt",
+      "checks": [
+        "在线可邀请、已邀请、忙碌禁用、离线禁用四状态完整",
+        "搜索/添加好友/返回房间/关闭齐全",
+        "四人物头像沿用统一母版",
+        "中文、对齐、主次和风格检查通过"
+      ],
+      "notes": [
+        "列表昵称属于独立示例数据，接入时排除当前账号；UI07房主青云与本页示例青云不可作为真实好友数据。"
+      ]
+    },
+    {
+      "id": "UI04",
+      "slug": "ui04-casual-match",
+      "title": "休闲匹配·匹配中",
+      "file": "designs/ui/full-suite/rooms/ui04-casual-match.png",
+      "prompt": "prompts/rooms/ui04-casual-match.prompt.txt",
+      "checks": [
+        "匹配进行、已等待00:18、取消匹配、返回齐全",
+        "一人头像与三空席表达寻找对手，无虚构在线人数",
+        "中文、安全留白及风格检查通过"
+      ]
+    },
+    {
+      "id": "UI04",
+      "variant": "success",
+      "slug": "ui04-match-success",
+      "title": "休闲匹配·成功",
+      "file": "designs/ui/full-suite/rooms/ui04-match-success.png",
+      "prompt": "prompts/rooms/ui04-match-success.prompt.txt",
+      "checks": [
+        "四名身份不同角色与四个已就位状态齐全",
+        "成功进入牌桌主入口与返回大厅次入口清楚",
+        "不与匹配进行中混画；同ID独立状态图",
+        "中文、安全留白及风格检查通过"
+      ]
+    },
+    {
+      "id": "UI23",
+      "slug": "ui23-dialog-controls-board",
+      "title": "弹窗与控件状态",
+      "file": "designs/ui/full-suite/rooms/ui23-dialog-controls-board.png",
+      "prompt": "prompts/rooms/ui23-dialog-controls-board-corrected.prompt.txt",
+      "type": "state_specification_board",
+      "checks": [
+        "离开确认与返回房间/确认离开完整",
+        "解散发起、2/4进度、倒计时、同意/拒绝齐全",
+        "房间已解散→大厅、未通过→继续对局两种结果清楚",
+        "正常/按下/选中/禁用按钮、页签、勾选、单选、滑条、六位输入、角标、提示气泡齐全",
+        "移除不统一小头像；中文、安全留白、板结构检查通过"
+      ]
+    },
+    {
+      "id": "UI24",
+      "slug": "ui24-network-empty-board",
+      "title": "网络错误与空态",
+      "file": "designs/ui/full-suite/rooms/ui24-network-empty-board.png",
+      "prompt": "prompts/rooms/ui24-network-empty-board.prompt.txt",
+      "type": "state_specification_board",
+      "checks": [
+        "12状态卡完整，非12整屏计数",
+        "重连中/恢复失败/匹配超时/输入错误/房间不存在/已满齐全",
+        "好友/邮件/战绩/搜索无结果各有去向",
+        "半透明加载遮罩与进度条、匹配取消完整",
+        "卡片中文、按钮匹配、可读性和风格检查通过"
+      ]
+    },
+    {
+      "id": "UI23",
+      "variant": "draw",
+      "slug": "ui23-draw-result",
+      "title": "流局结算状态",
+      "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+      "prompt": "prompts/rooms/ui23-draw-result.prompt.txt",
+      "type": "independent_state_screen",
+      "checks": [
+        "实际查看恢复的完整1672×941原生图：本局流局、本局无人成胡中文清楚",
+        "四名身份不同头像与四行本局积分0齐全，未出现胜者或正负积分",
+        "继续下一局为玉绿主操作，返回大厅为米白次操作，关闭X与局次清楚",
+        "不把零分演示态当地方规则；未设置真实计分合同",
+        "生成回执的revisedPrompt与保存提示词完全一致，四个输入参考及哈希核验通过"
+      ]
+    }
+  ],
+  "stateMap": [
+    {
+      "state": "room.empty_seat",
+      "sources": [
+        "UI07"
+      ],
+      "description": "右侧加号空座、等待加入及邀请好友"
+    },
+    {
+      "state": "room.full",
+      "sources": [
+        "UI07",
+        "UI04.success",
+        "UI23"
+      ],
+      "description": "四席布局复用UI07，头像使用UI04成功态四角色，空座替换为第4玩家，满员且已准备时用UI23正常按钮；这是组件组装映射，未冒称另有满员整屏。"
+    },
+    {
+      "state": "room.host_member",
+      "sources": [
+        "UI07"
+      ],
+      "description": "青云带房主金标；桂枝与墨翎为普通成员"
+    },
+    {
+      "state": "room.ready_unready",
+      "sources": [
+        "UI07"
+      ],
+      "description": "绿色已准备与灰色未准备并置"
+    },
+    {
+      "state": "room.wait_start",
+      "sources": [
+        "UI07"
+      ],
+      "description": "等待玩家准备，满4人且全部准备后可开始；开始按钮禁用"
+    },
+    {
+      "state": "room.leave_confirm",
+      "sources": [
+        "UI23"
+      ],
+      "description": "左侧离开确认，返回房间/确认离开"
+    },
+    {
+      "state": "room.dismiss_start_progress",
+      "sources": [
+        "UI23"
+      ],
+      "description": "解散发起、2/4同意、2人等待、倒计时"
+    },
+    {
+      "state": "room.dismiss_vote",
+      "sources": [
+        "UI23"
+      ],
+      "description": "同意与拒绝按钮"
+    },
+    {
+      "state": "room.dismiss_passed_rejected",
+      "sources": [
+        "UI23"
+      ],
+      "description": "房间已解散→返回大厅；解散未通过→继续对局"
+    },
+    {
+      "state": "room.join_invalid_missing_full",
+      "sources": [
+        "UI24"
+      ],
+      "description": "输入错误、房间不存在、房间已满三个独立状态卡"
+    },
+    {
+      "state": "match.pending_cancel",
+      "sources": [
+        "UI04",
+        "UI24"
+      ],
+      "description": "匹配中00:18，可取消；匹配已取消→返回大厅"
+    },
+    {
+      "state": "match.success",
+      "sources": [
+        "UI04.success"
+      ],
+      "description": "四位已就位与进入牌桌"
+    },
+    {
+      "state": "match.timeout",
+      "sources": [
+        "UI24"
+      ],
+      "description": "匹配超时→重新匹配"
+    },
+    {
+      "state": "friends.online_busy_offline_invited",
+      "sources": [
+        "UI08"
+      ],
+      "description": "在线邀请、在线已邀请、忙碌禁用、离线禁用"
+    },
+    {
+      "state": "friends.search_no_result",
+      "sources": [
+        "UI08",
+        "UI24"
+      ],
+      "description": "搜索与添加入口、未找到结果→清空搜索"
+    },
+    {
+      "state": "empty.friends_mail_history",
+      "sources": [
+        "UI24"
+      ],
+      "description": "暂无好友→添加；暂无邮件→大厅；暂无战绩→开始"
+    },
+    {
+      "state": "network.reconnecting_failed",
+      "sources": [
+        "UI24"
+      ],
+      "description": "重新连接中/取消；恢复失败/返回大厅"
+    },
+    {
+      "state": "system.loading_mask",
+      "sources": [
+        "UI24"
+      ],
+      "description": "正在加载卡内半透明遮罩、旋转符号与进度条"
+    },
+    {
+      "state": "controls.button_states",
+      "sources": [
+        "UI23"
+      ],
+      "description": "正常、按下、选中、禁用四态"
+    },
+    {
+      "state": "controls.tabs_check_radio_slider_input_badge_tip",
+      "sources": [
+        "UI23"
+      ],
+      "description": "页签、勾选、单选、滑条、输入框、角标、提示气泡"
+    },
+    {
+      "state": "game.draw_continue_exit",
+      "sources": [
+        "UI23.draw"
+      ],
+      "description": "本局流局→继续下一局/返回大厅"
+    }
+  ]
+}

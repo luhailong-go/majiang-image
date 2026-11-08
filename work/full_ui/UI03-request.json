@@ -1,0 +1,35 @@
+{
+  "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+  "uiId": "UI03",
+  "title": "完整大厅",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-0928f4ca-5c92-491d-89ce-c3c2fcdc92c3.png",
+  "prompt": "prompts/core/ui03-lobby-complete.prompt.txt",
+  "generatedAt": "2026-10-26T08:20:49.439Z",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格"
+    }
+  ],
+  "coveredStates": [
+    "开始游戏",
+    "创建房间",
+    "加入房间",
+    "个人/社交/邮件/战绩/设置入口"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-0928f4ca-5c92-491d-89ce-c3c2fcdc92c3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

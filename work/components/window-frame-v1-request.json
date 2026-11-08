@@ -1,0 +1,30 @@
+{
+  "file": "designs/ui/component-sources/window-frame-v1.png",
+  "title": "通用透明窗框母版",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771c-66bc-7870-8ba6-dbca8e734ace\\exec-89500a22-bd5c-418e-ba42-d9c544d16152.png",
+  "prompt": "prompts/components/window-frame-v1.prompt.txt",
+  "generatedAt": "2026-10-26T04:43:10.032-04:00",
+  "transparent": true,
+  "requestedDimensions": [
+    2048,
+    1152
+  ],
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅参考"
+    }
+  ],
+  "receipt": {
+    "recoveredFrom": "work/components/window-frame-v1-receipt.json",
+    "note": "恢复中断前真实生成回执，不重复生成"
+  }
+}

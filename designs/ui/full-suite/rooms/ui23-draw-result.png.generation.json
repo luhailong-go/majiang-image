@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "UI23",
+  "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+  "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce",
+  "generatedAt": "2026-10-26T04:52:22.369000-04:00",
+  "generationTimestampBasis": "从原生成会话已完成的image_gen.generation事件恢复；时间为该事件完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b",
+  "resultReceipt": {
+    "recoveredFromCompletionEvent": true,
+    "eventId": "exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b",
+    "eventStatus": "completed",
+    "completedAtUTC": "2026-10-26T08:52:22.369Z",
+    "savedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b.png",
+    "inputImages": [
+      {
+        "path": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+        "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+        "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+        "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png",
+        "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3"
+      }
+    ],
+    "evidenceFile": "work/rooms/draw-recovery-evidence.json"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png"
+    ],
+    "promptFile": "prompts/rooms/ui23-draw-result.prompt.txt",
+    "size": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "恢复完成事件exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b；savedPath、revisedPrompt及四张inputImages路径/SHA-256已核对。工具未披露实际模型/质量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/rooms/ui23-draw-result.prompt.txt",
+  "promptSha256": "b7404809cf448708c7650a99f0378f988f2ff123bd06d354078e28360efabfe7",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "purpose": "实际生成输入，已按完成回执核对",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "实际生成输入，已按完成回执核对",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "实际生成输入，已按完成回执核对",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+      "purpose": "实际生成输入，已按完成回执核对",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png",
+      "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b.png",
+    "sha256": "2f33039e4f2c44ab02f9046b26da3afdaf650d9519a41924efbc3ba73870acce",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualInspectionCompleted": true,
+    "checks": [
+      "实际查看恢复的完整1672×941原生图：本局流局、本局无人成胡中文清楚",
+      "四名身份不同头像与四行本局积分0齐全，未出现胜者或正负积分",
+      "继续下一局为玉绿主操作，返回大厅为米白次操作，关闭X与局次清楚",
+      "不把零分演示态当地方规则；未设置真实计分合同",
+      "生成回执的revisedPrompt与保存提示词完全一致，四个输入参考及哈希核验通过"
+    ],
+    "unresolvedIssues": [],
+    "visualStatus": "passed",
+    "checkedAt": "2026-10-26T06:45:01-04:00",
+    "reviewEvidence": "recovered_generated_output_visually_checked_and_completion_event_verified"
+  },
+  "status": {
+    "assetStage": "complete_ui_art_direction_v1",
+    "readyForUserReview": true,
+    "userApproved": false,
+    "productionAccepted": true,
+    "clientIntegrated": false,
+    "acceptanceScope": "static_ui_artwork_qa"
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false,
+    "remoteConfigured": false
+  },
+  "variant": "draw",
+  "completionEventId": "exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b",
+  "recoveryEvidence": "work/rooms/draw-recovery-evidence.json"
+}

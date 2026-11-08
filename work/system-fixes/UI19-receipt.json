@@ -1,0 +1,15 @@
+{
+  "uiId": "UI19",
+  "observedCompletedAt": "2026-10-26T10:13:28.738Z",
+  "resultKeys": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b as C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-d0f08dc6-8bf9-444f-8ccf-9a2ba9058afa.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-d0f08dc6-8bf9-444f-8ccf-9a2ba9058afa.png",
+  "submittedReferences": [
+    "D:\\work\\majiang-image\\designs\\ui\\edit-sources\\ui19-records-before-fix.png",
+    "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+    "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png"
+  ]
+}

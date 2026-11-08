@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "scopeId": "UI20",
+  "title": "战绩详情",
+  "file": "designs/ui/full-suite/system/ui20-record-detail.png",
+  "sha256": "0884359157e3c91193ca8d305b2bcb0b76eaf87975a4e966c55265742d440a06",
+  "generatedAt": "2026-10-26T04:31:35.471000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-de169801-3841-4893-8f05-cc4659b33e16",
+  "resultReceipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-de169801-3841-4893-8f05-cc4659b33e16.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png"
+    ],
+    "size": null,
+    "promptFile": "prompts/system/ui20-record-detail.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具只披露image_url与output_hint；原生尺寸和哈希由PNG实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/system/ui20-record-detail.prompt.txt",
+  "promptSha256": "5ae304a8eab52faf63a86d6410aecb6ae42a4ae229c578c69f468012384c0f56",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "purpose": "当前大厅风格补充参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png",
+      "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3",
+      "purpose": "四座头像身份参考",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-de169801-3841-4893-8f05-cc4659b33e16.png",
+    "sha256": "0884359157e3c91193ca8d305b2bcb0b76eaf87975a4e966c55265742d440a06",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "notes": [
+      "实际查看：四座角色外观与附入头像母版保持一致；四家累计分+24/-8/-4/-12和分局表逐项核对正确，所有行合计0，所有列累计对应结果卡。",
+      "回放入口标明“仅界面示意”，样例数据、返回与关闭入口清楚。"
+    ],
+    "unresolvedIssues": []
+  },
+  "status": {
+    "assetStage": "full_ui_art_candidate",
+    "readyForReview": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

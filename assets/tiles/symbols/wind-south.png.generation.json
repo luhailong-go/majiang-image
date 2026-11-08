@@ -1,0 +1,39 @@
+{
+  "file": "assets/tiles/symbols/wind-south.png",
+  "sha256": "50e6c61f5294697fdf1cc62d9f29c9d6d3c28a6d5ad4bacee87e19aa548f9422",
+  "createdAt": "2026-10-26T08:25:50.299Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "No model call; deterministic original vector rendering.",
+  "derivedFrom": [],
+  "operation": [
+    "render native deterministic vector symbol SVG"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "symbolSource": {
+    "file": "assets/tiles/symbols/wind-south.svg",
+    "sha256": "7c1b59728f7d228ce4de02945adbb5974983461e4d97cb4a6827be03e00e38c2"
+  },
+  "semantic": {
+    "label": "南",
+    "suit": "winds",
+    "rank": null,
+    "pipCount": null,
+    "bambooCount": null,
+    "glyphs": [
+      "南"
+    ],
+    "whiteDragonFrame": false
+  }
+}

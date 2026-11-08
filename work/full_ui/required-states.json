@@ -1,0 +1,175 @@
+{
+  "room.empty_seat": [
+    "UI07"
+  ],
+  "room.full": [
+    "UI07"
+  ],
+  "room.owner": [
+    "UI07"
+  ],
+  "room.member": [
+    "UI07"
+  ],
+  "room.ready": [
+    "UI07"
+  ],
+  "room.not_ready": [
+    "UI07"
+  ],
+  "room.wait_start": [
+    "UI07"
+  ],
+  "room.leave_confirmation": [
+    "UI23"
+  ],
+  "room.dissolve_request": [
+    "UI23"
+  ],
+  "room.dissolve_vote": [
+    "UI23"
+  ],
+  "room.dissolve_progress": [
+    "UI23"
+  ],
+  "room.dissolve_result": [
+    "UI23"
+  ],
+  "room.join_failure": [
+    "UI24"
+  ],
+  "play.wait_discard": [
+    "UI09"
+  ],
+  "play.current_player": [
+    "UI09",
+    "UI10"
+  ],
+  "play.countdown": [
+    "UI09",
+    "UI10"
+  ],
+  "play.dealer": [
+    "UI09"
+  ],
+  "play.offline": [
+    "UI10"
+  ],
+  "play.autoplay": [
+    "UI10"
+  ],
+  "play.peng_gang_hu_pass": [
+    "UI10"
+  ],
+  "play.multiple_candidates": [
+    "UI10"
+  ],
+  "play.ready_hand": [
+    "UI10"
+  ],
+  "play.win": [
+    "UI11"
+  ],
+  "play.draw": [
+    "UI23"
+  ],
+  "play.continue_round": [
+    "UI11"
+  ],
+  "play.match_return": [
+    "UI12"
+  ],
+  "social.friend_online": [
+    "UI08",
+    "UI15"
+  ],
+  "social.friend_offline": [
+    "UI15"
+  ],
+  "social.friend_busy": [
+    "UI08"
+  ],
+  "social.invite_sent": [
+    "UI08"
+  ],
+  "social.friend_application": [
+    "UI15"
+  ],
+  "social.quick_chat": [
+    "UI16"
+  ],
+  "social.emoticons": [
+    "UI16"
+  ],
+  "mail.unread": [
+    "UI17"
+  ],
+  "mail.read": [
+    "UI17"
+  ],
+  "mail.attachment": [
+    "UI17",
+    "UI18"
+  ],
+  "mail.claim_pending": [
+    "UI18"
+  ],
+  "mail.claimed": [
+    "UI18"
+  ],
+  "mail.delete": [
+    "UI18"
+  ],
+  "list.no_results": [
+    "UI24"
+  ],
+  "system.loading": [
+    "UI01",
+    "UI24"
+  ],
+  "system.error": [
+    "UI24"
+  ],
+  "system.disconnected": [
+    "UI24"
+  ],
+  "system.reconnecting": [
+    "UI24"
+  ],
+  "system.recovery_failed": [
+    "UI24"
+  ],
+  "system.matching": [
+    "UI04"
+  ],
+  "system.match_timeout": [
+    "UI24"
+  ],
+  "system.match_cancel": [
+    "UI04"
+  ],
+  "control.normal": [
+    "UI23"
+  ],
+  "control.pressed": [
+    "UI23"
+  ],
+  "control.selected": [
+    "UI23"
+  ],
+  "control.disabled": [
+    "UI23"
+  ],
+  "control.toggle": [
+    "UI21",
+    "UI23"
+  ],
+  "control.slider": [
+    "UI21",
+    "UI23"
+  ],
+  "control.input": [
+    "UI06",
+    "UI23"
+  ]
+}

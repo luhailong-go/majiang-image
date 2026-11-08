@@ -1,0 +1,51 @@
+{
+  "id": "UI23",
+  "file": "designs/ui/full-suite/rooms/ui23-draw-result.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b.png",
+  "prompt": "prompts/rooms/ui23-draw-result.prompt.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "实际生成输入，已按完成回执核对"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "实际生成输入，已按完成回执核对"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "实际生成输入，已按完成回执核对"
+    },
+    {
+      "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+      "purpose": "实际生成输入，已按完成回执核对"
+    }
+  ],
+  "generatedAt": "2026-10-26T04:52:22.369000-04:00",
+  "receipt": {
+    "recoveredFromCompletionEvent": true,
+    "eventId": "exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b",
+    "eventStatus": "completed",
+    "completedAtUTC": "2026-10-26T08:52:22.369Z",
+    "savedPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-4693da90-d2a2-46d7-a0e4-731cdc4bf14b.png",
+    "inputImages": [
+      {
+        "path": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+        "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+        "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+        "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323"
+      },
+      {
+        "path": "D:\\work\\majiang-image\\designs\\characters\\production\\seat-avatars-atlas-v1.png",
+        "sha256": "c4b9f402dac3e9e98996d9839f6c4645af09d96074c9d1b2ffd38d35002734b3"
+      }
+    ],
+    "evidenceFile": "work/rooms/draw-recovery-evidence.json"
+  }
+}

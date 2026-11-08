@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/items/gift-box.png",
+  "sha256": "53f59dda3990f00af3fa2f0758fdf19d7f8b9a0915b6158e76938c1b6ba9593a",
+  "createdAt": "2026-10-26T16:37:55.743Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/items-b-sheet-v1.png",
+      "sha256": "f58adad626bb766b19b4dd66dd57f2e2ee6b7951474472f7efcfd2d7e7a120ee",
+      "generationRecord": "designs/props/full-game/sources/items-b-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "nativeContentBounds": [
+      33,
+      50,
+      500,
+      486
+    ],
+    "corePixelsBefore": 152184,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 152184,
+        "box": [
+          33,
+          50,
+          499,
+          485
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      467,
+      436
+    ],
+    "exportContent": [
+      467,
+      436
+    ],
+    "contentBounds": [
+      22,
+      38,
+      467,
+      436
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "item-gift-box",
+    "label": "礼盒",
+    "group": "item"
+  }
+}

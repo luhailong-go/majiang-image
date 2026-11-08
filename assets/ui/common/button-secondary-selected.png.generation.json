@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/button-secondary-selected.png",
+  "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 577,
+  "height": 178,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": {
+    "width": 577,
+    "height": 178
+  },
+  "derivedFrom": {
+    "file": "assets/ui/common/button-secondary-normal.png",
+    "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+    "record": "assets/ui/common/button-secondary-normal.png.generation.json"
+  },
+  "operation": "deterministic UI state color transform; geometry and alpha preserved",
+  "crop": null,
+  "transparentPadding": 0,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": [
+    80,
+    28,
+    80,
+    28
+  ],
+  "alpha": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparent": 21299,
+    "semiTransparent": 3273,
+    "opaque": 78134,
+    "bbox": [
+      8,
+      8,
+      569,
+      170
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "stateTransform": {
+    "brightness": 1.12,
+    "color": 1.12
+  },
+  "resizePolicy": {
+    "mode": "horizontal_nine_slice_only",
+    "stretchAxes": [
+      "x"
+    ],
+    "lockHeightAfterUniformScale": true,
+    "uniformScaleAllowed": true,
+    "reason": "Preserve round end ornaments; vertical anisotropic stretching is forbidden."
+  },
+  "minimumGeometrySize": [
+    161,
+    57
+  ],
+  "clientIntegrated": false
+}

@@ -1,0 +1,68 @@
+{
+  "file": "designs\\characters\\production\\welcome-daotong-production-v2.png",
+  "sha256": "1e9aa33f6b44953eec58cc9668861fe221cdf626fc992e8b188cb9ba0f21132e",
+  "width": 1254,
+  "height": 1254,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "alphaZero": 745986,
+  "alpha255": 1769,
+  "alphaLow1to8": 35932,
+  "bboxAbove128": [
+    100,
+    17,
+    1235,
+    1235
+  ],
+  "bboxNonzero": [
+    0,
+    12,
+    1240,
+    1240
+  ],
+  "commonAlpha": [
+    [
+      0,
+      745986
+    ],
+    [
+      253,
+      639964
+    ],
+    [
+      254,
+      53297
+    ],
+    [
+      252,
+      47164
+    ],
+    [
+      1,
+      19895
+    ],
+    [
+      251,
+      11816
+    ],
+    [
+      2,
+      5920
+    ],
+    [
+      250,
+      5395
+    ],
+    [
+      3,
+      3412
+    ],
+    [
+      249,
+      3381
+    ]
+  ]
+}

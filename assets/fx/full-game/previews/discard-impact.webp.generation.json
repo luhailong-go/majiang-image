@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/fx/full-game/previews/discard-impact.webp",
+  "sha256": "eb252562f905e41aa977be71bf9f528c241a54400e97480962e326da2e5c833c",
+  "derivedAt": "2026-10-26T11:52:29-04:00",
+  "tool": "generate2dsprite clip/engine packaging",
+  "route": "deterministic_derivative",
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "format": "WEBP",
+  "frameCount": 4,
+  "derivedFrom": [
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-00.png",
+      "sha256": "cda75bf68b0bf18416c609f307a0526eeda3ac836bf07b3a0f161179fea54cb3",
+      "record": "assets/fx/full-game/frames/discard-impact-00.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-01.png",
+      "sha256": "007fbbf6a2c5eb74cab650fe907c1d383928f92d0380f675bd3ff1d09b554192",
+      "record": "assets/fx/full-game/frames/discard-impact-01.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-02.png",
+      "sha256": "00d73e14275dfc527eb5a4aae0921e32caefe1a68e71947a5cbee47f2d317e07",
+      "record": "assets/fx/full-game/frames/discard-impact-02.png.generation.json"
+    },
+    {
+      "file": "assets/fx/full-game/frames/discard-impact-03.png",
+      "sha256": "40c801419f847f62bc8f603d14fc9284392582e42c8377aade687006c177c4cf",
+      "record": "assets/fx/full-game/frames/discard-impact-03.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "lossless_timed_webp",
+    "frameDurationMs": [
+      67,
+      66,
+      84,
+      116
+    ],
+    "loop": false,
+    "sourcePngsByteIdentical": true,
+    "decodedTimelineVerified": true,
+    "decodedAlphaAndVisibleRgbExact": true,
+    "noNewArt": true
+  },
+  "inspection": {
+    "visualStatus": "passed_phase_filmstrip_and_alpha_review",
+    "issues": []
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  }
+}

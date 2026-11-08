@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "verifiedAt": "2026-10-29T03:56:56.191365+00:00",
+  "baseArtManifest": "exports/production-art-v3-manifest.json",
+  "baseManifestSha256": "d662c6982dc0fb701297aa0603774b7063bfb26a35635546afcc2cca01414444",
+  "baseAssetCount": 292,
+  "logoCount": 1,
+  "currentPrimaryAssetCount": 293,
+  "logoSha256": "47067159efa5a7bdb6c64836e7d3e12b37ff7ea70f338926ed727e579fdec671",
+  "nativeBytesPreserved": true,
+  "promptSha256": "b8be871127a864e3d7f6d0ffd369f12d7b551df89355762d9f0bd41528e1aeaa",
+  "qa": "assets/branding/yunjian-queshe/qa.json",
+  "brandConfigSha256": "53ea7ded369bd7b93ea3f6fec0e551edac952103e01df3498187f7d5364a1411",
+  "currentManifestSha256": "47b5e19937dfed035796b34a96d26f6531013356b5bc7454b531f14e875ce34e",
+  "rootGalleryHasLogo": true,
+  "actualModel": null,
+  "actualQuality": null,
+  "clientIntegrated": false,
+  "errors": [],
+  "qaSha256": "4548329a597e61e86e74878f7d172dbd1f62d8705489612576130b22684f85b0",
+  "independentVisualReview": "passed"
+}

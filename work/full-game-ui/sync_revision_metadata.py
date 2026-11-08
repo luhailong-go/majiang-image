@@ -1,0 +1,10 @@
+from pathlib import Path
+R=Path(r'D:\work\majiang-image')
+p=R/'work/full-game-ui/build_domain.py';s=p.read_text(encoding='utf-8')
+s=s.replace('10 pages 1672x941; UI29 claimed 1671x941.','9 pages 1672x941; UI25 and UI29 claimed 1671x941.')
+s=s.replace('10张原生1672×941，已领取图原生1671×941','9张原生1672×941，装扮设置及已领取图原生1671×941')
+s=s.replace('UI27原始选牌图仅为AI编辑来源','UI25原始装扮图及UI27原始选牌图仅为AI编辑来源')
+p.write_text(s,encoding='utf-8')
+p=R/'docs/UI_FULL_GAME.md';s=p.read_text(encoding='utf-8').replace('UI25 中“预览中”是尚未保存的状态；应用成功后客户端更新当前方案并显示单独成功回执。','UI25 中“预览中”表示正在查看该搭配，可与当前已用搭配相同；同款应用按幂等操作处理，保持当前方案。更换搭配并应用成功后，客户端再更新方案与成功回执。')
+p.write_text(s,encoding='utf-8')
+print('Revision dimensions and idempotent preview documentation synchronized.')

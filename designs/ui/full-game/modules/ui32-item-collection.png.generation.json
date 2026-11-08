@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "scopeId": "UI32",
+  "uiId": "UI32",
+  "variant": "default",
+  "title": "物品收藏",
+  "file": "designs/ui/full-game/modules/ui32-item-collection.png",
+  "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+  "generatedAt": "2026-10-26T12:15:18.016000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-1e814ee1-396d-4f47-919b-115aa5c058a9",
+  "resultReceipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b as C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-1e814ee1-396d-4f47-919b-115aa5c058a9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui03-lobby-complete.png"
+    ],
+    "promptFile": "prompts/full-game/ui/modules/ui32-item-collection.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具只提供image_url与output_hint及输出PNG路径；尺寸、格式及SHA-256由落盘图片测量。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/full-game/ui/modules/ui32-item-collection.prompt.txt",
+  "promptSha256": "d2085c5503731596988f13c37a62abed29678cd438f7d0925370f821a0cc306e",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主UI风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主UI风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/full-suite/core/ui03-lobby-complete.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\full-suite\\core\\ui03-lobby-complete.png",
+      "sha256": "052303fb6d64c3972d2cc4c9ae036d767e4c49fb8923cf93a611884b7dfdd8f9",
+      "purpose": "当前大厅布局与风格",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a0-6695-79c2-a64b-8c47e9f8883b\\exec-1e814ee1-396d-4f47-919b-115aa5c058a9.png",
+    "sha256": "d99ed4b89cc5a54ddb3d6ad2204e9e315b7d97bdeedac453d670bae5353eb4cf",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "coveredStates": [
+    "inventory.default",
+    "inventory.selected",
+    "inventory.in_use",
+    "inventory.empty_slot",
+    "inventory.use_entry",
+    "navigation.back-lobby",
+    "navigation.close"
+  ],
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "notes": [
+      "装扮体验券×2未使用、收藏礼盒×1已选中、太极徽章×1使用中及空槽完整可见。",
+      "右详情名称/图标与选中礼盒一致，使用按钮对应礼盒而非使用中的徽章；返回关闭与可选示例标注可见。"
+    ],
+    "unresolvedIssues": [],
+    "styleConsistency": "passed",
+    "chineseLegibility": "passed",
+    "stateSemantics": "passed",
+    "safeArea": "passed"
+  },
+  "status": {
+    "assetStage": "full_game_ui_art_candidate",
+    "readyForReview": true,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "artworkQaPassed": true
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

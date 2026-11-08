@@ -1,0 +1,32 @@
+{
+  "id": "UI08",
+  "file": "designs/ui/full-suite/rooms/ui08-invite-friends.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-caa3c9cf-f6ae-499e-b530-eaffd0884b19.png",
+  "prompt": "prompts/rooms/ui08-invite-friends.prompt.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "首要UI手绘材质、玉绿金边与米白正文层级"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "明亮场景、卡片留白、人物差异与操作层级"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "本项目统一大厅风格与功能语境"
+    },
+    {
+      "file": "designs/characters/production/seat-avatars-atlas-v1.png",
+      "purpose": "统一四个座位头像身份参考"
+    }
+  ],
+  "generatedAt": "2026-10-26T08:31:15.957Z",
+  "receipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3 as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-69c8-7161-aea9-9df0511993e3\\exec-caa3c9cf-f6ae-499e-b530-eaffd0884b19.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

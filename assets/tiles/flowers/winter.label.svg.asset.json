@@ -1,0 +1,15 @@
+{
+  "file": "assets/tiles/flowers/winter.label.svg",
+  "sha256": "696914916421dd4ca73594a3539ca3add12a0027716c69f73fe7d9a1d8cc034b",
+  "createdAt": "2026-10-26T17:10:53.295338+00:00",
+  "kind": "original exact native vector overlay",
+  "operation": "KaiTi outlined glyph",
+  "fontFileDistributed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelCall": false,
+  "checks": {
+    "technical": "passed",
+    "visual": "passed"
+  }
+}

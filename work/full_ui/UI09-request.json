@@ -1,0 +1,38 @@
+{
+  "file": "designs/ui/full-suite/core/ui09-table-base.png",
+  "uiId": "UI09",
+  "title": "四人牌桌基础态",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a8ca64aa-73b1-4991-9cee-807e7af36828.png",
+  "prompt": "prompts/core/ui09-table-base.prompt.txt",
+  "generatedAt": "2026-10-26T08:10:45.616Z",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格和层级"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格"
+    }
+  ],
+  "coveredStates": [
+    "等待出牌",
+    "当前玩家",
+    "倒计时",
+    "庄家",
+    "四方弃牌/副露",
+    "牌墙/余牌",
+    "设置/聊天入口"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a8ca64aa-73b1-4991-9cee-807e7af36828.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

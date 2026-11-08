@@ -1,0 +1,23 @@
+{
+  "file": "designs/ui/full-game/core/ui25-customization.png",
+  "uiId": "UI25",
+  "title": "装扮设置",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a71613ac-6472-48dc-a057-c0713bc26d43.png",
+  "references": [
+    "designs/ui/full-game/core/ui25-customization-source.png",
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png"
+  ],
+  "prompt": "prompts/full-game/ui/core/ui25-customization-label-fix.txt",
+  "notes": "定点AI编辑后全图实看：当前使用区牌背标签已改为太极青玉，与右侧选中牌背一致；桌布名青玉云纹保留。其他布局、文字、按钮层级保持一致。当前所选与使用中相同可幂等应用；实际主题纹理/名称见theme-bindings，不把概念小样冒充导出纹理。",
+  "states": [
+    "桌布选择",
+    "牌背选择",
+    "选中/未选中",
+    "当前使用",
+    "同款预览",
+    "幂等应用装扮"
+  ],
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-a71613ac-6472-48dc-a057-c0713bc26d43.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "isEdit": true
+}

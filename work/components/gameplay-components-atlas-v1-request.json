@@ -1,0 +1,41 @@
+{
+  "file": "designs/ui/component-sources/gameplay-components-atlas-v1.png",
+  "title": "gameplay-components-atlas-v1",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-c6f28b7a-c5d4-4d96-b0c0-b78c1a419db7.png",
+  "prompt": "prompts/components/gameplay-components-atlas-v1.prompt.txt",
+  "generatedAt": "2026-10-26T10:33:13.830Z",
+  "transparent": true,
+  "requestedDimensions": [
+    2048,
+    2048
+  ],
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "purpose": "对局布局参考"
+    }
+  ],
+  "receipt": {
+    "id": "gameplay-components-atlas-v1",
+    "startedAt": "2026-10-26T10:29:36.679Z",
+    "completedAt": "2026-10-26T10:33:13.830Z",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58 as C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-c6f28b7a-c5d4-4d96-b0c0-b78c1a419db7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-c6f28b7a-c5d4-4d96-b0c0-b78c1a419db7.png"
+  }
+}

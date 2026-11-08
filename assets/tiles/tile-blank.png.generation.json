@@ -1,0 +1,51 @@
+{
+  "file": "assets/tiles/tile-blank.png",
+  "sha256": "9ba0e945c5c066667c526d9dbe9630278190c2d91bf85aa98a75c82c3c3744be",
+  "createdAt": "2026-10-26T08:25:49.308Z",
+  "tool": "deterministic tile asset build",
+  "route": "derived",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived asset, not a new model call; source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "assets/tiles/source/tile-blank-v2.png",
+      "sha256": "dc30eb33b88418a4a21bca068366dc46d80ace43e16e1443eb1ba78bdc8f3d67",
+      "generationRecord": "assets/tiles/source/tile-blank-v2.png.generation.json"
+    }
+  ],
+  "operation": [
+    "foreground alpha silhouette conditioning",
+    "native content crop",
+    "downscale and center on shared 448x640 transparent canvas"
+  ],
+  "canvas": {
+    "width": 448,
+    "height": 640,
+    "format": "png"
+  },
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "reviewedAt": "2026-10-26T08:30:52.870005+00:00"
+  },
+  "export": {
+    "native": {
+      "width": 1024,
+      "height": 1536
+    },
+    "crop": {
+      "left": 101,
+      "top": 173,
+      "width": 843,
+      "height": 1171
+    },
+    "contentBounds": [
+      8,
+      20,
+      432,
+      600
+    ],
+    "alphaOperation": "Native alpha >=128 foreground silhouette, fully opaque interior; crop and downscale with Lanczos3 creates only narrow antialiased edge. Removes residual model halo, not a new AI generation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "designs/ui/full-game/component-sources/reward-cosmetic-cards-v1.png",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-e12b241f-c1c8-43ad-9bc8-49e092eebc1c.png",
+  "title": "奖励与装扮卡片无字透明母版",
+  "prompt": "prompts/full-game/ui/components/reward-cosmetic-cards-v1.prompt.txt",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "transparent": true,
+  "receipt": "work/full-game-ui/components/reward-cosmetic-cards-v1-receipt.json",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "role": "primary material, palette and hand-painted UI reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "role": "primary hierarchy, card and selection treatment reference"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "role": "current mahjong lobby continuity"
+    }
+  ]
+}

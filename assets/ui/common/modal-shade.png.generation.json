@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "assets/ui/common/modal-shade.png",
+  "sha256": "deff438efd9ffe070dc439180a34245fb6eec950a8865daf081cfb04620fed3d",
+  "exportedAt": "2026-10-26T07:24:41.067337-04:00",
+  "kind": "derived_ui_asset",
+  "generatedByModel": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "width": 8,
+  "height": 8,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSourceDimensions": null,
+  "derivedFrom": null,
+  "operation": "constant RGBA runtime overlay primitive, 8x8 black alpha144; not AI artwork",
+  "crop": null,
+  "transparentPadding": 0,
+  "resampled": false,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "nineSlice": null,
+  "alpha": {
+    "range": [
+      144,
+      144
+    ],
+    "fullyTransparent": 0,
+    "semiTransparent": 64,
+    "opaque": 0,
+    "bbox": [
+      0,
+      0,
+      8,
+      8
+    ],
+    "corners": [
+      144,
+      144,
+      144,
+      144
+    ]
+  },
+  "dynamicText": "Separate native client text; no text baked into this skin.",
+  "inspection": {
+    "status": "passed",
+    "visualCheck": "Actual final RGBA pixels composited on light and dark backgrounds; no baked background or detached colored speckles observed.",
+    "alphaAndGeometry": "passed",
+    "nineSlicePolicy": "reviewed; only stretch permitted axes",
+    "issues": [],
+    "qaImages": [
+      "work/components/qa/common-light.png",
+      "work/components/qa/common-dark.png"
+    ],
+    "checkedAt": "2026-10-26T08:45:30.784998-04:00"
+  },
+  "productionAccepted": true,
+  "resizePolicy": {
+    "mode": "viewport_stretch",
+    "stretchAxes": [
+      "x",
+      "y"
+    ],
+    "reason": "Constant RGBA runtime overlay."
+  },
+  "clientIntegrated": false
+}

@@ -1,0 +1,23 @@
+{
+  "file": "designs/ui/full-game/core/ui26-character-detail.png",
+  "uiId": "UI26",
+  "title": "角色详情",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-159e73b9-1054-4836-8040-3a48565dc136.png",
+  "references": [
+    "references/style/01-mail-event.png",
+    "references/style/team-ui-v2.png",
+    "assets/characters/welcome-daotong.png",
+    "designs/ui/full-suite/core/ui14-character-select.png",
+    "references/style/mail-banner-character.png"
+  ],
+  "prompt": "prompts/full-game/ui/core/ui26-character-detail.txt",
+  "notes": "实看全图：金发带/棕刺发/玉绿服/太极葫芦身份一致，完整手足；微笑喝彩思考问候四表达清楚，中文无错字；当前使用与灰色已使用互相一致。",
+  "states": [
+    "详情",
+    "四表情预览",
+    "当前使用",
+    "已使用禁用按钮",
+    "返回"
+  ],
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-159e73b9-1054-4836-8040-3a48565dc136.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+}

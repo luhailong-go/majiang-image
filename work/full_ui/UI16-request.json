@@ -1,0 +1,40 @@
+{
+  "file": "designs/ui/full-suite/core/ui16-quick-chat.png",
+  "uiId": "UI16",
+  "title": "快捷聊天与表情",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-daba2f5a-46d3-46ae-a414-b8bcf1445def.png",
+  "prompt": "prompts/core/ui16-quick-chat.prompt.txt",
+  "generatedAt": "2026-10-26T08:29:01.088Z",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI风格参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅统一风格"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "purpose": "本项目牌桌布局"
+    }
+  ],
+  "coveredStates": [
+    "快捷语",
+    "表情页签",
+    "发送",
+    "关闭",
+    "语音/静音"
+  ],
+  "receipt": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175 as C:\\Users\\luyua\\.codex\\generated_images\\01a1771b-b60a-7292-ba6f-b19399c31175\\exec-daba2f5a-46d3-46ae-a414-b8bcf1445def.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

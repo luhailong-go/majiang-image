@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/characters/full-game/master-expressions-native.png",
+  "sha256": "a301c5267c6d286dac29a2deb7c99525b9c0e7969fba34cc8f2578187bfd4418",
+  "generatedAt": "2026-10-26T18:27:04.631204+00:00",
+  "completionObservedAt": "2026-10-26T18:33:40.282537+00:00",
+  "timestampBasis": "host artifact filesystem modification time, observed after builtin tool completion",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensions": [
+    1254,
+    1254
+  ],
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "generationCallId": null,
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\assets\\characters\\avatar-master.png",
+      "D:\\work\\majiang-image\\designs\\characters\\full-game\\master-fullbody-native.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "toolReturnFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "nativeOutputFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a17738-5d48-7cd1-bec8-47c9bf0ee60f\\exec-72017022-0a16-4c05-8ec8-5962034401b6.png",
+    "nativeOutputSha256": "a301c5267c6d286dac29a2deb7c99525b9c0e7969fba34cc8f2578187bfd4418",
+    "copy": "byte-identical"
+  },
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量；配置目标与实际返回证据分开。",
+  "prompt": "prompts/full-game/characters/master-expressions.prompt.txt",
+  "promptSha256": "614943bd9da3d3225d61b9bbc58cc026c01ae3cbb49b0cb521ee609ac4aba054",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "assets/characters/avatar-master.png",
+      "submittedPath": "D:\\work\\majiang-image\\assets\\characters\\avatar-master.png",
+      "sha256": "c8976005b55ca333b0b84e3acea9fc3cb387165351cc9aa92c7bcf90761a9c5b",
+      "role": "identity reference",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 4,
+      "file": "designs/characters/full-game/master-fullbody-native.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\characters\\full-game\\master-fullbody-native.png",
+      "sha256": "49054ded9fdf14d80ebde2fe83a281c0e8227ebec161845da14f2910d4b65e11",
+      "role": "identity reference",
+      "actuallyAttached": true
+    }
+  ],
+  "inspection": {
+    "status": "accepted_as_rebuild_source",
+    "visualInspectionCompleted": true,
+    "checkedAt": "2026-10-26T20:24:09.537429+00:00",
+    "identity": "passed",
+    "expressions": "four visibly distinct emotions",
+    "rawAlpha": "technical low-alpha external speckles removed by recorded export; source art is not the runtime sprite",
+    "runtimeQa": "assets/characters/full-game/qa.json",
+    "unresolvedRuntimeIssues": []
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "scopeId": "UI13",
+  "title": "个人资料",
+  "file": "designs/ui/full-suite/system/ui13-profile.png",
+  "sha256": "b19d96261648291a93a3172727a35b0fd6a00a65d96a2cb25065c29c3b22f41d",
+  "generatedAt": "2026-10-26T04:11:33.698000-04:00",
+  "generationTimestampBasis": "客户端观察工具完成时间",
+  "clientTimezone": "America/New_York",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedDimensionsInPrompt": {
+    "width": 2048,
+    "height": 1152
+  },
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "generationCallId": null,
+  "resultId": null,
+  "outputArtifactFileId": "exec-620e6ec8-bce3-4c71-9f34-a3d3ee347ac7",
+  "resultReceipt": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b as C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-620e6ec8-bce3-4c71-9f34-a3d3ee347ac7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png"
+    ],
+    "size": null,
+    "promptFile": "prompts/system/ui13-profile.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "工具只披露image_url与output_hint；原生尺寸和哈希由PNG实测。",
+  "unverifiedReason": "宿主管理，工具未披露可核实版本/质量",
+  "prompt": "prompts/system/ui13-profile.prompt.txt",
+  "promptSha256": "7c2986e3697cb73eca85b83b50da624056a12bb5554258a2790a0db71a589ce1",
+  "references": [
+    {
+      "inputIndex": 1,
+      "file": "references/style/01-mail-event.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 2,
+      "file": "references/style/team-ui-v2.png",
+      "submittedPath": "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "inputIndex": 3,
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "submittedPath": "D:\\work\\majiang-image\\designs\\ui\\mahjong-lobby-v1.png",
+      "sha256": "b07de3aa70d78b9b9eea365bfb975621872a03e11c9b564eb4c5d2fec57d7323",
+      "purpose": "当前大厅风格补充参考",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a1773a-ae4a-7242-b6ad-9bf63b23009b\\exec-620e6ec8-bce3-4c71-9f34-a3d3ee347ac7.png",
+    "sha256": "b19d96261648291a93a3172727a35b0fd6a00a65d96a2cb25065c29c3b22f41d",
+    "operation": "byte-identical copy",
+    "derived": false
+  },
+  "inspection": {
+    "pngIntegrity": "passed",
+    "visualStatus": "passed",
+    "notes": [
+      "实际查看整屏：个人资料、头像昵称ID、基础统计、修改资料、查看战绩及返回均清楚；样例24局/12胜/50%相互一致；无明显错字或裁切。",
+      "独立原生整屏，非总览裁切。"
+    ],
+    "unresolvedIssues": []
+  },
+  "status": {
+    "assetStage": "full_ui_art_candidate",
+    "readyForReview": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

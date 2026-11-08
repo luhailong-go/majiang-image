@@ -1,0 +1,55 @@
+{
+  "file": "production/previews/contact-pages-3.png",
+  "sha256": "1f9560c235eb8484822f1581b733b2b25f70347cd7bbab8ed6e40d809e822926",
+  "width": 1440,
+  "height": 906,
+  "format": "PNG",
+  "mode": "RGB",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "production/previews/pages/UI25.png",
+      "sha256": "b8c83bb2b7b752e29c70e863a20308ece52e22c68e1afc692f909ddd844a00ab",
+      "generationRecord": "production/previews/pages/UI25.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI26.png",
+      "sha256": "8539ba45509fc189c1dc10c89a27a62d851c40538bedafe49294ae11e76d0477",
+      "generationRecord": "production/previews/pages/UI26.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI27.png",
+      "sha256": "7970dea5a0290488754323b0b8a3999e881bc07f8ed04279225c8da098a80f82",
+      "generationRecord": "production/previews/pages/UI27.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI28.png",
+      "sha256": "3a6184719187d7e380f2a78e8d4206c0acaba7602c700779be26644d02bb9a68",
+      "generationRecord": "production/previews/pages/UI28.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI29.png",
+      "sha256": "8afb739c82dded99611db0c23c4d49fd2895cfddbcd769a68242f7ea45d788b1",
+      "generationRecord": "production/previews/pages/UI29.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI30.png",
+      "sha256": "82f97dacb73e91b41ceff9ed18618d30e690039775b74c111641a162d6da6efe",
+      "generationRecord": "production/previews/pages/UI30.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI31.png",
+      "sha256": "9be9fbb32746d5553421ff7c07f80e5edc789ec03b9658cc1deb271ca456e12a",
+      "generationRecord": "production/previews/pages/UI31.png.generation.json"
+    },
+    {
+      "file": "production/previews/pages/UI32.png",
+      "sha256": "275c6397850185048b20feac0702ff70508608b72015711daa87539c6cdc35a5",
+      "generationRecord": "production/previews/pages/UI32.png.generation.json"
+    }
+  ],
+  "operation": "deterministic visual QA contact sheet, not an independent painting",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00"
+}

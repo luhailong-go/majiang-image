@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 3,
+  "file": "production/previews/states/social.emoticons.png",
+  "sha256": "1e8043f9993078d8792c7167a576197b558168d74f2a2cfb10728d1d404e2dca",
+  "createdAt": "2026-10-30T03:06:16.082795+00:00",
+  "width": 1280,
+  "height": 720,
+  "mode": "RGB",
+  "format": "PNG",
+  "newModelGeneration": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "assets/props/full-game/emotes/aggrieved.png",
+      "sha256": "14fca0aa8d61bc07b74224d0fb7e67d59e0d599c3a103589cfa0b1c8867d8f39",
+      "generationRecord": "assets/props/full-game/emotes/aggrieved.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/applause.png",
+      "sha256": "33e5c39d454ca3b38663ad3c11f7f4b336c24701ed1d4bddc5da9c8e78f4d9bb",
+      "generationRecord": "assets/props/full-game/emotes/applause.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/approval.png",
+      "sha256": "13f3c2631a1468752939e4ce1fe4e71bbbcd97a8c8653aa5c567467f5698be9d",
+      "generationRecord": "assets/props/full-game/emotes/approval.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/big-laugh.png",
+      "sha256": "fc9b4a5e8703151ac180f502d672b0f395e5fba33a065d3061f668a2de4f7a4a",
+      "generationRecord": "assets/props/full-game/emotes/big-laugh.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/celebrate.png",
+      "sha256": "f37d277f09c4d5f524e52965b8c74d2223a2e29f3036f7195d57b64b620b3c0e",
+      "generationRecord": "assets/props/full-game/emotes/celebrate.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/cheer-on.png",
+      "sha256": "9d12615cc9109750592bacbf251865611d80fc1386c095f28dcd845535d5d66b",
+      "generationRecord": "assets/props/full-game/emotes/cheer-on.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/hello.png",
+      "sha256": "e8eb609248c25bb0a7ff3b75855c6c289f31d213feb25b2f4b739d6a4bee8f03",
+      "generationRecord": "assets/props/full-game/emotes/hello.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/respect.png",
+      "sha256": "0f7180a06fdc82a969ca58f763cfaa68c41ad61aac387c79002b0ac8a320f573",
+      "generationRecord": "assets/props/full-game/emotes/respect.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/sorry.png",
+      "sha256": "41a208f58702125fc8c02349b2e8f4ff154e72d1255d1eba420bdcd8e184f2c2",
+      "generationRecord": "assets/props/full-game/emotes/sorry.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/surprise.png",
+      "sha256": "861a5915bb9573d34cc8e70e808e7f0e6cae77de9ad85ca8411b55d596627362",
+      "generationRecord": "assets/props/full-game/emotes/surprise.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/thinking.png",
+      "sha256": "2c7786b555fa13456971d9ce1c26128392fffdc0e4629cf0537cf836c8d9c6ef",
+      "generationRecord": "assets/props/full-game/emotes/thinking.png.generation.json"
+    },
+    {
+      "file": "assets/props/full-game/emotes/wait.png",
+      "sha256": "af0b09031de22d860b64f348b352f233ab8c825e0b5464c525fbe4fda85b6ccc",
+      "generationRecord": "assets/props/full-game/emotes/wait.png.generation.json"
+    },
+    {
+      "file": "assets/scenes/full-game/courtyard-day.png",
+      "sha256": "bb4c85dc6755b4376358f280e23d5e9a65fa0a2e6efd2cc1c8df7a38eb2da1c0",
+      "generationRecord": "assets/scenes/full-game/courtyard-day.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-disabled.png",
+      "sha256": "9851d339cbdf67764dbf45e49d184d53ac55a0fe34e66644e51871a927cd0eb3",
+      "generationRecord": "assets/ui/common/button-secondary-disabled.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-normal.png",
+      "sha256": "a9ea7de6145e0c1ce5893b61e18b7fe8f2f1cc7b1d7034cf6a151fa763af6de4",
+      "generationRecord": "assets/ui/common/button-secondary-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-pressed.png",
+      "sha256": "7acbb6396ad6492c481f5895e555a7f3e2d9033c8f091dc571240f5db060e1bf",
+      "generationRecord": "assets/ui/common/button-secondary-pressed.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/button-secondary-selected.png",
+      "sha256": "4943dc41f6de3ee4bf796fb65ee6def574eae740a9b16e454b11953bc52b3506",
+      "generationRecord": "assets/ui/common/button-secondary-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/content-card.png",
+      "sha256": "aea9f5efd03ce9224c0cc5dc467a8a4a382d6341561987363a089dd891f23ba4",
+      "generationRecord": "assets/ui/common/content-card.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/icon-close.png",
+      "sha256": "7ee454cfcf46c1c9fb836c6aa2ab36995a9c1ca578602c8830700cf3cf9b8e33",
+      "generationRecord": "assets/ui/common/icon-close.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-normal.png",
+      "sha256": "6b3afe1cd5fcdd9f2b61b60b654123388868aaee88aa43bd1e4463d58a71542b",
+      "generationRecord": "assets/ui/common/tab-normal.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/tab-selected.png",
+      "sha256": "9232b4436cbf6c9728646c379afed4fd8b2fb0929eb861261125ff46eb4a53e7",
+      "generationRecord": "assets/ui/common/tab-selected.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/title-plaque.png",
+      "sha256": "f5c621b63d2ad0c4e09b8cefa91b727dc514837ce10a717d333b3610ffdf7690",
+      "generationRecord": "assets/ui/common/title-plaque.png.generation.json"
+    },
+    {
+      "file": "assets/ui/common/window-frame.png",
+      "sha256": "84a7e0b46ae08014f1a3dc04b446590e4b956e2bc294787c4411c7b439861dfb",
+      "generationRecord": "assets/ui/common/window-frame.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "independent_asset_UI_composition",
+    "designCanvas": [
+      1600,
+      900
+    ],
+    "previewCanvas": [
+      1280,
+      720
+    ],
+    "layoutSource": "production/states.json",
+    "layoutId": "social.emoticons",
+    "layoutContentSha256": "b6d2bd93c3b654eb998e21da9b812a75e0adc8a04dafe73e6163feb36ff7dbb6",
+    "rendererSha256": "2862fcadd4c967389c532ec92c881ea959f9a571a03e13fad80cd44f900d9dd3",
+    "nineSlice": "only explicit source contract",
+    "text": "native CJK font at render time; no font binaries redistributed",
+    "notANativeNewPainting": true
+  },
+  "inspection": {
+    "status": "passed_art_visual_qa",
+    "receipt": "production/final-visual-qa.json",
+    "scope": "Actual latest changed proof PNGs viewed; unchanged PNG hashes reuse prior acceptance; no browser or engine claim"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file": "designs/ui/component-sources/table-background-v1.png",
+  "title": "table-background-v1",
+  "source": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-06954bc1-7471-4f55-9da5-312b7361cef8.png",
+  "prompt": "prompts/components/table-background-v1.prompt.txt",
+  "generatedAt": "2026-10-26T10:33:41.939Z",
+  "transparent": false,
+  "requestedDimensions": [
+    2048,
+    1152
+  ],
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "purpose": "主UI参考"
+    },
+    {
+      "file": "designs/ui/mahjong-lobby-v1.png",
+      "purpose": "当前大厅"
+    },
+    {
+      "file": "designs/ui/full-suite/core/ui09-table-base.png",
+      "purpose": "对局布局参考"
+    }
+  ],
+  "receipt": {
+    "id": "table-background-v1",
+    "startedAt": "2026-10-26T10:33:14.467Z",
+    "completedAt": "2026-10-26T10:33:41.939Z",
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58 as C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-06954bc1-7471-4f55-9da5-312b7361cef8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "sourceFile": "C:\\Users\\luyua\\.codex\\generated_images\\01a177a1-8114-7032-9946-9de1acd89b58\\exec-06954bc1-7471-4f55-9da5-312b7361cef8.png"
+  }
+}

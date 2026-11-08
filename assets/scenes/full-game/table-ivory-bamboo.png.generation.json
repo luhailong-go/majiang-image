@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "file": "assets/scenes/full-game/table-ivory-bamboo.png",
+  "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+  "generatedAt": "2026-10-26T11:41:02-04:00",
+  "generationTimestampBasis": "client observed completion, not provider timestamp",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\majiang-image\\references\\style\\01-mail-event.png",
+      "D:\\work\\majiang-image\\references\\style\\team-ui-v2.png",
+      "D:\\work\\majiang-image\\assets\\ui\\gameplay\\table-background.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露可核实实际型号/质量。配置目标不等于真实返回参数。",
+  "evidence": "工具output_hint提供PNG落盘路径；尺寸/格式/哈希由文件实测。",
+  "prompt": "prompts/full-game/scenes/table-ivory-bamboo.txt",
+  "promptSha256": "c785ce4fd89a588080ccd892da268dc6436b5539c332ecbd6b7a7eff0ef14bf8",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "assets/ui/gameplay/table-background.png",
+      "sha256": "f78b9547b4be1a1d14c3a1b1ecf3e0f37b2ef91b2860e65dc8ad773391326fad",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "toolNativeOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17714-b3d7-7af3-90f2-a95cb20aeee2\\exec-468ca9ad-2e0d-4598-ae67-32e50ec3822e.png",
+    "sha256": "140094aac519f8e14b638e83717808fadc1ea2ccee7e1ec663d1e3b657f5328c",
+    "operation": "byte-identical copy"
+  },
+  "width": 1672,
+  "height": 941,
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "RGB",
+  "format": "PNG",
+  "alpha": null,
+  "resampled": false,
+  "purpose": "竹韵米白空牌桌主题",
+  "inspection": {
+    "status": "passed",
+    "reviewedAt": "2026-10-26T12:13:15-04:00",
+    "visualReview": "root actually inspected full generated output: approved jade/ivory Daoist chibi painting, no people or UI controls, open center, no tile obstruction",
+    "sizeCheck": "native 1672x941; not upscaled",
+    "notes": "No blocking issues."
+  },
+  "status": {
+    "productionAccepted": true,
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "delivery": {
+    "localOnly": true,
+    "uploaded": false
+  }
+}

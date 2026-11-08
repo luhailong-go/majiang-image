@@ -1,0 +1,67 @@
+{
+  "file": "assets/tiles/source/tile-blank-v1.png",
+  "sha256": "20ab59cf3793717c77b54fbc227c661cba9e799a2b722c759f6f783b7a291e75",
+  "generatedAt": "2026-10-26T08:10:32.354Z",
+  "observedCallStartedAt": "2026-10-26T08:07:04.238Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "png",
+  "channels": 4,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-4eb3d561-2243-41f1-98cb-af633b29dc80",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_selected_gpt_image_2_5",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-prompting"
+    },
+    "verification_note": "Official target capability verified; builtin route has no explicit model or quality selector. Record actual result metadata per image; unknown stays null."
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "toolResultImagePath": "C:/Users/luyua/.codex/generated_images/01a1773e-0bce-79e3-9860-5aa2d27a397d/exec-4eb3d561-2243-41f1-98cb-af633b29dc80.png",
+    "fieldsDisclosed": [
+      "image_url",
+      "output_hint"
+    ],
+    "parameterSchema": "prompt, referenced_image_paths, transparent_background; no model/quality selector"
+  },
+  "unverifiedReason": "Host-managed builtin generation; result did not disclose reliable model or quality metadata.",
+  "prompt": "prompts/tiles/tile-blank-v1.prompt.txt",
+  "references": [
+    {
+      "file": "references/style/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "material/style reference"
+    },
+    {
+      "file": "references/style/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "material/style reference"
+    }
+  ],
+  "role": "first native blank tile, superseded by v2 cleanup attempt",
+  "checks": {
+    "nativeAlpha": "present",
+    "rawExterior": "soft low-alpha glow remains; final exported assets condition the silhouette",
+    "status": "superseded"
+  },
+  "pixelsRetainedInProject": false,
+  "cleanup": {
+    "reason": "Superseded edit input removed after selected v2/back and all final derivatives landed; provenance hash and prompts retained",
+    "removedAt": "2026-10-26T08:24:04.7546684+00:00"
+  }
+}

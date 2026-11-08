@@ -1,0 +1,91 @@
+{
+  "file": "assets/props/full-game/items/golden-gourd.png",
+  "sha256": "d66c9c7bdfe6f1ca96c9657d1c539d1c278bdd5bfd531808b40f133ebda0e05b",
+  "createdAt": "2026-10-26T16:37:56.060Z",
+  "route": "derived",
+  "tool": "sharp deterministic crop/alpha/compose",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived resource. Source actual model/quality were not disclosed.",
+  "derivedFrom": [
+    {
+      "file": "designs/props/full-game/sources/items-b-sheet-v1.png",
+      "sha256": "f58adad626bb766b19b4dd66dd57f2e2ee6b7951474472f7efcfd2d7e7a120ee",
+      "generationRecord": "designs/props/full-game/sources/items-b-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": [
+    "actual cell crop bounds",
+    "native foreground silhouette cleanup",
+    "content bbox crop",
+    "downscale only and transparent canvas padding"
+  ],
+  "width": 512,
+  "height": 512,
+  "format": "png",
+  "mode": "RGBA",
+  "checks": {
+    "technical": "passed",
+    "visual": "passed",
+    "independentReview": "root coordinator actual five final previews; domain qa records full receipt",
+    "reviewedAt": "2026-10-26T17:10:53.295338+00:00"
+  },
+  "processing": {
+    "cellCrop": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "nativeContentBounds": [
+      1077,
+      528,
+      1476,
+      967
+    ],
+    "corePixelsBefore": 100013,
+    "removedTinyCorePixels": 0,
+    "components": [
+      {
+        "pixels": 100013,
+        "box": [
+          1077,
+          528,
+          1475,
+          966
+        ]
+      }
+    ],
+    "edgeTouch": false,
+    "nativeSheet": [
+      1536,
+      1024
+    ],
+    "nativeCroppedContent": [
+      399,
+      439
+    ],
+    "exportContent": [
+      399,
+      439
+    ],
+    "contentBounds": [
+      56,
+      36,
+      399,
+      439
+    ],
+    "canvas": [
+      512,
+      512
+    ],
+    "scale": 1,
+    "upscaled": false,
+    "alphaOperation": "Use native alpha>=128 foreground; remove disconnected <24px specks; preserve all retained painted RGB. Crop and only downscale if needed; Lanczos3 narrow antialiased contour; no generated detail claimed."
+  },
+  "semantic": {
+    "id": "item-golden-gourd",
+    "label": "葫芦",
+    "group": "item"
+  }
+}

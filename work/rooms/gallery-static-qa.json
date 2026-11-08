@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-26T06:55:31-04:00",
+  "snapshotFile": "index.html",
+  "snapshotSha256": "aa316ae4f104279be93c6cb51e4e5c2d4cb8d81b6c2b7f5be748a552b9e4060c",
+  "scope": "static_only_current_snapshot",
+  "browserTest": {
+    "status": "blocked_by_browser_url_policy",
+    "attemptedUrl": "file:///D:/work/majiang-image/index.html",
+    "reason": "Browser tool allows only http/https and explicitly disallows workarounds; no browser interaction pass claimed."
+  },
+  "inlineDataParsed": true,
+  "listedCounts": {
+    "pages": 26,
+    "components": 0,
+    "tiles": 37,
+    "characters": 5
+  },
+  "listedAssetPathsExist": true,
+  "missingPaths": [],
+  "requiredElementsPresent": true,
+  "missingElements": [],
+  "scriptSyntaxStatus": "passed_node_check",
+  "note": "根画廊仍在汇总中；本记录不作为最终完整度或浏览器视觉/交互验收。"
+}
